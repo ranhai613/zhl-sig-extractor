@@ -1,0 +1,12 @@
+"!48c707????????488b7f08e9":  // unique sig
+cleanup __amd64 void CachedPrimitive::~CachedPrimitive(CachedPrimitive * this, int __in_chrg); // 005a2ec0
+"!7f08e9????????":  // unique sig
+noHook __amd64 void CachedPrimitive::__DO_NOT_HOOK(); // 005a2ecf
+"!.53":  // non-unique sig
+cleanup __amd64 void CachedPrimitive::~CachedPrimitive(CachedPrimitive * this, int __in_chrg); // 005a2ed0
+".534889fb488b7f08":  // unique sig
+cleanup __amd64 CachedPrimitive * CachedPrimitive::operator=(CachedPrimitive * this, CachedPrimitive * rhs); // 005a2ef0
+".534889fb4883ec20488b7f":  // unique sig
+cleanup __amd64 void CachedPrimitive::OnRender(CachedPrimitive * this, GL_Color * color); // 005a2f10
+".f3c3662e0f1f8400000000000f1f40008b":  // unique sig
+cleanup __amd64 void CachedPrimitive::CreatePrimitive(CachedPrimitive * this); // 005a2f80

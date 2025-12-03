@@ -1,0 +1,22 @@
+"534889fb48c74750":  // unique sig
+cleanup __amd64 void SpaceStatus::SpaceStatus(SpaceStatus * this); // 00567080
+".554889fd5331db4883ec080f":  // unique sig
+cleanup __amd64 void SpaceStatus::~SpaceStatus(SpaceStatus * this, int __in_chrg); // 00567180
+".41564889d08d":  // unique sig
+cleanup __amd64 void SpaceStatus::OnInit(SpaceStatus * this, SpaceManager * space, Point pos); // 005671e0
+".39b790":  // unique sig
+cleanup __amd64 void SpaceStatus::SetPosition(SpaceStatus * this, Point p); // 00567ba0
+".415741564155415449bc":  // unique sig
+cleanup __amd64 void SpaceStatus::RenderWarningText(SpaceStatus * this, int effect, int textOffset); // 00567be0
+"!.4084f6488b7f":  // unique sig
+cleanup __amd64 void SpaceStatus::SetIncomingFire(SpaceStatus * this, bool val); // 00568020
+"!4000e9????????906690":  // unique sig
+noHook __amd64 void SpaceStatus::__DO_NOT_HOOK(); // 0056803f
+".55":  // non-unique sig
+cleanup __amd64 void SpaceStatus::OnLoop(SpaceStatus * this); // 00568040
+".41544189d45589f5534889fb4883ec20":  // unique sig
+cleanup __amd64 void SpaceStatus::MouseMove(SpaceStatus * this, int mX, int mY); // 005682e0
+".415455534889fb4883ec10488b7f":  // unique sig
+cleanup __amd64 void SpaceStatus::OnRender(SpaceStatus * this); // 005684f0
+".83ee0183fe":  // unique sig
+cleanup __amd64 void SpaceStatus::OnTouch(SpaceStatus * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00568650

@@ -1,0 +1,12 @@
+"534889fb4883ec1080bfc40000000074??f3":  // unique sig
+cleanup __amd64 void CrewLaser::OnUpdate(CrewLaser * this); // 00446690
+".4889f0f30f2ad6":  // unique sig
+cleanup __amd64 void CrewLaser::CrewLaser(CrewLaser * this, Point pos, Pointf destination); // 0044af40
+".89b76802000089":  // unique sig
+cleanup __amd64 void CrewLaser::SetColor(CrewLaser * this, int r, int g, int b); // 0044b040
+".415455534889fb4883ec2066":  // unique sig
+cleanup __amd64 void CrewLaser::OnRender(CrewLaser * this, GL_Color color); // 0044b060
+// Failed to generate signature for function: CrewLaser::~CrewLaser at 0044d650
+// Failed to generate signature for function: CrewLaser::~CrewLaser at 0044db60
+// Failed to generate signature for function: CrewLaser::~CrewLaser at 0044e0a0
+// Failed to generate signature for function: CrewLaser::~CrewLaser at 0044e5c0

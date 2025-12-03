@@ -1,0 +1,26 @@
+"5589f5534889fb4883ec08488bbf08":  // unique sig
+cleanup __amd64 void WeaponSystemBox::CloseTouchTooltip(WeaponSystemBox * this, bool immediate); // 005778f0
+".55400fb6ee534889fb4883ec18":  // unique sig
+cleanup __amd64 void WeaponSystemBox::RenderTouchTooltips(WeaponSystemBox * this, bool renderTray); // 005782c0
+".488b97080200004885d274??807a6400b80100000075":  // unique sig
+cleanup __amd64 bool WeaponSystemBox::IsTouchTooltipOpen(WeaponSystemBox * this); // 005785e0
+".488b970802000048":  // unique sig
+cleanup __amd64 bool WeaponSystemBox::IsTouchTooltipActive(WeaponSystemBox * this); // 00578620
+".534889fbc687b0":  // unique sig
+cleanup __amd64 void WeaponSystemBox::CloseTapBox(WeaponSystemBox * this); // 005788a0
+".554889cdb901000000534889fb4883ec08e8????????488d":  // unique sig
+cleanup __amd64 void WeaponSystemBox::WeaponSystemBox(WeaponSystemBox * this, Point loc, ShipSystem * sys, WeaponControl * weapControl); // 0057ad60
+".534889fbe8????????488bbb78":  // unique sig
+cleanup __amd64 void WeaponSystemBox::OnLoop(WeaponSystemBox * this); // 0057db50
+"!.55534889fb4883ec08488baf7803000048c707????????4885ed74??4889efe8????????4889efe8????????488dbb70020000e8????????4883":  // unique sig
+cleanup __amd64 void WeaponSystemBox::~WeaponSystemBox(WeaponSystemBox * this, int __in_chrg); // 0057f100
+"!e8????????4883c4084889df5b5de9????????662e0f1f840000000000":  // unique sig
+noHook __amd64 void WeaponSystemBox::__DO_NOT_HOOK(); // 0057f14f
+"!.55":  // non-unique sig
+cleanup __amd64 void WeaponSystemBox::~WeaponSystemBox(WeaponSystemBox * this, int __in_chrg); // 0057f150
+".415440":  // unique sig
+cleanup __amd64 void WeaponSystemBox::OnRender(WeaponSystemBox * this, bool ignoreStatus); // 0057f1a0
+".41574989ff415641554589":  // unique sig
+cleanup __amd64 void WeaponSystemBox::OnTouch(WeaponSystemBox * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0057f300
+".31c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f840000000000b8":  // unique sig
+cleanup __amd64 bool WeaponSystemBox::HasButton(WeaponSystemBox * this); // 0057fe90

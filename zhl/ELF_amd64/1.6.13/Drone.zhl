@@ -1,0 +1,74 @@
+"f3c3662e0f1f8400000000000f1f40000fb647":  // unique sig
+cleanup __amd64 void Drone::OnInit(Drone * this); // 0043b910
+"!0fb64710c3":  // unique sig
+cleanup __amd64 bool Drone::GetPowered(Drone * this); // 0043b920
+"!b64710c3662e0f1f84000000000090":  // unique sig
+noHook __amd64 void Drone::__DO_NOT_HOOK(); // 0043b92f
+".0f":  // non-unique sig
+cleanup __amd64 bool Drone::GetDeployed(Drone * this); // 0043b930
+".f3c3662e0f1f8400000000000f1f40008b4714":  // unique sig
+cleanup __amd64 void Drone::SetSlot(Drone * this, int slotId, int roomId); // 0043b940
+"8b47142b":  // unique sig
+cleanup __amd64 int Drone::GetRequiredPower(Drone * this); // 0043b950
+"!.488b7f20f3":  // unique sig
+cleanup __amd64 void Drone::RenderIcon(Drone * this); // 0043b960
+"!e0662e0f1f84000000000090":  // unique sig
+noHook __amd64 void Drone::__DO_NOT_HOOK(); // 0043b97f
+".b8":  // non-unique sig
+cleanup __amd64 bool Drone::CanBeDeployed(Drone * this); // 0043b980
+".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0083":  // unique sig
+cleanup __amd64 bool Drone::RecallOnJump(Drone * this); // 0043b990
+"31c0c3662e0f1f8400000000000f1f0083":  // unique sig
+cleanup __amd64 bool Drone::CanBeRecovered(Drone * this); // 0043b9a0
+"837f38010f9fc0c30f1f84000000000031":  // unique sig
+cleanup __amd64 bool Drone::GetStunned(Drone * this); // 0043b9b0
+".53488b5620":  // unique sig
+cleanup __amd64 string Drone::GetName(Drone * this); // 0043bf80
+".807f280075??40":  // unique sig
+cleanup __amd64 void Drone::SetDestroyed(Drone * this, bool dead, bool rebuildRequired); // 00440fd0
+"!.897738c3":  // unique sig
+cleanup __amd64 void Drone::SetHacked(Drone * this, int val); // 00440ff0
+".40887718":  // unique sig
+cleanup __amd64 void Drone::SetDeployed(Drone * this, bool newDeployed); // 00441000
+"!.488b07ba":  // unique sig
+cleanup __amd64 void Drone::BlowUp(Drone * this, bool silent); // 00441010
+"!50ffe0906666662e0f1f840000000000":  // unique sig
+noHook __amd64 void Drone::__DO_NOT_HOOK(); // 0044102f
+"!.f3":  // non-unique sig
+cleanup __amd64 void Drone::SaveState(Drone * this, int fd); // 00441030
+".534889fb89f7e8":  // unique sig
+cleanup __amd64 void Drone::LoadState(Drone * this, int fd); // 00441040
+".534889fb4883ec10488b07ff5060":  // unique sig
+cleanup __amd64 void Drone::OnLoop(Drone * this); // 00441060
+".534889fbf30f104734":  // unique sig
+cleanup __amd64 void Drone::UpdateRebuilding(Drone * this); // 00441170
+".f30f1047340f":  // unique sig
+cleanup __amd64 bool Drone::Rebuilding(Drone * this); // 004411b0
+".f30f104734":  // unique sig
+cleanup __amd64 float Drone::GetRebuildProgress(Drone * this); // 004411c0
+".48c707????????c30f1f840000000000f3c3662e0f1f8400000000000f1f400040":  // unique sig
+cleanup __amd64 void Drone::~Drone(Drone * this, int __in_chrg); // 004411d0
+"f3c3662e0f1f8400000000000f1f4000408877":  // unique sig
+cleanup __amd64 void Drone::OnDestoy(Drone * this); // 004411e0
+"40887710":  // unique sig
+cleanup __amd64 void Drone::SetPowered(Drone * this, bool powered); // 004411f0
+"!.488b07be01000000488b4028":  // unique sig
+cleanup __amd64 void Drone::SetInstantPowered(Drone * this); // 00441200
+"!01000000488b4028ffe06690":  // unique sig
+noHook __amd64 void Drone::__DO_NOT_HOOK(); // 0044120f
+".f3":  // non-unique sig
+cleanup __amd64 void Drone::SetCurrentShip(Drone * this, int iShipId); // 00441210
+".31c0c3662e0f1f8400000000000f1f000fb647":  // unique sig
+cleanup __amd64 bool Drone::NeedsRoom(Drone * this); // 00441220
+"!0fb64728c3":  // unique sig
+cleanup __amd64 bool Drone::Destroyed(Drone * this); // 00441230
+".f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000048":  // unique sig
+cleanup __amd64 void Drone::SetWorldLocation(Drone * this, Point p); // 00441240
+"b801000000c3662e0f1f84000000000048c707????????e9????????0f1f400048":  // unique sig
+cleanup __amd64 int Drone::GetDroneHealth(Drone * this); // 00441250
+"48c707????????e9????????0f1f40004883ec18baffffffff4889e789d6e8????????488b04244883c418c30f1f400048":  // unique sig
+cleanup __amd64 void Drone::~Drone(Drone * this, int __in_chrg); // 00441260
+"4883ec18baffffffff4889e789d6e8????????488b04244883c418c30f1f400048":  // unique sig
+cleanup __amd64 Point Drone::GetWorldLocation(Drone * this); // 00441270
+"4883ec18baffffffff488d":  // unique sig
+cleanup __amd64 Slot Drone::GetDroneSlot(Drone * this); // 00441290

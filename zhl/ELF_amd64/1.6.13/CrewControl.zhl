@@ -1,0 +1,52 @@
+"4154baff":  // unique sig
+cleanup __amd64 void CrewControl::CrewControl(CrewControl * this); // 0050bca0
+"!.550f57c0":  // unique sig
+cleanup __amd64 void CrewControl::StartCrewMessage(CrewControl * this, string * message); // 0050c0e0
+"!004889ee5b5de9????????":  // unique sig
+noHook __amd64 void CrewControl::__DO_NOT_HOOK(); // 0050c10f
+".41":  // non-unique sig
+cleanup __amd64 void CrewControl::ClearCrewBoxes(CrewControl * this); // 0050c110
+"!.c7879c00000000000000c3":  // unique sig
+cleanup __amd64 void CrewControl::OnInit(CrewControl * this); // 0050c180
+".488b4710482b470848":  // unique sig
+cleanup __amd64 int CrewControl::CountSelectedCrew(CrewControl * this); // 0050c190
+".41574531ff41564155415441":  // unique sig
+cleanup __amd64 bool CrewControl::IsPointInCrewBoxes(CrewControl * this, int x, int y); // 0050c1a0
+".41574589c741564189ce41554189d541544189f45553":  // unique sig
+cleanup __amd64 void CrewControl::LButton(CrewControl * this, int mX, int mY, int wX, int wY, bool shift); // 0050c240
+".41545553807f":  // unique sig
+cleanup __amd64 void CrewControl::RButton(CrewControl * this, int mX, int mY, bool shift); // 0050c430
+".554889fd534889f34883ec084c":  // unique sig
+cleanup __amd64 void CrewControl::DeselectCrew(CrewControl * this, CrewMember * crew); // 0050c510
+".415431c0554889f553488b":  // unique sig
+cleanup __amd64 void CrewControl::ClearDeadCrew(CrewControl * this, vector<CrewMember*,_std::allocator<CrewMember*>_> * crew); // 0050c620
+".488b7708488b4f1031d231c04829f148c1f9034885c974??0f1f84":  // unique sig
+cleanup __amd64 void CrewControl::ClearSelectedCrew(CrewControl * this); // 0050c6e0
+".534889fbe8????????f2":  // unique sig
+cleanup __amd64 float CrewControl::SelectingCrewTime(CrewControl * this); // 0050c760
+".41544989fc5553488b47":  // unique sig
+cleanup __amd64 void CrewControl::Restart(CrewControl * this); // 0050c780
+".415731d24156415541545553":  // unique sig
+cleanup __amd64 void CrewControl::UpdateCrewBoxes(CrewControl * this); // 0050c830
+".53488937":  // unique sig
+cleanup __amd64 void CrewControl::LinkShip(CrewControl * this, ShipManager * ship); // 0050ca20
+".415455488dafc8":  // unique sig
+cleanup __amd64 void CrewControl::OnLoop(CrewControl * this); // 0050ca40
+".41544084f655":  // unique sig
+cleanup __amd64 void CrewControl::SelectCrew(CrewControl * this, bool keep_current); // 0050cdf0
+".55534889fb4889f74883ec18":  // unique sig
+cleanup __amd64 void CrewControl::SelectPotentialCrew(CrewControl * this, CrewMember * crew, bool allowTeleportLeaving); // 0050cec0
+".41574989ff41564155415445":  // unique sig
+cleanup __amd64 void CrewControl::OnTouch(CrewControl * this, TouchAction action, int id, int x, int y, int wX, int wY, int initialX, int initialY, bool allowCrewSelection); // 0050cf90
+".4157415641554989fd415455534881ecc8":  // unique sig
+cleanup __amd64 void CrewControl::KeyDown(CrewControl * this, SDLKey sym); // 0050d6e0
+".4154555380bf98":  // unique sig
+cleanup __amd64 void CrewControl::LButtonUp(CrewControl * this, int mX, int mY, bool shift); // 0050e0e0
+".41544989fc55534883ec10488b4f68":  // unique sig
+cleanup __amd64 void CrewControl::~CrewControl(CrewControl * this, int __in_chrg); // 0050e260
+".415741564c8db7f0":  // unique sig
+cleanup __amd64 void CrewControl::OnRender(CrewControl * this); // 0050e390
+".41574989ff415641554589c5":  // unique sig
+cleanup __amd64 void CrewControl::MouseMove(CrewControl * this, int mX, int mY, int wX, int wY); // 0050e920
+".41574589c741564189ce41554189":  // unique sig
+cleanup __amd64 bool CrewControl::OnTouchButtons(CrewControl * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0050fac0

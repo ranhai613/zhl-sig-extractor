@@ -1,0 +1,64 @@
+"660f6f05????????53":  // unique sig
+cleanup __amd64 void SystemControl::SystemControl(SystemControl * this); // 00580510
+".534889fb488b7f58":  // unique sig
+cleanup __amd64 void SystemControl::~SystemControl(SystemControl * this, int __in_chrg); // 00580690
+"!.b848010000c3":  // unique sig
+cleanup __amd64 int SystemControl::GetHeight(SystemControl * this); // 00580740
+"!48010000c3662e0f1f840000000000":  // unique sig
+noHook __amd64 void SystemControl::__DO_NOT_HOOK(); // 0058074f
+".41":  // non-unique sig
+cleanup __amd64 void SystemControl::MouseMove(SystemControl * this, int mX, int mY); // 00580750
+".5531c94889fd5331db4883ec08488b5710488b47184829d048c1f8034885c074??0f1f8000000000488b3cca31f683c301488b17ff5258":  // unique sig
+cleanup __amd64 void SystemControl::RButton(SystemControl * this, int mX, int mY, bool shift); // 005808a0
+".5531c94889fd5331db4883ec08488b5710488b47184829d048c1f8034885c074??0f1f8000000000488b3cca31":  // unique sig
+cleanup __amd64 void SystemControl::LButton(SystemControl * this, int mX, int mY); // 00580900
+".4157415641554589cd":  // unique sig
+cleanup __amd64 void SystemControl::OnTouch(SystemControl * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00580960
+".415531d24989fd41545589f55331db4883ec08488b4f10488b47184829c848c1f8034885c075??eb??0f1f8000000000498b4d10498b451883c30189da4829c848c1f8034839c273??488b04d14c8d24d500000000488bb890000000488b17ff92a000000039e875??498b45104a8b042048":  // unique sig
+cleanup __amd64 SystemBox * SystemControl::GetSystemBox(SystemControl * this, int systemId); // 00580ad0
+".415531d24989fd41545589f55331db4883ec18":  // unique sig
+cleanup __amd64 Pointf SystemControl::GetSystemPoint(SystemControl * this, int systemId); // 00580b60
+".4883ec18488b3fe8":  // unique sig
+cleanup __amd64 Pointf SystemControl::GetReactorPoint(SystemControl * this); // 00580c20
+".415531d24989fd41545589f55331db4883ec08488b4f10":  // unique sig
+cleanup __amd64 bool SystemControl::IsSystemTapped(SystemControl * this, int systemId); // 00580c60
+".4c8b4710488b77":  // unique sig
+cleanup __amd64 bool SystemControl::IsAnySystemTapped(SystemControl * this); // 00580d00
+".554889fd534883ec184c8b4f":  // unique sig
+cleanup __amd64 bool SystemControl::IsPointInTappedSystem(SystemControl * this, Point p); // 00580d60
+".5531c94889fd5331db4883ec08488b5710488b47184829d048c1f8034885c075":  // unique sig
+cleanup __amd64 bool SystemControl::IsAnyTouchTooltipOpen(SystemControl * this); // 00580e00
+".41564989fe415544":  // unique sig
+cleanup __amd64 void SystemControl::OpenSystem(SystemControl * this, int systemId, bool lock); // 00580e70
+".5531c94889fd5331db4883ec08488b57":  // unique sig
+cleanup __amd64 void SystemControl::CloseAll(SystemControl * this); // 00580f00
+".415741564989fe4155415455534881ec58":  // unique sig
+cleanup __amd64 void SystemControl::OnKeyDown(SystemControl * this, SDLKey key_sym, bool shiftHeld); // 00580f60
+".554889fd534883ec08488b77":  // unique sig
+cleanup __amd64 void SystemControl::OnCleanup(SystemControl * this); // 00581c00
+".41574189f241":  // unique sig
+static cleanup __amd64 PowerBars * SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 00581c60
+".41574889d048c1f82041564155415441":  // unique sig
+cleanup __amd64 int SystemControl::RenderBars(SystemControl * this, Point position, pair<int,_int> power, bool ignoreStatus, bool flash); // 00582390
+".415741564989fe4155415455534883ec2848":  // unique sig
+cleanup __amd64 void SystemControl::RenderPowerBar(SystemControl * this); // 00582c80
+".41544989fc5589f5":  // unique sig
+cleanup __amd64 void SystemControl::OnRender(SystemControl * this, bool front); // 005831d0
+".415731d231":  // unique sig
+cleanup __amd64 void SystemControl::CreateSystemBoxes(SystemControl * this); // 00583440
+".55be????????534889":  // unique sig
+cleanup __amd64 void SystemControl::UpdateSubSystemBox(SystemControl * this); // 00583fb0
+".48833f0074??e9????????0f1f440000f3c366666666662e0f1f84000000000055":  // unique sig
+cleanup __amd64 void SystemControl::UpdateSubSystemBox(SystemControl * this); // 005845e0
+"55534889fb4883ec58488977":  // unique sig
+cleanup __amd64 void SystemControl::OnInit(SystemControl * this, Point position); // 00584600
+".48833f0074??e9":  // unique sig
+cleanup __amd64 void SystemControl::OnLanguageChange(SystemControl * this); // 00584e50
+".4885f6488937":  // unique sig
+cleanup __amd64 void SystemControl::LinkShip(SystemControl * this, ShipManager * ship); // 00584e70
+"!.48897708e9":  // unique sig
+cleanup __amd64 void SystemControl::LinkCombat(SystemControl * this, CombatControl * combat); // 00584e90
+".554889fd534883ec28488b07":  // unique sig
+cleanup __amd64 void SystemControl::OnLoop(SystemControl * this); // 00584ea0
+".e9????????662e0f1f84000000000090554889fd534883ec08":  // unique sig
+cleanup __amd64 void SystemControl::Restart(SystemControl * this); // 00584fc0

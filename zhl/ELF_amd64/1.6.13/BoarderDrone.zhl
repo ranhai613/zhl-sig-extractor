@@ -1,0 +1,19 @@
+"8b470885c075??f3":  // unique sig
+cleanup __amd64 void BoarderDrone::Jump(BoarderDrone * this); // 00435380
+".b801000000c3662e0f1f840000000000b896000000c3662e0f1f840000000000b8":  // unique sig
+cleanup __amd64 bool BoarderDrone::CanFight(BoarderDrone * this); // 0043bd80
+"b896000000c3662e0f1f840000000000b8":  // unique sig
+cleanup __amd64 int BoarderDrone::GetMaxHealth(BoarderDrone * this); // 0043bd90
+"b801000000c3662e0f1f840000000000f30f1005":  // unique sig
+cleanup __amd64 bool BoarderDrone::CanSabotage(BoarderDrone * this); // 0043bda0
+"f30f1005????????c30f1f800000000031c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031":  // unique sig
+cleanup __amd64 float BoarderDrone::GetDamageMultiplier(BoarderDrone * this); // 0043bdb0
+".e9????????662e0f1f84000000000090f30f":  // unique sig
+cleanup __amd64 bool BoarderDrone::ReadyToFight(BoarderDrone * this); // 0043be60
+"!.??0f1f4000":  // non-unique sig
+noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 0043c3ef
+".41":  // non-unique sig
+cleanup __amd64 void BoarderDrone::~BoarderDrone(BoarderDrone * this, int __in_chrg); // 0043c3f0
+// Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043c810
+// Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043d080
+// Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043d4a0

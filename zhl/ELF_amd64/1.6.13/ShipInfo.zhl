@@ -1,0 +1,22 @@
+"8b4760c366":  // unique sig
+cleanup __amd64 int ShipInfo::GetAugmentationCount(ShipInfo * this); // 004d64a0
+".53488b77104889fbe8":  // unique sig
+cleanup __amd64 void ShipInfo::Clear(ShipInfo * this); // 004d64e0
+".41564c8d76":  // unique sig
+cleanup __amd64 vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * ShipInfo::GetAugmentationList(ShipInfo * this); // 004d65c0
+".4157488d4738":  // unique sig
+cleanup __amd64 void ShipInfo::SetEquipmentLevel(ShipInfo * this, string * blueName, int level); // 004d6740
+".4157488d47304989f741564155415449":  // unique sig
+cleanup __amd64 int ShipInfo::HasEquipment(ShipInfo * this, string * blueName); // 004d6980
+".4157488d47084989f7":  // unique sig
+cleanup __amd64 int ShipInfo::HasAugmentation(ShipInfo * this, string * augId); // 004d6be0
+".4157415641554989fd415455534883ec48488d7c24304889742410e8????????498d4508488d7424304c89ef4889c34889442408e8????????4839c30f84????????498b5d104885db0f84????????488b6c24304c8b6424084c8b7de8eb??9089c885c078??4989dc488b5b104885db74??488b7b204889ee4c8b77e84d39f74c89f2490f46d7e8????????85c075??4c89f14c29f94881f9ffffff7f7f??4881f9000000807d??488b5b184885db75??4c3964240874??498b7424204889ef488b5ee84939df4889da490f46d7e8????????85c00f85????????4d89f84929d84981f8ffffff7f0f8f????????4981f8000000800f8d????????bf300000004c89e5bb20000000e8????????4885c04989c474??498d5c2420488d74243041c704240000000049c74424080000000049c74424100000000049c7442418000000004889dfe8????????41c7442428000000004889da4889ee4c89efe8????????4885d24889d30f84????????4885c0bf010000000f84????????488b4c24084889da4c89e6e8????????4983452801488b6c2430eb??660f1f8400000000004489c085c00f88????????418b5c2428488d7de84881ff????????0f85????????85db0f":  // unique sig
+cleanup __amd64 float ShipInfo::GetAugmentationValue(ShipInfo * this, string * augId); // 004d78a0
+".4157488d4730":  // unique sig
+cleanup __amd64 void ShipInfo::AddEquipment(ShipInfo * this, string * blueName); // 004d7e30
+".41574156415541544989fc55534883ec58488d":  // unique sig
+cleanup __amd64 void ShipInfo::RemoveEquipment(ShipInfo * this, string * blueName, bool completely); // 004d8f40
+".4157415641554989fd415455534883ec48488d":  // unique sig
+cleanup __amd64 void ShipInfo::RemoveAugmentation(ShipInfo * this, string * augId); // 004d95f0
+".415731c041564155415455534889fb4883ec48":  // unique sig
+cleanup __amd64 bool ShipInfo::AddAugmentation(ShipInfo * this, string * augId); // 004da090

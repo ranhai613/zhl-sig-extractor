@@ -1,0 +1,26 @@
+"b801000000c3662e0f1f840000000000534889fb4883":  // unique sig
+cleanup __amd64 bool InputBox::KeyUp(InputBox * this, SDLKey sym); // 0052f260
+"534889fb4883ec20807f08000f":  // unique sig
+cleanup __amd64 void InputBox::OnRender(InputBox * this); // 0052f270
+".81fe11":  // unique sig
+cleanup __amd64 bool InputBox::KeyDown(InputBox * this, SDLKey sym); // 0052f320
+"!.55534889fbbf28":  // unique sig
+cleanup __amd64 void InputBox::OnInit(InputBox * this); // 0052f370
+"!0f000000be????????e9????????660f1f440000":  // unique sig
+noHook __amd64 void InputBox::__DO_NOT_HOOK(); // 0052f3bf
+".53":  // non-unique sig
+cleanup __amd64 string InputBox::GetInput(InputBox * this); // 0052f3c0
+".415683fe7f":  // unique sig
+cleanup __amd64 void InputBox::TextInput(InputBox * this, int ch); // 0052f420
+"!.c6470800e9":  // unique sig
+cleanup __amd64 void InputBox::StopInput(InputBox * this); // 0052f7c0
+"!0800e9????????90660f1f440000":  // unique sig
+noHook __amd64 void InputBox::__DO_NOT_HOOK(); // 0052f7cf
+".41":  // non-unique sig
+cleanup __amd64 void InputBox::TextEvent(InputBox * this, TextEvent event); // 0052f7d0
+".534889fb488d7f3831":  // unique sig
+cleanup __amd64 void InputBox::StartInput(InputBox * this); // 0052f9a0
+".41544989fc55534883ec10488b5f2048c707????????4885db74??4889dfe8????????4889dfe8????????498b6c2448498b5c244049c7442420000000004839dd74??b8????????4885c00f84????????0f1f8000000000488b03488d78e84881ff????????75??4883c3084839dd75??498b7c24404885ff74??e8????????498b442438488d78e84881ff????????75??498b442428488d78e84881ff????????75??49c70424????????48":  // unique sig
+cleanup __amd64 void InputBox::~InputBox(InputBox * this, int __in_chrg); // 0052fac0
+".41544989fc55534883ec10488b5f20":  // unique sig
+cleanup __amd64 void InputBox::~InputBox(InputBox * this, int __in_chrg); // 0052fc40

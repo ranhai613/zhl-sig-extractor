@@ -1,0 +1,10 @@
+"554889fd534883ec08488b7f40":  // unique sig
+cleanup __amd64 void DamageMessage::~DamageMessage(DamageMessage * this, int __in_chrg); // 005aef50
+".55534889fb4883ec28807f":  // unique sig
+cleanup __amd64 void DamageMessage::OnRender(DamageMessage * this); // 005aefc0
+".534889fbe8????????80":  // unique sig
+cleanup __amd64 void DamageMessage::OnLoop(DamageMessage * this); // 005af0a0
+".534889fb4883ec5085":  // unique sig
+cleanup __amd64 void DamageMessage::DamageMessage(DamageMessage * this, float length, Pointf position, MessageType type); // 005af0d0
+".415741564155415455534889fb4881ec38":  // unique sig
+cleanup __amd64 void DamageMessage::DamageMessage(DamageMessage * this, float length, int damage, Pointf position, bool symbol); // 005af2d0

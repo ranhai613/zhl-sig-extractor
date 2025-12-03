@@ -1,0 +1,38 @@
+"393774??c6":  // unique sig
+cleanup __amd64 void MouseControl::SetPosition(MouseControl * this, int mX, int mY); // 0053bf60
+".5380bf0c":  // unique sig
+cleanup __amd64 void MouseControl::OnLoop(MouseControl * this); // 0053bf80
+".c6872001000001":  // unique sig
+cleanup __amd64 void MouseControl::InstantTooltip(MouseControl * this); // 0053c010
+".4088b70d":  // unique sig
+cleanup __amd64 void MouseControl::SetHideMouse(MouseControl * this, bool hide); // 0053c020
+".c7471000000000c7471400000000c7471800000000c787":  // unique sig
+cleanup __amd64 void MouseControl::ResetArmed(MouseControl * this); // 0053c030
+".55be????????31":  // unique sig
+cleanup __amd64 int MouseControl::GetTooltipFont(MouseControl * this); // 0053c060
+".41550f57":  // unique sig
+cleanup __amd64 Point MouseControl::MeasureTooltip(MouseControl * this, int width); // 0053c100
+".4889b74001":  // unique sig
+cleanup __amd64 void MouseControl::QueueStaticTooltip(MouseControl * this, Point tooltipPoint); // 0053c2c0
+".41574989f749":  // unique sig
+cleanup __amd64 void MouseControl::RenderTooltip(MouseControl * this, Point tooltipPoint, bool staticPos); // 0053c2d0
+".41574989ff41564155415455534881ecc801000080":  // unique sig
+cleanup __amd64 void MouseControl::OnRender(MouseControl * this); // 0053c690
+".534889fb488dbf0001000031":  // unique sig
+cleanup __amd64 void MouseControl::Reset(MouseControl * this); // 0053d2a0
+".415541544989fc55534889f34883ec38488b06":  // unique sig
+cleanup __amd64 void MouseControl::LoadTooltip(MouseControl * this, string * tooltipName); // 0053d350
+".41544989f4554889fd53488b06":  // unique sig
+cleanup __amd64 void MouseControl::SetTooltip(MouseControl * this, string * tooltip); // 0053d4f0
+".488b87280100004883":  // unique sig
+cleanup __amd64 void MouseControl::SetTooltipTitle(MouseControl * this, string * tooltip); // 0053d580
+".554889fd5389f34883ec0883":  // unique sig
+cleanup __amd64 void MouseControl::SetDoor(MouseControl * this, int door); // 0053d5a0
+".4157415641554154554889fd31":  // unique sig
+cleanup __amd64 void MouseControl::OnInit(MouseControl * this); // 0053d600
+".84d2408877":  // unique sig
+cleanup __amd64 void MouseControl::SetValid(MouseControl * this, bool valid, bool newValid); // 0053ddf0
+".c6471d":  // unique sig
+cleanup __amd64 void MouseControl::SetSilentValid(MouseControl * this); // 0053de00
+".415641554989fd415455534883ec10488b":  // unique sig
+cleanup __amd64 void MouseControl::~MouseControl(MouseControl * this, int __in_chrg); // 0053de10

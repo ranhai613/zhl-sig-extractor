@@ -1,0 +1,62 @@
+"41544989fc5531ed5331dbe8":  // unique sig
+cleanup __amd64 void Equipment::Open(Equipment * this); // 0051bc90
+".e9????????90662e0f1f840000000000534889fbe8????????4863":  // unique sig
+cleanup __amd64 void Equipment::Close(Equipment * this); // 0051bd30
+"534889fbe8????????4863":  // unique sig
+cleanup __amd64 void Equipment::MouseClick(Equipment * this, int mX, int mY); // 0051bd40
+".41574156415541544989fc55534883ec68":  // unique sig
+cleanup __amd64 void Equipment::SetPosition(Equipment * this, Point p); // 0051bd90
+".41554531ed41545531":  // unique sig
+cleanup __amd64 void Equipment::OnLoop(Equipment * this); // 0051c260
+".534889fb4883ec7080bf24":  // unique sig
+cleanup __amd64 void Equipment::MouseUp(Equipment * this, int mX, int mY); // 0051c5a0
+".41564155415455534889fb4883ec60":  // unique sig
+cleanup __amd64 void Equipment::OnRender(Equipment * this); // 0051c830
+".4157415641554589c5415449":  // unique sig
+cleanup __amd64 void Equipment::OnTouch(Equipment * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0051d410
+".534889fb4883ec10e8????????488d7b":  // unique sig
+cleanup __amd64 void Equipment::Equipment(Equipment * this); // 0051eb30
+".534889fb488bbf08":  // unique sig
+cleanup __amd64 void Equipment::Jump(Equipment * this); // 0051ede0
+".415541544989fc5531ed5331db4883ec08488b97d8010000488b87e00100004829d048c1f8034885c075??eb??0f1f00498b9424d8010000498b8424e001000083c50189eb4829d048c1f8034839c373??488b3cda4c8d2cdd00000000e8????????84c074??498b8424d8010000488b3cd8488b07ff5068":  // unique sig
+cleanup __amd64 bool Equipment::CanHoldWeapon(Equipment * this); // 0051ee10
+".415531d24189":  // unique sig
+cleanup __amd64 bool Equipment::IsCompletelyFull(Equipment * this, int type); // 0051eec0
+".415541544989fc5531ed5331db4883ec08488b97d8":  // unique sig
+cleanup __amd64 bool Equipment::CanHoldDrone(Equipment * this); // 0051f000
+".41554154554889f5534889fb4883ec4884":  // unique sig
+cleanup __amd64 void Equipment::AddDrone(Equipment * this, DroneBlueprint * droneBlueprint, bool free, bool forceCargo); // 0051f0b0
+".415541545589f5be":  // unique sig
+cleanup __amd64 bool Equipment::ValidBox(Equipment * this, int boxNum); // 0051f310
+".41544531e45531ed53488b":  // unique sig
+cleanup __amd64 void Equipment::CheckContents(Equipment * this); // 0051f3f0
+".4154554889f5488d7608534889fb4883":  // unique sig
+cleanup __amd64 void Equipment::AddAugment(Equipment * this, AugmentBlueprint * augBlueprint, bool free, bool forceCargo); // 0051f490
+".f3c366666666662e0f1f84000000000055534889fb4883ec08":  // unique sig
+cleanup __amd64 void Equipment::UpdateInventory(Equipment * this); // 0051f620
+"55534889fb4883ec08488bb7f8":  // unique sig
+cleanup __amd64 void Equipment::OnCleanup(Equipment * this); // 0051f630
+".5531c94889fd5331db4883ec08488b97d8":  // unique sig
+cleanup __amd64 void Equipment::Restart(Equipment * this); // 0051f710
+".80bf240200000075":  // unique sig
+cleanup __amd64 bool Equipment::DraggingCargoBox(Equipment * this); // 0051f770
+".31c080bf240200000074??4863971c020000488b87d8010000488b04d048837870":  // unique sig
+cleanup __amd64 bool Equipment::DraggingWeapon(Equipment * this); // 0051f7a0
+".31c080bf240200000074??486397":  // unique sig
+cleanup __amd64 bool Equipment::DraggingDrone(Equipment * this); // 0051f7d0
+".31c080bf24":  // unique sig
+cleanup __amd64 bool Equipment::DraggingAugment(Equipment * this); // 0051f800
+".41574189d741564989fe415541":  // unique sig
+cleanup __amd64 void Equipment::MouseMove(Equipment * this, int mX, int mY); // 0051f840
+".41554989fd41544989f455534883ec08":  // unique sig
+cleanup __amd64 vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * Equipment::GetCargoHold(Equipment * this); // 0051fc30
+".415641554989f541545589":  // unique sig
+cleanup __amd64 void Equipment::AddWeapon(Equipment * this, WeaponBlueprint * weaponBlueprint, bool free, bool forceCargo); // 0051fdd0
+".554889fd534889f34883ec38488d":  // unique sig
+cleanup __amd64 void Equipment::AddToCargo(Equipment * this, string * equip); // 005200d0
+".4157415641554154554889f5534889fb4881":  // unique sig
+cleanup __amd64 void Equipment::OnInit(Equipment * this, ShipManager * ship); // 005202c0
+".534889fb4883ec10488b872003000048c707????????488d78e84881ff????????0f85????????488dbb48020000e8????????488bbbf00100004885ff74??e8????????488bbbd80100004885ff74??e8????????488b83b0010000488d78e84881ff????????0f85????????488b83a0010000488d78e84881ff????????0f85????????488b8390010000488d78e84881ff????????0f85????????488b8378010000488d78e84881ff????????0f85????????488b8368010000488d78e84881ff????????0f85????????488b8328010000488d78e84881ff????????0f85????????488b8318010000488d78e84881ff????????0f85????????488b8308010000488d78e84881ff????????0f85????????488b83f0000000488d78e84881ff????????0f85????????488b83e0000000488d78e84881ff????????0f85????????488b83a0000000488d78e84881ff????????0f85????????488b8390000000488d78e84881ff????????0f85????????488b8380000000488d78e84881ff????????0f85????????488b4368488d78e84881ff????????75??488b4358488d78e84881ff????????75??48c703????????4883":  // unique sig
+cleanup __amd64 void Equipment::~Equipment(Equipment * this, int __in_chrg); // 00521050
+".534889fb4883ec10488b8720":  // unique sig
+cleanup __amd64 void Equipment::~Equipment(Equipment * this, int __in_chrg); // 00521600

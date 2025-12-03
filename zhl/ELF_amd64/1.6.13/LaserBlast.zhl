@@ -1,0 +1,20 @@
+"534889fb4883ec1039777c74??4883c4105bc30f1f440000e8????????80":  // unique sig
+cleanup __amd64 void LaserBlast::OnRenderSpecific(LaserBlast * this, int spaceId); // 00445fd0
+".534889fb4883ec1080bfc40000000074??48":  // unique sig
+cleanup __amd64 void LaserBlast::OnUpdate(LaserBlast * this); // 00446380
+".0f2e05????????76??803d????????0053":  // unique sig
+cleanup __amd64 void LaserBlast::SetSpin(LaserBlast * this, float spin); // 00446400
+".554889fd5389f34883ec08e8????????f30f108570":  // unique sig
+cleanup __amd64 void LaserBlast::SaveProjectile(LaserBlast * this, int fd); // 00446cd0
+".415455534889fb4883ec30488bbf68":  // unique sig
+cleanup __amd64 void LaserBlast::ComputeHeading(LaserBlast * this); // 00447480
+".5589f5534889fb4883ec08e8????????89efe8????????f30f118370":  // unique sig
+cleanup __amd64 void LaserBlast::LoadProjectile(LaserBlast * this, int fd); // 004484c0
+".538b477c":  // unique sig
+cleanup __amd64 void LaserBlast::OnInit(LaserBlast * this); // 0044c080
+".b801000000c3662e0f1f840000000000b806000000c3662e0f1f840000000000f3":  // unique sig
+cleanup __amd64 int LaserBlast::GetType(LaserBlast * this); // 0044c160
+// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044c6e0
+// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044cbf0
+// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044e5d0
+// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044eaf0

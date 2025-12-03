@@ -1,0 +1,22 @@
+"488bbff8020000e9":  // unique sig
+cleanup __amd64 int CloakingBox::GetCooldownLevel(CloakingBox * this); // 00577940
+".4154400fb6f655534889fbe8":  // unique sig
+cleanup __amd64 void CloakingBox::OnRender(CloakingBox * this, bool ignoreStatus); // 00578460
+".534889fb488bbff8":  // unique sig
+cleanup __amd64 float CloakingBox::GetCooldownFraction(CloakingBox * this); // 00578680
+".554889fd534883ec0848c707????????488bb5e0020000488bbfd80200004889f04829f848c1f8034885c074??31c9":  // unique sig
+cleanup __amd64 void CloakingBox::~CloakingBox(CloakingBox * this, int __in_chrg); // 00578af0
+".554889fd534883ec0848c707":  // unique sig
+cleanup __amd64 void CloakingBox::~CloakingBox(CloakingBox * this, int __in_chrg); // 00578ba0
+".41544189f45531ed534889":  // unique sig
+cleanup __amd64 bool CloakingBox::MouseClick(CloakingBox * this, bool force); // 00578ed0
+".41574589cf415641554589c541544189cc5589d5534889fb4883":  // unique sig
+cleanup __amd64 void CloakingBox::OnTouch(CloakingBox * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0057a360
+".415541544189d45589f5534889fb4883ec28":  // unique sig
+cleanup __amd64 void CloakingBox::KeyDown(CloakingBox * this, SDLKey key_sym, bool shift); // 0057b910
+".41544189d45589f5534889fb4883ec50e8????????488bbb90000000e8????????84c074??4883c4505b5d415cc36690488bbbf0":  // unique sig
+cleanup __amd64 void CloakingBox::MouseMove(CloakingBox * this, int mX, int mY); // 0057d870
+".415431c9554889d5":  // unique sig
+cleanup __amd64 void CloakingBox::CloakingBox(CloakingBox * this, Point loc, CloakingSystem * sys); // 0057ed20
+".b801000000c3662e0f1f84000000000048c7":  // unique sig
+cleanup __amd64 bool CloakingBox::HasButton(CloakingBox * this); // 0057fec0
