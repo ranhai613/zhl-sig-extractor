@@ -18,7 +18,26 @@ def preprocess(content: str) -> str:
                      .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string")
     return content
 
-def process_template(content: str) -> str:    
+def process_template(content: str) -> str:
+    def split_args(content: str) -> list:
+        args = []
+        current_arg = ""
+        bracket_level = 0
+        for ch in content:
+            if ch == '<':
+                bracket_level += 1
+            elif ch == '>':
+                bracket_level -= 1
+            
+            if ch == ',' and bracket_level == 0:
+                args.append(current_arg.strip())
+                current_arg = ""
+            else:
+                current_arg += ch
+        if current_arg:
+            args.append(current_arg.strip())
+        return args
+
     def process_type(content: str) -> str:
         print("Processing:", content)
         
@@ -31,20 +50,15 @@ def process_template(content: str) -> str:
             outer_type = template_match.group(1)
             inner_type = template_match.group(2)
             
-            # Process the inner type recursively
-            template_rematch = re.match(TEMPLATE_PATTERN, inner_type)
-            if template_rematch:
-                processed_inner_type = process_type(inner_type)
-            else:
-                types = inner_type.split(",")
-                if outer_type.replace("std::", "") in C_CONTAINER_TYPES_ONE:
-                    types = types[:1] # Only take the first type for single-type containers
-                elif outer_type.replace("std::", "") in C_CONTAINER_TYPES_TWO:
-                    types = types[:2] # Only take the first two types for map types because the latter ones are a hash function or equal function, which we don't need
-                    for i in range(1, len(types)):
-                        if types[i].startswith("_"):
-                            types[i] = types[i][1:] # Remove leading underscore for the second type if exists
-                processed_inner_type = ", ".join([process_type(inner) for inner in types])
+            types = split_args(inner_type)
+            if outer_type.replace("std::", "") in C_CONTAINER_TYPES_ONE:
+                types = types[:1] # Only take the first type for single-type containers
+            elif outer_type.replace("std::", "") in C_CONTAINER_TYPES_TWO:
+                types = types[:2] # Only take the first two types for map types because the latter ones are a hash function or equal function, which we don't need
+                for i in range(1, len(types)):
+                    if types[i].startswith("_"):
+                        types[i] = types[i][1:] # Remove leading underscore for the second type if exists
+            processed_inner_type = ", ".join([process_type(inner) for inner in types])
             # Process the outer type and combine
             return f"{process_type(outer_type)}<{processed_inner_type}>"
         return remove_const(content)

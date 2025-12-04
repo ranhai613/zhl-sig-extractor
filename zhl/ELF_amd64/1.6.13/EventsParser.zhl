@@ -11,7 +11,7 @@ cleanup __amd64 ResourcesTemplate *EventsParser::ProcessModifyItem(EventsParser 
 ".41554154554889fd534883ec2848c7":  // unique sig
 cleanup __amd64 std::vector<std::string> *EventsParser::ProcessImageList(EventsParser *this, xml_node<char> *node); // 005ff3d0
 ".41554154554889fd534883ec6848c7":  // unique sig
-cleanup __amd64 std::vector<std::pair<std::string, RandomAmount>>> *EventsParser::ProcessEventCounts(EventsParser *this, xml_node<char> *node); // 005ff570
+cleanup __amd64 std::vector<std::pair<std::string, RandomAmount>> *EventsParser::ProcessEventCounts(EventsParser *this, xml_node<char> *node); // 005ff570
 ".41574989ffba07":  // unique sig
 static cleanup __amd64 bool EventsParser::DoesEventExist(EventGenerator *generator, string *event); // 005ff760
 ".415741564155415455534889fb4881ec980000004c":  // unique sig
