@@ -1,5 +1,5 @@
 # @category Ghidra
-from ghidra.program.model.symbol import SourceType
+from ghidra.program.model.listing import CodeUnit
 from ghidra.program.model.mem import MemoryAccessException
 from ghidra.program.model.address import Address
 from ghidra.program.model.lang import OperandType
@@ -394,6 +394,16 @@ for func in functions_unsorted:
     
     # if class_name != "Asteroid":
     #     continue
+    
+    # Exclude thunks
+    # 1. Check if function is a pure thunk
+    if func.isThunk():
+        continue
+    # 2. Check for "thunk" in the plate comment (common for adjustor thunks)
+    cu = currentProgram.getListing().getCodeUnitAt(func.getEntryPoint())
+    plate_comment = cu.getComment(CodeUnit.PLATE_COMMENT) if cu else None
+    if plate_comment and "thunk" in plate_comment.lower():
+        continue
     
     class_map[class_name].append(FunctionInfo(func, class_name))
 
