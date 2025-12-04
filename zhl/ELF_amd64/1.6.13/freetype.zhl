@@ -5,7 +5,7 @@ static cleanup __amd64 void freetype::ageCache(); // 005b24c0
 ".55534883ec18488b1d":  // unique sig
 static cleanup __amd64 void freetype::clearCache(); // 005b2660
 ".41574989f741564155415449":  // unique sig
-static cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *freetype::formatLines(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, font_data *font, char *string, float maxWidth, font_data *font_1); // 005b2870
+static cleanup __amd64 std::vector<std::string> *freetype::formatLines(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, font_data *font, char *string, float maxWidth, font_data *font_1); // 005b2870
 ".f30f2ac641":  // unique sig
 static cleanup __amd64 Pointf freetype::measurePrintLines(font_data *font, int maxWidth, string *text); // 005b3950
 ".554889d089fd5389f34883ec38488b30488d54241e488d7c2420e8":  // unique sig

@@ -77,4 +77,4 @@ cleanup __amd64 void Room::TriggerSparks(Room *this, bool firstTrigger); // 004a
 ".41574156415541545553488d9f":  // unique sig
 cleanup __amd64 void Room::OnLoop(Room *this); // 004a08d0
 ".41574156415541544989fc55534889f34883ec28":  // unique sig
-cleanup __amd64 vector<GL_Line,_std::allocator<GL_Line>_> *Room::GetGridLines(Room *this); // 004a11f0
+cleanup __amd64 std::vector<GL_Line> *Room::GetGridLines(Room *this); // 004a11f0

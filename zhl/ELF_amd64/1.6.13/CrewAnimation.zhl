@@ -56,7 +56,7 @@ cleanup __amd64 void CrewAnimation::SetupStrips(CrewAnimation *this); // 0048951
 ".4088b7ec090000e9":  // unique sig
 cleanup __amd64 void CrewAnimation::SetMale(CrewAnimation *this, bool male); // 00489ec0
 ".534889fb488dbff009":  // unique sig
-cleanup __amd64 void CrewAnimation::SetLayers(CrewAnimation *this, vector<GL_Color,_std::allocator<GL_Color>_> *layers); // 00489f00
+cleanup __amd64 void CrewAnimation::SetLayers(CrewAnimation *this, std::vector<GL_Color> *layers); // 00489f00
 ".415783f2":  // unique sig
 cleanup __amd64 void CrewAnimation::OnInit(CrewAnimation *this, string *name, Pointf position, bool enemy); // 0048a170
 ".415741564155415455534881ec98":  // unique sig

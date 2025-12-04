@@ -53,7 +53,7 @@ noHook __amd64 void MindSystem::__DO_NOT_HOOK(); // 0064325f
 ".40":  // non-unique sig
 cleanup __amd64 void MindSystem::SetCanUse(MindSystem *this, bool val); // 00643260
 ".4157488d8780":  // unique sig
-cleanup __amd64 void MindSystem::QueueMindControl(MindSystem *this, vector<CrewMember*,_std::allocator<CrewMember*>_> *crew, int roomId, int shipId); // 00643270
+cleanup __amd64 void MindSystem::QueueMindControl(MindSystem *this, std::vector<CrewMember*> *crew, int roomId, int shipId); // 00643270
 ".5380bf4c":  // unique sig
 cleanup __amd64 bool MindSystem::CanUse(MindSystem *this); // 00643480
 ".415741564155415455534889fb4883ec4848":  // unique sig

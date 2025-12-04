@@ -17,7 +17,7 @@ cleanup __amd64 bool CrystalAlien::FireFightingSoundEffect(CrystalAlien *this); 
 "f30f1005????????c30f1f8000000000f30f7e":  // unique sig
 cleanup __amd64 float CrystalAlien::GetFireRepairMultiplier(CrystalAlien *this); // 0048eaf0
 "f30f7e8744":  // unique sig
-cleanup __amd64 pair<float,_float> CrystalAlien::GetPowerCooldown(CrystalAlien *this); // 0048eb00
+cleanup __amd64 std::pair<float, float> CrystalAlien::GetPowerCooldown(CrystalAlien *this); // 0048eb00
 ".b801000000c3662e0f1f840000000000f30f":  // unique sig
 cleanup __amd64 bool CrystalAlien::HasSpecialPower(CrystalAlien *this); // 0048eb10
 "f30f1087440700000f2e87480700000f":  // unique sig

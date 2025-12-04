@@ -3,7 +3,7 @@ cleanup __amd64 bool ScoreKeeper::GetShipUnlocked(ScoreKeeper *this, int shipId,
 ".4157415641554c8daf80":  // unique sig
 cleanup __amd64 void ScoreKeeper::ScoreKeeper(ScoreKeeper *this); // 00455dc0
 ".4157415641554531ed41544989f4":  // unique sig
-cleanup __amd64 pair<int,_int> ScoreKeeper::GetShipId(ScoreKeeper *this, string *blueprintName); // 00456620
+cleanup __amd64 std::pair<int, int> ScoreKeeper::GetShipId(ScoreKeeper *this, string *blueprintName); // 00456620
 ".4863d253":  // unique sig
 cleanup __amd64 string ScoreKeeper::GetShipBlueprint(ScoreKeeper *this, int id); // 004568b0
 ".41544989fc5589f58b":  // unique sig
@@ -39,7 +39,7 @@ cleanup __amd64 void ScoreKeeper::AddCrew(ScoreKeeper *this); // 004571c0
 ".53c747":  // unique sig
 cleanup __amd64 void ScoreKeeper::Reset(ScoreKeeper *this); // 004571e0
 ".415741564989d6415549bd":  // unique sig
-cleanup __amd64 void ScoreKeeper::SaveScores(ScoreKeeper *this, int fd, vector<TopScore,_std::allocator<TopScore>_> *topScoreList); // 00457250
+cleanup __amd64 void ScoreKeeper::SaveScores(ScoreKeeper *this, int fd, std::vector<TopScore> *topScoreList); // 00457250
 ".488b8fc801":  // unique sig
 cleanup __amd64 int ScoreKeeper::GetTopScore(ScoreKeeper *this); // 00457400
 ".8b47188d14":  // unique sig
@@ -47,7 +47,7 @@ cleanup __amd64 int ScoreKeeper::CalculateSectorScore(ScoreKeeper *this); // 004
 ".8b05????????f30f100d????????83":  // unique sig
 cleanup __amd64 int ScoreKeeper::CalculateScore(ScoreKeeper *this); // 00457450
 ".415448b8":  // unique sig
-cleanup __amd64 int ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, vector<TopScore,_std::allocator<TopScore>_> *topScoreList); // 004574b0
+cleanup __amd64 int ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, std::vector<TopScore> *topScoreList); // 004574b0
 ".4157488d4608":  // unique sig
 cleanup __amd64 void ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, int type); // 00457920
 ".8b461c85c075":  // unique sig
@@ -73,7 +73,7 @@ cleanup __amd64 void ScoreKeeper::LoadCurrent(ScoreKeeper *this, int fd, int ver
 "415631f6":  // unique sig
 cleanup __amd64 void ScoreKeeper::OnInit(ScoreKeeper *this); // 0045a030
 ".4157415641554989f5415455534881":  // unique sig
-cleanup __amd64 void ScoreKeeper::RenderTopScores(ScoreKeeper *this, vector<TopScore,_std::allocator<TopScore>_> *topScoreList, Point position, int highscore); // 0045ad70
+cleanup __amd64 void ScoreKeeper::RenderTopScores(ScoreKeeper *this, std::vector<TopScore> *topScoreList, Point position, int highscore); // 0045ad70
 ".4155ba01000000415455534889fb4c8da388":  // unique sig
 cleanup __amd64 void ScoreKeeper::CheckTypes(ScoreKeeper *this); // 0045bed0
 ".41545589f5534889fb4883ec40":  // unique sig

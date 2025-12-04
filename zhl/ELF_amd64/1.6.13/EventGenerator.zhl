@@ -5,7 +5,7 @@ cleanup __amd64 void EventGenerator::ClearSectorData(EventGenerator *this); // 0
 ".4155415455534889fb4883ec18488b97":  // unique sig
 cleanup __amd64 void EventGenerator::Cleanup(EventGenerator *this); // 005f5a40
 ".554889f5be????????534889fb4881ecd8":  // unique sig
-cleanup __amd64 vector<SectorDescription,_std::allocator<SectorDescription>_> *EventGenerator::GetSectorDescriptions(EventGenerator *this); // 005f5b70
+cleanup __amd64 std::vector<SectorDescription> *EventGenerator::GetSectorDescriptions(EventGenerator *this); // 005f5b70
 ".41544989fc5549":  // unique sig
 cleanup __amd64 void EventGenerator::InitStatistics(EventGenerator *this); // 005f5d30
 ".41554989d541544c8da608":  // unique sig

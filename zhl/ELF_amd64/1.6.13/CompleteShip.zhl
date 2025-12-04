@@ -31,7 +31,7 @@ cleanup __amd64 void CompleteShip::InitiateTeleport(CompleteShip *this, int targ
 ".4157415641554989fd41545549":  // unique sig
 cleanup __amd64 void CompleteShip::OnLoop(CompleteShip *this); // 00421060
 ".4154554889f553488b86":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *CompleteShip::GetTeleportingParty(CompleteShip *this); // 004212b0
+cleanup __amd64 std::vector<CrewMember*> *CompleteShip::GetTeleportingParty(CompleteShip *this); // 004212b0
 ".488b7f10e9????????90660f1f44000048":  // unique sig
 cleanup __amd64 void CompleteShip::KillRandomCrew(CompleteShip *this); // 00421410
 "!488b7f1040":  // unique sig
@@ -47,7 +47,7 @@ noHook __amd64 void CompleteShip::__DO_NOT_HOOK(); // 0042147f
 ".55":  // non-unique sig
 cleanup __amd64 bool CompleteShip::DeadCrew(CompleteShip *this); // 00421480
 ".53488b76":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *CompleteShip::TeleportCrew(CompleteShip *this, int roomId, bool intruders); // 004214f0
+cleanup __amd64 std::vector<CrewMember*> *CompleteShip::TeleportCrew(CompleteShip *this, int roomId, bool intruders); // 004214f0
 "!.534889fb8b7708488b7f18ba":  // unique sig
 cleanup __amd64 void CompleteShip::OnRender(CompleteShip *this); // 00421510
 "!00005be9????????900f1f840000000000":  // unique sig

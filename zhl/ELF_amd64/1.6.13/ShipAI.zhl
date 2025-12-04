@@ -33,7 +33,7 @@ cleanup __amd64 void ShipAI::SetEvacRequest(ShipAI *this, int val); // 005e0b90
 "!.488977084881":  // unique sig
 cleanup __amd64 void ShipAI::SetEnemyShip(ShipAI *this, ShipManager *ship); // 005e0bf0
 ".5348837f":  // unique sig
-cleanup __amd64 pair<int,_int> ShipAI::GetTeleportCommand(ShipAI *this); // 005e0c00
+cleanup __amd64 std::pair<int, int> ShipAI::GetTeleportCommand(ShipAI *this); // 005e0c00
 ".0f57c0c687":  // unique sig
 cleanup __amd64 void ShipAI::RestartStalemate(ShipAI *this); // 005e0d40
 ".c6873a":  // unique sig

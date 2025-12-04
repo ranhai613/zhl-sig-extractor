@@ -71,9 +71,9 @@ static cleanup __amd64 void CSurface::GL_BlitPixelImageWide(GL_Texture *tex, flo
 ".f30f5edd41":  // unique sig
 static cleanup __amd64 bool CSurface::GL_TilePixelImage(GL_Texture *tex, float x, float y, float size_x, float size_y, float sub_size_x, float sub_size_y, float scroll, GL_Color color); // 005a77d0
 ".415641554189d541544989f455534889fb4883ec20":  // unique sig
-static cleanup __amd64 void CSurface::GL_BlitMultiImage(GL_Texture *tex, vector<GL_TexVertex,_std::allocator<GL_TexVertex>_> *vertices, bool antialias); // 005a7cb0
+static cleanup __amd64 void CSurface::GL_BlitMultiImage(GL_Texture *tex, std::vector<GL_TexVertex> *vertices, bool antialias); // 005a7cb0
 ".4156415541544189d4554889f5534889fb4883ec20":  // unique sig
-static cleanup __amd64 void CSurface::GL_BlitMultiColorImage(GL_Texture *tex, vector<GL_ColorTexVertex,_std::allocator<GL_ColorTexVertex>_> *vertices, bool antialias); // 005a8140
+static cleanup __amd64 void CSurface::GL_BlitMultiColorImage(GL_Texture *tex, std::vector<GL_ColorTexVertex> *vertices, bool antialias); // 005a8140
 ".5331c941":  // unique sig
 static cleanup __amd64 GL_FrameBuffer *CSurface::GL_CreateFrameBuffer(int w, int h); // 005a8610
 "!.4885ff74??8b3f":  // unique sig
@@ -93,23 +93,23 @@ static cleanup __amd64 void CSurface::GL_DestroyPrimitive(GL_Primitive *primitiv
 ".534883ec4066":  // unique sig
 cleanup __amd64 GL_Primitive *CSurface::GL_CreateTrianglePrimitive(CSurface *this, Point p1, Point p2, Point p3, GL_Color color); // 005a8af0
 ".415548ba00":  // unique sig
-cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiTrianglePrimitive(CSurface *this, vector<Pointf,_std::allocator<Pointf>_> *points, GL_Color color); // 005a8c60
+cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiTrianglePrimitive(CSurface *this, std::vector<Pointf> *points, GL_Color color); // 005a8c60
 ".53f30f58":  // unique sig
 cleanup __amd64 GL_Primitive *CSurface::GL_CreateRectPrimitive(CSurface *this, float x, float y, float w, float h, GL_Color color); // 005a8e30
 ".415648be":  // unique sig
-cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiRectPrimitive(CSurface *this, vector<Globals::Rect,_std::allocator<Globals::Rect>_> *rects, GL_Color color); // 005a8f90
+cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiRectPrimitive(CSurface *this, std::vector<Globals::Rect> *rects, GL_Color color); // 005a8f90
 ".53f30f2a":  // unique sig
 cleanup __amd64 GL_Primitive *CSurface::GL_CreateRectOutlinePrimitive(CSurface *this, int x, int y, int w, int h, GL_Color color, float thickness); // 005a9450
 ".4157415641554989fd415455534883ec484c":  // unique sig
-cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiLinePrimitive(CSurface *this, vector<GL_Line,_std::allocator<GL_Line>_> *lines, GL_Color color, float thickness); // 005a9690
+cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiLinePrimitive(CSurface *this, std::vector<GL_Line> *lines, GL_Color color, float thickness); // 005a9690
 ".4157f3":  // unique sig
 cleanup __amd64 GL_Primitive *CSurface::GL_CreateCirclePrimitive(CSurface *this, int x, int y, float radius, GL_Color color); // 005a9cb0
 ".41564155415455534881ec80":  // unique sig
 cleanup __amd64 GL_Primitive *CSurface::GL_CreatePiePartialPrimitive(CSurface *this, int x, int y, float radius, float deg1, float deg2, float thickness, GL_Color color); // 005a9ee0
 ".415541544989f455534883ec48":  // unique sig
-cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImagePrimitive(CSurface *this, GL_Texture *tex, vector<GL_TexVertex,_std::allocator<GL_TexVertex>_> *vertices, GL_Color color); // 005aa510
+cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImagePrimitive(CSurface *this, GL_Texture *tex, std::vector<GL_TexVertex> *vertices, GL_Color color); // 005aa510
 ".415541544989f455534883ec38488b":  // unique sig
-static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImageColorPrimitive(GL_Texture *tex, vector<GL_ColorTexVertex,_std::allocator<GL_ColorTexVertex>_> *vertices); // 005aa980
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImageColorPrimitive(GL_Texture *tex, std::vector<GL_ColorTexVertex> *vertices); // 005aa980
 ".488b05????????483b05????????74??4885c074":  // unique sig
 static cleanup __amd64 void CSurface::GL_PushStencilMode(); // 005aad30
 ".4883ec18488b0d":  // unique sig

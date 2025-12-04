@@ -7,9 +7,9 @@ cleanup __amd64 void PowerManager::UpdateFuel(PowerManager *this); // 00644bd0
 "31c0c3906666662e0f1f840000000000b8":  // unique sig
 cleanup __amd64 int PowerManager::GetOverAmount(PowerManager *this); // 00644be0
 "b801000000c3662e0f1f8400000000008b0e":  // unique sig
-cleanup __amd64 bool PowerManager::UpdatePower(PowerManager *this, pair<int,_int> *powerLevel, int *iBatteryPower, int required); // 00644bf0
+cleanup __amd64 bool PowerManager::UpdatePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int required); // 00644bf0
 "8b0e8b":  // unique sig
-cleanup __amd64 bool PowerManager::DecreasePower(PowerManager *this, pair<int,_int> *powerLevel, int *iBatteryPower, int required); // 00644c00
+cleanup __amd64 bool PowerManager::DecreasePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int required); // 00644c00
 ".0fb64710c6":  // unique sig
 cleanup __amd64 bool PowerManager::GetFailedPowerup(PowerManager *this); // 00644c50
 ".897724":  // unique sig
@@ -17,9 +17,9 @@ cleanup __amd64 void PowerManager::ForceBatteryPower(PowerManager *this, int use
 ".8b472885":  // unique sig
 cleanup __amd64 void PowerManager::SetBatteryPower(PowerManager *this, int amount); // 00644c70
 ".448b57048b":  // unique sig
-cleanup __amd64 bool PowerManager::IncreasePower(PowerManager *this, pair<int,_int> *powerLevel, int *iBatteryPower, int requestedPower); // 00644c90
+cleanup __amd64 bool PowerManager::IncreasePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int requestedPower); // 00644c90
 ".8b47044889c2":  // unique sig
-cleanup __amd64 pair<int,_int> PowerManager::GetAvailablePower(PowerManager *this); // 00644d40
+cleanup __amd64 std::pair<int, int> PowerManager::GetAvailablePower(PowerManager *this); // 00644d40
 ".8b571803":  // unique sig
 cleanup __amd64 int PowerManager::GetMaxPower(PowerManager *this); // 00644d50
 ".c74714e8":  // unique sig

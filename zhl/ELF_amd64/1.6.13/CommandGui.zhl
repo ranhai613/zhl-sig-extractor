@@ -75,13 +75,13 @@ cleanup __amd64 void CommandGui::RButtonDown(CommandGui *this, int mX, int mY, b
 ".f3c366666666662e0f1f84000000000041544c8da6":  // unique sig
 cleanup __amd64 void CommandGui::RButtonUp(CommandGui *this, int mX, int mY, bool shift); // 004fae80
 "41544c8da610":  // unique sig
-cleanup __amd64 pair<std::string,_int> CommandGui::LoadEvent(CommandGui *this); // 004fae90
+cleanup __amd64 std::pair<std::string, int> CommandGui::LoadEvent(CommandGui *this); // 004fae90
 ".c6879848000000":  // unique sig
 cleanup __amd64 void CommandGui::ClearWriteError(CommandGui *this); // 004faee0
 ".415741564155415455534889fb4881ec1801000080":  // unique sig
 cleanup __amd64 void CommandGui::ShowWriteError(CommandGui *this); // 004faef0
 ".415741564155415455534889d34881ec58":  // unique sig
-cleanup __amd64 void CommandGui::NewLocation(CommandGui *this, string *mainText, vector<ChoiceText,_std::allocator<ChoiceText>_> *choices, ResourceEvent *resources, bool testing_events); // 004fb390
+cleanup __amd64 void CommandGui::NewLocation(CommandGui *this, string *mainText, std::vector<ChoiceText> *choices, ResourceEvent *resources, bool testing_events); // 004fb390
 ".41554189d531d241544c":  // unique sig
 cleanup __amd64 void CommandGui::SetStore(CommandGui *this, Store *store, bool bOpen); // 004fbe20
 ".4157415641554989fd41544989f455":  // unique sig

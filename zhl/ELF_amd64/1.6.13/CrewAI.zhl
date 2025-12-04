@@ -51,4 +51,4 @@ cleanup __amd64 void CrewAI::UpdateDrones(CrewAI *this); // 005df2b0
 ".415741564155415455534889fb4883ec48488b37":  // unique sig
 cleanup __amd64 void CrewAI::OnLoop(CrewAI *this); // 005df970
 ".415541544989f45531":  // unique sig
-cleanup __amd64 vector<Point,_std::allocator<Point>_> *CrewAI::GetSafeOxygenSquares(CrewAI *this); // 005dffa0
+cleanup __amd64 std::vector<Point> *CrewAI::GetSafeOxygenSquares(CrewAI *this); // 005dffa0

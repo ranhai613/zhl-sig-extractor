@@ -39,7 +39,7 @@ cleanup __amd64 void AchievementTracker::~AchievementTracker(AchievementTracker 
 ".83fa0274??4863":  // unique sig
 cleanup __amd64 void AchievementTracker::UnlockShip(AchievementTracker *this, int shipId, int layout); // 004265a0
 ".4157b902":  // unique sig
-cleanup __amd64 vector<CAchievement*,_std::allocator<CAchievement*>_> *AchievementTracker::GetShipAchievements(AchievementTracker *this, string *ship); // 00426610
+cleanup __amd64 std::vector<CAchievement*> *AchievementTracker::GetShipAchievements(AchievementTracker *this, string *ship); // 00426610
 ".41574863c6":  // unique sig
 cleanup __amd64 void AchievementTracker::CheckShipAchievements(AchievementTracker *this, int shipId, bool hidePopups); // 00426910
 ".415731c0415641554154555331":  // unique sig

@@ -57,7 +57,7 @@ cleanup __amd64 CrewMember *CombatControl::GetSelectedCrew(CombatControl *this, 
 ".534889fb4883ec10488b86":  // unique sig
 cleanup __amd64 string CombatControl::GetCrewTooltip(CombatControl *this, int mX, int mY); // 004f3170
 ".4889f8488bbe":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *CombatControl::GetSelectedCrew(CombatControl *this, int x, int y, int firstX, int firstY); // 004f31d0
+cleanup __amd64 std::vector<CrewMember*> *CombatControl::GetSelectedCrew(CombatControl *this, int x, int y, int firstX, int firstY); // 004f31d0
 ".415741564155415455534889fb4883ec18488b87c0":  // unique sig
 cleanup __amd64 int CombatControl::SelectRoom(CombatControl *this, int x, int y); // 004f3260
 ".c787d8070000ff":  // unique sig
@@ -93,7 +93,7 @@ cleanup __amd64 bool CombatControl::UpdateTarget(CombatControl *this); // 004f38
 ".55be09":  // unique sig
 cleanup __amd64 void CombatControl::DisarmTeleporter(CombatControl *this); // 004f4080
 ".41545553488b87c0":  // unique sig
-cleanup __amd64 pair<int,_int> CombatControl::GetTeleportationCommand(CombatControl *this); // 004f4170
+cleanup __amd64 std::pair<int, int> CombatControl::GetTeleportationCommand(CombatControl *this); // 004f4170
 ".534883bfc0":  // unique sig
 cleanup __amd64 void CombatControl::DisarmAll(CombatControl *this); // 004f41d0
 ".488937488977":  // unique sig

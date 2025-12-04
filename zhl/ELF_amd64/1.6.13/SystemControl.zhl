@@ -39,7 +39,7 @@ cleanup __amd64 void SystemControl::OnCleanup(SystemControl *this); // 00581c00
 ".41574189f241":  // unique sig
 static cleanup __amd64 PowerBars *SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 00581c60
 ".41574889d048c1f82041564155415441":  // unique sig
-cleanup __amd64 int SystemControl::RenderBars(SystemControl *this, Point position, pair<int,_int> power, bool ignoreStatus, bool flash); // 00582390
+cleanup __amd64 int SystemControl::RenderBars(SystemControl *this, Point position, std::pair<int, int> power, bool ignoreStatus, bool flash); // 00582390
 ".415741564989fe4155415455534883ec2848":  // unique sig
 cleanup __amd64 void SystemControl::RenderPowerBar(SystemControl *this); // 00582c80
 ".41544989fc5589f5":  // unique sig

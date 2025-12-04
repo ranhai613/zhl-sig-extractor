@@ -19,7 +19,7 @@ cleanup __amd64 void CrewControl::RButton(CrewControl *this, int mX, int mY, boo
 ".554889fd534889f34883ec084c":  // unique sig
 cleanup __amd64 void CrewControl::DeselectCrew(CrewControl *this, CrewMember *crew); // 0050c510
 ".415431c0554889f553488b":  // unique sig
-cleanup __amd64 void CrewControl::ClearDeadCrew(CrewControl *this, vector<CrewMember*,_std::allocator<CrewMember*>_> *crew); // 0050c620
+cleanup __amd64 void CrewControl::ClearDeadCrew(CrewControl *this, std::vector<CrewMember*> *crew); // 0050c620
 ".488b7708488b4f1031d231c04829f148c1f9034885c974??0f1f84":  // unique sig
 cleanup __amd64 void CrewControl::ClearSelectedCrew(CrewControl *this); // 0050c6e0
 ".534889fbe8????????f2":  // unique sig

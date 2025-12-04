@@ -183,11 +183,11 @@ cleanup __amd64 int ShipManager::GetRandomSabotage(ShipManager *this); // 004b9d
 ".41574989ff41564155415455534883ec28":  // unique sig
 cleanup __amd64 void ShipManager::CheckSpreadDamage(ShipManager *this); // 004b9ec0
 ".41544531c04531e4554889f553488b8ec8":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *ShipManager::GetCrewList(ShipManager *this); // 004ba050
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetCrewList(ShipManager *this); // 004ba050
 ".41544531c04531e4554889f553488b4e30":  // unique sig
-cleanup __amd64 vector<ShipSystem*,_std::allocator<ShipSystem*>_> *ShipManager::GetSystemList(ShipManager *this); // 004ba110
+cleanup __amd64 std::vector<ShipSystem*> *ShipManager::GetSystemList(ShipManager *this); // 004ba110
 ".4883ec088b7f08e8????????4889":  // unique sig
-cleanup __amd64 pair<int,_int> ShipManager::GetAvailablePower(ShipManager *this); // 004ba1d0
+cleanup __amd64 std::pair<int, int> ShipManager::GetAvailablePower(ShipManager *this); // 004ba1d0
 ".488b87580600004863f6486304b083f8ff74??488b5728488b3cc2e9????????f3":  // unique sig
 cleanup __amd64 int ShipManager::GetSystemPower(ShipManager *this, int systemId); // 004ba1f0
 ".4883ec08488b87580600004863":  // unique sig
@@ -213,7 +213,7 @@ cleanup __amd64 int ShipManager::GetOverPowered(ShipManager *this); // 004ba730
 ".488b87580600004863f6486304b083f8ff74??488b5728488b14c28b82":  // unique sig
 cleanup __amd64 int ShipManager::GetSystemDamage(ShipManager *this, int systemId); // 004ba750
 ".488b87580600004863f6486304b083f8ff74??488b5728488b14":  // unique sig
-cleanup __amd64 pair<int,_int> ShipManager::GetSystemPowerLevel(ShipManager *this, int systemId); // 004ba780
+cleanup __amd64 std::pair<int, int> ShipManager::GetSystemPowerLevel(ShipManager *this, int systemId); // 004ba780
 ".488b87580600004863f6486304b083f8ff74??488b5728488b04c28b80":  // unique sig
 cleanup __amd64 int ShipManager::GetSystemHealth(ShipManager *this, int systemId); // 004ba7c0
 ".488b87580600004863f6486304b083f8ff74??488b5728be":  // unique sig
@@ -257,7 +257,7 @@ cleanup __amd64 void ShipManager::UpgradeSystem(ShipManager *this, int id, int a
 ".83fe1174??488b87580600004863ce":  // unique sig
 cleanup __amd64 int ShipManager::CanUpgrade(ShipManager *this, int id, int amount); // 004bb100
 ".4883ec188b7f08e8":  // unique sig
-cleanup __amd64 pair<float,_float> ShipManager::GetAvailableFuel(ShipManager *this); // 004bb190
+cleanup __amd64 std::pair<float, float> ShipManager::GetAvailableFuel(ShipManager *this); // 004bb190
 "!.4889f731c989d6ba":  // unique sig
 cleanup __amd64 bool ShipManager::CommandCrewMoveRoom(ShipManager *this, CrewMember *crew, int roomId); // 004bb1c0
 ".415741564989fe41554189d5":  // unique sig
@@ -269,7 +269,7 @@ cleanup __amd64 void ShipManager::ClearCrewSelection(ShipManager *this); // 004b
 ".554889fd89f789":  // unique sig
 cleanup __amd64 Repairable *ShipManager::GetSelectedRepair(ShipManager *this, int mX, int mY); // 004bb5e0
 ".41545553488b86580600004889fb83780c":  // unique sig
-cleanup __amd64 vector<ProjectileFactory*,_std::allocator<ProjectileFactory*>_> *ShipManager::GetWeaponList(ShipManager *this); // 004bb630
+cleanup __amd64 std::vector<ProjectileFactory*> *ShipManager::GetWeaponList(ShipManager *this); // 004bb630
 ".488b875806000083780cff74??488bbf880000000fb6c9":  // unique sig
 cleanup __amd64 bool ShipManager::PowerWeapon(ShipManager *this, ProjectileFactory *weapon, bool userDriven, bool force); // 004bb730
 ".488b875806000083780cff74??488bbf880000000f":  // unique sig
@@ -297,7 +297,7 @@ cleanup __amd64 int ShipManager::GetOxygenPercentage(ShipManager *this); // 004b
 ".488b8758060000837808":  // unique sig
 cleanup __amd64 float ShipManager::GetOxygenLevel(ShipManager *this, int roomId); // 004bbaa0
 ".41545553488b86580600004889fb837808":  // unique sig
-cleanup __amd64 vector<float,_std::allocator<float>_> *ShipManager::GetOxygenLevels(ShipManager *this); // 004bbad0
+cleanup __amd64 std::vector<float> *ShipManager::GetOxygenLevels(ShipManager *this); // 004bbad0
 ".5531c94889fd5331db4883ec08488b87":  // unique sig
 cleanup __amd64 void ShipManager::RemapSystemKeys(ShipManager *this); // 004bbbc0
 ".488b875806000083780cff74??4883":  // unique sig
@@ -319,9 +319,9 @@ cleanup __amd64 void ShipManager::ModifyMissileCount(ShipManager *this, int amou
 ".488b875806000083780cff74":  // unique sig
 cleanup __amd64 int ShipManager::GetMissileCount(ShipManager *this); // 004bc2c0
 ".41545553488b86":  // unique sig
-cleanup __amd64 vector<Drone*,_std::allocator<Drone*>_> *ShipManager::GetDroneList(ShipManager *this); // 004bc2f0
+cleanup __amd64 std::vector<Drone*> *ShipManager::GetDroneList(ShipManager *this); // 004bc2f0
 ".41544531c04531e4554889f553488b8e":  // unique sig
-cleanup __amd64 vector<SpaceDrone*,_std::allocator<SpaceDrone*>_> *ShipManager::GetSpaceDrones(ShipManager *this); // 004bc3f0
+cleanup __amd64 std::vector<SpaceDrone*> *ShipManager::GetSpaceDrones(ShipManager *this); // 004bc3f0
 ".83fe1174":  // unique sig
 cleanup __amd64 int ShipManager::IsSystemHacked(ShipManager *this, int systemId); // 004bc4c0
 ".488b8790000000c30f1f84000000000041":  // unique sig
@@ -347,11 +347,11 @@ cleanup __amd64 int ShipManager::GetFireCount(ShipManager *this); // 004bca90
 ".5589d5534889fb4889":  // unique sig
 cleanup __amd64 void ShipManager::AddCrewMember(ShipManager *this, CrewMember *crew, int roomId); // 004bcaf0
 ".4157415641554989fd41544989f45553":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *ShipManager::TeleportCrew(ShipManager *this, int roomId, bool intruders); // 004bcb80
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::TeleportCrew(ShipManager *this, int roomId, bool intruders); // 004bcb80
 ".415631c9415549":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *ShipManager::GetLeavingCrew(ShipManager *this, bool intruders); // 004bccc0
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetLeavingCrew(ShipManager *this, bool intruders); // 004bccc0
 ".41574189d741564989f6":  // unique sig
-cleanup __amd64 vector<CrewMember*,_std::allocator<CrewMember*>_> *ShipManager::GetSelectedCrew(ShipManager *this, int x, int y, int w, int h, bool intruders); // 004bcde0
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetSelectedCrew(ShipManager *this, int x, int y, int w, int h, bool intruders); // 004bcde0
 ".41574989ff415641554589cd415455":  // unique sig
 cleanup __amd64 CrewMember *ShipManager::AddCrewMember(ShipManager *this, CrewBlueprint *blueprint, int slot, bool init, int roomId, bool intruder); // 004bcf50
 ".41574156415541544989f455534889fb4883ec5848":  // unique sig
@@ -365,7 +365,7 @@ cleanup __amd64 void ShipManager::CheckCrystalAugment(ShipManager *this, Pointf 
 ".415741564155415455534889fb4881ec980000004883":  // unique sig
 cleanup __amd64 void ShipManager::PrepareSuperBarrage(ShipManager *this); // 004be4c0
 ".41574156415541544989f455534889fb4883ec3848":  // unique sig
-cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *ShipManager::GetEquipmentList(ShipManager *this); // 004be900
+cleanup __amd64 std::vector<std::string> *ShipManager::GetEquipmentList(ShipManager *this); // 004be900
 ".415531d2bf":  // unique sig
 cleanup __amd64 bool ShipManager::RestoreCrewPositions(ShipManager *this); // 004becc0
 ".4157488d87d8":  // unique sig
@@ -397,7 +397,7 @@ cleanup __amd64 void ShipManager::LoadSuperDrones(ShipManager *this, int fd); //
 ".415741564155415455534889fb4883ec58488b87b8":  // unique sig
 cleanup __amd64 void ShipManager::PrepareSuperDrones(ShipManager *this); // 004c1800
 ".415431c94989f4":  // unique sig
-cleanup __amd64 vector<ProjectileFactory*,_std::allocator<ProjectileFactory*>_> *ShipManager::GetArtilleryWeapons(ShipManager *this); // 004c1b20
+cleanup __amd64 std::vector<ProjectileFactory*> *ShipManager::GetArtilleryWeapons(ShipManager *this); // 004c1b20
 ".4155415455534889fb4883ec388b57":  // unique sig
 cleanup __amd64 void ShipManager::RenderChargeBars(ShipManager *this); // 004c1be0
 ".41574156415541544c8da7":  // unique sig
@@ -405,7 +405,7 @@ cleanup __amd64 void ShipManager::RenderWeapons(ShipManager *this); // 004c1e60
 ".4157415641554989fd4154555389f34881":  // unique sig
 cleanup __amd64 void ShipManager::OnRender(ShipManager *this, bool showInterior, bool doorControlMode); // 004c2120
 ".41554c8dae18":  // unique sig
-cleanup __amd64 vector<Pointf,_std::allocator<Pointf>_> *ShipManager::GetAllTargettingPoints(ShipManager *this); // 004c2f20
+cleanup __amd64 std::vector<Pointf> *ShipManager::GetAllTargettingPoints(ShipManager *this); // 004c2f20
 "!.4883ee10e9":  // unique sig
 cleanup __amd64 undefined ShipManager::GetAllTargettingPoints(ShipManager *this); // 004c2fe0
 "!ee10e9????????90660f1f440000":  // unique sig
@@ -423,7 +423,7 @@ cleanup __amd64 Drone *ShipManager::AddDrone(ShipManager *this, DroneBlueprint *
 ".415741564155415455534889fb4883ec48488b87":  // unique sig
 cleanup __amd64 void ShipManager::CreateArmory(ShipManager *this); // 004c3880
 ".415641554154554889f5534883ec30":  // unique sig
-cleanup __amd64 void ShipManager::AddEquipmentFromList(ShipManager *this, vector<std::string,_std::allocator<std::string_>_> *list); // 004c3d60
+cleanup __amd64 void ShipManager::AddEquipmentFromList(ShipManager *this, std::vector<std::string> *list); // 004c3d60
 ".41574156415541544531e4554889fd5331":  // unique sig
 cleanup __amd64 void ShipManager::CheckDlcEnabled(ShipManager *this); // 004c3fa0
 ".415741564155415455534889fb4881ece800":  // unique sig
@@ -437,7 +437,7 @@ cleanup __amd64 bool ShipManager::DamageBeam(ShipManager *this, Pointf current, 
 ".4883ef20e9????????90660f1f440000534881":  // unique sig
 cleanup __amd64 undefined ShipManager::DamageBeam(ShipManager *this, Pointf *param_1, Pointf *param_2, Damage param_3); // 004c63a0
 "534881c6d8":  // unique sig
-cleanup __amd64 vector<Repairable*,_std::allocator<Repairable*>_> *ShipManager::GetFires(ShipManager *this, int roomId); // 004c63b0
+cleanup __amd64 std::vector<Repairable*> *ShipManager::GetFires(ShipManager *this, int roomId); // 004c63b0
 ".415731c941564155415449":  // unique sig
 cleanup __amd64 void ShipManager::UpdateCrewmembers(ShipManager *this); // 004c63d0
 ".415431c944":  // unique sig
@@ -455,7 +455,7 @@ cleanup __amd64 void ShipManager::ExportShip(ShipManager *this, int fd); // 004c
 ".415741564589c6415541545548":  // unique sig
 cleanup __amd64 CrewMember *ShipManager::AddCrewMember(ShipManager *this, string *name, string *type, bool intruder, int roomId, bool init, bool male); // 004ca4b0
 ".41574156415541544989f4be":  // unique sig
-cleanup __amd64 void ShipManager::AddInitialCrew(ShipManager *this, vector<CrewBlueprint,_std::allocator<CrewBlueprint>_> *overrideCrew); // 004cada0
+cleanup __amd64 void ShipManager::AddInitialCrew(ShipManager *this, std::vector<CrewBlueprint> *overrideCrew); // 004cada0
 ".415641554154554889fd534883ec208b":  // unique sig
 cleanup __amd64 void ShipManager::Restart(ShipManager *this); // 004cb630
 ".4157415641554189d54154554889f5":  // unique sig

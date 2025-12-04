@@ -11,4 +11,4 @@ cleanup __amd64 void CreditScreen::MouseUp(CreditScreen *this, int mX, int mY); 
 "83fe0174??83ee":  // unique sig
 cleanup __amd64 void CreditScreen::OnTouch(CreditScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005070b0
 ".4157415641554154554889d5534889fb4881":  // unique sig
-cleanup __amd64 void CreditScreen::Start(CreditScreen *this, string *shipName, vector<std::string,_std::allocator<std::string_>_> *crewNames); // 00507110
+cleanup __amd64 void CreditScreen::Start(CreditScreen *this, string *shipName, std::vector<std::string> *crewNames); // 00507110

@@ -25,7 +25,7 @@ cleanup __amd64 void Ship::Restart(Ship *this); // 004a2560
 ".5531c931ed534889fb4883ec08488b57":  // unique sig
 cleanup __amd64 void Ship::PauseLoop(Ship *this); // 004a2770
 ".415741564989fe415541545589f5":  // unique sig
-cleanup __amd64 pair<int,_int> Ship::ContainsHullBreach(Ship *this, int roomId); // 004a2810
+cleanup __amd64 std::pair<int, int> Ship::ContainsHullBreach(Ship *this, int roomId); // 004a2810
 ".538b7f0889f3e8????????89de48":  // unique sig
 cleanup __amd64 Pointf Ship::GetRoomCenter(Ship *this, int roomId); // 004a2920
 ".4c8b877804":  // unique sig
@@ -153,13 +153,13 @@ cleanup __amd64 int Ship::GetAvailableRoom(Ship *this, int preferred, bool intru
 ".488b47104863":  // unique sig
 cleanup __amd64 void Ship::SetRoomWarning(Ship *this, int roomId, bool warning); // 004a58a0
 ".554889f545":  // unique sig
-cleanup __amd64 vector<Door*,_std::allocator<Door*>_> *Ship::GetRoomAirlocks(Ship *this, int roomId); // 004a58b0
+cleanup __amd64 std::vector<Door*> *Ship::GetRoomAirlocks(Ship *this, int roomId); // 004a58b0
 ".41574989cf415641554189d5":  // unique sig
 cleanup __amd64 Path *Ship::DFS(Ship *this, int startRoom, Path *lastPath); // 004a5990
 ".5548b9":  // unique sig
 cleanup __amd64 bool Ship::UpdateDoorState(Ship *this, int index, Door *door); // 004a6020
 ".41554989d5415455534889f34881":  // unique sig
-cleanup __amd64 void Ship::AddDoorVertices(Ship *this, Door *door, vector<GL_ColorTexVertex,_std::allocator<GL_ColorTexVertex>_> *vertices); // 004a60b0
+cleanup __amd64 void Ship::AddDoorVertices(Ship *this, Door *door, std::vector<GL_ColorTexVertex> *vertices); // 004a60b0
 ".41574156415541544189f455534889fb4883ec38":  // unique sig
 cleanup __amd64 void Ship::UpdateDoorsPrimitive(Ship *this, bool doorControlMode); // 004a65c0
 ".41574531ff41564c":  // unique sig
@@ -171,17 +171,17 @@ cleanup __amd64 bool Ship::Import(Ship *this, string *shipName); // 004a6e00
 ".415741564989fe41554154555389":  // unique sig
 cleanup __amd64 void Ship::ChoosePrimarySlot(Ship *this, int roomId); // 004a7790
 ".415741564989fe41554154554889f5":  // unique sig
-cleanup __amd64 void Ship::OnLoop(Ship *this, vector<float,_std::allocator<float>_> *oxygenLevels); // 004a87f0
+cleanup __amd64 void Ship::OnLoop(Ship *this, std::vector<float> *oxygenLevels); // 004a87f0
 ".554889f84889f5534883ec284c8b4618":  // unique sig
-cleanup __amd64 vector<const_Room*,_std::allocator<const_Room*>_> *Ship::GetRoomListConst(Ship *this); // 004a8f40
+cleanup __amd64 std::vector<Room*> *Ship::GetRoomListConst(Ship *this); // 004a8f40
 ".554889f84889f5":  // unique sig
-cleanup __amd64 vector<const_Door*,_std::allocator<const_Door*>_> *Ship::GetDoorListConst(Ship *this); // 004a9000
+cleanup __amd64 std::vector<Door*> *Ship::GetDoorListConst(Ship *this); // 004a9000
 ".415741564155415455534881ecd802":  // unique sig
 cleanup __amd64 void Ship::RemoveRoom(Ship *this, int room); // 004a90c0
 ".4156415541544989fc554863ee534883ec40":  // unique sig
 cleanup __amd64 void Ship::BreachRandomHull(Ship *this, int roomId); // 004a9e20
 ".41554154554889f5534889fb4883ec18488b":  // unique sig
-cleanup __amd64 vector<Repairable*,_std::allocator<Repairable*>_> *Ship::GetHullBreaches(Ship *this, bool onlyDamaged); // 004aa040
+cleanup __amd64 std::vector<Repairable*> *Ship::GetHullBreaches(Ship *this, bool onlyDamaged); // 004aa040
 ".41574989ff4156415541545589f5534881":  // unique sig
 cleanup __amd64 void Ship::LockdownRoom(Ship *this, int roomId, Pointf position); // 004aad00
 ".4156415541545589f5534889fb4881":  // unique sig
@@ -189,4 +189,4 @@ cleanup __amd64 void Ship::LoadState(Ship *this, int fd); // 004ab7a0
 ".41574989ff41564155415455534889":  // unique sig
 cleanup __amd64 bool Ship::OnInit(Ship *this, ShipBlueprint *blueprint); // 004acad0
 ".4156415541544989f4554889fd534883ec20":  // unique sig
-cleanup __amd64 void Ship::SetWeaponAnimations(Ship *this, vector<WeaponAnimation*,_std::allocator<WeaponAnimation*>_> *anims); // 004cfbe0
+cleanup __amd64 void Ship::SetWeaponAnimations(Ship *this, std::vector<WeaponAnimation*> *anims); // 004cfbe0

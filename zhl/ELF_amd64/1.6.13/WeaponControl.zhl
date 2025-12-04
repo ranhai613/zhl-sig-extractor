@@ -33,7 +33,7 @@ cleanup __amd64 void WeaponControl::SetAutofiring(WeaponControl *this, bool on, 
 ".41544989fc31c9":  // unique sig
 cleanup __amd64 void WeaponControl::SetCurrentTarget(WeaponControl *this, Targetable *target); // 00594fa0
 ".4155415455534889fb4883ec28488bbf":  // unique sig
-cleanup __amd64 void WeaponControl::Fire(WeaponControl *this, vector<Pointf,_std::allocator<Pointf>_> *targets, int targetId, bool inverseAuto); // 00595030
+cleanup __amd64 void WeaponControl::Fire(WeaponControl *this, std::vector<Pointf> *targets, int targetId, bool inverseAuto); // 00595030
 ".4883ec5883c6":  // unique sig
 cleanup __amd64 SDLKey WeaponControl::ArmamentHotkey(WeaponControl *this, uint i); // 005951c0
 ".5531ed534889fb4883ec1848c7":  // unique sig

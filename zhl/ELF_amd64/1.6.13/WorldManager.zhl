@@ -33,13 +33,13 @@ cleanup __amd64 void WorldManager::KeyDown(WorldManager *this, SDLKey sym); // 0
 "41574989f7488d":  // unique sig
 cleanup __amd64 LocationEvent *WorldManager::ModifyResources(WorldManager *this, LocationEvent *event); // 0062f760
 ".415741564989fe415545":  // unique sig
-cleanup __amd64 void WorldManager::CheckStatusEffects(WorldManager *this, vector<StatusEffect,_std::allocator<StatusEffect>_> *effects); // 006301c0
+cleanup __amd64 void WorldManager::CheckStatusEffects(WorldManager *this, std::vector<StatusEffect> *effects); // 006301c0
 ".534889fb4889f74883ec1048":  // unique sig
 cleanup __amd64 void WorldManager::AddShip(WorldManager *this, CompleteShip *ship); // 00630350
 ".41574156415541544989d4554889fd534883":  // unique sig
-static cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *WorldManager::RetrieveShipList(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, WorldManager *this, LocationEvent *event, bool boss); // 006303f0
+static cleanup __amd64 std::vector<std::string> *WorldManager::RetrieveShipList(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, WorldManager *this, LocationEvent *event, bool boss); // 006303f0
 ".41574156415541544989d4554889fd534881":  // unique sig
-cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *WorldManager::RetrieveShipList(WorldManager *this, LocationEvent *event, bool boss); // 00630780
+cleanup __amd64 std::vector<std::string> *WorldManager::RetrieveShipList(WorldManager *this, LocationEvent *event, bool boss); // 00630780
 ".4157488d8750":  // unique sig
 cleanup __amd64 void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 00630be0
 ".554889f5534889fb4883ec08488b07488b7810488b17ff928800000084c075??4885":  // unique sig

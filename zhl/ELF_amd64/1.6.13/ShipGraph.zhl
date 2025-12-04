@@ -15,7 +15,7 @@ cleanup __amd64 Door *ShipGraph::ConnectingDoor(ShipGraph *this, Point p1, Point
 "488b074863":  // unique sig
 cleanup __amd64 int ShipGraph::GetNumSlots(ShipGraph *this, int roomId); // 004b1d00
 ".554889f5534883ec08488b3e":  // unique sig
-cleanup __amd64 int ShipGraph::PopClosestDoor(ShipGraph *this, vector<int,_std::allocator<int>_> *doors, vector<float,_std::allocator<float>_> *distances); // 004b1d30
+cleanup __amd64 int ShipGraph::PopClosestDoor(ShipGraph *this, std::vector<int> *doors, std::vector<float> *distances); // 004b1d30
 ".f30f5847":  // unique sig
 cleanup __amd64 float ShipGraph::ConvertToWorldAngle(ShipGraph *this, float local); // 004b1e00
 ".f30f5c47":  // unique sig
@@ -61,25 +61,25 @@ static cleanup __amd64 bool ShipGraph::Adjacent(int x1, int y1, int x2, int y2);
 ".4883ec1889f2":  // unique sig
 static cleanup __amd64 bool ShipGraph::Valid(int x, int y); // 004b2640
 ".41554989fd41545531":  // unique sig
-cleanup __amd64 void ShipGraph::OnInit(ShipGraph *this, vector<const_Room*,_std::allocator<const_Room*>_> *pRooms, vector<const_Door*,_std::allocator<const_Door*>_> *pDoors); // 004b2670
+cleanup __amd64 void ShipGraph::OnInit(ShipGraph *this, std::vector<Room*> *pRooms, std::vector<Door*> *pDoors); // 004b2670
 ".415741564155415455534883ec284c8b25":  // unique sig
 static cleanup __amd64 void ShipGraph::Restart(); // 004b27b0
 ".41564531c0":  // unique sig
-cleanup __amd64 vector<const_Door*,_std::allocator<const_Door*>_> *ShipGraph::GetDoors(ShipGraph *this, int roomId); // 004b2970
+cleanup __amd64 std::vector<Door*> *ShipGraph::GetDoors(ShipGraph *this, int roomId); // 004b2970
 ".41564155415441bc010000005589":  // unique sig
 cleanup __amd64 bool ShipGraph::IsRoomConnected(ShipGraph *this, int roomId, int connection); // 004b2a50
 ".4157415641554989f541544989fc55534883":  // unique sig
-cleanup __amd64 vector<int,_std::allocator<int>_> *ShipGraph::GetRoomNeighbors(ShipGraph *this, int roomId); // 004b2bc0
+cleanup __amd64 std::vector<int> *ShipGraph::GetRoomNeighbors(ShipGraph *this, int roomId); // 004b2bc0
 ".4881ec9800000031":  // unique sig
 static cleanup __amd64 int ShipGraph::GetShipId(); // 004b2dc0
 ".5389fb4881ec90":  // unique sig
 static cleanup __amd64 ShipGraph *ShipGraph::GetShipInfo(int shipId); // 004b3070
 ".41574989f741564155415441":  // unique sig
-cleanup __amd64 vector<int,_std::allocator<int>_> *ShipGraph::GetConnectedRooms(ShipGraph *this, int roomId, bool doorOpen); // 004b3340
+cleanup __amd64 std::vector<int> *ShipGraph::GetConnectedRooms(ShipGraph *this, int roomId, bool doorOpen); // 004b3340
 ".41574989cfb9":  // unique sig
-cleanup __amd64 vector<int,_std::allocator<int>_> *ShipGraph::ConnectivityDFSHelper(ShipGraph *this, int nextId, vector<int,_std::allocator<int>_> *depthList, int depth); // 004b3560
+cleanup __amd64 std::vector<int> *ShipGraph::ConnectivityDFSHelper(ShipGraph *this, int nextId, std::vector<int> *depthList, int depth); // 004b3560
 ".4156415541544189d4554889f5534889fb4883ec40":  // unique sig
-cleanup __amd64 vector<int,_std::allocator<int>_> *ShipGraph::ConnectivityDFS(ShipGraph *this, int roomId); // 004b37a0
+cleanup __amd64 std::vector<int> *ShipGraph::ConnectivityDFS(ShipGraph *this, int roomId); // 004b37a0
 ".41574989f741564155415455534889":  // unique sig
 static cleanup __amd64 Path *ShipGraph::Dijkstra(Path *__return_storage_ptr__, ShipGraph *this, Point start, Point goal, int shipId); // 004b39b0
 ".415741564989f641554154554889d5":  // unique sig
@@ -87,8 +87,8 @@ static cleanup __amd64 Path *ShipGraph::FindPath(Path *__return_storage_ptr__, S
 ".41574889f045":  // unique sig
 cleanup __amd64 Slot ShipGraph::GetClosestSlot(ShipGraph *this, Point position, int shipId, bool intruder); // 004b4830
 ".41574989ff41564155415455534883ec2848c7":  // unique sig
-cleanup __amd64 vector<Point,_std::allocator<Point>_> *ShipGraph::RoomSquares(ShipGraph *this, int roomId); // 004b4d30
+cleanup __amd64 std::vector<Point> *ShipGraph::RoomSquares(ShipGraph *this, int roomId); // 004b4d30
 ".4155448d6e01415441":  // unique sig
-static cleanup __amd64 vector<Point,_std::allocator<Point>_> *ShipGraph::ValidAdjacentSquares(int x, int y); // 004b4eb0
+static cleanup __amd64 std::vector<Point> *ShipGraph::ValidAdjacentSquares(int x, int y); // 004b4eb0
 ".4155448d6e":  // unique sig
-static cleanup __amd64 vector<Point,_std::allocator<Point>_> *ShipGraph::ValidAdjacentSquares(Point p); // 004b50a0
+static cleanup __amd64 std::vector<Point> *ShipGraph::ValidAdjacentSquares(Point p); // 004b50a0

@@ -67,7 +67,7 @@ cleanup __amd64 void ResourceControl::PreloadFont(ResourceControl *this, void *b
 ".41548d46":  // unique sig
 cleanup __amd64 font_data *ResourceControl::GetFontData(ResourceControl *this, int size, bool ignoreLanguage); // 005c0110
 ".4157415641554154554889fd534889f34883ec78":  // unique sig
-cleanup __amd64 void ResourceControl::LoadShipList(ResourceControl *this, vector<std::string,_std::allocator<std::string_>_> *imagesToLoad, bool displayLoadingBar); // 005c0350
+cleanup __amd64 void ResourceControl::LoadShipList(ResourceControl *this, std::vector<std::string> *imagesToLoad, bool displayLoadingBar); // 005c0350
 ".4155415455534889fb4883ec388b87":  // unique sig
 cleanup __amd64 void ResourceControl::LoadPlayerShips(ResourceControl *this); // 005c09c0
 ".41554154554889fdbf":  // unique sig
@@ -77,4 +77,4 @@ cleanup __amd64 bool ResourceControl::PreloadResources(ResourceControl *this, bo
 ".41564155415455534889fb4883ec50":  // unique sig
 cleanup __amd64 void ResourceControl::LoadEnemyShips(ResourceControl *this, string *playerShip); // 005c1fc0
 ".4157415641554154554889fd534883ec58":  // unique sig
-cleanup __amd64 void ResourceControl::LoadShipsStart(ResourceControl *this, vector<std::string,_std::allocator<std::string_>_> *shipImages, bool clear); // 005c25e0
+cleanup __amd64 void ResourceControl::LoadShipsStart(ResourceControl *this, std::vector<std::string> *shipImages, bool clear); // 005c25e0

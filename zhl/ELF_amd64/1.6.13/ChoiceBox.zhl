@@ -41,4 +41,4 @@ cleanup __amd64 void ChoiceBox::OnRender(ChoiceBox *this); // 004e94c0
 "!.554889f5488d7618534889fb488dbf":  // unique sig
 cleanup __amd64 void ChoiceBox::SetEventReward(ChoiceBox *this, ResourceEvent *resource); // 004ea750
 ".415741564989ce41554989f5":  // unique sig
-cleanup __amd64 void ChoiceBox::SetChoices(ChoiceBox *this, string *mainText, vector<ChoiceText,_std::allocator<ChoiceText>_> *newChoices, vector<ChoiceText,_std::allocator<ChoiceText>_> *choicesSecond); // 004ea9e0
+cleanup __amd64 void ChoiceBox::SetChoices(ChoiceBox *this, string *mainText, std::vector<ChoiceText> *newChoices, std::vector<ChoiceText> *choicesSecond); // 004ea9e0

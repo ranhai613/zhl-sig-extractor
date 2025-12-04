@@ -21,7 +21,7 @@ cleanup __amd64 float CrewMember::GetFireRepairMultiplier(CrewMember *this); // 
 "31c0c3662e0f1f8400000000000f1f00f30f7e05":  // unique sig
 cleanup __amd64 bool CrewMember::IsTelepathic(CrewMember *this); // 0043ba80
 "!f30f7e05????????c3":  // unique sig
-cleanup __amd64 pair<float,_float> CrewMember::GetPowerCooldown(CrewMember *this); // 0043ba90
+cleanup __amd64 std::pair<float, float> CrewMember::GetPowerCooldown(CrewMember *this); // 0043ba90
 ".31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f3":  // unique sig
 cleanup __amd64 bool CrewMember::PowerReady(CrewMember *this); // 0043baa0
 "f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f30f":  // unique sig
@@ -97,7 +97,7 @@ cleanup __amd64 void CrewMember::SetSkillProgress(CrewMember *this, int skill, i
 ".83fe05b8":  // unique sig
 cleanup __amd64 int CrewMember::GetSkillLevel(CrewMember *this, int skill); // 00482260
 ".488b87f80200004863f6":  // unique sig
-cleanup __amd64 pair<int,_int> CrewMember::GetSkillProgress(CrewMember *this, int skill); // 004822a0
+cleanup __amd64 std::pair<int, int> CrewMember::GetSkillProgress(CrewMember *this, int skill); // 004822a0
 "!.83fe0589":  // unique sig
 cleanup __amd64 float CrewMember::GetSkillModifier(CrewMember *this, int skill); // 004822d0
 ".488b07534889fbff90":  // unique sig
@@ -259,7 +259,7 @@ cleanup __amd64 void CrewMember::OnLoop(CrewMember *this); // 00486fd0
 ".4157415641554154554889f5be????????4c":  // unique sig
 cleanup __amd64 string CrewMember::GetTooltip(CrewMember *this); // 004887a0
 ".41574589c7415641554189d541":  // unique sig
-static cleanup __amd64 string CrewMember::GetSkillTooltip(int skillId, int skillLevel, pair<int,_int> progress, bool infoScreen); // 00488ce0
+static cleanup __amd64 string CrewMember::GetSkillTooltip(int skillId, int skillLevel, std::pair<int, int> progress, bool infoScreen); // 00488ce0
 ".5589f5534889fb4883ec08488bbfc0":  // unique sig
 cleanup __amd64 void CrewMember::SetSex(CrewMember *this, bool male); // 00489ed0
 ".4155415449bcab":  // unique sig

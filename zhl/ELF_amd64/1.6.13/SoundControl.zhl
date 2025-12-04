@@ -35,7 +35,7 @@ cleanup __amd64 void SoundControl::StartCombat(SoundControl *this); // 005cf720
 ".415741564155415455534889fb4883ec4880":  // unique sig
 cleanup __amd64 void SoundControl::SwitchTracks(SoundControl *this); // 005cf9c0
 ".41574156415541544989fc55534883ec58":  // unique sig
-cleanup __amd64 void SoundControl::StartPlaylist(SoundControl *this, vector<std::string,_std::allocator<std::string_>_> *newPlayList); // 005d0390
+cleanup __amd64 void SoundControl::StartPlaylist(SoundControl *this, std::vector<std::string> *newPlayList); // 005d0390
 ".41574889f841564155415455534883ec5880":  // unique sig
 cleanup __amd64 void SoundControl::PauseLoops(SoundControl *this, bool gamePaused); // 005d0630
 ".415741564155415455534889fb4883ec68":  // unique sig

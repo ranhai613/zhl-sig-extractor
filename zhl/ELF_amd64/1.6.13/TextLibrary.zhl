@@ -5,9 +5,9 @@ cleanup __amd64 string TextLibrary::FormatText<std::string_>(TextLibrary *this, 
 ".41544989fc555389":  // unique sig
 cleanup __amd64 string TextLibrary::FormatText<int>(TextLibrary *this, string *name); // 004ebf90
 ".41554989d5415445":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<std::string,_int>(TextLibrary *this, string *name); // 004ec100
+cleanup __amd64 string TextLibrary::FormatText<std::string, _int>(TextLibrary *this, string *name); // 004ec100
 ".41544989fc83c2304c":  // unique sig
-cleanup __amd64 string TextLibrary::DoFormatText<std::basic_string<char>_>(TextLibrary *this, int index, string *text, basic_string<char,_std::char_traits<char>,_std::allocator<char>_> *v); // 0057ff80
+cleanup __amd64 string TextLibrary::DoFormatText<std::basic_string<char>>(TextLibrary *this, int index, string *text, basic_string<char, _std::char_traits<char>, _std::allocator<char>> *v); // 0057ff80
 ".4883c760e9":  // unique sig
 cleanup __amd64 void TextLibrary::SetLanguage(TextLibrary *this, string *language); // 005b5290
 ".4157415641554989fd415455534883ec28488b77":  // unique sig

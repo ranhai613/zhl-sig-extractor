@@ -1,9 +1,16 @@
 from glob import glob
 import re
 
+C_CONTAINER_TYPES = ["pair", "vector", "array", "unordered_set", "map", "unordered_map", "unordered_multimap"]
+C_CONTAINER_TYPES_ONE = ["vector", "array", "unordered_set"]
+C_CONTAINER_TYPES_TWO = ["pair", "map", "unordered_map", "unordered_multimap"]
+
 def remove_const(content: str) -> str:
     if content.startswith("const_"):
         return content[len("const_"):]
+    elif content.startswith("_const_"):
+        return  content[len("_const_"):]
+        
     return content
 
 def preprocess(content: str) -> str:
@@ -11,34 +18,36 @@ def preprocess(content: str) -> str:
                      .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string")
     return content
 
-def process_template(content: str) -> str:
-    def process_vector(vector_content: str) -> str:
-        match = re.match(r"(.+),_std::allocator<.+?>_", vector_content)
-        assert match is not None
-        return f"std::vector<{remove_const(match.group(1))}>"
-    
-    def process_bracketed(content: str) -> str:
+def process_template(content: str) -> str:    
+    def process_type(content: str) -> str:
         print("Processing:", content)
-        return content
-        # TEMPLATE_PATTERN = re.compile(r'([\w:]+)<(.+)>')
-        # template_match = re.match(TEMPLATE_PATTERN, type)
-        # if template_match:
-        #     outer_type = template_match.group(1)
-        #     inner_type = template_match.group(2)
-        #     if outer_type in C_POINTER_TYPES:
-        #         return get_lua_type(inner_type)
+        
+        if content in C_CONTAINER_TYPES:
+            return "std::" + content
+        
+        TEMPLATE_PATTERN = re.compile(r'([\w:]+)<(.+)>')
+        template_match = re.match(TEMPLATE_PATTERN, content)
+        if template_match:
+            outer_type = template_match.group(1)
+            inner_type = template_match.group(2)
             
-        #     # Process the inner type recursively
-        #     template_rematch = re.match(TEMPLATE_PATTERN, inner_type)
-        #     if template_rematch:
-        #         processed_inner_type = get_lua_type(inner_type)
-        #     else:
-        #         types = inner_type.split(",")
-        #         if outer_type in C_CONTAINER_TYPES_TWO:
-        #             types = types[:2] # Only take the first two types for map types because the latter ones are a hash function or equal function, which we don't need
-        #         processed_inner_type = ", ".join([get_lua_type(inner) for inner in types])
-        #     # Process the outer type and combine
-        #     return f"{get_lua_type(outer_type)}<{processed_inner_type}>"
+            # Process the inner type recursively
+            template_rematch = re.match(TEMPLATE_PATTERN, inner_type)
+            if template_rematch:
+                processed_inner_type = process_type(inner_type)
+            else:
+                types = inner_type.split(",")
+                if outer_type.replace("std::", "") in C_CONTAINER_TYPES_ONE:
+                    types = types[:1] # Only take the first type for single-type containers
+                elif outer_type.replace("std::", "") in C_CONTAINER_TYPES_TWO:
+                    types = types[:2] # Only take the first two types for map types because the latter ones are a hash function or equal function, which we don't need
+                    for i in range(1, len(types)):
+                        if types[i].startswith("_"):
+                            types[i] = types[i][1:] # Remove leading underscore for the second type if exists
+                processed_inner_type = ", ".join([process_type(inner) for inner in types])
+            # Process the outer type and combine
+            return f"{process_type(outer_type)}<{processed_inner_type}>"
+        return remove_const(content)
         
     ret = ""
     word_buffer = ""
@@ -51,7 +60,7 @@ def process_template(content: str) -> str:
         elif ch == '>':
             bracket_level -= 1
             if bracket_level == 0:
-                ret += process_bracketed(f"{word_buffer}{bracket_content}>")
+                ret += process_type(f"{word_buffer}{bracket_content}>")
                 word_buffer = ""
                 bracket_content = ""
                 continue
