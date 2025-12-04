@@ -1,24 +1,24 @@
 "0fb6477884":  // unique sig
-cleanup __amd64 bool CrewBox::MouseClick(CrewBox * this); // 005078c0
+cleanup __amd64 bool CrewBox::MouseClick(CrewBox *this); // 005078c0
 ".85c978??45":  // unique sig
-cleanup __amd64 CrewMember * CrewBox::GetSelected(CrewBox * this, int x, int y, int width, int height); // 005078f0
+cleanup __amd64 CrewMember *CrewBox::GetSelected(CrewBox *this, int x, int y, int width, int height); // 005078f0
 ".534889fb4883ec1080bf4c":  // unique sig
-cleanup __amd64 void CrewBox::OnRenderSkillLevel(CrewBox * this); // 00507950
+cleanup __amd64 void CrewBox::OnRenderSkillLevel(CrewBox *this); // 00507950
 ".55534889fb4883ec18488b7f20":  // unique sig
-cleanup __amd64 void CrewBox::RenderIcon(CrewBox * this); // 00507a10
+cleanup __amd64 void CrewBox::RenderIcon(CrewBox *this); // 00507a10
 ".55534889fb4883ec48488b77":  // unique sig
-cleanup __amd64 void CrewBox::RenderLabels(CrewBox * this); // 00507b00
+cleanup __amd64 void CrewBox::RenderLabels(CrewBox *this); // 00507b00
 ".80bf34":  // unique sig
-cleanup __amd64 void CrewBox::RenderCloneDying(CrewBox * this); // 00507ca0
+cleanup __amd64 void CrewBox::RenderCloneDying(CrewBox *this); // 00507ca0
 ".41574889f048":  // unique sig
-cleanup __amd64 void CrewBox::CrewBox(CrewBox * this, Point loc, CrewMember * crew, int number); // 00507d10
+cleanup __amd64 void CrewBox::CrewBox(CrewBox *this, Point loc, CrewMember *crew, int number); // 00507d10
 ".415641554154554889fd534883ec10488bbf":  // unique sig
-cleanup __amd64 void CrewBox::~CrewBox(CrewBox * this, int __in_chrg); // 00508c80
+cleanup __amd64 void CrewBox::~CrewBox(CrewBox *this, int __in_chrg); // 00508c80
 ".5589f5534889fb4883ec08488b7f20":  // unique sig
-cleanup __amd64 void CrewBox::OnLoop(CrewBox * this, bool selected); // 00509190
+cleanup __amd64 void CrewBox::OnLoop(CrewBox *this, bool selected); // 00509190
 ".534889fb488d7f30":  // unique sig
-cleanup __amd64 void CrewBox::OnTouch(CrewBox * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00509240
+cleanup __amd64 void CrewBox::OnTouch(CrewBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00509240
 ".4157415641554c8daf68":  // unique sig
-cleanup __amd64 CrewMember * CrewBox::GetSelected(CrewBox * this, int mX, int mY); // 00509280
+cleanup __amd64 CrewMember *CrewBox::GetSelected(CrewBox *this, int mX, int mY); // 00509280
 ".415741564155415455534889fb488dbfe0":  // unique sig
-cleanup __amd64 void CrewBox::OnRender(CrewBox * this); // 0050b470
+cleanup __amd64 void CrewBox::OnRender(CrewBox *this); // 0050b470

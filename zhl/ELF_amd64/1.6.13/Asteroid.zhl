@@ -1,11 +1,11 @@
 "534889fb4883ec2039777c74??4883c4205bc30f1f440000e8????????0f57d2f30f104318f30f104b1ce8????????80bbc40000000074":  // unique sig
-cleanup __amd64 void Asteroid::OnRenderSpecific(Asteroid * this, int spaceId); // 00445ef0
+cleanup __amd64 void Asteroid::OnRenderSpecific(Asteroid *this, int spaceId); // 00445ef0
 ".534889fb4883ec2080bfc40000000074":  // unique sig
-cleanup __amd64 void Asteroid::OnUpdate(Asteroid * this); // 00447060
+cleanup __amd64 void Asteroid::OnUpdate(Asteroid *this); // 00447060
 ".4157baff":  // unique sig
-cleanup __amd64 void Asteroid::Asteroid(Asteroid * this, Pointf pos, int destinationSpace); // 0044a260
+cleanup __amd64 void Asteroid::Asteroid(Asteroid *this, Pointf pos, int destinationSpace); // 0044a260
 ".b802000000c3662e0f1f840000000000b801":  // unique sig
-cleanup __amd64 int Asteroid::GetType(Asteroid * this); // 0044c150
+cleanup __amd64 int Asteroid::GetType(Asteroid *this); // 0044c150
 // Failed to generate signature for function: Asteroid::~Asteroid at 0044d130
 // Failed to generate signature for function: Asteroid::~Asteroid at 0044d640
 // Failed to generate signature for function: Asteroid::~Asteroid at 0044db70

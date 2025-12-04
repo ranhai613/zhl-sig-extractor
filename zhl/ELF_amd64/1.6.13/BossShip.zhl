@@ -1,30 +1,30 @@
 "c7871402000000000000c7":  // unique sig
-cleanup __amd64 void BossShip::Restart(BossShip * this); // 00418b50
+cleanup __amd64 void BossShip::Restart(BossShip *this); // 00418b50
 ".f30f108724":  // unique sig
-cleanup __amd64 bool BossShip::IncomingFire(BossShip * this); // 00418b70
+cleanup __amd64 bool BossShip::IncomingFire(BossShip *this); // 00418b70
 "!.534889fb48c707????????48c7471000000000488bbf300200004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void BossShip::~BossShip(BossShip * this, int __in_chrg); // 00418bb0
+cleanup __amd64 void BossShip::~BossShip(BossShip *this, int __in_chrg); // 00418bb0
 "!74??e8????????4889df5be9????????906690":  // unique sig
 noHook __amd64 void BossShip::__DO_NOT_HOOK(); // 00418bdf
 ".53":  // non-unique sig
-cleanup __amd64 void BossShip::~BossShip(BossShip * this, int __in_chrg); // 00418be0
+cleanup __amd64 void BossShip::~BossShip(BossShip *this, int __in_chrg); // 00418be0
 ".53b901":  // unique sig
-cleanup __amd64 void BossShip::BossShip(BossShip * this, SpaceManager * space); // 00419090
+cleanup __amd64 void BossShip::BossShip(BossShip *this, SpaceManager *space); // 00419090
 ".534889fb488b7f104885ff74??488b":  // unique sig
-cleanup __amd64 void BossShip::ClearLocation(BossShip * this); // 00419140
+cleanup __amd64 void BossShip::ClearLocation(BossShip *this); // 00419140
 ".31c083bf14":  // unique sig
-cleanup __amd64 bool BossShip::Defeated(BossShip * this); // 00419160
+cleanup __amd64 bool BossShip::Defeated(BossShip *this); // 00419160
 ".415455534889fb4883ec30e8????????84":  // unique sig
-cleanup __amd64 LocationEvent * BossShip::GetSubEvent(BossShip * this); // 004191b0
+cleanup __amd64 LocationEvent *BossShip::GetSubEvent(BossShip *this); // 004191b0
 ".415741564155415455534889fb488d7f30":  // unique sig
-cleanup __amd64 void BossShip::StartStage(BossShip * this); // 00419490
+cleanup __amd64 void BossShip::StartStage(BossShip *this); // 00419490
 ".41544189f4554889fd538b":  // unique sig
-cleanup __amd64 void BossShip::SaveBoss(BossShip * this, int fd); // 00419e20
+cleanup __amd64 void BossShip::SaveBoss(BossShip *this, int fd); // 00419e20
 ".4883ec48488db7":  // unique sig
-cleanup __amd64 LocationEvent * BossShip::GetEvent(BossShip * this); // 00419f30
+cleanup __amd64 LocationEvent *BossShip::GetEvent(BossShip *this); // 00419f30
 ".4156415541544189f455534889fb89":  // unique sig
-cleanup __amd64 void BossShip::LoadBoss(BossShip * this, int fd); // 0041a0c0
+cleanup __amd64 void BossShip::LoadBoss(BossShip *this, int fd); // 0041a0c0
 ".4155415455534889fb4883ec28c6":  // unique sig
-cleanup __amd64 void BossShip::OnLoop(BossShip * this); // 0041a200
+cleanup __amd64 void BossShip::OnLoop(BossShip *this); // 0041a200
 ".b801000000c3662e0f1f840000000000415749":  // unique sig
-cleanup __amd64 bool BossShip::IsBoss(BossShip * this); // 0041a5a0
+cleanup __amd64 bool BossShip::IsBoss(BossShip *this); // 0041a5a0

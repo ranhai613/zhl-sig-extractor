@@ -1,14 +1,14 @@
 "534889fb488d7f08be????????4883ec10c6":  // unique sig
-cleanup __amd64 void ShipEvent::ShipEvent(ShipEvent * this); // 005f98e0
+cleanup __amd64 void ShipEvent::ShipEvent(ShipEvent *this); // 005f98e0
 ".415541544989fc55534883ec184c8baf":  // unique sig
-cleanup __amd64 void ShipEvent::~ShipEvent(ShipEvent * this, int __in_chrg); // 00605e50
+cleanup __amd64 void ShipEvent::~ShipEvent(ShipEvent *this, int __in_chrg); // 00605e50
 "!.554889fd5389f34883ec080fb637":  // unique sig
-cleanup __amd64 void ShipEvent::Save(ShipEvent * this, int fd); // 0060a070
+cleanup __amd64 void ShipEvent::Save(ShipEvent *this, int fd); // 0060a070
 "!005b5de9????????6690":  // unique sig
 noHook __amd64 void ShipEvent::__DO_NOT_HOOK(); // 0060a0df
 ".55":  // non-unique sig
-cleanup __amd64 void ShipEvent::Load(ShipEvent * this, int fd); // 0060a0e0
+cleanup __amd64 void ShipEvent::Load(ShipEvent *this, int fd); // 0060a0e0
 ".415641554989f5488d":  // unique sig
-cleanup __amd64 void ShipEvent::ShipEvent(ShipEvent * this, ShipEvent * param_2); // 0063aa80
+cleanup __amd64 void ShipEvent::ShipEvent(ShipEvent *this, ShipEvent *param_2); // 0063aa80
 ".4154554889f5488d":  // unique sig
-cleanup __amd64 ShipEvent * ShipEvent::operator=(ShipEvent * this, ShipEvent * param_2); // 0063c080
+cleanup __amd64 ShipEvent *ShipEvent::operator=(ShipEvent *this, ShipEvent *param_2); // 0063c080

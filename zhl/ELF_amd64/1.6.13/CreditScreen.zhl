@@ -1,14 +1,14 @@
 "48c74708????????48c74710????????c747180000000048":  // unique sig
-cleanup __amd64 void CreditScreen::CreditScreen(CreditScreen * this); // 00503100
+cleanup __amd64 void CreditScreen::CreditScreen(CreditScreen *this); // 00503100
 ".488b4730482b":  // unique sig
-cleanup __amd64 bool CreditScreen::Done(CreditScreen * this); // 00503140
+cleanup __amd64 bool CreditScreen::Done(CreditScreen *this); // 00503140
 ".415641554154554889fd534883ec60":  // unique sig
-cleanup __amd64 void CreditScreen::OnRender(CreditScreen * this); // 005031c0
+cleanup __amd64 void CreditScreen::OnRender(CreditScreen *this); // 005031c0
 ".f3c366666666662e0f1f840000000000f3c366666666662e0f1f84000000000083":  // unique sig
-cleanup __amd64 void CreditScreen::MouseClick(CreditScreen * this, int mX, int mY); // 00507090
+cleanup __amd64 void CreditScreen::MouseClick(CreditScreen *this, int mX, int mY); // 00507090
 "f3c366666666662e0f1f84000000000083fe0174":  // unique sig
-cleanup __amd64 void CreditScreen::MouseUp(CreditScreen * this, int mX, int mY); // 005070a0
+cleanup __amd64 void CreditScreen::MouseUp(CreditScreen *this, int mX, int mY); // 005070a0
 "83fe0174??83ee":  // unique sig
-cleanup __amd64 void CreditScreen::OnTouch(CreditScreen * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005070b0
+cleanup __amd64 void CreditScreen::OnTouch(CreditScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005070b0
 ".4157415641554154554889d5534889fb4881":  // unique sig
-cleanup __amd64 void CreditScreen::Start(CreditScreen * this, string * shipName, vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * crewNames); // 00507110
+cleanup __amd64 void CreditScreen::Start(CreditScreen *this, string *shipName, vector<std::string,_std::allocator<std::string_>_> *crewNames); // 00507110

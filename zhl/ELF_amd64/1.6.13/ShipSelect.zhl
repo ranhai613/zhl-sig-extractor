@@ -1,36 +1,36 @@
 "53ba6e":  // unique sig
-cleanup __amd64 void ShipSelect::ShipSelect(ShipSelect * this); // 00557ae0
+cleanup __amd64 void ShipSelect::ShipSelect(ShipSelect *this); // 00557ae0
 ".554889fd534883ec08488b4f30488b57284889c84829d048c1f80385c07e??31db0f1f80000000004863c3488b3cc24885ff74??488b17ff5208488b5528488b4d304889c883c3014829d048c1f80339c37c??4889":  // unique sig
-cleanup __amd64 void ShipSelect::ClearShipButtons(ShipSelect * this); // 00557dc0
+cleanup __amd64 void ShipSelect::ClearShipButtons(ShipSelect *this); // 00557dc0
 ".415741564155415455534889fb4881ec08":  // unique sig
-cleanup __amd64 void ShipSelect::OnLoop(ShipSelect * this); // 00557e20
+cleanup __amd64 void ShipSelect::OnLoop(ShipSelect *this); // 00557e20
 "!.4881c748050000e9????????0f":  // unique sig
-cleanup __amd64 void ShipSelect::KeyDown(ShipSelect * this, SDLKey sym); // 00558cd0
+cleanup __amd64 void ShipSelect::KeyDown(ShipSelect *this, SDLKey sym); // 00558cd0
 "!050000e9????????0f1f4000":  // unique sig
 noHook __amd64 void ShipSelect::__DO_NOT_HOOK(); // 00558cdf
 "!.53":  // non-unique sig
-cleanup __amd64 void ShipSelect::MouseClick(ShipSelect * this); // 00558ce0
+cleanup __amd64 void ShipSelect::MouseClick(ShipSelect *this); // 00558ce0
 "!c6e9????????906666662e0f1f840000000000":  // unique sig
 noHook __amd64 void ShipSelect::__DO_NOT_HOOK(); // 00558ddf
 "!.c6":  // non-unique sig
-cleanup __amd64 void ShipSelect::Close(ShipSelect * this); // 00558de0
+cleanup __amd64 void ShipSelect::Close(ShipSelect *this); // 00558de0
 "!58004881c748050000e9????????":  // unique sig
 noHook __amd64 void ShipSelect::__DO_NOT_HOOK(); // 00558def
 ".8b":  // non-unique sig
-cleanup __amd64 int ShipSelect::GetSelection(ShipSelect * this); // 00558df0
+cleanup __amd64 int ShipSelect::GetSelection(ShipSelect *this); // 00558df0
 ".415789f241":  // unique sig
-cleanup __amd64 void ShipSelect::SelectShip(ShipSelect * this, int ship); // 00558e00
+cleanup __amd64 void ShipSelect::SelectShip(ShipSelect *this, int ship); // 00558e00
 "!.85f6534889fb78":  // unique sig
-cleanup __amd64 void ShipSelect::SelectShip(ShipSelect * this, int ship); // 0055ae80
+cleanup __amd64 void ShipSelect::SelectShip(ShipSelect *this, int ship); // 0055ae80
 "!f65be9????????900f1f840000000000":  // unique sig
 noHook __amd64 void ShipSelect::__DO_NOT_HOOK(); // 0055aecf
 ".41":  // non-unique sig
-cleanup __amd64 void ShipSelect::OnTouch(ShipSelect * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0055aed0
+cleanup __amd64 void ShipSelect::OnTouch(ShipSelect *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0055aed0
 ".41574189f7415641554154":  // unique sig
-cleanup __amd64 void ShipSelect::MouseMove(ShipSelect * this, int mX, int mY); // 0055b2d0
+cleanup __amd64 void ShipSelect::MouseMove(ShipSelect *this, int mX, int mY); // 0055b2d0
 ".41574989ff41564155415455534881ecc8":  // unique sig
-cleanup __amd64 void ShipSelect::Open(ShipSelect * this, int ship, int type); // 0055bfe0
+cleanup __amd64 void ShipSelect::Open(ShipSelect *this, int ship, int type); // 0055bfe0
 ".554889fd534883ec08488b4f":  // unique sig
-cleanup __amd64 void ShipSelect::~ShipSelect(ShipSelect * this, int __in_chrg); // 0055ea40
+cleanup __amd64 void ShipSelect::~ShipSelect(ShipSelect *this, int __in_chrg); // 0055ea40
 ".41564155415455534889fb4883ec5080":  // unique sig
-cleanup __amd64 void ShipSelect::OnRender(ShipSelect * this); // 0055eb20
+cleanup __amd64 void ShipSelect::OnRender(ShipSelect *this); // 0055eb20

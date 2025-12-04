@@ -1,20 +1,20 @@
 "41574156415541545589d55389":  // unique sig
-cleanup __amd64 void WindowFrame::WindowFrame(WindowFrame * this, int x, int y, int w, int h); // 005da010
+cleanup __amd64 void WindowFrame::WindowFrame(WindowFrame *this, int x, int y, int w, int h); // 005da010
 "!.534889fb488b7f10e8????????48":  // unique sig
-cleanup __amd64 void WindowFrame::~WindowFrame(WindowFrame * this, int __in_chrg); // 005dab40
+cleanup __amd64 void WindowFrame::~WindowFrame(WindowFrame *this, int __in_chrg); // 005dab40
 "!.41544189d45589f55348":  // unique sig
-cleanup __amd64 void WindowFrame::Draw(WindowFrame * this, int x, int y); // 005dab60
+cleanup __amd64 void WindowFrame::Draw(WindowFrame *this, int x, int y); // 005dab60
 ".5589f2":  // unique sig
-cleanup __amd64 void WindowFrame::Draw(WindowFrame * this, int stencilBits); // 005dabf0
+cleanup __amd64 void WindowFrame::Draw(WindowFrame *this, int stencilBits); // 005dabf0
 "!.5389f24889fbbf01":  // unique sig
-cleanup __amd64 void WindowFrame::DrawMask(WindowFrame * this, int stencilBits); // 005dac50
+cleanup __amd64 void WindowFrame::DrawMask(WindowFrame *this, int stencilBits); // 005dac50
 "!18e8????????5b31d231f631ffe9????????90662e0f1f840000000000":  // unique sig
 noHook __amd64 void WindowFrame::__DO_NOT_HOOK(); // 005dac7f
 "!.53":  // non-unique sig
-cleanup __amd64 void WindowFrame::DrawBackground(WindowFrame * this, int stencilBits); // 005dac80
+cleanup __amd64 void WindowFrame::DrawBackground(WindowFrame *this, int stencilBits); // 005dac80
 "!20e8????????5b31d231f631ffe9????????90662e0f1f840000000000":  // unique sig
 noHook __amd64 void WindowFrame::__DO_NOT_HOOK(); // 005dacaf
 "!.48":  // non-unique sig
-cleanup __amd64 void WindowFrame::DrawOutline(WindowFrame * this); // 005dacb0
+cleanup __amd64 void WindowFrame::DrawOutline(WindowFrame *this); // 005dacb0
 ".41574189cf41564189":  // unique sig
 static cleanup __amd64 void WindowFrame::Draw(int x, int y, int w, int h, int stencilBits); // 005dacc0

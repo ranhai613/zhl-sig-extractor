@@ -1,24 +1,24 @@
 "488b3f4885ff74??488b0748":  // unique sig
-cleanup __amd64 int UpgradeBox::GetSystemId(UpgradeBox * this); // 0058a2e0
+cleanup __amd64 int UpgradeBox::GetSystemId(UpgradeBox *this); // 0058a2e0
 ".415741564989fe4155415455534881ecd801":  // unique sig
-cleanup __amd64 void UpgradeBox::OnRender(UpgradeBox * this); // 0058a390
+cleanup __amd64 void UpgradeBox::OnRender(UpgradeBox *this); // 0058a390
 ".488b174889f8":  // unique sig
-cleanup __amd64 void UpgradeBox::OnLoop(UpgradeBox * this); // 0058ada0
+cleanup __amd64 void UpgradeBox::OnLoop(UpgradeBox *this); // 0058ada0
 ".48833f0074??488b":  // unique sig
-cleanup __amd64 void UpgradeBox::MouseMove(UpgradeBox * this, int mX, int mY); // 0058ae00
+cleanup __amd64 void UpgradeBox::MouseMove(UpgradeBox *this, int mX, int mY); // 0058ae00
 ".534889fb4883ec20488b074885c00f84????????488b5728807a48000f84????????807a49000f":  // unique sig
-cleanup __amd64 void UpgradeBox::MouseClick(UpgradeBox * this, int mX, int mY); // 0058ae20
+cleanup __amd64 void UpgradeBox::MouseClick(UpgradeBox *this, int mX, int mY); // 0058ae20
 ".534889fb4883ec20488b0748":  // unique sig
-cleanup __amd64 void UpgradeBox::MouseRightClick(UpgradeBox * this, int mX, int mY); // 0058b170
+cleanup __amd64 void UpgradeBox::MouseRightClick(UpgradeBox *this, int mX, int mY); // 0058b170
 ".534889fb4883ec3048833f000f":  // unique sig
-cleanup __amd64 void UpgradeBox::OnTouch(UpgradeBox * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0058b250
+cleanup __amd64 void UpgradeBox::OnTouch(UpgradeBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0058b250
 ".538b4720":  // unique sig
-cleanup __amd64 void UpgradeBox::Undo(UpgradeBox * this); // 0058b380
+cleanup __amd64 void UpgradeBox::Undo(UpgradeBox *this); // 0058b380
 ".534889fb4883ec20488b3f4885ff74??8b":  // unique sig
-cleanup __amd64 void UpgradeBox::Accept(UpgradeBox * this); // 0058b3e0
+cleanup __amd64 void UpgradeBox::Accept(UpgradeBox *this); // 0058b3e0
 ".41554189d541544989f449":  // unique sig
-cleanup __amd64 void UpgradeBox::UpgradeBox(UpgradeBox * this, Point location, bool subsystem); // 0058b510
+cleanup __amd64 void UpgradeBox::UpgradeBox(UpgradeBox *this, Point location, bool subsystem); // 0058b510
 ".41574589c741564c":  // unique sig
-cleanup __amd64 void UpgradeBox::UpgradeBox(UpgradeBox * this, ShipManager * shipManager, ShipSystem * _sil__DO_NOT_USE_system, Point location, bool subsystem); // 0058b630
+cleanup __amd64 void UpgradeBox::UpgradeBox(UpgradeBox *this, ShipManager *shipManager, ShipSystem *_sil__DO_NOT_USE_system, Point location, bool subsystem); // 0058b630
 ".534889fb4883ec10488bbf60":  // unique sig
-cleanup __amd64 void UpgradeBox::~UpgradeBox(UpgradeBox * this, int __in_chrg); // 0058d980
+cleanup __amd64 void UpgradeBox::~UpgradeBox(UpgradeBox *this, int __in_chrg); // 0058d980

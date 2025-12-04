@@ -1,18 +1,18 @@
 "415741564155415455534889fbbf40":  // unique sig
-cleanup __amd64 void AsteroidGenerator::AsteroidGenerator(AsteroidGenerator * this); // 0042c8b0
+cleanup __amd64 void AsteroidGenerator::AsteroidGenerator(AsteroidGenerator *this); // 0042c8b0
 ".89d05389":  // unique sig
-cleanup __amd64 void AsteroidGenerator::Initialize(AsteroidGenerator * this, int numShips, int shields, bool defense); // 0042cb00
+cleanup __amd64 void AsteroidGenerator::Initialize(AsteroidGenerator *this, int numShips, int shields, bool defense); // 0042cb00
 "!.89b798000000c390":  // unique sig
-cleanup __amd64 void AsteroidGenerator::SetNumShips(AsteroidGenerator * this, int numShips); // 0042cd60
+cleanup __amd64 void AsteroidGenerator::SetNumShips(AsteroidGenerator *this, int numShips); // 0042cd60
 ".415741564155415455534889fb4881ec3803":  // unique sig
-cleanup __amd64 Projectile * AsteroidGenerator::GetNextAsteroid(AsteroidGenerator * this); // 0042cd70
+cleanup __amd64 Projectile *AsteroidGenerator::GetNextAsteroid(AsteroidGenerator *this); // 0042cd70
 ".415741564155415455534889fb4883ec1880bf":  // unique sig
-cleanup __amd64 void AsteroidGenerator::OnLoop(AsteroidGenerator * this); // 0042da20
+cleanup __amd64 void AsteroidGenerator::OnLoop(AsteroidGenerator *this); // 0042da20
 ".538b879c00":  // unique sig
-cleanup __amd64 void AsteroidGenerator::GetNextState(AsteroidGenerator * this); // 0042de70
+cleanup __amd64 void AsteroidGenerator::GetNextState(AsteroidGenerator *this); // 0042de70
 ".534889fbbf????????e8????????f30f5905????????f30f108b":  // unique sig
-cleanup __amd64 void AsteroidGenerator::UpdateState(AsteroidGenerator * this); // 0042df00
+cleanup __amd64 void AsteroidGenerator::UpdateState(AsteroidGenerator *this); // 0042df00
 "!.554889fd5389f34883ec08f30f1005":  // unique sig
-cleanup __amd64 void AsteroidGenerator::SaveAsteroids(AsteroidGenerator * this, int fd); // 0042dfc0
+cleanup __amd64 void AsteroidGenerator::SaveAsteroids(AsteroidGenerator *this, int fd); // 0042dfc0
 ".5589f5534889fb89f74883ec08e8????????f3":  // unique sig
-cleanup __amd64 void AsteroidGenerator::LoadAsteroids(AsteroidGenerator * this, int fd); // 0042e030
+cleanup __amd64 void AsteroidGenerator::LoadAsteroids(AsteroidGenerator *this, int fd); // 0042e030

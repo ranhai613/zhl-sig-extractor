@@ -1,70 +1,70 @@
 "534889fbe8????????c683":  // unique sig
-cleanup __amd64 void HackingSystem::Restart(HackingSystem * this); // 00641f00
+cleanup __amd64 void HackingSystem::Restart(HackingSystem *this); // 00641f00
 ".534889fb488bbf280800004885ff74??e8????????48c783280800000000000048c7834008000000000000c6834402000000488dbb48020000be010000005be9????????6666662e0f1f8400000000005348":  // unique sig
-cleanup __amd64 void HackingSystem::ShipDestroyed(HackingSystem * this); // 00641f20
+cleanup __amd64 void HackingSystem::ShipDestroyed(HackingSystem *this); // 00641f20
 "!534889fbe8????????488bbb28":  // unique sig
-cleanup __amd64 void HackingSystem::Jump(HackingSystem * this); // 00641f70
+cleanup __amd64 void HackingSystem::Jump(HackingSystem *this); // 00641f70
 "!e8????????4889df31f65be9????????906666662e0f1f840000000000":  // unique sig
 noHook __amd64 void HackingSystem::__DO_NOT_HOOK(); // 00641fcf
 ".48":  // non-unique sig
-cleanup __amd64 int HackingSystem::GetQueuedHackingCommand(HackingSystem * this); // 00641fd0
+cleanup __amd64 int HackingSystem::GetQueuedHackingCommand(HackingSystem *this); // 00641fd0
 ".8b874808":  // unique sig
-cleanup __amd64 int HackingSystem::GetSpendDrone(HackingSystem * this); // 00642000
+cleanup __amd64 int HackingSystem::GetSpendDrone(HackingSystem *this); // 00642000
 ".4863fff3":  // unique sig
 static cleanup __amd64 int HackingSystem::GetPulseTimer(int level); // 00642020
 "!.534889fb488bbf":  // unique sig
-cleanup __amd64 void HackingSystem::StopHacking(HackingSystem * this); // 00642040
+cleanup __amd64 void HackingSystem::StopHacking(HackingSystem *this); // 00642040
 ".5380bf44020000004889fb75":  // unique sig
-cleanup __amd64 bool HackingSystem::SoundLoop(HackingSystem * this); // 00642090
+cleanup __amd64 bool HackingSystem::SoundLoop(HackingSystem *this); // 00642090
 ".488bbf280800004885ff74??488b07488b80":  // unique sig
-cleanup __amd64 int HackingSystem::GetCurrentSystemId(HackingSystem * this); // 006420c0
+cleanup __amd64 int HackingSystem::GetCurrentSystemId(HackingSystem *this); // 006420c0
 ".534889fb4883ec304885f6":  // unique sig
-static cleanup __amd64 string HackingSystem::GetPulseTooltip(ShipSystem * _sil__DO_NOT_USE_system); // 006420f0
+static cleanup __amd64 string HackingSystem::GetPulseTooltip(ShipSystem *_sil__DO_NOT_USE_system); // 006420f0
 ".534889fb4883ec30488bbe":  // unique sig
-cleanup __amd64 string HackingSystem::GetPulseTooltip(HackingSystem * this); // 00642280
+cleanup __amd64 string HackingSystem::GetPulseTooltip(HackingSystem *this); // 00642280
 ".488bbf2808":  // unique sig
-cleanup __amd64 bool HackingSystem::SystemDestroyed(HackingSystem * this); // 006423d0
+cleanup __amd64 bool HackingSystem::SystemDestroyed(HackingSystem *this); // 006423d0
 ".534889fb4883ec2080":  // unique sig
-cleanup __amd64 void HackingSystem::InitiatePulse(HackingSystem * this); // 006423f0
+cleanup __amd64 void HackingSystem::InitiatePulse(HackingSystem *this); // 006423f0
 ".4883ec08e8????????83f8ff":  // unique sig
-cleanup __amd64 bool HackingSystem::PulseActive(HackingSystem * this); // 006424f0
+cleanup __amd64 bool HackingSystem::PulseActive(HackingSystem *this); // 006424f0
 ".5380bf44020000004889fb75":  // unique sig
-cleanup __amd64 bool HackingSystem::CanPulse(HackingSystem * this); // 00642510
+cleanup __amd64 bool HackingSystem::CanPulse(HackingSystem *this); // 00642510
 ".80bf60":  // unique sig
-cleanup __amd64 void HackingSystem::BlowHackingDrone(HackingSystem * this); // 00642560
+cleanup __amd64 void HackingSystem::BlowHackingDrone(HackingSystem *this); // 00642560
 ".4084f674??48c7":  // unique sig
-cleanup __amd64 void HackingSystem::SetArmed(HackingSystem * this, bool val); // 00642580
+cleanup __amd64 void HackingSystem::SetArmed(HackingSystem *this, bool val); // 00642580
 ".4889b72808":  // unique sig
-cleanup __amd64 void HackingSystem::ForceSystem(HackingSystem * this, ShipSystem * sys); // 006425a0
+cleanup __amd64 void HackingSystem::ForceSystem(HackingSystem *this, ShipSystem *sys); // 006425a0
 ".534889fb4883ec1080":  // unique sig
-cleanup __amd64 void HackingSystem::StartHacking(HackingSystem * this, ShipSystem * _sil__DO_NOT_USE_system); // 006425b0
+cleanup __amd64 void HackingSystem::StartHacking(HackingSystem *this, ShipSystem *_sil__DO_NOT_USE_system); // 006425b0
 ".0fb68744":  // unique sig
-cleanup __amd64 bool HackingSystem::GetHacking(HackingSystem * this); // 00642600
+cleanup __amd64 bool HackingSystem::GetHacking(HackingSystem *this); // 00642600
 ".5380bf44":  // unique sig
-cleanup __amd64 bool HackingSystem::CanHack(HackingSystem * this); // 00642610
+cleanup __amd64 bool HackingSystem::CanHack(HackingSystem *this); // 00642610
 ".31c0c3906666662e0f1f84000000000041":  // unique sig
-cleanup __amd64 bool HackingSystem::NeedsCommand(HackingSystem * this); // 00642640
+cleanup __amd64 bool HackingSystem::NeedsCommand(HackingSystem *this); // 00642640
 "41545589d5534889fb4c8da3":  // unique sig
-cleanup __amd64 void HackingSystem::HackingSystem(HackingSystem * this, int type, int roomId, int shipId, int starting_power); // 00642650
+cleanup __amd64 void HackingSystem::HackingSystem(HackingSystem *this, int type, int roomId, int shipId, int starting_power); // 00642650
 ".55534889fb4883ec38e8????????80bb70":  // unique sig
-cleanup __amd64 void HackingSystem::OnLoop(HackingSystem * this); // 00642740
+cleanup __amd64 void HackingSystem::OnLoop(HackingSystem *this); // 00642740
 "!.554889fd5389f34883ec080f":  // unique sig
-cleanup __amd64 void HackingSystem::SaveState(HackingSystem * this, int fd); // 00642b00
+cleanup __amd64 void HackingSystem::SaveState(HackingSystem *this, int fd); // 00642b00
 "!.4154554889fd89":  // unique sig
-cleanup __amd64 void HackingSystem::LoadState(HackingSystem * this, int fd); // 00642b80
+cleanup __amd64 void HackingSystem::LoadState(HackingSystem *this, int fd); // 00642b80
 "!e75b5d415ce9????????0f1f440000":  // unique sig
 noHook __amd64 void HackingSystem::__DO_NOT_HOOK(); // 00642c0f
 "!.53":  // non-unique sig
-cleanup __amd64 void HackingSystem::~HackingSystem(HackingSystem * this, int __in_chrg); // 00642c10
+cleanup __amd64 void HackingSystem::~HackingSystem(HackingSystem *this, int __in_chrg); // 00642c10
 "!00e8????????4889df5be9????????0f1f840000000000":  // unique sig
 noHook __amd64 void HackingSystem::__DO_NOT_HOOK(); // 00642c3f
 "!.48":  // non-unique sig
-cleanup __amd64 undefined HackingSystem::~HackingSystem(HackingSystem * this); // 00642c40
+cleanup __amd64 undefined HackingSystem::~HackingSystem(HackingSystem *this); // 00642c40
 "!e9????????0f1f8400000000004883ef10e9????????0f1f8000000000":  // unique sig
 noHook __amd64 void HackingSystem::__DO_NOT_HOOK(); // 00642c4f
 "!.53":  // non-unique sig
-cleanup __amd64 void HackingSystem::~HackingSystem(HackingSystem * this, int __in_chrg); // 00642c50
+cleanup __amd64 void HackingSystem::~HackingSystem(HackingSystem *this, int __in_chrg); // 00642c50
 "!48020000e8????????4889dfe8????????4889df5be9????????":  // unique sig
 noHook __amd64 void HackingSystem::__DO_NOT_HOOK(); // 00642c7f
 ".48":  // non-unique sig
-cleanup __amd64 undefined HackingSystem::~HackingSystem(HackingSystem * this); // 00642c80
+cleanup __amd64 undefined HackingSystem::~HackingSystem(HackingSystem *this); // 00642c80

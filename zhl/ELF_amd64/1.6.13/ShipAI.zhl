@@ -1,44 +1,44 @@
 "5589f5534889fb488d7f10":  // unique sig
-cleanup __amd64 void ShipAI::ShipAI(ShipAI * this, bool player); // 005e0560
+cleanup __amd64 void ShipAI::ShipAI(ShipAI *this, bool player); // 005e0560
 ".4084f674??80":  // unique sig
-cleanup __amd64 void ShipAI::SetStalemate(ShipAI * this, bool val); // 005e0700
+cleanup __amd64 void ShipAI::SetStalemate(ShipAI *this, bool val); // 005e0700
 ".f30f10879c":  // unique sig
-cleanup __amd64 bool ShipAI::GetStalemate(ShipAI * this); // 005e0720
+cleanup __amd64 bool ShipAI::GetStalemate(ShipAI *this); // 005e0720
 "!.554889fd5389f34883ec080fb6b739":  // unique sig
-cleanup __amd64 void ShipAI::Save(ShipAI * this, int fd); // 005e0760
+cleanup __amd64 void ShipAI::Save(ShipAI *this, int fd); // 005e0760
 "!0100004883c40889df5b5de9????????900f1f4000":  // unique sig
 noHook __amd64 void ShipAI::__DO_NOT_HOOK(); // 005e07ff
 ".55":  // non-unique sig
-cleanup __amd64 void ShipAI::Load(ShipAI * this, int fd); // 005e0800
+cleanup __amd64 void ShipAI::Load(ShipAI *this, int fd); // 005e0800
 ".41544989f45589d5":  // unique sig
-cleanup __amd64 void ShipAI::OnInit(ShipAI * this, ShipManager * shipManager, int boardingAI); // 005e08b0
+cleanup __amd64 void ShipAI::OnInit(ShipAI *this, ShipManager *shipManager, int boardingAI); // 005e08b0
 ".0f28d0f30f100d":  // unique sig
-cleanup __amd64 void ShipAI::SetEscapeTimer(ShipAI * this, float val); // 005e0950
+cleanup __amd64 void ShipAI::SetEscapeTimer(ShipAI *this, float val); // 005e0950
 ".5380bf38":  // unique sig
-cleanup __amd64 bool ShipAI::RequiredEvac(ShipAI * this); // 005e0980
+cleanup __amd64 bool ShipAI::RequiredEvac(ShipAI *this); // 005e0980
 ".3bb740":  // unique sig
-cleanup __amd64 void ShipAI::SetSurrenderThreshold(ShipAI * this, int amount); // 005e0a30
+cleanup __amd64 void ShipAI::SetSurrenderThreshold(ShipAI *this, int amount); // 005e0a30
 ".3bb73c":  // unique sig
-cleanup __amd64 void ShipAI::SetEscapeThreshold(ShipAI * this, int amount); // 005e0a50
+cleanup __amd64 void ShipAI::SetEscapeThreshold(ShipAI *this, int amount); // 005e0a50
 ".488b078b908801000031c085d27e??39973c":  // unique sig
-cleanup __amd64 bool ShipAI::Surrender(ShipAI * this); // 005e0a70
+cleanup __amd64 bool ShipAI::Surrender(ShipAI *this); // 005e0a70
 ".488b078b90":  // unique sig
-cleanup __amd64 bool ShipAI::Escape(ShipAI * this); // 005e0ab0
+cleanup __amd64 bool ShipAI::Escape(ShipAI *this); // 005e0ab0
 ".5380bf3a":  // unique sig
-cleanup __amd64 bool ShipAI::Escaped(ShipAI * this); // 005e0b10
+cleanup __amd64 bool ShipAI::Escaped(ShipAI *this); // 005e0b10
 ".534889fb488b3f80":  // unique sig
-cleanup __amd64 bool ShipAI::Destroyed(ShipAI * this); // 005e0b50
+cleanup __amd64 bool ShipAI::Destroyed(ShipAI *this); // 005e0b50
 ".5589f5534889fb4883ec08488b7f":  // unique sig
-cleanup __amd64 void ShipAI::SetEvacRequest(ShipAI * this, int val); // 005e0b90
+cleanup __amd64 void ShipAI::SetEvacRequest(ShipAI *this, int val); // 005e0b90
 "!.488977084881":  // unique sig
-cleanup __amd64 void ShipAI::SetEnemyShip(ShipAI * this, ShipManager * ship); // 005e0bf0
+cleanup __amd64 void ShipAI::SetEnemyShip(ShipAI *this, ShipManager *ship); // 005e0bf0
 ".5348837f":  // unique sig
-cleanup __amd64 pair<int,_int> ShipAI::GetTeleportCommand(ShipAI * this); // 005e0c00
+cleanup __amd64 pair<int,_int> ShipAI::GetTeleportCommand(ShipAI *this); // 005e0c00
 ".0f57c0c687":  // unique sig
-cleanup __amd64 void ShipAI::RestartStalemate(ShipAI * this); // 005e0d40
+cleanup __amd64 void ShipAI::RestartStalemate(ShipAI *this); // 005e0d40
 ".c6873a":  // unique sig
-cleanup __amd64 void ShipAI::CancelEscape(ShipAI * this); // 005e0d70
+cleanup __amd64 void ShipAI::CancelEscape(ShipAI *this); // 005e0d70
 ".4154554889fd5389f34883":  // unique sig
-cleanup __amd64 void ShipAI::CheckPowerLevels(ShipAI * this, bool hostile); // 005e0d90
+cleanup __amd64 void ShipAI::CheckPowerLevels(ShipAI *this, bool hostile); // 005e0d90
 ".41545589f5534889fb4883ec30":  // unique sig
-cleanup __amd64 void ShipAI::OnLoop(ShipAI * this, bool hostile); // 005e0fe0
+cleanup __amd64 void ShipAI::OnLoop(ShipAI *this, bool hostile); // 005e0fe0

@@ -1,7 +1,7 @@
 "534889fb488b3f31f6e8????????85c074":  // unique sig
-static cleanup __amd64 void FileHelper::deleteFile(string * filename); // 005b07b0
+static cleanup __amd64 void FileHelper::deleteFile(string *filename); // 005b07b0
 ".534889fb4883ec20e8????????488d54240e":  // unique sig
-static cleanup __amd64 string FileHelper::getResourceFile(string * resourceFile); // 005b07e0
+static cleanup __amd64 string FileHelper::getResourceFile(string *resourceFile); // 005b07e0
 ".534889fb4883ec10e8????????488d54":  // unique sig
 static cleanup __amd64 string FileHelper::getUserFolder(); // 005b0870
 ".534889fb4883ec20e8????????488d54":  // unique sig
@@ -11,13 +11,13 @@ static cleanup __amd64 void FileHelper::initFileHelper(); // 005b0930
 ".b801000000c3662e0f1f8400000000004883ec0848":  // unique sig
 static cleanup __amd64 int FileHelper::fileLength(int fd); // 005b09c0
 "4883ec08488b3f31":  // unique sig
-static cleanup __amd64 bool FileHelper::fileExists(string * filename); // 005b09d0
+static cleanup __amd64 bool FileHelper::fileExists(string *filename); // 005b09d0
 "!.488b36488b3fe9":  // unique sig
-static cleanup __amd64 void FileHelper::renameFile(string * filename, string * backup); // 005b09f0
+static cleanup __amd64 void FileHelper::renameFile(string *filename, string *backup); // 005b09f0
 "!36488b3fe9????????0f1f440000":  // unique sig
 noHook __amd64 void FileHelper::__DO_NOT_HOOK(); // 005b09ff
 ".53":  // non-unique sig
-static cleanup __amd64 int FileHelper::createBinaryFile(string * filename); // 005b0a00
+static cleanup __amd64 int FileHelper::createBinaryFile(string *filename); // 005b0a00
 ".4155bf????????415455534883ec28488d7424104889e2e8????????85c089c30f84????????89c7e8????????89dfe8????????85c00f84????????488b0d????????8b1424488b3d????????4889c84829f84839c277??73??488d0417488905????????488b742410e8????????488b7c2410e8????????48":  // unique sig
 static cleanup __amd64 bool FileHelper::saveFileExists(); // 005b0ab0
 ".4155bf????????415455534883ec28488d7424104889e2e8????????85c089c30f84????????89c7e8????????89dfe8????????85c00f84????????488b0d????????8b1424488b3d????????4889c84829f84839c277??73??488d0417488905????????488b742410e8????????488b7c2410e8????????c705????????00000000b800":  // unique sig
@@ -35,15 +35,15 @@ static cleanup __amd64 void FileHelper::deleteAllSaveFiles(); // 005b10d0
 ".8b05????????c3660f1f84000000000053":  // unique sig
 static cleanup __amd64 int FileHelper::getPosition(int fd); // 005b11b0
 "53488b3f31":  // unique sig
-static cleanup __amd64 int FileHelper::readBinaryFile(string * filename); // 005b11c0
+static cleanup __amd64 int FileHelper::readBinaryFile(string *filename); // 005b11c0
 ".415741564155415455534883ec1880":  // unique sig
 static cleanup __amd64 bool FileHelper::writeFloat(int fd, float val); // 005b1250
 ".415789f141":  // unique sig
 static cleanup __amd64 bool FileHelper::writeInt(int fd, int value); // 005b1460
 ".41574156415541544989f455534863":  // unique sig
-static cleanup __amd64 bool FileHelper::writeData(int fd, void * data, int size); // 005b1660
+static cleanup __amd64 bool FileHelper::writeData(int fd, void *data, int size); // 005b1660
 ".41574156415541545589fd":  // unique sig
-static cleanup __amd64 bool FileHelper::writeString(int fd, string * name); // 005b1850
+static cleanup __amd64 bool FileHelper::writeString(int fd, string *name); // 005b1850
 ".81fffffeff7f53":  // unique sig
 static cleanup __amd64 void FileHelper::closeBinaryFile(int fd); // 005b1a90
 ".4157415641554989fd4154555389":  // unique sig
@@ -55,6 +55,6 @@ static cleanup __amd64 int FileHelper::readInteger(int fd); // 005b1ee0
 ".4883ec0831d28935":  // unique sig
 static cleanup __amd64 bool FileHelper::seekPosition(int fd, int pos); // 005b1fe0
 ".4157415641554189d541545589":  // unique sig
-static cleanup __amd64 char * FileHelper::readBuffer(int fd, int size, bool nullTerminate); // 005b2000
+static cleanup __amd64 char *FileHelper::readBuffer(int fd, int size, bool nullTerminate); // 005b2000
 ".41554889f1415455":  // unique sig
-static cleanup __amd64 void FileHelper::readData(int fd, void * buffer, int size); // 005b20e0
+static cleanup __amd64 void FileHelper::readData(int fd, void *buffer, int size); // 005b20e0

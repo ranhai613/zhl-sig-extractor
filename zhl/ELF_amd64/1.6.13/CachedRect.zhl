@@ -1,18 +1,18 @@
 "8b471885c074??8b":  // unique sig
-cleanup __amd64 void CachedRect::CreatePrimitive(CachedRect * this); // 005a2f90
+cleanup __amd64 void CachedRect::CreatePrimitive(CachedRect *this); // 005a2f90
 "!.48c747080000000048c707????????c7471000000000c7471400000000c7471800000000c7471c00000000c3":  // unique sig
-cleanup __amd64 void CachedRect::CachedRect(CachedRect * this); // 005a2ff0
+cleanup __amd64 void CachedRect::CachedRect(CachedRect *this); // 005a2ff0
 ".48c747080000000048c707????????8977":  // unique sig
-cleanup __amd64 void CachedRect::CachedRect(CachedRect * this, int x, int y, int w, int h); // 005a3020
+cleanup __amd64 void CachedRect::CachedRect(CachedRect *this, int x, int y, int w, int h); // 005a3020
 "!.8b461048c747080000000048c707????????8947108b46148947148b46188947188b461c89471cc3":  // unique sig
-cleanup __amd64 void CachedRect::CachedRect(CachedRect * this, CachedRect * source); // 005a3040
+cleanup __amd64 void CachedRect::CachedRect(CachedRect *this, CachedRect *source); // 005a3040
 ".554889f5534889fb4883ec08e8????????8b":  // unique sig
-cleanup __amd64 CachedRect * CachedRect::operator=(CachedRect * this, CachedRect * rhs); // 005a3070
+cleanup __amd64 CachedRect *CachedRect::operator=(CachedRect *this, CachedRect *rhs); // 005a3070
 ".41544189d45589f5533977104889fb74??488b7b08e8????????48c7430800000000896b10448963145b5d415cc3669039571475??eb??900f1f84000000000041544189d45589f5533977184889fb74??488b7b08e8????????48c7430800000000896b184489631c5b5d415cc3669039571c75??eb??66":  // unique sig
-cleanup __amd64 void CachedRect::SetPosition(CachedRect * this, int x, int y); // 005a30b0
+cleanup __amd64 void CachedRect::SetPosition(CachedRect *this, int x, int y); // 005a30b0
 "!41544189d45589f5533977184889fb74??488b7b08e8????????48c7430800000000896b184489631c5b5d415cc3669039571c75??eb??66":  // unique sig
-cleanup __amd64 void CachedRect::SetSize(CachedRect * this, int w, int h); // 005a30f0
+cleanup __amd64 void CachedRect::SetSize(CachedRect *this, int w, int h); // 005a30f0
 ".48c707????????e9????????0f1f400053":  // unique sig
-cleanup __amd64 void CachedRect::~CachedRect(CachedRect * this, int __in_chrg); // 005a3130
+cleanup __amd64 void CachedRect::~CachedRect(CachedRect *this, int __in_chrg); // 005a3130
 "534889fb48c707????????e8????????4889df5be9????????0f1f8000000000534889fb4883":  // unique sig
-cleanup __amd64 void CachedRect::~CachedRect(CachedRect * this, int __in_chrg); // 005a3140
+cleanup __amd64 void CachedRect::~CachedRect(CachedRect *this, int __in_chrg); // 005a3140

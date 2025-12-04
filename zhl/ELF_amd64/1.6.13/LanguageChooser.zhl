@@ -1,20 +1,20 @@
 "415741564189d64155415445":  // unique sig
-cleanup __amd64 void LanguageChooser::OnTouch(LanguageChooser * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00542d20
+cleanup __amd64 void LanguageChooser::OnTouch(LanguageChooser *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00542d20
 ".41554531c0":  // unique sig
-cleanup __amd64 void LanguageChooser::MouseMove(LanguageChooser * this, int mX, int mY); // 00542dd0
+cleanup __amd64 void LanguageChooser::MouseMove(LanguageChooser *this, int mX, int mY); // 00542dd0
 ".488b7720488b4f":  // unique sig
-cleanup __amd64 void LanguageChooser::MouseClick(LanguageChooser * this, int mX, int mY); // 00542e40
+cleanup __amd64 void LanguageChooser::MouseClick(LanguageChooser *this, int mX, int mY); // 00542e40
 ".554889fd534883ec0848c707????????488b7528488b7f204889f04829f848c1f8034885c074??31c9":  // unique sig
-cleanup __amd64 void LanguageChooser::~LanguageChooser(LanguageChooser * this, int __in_chrg); // 00542eb0
+cleanup __amd64 void LanguageChooser::~LanguageChooser(LanguageChooser *this, int __in_chrg); // 00542eb0
 ".534889fbe8????????c743":  // unique sig
-cleanup __amd64 void LanguageChooser::Open(LanguageChooser * this); // 00542f40
+cleanup __amd64 void LanguageChooser::Open(LanguageChooser *this); // 00542f40
 ".55534889fb4883ec084863":  // unique sig
-cleanup __amd64 void LanguageChooser::OnLoop(LanguageChooser * this); // 00542f60
+cleanup __amd64 void LanguageChooser::OnLoop(LanguageChooser *this); // 00542f60
 ".554889fd534883ec0848c707????????488b75":  // unique sig
-cleanup __amd64 void LanguageChooser::~LanguageChooser(LanguageChooser * this, int __in_chrg); // 005434b0
+cleanup __amd64 void LanguageChooser::~LanguageChooser(LanguageChooser *this, int __in_chrg); // 005434b0
 ".4157bef0":  // unique sig
-cleanup __amd64 void LanguageChooser::OnRender(LanguageChooser * this); // 00543540
+cleanup __amd64 void LanguageChooser::OnRender(LanguageChooser *this); // 00543540
 ".8b4738c3":  // unique sig
-cleanup __amd64 int LanguageChooser::GetChoice(LanguageChooser * this); // 00543b40
+cleanup __amd64 int LanguageChooser::GetChoice(LanguageChooser *this); // 00543b40
 ".41564155415455534889fb4883ec7048":  // unique sig
-cleanup __amd64 void LanguageChooser::OnInit(LanguageChooser * this); // 00545000
+cleanup __amd64 void LanguageChooser::OnInit(LanguageChooser *this); // 00545000

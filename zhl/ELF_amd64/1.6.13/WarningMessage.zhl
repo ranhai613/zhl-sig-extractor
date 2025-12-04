@@ -1,36 +1,36 @@
 "41570f28f041":  // unique sig
-cleanup __amd64 void WarningMessage::RenderWithAlpha(WarningMessage * this, float alpha); // 005d84c0
+cleanup __amd64 void WarningMessage::RenderWithAlpha(WarningMessage *this, float alpha); // 005d84c0
 ".0f57c053":  // unique sig
-cleanup __amd64 void WarningMessage::WarningMessage(WarningMessage * this); // 005d88b0
+cleanup __amd64 void WarningMessage::WarningMessage(WarningMessage *this); // 005d88b0
 ".41564189ce415541544989f45548":  // unique sig
-cleanup __amd64 void WarningMessage::InitImage(WarningMessage * this, string * imageName, Point position, float length, bool flash); // 005d8a00
+cleanup __amd64 void WarningMessage::InitImage(WarningMessage *this, string *imageName, Point position, float length, bool flash); // 005d8a00
 ".41574589c7415641":  // unique sig
-cleanup __amd64 void WarningMessage::InitText(WarningMessage * this, TextString * text, Point position, float length, GL_Color textColor, bool centerText, bool flash); // 005d8a80
+cleanup __amd64 void WarningMessage::InitText(WarningMessage *this, TextString *text, Point position, float length, GL_Color textColor, bool centerText, bool flash); // 005d8a80
 ".55488d6f08534889fb4889ef48":  // unique sig
-cleanup __amd64 void WarningMessage::OnLoop(WarningMessage * this); // 005d8b50
+cleanup __amd64 void WarningMessage::OnLoop(WarningMessage *this); // 005d8b50
 ".53807f1e":  // unique sig
-cleanup __amd64 void WarningMessage::OnRender(WarningMessage * this); // 005d8ba0
+cleanup __amd64 void WarningMessage::OnRender(WarningMessage *this); // 005d8ba0
 ".4155415455534889fb4883ec08807f300075??48":  // unique sig
-cleanup __amd64 void WarningMessage::SetImage(WarningMessage * this, string * imageName); // 005d8c10
+cleanup __amd64 void WarningMessage::SetImage(WarningMessage *this, string *imageName); // 005d8c10
 ".4155415455534889fb4883ec08807f":  // unique sig
-cleanup __amd64 void WarningMessage::SetText(WarningMessage * this, TextString * text); // 005d8cc0
+cleanup __amd64 void WarningMessage::SetText(WarningMessage *this, TextString *text); // 005d8cc0
 ".415741564155415455534889fb4883ec1880":  // unique sig
-cleanup __amd64 void WarningMessage::SetText(WarningMessage * this, TextString * text, GL_Color textColor); // 005d8d70
+cleanup __amd64 void WarningMessage::SetText(WarningMessage *this, TextString *text, GL_Color textColor); // 005d8d70
 ".807f300048":  // unique sig
-cleanup __amd64 void WarningMessage::SetPosition(WarningMessage * this, Point position); // 005d8e90
+cleanup __amd64 void WarningMessage::SetPosition(WarningMessage *this, Point position); // 005d8e90
 "!.0f57c040":  // unique sig
-cleanup __amd64 void WarningMessage::SetLoop(WarningMessage * this, bool loop); // 005d8eb0
+cleanup __amd64 void WarningMessage::SetLoop(WarningMessage *this, bool loop); // 005d8eb0
 "!c708e9????????":  // unique sig
 noHook __amd64 void WarningMessage::__DO_NOT_HOOK(); // 005d8ebf
 "!.48":  // non-unique sig
-cleanup __amd64 void WarningMessage::SetSound(WarningMessage * this, string * name); // 005d8ec0
+cleanup __amd64 void WarningMessage::SetSound(WarningMessage *this, string *name); // 005d8ec0
 "!c7b8000000e9????????0f1f4000":  // unique sig
 noHook __amd64 void WarningMessage::__DO_NOT_HOOK(); // 005d8ecf
 ".40":  // non-unique sig
-cleanup __amd64 void WarningMessage::SetWarningLine(WarningMessage * this, bool enable); // 005d8ed0
+cleanup __amd64 void WarningMessage::SetWarningLine(WarningMessage *this, bool enable); // 005d8ed0
 ".53807f1c":  // unique sig
-cleanup __amd64 void WarningMessage::Start(WarningMessage * this); // 005d8ee0
+cleanup __amd64 void WarningMessage::Start(WarningMessage *this); // 005d8ee0
 ".534889fb4883ec10488b87b800000048c707????????48c787c0000000????????488d78e84881ff????????75??488b83a8000000488d78e84881ff????????0f85????????488b437048c74360????????488d78e84881ff????????75":  // unique sig
-cleanup __amd64 void WarningMessage::~WarningMessage(WarningMessage * this, int __in_chrg); // 005d9790
+cleanup __amd64 void WarningMessage::~WarningMessage(WarningMessage *this, int __in_chrg); // 005d9790
 ".534889fb4883ec10488b87b800000048c7":  // unique sig
-cleanup __amd64 void WarningMessage::~WarningMessage(WarningMessage * this, int __in_chrg); // 005d9900
+cleanup __amd64 void WarningMessage::~WarningMessage(WarningMessage *this, int __in_chrg); // 005d9900

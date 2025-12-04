@@ -1,40 +1,40 @@
 "41544989d4554889f5be":  // unique sig
-cleanup __amd64 RandomAmount EventsParser::PullMinMax(EventsParser * this, xml_node<char> * node, string * origin); // 005fead0
+cleanup __amd64 RandomAmount EventsParser::PullMinMax(EventsParser *this, xml_node<char> *node, string *origin); // 005fead0
 ".53be????????4889fbe8????????85c075??b8":  // unique sig
-static cleanup __amd64 bool EventsParser::ParseBoolean(string * input); // 005fecf0
+static cleanup __amd64 bool EventsParser::ParseBoolean(string *input); // 005fecf0
 ".41544989f455534889fb488d":  // unique sig
-static cleanup __amd64 TextString EventsParser::ParseTextNode(xml_node<char> * node); // 005fed40
+static cleanup __amd64 TextString EventsParser::ParseTextNode(xml_node<char> *node); // 005fed40
 ".41544989fc5553488b77":  // unique sig
-cleanup __amd64 void EventsParser::OnCleanup(EventsParser * this); // 005fee50
+cleanup __amd64 void EventsParser::OnCleanup(EventsParser *this); // 005fee50
 ".41574d89c741564989f6":  // unique sig
-cleanup __amd64 ResourcesTemplate * EventsParser::ProcessModifyItem(EventsParser * this, ResourcesTemplate * ret_template, xml_node<char> * node, string * origin); // 005fef80
+cleanup __amd64 ResourcesTemplate *EventsParser::ProcessModifyItem(EventsParser *this, ResourcesTemplate *ret_template, xml_node<char> *node, string *origin); // 005fef80
 ".41554154554889fd534883ec2848c7":  // unique sig
-cleanup __amd64 vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * EventsParser::ProcessImageList(EventsParser * this, xml_node<char> * node); // 005ff3d0
+cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *EventsParser::ProcessImageList(EventsParser *this, xml_node<char> *node); // 005ff3d0
 ".41554154554889fd534883ec6848c7":  // unique sig
-cleanup __amd64 vector<std::pair<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_RandomAmount>,_std::allocator<std::pair<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_RandomAmount>_>_> * EventsParser::ProcessEventCounts(EventsParser * this, xml_node<char> * node); // 005ff570
+cleanup __amd64 vector<std::pair<std::string,_RandomAmount>,_std::allocator<std::pair<std::string,_RandomAmount>_>_> *EventsParser::ProcessEventCounts(EventsParser *this, xml_node<char> *node); // 005ff570
 ".41574989ffba07":  // unique sig
-static cleanup __amd64 bool EventsParser::DoesEventExist(EventGenerator * generator, string * event); // 005ff760
+static cleanup __amd64 bool EventsParser::DoesEventExist(EventGenerator *generator, string *event); // 005ff760
 ".415741564155415455534889fb4881ec980000004c":  // unique sig
-static cleanup __amd64 bool EventsParser::DoubleCheck(EventGenerator * generator); // 005ff830
+static cleanup __amd64 bool EventsParser::DoubleCheck(EventGenerator *generator); // 005ff830
 ".53be????????4889fb83":  // unique sig
 static cleanup __amd64 string EventsParser::GetEventName(); // 00600030
 ".4157415641554989fd41544989cc":  // unique sig
-cleanup __amd64 vector<EventText,_std::allocator<EventText>_> * EventsParser::ProcessRandomText(EventsParser * this, xml_node<char> * node, EventGenerator * generator); // 00600050
+cleanup __amd64 vector<EventText,_std::allocator<EventText>_> *EventsParser::ProcessRandomText(EventsParser *this, xml_node<char> *node, EventGenerator *generator); // 00600050
 ".415741564989d641554989fd":  // unique sig
-cleanup __amd64 ShipTemplate EventsParser::ProcessShipEvent(EventsParser * this, xml_node<char> * node); // 00600470
+cleanup __amd64 ShipTemplate EventsParser::ProcessShipEvent(EventsParser *this, xml_node<char> *node); // 00600470
 ".41544989f4be????????554889fd534883ec20":  // unique sig
-cleanup __amd64 vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * EventsParser::ProcessShipList(EventsParser * this, xml_node<char> * node); // 00601600
+cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *EventsParser::ProcessShipList(EventsParser *this, xml_node<char> *node); // 00601600
 ".415741564989f6be":  // unique sig
-cleanup __amd64 string EventsParser::ProcessEvent(EventsParser * this, xml_node<char> * node, string * parentName); // 00601710
+cleanup __amd64 string EventsParser::ProcessEvent(EventsParser *this, xml_node<char> *node, string *parentName); // 00601710
 ".41554989cd41544989f4be????????5548":  // unique sig
-cleanup __amd64 vector<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_std::allocator<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>_> * EventsParser::ProcessEventList(EventsParser * this, xml_node<char> * node, string * listName); // 00603d70
+cleanup __amd64 vector<std::string,_std::allocator<std::string_>_> *EventsParser::ProcessEventList(EventsParser *this, xml_node<char> *node, string *listName); // 00603d70
 ".41574989d7415641554989cd415449":  // unique sig
-cleanup __amd64 void EventsParser::ProcessChoice(EventsParser * this, EventTemplate * event, xml_node<char> * node, string * eventName); // 00603eb0
+cleanup __amd64 void EventsParser::ProcessChoice(EventsParser *this, EventTemplate *event, xml_node<char> *node, string *eventName); // 00603eb0
 ".415741564989fe41554989d54154554889f54c":  // unique sig
-cleanup __amd64 void EventsParser::ProcessBaseNode(EventsParser * this, xml_node<char> * node, EventGenerator * generator); // 00604450
+cleanup __amd64 void EventsParser::ProcessBaseNode(EventsParser *this, xml_node<char> *node, EventGenerator *generator); // 00604450
 ".41574989d7415641554154":  // unique sig
-cleanup __amd64 void EventsParser::AddEvents(EventsParser * this, EventGenerator * generator, char * buffer, string * filename); // 00605260
+cleanup __amd64 void EventsParser::AddEvents(EventsParser *this, EventGenerator *generator, char *buffer, string *filename); // 00605260
 ".415531d2":  // unique sig
-cleanup __amd64 void EventsParser::AddAllEvents(EventsParser * this); // 006057c0
+cleanup __amd64 void EventsParser::AddAllEvents(EventsParser *this); // 006057c0
 ".415741564989fe415541bd":  // unique sig
-cleanup __amd64 void EventsParser::~EventsParser(EventsParser * this, int __in_chrg); // 00606220
+cleanup __amd64 void EventsParser::~EventsParser(EventsParser *this, int __in_chrg); // 00606220

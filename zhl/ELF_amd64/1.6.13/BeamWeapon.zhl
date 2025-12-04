@@ -1,34 +1,34 @@
 "554889fd4889f7534889f34883ec08488b06ff50503b85fc":  // unique sig
-cleanup __amd64 void BeamWeapon::SetMovingTarget(BeamWeapon * this, Targetable * target); // 0042e0a0
+cleanup __amd64 void BeamWeapon::SetMovingTarget(BeamWeapon *this, Targetable *target); // 0042e0a0
 ".0f57c0530f":  // unique sig
-cleanup __amd64 bool BeamWeapon::Dead(BeamWeapon * this); // 0042e0d0
+cleanup __amd64 bool BeamWeapon::Dead(BeamWeapon *this); // 0042e0d0
 ".415741564155415455534889fb4883ec6880bf":  // unique sig
-cleanup __amd64 void BeamWeapon::OnRenderSpecific(BeamWeapon * this, int spaceId); // 0042e110
+cleanup __amd64 void BeamWeapon::OnRenderSpecific(BeamWeapon *this, int spaceId); // 0042e110
 ".554889fd5389f34883ec08e8????????f30f108568":  // unique sig
-cleanup __amd64 void BeamWeapon::SaveProjectile(BeamWeapon * this, int fd); // 0042e850
+cleanup __amd64 void BeamWeapon::SaveProjectile(BeamWeapon *this, int fd); // 0042e850
 ".5589f5534889fb4883ec08e8????????89efe8????????f30f118368":  // unique sig
-cleanup __amd64 void BeamWeapon::LoadProjectile(BeamWeapon * this, int fd); // 0042e9e0
+cleanup __amd64 void BeamWeapon::LoadProjectile(BeamWeapon *this, int fd); // 0042e9e0
 ".41564189ce41554154554c":  // unique sig
-cleanup __amd64 void BeamWeapon::BeamWeapon(BeamWeapon * this, Pointf position, int ownerId, int targetId, Pointf targetPosition, Pointf targetPosition2, int length, Targetable * movingTarget, float heading); // 0042eb80
+cleanup __amd64 void BeamWeapon::BeamWeapon(BeamWeapon *this, Pointf position, int ownerId, int targetId, Pointf targetPosition, Pointf targetPosition2, int length, Targetable *movingTarget, float heading); // 0042eb80
 ".554889f5534889fb4883ec088b56":  // unique sig
-cleanup __amd64 void BeamWeapon::BeamWeapon(BeamWeapon * this, BeamWeapon * beam); // 0042ee80
+cleanup __amd64 void BeamWeapon::BeamWeapon(BeamWeapon *this, BeamWeapon *beam); // 0042ee80
 ".41564155415455534889fb4883ec1080":  // unique sig
-cleanup __amd64 void BeamWeapon::OnUpdate(BeamWeapon * this); // 0042efc0
+cleanup __amd64 void BeamWeapon::OnUpdate(BeamWeapon *this); // 0042efc0
 ".4157415641554989fd415455534881ecb8":  // unique sig
-cleanup __amd64 void BeamWeapon::CollisionCheck(BeamWeapon * this, Collideable * object); // 0042f340
+cleanup __amd64 void BeamWeapon::CollisionCheck(BeamWeapon *this, Collideable *object); // 0042f340
 ".4889b7f002":  // unique sig
-cleanup __amd64 void BeamWeapon::SetWeaponAnimation(BeamWeapon * this, WeaponAnimation * animation); // 00430540
+cleanup __amd64 void BeamWeapon::SetWeaponAnimation(BeamWeapon *this, WeaponAnimation *animation); // 00430540
 ".f3c3662e0f1f8400000000000f1f4000b805":  // unique sig
-cleanup __amd64 void BeamWeapon::EnterDestinationSpace(BeamWeapon * this); // 00430550
+cleanup __amd64 void BeamWeapon::EnterDestinationSpace(BeamWeapon *this); // 00430550
 "b805000000c3662e0f1f84000000000048":  // unique sig
-cleanup __amd64 int BeamWeapon::GetType(BeamWeapon * this); // 00430560
+cleanup __amd64 int BeamWeapon::GetType(BeamWeapon *this); // 00430560
 ".f30f100d????????530f28c14889fbc70700000000488d7f04e8????????4889d8c7430c00000000c74310000000005bc3662e0f1f8400000000000f1f44000048":  // unique sig
-cleanup __amd64 CollisionResponse * BeamWeapon::CollisionMoving(BeamWeapon * this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00430680
+cleanup __amd64 CollisionResponse *BeamWeapon::CollisionMoving(BeamWeapon *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00430680
 ".415741564989fe4155415455534883ec58488b871003000048c707????????48c74708????????4889c648890424488b87080300004839c60f84????????488db0980000004c8da8800000004989c448897c24284989c64889742420":  // unique sig
-cleanup __amd64 void BeamWeapon::~BeamWeapon(BeamWeapon * this, int __in_chrg); // 00430770
+cleanup __amd64 void BeamWeapon::~BeamWeapon(BeamWeapon *this, int __in_chrg); // 00430770
 ".4883ef08e9????????0f1f8000000000415741":  // unique sig
-cleanup __amd64 undefined BeamWeapon::~BeamWeapon(BeamWeapon * this); // 00431210
+cleanup __amd64 undefined BeamWeapon::~BeamWeapon(BeamWeapon *this); // 00431210
 "415741564989fe4155415455534883ec58488b871003000048c707????????48c74708????????4889c648890424488b87080300004839c60f84????????488db0980000004c8da8800000004989c448897c24284989c64889742418":  // unique sig
-cleanup __amd64 void BeamWeapon::~BeamWeapon(BeamWeapon * this, int __in_chrg); // 00431220
+cleanup __amd64 void BeamWeapon::~BeamWeapon(BeamWeapon *this, int __in_chrg); // 00431220
 ".4883ef08e9????????0f1f80000000004157":  // unique sig
-cleanup __amd64 undefined BeamWeapon::~BeamWeapon(BeamWeapon * this); // 00431cb0
+cleanup __amd64 undefined BeamWeapon::~BeamWeapon(BeamWeapon *this); // 00431cb0

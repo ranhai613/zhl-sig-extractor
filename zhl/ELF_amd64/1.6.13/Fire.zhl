@@ -1,34 +1,34 @@
 "0f57c0c74748000080bff30f11471cf30f11474cc390662e0f1f840000000000c7474c00000000c30f1f8400000000005553":  // unique sig
-cleanup __amd64 void Fire::Repair(Fire * this); // 00499800
+cleanup __amd64 void Fire::Repair(Fire *this); // 00499800
 "c7474c00000000c30f1f8400000000005553":  // unique sig
-cleanup __amd64 void Fire::ResetStartTimer(Fire * this); // 00499820
+cleanup __amd64 void Fire::ResetStartTimer(Fire *this); // 00499820
 "55534889fb4883ec0880bfd8":  // unique sig
-cleanup __amd64 void Fire::OnLoop(Fire * this); // 00499830
+cleanup __amd64 void Fire::OnLoop(Fire *this); // 00499830
 ".5589f5534889fb4883ec18488b07ff505084c074":  // unique sig
-cleanup __amd64 void Fire::UpdateDeathTimer(Fire * this, int connectedFires); // 004998c0
+cleanup __amd64 void Fire::UpdateDeathTimer(Fire *this, int connectedFires); // 004998c0
 ".5589f5534889fb4883ec18488b07ff":  // unique sig
-cleanup __amd64 void Fire::UpdateStartTimer(Fire * this, int doorLevel); // 004999e0
+cleanup __amd64 void Fire::UpdateStartTimer(Fire *this, int doorLevel); // 004999e0
 ".4157be????????415641554154554889fd534881":  // unique sig
-cleanup __amd64 void Fire::OnInit(Fire * this); // 00499af0
+cleanup __amd64 void Fire::OnInit(Fire *this); // 00499af0
 ".5389f2be":  // unique sig
-cleanup __amd64 void Fire::Fire(Fire * this, int shipId); // 0049a670
+cleanup __amd64 void Fire::Fire(Fire *this, int shipId); // 0049a670
 ".488b07534889fbff5038":  // unique sig
-cleanup __amd64 void Fire::Reset(Fire * this); // 0049aa40
+cleanup __amd64 void Fire::Reset(Fire *this); // 0049aa40
 ".f30f114750":  // unique sig
-cleanup __amd64 void Fire::SetOxygenLevel(Fire * this, float oxygen); // 0049aa60
+cleanup __amd64 void Fire::SetOxygenLevel(Fire *this, float oxygen); // 0049aa60
 ".534889fb4883ec30f3":  // unique sig
-cleanup __amd64 void Fire::OnRender(Fire * this); // 0049aa70
+cleanup __amd64 void Fire::OnRender(Fire *this); // 0049aa70
 "!.488b07488b4050ffe00f":  // unique sig
-cleanup __amd64 bool Fire::Present(Fire * this); // 0049ab60
+cleanup __amd64 bool Fire::Present(Fire *this); // 0049ab60
 "!.488b07f30f":  // unique sig
-cleanup __amd64 void Fire::Spread(Fire * this); // 0049ab70
+cleanup __amd64 void Fire::Spread(Fire *this); // 0049ab70
 ".415641554154554889fd534883ec10488b87b0":  // unique sig
-cleanup __amd64 void Fire::~Fire(Fire * this, int __in_chrg); // 0049ab90
+cleanup __amd64 void Fire::~Fire(Fire *this, int __in_chrg); // 0049ab90
 ".4883ef10e9????????0f1f80000000004156":  // unique sig
-cleanup __amd64 undefined Fire::~Fire(Fire * this); // 0049b060
+cleanup __amd64 undefined Fire::~Fire(Fire *this); // 0049b060
 "!.eb??66904883ef10e9????????0f1f8000000000":  // unique sig
 noHook __amd64 void Fire::__DO_NOT_HOOK(); // 0049b06f
 "41":  // non-unique sig
-cleanup __amd64 void Fire::~Fire(Fire * this, int __in_chrg); // 0049b070
+cleanup __amd64 void Fire::~Fire(Fire *this, int __in_chrg); // 0049b070
 ".4883ef10e9????????0f1f8000000000f3":  // unique sig
-cleanup __amd64 undefined Fire::~Fire(Fire * this); // 0049b550
+cleanup __amd64 undefined Fire::~Fire(Fire *this); // 0049b550

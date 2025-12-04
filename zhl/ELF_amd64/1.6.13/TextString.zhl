@@ -1,6 +1,6 @@
 "53807e08":  // unique sig
-cleanup __amd64 string TextString::GetText(TextString * this); // 005f98a0
+cleanup __amd64 string TextString::GetText(TextString *this); // 005f98a0
 ".4883ec38807f":  // unique sig
-cleanup __amd64 bool TextString::empty(TextString * this); // 00605c60
+cleanup __amd64 bool TextString::empty(TextString *this); // 00605c60
 ".41544989f455534889fb4883ec4080":  // unique sig
-cleanup __amd64 TextString * TextString::operator+=(TextString * this, string * other); // 00638e80
+cleanup __amd64 TextString *TextString::operator+=(TextString *this, string *other); // 00638e80

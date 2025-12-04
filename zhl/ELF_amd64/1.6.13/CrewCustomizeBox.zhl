@@ -1,20 +1,20 @@
 "534889fb4883ec2080bf68":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::CheckContents(CrewCustomizeBox * this); // 005163c0
+cleanup __amd64 void CrewCustomizeBox::CheckContents(CrewCustomizeBox *this); // 005163c0
 ".55534889fb4883ec4880bf38":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::MouseClick(CrewCustomizeBox * this); // 00518030
+cleanup __amd64 void CrewCustomizeBox::MouseClick(CrewCustomizeBox *this); // 00518030
 ".415541544989f455534889fb4883ec68":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::SetCustomizeMode(CrewCustomizeBox * this, Point loc); // 00518400
+cleanup __amd64 void CrewCustomizeBox::SetCustomizeMode(CrewCustomizeBox *this, Point loc); // 00518400
 ".41544189d45589f5534889fb4883ec3080":  // unique sig
-cleanup __amd64 bool CrewCustomizeBox::ContainsPoint(CrewCustomizeBox * this, int x, int y); // 00518870
+cleanup __amd64 bool CrewCustomizeBox::ContainsPoint(CrewCustomizeBox *this, int x, int y); // 00518870
 ".41554154554889f549":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::CrewCustomizeBox(CrewCustomizeBox * this, Point location, ShipManager * shipManager, int slot); // 005197a0
+cleanup __amd64 void CrewCustomizeBox::CrewCustomizeBox(CrewCustomizeBox *this, Point location, ShipManager *shipManager, int slot); // 005197a0
 ".41544189d431d25589f5538b47604889fb39c67e??03476839c60f":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::MouseMove(CrewCustomizeBox * this, int mX, int mY); // 0051a0b0
+cleanup __amd64 void CrewCustomizeBox::MouseMove(CrewCustomizeBox *this, int mX, int mY); // 0051a0b0
 ".41574189d7415645":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::OnTouch(CrewCustomizeBox * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0051a560
+cleanup __amd64 void CrewCustomizeBox::OnTouch(CrewCustomizeBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0051a560
 ".534889fb4883ec1048c707????????488bbf70070000e8????????488bbb78070000e8????????488dbbd8060000e8????????488dbb48060000e8????????488dbb48050000e8????????488dbb48040000e8????????488dbb38030000e8????????488bbb2003000048c703????????e8????????488bbb28030000e8????????488bbbe00200004885ff74??e8????????488bbbc80200004885ff74??e8????????488b83c0020000488d78e84881ff????????75??488dbbb8010000e8????????488dbbb8000000e8????????488b7b2848c703????????e8????????488b7b30e8????????488b7b38e8????????488b7b40e8????????488b7b08e8????????488b4320488d78e84881ff????????75??4883":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::~CrewCustomizeBox(CrewCustomizeBox * this, int __in_chrg); // 0051a930
+cleanup __amd64 void CrewCustomizeBox::~CrewCustomizeBox(CrewCustomizeBox *this, int __in_chrg); // 0051a930
 ".534889fb4883ec1048c707????????488bbf70":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::~CrewCustomizeBox(CrewCustomizeBox * this, int __in_chrg); // 0051aac0
+cleanup __amd64 void CrewCustomizeBox::~CrewCustomizeBox(CrewCustomizeBox *this, int __in_chrg); // 0051aac0
 ".415741564155415455534889fb4883ec7880":  // unique sig
-cleanup __amd64 void CrewCustomizeBox::OnRender(CrewCustomizeBox * this, bool dragging); // 0051ac50
+cleanup __amd64 void CrewCustomizeBox::OnRender(CrewCustomizeBox *this, bool dragging); // 0051ac50

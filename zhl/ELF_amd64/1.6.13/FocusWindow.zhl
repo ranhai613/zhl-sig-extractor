@@ -1,40 +1,40 @@
 "f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3":  // unique sig
-cleanup __amd64 void FocusWindow::OnLoop(FocusWindow * this); // 004eb3e0
+cleanup __amd64 void FocusWindow::OnLoop(FocusWindow *this); // 004eb3e0
 "31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400031":  // unique sig
-cleanup __amd64 bool FocusWindow::LockWindow(FocusWindow * this); // 004eb3f0
+cleanup __amd64 bool FocusWindow::LockWindow(FocusWindow *this); // 004eb3f0
 "f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400031":  // unique sig
-cleanup __amd64 void FocusWindow::MouseUp(FocusWindow * this, int mX, int mY); // 004eb400
+cleanup __amd64 void FocusWindow::MouseUp(FocusWindow *this, int mX, int mY); // 004eb400
 "f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0041":  // unique sig
-cleanup __amd64 void FocusWindow::MouseRightClick(FocusWindow * this, int mX, int mY); // 004eb410
+cleanup __amd64 void FocusWindow::MouseRightClick(FocusWindow *this, int mX, int mY); // 004eb410
 "31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0041":  // unique sig
-cleanup __amd64 bool FocusWindow::KeyUp(FocusWindow * this, SDLKey sym); // 004eb420
+cleanup __amd64 bool FocusWindow::KeyUp(FocusWindow *this, SDLKey sym); // 004eb420
 "31c0c3662e0f1f8400000000000f1f004154":  // unique sig
-cleanup __amd64 bool FocusWindow::PriorityPopup(FocusWindow * this); // 004eb430
+cleanup __amd64 bool FocusWindow::PriorityPopup(FocusWindow *this); // 004eb430
 ".31c0c3662e0f1f8400000000000f1f0048c7":  // unique sig
-cleanup __amd64 bool FocusWindow::KeyDown(FocusWindow * this, SDLKey sym); // 005030f0
+cleanup __amd64 bool FocusWindow::KeyDown(FocusWindow *this, SDLKey sym); // 005030f0
 ".48897718c390662e0f1f840000000000c6":  // unique sig
-cleanup __amd64 void FocusWindow::SetPosition(FocusWindow * this, Point p); // 00521ec0
+cleanup __amd64 void FocusWindow::SetPosition(FocusWindow *this, Point p); // 00521ec0
 "!c6470800c390":  // unique sig
-cleanup __amd64 void FocusWindow::Close(FocusWindow * this); // 00521ed0
+cleanup __amd64 void FocusWindow::Close(FocusWindow *this); // 00521ed0
 "!0800c390662e0f1f840000000000":  // unique sig
 noHook __amd64 void FocusWindow::__DO_NOT_HOOK(); // 00521edf
 ".f3":  // non-unique sig
-cleanup __amd64 void FocusWindow::OnRender(FocusWindow * this); // 00521ee0
+cleanup __amd64 void FocusWindow::OnRender(FocusWindow *this); // 00521ee0
 ".c6470801c390662e0f1f84000000000080":  // unique sig
-cleanup __amd64 void FocusWindow::Open(FocusWindow * this); // 00521ef0
+cleanup __amd64 void FocusWindow::Open(FocusWindow *this); // 00521ef0
 "807f140075??f3":  // unique sig
-cleanup __amd64 void FocusWindow::MouseClick(FocusWindow * this, int mX, int mY); // 00521f00
+cleanup __amd64 void FocusWindow::MouseClick(FocusWindow *this, int mX, int mY); // 00521f00
 ".83fe0474??8b47":  // unique sig
-cleanup __amd64 void FocusWindow::OnTouch(FocusWindow * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00521f20
+cleanup __amd64 void FocusWindow::OnTouch(FocusWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00521f20
 "!.4084f6488b0774":  // unique sig
-cleanup __amd64 void FocusWindow::SetOpen(FocusWindow * this, bool open); // 00521f80
+cleanup __amd64 void FocusWindow::SetOpen(FocusWindow *this, bool open); // 00521f80
 "!20ffe0662e0f1f840000000000":  // unique sig
 noHook __amd64 void FocusWindow::__DO_NOT_HOOK(); // 00521f9f
 ".8b":  // non-unique sig
-cleanup __amd64 void FocusWindow::MouseMove(FocusWindow * this, int mX, int mY); // 00521fa0
+cleanup __amd64 void FocusWindow::MouseMove(FocusWindow *this, int mX, int mY); // 00521fa0
 "!.53baffffffff4889fb48c7":  // unique sig
-cleanup __amd64 void FocusWindow::FocusWindow(FocusWindow * this); // 00521ff0
+cleanup __amd64 void FocusWindow::FocusWindow(FocusWindow *this); // 00521ff0
 ".48c707????????c30f1f84000000000048c7":  // unique sig
-cleanup __amd64 void FocusWindow::~FocusWindow(FocusWindow * this, int __in_chrg); // 00522030
+cleanup __amd64 void FocusWindow::~FocusWindow(FocusWindow *this, int __in_chrg); // 00522030
 "48c707????????e9????????0f1f4000534889fb48c707????????48":  // unique sig
-cleanup __amd64 void FocusWindow::~FocusWindow(FocusWindow * this, int __in_chrg); // 00522040
+cleanup __amd64 void FocusWindow::~FocusWindow(FocusWindow *this, int __in_chrg); // 00522040

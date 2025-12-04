@@ -1,40 +1,40 @@
 "e9????????90662e0f1f840000000000534889fbe8????????488b":  // unique sig
-cleanup __amd64 bool OxygenSystem::Functioning(OxygenSystem * this); // 00644070
+cleanup __amd64 bool OxygenSystem::Functioning(OxygenSystem *this); // 00644070
 "534889fbe8????????488bb3":  // unique sig
-cleanup __amd64 void OxygenSystem::Restart(OxygenSystem * this); // 00644080
+cleanup __amd64 void OxygenSystem::Restart(OxygenSystem *this); // 00644080
 ".e9????????90662e0f1f840000000000415455":  // unique sig
-cleanup __amd64 void OxygenSystem::OnRender(OxygenSystem * this); // 006440f0
+cleanup __amd64 void OxygenSystem::OnRender(OxygenSystem *this); // 006440f0
 "4154554863eebe":  // unique sig
-cleanup __amd64 void OxygenSystem::OxygenSystem(OxygenSystem * this, int numRooms, int roomId, int shipId, int starting_power); // 00644100
+cleanup __amd64 void OxygenSystem::OxygenSystem(OxygenSystem *this, int numRooms, int roomId, int shipId, int starting_power); // 00644100
 ".4883af50":  // unique sig
-cleanup __amd64 void OxygenSystem::RemoveRoom(OxygenSystem * this); // 006442f0
+cleanup __amd64 void OxygenSystem::RemoveRoom(OxygenSystem *this); // 006442f0
 ".5380bf24":  // unique sig
-cleanup __amd64 float OxygenSystem::GetRefillSpeed(OxygenSystem * this); // 00644300
+cleanup __amd64 float OxygenSystem::GetRefillSpeed(OxygenSystem *this); // 00644300
 ".85f60f57":  // unique sig
-cleanup __amd64 float OxygenSystem::GetOxygenLevel(OxygenSystem * this, int roomId); // 006443a0
+cleanup __amd64 float OxygenSystem::GetOxygenLevel(OxygenSystem *this, int roomId); // 006443a0
 ".488b87480200004863f648":  // unique sig
-cleanup __amd64 void OxygenSystem::ModifyRoomOxygen(OxygenSystem * this, int roomId, float amount); // 006443d0
+cleanup __amd64 void OxygenSystem::ModifyRoomOxygen(OxygenSystem *this, int roomId, float amount); // 006443d0
 ".488b87480200004863f6f3":  // unique sig
-cleanup __amd64 void OxygenSystem::SetRoomOxygen(OxygenSystem * this, int roomId, float amount); // 006443f0
+cleanup __amd64 void OxygenSystem::SetRoomOxygen(OxygenSystem *this, int roomId, float amount); // 006443f0
 ".415541544989fc5589d5":  // unique sig
-cleanup __amd64 void OxygenSystem::ComputeAirLoss(OxygenSystem * this, int roomId, float base_loss, bool silent); // 00644400
+cleanup __amd64 void OxygenSystem::ComputeAirLoss(OxygenSystem *this, int roomId, float base_loss, bool silent); // 00644400
 ".85d289d07e":  // unique sig
-cleanup __amd64 void OxygenSystem::UpdateBreach(OxygenSystem * this, int roomId, int count, bool silent); // 00644580
+cleanup __amd64 void OxygenSystem::UpdateBreach(OxygenSystem *this, int roomId, int count, bool silent); // 00644580
 ".4154555389d34883ec20":  // unique sig
-cleanup __amd64 void OxygenSystem::UpdateAirlock(OxygenSystem * this, int roomId, int count); // 006445b0
+cleanup __amd64 void OxygenSystem::UpdateAirlock(OxygenSystem *this, int roomId, int count); // 006445b0
 ".488b874802":  // unique sig
-cleanup __amd64 void OxygenSystem::EmptyOxygen(OxygenSystem * this, int roomId); // 00644680
+cleanup __amd64 void OxygenSystem::EmptyOxygen(OxygenSystem *this, int roomId); // 00644680
 ".415741564989fe4155415455534883ec38":  // unique sig
-cleanup __amd64 void OxygenSystem::RedistributeOxygen(OxygenSystem * this); // 006446a0
+cleanup __amd64 void OxygenSystem::RedistributeOxygen(OxygenSystem *this); // 006446a0
 ".55534889fb4883ec38e8????????80":  // unique sig
-cleanup __amd64 void OxygenSystem::OnLoop(OxygenSystem * this); // 006448c0
+cleanup __amd64 void OxygenSystem::OnLoop(OxygenSystem *this); // 006448c0
 "!.534889fb48c707????????48c74710????????488bbf480200004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void OxygenSystem::~OxygenSystem(OxygenSystem * this, int __in_chrg); // 00644ab0
+cleanup __amd64 void OxygenSystem::~OxygenSystem(OxygenSystem *this, int __in_chrg); // 00644ab0
 ".4883ef10e9????????0f1f8000000000534889fb48c7":  // unique sig
-cleanup __amd64 undefined OxygenSystem::~OxygenSystem(OxygenSystem * this); // 00644ae0
+cleanup __amd64 undefined OxygenSystem::~OxygenSystem(OxygenSystem *this); // 00644ae0
 "!534889fb48c707????????48c74710????????488bbf480200004885ff74??e8????????4889dfe8":  // unique sig
-cleanup __amd64 void OxygenSystem::~OxygenSystem(OxygenSystem * this, int __in_chrg); // 00644af0
+cleanup __amd64 void OxygenSystem::~OxygenSystem(OxygenSystem *this, int __in_chrg); // 00644af0
 "!480200004885ff74??e8????????4889dfe8????????4889df5be9????????66662e0f1f840000000000":  // unique sig
 noHook __amd64 void OxygenSystem::__DO_NOT_HOOK(); // 00644b2f
 ".48":  // non-unique sig
-cleanup __amd64 undefined OxygenSystem::~OxygenSystem(OxygenSystem * this); // 00644b30
+cleanup __amd64 undefined OxygenSystem::~OxygenSystem(OxygenSystem *this); // 00644b30

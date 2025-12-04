@@ -1,12 +1,12 @@
 "41574156415541544189d45589f553":  // unique sig
-cleanup __amd64 void ShipButton::ShipButton(ShipButton * this, int shipId, int type); // 005568f0
+cleanup __amd64 void ShipButton::ShipButton(ShipButton *this, int shipId, int type); // 005568f0
 ".4889d153":  // unique sig
-cleanup __amd64 void ShipButton::OnInit(ShipButton * this, string * image, Point pos); // 00557970
+cleanup __amd64 void ShipButton::OnInit(ShipButton *this, string *image, Point pos); // 00557970
 ".41554189f5415455534889fb4883ec18":  // unique sig
-cleanup __amd64 void ShipButton::MouseMove(ShipButton * this, int mX, int mY); // 005579c0
+cleanup __amd64 void ShipButton::MouseMove(ShipButton *this, int mX, int mY); // 005579c0
 ".55534889fb4883ec4880bf":  // unique sig
-cleanup __amd64 void ShipButton::OnRender(ShipButton * this); // 0055e5c0
+cleanup __amd64 void ShipButton::OnRender(ShipButton *this); // 0055e5c0
 "!.534889fb48c707????????488bbfa00000004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void ShipButton::~ShipButton(ShipButton * this, int __in_chrg); // 0055efd0
+cleanup __amd64 void ShipButton::~ShipButton(ShipButton *this, int __in_chrg); // 0055efd0
 ".534889fb48c707????????488b":  // unique sig
-cleanup __amd64 void ShipButton::~ShipButton(ShipButton * this, int __in_chrg); // 0055f000
+cleanup __amd64 void ShipButton::~ShipButton(ShipButton *this, int __in_chrg); // 0055f000

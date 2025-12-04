@@ -1,69 +1,69 @@
 "31c0c3662e0f1f8400000000000f1f000fb68740":  // unique sig
-cleanup __amd64 bool CrewAnimation::CustomDeath(CrewAnimation * this); // 0043b9c0
+cleanup __amd64 bool CrewAnimation::CustomDeath(CrewAnimation *this); // 0043b9c0
 ".41574889f841564155415455534883ec6848c707????????48893c24488bbff00900004885ff74??e8????????488b0424488b80e0090000488d78e84881ff????????0f85????????488b0424488b80b0090000488d78e84881ff????????0f85????????488b04244c8ba0980900004c8ba8900900004d39ec0f84????????498b6d08498b5d004839dd0f84????????b8????????4885c00f84????????488b03488d78e84881ff????????0f85????????4883c3084839dd75??498b7d004885ff74??e8????????4983c5184d39ec75??488b0424488bb8900900004885ff74??e8????????488b0424488b8070090000488d78e84881ff????????0f85????????488b0424488b8068090000488d78e84881ff????????0f??????????488b0424488ba8c8080000488b98c008000048c78040090000????????4839dd0f84????????488b034889df4881c378020000ff104839dd75??488b0424488bb8c00800004885ff74??e8????????488b1c24488d7b68e8????????488b7b384885ff74??e8????????488b0424488b7018488b40104839c6488974243848894424300f84????????488b70084c8b304c39f648897424080f84????????498d86980000004d8dae800000004d89f44889442410":  // unique sig
-cleanup __amd64 void CrewAnimation::~CrewAnimation(CrewAnimation * this, int __in_chrg); // 0043d8e0
+cleanup __amd64 void CrewAnimation::~CrewAnimation(CrewAnimation *this, int __in_chrg); // 0043d8e0
 // Failed to generate signature for function: CrewAnimation::~CrewAnimation at 0043fbb0
 ".8b475c83":  // unique sig
-cleanup __amd64 int CrewAnimation::GetFiringFrame(CrewAnimation * this); // 00480010
+cleanup __amd64 int CrewAnimation::GetFiringFrame(CrewAnimation *this); // 00480010
 ".31c080bf0d":  // unique sig
-cleanup __amd64 void CrewAnimation::UpdateFiring(CrewAnimation * this); // 00480070
+cleanup __amd64 void CrewAnimation::UpdateFiring(CrewAnimation *this); // 00480070
 ".415531d2415449":  // unique sig
-cleanup __amd64 void CrewAnimation::Restart(CrewAnimation * this); // 004801b0
+cleanup __amd64 void CrewAnimation::Restart(CrewAnimation *this); // 004801b0
 ".41554531ed415449bc00":  // unique sig
-cleanup __amd64 void CrewAnimation::OnRenderProps(CrewAnimation * this); // 004802d0
+cleanup __amd64 void CrewAnimation::OnRenderProps(CrewAnimation *this); // 004802d0
 ".41544189f45589d5534889fb4883ec50":  // unique sig
-cleanup __amd64 void CrewAnimation::OnRender(CrewAnimation * this, float scale, int selectedState, bool outlineOnly); // 004803e0
+cleanup __amd64 void CrewAnimation::OnRender(CrewAnimation *this, float scale, int selectedState, bool outlineOnly); // 004803e0
 ".53488d9fd8":  // unique sig
-cleanup __amd64 bool CrewAnimation::FireShot(CrewAnimation * this); // 00481000
+cleanup __amd64 bool CrewAnimation::FireShot(CrewAnimation *this); // 00481000
 "!.554889fd5389f331":  // unique sig
-cleanup __amd64 void CrewAnimation::SaveState(CrewAnimation * this, int fd); // 00481a60
+cleanup __amd64 void CrewAnimation::SaveState(CrewAnimation *this, int fd); // 00481a60
 "!0400004883c4085b5de9????????0f1f4000":  // unique sig
 noHook __amd64 void CrewAnimation::__DO_NOT_HOOK(); // 00481aaf
 ".55":  // non-unique sig
-cleanup __amd64 void CrewAnimation::LoadState(CrewAnimation * this, int fd); // 00481ab0
+cleanup __amd64 void CrewAnimation::LoadState(CrewAnimation *this, int fd); // 00481ab0
 "!.53488b47104889fbc7476006000000c747580000000031f60f57c0488b384881c7a8040000e8????????488b4310be010000005b":  // unique sig
-cleanup __amd64 void CrewAnimation::StartTeleport(CrewAnimation * this); // 00485b40
+cleanup __amd64 void CrewAnimation::StartTeleport(CrewAnimation *this); // 00485b40
 "!040000e9????????906666662e0f1f840000000000":  // unique sig
 noHook __amd64 void CrewAnimation::__DO_NOT_HOOK(); // 00485b8f
 "!.53":  // non-unique sig
-cleanup __amd64 void CrewAnimation::StartTeleportArrive(CrewAnimation * this); // 00485b90
+cleanup __amd64 void CrewAnimation::StartTeleportArrive(CrewAnimation *this); // 00485b90
 "!384881c780040000e9????????900f1f4000":  // unique sig
 noHook __amd64 void CrewAnimation::__DO_NOT_HOOK(); // 00485bef
 ".53":  // non-unique sig
-cleanup __amd64 bool CrewAnimation::TeleportArrived(CrewAnimation * this); // 00485bf0
+cleanup __amd64 bool CrewAnimation::TeleportArrived(CrewAnimation *this); // 00485bf0
 ".53837f":  // unique sig
-cleanup __amd64 bool CrewAnimation::Dead(CrewAnimation * this); // 00485c60
+cleanup __amd64 bool CrewAnimation::Dead(CrewAnimation *this); // 00485c60
 ".4155415455534889fb4881ecf800000040":  // unique sig
-cleanup __amd64 void CrewAnimation::RenderIcon(CrewAnimation * this, bool border); // 00485cc0
+cleanup __amd64 void CrewAnimation::RenderIcon(CrewAnimation *this, bool border); // 00485cc0
 ".4883ec18f30f1087":  // unique sig
-cleanup __amd64 void CrewAnimation::RenderTarget(CrewAnimation * this); // 00486070
+cleanup __amd64 void CrewAnimation::RenderTarget(CrewAnimation *this); // 00486070
 ".f30f10870809":  // unique sig
-cleanup __amd64 float CrewAnimation::GetDamageDone(CrewAnimation * this); // 004860c0
+cleanup __amd64 float CrewAnimation::GetDamageDone(CrewAnimation *this); // 004860c0
 ".534889fb4883ec104889e7e8????????f3":  // unique sig
-cleanup __amd64 void CrewAnimation::SetPosition(CrewAnimation * this, int x, int y); // 004860e0
+cleanup __amd64 void CrewAnimation::SetPosition(CrewAnimation *this, int x, int y); // 004860e0
 ".415455534889fb4883ec308b47":  // unique sig
-cleanup __amd64 void CrewAnimation::OnUpdate(CrewAnimation * this, Pointf position, bool moving, bool fighting, bool repairing, bool dying, bool onFire); // 00486110
+cleanup __amd64 void CrewAnimation::OnUpdate(CrewAnimation *this, Pointf position, bool moving, bool fighting, bool repairing, bool dying, bool onFire); // 00486110
 ".31c083fe03":  // unique sig
-cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation * this, int dir); // 00486770
+cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation *this, int dir); // 00486770
 ".660fd64424d8":  // unique sig
-cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation * this, Pointf newPosition, Pointf goal); // 00486780
+cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation *this, Pointf newPosition, Pointf goal); // 00486780
 ".534889fb4883ec3080be":  // unique sig
-cleanup __amd64 string CrewAnimation::GetDeathSound(CrewAnimation * this); // 00488410
+cleanup __amd64 string CrewAnimation::GetDeathSound(CrewAnimation *this); // 00488410
 ".534889fb4883ec30803d????????0075??e8????????89c189c8ba56555555488d742410f7ea89c8488d7c2420c1f81f29c28d045229c183c101894c2410e8????????488d7c2420ba????????31f6b909000000e8????????488b1048891348c700????????488b442420488d78e84881ff????????75??4883c4304889d85bc30f1f8000000000e8????????89c1eb??b9????????488d57104885c974??83c8fff00fc10285c07f??488d74240fe8????????eb??8b50f88d4aff8948f889d0eb??906666662e0f1f84000000000053":  // unique sig
-cleanup __amd64 string CrewAnimation::GetShootingSound(CrewAnimation * this); // 00488530
+cleanup __amd64 string CrewAnimation::GetShootingSound(CrewAnimation *this); // 00488530
 ".4157488d87e0":  // unique sig
-cleanup __amd64 void CrewAnimation::SetupStrips(CrewAnimation * this); // 00489510
+cleanup __amd64 void CrewAnimation::SetupStrips(CrewAnimation *this); // 00489510
 ".4088b7ec090000e9":  // unique sig
-cleanup __amd64 void CrewAnimation::SetMale(CrewAnimation * this, bool male); // 00489ec0
+cleanup __amd64 void CrewAnimation::SetMale(CrewAnimation *this, bool male); // 00489ec0
 ".534889fb488dbff009":  // unique sig
-cleanup __amd64 void CrewAnimation::SetLayers(CrewAnimation * this, vector<GL_Color,_std::allocator<GL_Color>_> * layers); // 00489f00
+cleanup __amd64 void CrewAnimation::SetLayers(CrewAnimation *this, vector<GL_Color,_std::allocator<GL_Color>_> *layers); // 00489f00
 ".415783f2":  // unique sig
-cleanup __amd64 void CrewAnimation::OnInit(CrewAnimation * this, string * name, Pointf position, bool enemy); // 0048a170
+cleanup __amd64 void CrewAnimation::OnInit(CrewAnimation *this, string *name, Pointf position, bool enemy); // 0048a170
 ".415741564155415455534881ec98":  // unique sig
-cleanup __amd64 void CrewAnimation::CrewAnimation(CrewAnimation * this, int iShipId, string name, Pointf position, bool enemy); // 0048b120
+cleanup __amd64 void CrewAnimation::CrewAnimation(CrewAnimation *this, int iShipId, string name, Pointf position, bool enemy); // 0048b120
 ".415741564155415455534889fb4883ec6848":  // unique sig
-cleanup __amd64 void CrewAnimation::OnUpdateEffects(CrewAnimation * this); // 0048d7b0
+cleanup __amd64 void CrewAnimation::OnUpdateEffects(CrewAnimation *this); // 0048d7b0
 ".4155415455534889fb4881ec9802":  // unique sig
-cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation * this); // 0048e0e0
+cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation *this); // 0048e0e0
 ".53488b074889fbff5038":  // unique sig
-cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation * this); // 0048e810
+cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation *this); // 0048e810

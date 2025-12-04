@@ -1,24 +1,24 @@
 "41544989fc554889f54889":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<TextString>(TextLibrary * this, string * name, TextString * param_2); // 00422850
+cleanup __amd64 string TextLibrary::FormatText<TextString>(TextLibrary *this, string *name, TextString *param_2); // 00422850
 ".41544989fc554889d5534889":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>(TextLibrary * this, string * name); // 0048f910
+cleanup __amd64 string TextLibrary::FormatText<std::string_>(TextLibrary *this, string *name); // 0048f910
 ".41544989fc555389":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<int>(TextLibrary * this, string * name); // 004ebf90
+cleanup __amd64 string TextLibrary::FormatText<int>(TextLibrary *this, string *name); // 004ebf90
 ".41554989d5415445":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>,_int>(TextLibrary * this, string * name); // 004ec100
+cleanup __amd64 string TextLibrary::FormatText<std::string,_int>(TextLibrary *this, string *name); // 004ec100
 ".41544989fc83c2304c":  // unique sig
-cleanup __amd64 string TextLibrary::DoFormatText<std::basic_string<char>_>(TextLibrary * this, int index, string * text, basic_string<char,_std::char_traits<char>,_std::allocator<char>_> * v); // 0057ff80
+cleanup __amd64 string TextLibrary::DoFormatText<std::basic_string<char>_>(TextLibrary *this, int index, string *text, basic_string<char,_std::char_traits<char>,_std::allocator<char>_> *v); // 0057ff80
 ".4883c760e9":  // unique sig
-cleanup __amd64 void TextLibrary::SetLanguage(TextLibrary * this, string * language); // 005b5290
+cleanup __amd64 void TextLibrary::SetLanguage(TextLibrary *this, string *language); // 005b5290
 ".4157415641554989fd415455534883ec28488b77":  // unique sig
-cleanup __amd64 void TextLibrary::Clear(TextLibrary * this); // 005b5ff0
+cleanup __amd64 void TextLibrary::Clear(TextLibrary *this); // 005b5ff0
 ".4157b905":  // unique sig
-cleanup __amd64 void TextLibrary::LoadText(TextLibrary * this, string * data, string * filename); // 005b67b0
+cleanup __amd64 void TextLibrary::LoadText(TextLibrary *this, string *data, string *filename); // 005b67b0
 ".41574156415541544989fc5553488d":  // unique sig
-cleanup __amd64 string TextLibrary::GetText(TextLibrary * this, string * name, string * language); // 005b77f0
+cleanup __amd64 string TextLibrary::GetText(TextLibrary *this, string *name, string *language); // 005b77f0
 ".415741564155415455534883ec28488b":  // unique sig
-cleanup __amd64 void TextLibrary::~TextLibrary(TextLibrary * this, int __in_chrg); // 005b8850
+cleanup __amd64 void TextLibrary::~TextLibrary(TextLibrary *this, int __in_chrg); // 005b8850
 ".4154488d4e":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<float>(TextLibrary * this, string * name); // 005f4a70
+cleanup __amd64 string TextLibrary::FormatText<float>(TextLibrary *this, string *name); // 005f4a70
 ".41544989fc83":  // unique sig
-cleanup __amd64 string TextLibrary::DoFormatText<int>(TextLibrary * this, int index, string * text, int v); // 006512d0
+cleanup __amd64 string TextLibrary::DoFormatText<int>(TextLibrary *this, int index, string *text, int v); // 006512d0

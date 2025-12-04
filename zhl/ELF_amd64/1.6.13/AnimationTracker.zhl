@@ -1,20 +1,20 @@
 "48c707????????c30f1f8400000000000fb6":  // unique sig
-cleanup __amd64 void AnimationTracker::~AnimationTracker(AnimationTracker * this, int __in_chrg); // 004cef00
+cleanup __amd64 void AnimationTracker::~AnimationTracker(AnimationTracker *this, int __in_chrg); // 004cef00
 ".48c707????????e9????????0f1f4000534889fb8b":  // unique sig
-cleanup __amd64 void AnimationTracker::~AnimationTracker(AnimationTracker * this, int __in_chrg); // 004cf080
+cleanup __amd64 void AnimationTracker::~AnimationTracker(AnimationTracker *this, int __in_chrg); // 004cf080
 ".53807f14":  // unique sig
-cleanup __amd64 void AnimationTracker::Update(AnimationTracker * this); // 005a0270
+cleanup __amd64 void AnimationTracker::Update(AnimationTracker *this); // 005a0270
 ".4088770c":  // unique sig
-cleanup __amd64 void AnimationTracker::SetLoop(AnimationTracker * this, bool loop, float delay); // 005a17f0
+cleanup __amd64 void AnimationTracker::SetLoop(AnimationTracker *this, bool loop, float delay); // 005a17f0
 ".4084f6c6":  // unique sig
-cleanup __amd64 void AnimationTracker::Stop(AnimationTracker * this, bool keepTime); // 005a1810
+cleanup __amd64 void AnimationTracker::Stop(AnimationTracker *this, bool keepTime); // 005a1810
 ".c6471600c6471401f3":  // unique sig
-cleanup __amd64 void AnimationTracker::Start(AnimationTracker * this, float specific); // 005a1830
+cleanup __amd64 void AnimationTracker::Start(AnimationTracker *this, float specific); // 005a1830
 ".0f57c9c6":  // unique sig
-cleanup __amd64 void AnimationTracker::StartReverse(AnimationTracker * this, float specific); // 005a1850
+cleanup __amd64 void AnimationTracker::StartReverse(AnimationTracker *this, float specific); // 005a1850
 ".807f14000f57":  // unique sig
-cleanup __amd64 float AnimationTracker::Progress(AnimationTracker * this, float time); // 005a1870
+cleanup __amd64 float AnimationTracker::Progress(AnimationTracker *this, float time); // 005a1870
 ".f30f594708":  // unique sig
-cleanup __amd64 void AnimationTracker::SetProgress(AnimationTracker * this, float progress); // 005a18c0
+cleanup __amd64 void AnimationTracker::SetProgress(AnimationTracker *this, float progress); // 005a18c0
 ".f30f100d????????f30f1015????????f30f59":  // unique sig
-cleanup __amd64 float AnimationTracker::GetAlphaLevel(AnimationTracker * this, bool invert); // 005a18d0
+cleanup __amd64 float AnimationTracker::GetAlphaLevel(AnimationTracker *this, bool invert); // 005a18d0

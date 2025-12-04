@@ -1,20 +1,20 @@
 "534889f04889fb":  // unique sig
-cleanup __amd64 void ControlButton::ControlButton(ControlButton * this, Point pos, string value); // 00544270
+cleanup __amd64 void ControlButton::ControlButton(ControlButton *this, Point pos, string value); // 00544270
 ".4154554889fd488d7f18":  // unique sig
-cleanup __amd64 void ControlButton::SetDesc(ControlButton * this, TextString * desc); // 005442d0
+cleanup __amd64 void ControlButton::SetDesc(ControlButton *this, TextString *desc); // 005442d0
 ".4154554889fd53488d5f104883ec40":  // unique sig
-cleanup __amd64 void ControlButton::OnLoop(ControlButton * this); // 005443a0
+cleanup __amd64 void ControlButton::OnLoop(ControlButton *this); // 005443a0
 ".415455534889fb4883ec608b4730":  // unique sig
-cleanup __amd64 void ControlButton::OnRender(ControlButton * this); // 00544520
+cleanup __amd64 void ControlButton::OnRender(ControlButton *this); // 00544520
 ".837f300274??8b":  // unique sig
-cleanup __amd64 void ControlButton::MouseMove(ControlButton * this, int mX, int mY); // 005448a0
+cleanup __amd64 void ControlButton::MouseMove(ControlButton *this, int mX, int mY); // 005448a0
 ".837f300274??83":  // unique sig
-cleanup __amd64 void ControlButton::OnTouch(ControlButton * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005448e0
+cleanup __amd64 void ControlButton::OnTouch(ControlButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005448e0
 ".55534889fb4883ec28837f":  // unique sig
-cleanup __amd64 void ControlButton::OnKeyDown(ControlButton * this, SDLKey sym); // 00544920
+cleanup __amd64 void ControlButton::OnKeyDown(ControlButton *this, SDLKey sym); // 00544920
 ".837f3001":  // unique sig
-cleanup __amd64 bool ControlButton::GetHovering(ControlButton * this); // 005449b0
+cleanup __amd64 bool ControlButton::GetHovering(ControlButton *this); // 005449b0
 ".4080fe0119c0f7d083e002894730":  // unique sig
-cleanup __amd64 void ControlButton::SetSelected(ControlButton * this, bool val); // 005449c0
+cleanup __amd64 void ControlButton::SetSelected(ControlButton *this, bool val); // 005449c0
 ".55534889fb4883ec38807f":  // unique sig
-cleanup __amd64 void ControlButton::OnLanguageChange(ControlButton * this); // 005449d0
+cleanup __amd64 void ControlButton::OnLanguageChange(ControlButton *this); // 005449d0

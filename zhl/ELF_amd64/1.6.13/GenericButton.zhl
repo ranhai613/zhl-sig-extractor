@@ -1,32 +1,32 @@
 "!48c707????????48c74728????????c3":  // unique sig
-cleanup __amd64 void GenericButton::~GenericButton(GenericButton * this, int __in_chrg); // 004e1b80
+cleanup __amd64 void GenericButton::~GenericButton(GenericButton *this, int __in_chrg); // 004e1b80
 "!48c74728????????c3":  // unique sig
 noHook __amd64 void GenericButton::__DO_NOT_HOOK(); // 004e1b8f
 ".48":  // non-unique sig
-cleanup __amd64 void GenericButton::SetHitBox(GenericButton * this, Rect * box); // 004e1b90
+cleanup __amd64 void GenericButton::SetHitBox(GenericButton *this, Rect *box); // 004e1b90
 ".c6474900c647":  // unique sig
-cleanup __amd64 void GenericButton::Reset(GenericButton * this); // 004e1ba0
+cleanup __amd64 void GenericButton::Reset(GenericButton *this); // 004e1ba0
 ".8b57084889f08b4f0c48c1f82039d6":  // unique sig
-cleanup __amd64 void GenericButton::SetLocation(GenericButton * this, Point p); // 004e1bc0
+cleanup __amd64 void GenericButton::SetLocation(GenericButton *this, Point p); // 004e1bc0
 ".4084f640887748":  // unique sig
-cleanup __amd64 void GenericButton::SetActive(GenericButton * this, bool active); // 004e1c00
+cleanup __amd64 void GenericButton::SetActive(GenericButton *this, bool active); // 004e1c00
 "!.48c707????????48c74728":  // unique sig
-cleanup __amd64 void GenericButton::~GenericButton(GenericButton * this, int __in_chrg); // 004e1c20
+cleanup __amd64 void GenericButton::~GenericButton(GenericButton *this, int __in_chrg); // 004e1c20
 "!.4883c728e9":  // unique sig
-cleanup __amd64 void GenericButton::OnLoop(GenericButton * this); // 004e1c40
+cleanup __amd64 void GenericButton::OnLoop(GenericButton *this); // 004e1c40
 "!c728e9????????90660f1f440000":  // unique sig
 noHook __amd64 void GenericButton::__DO_NOT_HOOK(); // 004e1c4f
 ".8b":  // non-unique sig
-cleanup __amd64 void GenericButton::MouseMove(GenericButton * this, int mX, int mY, bool silent); // 004e1c50
+cleanup __amd64 void GenericButton::MouseMove(GenericButton *this, int mX, int mY, bool silent); // 004e1c50
 ".55534889fb4883ec180f":  // unique sig
-cleanup __amd64 bool GenericButton::OnTouch(GenericButton * this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004e1cc0
+cleanup __amd64 bool GenericButton::OnTouch(GenericButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004e1cc0
 ".534889fb488d7f084883c3":  // unique sig
-cleanup __amd64 void GenericButton::GenericButton(GenericButton * this); // 004e2510
+cleanup __amd64 void GenericButton::GenericButton(GenericButton *this); // 004e2510
 ".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3":  // unique sig
-cleanup __amd64 void GenericButton::OnRender(GenericButton * this); // 004e5020
+cleanup __amd64 void GenericButton::OnRender(GenericButton *this); // 004e5020
 "f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f40005348":  // unique sig
-cleanup __amd64 void GenericButton::OnClick(GenericButton * this); // 004e5030
+cleanup __amd64 void GenericButton::OnClick(GenericButton *this); // 004e5030
 "f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f40005348":  // unique sig
-cleanup __amd64 void GenericButton::OnRightClick(GenericButton * this); // 004e5040
+cleanup __amd64 void GenericButton::OnRightClick(GenericButton *this); // 004e5040
 "f3c3662e0f1f8400000000000f1f40005348":  // unique sig
-cleanup __amd64 void GenericButton::ResetPrimitives(GenericButton * this); // 004e5050
+cleanup __amd64 void GenericButton::ResetPrimitives(GenericButton *this); // 004e5050

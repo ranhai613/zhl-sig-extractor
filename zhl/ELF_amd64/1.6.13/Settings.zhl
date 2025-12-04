@@ -1,17 +1,17 @@
 "41574989ff41564155415455534883ec1848c7":  // unique sig
-static cleanup __amd64 void Settings::SetHotkey(string * val, SDLKey key); // 00409784
+static cleanup __amd64 void Settings::SetHotkey(string *val, SDLKey key); // 00409784
 ".31c0803d????????0075??c30f1f400048":  // unique sig
 static cleanup __amd64 bool Settings::GetDlcEnabled(); // 005c4020
 ".bf????????e9????????660f1f440000415741564155":  // unique sig
 static cleanup __amd64 bool Settings::_GetTutorialRunning(); // 005c4050
 "415741564155415455534883ec58488d":  // unique sig
-static cleanup __amd64 string Settings::GetHotkeyName(string * val); // 005c4060
+static cleanup __amd64 string Settings::GetHotkeyName(string *val); // 005c4060
 ".415741564155415455534883ec284889":  // unique sig
-static cleanup __amd64 SDLKey Settings::GetHotkey(string * val); // 005c70e0
+static cleanup __amd64 SDLKey Settings::GetHotkey(string *val); // 005c70e0
 ".5341ba":  // unique sig
 static cleanup __amd64 string Settings::GetBinding(SDLKey key); // 005c71c0
 ".415741564155415455534883ec584889":  // unique sig
-static cleanup __amd64 void Settings::SetHotkey(string * val, SDLKey key); // 005c7250
+static cleanup __amd64 void Settings::SetHotkey(string *val, SDLKey key); // 005c7250
 ".415741564155415455534881ecc8":  // unique sig
 static cleanup __amd64 void Settings::SaveSettings(); // 005c74e0
 ".0fb605????????c30f1f8400000000000fb635":  // unique sig

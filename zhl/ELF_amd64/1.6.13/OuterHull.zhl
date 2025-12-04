@@ -1,16 +1,16 @@
 "e9????????90662e0f1f84000000000041544989fc5553":  // unique sig
-cleanup __amd64 void OuterHull::SetDamage(OuterHull * this, float diff); // 00648ef0
+cleanup __amd64 void OuterHull::SetDamage(OuterHull *this, float diff); // 00648ef0
 ".4157415641554989fd4d":  // unique sig
-cleanup __amd64 void OuterHull::OuterHull(OuterHull * this, int shipId); // 0064c150
+cleanup __amd64 void OuterHull::OuterHull(OuterHull *this, int shipId); // 0064c150
 ".415455534889fb4883ec40488b":  // unique sig
-cleanup __amd64 void OuterHull::OnRender(OuterHull * this); // 0064cc00
+cleanup __amd64 void OuterHull::OnRender(OuterHull *this); // 0064cc00
 ".55534889fb4883ec28488b07ff":  // unique sig
-cleanup __amd64 void OuterHull::OnLoop(OuterHull * this); // 0064cdd0
+cleanup __amd64 void OuterHull::OnLoop(OuterHull *this); // 0064cdd0
 ".534889fb488dbf000100004883ec1048c78700ffffff????????48c78710ffffff????????e8????????488d7b40e8????????488b433048c703????????48c74310????????488d78e84881ff????????75??48c74310????????48c703????????4883":  // unique sig
-cleanup __amd64 void OuterHull::~OuterHull(OuterHull * this, int __in_chrg); // 00650b30
+cleanup __amd64 void OuterHull::~OuterHull(OuterHull *this, int __in_chrg); // 00650b30
 ".4883ef10e9????????0f1f8000000000534889fb488d":  // unique sig
-cleanup __amd64 undefined OuterHull::~OuterHull(OuterHull * this); // 00650bd0
+cleanup __amd64 undefined OuterHull::~OuterHull(OuterHull *this); // 00650bd0
 "534889fb488dbf000100004883ec1048c78700ffffff????????48c78710ffffff????????e8????????488d7b40e8????????488b433048c703????????48c74310????????488d78e84881ff????????75??48c74310????????48c703????????4889":  // unique sig
-cleanup __amd64 void OuterHull::~OuterHull(OuterHull * this, int __in_chrg); // 00650be0
+cleanup __amd64 void OuterHull::~OuterHull(OuterHull *this, int __in_chrg); // 00650be0
 ".4883ef10e9????????0f1f80000000004154":  // unique sig
-cleanup __amd64 undefined OuterHull::~OuterHull(OuterHull * this); // 00650c90
+cleanup __amd64 undefined OuterHull::~OuterHull(OuterHull *this); // 00650c90

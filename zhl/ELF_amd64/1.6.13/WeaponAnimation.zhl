@@ -1,62 +1,62 @@
 "41570f57c94989ff41560f":  // unique sig
-cleanup __amd64 void WeaponAnimation::WeaponAnimation(WeaponAnimation * this); // 0047bac0
+cleanup __amd64 void WeaponAnimation::WeaponAnimation(WeaponAnimation *this); // 0047bac0
 ".41570f57c94989ff":  // unique sig
-cleanup __amd64 void WeaponAnimation::WeaponAnimation(WeaponAnimation * this, GL_Texture * image, AnimationDescriptor descriptor, int chargedFrame, int fireFrame, Point firepoint, Point mountPoint); // 0047c8b0
+cleanup __amd64 void WeaponAnimation::WeaponAnimation(WeaponAnimation *this, GL_Texture *image, AnimationDescriptor descriptor, int chargedFrame, int fireFrame, Point firepoint, Point mountPoint); // 0047c8b0
 ".4157be????????415641554154554889fd534881ecf8":  // unique sig
-cleanup __amd64 void WeaponAnimation::OnInit(WeaponAnimation * this); // 0047d640
+cleanup __amd64 void WeaponAnimation::OnInit(WeaponAnimation *this); // 0047d640
 "!.554889fd5389f34883ec08e8????????48":  // unique sig
-cleanup __amd64 void WeaponAnimation::SaveState(WeaponAnimation * this, int fd); // 0047dc10
+cleanup __amd64 void WeaponAnimation::SaveState(WeaponAnimation *this, int fd); // 0047dc10
 ".554889fd5389f34883ec08e8":  // unique sig
-cleanup __amd64 void WeaponAnimation::LoadState(WeaponAnimation * this, int fd); // 0047dc80
+cleanup __amd64 void WeaponAnimation::LoadState(WeaponAnimation *this, int fd); // 0047dc80
 ".80bfc10000000074":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetBoostLevel(WeaponAnimation * this, int value); // 0047dd00
+cleanup __amd64 void WeaponAnimation::SetBoostLevel(WeaponAnimation *this, int value); // 0047dd00
 ".8b470889c2":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetFireTime(WeaponAnimation * this, float time); // 0047dd30
+cleanup __amd64 void WeaponAnimation::SetFireTime(WeaponAnimation *this, float time); // 0047dd30
 ".80bfa40100000074":  // unique sig
-cleanup __amd64 void WeaponAnimation::Explode(WeaponAnimation * this); // 0047dd60
+cleanup __amd64 void WeaponAnimation::Explode(WeaponAnimation *this); // 0047dd60
 ".534889fb31c9":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetChargeImage(WeaponAnimation * this, GL_Texture * chargeImage); // 0047dd90
+cleanup __amd64 void WeaponAnimation::SetChargeImage(WeaponAnimation *this, GL_Texture *chargeImage); // 0047dd90
 "!.4088b7d0000000c3":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetMirror(WeaponAnimation * this, bool mirrored); // 0047de20
+cleanup __amd64 void WeaponAnimation::SetMirror(WeaponAnimation *this, bool mirrored); // 0047de20
 ".4088b7d1":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetRotation(WeaponAnimation * this, bool rotation); // 0047de30
+cleanup __amd64 void WeaponAnimation::SetRotation(WeaponAnimation *this, bool rotation); // 0047de30
 "!.c687c100000000c3":  // unique sig
-cleanup __amd64 void WeaponAnimation::StopFiring(WeaponAnimation * this); // 0047de40
+cleanup __amd64 void WeaponAnimation::StopFiring(WeaponAnimation *this); // 0047de40
 "!c100000000c30f1f840000000000":  // unique sig
 noHook __amd64 void WeaponAnimation::__DO_NOT_HOOK(); // 0047de4f
 ".8b":  // non-unique sig
-cleanup __amd64 void WeaponAnimation::SetFireLevel(WeaponAnimation * this, float completed); // 0047de50
+cleanup __amd64 void WeaponAnimation::SetFireLevel(WeaponAnimation *this, float completed); // 0047de50
 ".534889fb488dbff8":  // unique sig
-cleanup __amd64 Pointf WeaponAnimation::GetSlide(WeaponAnimation * this); // 0047de80
+cleanup __amd64 Pointf WeaponAnimation::GetSlide(WeaponAnimation *this); // 0047de80
 ".5589f5534889fb4883ec0880bfdc":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetPowered(WeaponAnimation * this, bool powered); // 0047dfb0
+cleanup __amd64 void WeaponAnimation::SetPowered(WeaponAnimation *this, bool powered); // 0047dfb0
 "!.89b718010000c390":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetDirection(WeaponAnimation * this, int dir); // 0047e040
+cleanup __amd64 void WeaponAnimation::SetDirection(WeaponAnimation *this, int dir); // 0047e040
 "!18010000c3900f1f840000000000":  // unique sig
 noHook __amd64 void WeaponAnimation::__DO_NOT_HOOK(); // 0047e04f
 ".48":  // non-unique sig
-cleanup __amd64 void WeaponAnimation::SetMount(WeaponAnimation * this, WeaponMount wMount); // 0047e050
+cleanup __amd64 void WeaponAnimation::SetMount(WeaponAnimation *this, WeaponMount wMount); // 0047e050
 ".83bf1801000004":  // unique sig
-cleanup __amd64 void WeaponAnimation::ComputeDirection(WeaponAnimation * this); // 0047e0b0
+cleanup __amd64 void WeaponAnimation::ComputeDirection(WeaponAnimation *this); // 0047e0b0
 ".f30f101d????????80bf":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetChargedLevel(WeaponAnimation * this, float charged); // 0047e100
+cleanup __amd64 void WeaponAnimation::SetChargedLevel(WeaponAnimation *this, float charged); // 0047e100
 ".530fb687c1":  // unique sig
-cleanup __amd64 bool WeaponAnimation::StartFire(WeaponAnimation * this); // 0047e180
+cleanup __amd64 bool WeaponAnimation::StartFire(WeaponAnimation *this); // 0047e180
 ".415455534889fb4883ec1080":  // unique sig
-cleanup __amd64 void WeaponAnimation::Update(WeaponAnimation * this); // 0047e1e0
+cleanup __amd64 void WeaponAnimation::Update(WeaponAnimation *this); // 0047e1e0
 ".85f689b7":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetHacked(WeaponAnimation * this, int val); // 0047e520
+cleanup __amd64 void WeaponAnimation::SetHacked(WeaponAnimation *this, int val); // 0047e520
 ".0fb687c000":  // unique sig
-cleanup __amd64 bool WeaponAnimation::FireShot(WeaponAnimation * this); // 0047e540
+cleanup __amd64 bool WeaponAnimation::FireShot(WeaponAnimation *this); // 0047e540
 ".4157415641554989fd415455534881ece8":  // unique sig
-cleanup __amd64 void WeaponAnimation::RenderIcon(WeaponAnimation * this); // 0047e560
+cleanup __amd64 void WeaponAnimation::RenderIcon(WeaponAnimation *this); // 0047e560
 ".4883ec188b97f4":  // unique sig
-cleanup __amd64 Point WeaponAnimation::GetFireLocation(WeaponAnimation * this); // 0047ebd0
+cleanup __amd64 Point WeaponAnimation::GetFireLocation(WeaponAnimation *this); // 0047ebd0
 ".415741564155415455534889fb4883ec38f30f11442408":  // unique sig
-cleanup __amd64 void WeaponAnimation::OnRender(WeaponAnimation * this, float alpha); // 0047ec10
+cleanup __amd64 void WeaponAnimation::OnRender(WeaponAnimation *this, float alpha); // 0047ec10
 ".41564155415455534889fb4883ec20e8":  // unique sig
-cleanup __amd64 void WeaponAnimation::RenderChargeBar(WeaponAnimation * this, float alpha); // 0047f040
+cleanup __amd64 void WeaponAnimation::RenderChargeBar(WeaponAnimation *this, float alpha); // 0047f040
 ".554889f5488d7650534889fb488dbf":  // unique sig
-cleanup __amd64 void WeaponAnimation::SetBoostAnimation(WeaponAnimation * this, Animation * boostanim); // 0047f370
+cleanup __amd64 void WeaponAnimation::SetBoostAnimation(WeaponAnimation *this, Animation *boostanim); // 0047f370
 ".415641554154554889fd534883ec10488b8748":  // unique sig
-cleanup __amd64 void WeaponAnimation::~WeaponAnimation(WeaponAnimation * this, int __in_chrg); // 0059c600
+cleanup __amd64 void WeaponAnimation::~WeaponAnimation(WeaponAnimation *this, int __in_chrg); // 0059c600
