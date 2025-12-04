@@ -1,5 +1,4 @@
 TODO:
-- Exclude thunks from extraction since they seem useless
 - Perform extraction for win32 and elf x86
-- Add postprocess script to format container types like vector and remove unnecessary spaces
+- Find out why some sigs are not unique but still labeled as unique
 - Extract global variable sigs
