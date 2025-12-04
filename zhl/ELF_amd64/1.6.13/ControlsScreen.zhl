@@ -1,5 +1,5 @@
 "415455534889fb48c7":  // unique sig
-cleanup __amd64 void ControlsScreen::ControlsScreen(ControlsScreen *this); // 00544aa0
+cleanup __amd64 void ControlsScreen::constructor(ControlsScreen *this); // 00544aa0
 ".4863476083f8ff74??48639728060000488d0cc50000000048c1e0064829c8488d1452480304d7c7403000000000c74760fffffffff3":  // unique sig
 cleanup __amd64 void ControlsScreen::Close(ControlsScreen *this); // 00544b60
 ".415641554c8d6f60":  // unique sig
@@ -19,4 +19,4 @@ cleanup __amd64 void ControlsScreen::MouseClick(ControlsScreen *this, int mX, in
 ".415741564989fe41554189cd":  // unique sig
 cleanup __amd64 void ControlsScreen::OnTouch(ControlsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0054a980
 ".4157415641554989fd415455534883ec4848":  // unique sig
-cleanup __amd64 void ControlsScreen::~ControlsScreen(ControlsScreen *this, int __in_chrg); // 0054b140
+cleanup __amd64 void ControlsScreen::destructor(ControlsScreen *this, int __in_chrg); // 0054b140

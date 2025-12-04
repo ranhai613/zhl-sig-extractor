@@ -1,7 +1,7 @@
 "c70701000080":  // unique sig
-cleanup __amd64 void Point::Point(Point *this); // 005ba550
+cleanup __amd64 void Point::constructor(Point *this); // 005ba550
 ".89378957":  // unique sig
-cleanup __amd64 void Point::Point(Point *this, int x, int y); // 005ba560
+cleanup __amd64 void Point::constructor(Point *this, int x, int y); // 005ba560
 "!.8b178b470429f248c1fe2029f00fafd20fafc001d0c3":  // unique sig
 cleanup __amd64 int Point::RelativeDistance(Point *this, Point p); // 005ba570
 "!01d0c3662e0f1f840000000000":  // unique sig

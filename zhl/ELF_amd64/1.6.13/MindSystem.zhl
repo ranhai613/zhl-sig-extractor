@@ -1,13 +1,13 @@
 "!534889fb48c707????????48c74710????????488bbf800200004885ff74??e8????????488bbb580200004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void MindSystem::~MindSystem(MindSystem *this, int __in_chrg); // 00642c90
+cleanup __amd64 void MindSystem::destructor(MindSystem *this, int __in_chrg); // 00642c90
 "!e8????????4889df5be9????????66904883ef10eb??662e0f1f840000000000":  // unique sig
 noHook __amd64 void MindSystem::__DO_NOT_HOOK(); // 00642cdf
 "!.53":  // non-unique sig
-cleanup __amd64 void MindSystem::~MindSystem(MindSystem *this, int __in_chrg); // 00642ce0
+cleanup __amd64 void MindSystem::destructor(MindSystem *this, int __in_chrg); // 00642ce0
 "!e8????????4889dfe8????????4889df5be9????????662e0f1f8400000000004883ef10eb??662e0f1f840000000000":  // unique sig
 noHook __amd64 void MindSystem::__DO_NOT_HOOK(); // 00642d3f
 ".53":  // non-unique sig
-cleanup __amd64 void MindSystem::MindSystem(MindSystem *this, int type, int roomId, int shipId, int starting_power); // 00642d40
+cleanup __amd64 void MindSystem::constructor(MindSystem *this, int type, int roomId, int shipId, int starting_power); // 00642d40
 ".4088b771":  // unique sig
 cleanup __amd64 void MindSystem::SetBlocked(MindSystem *this, bool val); // 00642df0
 ".4088b770":  // unique sig

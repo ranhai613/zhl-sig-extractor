@@ -5,7 +5,7 @@ cleanup __amd64 void OptionsScreen::MouseRightClick(OptionsScreen *this, int mX,
 ".4883ec188b05????????83":  // unique sig
 cleanup __amd64 void OptionsScreen::Close(OptionsScreen *this); // 00542fd0
 ".415455534889fb488dab90":  // unique sig
-cleanup __amd64 void OptionsScreen::OptionsScreen(OptionsScreen *this); // 00543b50
+cleanup __amd64 void OptionsScreen::constructor(OptionsScreen *this); // 00543b50
 ".833d????????030f94c083":  // unique sig
 cleanup __amd64 bool OptionsScreen::IsNativeFullScreenChanged(OptionsScreen *this); // 00544250
 ".4881c7a802":  // unique sig
@@ -29,6 +29,6 @@ cleanup __amd64 void OptionsScreen::MouseClick(OptionsScreen *this, int mX, int 
 ".415741564589ce41554589c541544189cc5589f5":  // unique sig
 cleanup __amd64 void OptionsScreen::OnTouch(OptionsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0054acb0
 "!.554889fd488dbfe80e0000534883ec0848c78718f1ffff????????e8????????488dbd680c0000e8????????488bb5480c0000488bbd400c000048c785200c0000????????4889f04829f848c1f8034885c074??31db31c90f1f840000000000488b04cf4889fa4885c074??488b104889c7ff5208488b95400c0000488bb5480c00004889f083c3014889d74829d089d948c1f8034839c172??4885ff4889bd480c000074??e8????????488dbde80a000048c785200c0000????????e8????????488dbde0090000e8????????488dbde0080000e8????????488dbda8020000e8????????4883":  // unique sig
-cleanup __amd64 void OptionsScreen::~OptionsScreen(OptionsScreen *this, int __in_chrg); // 0054bcb0
+cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this, int __in_chrg); // 0054bcb0
 ".554889fd488dbf":  // unique sig
-cleanup __amd64 void OptionsScreen::~OptionsScreen(OptionsScreen *this, int __in_chrg); // 0054bdb0
+cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this, int __in_chrg); // 0054bdb0

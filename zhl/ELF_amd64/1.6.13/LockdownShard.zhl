@@ -9,8 +9,8 @@ cleanup __amd64 bool LockdownShard::Done(LockdownShard *this); // 004a1ae0
 ".534889fb4883ec10e8????????f30f10":  // unique sig
 cleanup __amd64 void LockdownShard::OnRender(LockdownShard *this); // 004a1af0
 ".415741564989fe488d7f4841554154":  // unique sig
-cleanup __amd64 void LockdownShard::LockdownShard(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 004aa190
+cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 004aa190
 ".415741564989fe488d7f":  // unique sig
-cleanup __amd64 void LockdownShard::LockdownShard(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 004aa740
+cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 004aa740
 ".41574156415541544989fc488d7f":  // unique sig
-cleanup __amd64 void LockdownShard::LockdownShard(LockdownShard *this, int fd); // 004ab150
+cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int fd); // 004ab150

@@ -35,7 +35,7 @@ cleanup __amd64 void MainMenu::UpdateButtonLanguage(MainMenu *this, Button *butt
 ".55be????????534889fb4883ec78":  // unique sig
 cleanup __amd64 void MainMenu::OnLanguageChange(MainMenu *this); // 00530700
 ".41570f57c0":  // unique sig
-cleanup __amd64 void MainMenu::MainMenu(MainMenu *this); // 00530d10
+cleanup __amd64 void MainMenu::constructor(MainMenu *this); // 00530d10
 ".4154be????????554889fd534881":  // unique sig
 cleanup __amd64 void MainMenu::ShowChangedLoginMessage(MainMenu *this); // 00531380
 ".415741564155415455534889fb4881ecf8":  // unique sig

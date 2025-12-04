@@ -1,5 +1,5 @@
 "c6470800c6":  // unique sig
-cleanup __amd64 void CrewAI::CrewAI(CrewAI *this); // 005dc0b0
+cleanup __amd64 void CrewAI::constructor(CrewAI *this); // 005dc0b0
 ".4156415541545589d5534889fb4883ec40":  // unique sig
 cleanup __amd64 void CrewAI::OnInit(CrewAI *this, ShipManager *shipManager, int boardingAI); // 005dc1a0
 ".488b078b97":  // unique sig

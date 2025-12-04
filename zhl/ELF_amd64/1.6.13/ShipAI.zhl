@@ -1,5 +1,5 @@
 "5589f5534889fb488d7f10":  // unique sig
-cleanup __amd64 void ShipAI::ShipAI(ShipAI *this, bool player); // 005e0560
+cleanup __amd64 void ShipAI::constructor(ShipAI *this, bool player); // 005e0560
 ".4084f674??80":  // unique sig
 cleanup __amd64 void ShipAI::SetStalemate(ShipAI *this, bool val); // 005e0700
 ".f30f10879c":  // unique sig

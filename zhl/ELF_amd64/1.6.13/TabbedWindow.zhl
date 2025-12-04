@@ -13,7 +13,7 @@ cleanup __amd64 bool TabbedWindow::KeyDown(TabbedWindow *this, SDLKey sym); // 0
 ".41574889f249":  // unique sig
 cleanup __amd64 void TabbedWindow::SetPosition(TabbedWindow *this, Point p); // 00585510
 ".41544189f4554889d5534889fbe8":  // unique sig
-cleanup __amd64 void TabbedWindow::TabbedWindow(TabbedWindow *this, int buttonType_, Point loc); // 005859a0
+cleanup __amd64 void TabbedWindow::constructor(TabbedWindow *this, int buttonType_, Point loc); // 005859a0
 ".41554154554889fd534883ec184c8b6f504c8b6758488b47384d":  // unique sig
 cleanup __amd64 void TabbedWindow::ClearWindows(TabbedWindow *this); // 00585a50
 ".488b4f38488b57":  // unique sig
@@ -31,9 +31,9 @@ cleanup __amd64 void TabbedWindow::Open(TabbedWindow *this); // 00585fa0
 ".4154554889f5534889fb4889cf":  // unique sig
 cleanup __amd64 void TabbedWindow::AddWindow(TabbedWindow *this, string *name, Button *button, FocusWindow *window); // 00585fd0
 ".41554154554889fd534883ec184c8b6f504c8b6758488b473848c707????????4d39e54889474074??b8????????4c89eb4885c00f84????????660f1f440000488b03488d78e84881ff????????0f85????????4883c3084939dc75??488b4d28488b552031db4c896d584889c84829d048c1f80385c07e??0f1f80000000004863c3488b3cc24885ff74??488b17ff5208488b5520488b4d284889c883c3014829d048c1f80339c37c??488d7d7048895528e8????????4c8b6558488b5d504939dc74??b8????????4885c00f84????????0f1f440000488b03488d78e84881ff????????75??4883c3084939dc75??488b7d504885ff74??e8????????488b7d384885ff74??e8????????488b7d204885ff74??e8????????48c74500????????4883":  // unique sig
-cleanup __amd64 void TabbedWindow::~TabbedWindow(TabbedWindow *this, int __in_chrg); // 00586120
+cleanup __amd64 void TabbedWindow::destructor(TabbedWindow *this, int __in_chrg); // 00586120
 ".41554154554889fd534883ec184c8b6f":  // unique sig
-cleanup __amd64 void TabbedWindow::~TabbedWindow(TabbedWindow *this, int __in_chrg); // 00586300
+cleanup __amd64 void TabbedWindow::destructor(TabbedWindow *this, int __in_chrg); // 00586300
 ".554889fd534883ec18e8????????f3":  // unique sig
 cleanup __amd64 void TabbedWindow::OnRender(TabbedWindow *this); // 005864f0
 ".41554189d541544189f4554889fd5348":  // unique sig

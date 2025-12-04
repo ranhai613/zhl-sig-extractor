@@ -3,7 +3,7 @@ cleanup __amd64 void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, in
 "!.41540f57c9488d":  // unique sig
 cleanup __amd64 void InfoBox::CreateTipBox(InfoBox *this); // 005287e0
 ".5331d24889fb31":  // unique sig
-cleanup __amd64 void InfoBox::InfoBox(InfoBox *this); // 00528910
+cleanup __amd64 void InfoBox::constructor(InfoBox *this); // 00528910
 "!.41564189d641554189f541544189cc55534889":  // unique sig
 cleanup __amd64 void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, int height, int width); // 00528a50
 "!c8000000eb??90662e0f1f840000000000":  // unique sig
@@ -53,4 +53,4 @@ noHook __amd64 void InfoBox::__DO_NOT_HOOK(); // 0052cd4f
 ".41":  // non-unique sig
 cleanup __amd64 void InfoBox::OnRender(InfoBox *this); // 0052cd50
 ".55534889fb4883ec18488baf":  // unique sig
-cleanup __amd64 void InfoBox::~InfoBox(InfoBox *this, int __in_chrg); // 0052ee70
+cleanup __amd64 void InfoBox::destructor(InfoBox *this, int __in_chrg); // 0052ee70

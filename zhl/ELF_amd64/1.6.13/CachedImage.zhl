@@ -1,17 +1,17 @@
 "415455534889fb4883ec50488b6f":  // unique sig
 cleanup __amd64 void CachedImage::CreatePrimitive(CachedImage *this); // 005a2520
 ".0f57c948c7470800000000f30f1005????????48c707????????48c74710????????48c7":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this); // 005a27f0
+cleanup __amd64 void CachedImage::constructor(CachedImage *this); // 005a27f0
 ".41544189cc5589d5534889fb48":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this, string *imageName, int x, int y); // 005a2850
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, string *imageName, int x, int y); // 005a2850
 ".534889fb48c747080000000048c7":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this, string *imageName, Centered centered); // 005a28c0
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, string *imageName, Centered centered); // 005a28c0
 ".0f57c948c7":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this, GL_Texture *texture, int x, int y); // 005a2970
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, GL_Texture *texture, int x, int y); // 005a2970
 ".4889f048c747":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this, GL_Texture *texture, Centered centered); // 005a29d0
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, GL_Texture *texture, Centered centered); // 005a29d0
 ".554889f5488d7610":  // unique sig
-cleanup __amd64 void CachedImage::CachedImage(CachedImage *this, CachedImage *source); // 005a2a70
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, CachedImage *source); // 005a2a70
 ".554889f5534889fb4883ec08e8????????488d75":  // unique sig
 cleanup __amd64 CachedImage *CachedImage::operator=(CachedImage *this, CachedImage *rhs); // 005a2b10
 ".55534889fbbf????????4883ec08":  // unique sig
@@ -29,6 +29,6 @@ cleanup __amd64 void CachedImage::SetRotation(CachedImage *this, float rotation)
 ".5589f5534889fb4883ec0840":  // unique sig
 cleanup __amd64 void CachedImage::SetMirrored(CachedImage *this, bool mirrored); // 005a2dc0
 ".534889fb4883ec10488b471048c707????????488d78e84881ff????????75??4889dfe8????????4889":  // unique sig
-cleanup __amd64 void CachedImage::~CachedImage(CachedImage *this, int __in_chrg); // 005a2df0
+cleanup __amd64 void CachedImage::destructor(CachedImage *this, int __in_chrg); // 005a2df0
 ".534889fb4883ec10488b4710":  // unique sig
-cleanup __amd64 void CachedImage::~CachedImage(CachedImage *this, int __in_chrg); // 005a2e60
+cleanup __amd64 void CachedImage::destructor(CachedImage *this, int __in_chrg); // 005a2e60

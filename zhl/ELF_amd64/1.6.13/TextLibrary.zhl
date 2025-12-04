@@ -17,7 +17,7 @@ cleanup __amd64 void TextLibrary::LoadText(TextLibrary *this, string *data, stri
 ".41574156415541544989fc5553488d":  // unique sig
 cleanup __amd64 string TextLibrary::GetText(TextLibrary *this, string *name, string *language); // 005b77f0
 ".415741564155415455534883ec28488b":  // unique sig
-cleanup __amd64 void TextLibrary::~TextLibrary(TextLibrary *this, int __in_chrg); // 005b8850
+cleanup __amd64 void TextLibrary::destructor(TextLibrary *this, int __in_chrg); // 005b8850
 ".4154488d4e":  // unique sig
 cleanup __amd64 string TextLibrary::FormatText<float>(TextLibrary *this, string *name); // 005f4a70
 ".41544989fc83":  // unique sig

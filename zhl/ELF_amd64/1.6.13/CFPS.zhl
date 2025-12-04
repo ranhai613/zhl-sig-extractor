@@ -1,5 +1,5 @@
 "660f57c0c747":  // unique sig
-cleanup __amd64 void CFPS::CFPS(CFPS *this); // 005a3fc0
+cleanup __amd64 void CFPS::constructor(CFPS *this); // 005a3fc0
 ".4883ec08e8????????f2":  // unique sig
 cleanup __amd64 double CFPS::GetTime(CFPS *this); // 005a3ff0
 ".534889fb4883ec10f2":  // unique sig

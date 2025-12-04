@@ -25,7 +25,7 @@ cleanup __amd64 void CrewDrone::OnRender(CrewDrone *this, bool outlineOnly); // 
 ".4883ec18f30f104710f30f104f0c4889e7f30f2cd0f30f2cf1e8????????8b":  // unique sig
 cleanup __amd64 Point CrewDrone::GetWorldLocation(CrewDrone *this); // 00435970
 ".41574989d7415641554189cd41544d":  // unique sig
-cleanup __amd64 void CrewDrone::CrewDrone(CrewDrone *this, string *type, TextString *name, int iShipId, DroneBlueprint *blueprint, CrewAnimation *anim); // 00435c00
+cleanup __amd64 void CrewDrone::constructor(CrewDrone *this, string *type, TextString *name, int iShipId, DroneBlueprint *blueprint, CrewAnimation *anim); // 00435c00
 ".f3c366666666662e0f1f8400000000004881ef48070000eb??0f1f80000000000f":  // unique sig
 cleanup __amd64 void CrewDrone::OnDestoy(CrewDrone *this); // 0043bbc0
 "0fb6876007":  // unique sig

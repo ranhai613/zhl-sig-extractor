@@ -1,5 +1,5 @@
 "488d4710c7":  // unique sig
-cleanup __amd64 void BlueprintManager::BlueprintManager(BlueprintManager *this); // 005e1790
+cleanup __amd64 void BlueprintManager::constructor(BlueprintManager *this); // 005e1790
 ".803d????????00534889fb75??e8":  // unique sig
 cleanup __amd64 int BlueprintManager::ChooseRarityValue(BlueprintManager *this); // 005e19d0
 ".f3c366666666662e0f1f84000000000031c0c3906666662e0f1f84000000000041":  // unique sig
@@ -85,7 +85,7 @@ cleanup __amd64 void BlueprintManager::LoadBlueprints(BlueprintManager *this, st
 ".41574156415541544989f44d":  // unique sig
 cleanup __amd64 CrewBlueprint *BlueprintManager::GetCrewBlueprint(BlueprintManager *this, string *name); // 005edb80
 ".4154554889fd534883ec104c8ba7":  // unique sig
-cleanup __amd64 void BlueprintManager::~BlueprintManager(BlueprintManager *this, int __in_chrg); // 005efe10
+cleanup __amd64 void BlueprintManager::destructor(BlueprintManager *this, int __in_chrg); // 005efe10
 ".4157be????????4156415541544589c4554889fd534889d3488d5b084881ec28":  // unique sig
 cleanup __amd64 std::vector<WeaponBlueprint*> *BlueprintManager::RandomItems<WeaponBlueprint>(BlueprintManager *this, std::map<std::string, WeaponBlueprint> *blueprints, int count, bool demo_lock); // 005f33c0
 ".4157be????????4156415541544589c4554889fd534889d3488d5b084881ec88":  // unique sig

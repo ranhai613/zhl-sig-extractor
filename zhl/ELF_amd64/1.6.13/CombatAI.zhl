@@ -17,4 +17,4 @@ cleanup __amd64 void CombatAI::UpdateWeapons(CombatAI *this); // 005db920
 ".4154554889fd53e8????????48":  // unique sig
 cleanup __amd64 void CombatAI::OnLoop(CombatAI *this); // 005dbdb0
 ".55534889fb4883ec18803d":  // unique sig
-cleanup __amd64 void CombatAI::CombatAI(CombatAI *this); // 005dbed0
+cleanup __amd64 void CombatAI::constructor(CombatAI *this); // 005dbed0

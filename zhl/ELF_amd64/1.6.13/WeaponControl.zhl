@@ -17,7 +17,7 @@ cleanup __amd64 void WeaponControl::SetOpen(WeaponControl *this, bool open); // 
 ".415641554154554863":  // unique sig
 cleanup __amd64 void WeaponControl::SelectArmament(WeaponControl *this, uint i); // 00592f20
 ".4157be030000004156415549":  // unique sig
-cleanup __amd64 void WeaponControl::WeaponControl(WeaponControl *this); // 00593450
+cleanup __amd64 void WeaponControl::constructor(WeaponControl *this); // 00593450
 ".4c8b472048":  // unique sig
 cleanup __amd64 void WeaponControl::ArmWeapon(WeaponControl *this, int index); // 00594480
 ".554889fd5331db4883ec38":  // unique sig
@@ -37,9 +37,9 @@ cleanup __amd64 void WeaponControl::Fire(WeaponControl *this, std::vector<Pointf
 ".4883ec5883c6":  // unique sig
 cleanup __amd64 SDLKey WeaponControl::ArmamentHotkey(WeaponControl *this, uint i); // 005951c0
 ".5531ed534889fb4883ec1848c7":  // unique sig
-cleanup __amd64 void WeaponControl::~WeaponControl(WeaponControl *this, int __in_chrg); // 005952b0
+cleanup __amd64 void WeaponControl::destructor(WeaponControl *this, int __in_chrg); // 005952b0
 ".534889fbe8????????4889df5be9????????66666666662e0f1f84000000000041":  // unique sig
-cleanup __amd64 void WeaponControl::~WeaponControl(WeaponControl *this, int __in_chrg); // 00595630
+cleanup __amd64 void WeaponControl::destructor(WeaponControl *this, int __in_chrg); // 00595630
 "4157be030000004156415541":  // unique sig
 cleanup __amd64 void WeaponControl::OnLoop(WeaponControl *this); // 00595650
 ".41564155415455534889fb4883ec70":  // unique sig

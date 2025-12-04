@@ -1,7 +1,7 @@
 "534889fb48c74750":  // unique sig
-cleanup __amd64 void SpaceStatus::SpaceStatus(SpaceStatus *this); // 00567080
+cleanup __amd64 void SpaceStatus::constructor(SpaceStatus *this); // 00567080
 ".554889fd5331db4883ec080f":  // unique sig
-cleanup __amd64 void SpaceStatus::~SpaceStatus(SpaceStatus *this, int __in_chrg); // 00567180
+cleanup __amd64 void SpaceStatus::destructor(SpaceStatus *this, int __in_chrg); // 00567180
 ".41564889d08d":  // unique sig
 cleanup __amd64 void SpaceStatus::OnInit(SpaceStatus *this, SpaceManager *space, Point pos); // 005671e0
 ".39b790":  // unique sig

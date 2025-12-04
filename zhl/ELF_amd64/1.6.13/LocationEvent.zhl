@@ -1,7 +1,7 @@
 "53be????????4889fb4883ec10488d54240fe8????????488d":  // unique sig
-cleanup __amd64 void LocationEvent::LocationEvent(LocationEvent *this); // 00609600
+cleanup __amd64 void LocationEvent::constructor(LocationEvent *this); // 00609600
 ".415741564155415455534889fb4883ec28488b87":  // unique sig
-cleanup __amd64 void LocationEvent::~LocationEvent(LocationEvent *this, int __in_chrg); // 0060a3f0
+cleanup __amd64 void LocationEvent::destructor(LocationEvent *this, int __in_chrg); // 0060a3f0
 ".4157415641554154554889fd534883ec3883":  // unique sig
 cleanup __amd64 void LocationEvent::ClearEvent(LocationEvent *this, bool force); // 0060b840
 ".41564989d641554589c541544989f448":  // unique sig

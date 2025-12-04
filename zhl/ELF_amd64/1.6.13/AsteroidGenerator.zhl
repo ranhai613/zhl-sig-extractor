@@ -1,5 +1,5 @@
 "415741564155415455534889fbbf40":  // unique sig
-cleanup __amd64 void AsteroidGenerator::AsteroidGenerator(AsteroidGenerator *this); // 0042c8b0
+cleanup __amd64 void AsteroidGenerator::constructor(AsteroidGenerator *this); // 0042c8b0
 ".89d05389":  // unique sig
 cleanup __amd64 void AsteroidGenerator::Initialize(AsteroidGenerator *this, int numShips, int shields, bool defense); // 0042cb00
 "!.89b798000000c390":  // unique sig

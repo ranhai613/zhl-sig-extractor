@@ -7,10 +7,10 @@ cleanup __amd64 float ArtilleryBox::GetCooldownFraction(ArtilleryBox *this); // 
 ".4154400fb6f655534889fb4883ec70":  // unique sig
 cleanup __amd64 void ArtilleryBox::OnRender(ArtilleryBox *this, bool ignoreStatus); // 0057b270
 ".55b901":  // unique sig
-cleanup __amd64 void ArtilleryBox::ArtilleryBox(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 0057ecd0
+cleanup __amd64 void ArtilleryBox::constructor(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 0057ecd0
 "!.554889fd5331db4883ec0848c707????????488bbc1d700200004883c308e8????????4883fb2075??4883":  // unique sig
-cleanup __amd64 void ArtilleryBox::~ArtilleryBox(ArtilleryBox *this, int __in_chrg); // 0057ff00
+cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this, int __in_chrg); // 0057ff00
 "!ef5b5de9????????660f1f840000000000":  // unique sig
 noHook __amd64 void ArtilleryBox::__DO_NOT_HOOK(); // 0057ff3f
 ".55":  // non-unique sig
-cleanup __amd64 void ArtilleryBox::~ArtilleryBox(ArtilleryBox *this, int __in_chrg); // 0057ff40
+cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this, int __in_chrg); // 0057ff40

@@ -3,7 +3,7 @@ cleanup __amd64 void CompleteShip::PauseLoop(CompleteShip *this); // 0041f9c0
 "534889fb488b7f10e8????????488b73":  // unique sig
 cleanup __amd64 void CompleteShip::Restart(CompleteShip *this); // 0041f9d0
 ".534889fb48897718":  // unique sig
-cleanup __amd64 void CompleteShip::CompleteShip(CompleteShip *this, SpaceManager *space, bool bPlayerShip, int iShipId); // 0041f9f0
+cleanup __amd64 void CompleteShip::constructor(CompleteShip *this, SpaceManager *space, bool bPlayerShip, int iShipId); // 0041f9f0
 "!.8b96ac08":  // unique sig
 cleanup __amd64 void CompleteShip::SetShip(CompleteShip *this, ShipManager *ship); // 0041fa70
 "!30e9????????906666662e0f1f840000000000":  // unique sig
@@ -61,9 +61,9 @@ cleanup __amd64 void CompleteShip::OnRenderShip(CompleteShip *this, bool showInt
 ".f3c366666666662e0f1f840000000000534889fb48c7":  // unique sig
 cleanup __amd64 void CompleteShip::OnCleanup(CompleteShip *this); // 004215c0
 "534889fb48c707????????488b7f10":  // unique sig
-cleanup __amd64 void CompleteShip::~CompleteShip(CompleteShip *this, int __in_chrg); // 004215d0
+cleanup __amd64 void CompleteShip::destructor(CompleteShip *this, int __in_chrg); // 004215d0
 ".534889fbe8????????4889df5be9????????662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b8":  // unique sig
-cleanup __amd64 void CompleteShip::~CompleteShip(CompleteShip *this, int __in_chrg); // 004216c0
+cleanup __amd64 void CompleteShip::destructor(CompleteShip *this, int __in_chrg); // 004216c0
 ".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0053":  // unique sig
 cleanup __amd64 bool CompleteShip::IsBoss(CompleteShip *this); // 00421700
 "31c0c3662e0f1f8400000000000f1f005380":  // unique sig

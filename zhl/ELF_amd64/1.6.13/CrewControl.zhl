@@ -1,5 +1,5 @@
 "4154baff":  // unique sig
-cleanup __amd64 void CrewControl::CrewControl(CrewControl *this); // 0050bca0
+cleanup __amd64 void CrewControl::constructor(CrewControl *this); // 0050bca0
 "!.550f57c0":  // unique sig
 cleanup __amd64 void CrewControl::StartCrewMessage(CrewControl *this, string *message); // 0050c0e0
 "!004889ee5b5de9????????":  // unique sig
@@ -43,7 +43,7 @@ cleanup __amd64 void CrewControl::KeyDown(CrewControl *this, SDLKey sym); // 005
 ".4154555380bf98":  // unique sig
 cleanup __amd64 void CrewControl::LButtonUp(CrewControl *this, int mX, int mY, bool shift); // 0050e0e0
 ".41544989fc55534883ec10488b4f68":  // unique sig
-cleanup __amd64 void CrewControl::~CrewControl(CrewControl *this, int __in_chrg); // 0050e260
+cleanup __amd64 void CrewControl::destructor(CrewControl *this, int __in_chrg); // 0050e260
 ".415741564c8db7f0":  // unique sig
 cleanup __amd64 void CrewControl::OnRender(CrewControl *this); // 0050e390
 ".41574989ff415641554589c5":  // unique sig

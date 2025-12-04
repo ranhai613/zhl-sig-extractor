@@ -3,7 +3,7 @@ cleanup __amd64 int BatteryBox::GetCooldownLevel(BatteryBox *this); // 0053e130
 ".534889fb488bbfd8020000e8????????84c0f3":  // unique sig
 cleanup __amd64 float BatteryBox::GetCooldownFraction(BatteryBox *this); // 0053e270
 ".5531c94889d5":  // unique sig
-cleanup __amd64 void BatteryBox::BatteryBox(BatteryBox *this, Point loc, BatterySystem *sys); // 0053e6f0
+cleanup __amd64 void BatteryBox::constructor(BatteryBox *this, Point loc, BatterySystem *sys); // 0053e6f0
 ".4154400fb6f655534889fbe8????????448ba3700300008bab74030000e8????????0f57d2f3410f2ac4f30f2acde8????????488bbbd8":  // unique sig
 cleanup __amd64 void BatteryBox::OnRender(BatteryBox *this, bool ignoreStatus); // 00540f30
 ".41544189d45589f5534889fb4881eca0000000e8????????488bbb90000000e8????????84c074??4881c4a00000005b5d415cc30f1f400044":  // unique sig
@@ -17,8 +17,8 @@ cleanup __amd64 void BatteryBox::OnTouch(BatteryBox *this, TouchAction action, i
 ".b801000000c3662e0f1f840000000000b801000000c3662e0f1f840000000000b801000000c3662e0f1f840000000000488b":  // unique sig
 cleanup __amd64 bool BatteryBox::HasButton(BatteryBox *this); // 00542ae0
 "!.534889fb48c707????????488dbfe0020000e8????????4889df5b":  // unique sig
-cleanup __amd64 void BatteryBox::~BatteryBox(BatteryBox *this, int __in_chrg); // 00542c80
+cleanup __amd64 void BatteryBox::destructor(BatteryBox *this, int __in_chrg); // 00542c80
 "!bfe0020000e8????????4889df5be9????????":  // unique sig
 noHook __amd64 void BatteryBox::__DO_NOT_HOOK(); // 00542c9f
 ".53":  // non-unique sig
-cleanup __amd64 void BatteryBox::~BatteryBox(BatteryBox *this, int __in_chrg); // 00542ca0
+cleanup __amd64 void BatteryBox::destructor(BatteryBox *this, int __in_chrg); // 00542ca0

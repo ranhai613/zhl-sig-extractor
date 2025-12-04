@@ -1,5 +1,5 @@
 "4155be0a00000041545548bdffffffffffffff1f534889fb488d7f20":  // unique sig
-cleanup __amd64 void ResourceControl::ResourceControl(ResourceControl *this); // 005bb460
+cleanup __amd64 void ResourceControl::constructor(ResourceControl *this); // 005bb460
 ".b801000000c3662e0f1f8400000000004883ec28":  // unique sig
 cleanup __amd64 bool ResourceControl::ShipGlow(ResourceControl *this); // 005bb6f0
 "4883ec284885f64889f7660fd60424488b0424660fd60c244c8b142474":  // unique sig
@@ -23,7 +23,7 @@ cleanup __amd64 char *ResourceControl::LoadFromResourceFile(ResourceControl *thi
 ".f3c366666666662e0f1f8400000000004154be":  // unique sig
 cleanup __amd64 void ResourceControl::OnLanguageChange(ResourceControl *this); // 005bbbd0
 "4154be????????554889fd534883":  // unique sig
-cleanup __amd64 void ResourceControl::~ResourceControl(ResourceControl *this, int __in_chrg); // 005bbbe0
+cleanup __amd64 void ResourceControl::destructor(ResourceControl *this, int __in_chrg); // 005bbbe0
 ".41544989fc55534883ec10e8":  // unique sig
 cleanup __amd64 void ResourceControl::UnloadImage(ResourceControl *this, string *name); // 005bc180
 ".41574989ff48":  // unique sig

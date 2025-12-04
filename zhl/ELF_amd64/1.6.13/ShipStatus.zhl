@@ -1,11 +1,11 @@
 "41574156415541544989fc55534883ec18488b7f":  // unique sig
 cleanup __amd64 void ShipStatus::RenderShields(ShipStatus *this, bool renderText); // 0055f290
 ".53baffffffff4889fb89":  // unique sig
-cleanup __amd64 void ShipStatus::ShipStatus(ShipStatus *this); // 0055f600
+cleanup __amd64 void ShipStatus::constructor(ShipStatus *this); // 0055f600
 ".415441bc04":  // unique sig
 cleanup __amd64 void ShipStatus::OnCleanup(ShipStatus *this); // 0055f9c0
 ".534889fbe8????????488bbbe8":  // unique sig
-cleanup __amd64 void ShipStatus::~ShipStatus(ShipStatus *this, int __in_chrg); // 0055fd10
+cleanup __amd64 void ShipStatus::destructor(ShipStatus *this, int __in_chrg); // 0055fd10
 ".554889f5534889fb4883ec288b":  // unique sig
 cleanup __amd64 void ShipStatus::LinkShip(ShipStatus *this, ShipManager *ship); // 0055fd50
 "!.48897718c3":  // unique sig

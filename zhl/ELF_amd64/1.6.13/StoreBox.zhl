@@ -11,7 +11,7 @@ cleanup __amd64 void StoreBox::SetShopper(StoreBox *this, ShipManager *ship); //
 ".4889b718":  // unique sig
 cleanup __amd64 void StoreBox::RelinkShip(StoreBox *this, ShipManager *ship, Equipment *equip); // 00569ce0
 ".41574989d7415641554989f5":  // unique sig
-cleanup __amd64 void StoreBox::StoreBox(StoreBox *this, string buttonImage, ShipManager *shopper, Equipment *equipScreen); // 00569cf0
+cleanup __amd64 void StoreBox::constructor(StoreBox *this, string buttonImage, ShipManager *shopper, Equipment *equipScreen); // 00569cf0
 "!.538b8710":  // unique sig
 cleanup __amd64 void StoreBox::OnLoop(StoreBox *this); // 0056c3a0
 "!f05be9????????900f1f4000":  // unique sig
@@ -21,9 +21,9 @@ cleanup __amd64 void StoreBox::Purchase(StoreBox *this); // 0056c3e0
 "!.eb??8b50f88d4aff8948f889d0eb??8b50f88d4aff8948f889d0eb??0f1f4000":  // unique sig
 noHook __amd64 void StoreBox::__DO_NOT_HOOK(); // 0056d6af
 ".53":  // non-unique sig
-cleanup __amd64 void StoreBox::~StoreBox(StoreBox *this, int __in_chrg); // 0056d6b0
+cleanup __amd64 void StoreBox::destructor(StoreBox *this, int __in_chrg); // 0056d6b0
 ".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004157415641554154":  // unique sig
-cleanup __amd64 void StoreBox::~StoreBox(StoreBox *this, int __in_chrg); // 0056d8d0
+cleanup __amd64 void StoreBox::destructor(StoreBox *this, int __in_chrg); // 0056d8d0
 "415741564155415455534889fb488d7f18":  // unique sig
 cleanup __amd64 void StoreBox::OnRender(StoreBox *this); // 0056d8f0
 ".4883c71831":  // unique sig

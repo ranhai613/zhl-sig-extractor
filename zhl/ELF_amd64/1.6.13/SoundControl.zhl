@@ -49,4 +49,4 @@ cleanup __amd64 ChannelType SoundControl::PlaySoundMix(SoundControl *this, strin
 ".4157415641554154554889fd534883ec3880":  // unique sig
 cleanup __amd64 void SoundControl::UpdateSoundLoop(SoundControl *this, string *loopId, float count); // 005d4870
 ".4154554889fd488dbf":  // unique sig
-cleanup __amd64 void SoundControl::~SoundControl(SoundControl *this, int __in_chrg); // 005d6100
+cleanup __amd64 void SoundControl::destructor(SoundControl *this, int __in_chrg); // 005d6100

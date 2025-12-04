@@ -437,11 +437,11 @@ cleanup __amd64 bool ShipManager::OnInit(ShipManager *this, ShipBlueprint *blueP
 ".415741564189f64155415455534889fb4c":  // unique sig
 cleanup __amd64 void ShipManager::ImportShip(ShipManager *this, int fd); // 004cc870
 ".415741564989fe48":  // unique sig
-cleanup __amd64 void ShipManager::ShipManager(ShipManager *this, int shipId); // 004ce290
+cleanup __amd64 void ShipManager::constructor(ShipManager *this, int shipId); // 004ce290
 ".415641554989fd4154555348c7":  // unique sig
-cleanup __amd64 void ShipManager::~ShipManager(ShipManager *this, int __in_chrg); // 004cebf0
+cleanup __amd64 void ShipManager::destructor(ShipManager *this, int __in_chrg); // 004cebf0
 ".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004883ef10eb??662e0f1f84000000000048":  // unique sig
-cleanup __amd64 void ShipManager::~ShipManager(ShipManager *this, int __in_chrg); // 004ceec0
+cleanup __amd64 void ShipManager::destructor(ShipManager *this, int __in_chrg); // 004ceec0
 ".0fb68774":  // unique sig
 cleanup __amd64 bool ShipManager::GetIsJumping(ShipManager *this); // 004cef10
 ".0fb68715":  // unique sig

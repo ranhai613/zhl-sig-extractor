@@ -9,15 +9,15 @@ cleanup __amd64 bool WeaponSystemBox::IsTouchTooltipActive(WeaponSystemBox *this
 ".534889fbc687b0":  // unique sig
 cleanup __amd64 void WeaponSystemBox::CloseTapBox(WeaponSystemBox *this); // 005788a0
 ".554889cdb901000000534889fb4883ec08e8????????488d":  // unique sig
-cleanup __amd64 void WeaponSystemBox::WeaponSystemBox(WeaponSystemBox *this, Point loc, ShipSystem *sys, WeaponControl *weapControl); // 0057ad60
+cleanup __amd64 void WeaponSystemBox::constructor(WeaponSystemBox *this, Point loc, ShipSystem *sys, WeaponControl *weapControl); // 0057ad60
 ".534889fbe8????????488bbb78":  // unique sig
 cleanup __amd64 void WeaponSystemBox::OnLoop(WeaponSystemBox *this); // 0057db50
 "!.55534889fb4883ec08488baf7803000048c707????????4885ed74??4889efe8????????4889efe8????????488dbb70020000e8????????4883":  // unique sig
-cleanup __amd64 void WeaponSystemBox::~WeaponSystemBox(WeaponSystemBox *this, int __in_chrg); // 0057f100
+cleanup __amd64 void WeaponSystemBox::destructor(WeaponSystemBox *this, int __in_chrg); // 0057f100
 "!e8????????4883c4084889df5b5de9????????662e0f1f840000000000":  // unique sig
 noHook __amd64 void WeaponSystemBox::__DO_NOT_HOOK(); // 0057f14f
 "!.55":  // non-unique sig
-cleanup __amd64 void WeaponSystemBox::~WeaponSystemBox(WeaponSystemBox *this, int __in_chrg); // 0057f150
+cleanup __amd64 void WeaponSystemBox::destructor(WeaponSystemBox *this, int __in_chrg); // 0057f150
 ".415440":  // unique sig
 cleanup __amd64 void WeaponSystemBox::OnRender(WeaponSystemBox *this, bool ignoreStatus); // 0057f1a0
 ".41574989ff415641554589":  // unique sig

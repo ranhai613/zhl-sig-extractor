@@ -1,7 +1,7 @@
 "41574989ff41564189f6be":  // unique sig
 cleanup __amd64 bool ScoreKeeper::GetShipUnlocked(ScoreKeeper *this, int shipId, int layout); // 00455640
 ".4157415641554c8daf80":  // unique sig
-cleanup __amd64 void ScoreKeeper::ScoreKeeper(ScoreKeeper *this); // 00455dc0
+cleanup __amd64 void ScoreKeeper::constructor(ScoreKeeper *this); // 00455dc0
 ".4157415641554531ed41544989f4":  // unique sig
 cleanup __amd64 std::pair<int, int> ScoreKeeper::GetShipId(ScoreKeeper *this, string *blueprintName); // 00456620
 ".4863d253":  // unique sig
@@ -99,4 +99,4 @@ cleanup __amd64 void ScoreKeeper::MouseMove(ScoreKeeper *this, int mX, int mY); 
 ".415741564189ce41554989fd":  // unique sig
 cleanup __amd64 void ScoreKeeper::OnTouch(ScoreKeeper *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0045eae0
 ".4157415641554989fd48":  // unique sig
-cleanup __amd64 void ScoreKeeper::~ScoreKeeper(ScoreKeeper *this, int __in_chrg); // 0045f090
+cleanup __amd64 void ScoreKeeper::destructor(ScoreKeeper *this, int __in_chrg); // 0045f090

@@ -39,8 +39,6 @@ def process_template(content: str) -> str:
         return args
 
     def process_type(content: str) -> str:
-        print("Processing:", content)
-        
         if content in C_CONTAINER_TYPES:
             return "std::" + content
         
@@ -89,12 +87,25 @@ def process_template(content: str) -> str:
             word_buffer += ch
     return ret
 
+def rename_functions(content: str) -> str:
+    def rename_match(match: re.Match) -> str:
+        if match.group(3) == match.group(4):
+            return f"{match.group(1)}{match.group(2)}{match.group(3)}::constructor({match.group(5)});"
+        elif f"~{match.group(3)}" == match.group(4):
+            return f"{match.group(1)}{match.group(2)}{match.group(3)}::destructor({match.group(5)});"
+        else:
+            return match.group(0)
+    
+    PROTOTYPE_PATTERN = re.compile(r'(.+)(\s+)(\S+?)::(\S+?)\((.*)\);')
+    return re.sub(PROTOTYPE_PATTERN, rename_match, content)
+
 def main(target_dir: str) -> None:
     for file in glob(target_dir + "/*.zhl"):
         with open(file, "r", encoding="utf-8") as f:
             content = f.read()
         content = preprocess(content)
         content = process_template(content)
+        content = rename_functions(content)
         with open(file, "w", encoding="utf-8") as f:
             f.write(content)
 

@@ -1,5 +1,5 @@
 "!41544189d45589f548":  // unique sig
-cleanup __amd64 void TextInput::TextInput(TextInput *this, int max, AllowedCharType allowedChars, string *prompt); // 00586ae0
+cleanup __amd64 void TextInput::constructor(TextInput *this, int max, AllowedCharType allowedChars, string *prompt); // 00586ae0
 "!005b5d415ce9????????0f1f4000":  // unique sig
 noHook __amd64 void TextInput::__DO_NOT_HOOK(); // 00586b6f
 ".41":  // non-unique sig

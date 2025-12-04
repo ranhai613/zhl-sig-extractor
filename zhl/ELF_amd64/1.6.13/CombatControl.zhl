@@ -1,7 +1,7 @@
 "554889fd534883ec08488b8f98":  // unique sig
 cleanup __amd64 void CombatControl::ClearSysBoxes(CombatControl *this); // 004f0b00
 ".415741564155415455534889fb488d7f104c":  // unique sig
-cleanup __amd64 void CombatControl::CombatControl(CombatControl *this); // 004f0b70
+cleanup __amd64 void CombatControl::constructor(CombatControl *this); // 004f0b70
 ".488b87c00700004885c074??488b78":  // unique sig
 cleanup __amd64 void CombatControl::ClearCrewSelection(CombatControl *this); // 004f1350
 ".488b87c00700004885c074??488b4010c3":  // unique sig
@@ -107,7 +107,7 @@ cleanup __amd64 void CombatControl::RenderTarget(CombatControl *this); // 004f4e
 ".534889fb4883ec3080bfb8":  // unique sig
 cleanup __amd64 void CombatControl::OnRenderCombat(CombatControl *this); // 004f6790
 ".41564155415455534889fb4883ec10488baf":  // unique sig
-cleanup __amd64 void CombatControl::~CombatControl(CombatControl *this, int __in_chrg); // 004f6880
+cleanup __amd64 void CombatControl::destructor(CombatControl *this, int __in_chrg); // 004f6880
 ".4155440fb6ee":  // unique sig
 cleanup __amd64 void CombatControl::OnRenderInterface(CombatControl *this, bool front); // 004f7020
 "!.534889fb488d7f20e8":  // unique sig

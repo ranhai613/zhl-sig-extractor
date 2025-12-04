@@ -1,5 +1,5 @@
 "48c74708????????48c74710????????c747180000000048":  // unique sig
-cleanup __amd64 void CreditScreen::CreditScreen(CreditScreen *this); // 00503100
+cleanup __amd64 void CreditScreen::constructor(CreditScreen *this); // 00503100
 ".488b4730482b":  // unique sig
 cleanup __amd64 bool CreditScreen::Done(CreditScreen *this); // 00503140
 ".415641554154554889fd534883ec60":  // unique sig

@@ -29,6 +29,6 @@ cleanup __amd64 LocationEvent *EventGenerator::GetEvent(EventGenerator *this, st
 ".5589cd534889fb4883ec18":  // unique sig
 cleanup __amd64 LocationEvent *EventGenerator::GetBaseEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique, int seed); // 005f9830
 ".4155be0a":  // unique sig
-cleanup __amd64 void EventGenerator::EventGenerator(EventGenerator *this); // 005fa040
+cleanup __amd64 void EventGenerator::constructor(EventGenerator *this); // 005fa040
 ".415541544989fc55534883ec18488b9f50":  // unique sig
-cleanup __amd64 void EventGenerator::~EventGenerator(EventGenerator *this, int __in_chrg); // 005fc150
+cleanup __amd64 void EventGenerator::destructor(EventGenerator *this, int __in_chrg); // 005fc150

@@ -9,11 +9,11 @@ cleanup __amd64 void MenuScreen::SetSaveEnabled(MenuScreen *this, bool val); // 
 ".534889fb4883ec108b47":  // unique sig
 cleanup __amd64 int MenuScreen::GetCommand(MenuScreen *this); // 00539070
 ".41564155415455534889fb488d6b":  // unique sig
-cleanup __amd64 void MenuScreen::MenuScreen(MenuScreen *this); // 005390c0
+cleanup __amd64 void MenuScreen::constructor(MenuScreen *this); // 005390c0
 ".554889fd5331db4883ec18488b4f":  // unique sig
-cleanup __amd64 void MenuScreen::~MenuScreen(MenuScreen *this, int __in_chrg); // 0053a520
+cleanup __amd64 void MenuScreen::destructor(MenuScreen *this, int __in_chrg); // 0053a520
 ".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004156":  // unique sig
-cleanup __amd64 void MenuScreen::~MenuScreen(MenuScreen *this, int __in_chrg); // 0053a7a0
+cleanup __amd64 void MenuScreen::destructor(MenuScreen *this, int __in_chrg); // 0053a7a0
 "41564155415455534889fb4881eca000000080":  // unique sig
 cleanup __amd64 void MenuScreen::OnRender(MenuScreen *this); // 0053a7c0
 ".41564155415455534889fb4883ec3080bf":  // unique sig

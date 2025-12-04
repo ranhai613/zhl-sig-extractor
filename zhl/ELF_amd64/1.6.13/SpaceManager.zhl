@@ -1,5 +1,5 @@
 "415455534889fb488d7f18488d":  // unique sig
-cleanup __amd64 void SpaceManager::SpaceManager(SpaceManager *this); // 0046c530
+cleanup __amd64 void SpaceManager::constructor(SpaceManager *this); // 0046c530
 ".0fb687b004":  // unique sig
 cleanup __amd64 bool SpaceManager::GetScreenShake(SpaceManager *this); // 0046cac0
 ".41544189f455530f":  // unique sig

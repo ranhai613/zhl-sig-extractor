@@ -1,5 +1,5 @@
 "534889f04889fb":  // unique sig
-cleanup __amd64 void ControlButton::ControlButton(ControlButton *this, Point pos, string value); // 00544270
+cleanup __amd64 void ControlButton::constructor(ControlButton *this, Point pos, string value); // 00544270
 ".4154554889fd488d7f18":  // unique sig
 cleanup __amd64 void ControlButton::SetDesc(ControlButton *this, TextString *desc); // 005442d0
 ".4154554889fd53488d5f104883ec40":  // unique sig

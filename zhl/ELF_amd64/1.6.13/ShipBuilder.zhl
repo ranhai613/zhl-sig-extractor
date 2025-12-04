@@ -1,5 +1,5 @@
 "534889fb488d7f184883ec30":  // unique sig
-cleanup __amd64 void ShipBuilder::ShipBuilder(ShipBuilder *this); // 0054c320
+cleanup __amd64 void ShipBuilder::constructor(ShipBuilder *this); // 0054c320
 ".4157488d8720":  // unique sig
 cleanup __amd64 void ShipBuilder::MouseMove(ShipBuilder *this, int mX, int mY); // 0054ca80
 ".f3c366666666662e0f1f84000000000041544c":  // unique sig
@@ -29,7 +29,7 @@ cleanup __amd64 void ShipBuilder::CreateEquipmentBoxes(ShipBuilder *this); // 00
 ".4157415641554154554889fd534883ec18488bb7":  // unique sig
 cleanup __amd64 void ShipBuilder::CreateSystemBoxes(ShipBuilder *this); // 0054e1c0
 ".415455534889fb4883ec10488baf":  // unique sig
-cleanup __amd64 void ShipBuilder::~ShipBuilder(ShipBuilder *this, int __in_chrg); // 0054e330
+cleanup __amd64 void ShipBuilder::destructor(ShipBuilder *this, int __in_chrg); // 0054e330
 ".4155415455534889fb4883ec7880":  // unique sig
 cleanup __amd64 void ShipBuilder::OnRender(ShipBuilder *this); // 0054e5f0
 ".415741564155415455534889fbbf":  // unique sig

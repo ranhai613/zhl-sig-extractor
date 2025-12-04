@@ -11,7 +11,7 @@ cleanup __amd64 void Fire::UpdateStartTimer(Fire *this, int doorLevel); // 00499
 ".4157be????????415641554154554889fd534881":  // unique sig
 cleanup __amd64 void Fire::OnInit(Fire *this); // 00499af0
 ".5389f2be":  // unique sig
-cleanup __amd64 void Fire::Fire(Fire *this, int shipId); // 0049a670
+cleanup __amd64 void Fire::constructor(Fire *this, int shipId); // 0049a670
 ".488b07534889fbff5038":  // unique sig
 cleanup __amd64 void Fire::Reset(Fire *this); // 0049aa40
 ".f30f114750":  // unique sig
@@ -23,6 +23,6 @@ cleanup __amd64 bool Fire::Present(Fire *this); // 0049ab60
 "!.488b07f30f":  // unique sig
 cleanup __amd64 void Fire::Spread(Fire *this); // 0049ab70
 ".415641554154554889fd534883ec10488b87b0":  // unique sig
-cleanup __amd64 void Fire::~Fire(Fire *this, int __in_chrg); // 0049ab90
+cleanup __amd64 void Fire::destructor(Fire *this, int __in_chrg); // 0049ab90
 ".415641554154554889fd534883ec10488b87b0":  // unique sig
-cleanup __amd64 void Fire::~Fire(Fire *this, int __in_chrg); // 0049b070
+cleanup __amd64 void Fire::destructor(Fire *this, int __in_chrg); // 0049b070

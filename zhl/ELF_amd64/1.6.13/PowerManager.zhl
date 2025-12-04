@@ -1,5 +1,5 @@
 "c70700000000c7470400000000c747080f":  // unique sig
-cleanup __amd64 void PowerManager::PowerManager(PowerManager *this); // 00644b40
+cleanup __amd64 void PowerManager::constructor(PowerManager *this); // 00644b40
 ".c70700000000c747":  // unique sig
 cleanup __amd64 void PowerManager::Restart(PowerManager *this); // 00644b90
 ".f3c366666666662e0f1f84000000000031c0c390":  // unique sig
