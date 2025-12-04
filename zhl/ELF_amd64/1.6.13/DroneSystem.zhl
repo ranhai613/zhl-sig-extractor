@@ -4,17 +4,15 @@ cleanup __amd64 void DroneSystem::ShipDestroyed(DroneSystem *this); // 00640100
 cleanup __amd64 void DroneSystem::ForceBatteryPower(DroneSystem *this, int val); // 00640180
 "!.534889fb48c707????????48c74710????????488bbfa00200004885ff74??e8????????488bbb700200004885ff74??e8????????488bbb480200004885ff74??e8????????4889df5b":  // unique sig
 cleanup __amd64 void DroneSystem::~DroneSystem(DroneSystem *this, int __in_chrg); // 00640190
-".4883ef10eb??662e0f1f840000000000534889fbe8":  // unique sig
-cleanup __amd64 undefined DroneSystem::~DroneSystem(DroneSystem *this); // 006401e0
-"534889fbe8????????4889dfe8????????488b":  // unique sig
+".534889fbe8????????4889dfe8????????48":  // unique sig
 cleanup __amd64 void DroneSystem::Restart(DroneSystem *this); // 006401f0
 ".415484":  // unique sig
 cleanup __amd64 bool DroneSystem::DePowerDrone(DroneSystem *this, Drone *drone, bool userDriven); // 00640230
 "!.534889fb48c707????????48c74710????????488bbfa0":  // unique sig
 cleanup __amd64 void DroneSystem::~DroneSystem(DroneSystem *this, int __in_chrg); // 00640760
-".4883ef10eb??662e0f1f84000000000041":  // unique sig
-cleanup __amd64 undefined DroneSystem::~DroneSystem(DroneSystem *this); // 006407c0
-"415431c0554889fd5329":  // unique sig
+"!660f1f8400000000004883ef10eb??662e0f1f840000000000":  // unique sig
+noHook __amd64 void DroneSystem::__DO_NOT_HOOK(); // 006407cf
+".41":  // non-unique sig
 cleanup __amd64 void DroneSystem::AddDamage(DroneSystem *this, int amount); // 006407d0
 "!.415455534889fbe8":  // unique sig
 cleanup __amd64 void DroneSystem::CheckMaxPower(DroneSystem *this); // 00640880

@@ -1,52 +1,36 @@
 "f30f1005????????c390660f1f4400000f":  // unique sig
 cleanup __amd64 float CrewDrone::GetMoveSpeedMultipler(CrewDrone *this); // 00434da0
-"0fb68720020000c30f1f84000000000048":  // unique sig
+"!0fb68720020000c30f1f84000000000048":  // unique sig
 cleanup __amd64 bool CrewDrone::Destroyed(CrewDrone *this); // 00434db0
-"4881ef48070000eb??90660f1f440000f3":  // unique sig
-cleanup __amd64 undefined CrewDrone::Destroyed(CrewDrone *this); // 00434dc0
-"f30f1005????????e9????????0f1f004881":  // unique sig
+"!00c30f1f8400000000004881ef48070000eb??90660f1f440000":  // unique sig
+noHook __amd64 void CrewDrone::__DO_NOT_HOOK(); // 00434dcf
+"!.f3":  // non-unique sig
 cleanup __amd64 void CrewDrone::BlowUp(CrewDrone *this, bool silent); // 00434dd0
-"4881ef48070000eb??90660f1f4400005548":  // unique sig
-cleanup __amd64 undefined CrewDrone::BlowUp(CrewDrone *this, bool param_1); // 00434de0
-"55488daf9007":  // unique sig
+".55488daf90":  // unique sig
 cleanup __amd64 void CrewDrone::SetInstantPowered(CrewDrone *this); // 00434df0
-".4881ef48070000eb??90660f1f44000053":  // unique sig
-cleanup __amd64 undefined CrewDrone::SetInstantPowered(CrewDrone *this); // 00434e30
 ".41544084f65589":  // unique sig
 cleanup __amd64 void CrewDrone::SetPowered(CrewDrone *this, bool powered); // 00434e80
-".4881ef48070000e9????????0f1f400041564155415455488d":  // unique sig
-cleanup __amd64 undefined CrewDrone::SetPowered(CrewDrone *this, bool param_1); // 00434ff0
-"41564155415455488daf48":  // unique sig
+".41564155415455488daf48":  // unique sig
 cleanup __amd64 void CrewDrone::OnLoop(CrewDrone *this); // 00435000
-".4881ef48070000e9????????0f1f40004154":  // unique sig
-cleanup __amd64 undefined CrewDrone::OnLoop(CrewDrone *this); // 00435280
-"!41544989f449c1fc20554889f5534889fb8b":  // unique sig
+"!.41544989f449c1fc20554889f5534889fb8b":  // unique sig
 cleanup __amd64 void CrewDrone::SetWorldLocation(CrewDrone *this, Point p); // 00435290
-".4881ef48070000eb??90660f1f44000055":  // unique sig
-cleanup __amd64 undefined CrewDrone::SetWorldLocation(CrewDrone *this, Point *param_1); // 004352d0
-"5589f5534889fb4883ec084084":  // unique sig
+"!40004881ef48070000eb??90660f1f440000":  // unique sig
+noHook __amd64 void CrewDrone::__DO_NOT_HOOK(); // 004352df
+".55":  // non-unique sig
 cleanup __amd64 void CrewDrone::SetDeployed(CrewDrone *this, bool deploy); // 004352e0
-".4881ef48070000eb??90660f1f4400000f":  // unique sig
-cleanup __amd64 undefined CrewDrone::SetDeployed(CrewDrone *this, bool param_1); // 00435350
-"0f57c90f2ec877??31":  // unique sig
+".0f57c90f2ec877??31":  // unique sig
 cleanup __amd64 bool CrewDrone::ShipDamage(CrewDrone *this, float amount); // 00435360
 ".4084f60f85????????41":  // unique sig
 cleanup __amd64 void CrewDrone::OnRender(CrewDrone *this, bool outlineOnly); // 00435540
 ".4883ec18f30f104710f30f104f0c4889e7f30f2cd0f30f2cf1e8????????8b":  // unique sig
 cleanup __amd64 Point CrewDrone::GetWorldLocation(CrewDrone *this); // 00435970
-".4881ef48070000eb??90":  // unique sig
-cleanup __amd64 undefined CrewDrone::GetWorldLocation(CrewDrone *this); // 004359b0
 ".41574989d7415641554189cd41544d":  // unique sig
 cleanup __amd64 void CrewDrone::CrewDrone(CrewDrone *this, string *type, TextString *name, int iShipId, DroneBlueprint *blueprint, CrewAnimation *anim); // 00435c00
 ".f3c366666666662e0f1f8400000000004881ef48070000eb??0f1f80000000000f":  // unique sig
 cleanup __amd64 void CrewDrone::OnDestoy(CrewDrone *this); // 0043bbc0
-"4881ef48070000eb??0f1f80000000000f":  // unique sig
-cleanup __amd64 undefined CrewDrone::OnDestoy(CrewDrone *this); // 0043bbd0
 "0fb6876007":  // unique sig
 cleanup __amd64 bool CrewDrone::NeedsRoom(CrewDrone *this); // 0043bbe0
-".4881ef48070000eb??0f1f800000000031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031":  // unique sig
-cleanup __amd64 undefined CrewDrone::NeedsRoom(CrewDrone *this); // 0043bbf0
-"31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031":  // unique sig
+".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031":  // unique sig
 cleanup __amd64 bool CrewDrone::CanStim(CrewDrone *this); // 0043bc00
 "31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f00b8":  // unique sig
 cleanup __amd64 bool CrewDrone::ReadyToFight(CrewDrone *this); // 0043bc10
@@ -68,13 +52,9 @@ cleanup __amd64 bool CrewDrone::CanSuffocate(CrewDrone *this); // 0043bc80
 cleanup __amd64 int CrewDrone::GetMaxHealth(CrewDrone *this); // 0043bc90
 "f30f6f87":  // unique sig
 cleanup __amd64 Slot CrewDrone::GetDroneSlot(CrewDrone *this); // 0043bca0
-".4881ef48070000eb??0f1f8000000000f30f":  // unique sig
-cleanup __amd64 undefined CrewDrone::GetDroneSlot(CrewDrone *this); // 0043bcc0
-"f30f10472cf30f2c":  // unique sig
+".f30f10472cf30f2c":  // unique sig
 cleanup __amd64 int CrewDrone::GetDroneHealth(CrewDrone *this); // 0043bcd0
-".4881ef48070000eb??0f1f800000000031":  // unique sig
-cleanup __amd64 undefined CrewDrone::GetDroneHealth(CrewDrone *this); // 0043bce0
-"31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3":  // unique sig
+".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3":  // unique sig
 cleanup __amd64 bool CrewDrone::PermanentDeath(CrewDrone *this); // 0043bcf0
 "31c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3c36666":  // unique sig
 cleanup __amd64 bool CrewDrone::GetControllable(CrewDrone *this); // 0043bd00
@@ -84,25 +64,19 @@ cleanup __amd64 bool CrewDrone::IsDrone(CrewDrone *this); // 0043bd10
 cleanup __amd64 bool CrewDrone::CountForVictory(CrewDrone *this); // 0043bd20
 "f3c366666666662e0f1f8400000000004881ef48070000eb??0f1f8000000000f3":  // unique sig
 cleanup __amd64 void CrewDrone::SaveState(CrewDrone *this, int fd); // 0043bd30
-"4881ef48070000eb??0f1f8000000000f3c3":  // unique sig
-cleanup __amd64 undefined CrewDrone::SaveState(CrewDrone *this, int param_1); // 0043bd40
 "f3c366666666662e0f1f8400000000004881ef48070000eb??0f1f8000000000b8":  // unique sig
 cleanup __amd64 void CrewDrone::LoadState(CrewDrone *this, int fd); // 0043bd50
-"4881ef48070000eb??0f1f8000000000b8":  // unique sig
-cleanup __amd64 undefined CrewDrone::LoadState(CrewDrone *this, int param_1); // 0043bd60
 ".e9????????662e0f1f84000000000090e9????????6666":  // unique sig
 cleanup __amd64 void CrewDrone::Jump(CrewDrone *this); // 0043beb0
-"e9????????66662e0f1f8400000000004881ef":  // unique sig
+"!e9????????66662e0f1f8400000000004881ef":  // unique sig
 cleanup __amd64 void CrewDrone::SetCurrentShip(CrewDrone *this, int iShipId); // 0043bec0
-"4881ef48070000eb??0f1f800000000053":  // unique sig
-cleanup __amd64 undefined CrewDrone::SetCurrentShip(CrewDrone *this, int param_1); // 0043bed0
-"534889fbe8????????31d284c074":  // unique sig
+"!e9????????66662e0f1f8400000000004881ef48070000eb??0f1f8000000000":  // unique sig
+noHook __amd64 void CrewDrone::__DO_NOT_HOOK(); // 0043bedf
+".53":  // non-unique sig
 cleanup __amd64 bool CrewDrone::GetIntruder(CrewDrone *this); // 0043bee0
 ".80bf6007":  // unique sig
 cleanup __amd64 bool CrewDrone::Functional(CrewDrone *this); // 0043bf10
 ".8b57084889f8":  // unique sig
 cleanup __amd64 bool CrewDrone::ProvidesVision(CrewDrone *this); // 0043bf40
 // Failed to generate signature for function: CrewDrone::~CrewDrone at 0043c820
-// Failed to generate signature for function: CrewDrone::~CrewDrone at 0043cc40
 // Failed to generate signature for function: CrewDrone::~CrewDrone at 0043cc50
-// Failed to generate signature for function: CrewDrone::~CrewDrone at 0043d070

@@ -1,42 +1,26 @@
 "f30f7e4718c3662e0f1f8400000000004883ef08eb??662e0f1f840000000000f3":  // unique sig
 cleanup __amd64 Pointf Projectile::GetWorldCenterPoint(Projectile *this); // 004303d0
-"4883ef08eb??662e0f1f840000000000f30f7e47":  // unique sig
-cleanup __amd64 undefined Projectile::GetWorldCenterPoint(Projectile *this); // 004303e0
 "f30f7e4718c3662e0f1f8400000000004883ef08eb??662e0f1f8400000000008b":  // unique sig
 cleanup __amd64 Pointf Projectile::GetRandomTargettingPoint(Projectile *this, bool valuable); // 004303f0
-"4883ef08eb??662e0f1f8400000000008b":  // unique sig
-cleanup __amd64 undefined Projectile::GetRandomTargettingPoint(Projectile *this, bool param_1); // 00430400
 "!8b477cc3":  // unique sig
 cleanup __amd64 int Projectile::GetSpaceId(Projectile *this); // 00430410
-"!7cc36666662e0f1f840000000000":  // unique sig
-noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 0043041f
-"!.48":  // non-unique sig
-cleanup __amd64 undefined Projectile::GetSpaceId(Projectile *this); // 00430420
 ".897778":  // unique sig
 cleanup __amd64 void Projectile::SetDestinationSpace(Projectile *this, int space); // 00430430
 ".0fb6873402000083":  // unique sig
 cleanup __amd64 bool Projectile::ValidTarget(Projectile *this); // 00430440
-".4883ef08eb??662e0f1f840000000000488b07":  // unique sig
-cleanup __amd64 undefined Projectile::ValidTarget(Projectile *this); // 00430450
-"!488b07c68784":  // unique sig
+"!.488b07c68784":  // unique sig
 cleanup __amd64 void Projectile::Kill(Projectile *this); // 00430460
 "!00ffe0662e0f1f8400000000000f1f00":  // unique sig
 noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 0043047f
 ".8b":  // non-unique sig
 cleanup __amd64 int Projectile::GetSelfId(Projectile *this); // 00430480
-".4883ef08eb??662e0f1f840000000000f3":  // unique sig
-cleanup __amd64 undefined Projectile::GetSelfId(Projectile *this); // 00430490
-"f30f7e8708":  // unique sig
+".f30f7e8708":  // unique sig
 cleanup __amd64 Pointf Projectile::GetSpeed(Projectile *this); // 004304a0
-".4883ef08eb??662e0f1f84000000000048":  // unique sig
-cleanup __amd64 undefined Projectile::GetSpeed(Projectile *this); // 004304b0
-"488b44240848894740":  // unique sig
+".488b44240848894740":  // unique sig
 cleanup __amd64 void Projectile::SetDamage(Projectile *this, Damage damage); // 004304c0
-".8b4738c36666662e0f1f84000000000048":  // unique sig
+"!.8b4738c36666662e0f1f84000000000048":  // unique sig
 cleanup __amd64 int Projectile::GetOwnerId(Projectile *this); // 00430500
-"4883ef08eb??662e0f1f840000000000b8ff":  // unique sig
-cleanup __amd64 undefined Projectile::GetOwnerId(Projectile *this); // 00430510
-"b8ffffffffc3662e0f1f840000000000f3c3662e0f1f8400000000000f1f40004889b7":  // unique sig
+".b8ffffffffc3662e0f1f840000000000f3c3":  // unique sig
 cleanup __amd64 int Projectile::ForceRenderLayer(Projectile *this); // 00430520
 "f3c3662e0f1f8400000000000f1f40004889b7":  // unique sig
 cleanup __amd64 void Projectile::SetSpin(Projectile *this, float spin); // 00430530
@@ -88,6 +72,4 @@ cleanup __amd64 int Projectile::GetType(Projectile *this); // 0044c140
 noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 0044c1bf
 ".41":  // non-unique sig
 cleanup __amd64 void Projectile::~Projectile(Projectile *this, int __in_chrg); // 0044c1c0
-// Failed to generate signature for function: Projectile::~Projectile at 0044c6d0
 // Failed to generate signature for function: Projectile::~Projectile at 0044cc00
-// Failed to generate signature for function: Projectile::~Projectile at 0044d120

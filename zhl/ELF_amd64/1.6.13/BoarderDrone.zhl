@@ -14,6 +14,4 @@ cleanup __amd64 bool BoarderDrone::ReadyToFight(BoarderDrone *this); // 0043be60
 noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 0043c3ef
 ".41":  // non-unique sig
 cleanup __amd64 void BoarderDrone::~BoarderDrone(BoarderDrone *this, int __in_chrg); // 0043c3f0
-// Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043c810
 // Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043d080
-// Failed to generate signature for function: BoarderDrone::~BoarderDrone at 0043d4a0

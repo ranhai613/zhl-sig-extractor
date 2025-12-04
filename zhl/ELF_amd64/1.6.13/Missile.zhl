@@ -10,7 +10,4 @@ cleanup __amd64 int Missile::GetType(Missile *this); // 004453b0
 noHook __amd64 void Missile::__DO_NOT_HOOK(); // 004453bf
 "41":  // non-unique sig
 cleanup __amd64 void Missile::~Missile(Missile *this, int __in_chrg); // 004453c0
-// Failed to generate signature for function: Missile::~Missile at 004458d0
 // Failed to generate signature for function: Missile::~Missile at 004458e0
-".4883ef08e9????????0f1f800000000080":  // unique sig
-cleanup __amd64 undefined Missile::~Missile(Missile *this); // 00445e00

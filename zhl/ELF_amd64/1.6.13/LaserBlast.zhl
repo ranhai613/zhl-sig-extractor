@@ -15,6 +15,4 @@ cleanup __amd64 void LaserBlast::OnInit(LaserBlast *this); // 0044c080
 ".b801000000c3662e0f1f840000000000b806000000c3662e0f1f840000000000f3":  // unique sig
 cleanup __amd64 int LaserBlast::GetType(LaserBlast *this); // 0044c160
 // Failed to generate signature for function: LaserBlast::~LaserBlast at 0044c6e0
-// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044cbf0
 // Failed to generate signature for function: LaserBlast::~LaserBlast at 0044e5d0
-// Failed to generate signature for function: LaserBlast::~LaserBlast at 0044eaf0
