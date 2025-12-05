@@ -83,7 +83,7 @@ class NoHook(FunctionInfoBase):
         sig_bytes, mask, length = generate_signature(addr, True, start_addr, True)
         if sig_bytes is not None:
             self.unique = True
-            self.no_chain = False
+            self.no_chain = addr.subtract(length).compareTo(start_addr) < 0
             self.sig_length = length
             self.raw_sig = fmt_hex(sig_bytes, mask)
             return True
@@ -92,14 +92,6 @@ class NoHook(FunctionInfoBase):
         if sig_bytes is not None:
             self.unique = False
             self.no_chain = False
-            self.sig_length = length
-            self.raw_sig = fmt_hex(sig_bytes, mask)
-            return True
-        
-        sig_bytes, mask, length = generate_signature(addr, True, currentProgram.getMinAddress(), True)
-        if sig_bytes is not None:
-            self.unique = True
-            self.no_chain = True
             self.sig_length = length
             self.raw_sig = fmt_hex(sig_bytes, mask)
             return True
@@ -146,10 +138,10 @@ POINTER_SIZE = currentProgram.getDefaultPointerSize()
 
 MAX_LEN = 512     # maximum bytes to try
 
-def search_pattern(pattern_bytes, mask_bytes, start):
+def is_unique_signature(pattern_bytes, mask_bytes, start):
     """
-    Search entire binary for a masked byte pattern.
-    Return number of matches.
+    Check if the masked byte pattern matches exactly one location in memory starting from 'start'.
+    Return True/False.
     """
     matches = 0
     
@@ -160,11 +152,14 @@ def search_pattern(pattern_bytes, mask_bytes, start):
     addr = mem.findBytes(start, j_sig, j_mask, True, monitor)
     while addr is not None:
         matches += 1
+        if matches > 1:
+            return False
+        
         # search again from next byte
         next_addr = addr.addNoWrap(1)
         addr = mem.findBytes(next_addr, j_sig, j_mask, True, monitor)
 
-    return matches
+    return matches == 1
 
 def is_the_first_match(pattern_bytes, mask_bytes, start):
     """
@@ -363,8 +358,7 @@ def generate_signature(addr, unique, start_addr, backwards=False):
                     check_mask.append(0xFF)
 
             if unique:
-                matches = search_pattern(check_sig, check_mask, start_addr)
-                if matches == 1:
+                if is_unique_signature(check_sig, check_mask,currentProgram.getMinAddress()):
                     return check_sig, check_mask, i+1
             else:
                 if is_the_first_match(check_sig, check_mask, start_addr):
@@ -383,10 +377,7 @@ def generate_signature(addr, unique, start_addr, backwards=False):
                 mask.append(0xFF)
 
             if unique:
-                # Check uniqueness
-                matches = search_pattern(sig_bytes, mask, start_addr)
-                # print("  Trying length {}: {} matches".format(i+1, matches))
-                if matches == 1:
+                if is_unique_signature(sig_bytes, mask, currentProgram.getMinAddress()):
                     return sig_bytes, mask, i+1
             else:
                 if is_the_first_match(sig_bytes, mask, start_addr):
