@@ -1,4 +1,4 @@
 "5589e55383e4f083ec10803d????????008b5d0874??660f6f05????????c70302":  // unique sig
-static cleanup __amd64 StatusEffect *StatusEffect::GetNebulaEffect(); // 005eba80
+static cleanup __cdecl StatusEffect *StatusEffect::GetNebulaEffect(); // 005eba80
 ".5589e55383e4f083ec10803d????????008b5d0874??660f6f05????????c70303":  // unique sig
-static cleanup __amd64 StatusEffect *StatusEffect::GetStormEffect(); // 005ebaf0
+static cleanup __cdecl StatusEffect *StatusEffect::GetStormEffect(); // 005ebaf0

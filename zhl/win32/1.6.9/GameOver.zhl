@@ -1,24 +1,24 @@
 "578d7c240883e4f0ff77fc5589e557565383ec2c8b3f83":  // unique sig
-cleanup __amd64 bool GameOver::KeyDown(GameOver *this, SDLKey sym); // 004c6e10
+ __thiscall bool GameOver::KeyDown(GameOver *this, SDLKey sym); // 004c6e10
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b0780":  // unique sig
-cleanup __amd64 void GameOver::OnTouch(GameOver *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004c6e90
+ __thiscall void GameOver::OnTouch(GameOver *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004c6e90
 ".578d7c240883e4f0ff77fc5589e557565383ec1c80b9d0":  // unique sig
-cleanup __amd64 void GameOver::MouseClick(GameOver *this, int mX, int mY); // 004c7080
+ __thiscall void GameOver::MouseClick(GameOver *this, int mX, int mY); // 004c7080
 ".578d7c240883e4f0ff77fc5589e557565383ec2c80b9d0":  // unique sig
-cleanup __amd64 void GameOver::MouseMove(GameOver *this, int mX, int mY); // 004c71a0
+ __thiscall void GameOver::MouseMove(GameOver *this, int mX, int mY); // 004c71a0
 ".5589e557565331db89ce83e4f083ec108b7920":  // unique sig
-cleanup __amd64 void GameOver::destructor(GameOver *this); // 004c7250
+ __thiscall void GameOver::destructor(GameOver *this); // 004c7250
 ".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c36690578d7c240883e4f0ff77fc5589e557565389cf81":  // unique sig
-cleanup __amd64 void GameOver::destructor(GameOver *this); // 004c7340
+ __thiscall void GameOver::destructor(GameOver *this); // 004c7340
 ".578d7c240883e4f0ff77fc5589e557565389cf81ecec":  // unique sig
-cleanup __amd64 void GameOver::OnRender(GameOver *this); // 004c7360
+ __thiscall void GameOver::OnRender(GameOver *this); // 004c7360
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec10e8????????8d4b44":  // unique sig
-cleanup __amd64 void GameOver::constructor(GameOver *this); // 004c8050
+ __thiscall void GameOver::constructor(GameOver *this); // 004c8050
 ".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b57048b":  // unique sig
-cleanup __amd64 void GameOver::SetVictory(GameOver *this, bool victory, string *shipName, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *crew); // 004c8100
+ __thiscall void GameOver::SetVictory(GameOver *this, bool victory, string *shipName, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *crew); // 004c8100
 ".5589e5538b59":  // unique sig
-cleanup __amd64 int GameOver::GetCommand(GameOver *this); // 004c8370
+ __thiscall int GameOver::GetCommand(GameOver *this); // 004c8370
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83c14c":  // unique sig
-cleanup __amd64 void GameOver::OpenText(GameOver *this, string *text); // 004c83a0
+ __thiscall void GameOver::OpenText(GameOver *this, string *text); // 004c83a0
 ".578d7c240883e4f0ff77fc5589e557565389ceb9????????83ec5c":  // unique sig
-cleanup __amd64 void GameOver::OnLoop(GameOver *this); // 004ca1b0
+ __thiscall void GameOver::OnLoop(GameOver *this); // 004ca1b0

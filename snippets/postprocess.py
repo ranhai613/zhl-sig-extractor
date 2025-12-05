@@ -116,4 +116,4 @@ def main(target_dir: str, platform: str = "elf_amd64") -> None:
             f.write(content)
 
 if __name__ == "__main__":
-    main("zhl/ELF_x86/1.6.13", "elf_x86")
+    main("zhl/win32/1.6.9", "win32")

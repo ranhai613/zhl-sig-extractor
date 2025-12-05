@@ -1,40 +1,40 @@
 "5589e55756538d7954":  // unique sig
-cleanup __amd64 void TextButton::ResetPrimitives(TextButton *this); // 00573b40
+ __thiscall void TextButton::ResetPrimitives(TextButton *this); // 00573b40
 ".5589e55389cb81c3cc":  // unique sig
-cleanup __amd64 void TextButton::destructor(TextButton *this); // 00573b90
+ __thiscall void TextButton::destructor(TextButton *this); // 00573b90
 ".5589e55389cb83e4f083ec108b4148":  // unique sig
-cleanup __amd64 void TextButton::destructor(TextButton *this); // 00573c60
+ __thiscall void TextButton::destructor(TextButton *this); // 00573c60
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c80b9dc":  // unique sig
-cleanup __amd64 int TextButton::GetIdealButtonWidth(TextButton *this); // 00574290
+ __thiscall int TextButton::GetIdealButtonWidth(TextButton *this); // 00574290
 ".578d7c240883e4f0ff77fc5589e557565389cb8d49048d732483ec2cc741fc????????e8????????660fefc9":  // unique sig
-cleanup __amd64 void TextButton::constructor(TextButton *this); // 00574e70
+ __thiscall void TextButton::constructor(TextButton *this); // 00574e70
 ".f30f1005????????c6416401f30f1015":  // unique sig
-cleanup __amd64 void TextButton::InitColors(TextButton *this); // 00575010
+ __thiscall void TextButton::InitColors(TextButton *this); // 00575010
 ".5589e557565389cb83e4f083ec10807964000f85????????f30f1005????????c6416401f30f100d????????c781":  // unique sig
-cleanup __amd64 void TextButton::SetInactiveColor(TextButton *this, GL_Color color); // 00575130
+ __thiscall void TextButton::SetInactiveColor(TextButton *this, GL_Color color); // 00575130
 ".5589e557565389cb83e4f083ec10807964000f85????????f30f1005????????c6416401f30f100d????????c741740000803ff30f1015????????f30f5ec8c78194":  // unique sig
-cleanup __amd64 void TextButton::SetActiveColor(TextButton *this, GL_Color color); // 00575290
+ __thiscall void TextButton::SetActiveColor(TextButton *this, GL_Color color); // 00575290
 ".5589e557565389cb83e4f083ec10807964000f85????????f30f1005????????c6416401f30f100d????????c741740000803ff30f1015????????f30f5ec8c78184":  // unique sig
-cleanup __amd64 void TextButton::SetSelectedColor(TextButton *this, GL_Color color); // 005753f0
+ __thiscall void TextButton::SetSelectedColor(TextButton *this, GL_Color color); // 005753f0
 ".807964000f85????????f30f1005????????c6416401f30f100d????????c741740000803ff30f1015????????f30f5ec8c781840000000000803ff30f10??????????c7":  // unique sig
-cleanup __amd64 COLORREF TextButton::SetTextColor(TextButton *this, HDC hdc, COLORREF color); // 00575550
+ __thiscall COLORREF TextButton::SetTextColor(TextButton *this, HDC hdc, COLORREF color); // 00575550
 ".8b5424048b442410":  // unique sig
-cleanup __amd64 void TextButton::SetAutoWidth(TextButton *this, bool enable, bool rightAlign, int margin, int minWidth); // 00575660
+ __thiscall void TextButton::SetAutoWidth(TextButton *this, bool enable, bool rightAlign, int margin, int minWidth); // 00575660
 ".80b9b40000000075??c3":  // unique sig
-cleanup __amd64 void TextButton::UpdateAutoWidth(TextButton *this); // 00575690
+ __thiscall void TextButton::UpdateAutoWidth(TextButton *this); // 00575690
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c80b9b4":  // unique sig
-cleanup __amd64 Point TextButton::GetSize(TextButton *this); // 005759a0
+ __thiscall Point TextButton::GetSize(TextButton *this); // 005759a0
 ".578d7c240883e4f0ff77fc5589e557565383ec3c8b073b":  // unique sig
-cleanup __amd64 void TextButton::SetSize(TextButton *this, Point size); // 00575cc0
+ __thiscall void TextButton::SetSize(TextButton *this, Point size); // 00575cc0
 ".5589e5565389cb83e4f083ec50":  // unique sig
-cleanup __amd64 void TextButton::SetFont(TextButton *this, int font_); // 00575db0
+ __thiscall void TextButton::SetFont(TextButton *this, int font_); // 00575db0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b4f0c8b07":  // unique sig
-cleanup __amd64 void TextButton::OnInit(TextButton *this, Point pos, Point size, int cornerInset, TextString *label, int font); // 00575ec0
+ __thiscall void TextButton::OnInit(TextButton *this, Point pos, Point size, int cornerInset, TextString *label, int font); // 00575ec0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8b378b4708":  // unique sig
-cleanup __amd64 void TextButton::OnInit(TextButton *this, Rect *rect, int cornerInset, TextString *label, int font); // 00575ff0
+ __thiscall void TextButton::OnInit(TextButton *this, Rect *rect, int cornerInset, TextString *label, int font); // 00575ff0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b57":  // unique sig
-cleanup __amd64 void TextButton::SetBaseImage(TextButton *this, string *image, Point offset, int minWidth); // 00576150
+ __thiscall void TextButton::SetBaseImage(TextButton *this, string *image, Point offset, int minWidth); // 00576150
 ".578d7c240883e4f0ff77fc5589e557565389cf81ec9c00":  // unique sig
-cleanup __amd64 void TextButton::InitPrimitives(TextButton *this); // 00577040
+ __thiscall void TextButton::InitPrimitives(TextButton *this); // 00577040
 ".578d7c240883e4f0ff77fc5589e557565389cf81ecac00":  // unique sig
-cleanup __amd64 void TextButton::OnRender(TextButton *this); // 00577750
+ __thiscall void TextButton::OnRender(TextButton *this); // 00577750

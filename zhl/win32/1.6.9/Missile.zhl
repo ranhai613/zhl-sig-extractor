@@ -1,16 +1,16 @@
 "578d7c240883e4f0ff77fc5589e5575383ec308b0739417474??8d65f85b5f5d8d67f85fc2040089f68dbc270000000089cbe8????????c7":  // unique sig
-cleanup __amd64 void Missile::OnRenderSpecific(Missile *this, int spaceId); // 0044b2f0
+ __thiscall void Missile::OnRenderSpecific(Missile *this, int spaceId); // 0044b2f0
 ".578d7c240883e4f0ff77fc5589f889e557565389cf81ec2c01000089":  // unique sig
-cleanup __amd64 void Missile::constructor(Missile *this, Pointf position, int ownerId, int destinationSpace, Pointf destination, float heading); // 0044b520
+ __thiscall void Missile::constructor(Missile *this, Pointf position, int ownerId, int destinationSpace, Pointf destination, float heading); // 0044b520
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec208b0f":  // unique sig
-cleanup __amd64 void Missile::constructor(Missile *this, Missile *missile); // 0044ba30
+ __thiscall void Missile::constructor(Missile *this, Missile *missile); // 0044ba30
 ".b803000000c39090909090909090909055":  // unique sig
-cleanup __amd64 int Missile::GetType(Missile *this); // 007336d0
+ __thiscall int Missile::GetType(Missile *this); // 007336d0
 "!.90":  // non-unique sig
 noHook __amd64 void Missile::__DO_NOT_HOOK(); // 007336df
 ".55":  // non-unique sig
-cleanup __amd64 void Missile::destructor(Missile *this); // 007336e0
+ __thiscall void Missile::destructor(Missile *this); // 007336e0
 "!.90":  // non-unique sig
 noHook __amd64 void Missile::__DO_NOT_HOOK(); // 007338ff
 ".55":  // non-unique sig
-cleanup __amd64 void Missile::destructor(Missile *this); // 00733900
+ __thiscall void Missile::destructor(Missile *this); // 00733900

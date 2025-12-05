@@ -1,16 +1,16 @@
 "578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b89380100008b1fc7042403":  // unique sig
-cleanup __amd64 int WeaponStoreBox::SetInfoBox(WeaponStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 00506440
+ __thiscall int WeaponStoreBox::SetInfoBox(WeaponStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 00506440
 ".8b893c01000085c974??5589e583e4f0e8????????c9c389f68dbc270000000031c0c3908db6000000008dbf000000008b":  // unique sig
-cleanup __amd64 bool WeaponStoreBox::CanHold(WeaponStoreBox *this); // 005064b0
+ __thiscall bool WeaponStoreBox::CanHold(WeaponStoreBox *this); // 005064b0
 ".578d7c240883e4f0ff77fc5589e55756538d7dd08d45cc8d75d889cb83ec3c89f9c745cc19":  // unique sig
-cleanup __amd64 void WeaponStoreBox::constructor(WeaponStoreBox *this); // 0050a720
+ __thiscall void WeaponStoreBox::constructor(WeaponStoreBox *this); // 0050a720
 ".578d7c240883e4f0ff77fc5589f889e557565389cb8d4dd083ec4c8b70088d45d88b178b7f048945d08d45ccc74424????????00c745cc19":  // unique sig
-cleanup __amd64 void WeaponStoreBox::constructor(WeaponStoreBox *this, ShipManager *shopper, Equipment *equipScreen, WeaponBlueprint *blue); // 0050a7f0
+ __thiscall void WeaponStoreBox::constructor(WeaponStoreBox *this, ShipManager *shopper, Equipment *equipScreen, WeaponBlueprint *blue); // 0050a7f0
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec10e8????????8b83540100008b8b3c010000c74424????????00c744240401000000890424e8????????83ec0c8d65f85b5f5d8d67f85fc38d742600578d7c240883e4f0ff77fc5589e55756":  // unique sig
-cleanup __amd64 void WeaponStoreBox::Purchase(WeaponStoreBox *this); // 0050bbd0
+ __thiscall void WeaponStoreBox::Purchase(WeaponStoreBox *this); // 0050bbd0
 ".578d7c240883e4f0ff77fc5589e5575389cb83c12483ec408b078b5704c74424????????0089542404890424e8????????8b8b3c01000083ec0c85c974??807b650075??8d65f85b5f5d8d67f85fc20800e8????????84c075??8d45e08d7dc88d5de8ba6f":  // unique sig
-cleanup __amd64 void WeaponStoreBox::MouseMove(WeaponStoreBox *this, int mX, int mY); // 0050e8b0
+ __thiscall void WeaponStoreBox::MouseMove(WeaponStoreBox *this, int mX, int mY); // 0050e8b0
 ".5589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b24e8????????8b430c8d531439d074??890424e8????????891c24e8????????8b5dfcc9c3905589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b2483c314e8????????8b43f839d874??890424e8????????8b5dfcc9c39090909090909090900f":  // unique sig
-cleanup __amd64 void WeaponStoreBox::destructor(WeaponStoreBox *this); // 0072c830
+ __thiscall void WeaponStoreBox::destructor(WeaponStoreBox *this); // 0072c830
 ".5589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b2483c314e8????????8b43f839d874??890424e8????????8b5dfcc9c39090909090909090900f":  // unique sig
-cleanup __amd64 void WeaponStoreBox::destructor(WeaponStoreBox *this); // 0072c8f0
+ __thiscall void WeaponStoreBox::destructor(WeaponStoreBox *this); // 0072c8f0

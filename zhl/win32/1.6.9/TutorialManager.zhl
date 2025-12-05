@@ -1,52 +1,52 @@
 "578d7c240883e4f0ff77fc5589e5575389cb8d490483ec20c6":  // unique sig
-cleanup __amd64 void TutorialManager::constructor(TutorialManager *this); // 0040f510
+ __thiscall void TutorialManager::constructor(TutorialManager *this); // 0040f510
 ".0fb601c38d":  // unique sig
-cleanup __amd64 bool TutorialManager::Running(TutorialManager *this); // 0040f6d0
+ __thiscall bool TutorialManager::Running(TutorialManager *this); // 0040f6d0
 ".8b442404898158":  // unique sig
-cleanup __amd64 void TutorialManager::LinkMap(TutorialManager *this, StarMap *map); // 0040f6e0
+ __thiscall void TutorialManager::LinkMap(TutorialManager *this, StarMap *map); // 0040f6e0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec3c8b07c7":  // unique sig
-cleanup __amd64 void TutorialManager::UpdateDescBox(TutorialManager *this, string *text); // 0040f6f0
+ __thiscall void TutorialManager::UpdateDescBox(TutorialManager *this, string *text); // 0040f6f0
 ".31c080b9c4":  // unique sig
-cleanup __amd64 LocationEvent *TutorialManager::GetEvent(TutorialManager *this); // 0040f7c0
+ __thiscall LocationEvent *TutorialManager::GetEvent(TutorialManager *this); // 0040f7c0
 ".0fb6816d":  // unique sig
-cleanup __amd64 bool TutorialManager::QuitTutorial(TutorialManager *this); // 0040f890
+ __thiscall bool TutorialManager::QuitTutorial(TutorialManager *this); // 0040f890
 ".80390075??c38d76008dbc2700000000578d7c240883e4f0ff77fc5589e55753":  // unique sig
-cleanup __amd64 void TutorialManager::Stop(TutorialManager *this); // 0040f8a0
+ __thiscall void TutorialManager::Stop(TutorialManager *this); // 0040f8a0
 ".f3c38db426000000008dbc2700000000578d7c240883e4f0ff77fc5589e557565383ec5c":  // unique sig
-cleanup __amd64 void TutorialManager::OnLanguageChange(TutorialManager *this); // 0040f920
+ __thiscall void TutorialManager::OnLanguageChange(TutorialManager *this); // 0040f920
 ".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b91f4000000894dbc8b308b58048955b88d55d889f08955d001d874??85f675??c70424????????e8????????83fb0f895dcc0f87????????83fb010f84????????85db8d45d80f85????????895dd4c60418008b45bc8b98240100008d8820010000894db485db0f84????????8b55d48b45d0894dc48945c089d6eb??894424088b45c0894424048b4310890424e8????????85c074??85c078??895dc48b5b0885db74??8b7b1439fe89f80f46c685c075??89f829f085c079??8b5b0c85db75??8b7dc4397db489f274??8b5f1439de89d80f46c685c075??89d029d885c078??8b45b83b47288d55d88b45c00f9c":  // unique sig
-cleanup __amd64 bool TutorialManager::IsStateBefore(TutorialManager *this, string *state); // 0040f930
+ __thiscall bool TutorialManager::IsStateBefore(TutorialManager *this, string *state); // 0040f930
 ".5789c88d9020":  // unique sig
-cleanup __amd64 int TutorialManager::StateValue(TutorialManager *this, string *state); // 0040fb10
+ __thiscall int TutorialManager::StateValue(TutorialManager *this, string *state); // 0040fb10
 ".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b91f4000000894dbc8b308b58048955b88d55d889f08955d001d874??85f675??c70424????????e8????????83fb0f895dcc0f87????????83fb010f84????????85db8d45d80f85????????895dd4c60418008b45bc8b98240100008d8820010000894db485db0f84????????8b55d48b45d0894dc48945c089d6eb??894424088b45c0894424048b4310890424e8????????85c074??85c078??895dc48b5b0885db74??8b7b1439fe89f80f46c685c075??89f829f085c079??8b5b0c85db75??8b7dc4397db489f274??8b5f1439de89d80f46c685c075??89d029d885c078??8b45b839":  // unique sig
-cleanup __amd64 bool TutorialManager::IsState(TutorialManager *this, string *state); // 0040fc40
+ __thiscall bool TutorialManager::IsState(TutorialManager *this, string *state); // 0040fc40
 ".57ba4d":  // unique sig
-cleanup __amd64 bool TutorialManager::AllowJumping(TutorialManager *this); // 0040fe20
+ __thiscall bool TutorialManager::AllowJumping(TutorialManager *this); // 0040fe20
 ".578d7c240883e4f0ff77fc5589e5575653be01":  // unique sig
-cleanup __amd64 bool TutorialManager::AllowUpgrades(TutorialManager *this); // 0040fea0
+ __thiscall bool TutorialManager::AllowUpgrades(TutorialManager *this); // 0040fea0
 ".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b91f4000000894dbc8b308b58048955b88d55d889f08955d001d874??85f675??c70424????????e8????????83fb0f895dcc0f87????????83fb010f84????????85db8d45d80f85????????895dd4c60418008b45bc8b98240100008d8820010000894db485db0f84????????8b55d48b45d0894dc48945c089d6eb??894424088b45c0894424048b4310890424e8????????85c074??85c078??895dc48b5b0885db74??8b7b1439fe89f80f46c685c075??89f829f085c079??8b5b0c85db75??8b7dc4397db489f274??8b5f1439de89d80f46c685c075??89d029d885c078??8b45b83b47288d55d88b45c00f9f":  // unique sig
-cleanup __amd64 bool TutorialManager::IsStateAfter(TutorialManager *this, string *state); // 0040ff80
+ __thiscall bool TutorialManager::IsStateAfter(TutorialManager *this, string *state); // 0040ff80
 ".5789c88d9034":  // unique sig
-cleanup __amd64 bool TutorialManager::CheckState(TutorialManager *this); // 00410160
+ __thiscall bool TutorialManager::CheckState(TutorialManager *this); // 00410160
 ".578d91f800":  // unique sig
-cleanup __amd64 void TutorialManager::AdvanceState(TutorialManager *this); // 00411010
+ __thiscall void TutorialManager::AdvanceState(TutorialManager *this); // 00411010
 ".57ba5f31":  // unique sig
-cleanup __amd64 void TutorialManager::AdvanceState(TutorialManager *this); // 004118c0
+ __thiscall void TutorialManager::AdvanceState(TutorialManager *this); // 004118c0
 ".80390075??c38d76008dbc2700000000578d7c240883e4f0ff77fc5589e55756":  // unique sig
-cleanup __amd64 void TutorialManager::OnLoop(TutorialManager *this); // 00411950
+ __thiscall void TutorialManager::OnLoop(TutorialManager *this); // 00411950
 ".8039000f84????????80":  // unique sig
-cleanup __amd64 bool TutorialManager::MouseClick(TutorialManager *this); // 00411f00
+ __thiscall bool TutorialManager::MouseClick(TutorialManager *this); // 00411f00
 ".57b87c0101008d7c240883e4f0ff77fc5589e5575653e8????????8d":  // unique sig
-cleanup __amd64 void TutorialManager::LoadTutorial(TutorialManager *this); // 004120c0
+ __thiscall void TutorialManager::LoadTutorial(TutorialManager *this); // 004120c0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec7c8b470c":  // unique sig
-cleanup __amd64 void TutorialManager::OnInit(TutorialManager *this, ShipManager *ship, CommandGui *gui, CrewControl *crew, Upgrades *upgrades, CombatControl *combat, SystemControl *_sil__DO_NOT_USE_system, TabbedWindow *tabbed); // 00414820
+ __thiscall void TutorialManager::OnInit(TutorialManager *this, ShipManager *ship, CommandGui *gui, CrewControl *crew, Upgrades *upgrades, CombatControl *combat, SystemControl *_sil__DO_NOT_USE_system, TabbedWindow *tabbed); // 00414820
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec10e8????????8b8310":  // unique sig
-cleanup __amd64 void TutorialManager::Start(TutorialManager *this); // 00414c40
+ __thiscall void TutorialManager::Start(TutorialManager *this); // 00414c40
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b9990":  // unique sig
-cleanup __amd64 void TutorialManager::destructor(TutorialManager *this); // 00414c90
+ __thiscall void TutorialManager::destructor(TutorialManager *this); // 00414c90
 ".80390075??f3":  // unique sig
-cleanup __amd64 void TutorialManager::OnRender(TutorialManager *this); // 00414de0
+ __thiscall void TutorialManager::OnRender(TutorialManager *this); // 00414de0
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b0780":  // unique sig
-cleanup __amd64 void TutorialManager::MouseMove(TutorialManager *this, int mX, int mY); // 00415d50
+ __thiscall void TutorialManager::MouseMove(TutorialManager *this, int mX, int mY); // 00415d50
 ".578d7c240883e4f0ff77fc5589e557565383ec7c8b0780390089":  // unique sig
-cleanup __amd64 bool TutorialManager::OnTouch(TutorialManager *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00415eb0
+ __thiscall bool TutorialManager::OnTouch(TutorialManager *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00415eb0

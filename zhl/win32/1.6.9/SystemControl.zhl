@@ -1,64 +1,64 @@
 "578d7c240883e4f0ff77fc5589e5575389cb8d4928":  // unique sig
-cleanup __amd64 void SystemControl::constructor(SystemControl *this); // 004b85b0
+ __thiscall void SystemControl::constructor(SystemControl *this); // 004b85b0
 ".5589e55389cb83e4f083ec108b4140":  // unique sig
-cleanup __amd64 void SystemControl::destructor(SystemControl *this); // 004b8720
+ __thiscall void SystemControl::destructor(SystemControl *this); // 004b8720
 ".b848010000c3":  // unique sig
-cleanup __amd64 int SystemControl::GetHeight(SystemControl *this); // 004b87c0
+ __thiscall int SystemControl::GetHeight(SystemControl *this); // 004b87c0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b0789c3":  // unique sig
-cleanup __amd64 void SystemControl::MouseMove(SystemControl *this, int mX, int mY); // 004b87d0
+ __thiscall void SystemControl::MouseMove(SystemControl *this, int mX, int mY); // 004b87d0
 ".8b51088b410c29d0c1f80285c074??578d7c240883e4f0ff77fc5589e557565389ce31db83ec1c89f68dbc27000000008b0c9a83c3018b01c7042400000000ff502c":  // unique sig
-cleanup __amd64 void SystemControl::RButton(SystemControl *this, int mX, int mY, bool shift); // 004b8910
+ __thiscall void SystemControl::RButton(SystemControl *this, int mX, int mY, bool shift); // 004b8910
 ".8b51088b410c29d0c1f80285c074??578d7c240883e4f0ff77fc5589e557565389ce31db83ec1c89f68dbc27000000008b0c9a83c3018b01c7042400000000ff5028":  // unique sig
-cleanup __amd64 void SystemControl::LButton(SystemControl *this, int mX, int mY); // 004b8980
+ __thiscall void SystemControl::LButton(SystemControl *this, int mX, int mY); // 004b8980
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b078b77":  // unique sig
-cleanup __amd64 void SystemControl::OnTouch(SystemControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004b89f0
+ __thiscall void SystemControl::OnTouch(SystemControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004b89f0
 ".8b51088b410c29d0c1f80285c074??5589e557565389ce31db83e4f0eb??66908b41403b450874??8b460c83c30129d0c1f80239c373??8b049a8d3c9d000000008b484c8b018b40503d????????74??ffd03b45088b560875??8b043a8d":  // unique sig
-cleanup __amd64 SystemBox *SystemControl::GetSystemBox(SystemControl *this, int systemId); // 004b8b70
+ __thiscall SystemBox *SystemControl::GetSystemBox(SystemControl *this, int systemId); // 004b8b70
 ".578d7c240883e4f0ff77fc5589e557565331db89ce83ec3c8b078b51":  // unique sig
-cleanup __amd64 Pointf SystemControl::GetSystemPoint(SystemControl *this, int systemId); // 004b8c00
+ __thiscall Pointf SystemControl::GetSystemPoint(SystemControl *this, int systemId); // 004b8c00
 ".578d7c240883e4f0ff77fc5589e55783ec248b09":  // unique sig
-cleanup __amd64 Pointf SystemControl::GetReactorPoint(SystemControl *this); // 004b8cc0
+ __thiscall Pointf SystemControl::GetReactorPoint(SystemControl *this); // 004b8cc0
 ".8b51088b410c29d0c1f80285c074??5589e557565389ce31db83e4f0eb??66908b41403b450874??8b460c83c30129d0c1f80239c373??8b049a8d3c9d000000008b484c8b018b40503d????????74??ffd03b45088b560875??8b043a0f":  // unique sig
-cleanup __amd64 bool SystemControl::IsSystemTapped(SystemControl *this, int systemId); // 004b8d20
+ __thiscall bool SystemControl::IsSystemTapped(SystemControl *this, int systemId); // 004b8d20
 ".56538b7108":  // unique sig
-cleanup __amd64 bool SystemControl::IsAnySystemTapped(SystemControl *this); // 004b8db0
+ __thiscall bool SystemControl::IsAnySystemTapped(SystemControl *this); // 004b8db0
 ".578d7c240883e4f0ff77fc5589e557565383ec3c8b078b71":  // unique sig
-cleanup __amd64 bool SystemControl::IsPointInTappedSystem(SystemControl *this, Point p); // 004b8df0
+ __thiscall bool SystemControl::IsPointInTappedSystem(SystemControl *this, Point p); // 004b8df0
 ".8b51088b410c29d0c1f80285c074??5589e5565389ce31db83e4f0eb":  // unique sig
-cleanup __amd64 bool SystemControl::IsAnyTouchTooltipOpen(SystemControl *this); // 004b8ed0
+ __thiscall bool SystemControl::IsAnyTouchTooltipOpen(SystemControl *this); // 004b8ed0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b078b51":  // unique sig
-cleanup __amd64 void SystemControl::OpenSystem(SystemControl *this, int systemId, bool lock); // 004b8f30
+ __thiscall void SystemControl::OpenSystem(SystemControl *this, int systemId, bool lock); // 004b8f30
 ".8b51088b410c29d0c1f80285c074??5589e5565389ce31db83e4f0908d7426008b0c9a83c3018b":  // unique sig
-cleanup __amd64 void SystemControl::CloseAll(SystemControl *this); // 004b8fd0
+ __thiscall void SystemControl::CloseAll(SystemControl *this); // 004b8fd0
 ".578d7c240883e4f0ff77fc5589e557565381ec7c0200008b07":  // unique sig
-cleanup __amd64 void SystemControl::OnKeyDown(SystemControl *this, SDLKey key_sym, bool shiftHeld); // 004b9020
+ __thiscall void SystemControl::OnKeyDown(SystemControl *this, SDLKey key_sym, bool shiftHeld); // 004b9020
 ".5589e55756538b790c":  // unique sig
-cleanup __amd64 void SystemControl::OnCleanup(SystemControl *this); // 004b9c50
+ __thiscall void SystemControl::OnCleanup(SystemControl *this); // 004b9c50
 ".8d4c240483e4f0ff71fc5589e5575653518d5d":  // unique sig
-static cleanup __amd64 PowerBars *SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 004b9ca0
+static cleanup __cdecl PowerBars *SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 004b9ca0
 ".57b9????????8d7c240883e4f0ff77fc5589e55756538d5d":  // unique sig
-static cleanup __amd64 PowerBars *SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 004ba7d0
+static cleanup __cdecl PowerBars *SystemControl::GetPowerBars(int width, int height, int gap, bool useShieldGap); // 004ba7d0
 ".578d7c240883e4f0ff77fc5589e557565383ec6c894dcc":  // unique sig
-cleanup __amd64 int SystemControl::RenderBars(SystemControl *this, Point position, std::pair<int, int> power, bool ignoreStatus, bool flash); // 004bb310
+ __thiscall int SystemControl::RenderBars(SystemControl *this, Point position, std::pair<int, int> power, bool ignoreStatus, bool flash); // 004bb310
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec6c8b09":  // unique sig
-cleanup __amd64 void SystemControl::RenderPowerBar(SystemControl *this); // 004bb6a0
+ __thiscall void SystemControl::RenderPowerBar(SystemControl *this); // 004bb6a0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8b3f":  // unique sig
-cleanup __amd64 void SystemControl::OnRender(SystemControl *this, bool front); // 004bc040
+ __thiscall void SystemControl::OnRender(SystemControl *this, bool front); // 004bc040
 ".578d7c240883e4f0ff77fc5589e557565389cb8d4ddc83ec5c":  // unique sig
-cleanup __amd64 void SystemControl::CreateSystemBoxes(SystemControl *this); // 004bc2b0
+ __thiscall void SystemControl::CreateSystemBoxes(SystemControl *this); // 004bc2b0
 ".5589e583e4f08b450889":  // unique sig
-cleanup __amd64 void SystemControl::LinkCombat(SystemControl *this, CombatControl *combat); // 004bced0
+ __thiscall void SystemControl::LinkCombat(SystemControl *this, CombatControl *combat); // 004bced0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec3c8b01":  // unique sig
-cleanup __amd64 void SystemControl::OnLoop(SystemControl *this); // 004bcef0
+ __thiscall void SystemControl::OnLoop(SystemControl *this); // 004bcef0
 ".5589e583e4f0e8????????c9c3906690578d7c240883e4f0ff77fc5589e55756538d":  // unique sig
-cleanup __amd64 void SystemControl::Restart(SystemControl *this); // 004bd000
+ __thiscall void SystemControl::Restart(SystemControl *this); // 004bd000
 ".578d7c240883e4f0ff77fc5589e55756538d7dc88d":  // unique sig
-cleanup __amd64 void SystemControl::UpdateSubSystemBox(SystemControl *this); // 004bd010
+ __thiscall void SystemControl::UpdateSubSystemBox(SystemControl *this); // 004bd010
 ".5589e583e4f08b450885":  // unique sig
-cleanup __amd64 void SystemControl::LinkShip(SystemControl *this, ShipManager *ship); // 004bd6d0
+ __thiscall void SystemControl::LinkShip(SystemControl *this, ShipManager *ship); // 004bd6d0
 ".8b0185c074??5589e583e4f0e8????????c9f3c38d":  // unique sig
-cleanup __amd64 void SystemControl::OnLanguageChange(SystemControl *this); // 004bd6f0
+ __thiscall void SystemControl::OnLanguageChange(SystemControl *this); // 004bd6f0
 ".578d7c240883e4f0ff77fc5589f889e557565389cf8d75cc":  // unique sig
-cleanup __amd64 void SystemControl::OnInit(SystemControl *this, Point position); // 004bd710
+ __thiscall void SystemControl::OnInit(SystemControl *this, Point position); // 004bd710
 ".8b0185c074??5589e583e4f0e8????????c9f3c390":  // unique sig
-cleanup __amd64 void SystemControl::UpdateSubSystemBox(SystemControl *this); // 004be090
+ __thiscall void SystemControl::UpdateSubSystemBox(SystemControl *this); // 004be090

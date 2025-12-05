@@ -1,10 +1,10 @@
 "8d410cc74108":  // unique sig
-cleanup __amd64 void CreditScreen::constructor(CreditScreen *this); // 005596d0
+ __thiscall void CreditScreen::constructor(CreditScreen *this); // 005596d0
 ".55660fefc089e553bb":  // unique sig
-cleanup __amd64 bool CreditScreen::Done(CreditScreen *this); // 00559720
+ __thiscall bool CreditScreen::Done(CreditScreen *this); // 00559720
 ".578d7c240883e4f0ff77fc5589e557565389ce8d7dd881":  // unique sig
-cleanup __amd64 void CreditScreen::OnRender(CreditScreen *this); // 005597a0
+ __thiscall void CreditScreen::OnRender(CreditScreen *this); // 005597a0
 ".5589e5538b450883e4f083":  // unique sig
-cleanup __amd64 void CreditScreen::OnTouch(CreditScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0055c990
+ __thiscall void CreditScreen::OnTouch(CreditScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0055c990
 ".578d7c240883e4f0ff77fc5589f889e557565389cf8d9d":  // unique sig
-cleanup __amd64 void CreditScreen::Start(CreditScreen *this, string *shipName, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *crewNames); // 0055ca00
+ __thiscall void CreditScreen::Start(CreditScreen *this, string *shipName, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *crewNames); // 0055ca00

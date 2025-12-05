@@ -1,54 +1,54 @@
 "5589e55389cb83e4f083ec10c7010000":  // unique sig
-cleanup __amd64 void AchievementTracker::constructor(AchievementTracker *this); // 0042a600
+ __thiscall void AchievementTracker::constructor(AchievementTracker *this); // 0042a600
 ".578d7c240883e4f0ff77fc5589e557565381ecfc04":  // unique sig
-cleanup __amd64 void AchievementTracker::OnLanguageChange(AchievementTracker *this); // 0042a840
+ __thiscall void AchievementTracker::OnLanguageChange(AchievementTracker *this); // 0042a840
 ".5589e557565389ce83c628":  // unique sig
-cleanup __amd64 void AchievementTracker::SaveGame(AchievementTracker *this, int fd); // 0042cfa0
+ __thiscall void AchievementTracker::SaveGame(AchievementTracker *this, int fd); // 0042cfa0
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83ec2c8b008b71":  // unique sig
-cleanup __amd64 void AchievementTracker::SaveProfile(AchievementTracker *this, int fd); // 0042d040
+ __thiscall void AchievementTracker::SaveProfile(AchievementTracker *this, int fd); // 0042d040
 ".538b5918":  // unique sig
-cleanup __amd64 void AchievementTracker::WipeProfile(AchievementTracker *this); // 0042d190
+ __thiscall void AchievementTracker::WipeProfile(AchievementTracker *this); // 0042d190
 ".578d7c240883e4f0ff77fc5589e557565381eccc0100008b0780":  // unique sig
-cleanup __amd64 void AchievementTracker::SetTooltip(AchievementTracker *this, CAchievement *ach); // 0042d1d0
+ __thiscall void AchievementTracker::SetTooltip(AchievementTracker *this, CAchievement *ach); // 0042d1d0
 ".578d7c240883e4f0ff77fc5589e557565381ec9c0000008b1f":  // unique sig
-cleanup __amd64 void AchievementTracker::SetInfoBox(AchievementTracker *this, CAchievement *ach, InfoBox *infoBox); // 0042de60
+ __thiscall void AchievementTracker::SetInfoBox(AchievementTracker *this, CAchievement *ach, InfoBox *infoBox); // 0042de60
 ".578d7c240883e4f0ff77fc5589f889e557565383ec5c8b3f8b70":  // unique sig
-cleanup __amd64 int AchievementTracker::GetShipMarker(AchievementTracker *this, string *baseName, string *thisName); // 0042e220
+ __thiscall int AchievementTracker::GetShipMarker(AchievementTracker *this, string *baseName, string *thisName); // 0042e220
 ".5789ca8d7c240883e4f0ff77fc5589e557565383ec2c8b49":  // unique sig
-cleanup __amd64 bool AchievementTracker::CheckCrystalUnlock(AchievementTracker *this); // 0042e520
+ __thiscall bool AchievementTracker::CheckCrystalUnlock(AchievementTracker *this); // 0042e520
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b013b":  // unique sig
-cleanup __amd64 void AchievementTracker::OnLoop(AchievementTracker *this); // 0042e630
+ __thiscall void AchievementTracker::OnLoop(AchievementTracker *this); // 0042e630
 ".80794c000f84":  // unique sig
-cleanup __amd64 void AchievementTracker::OnRender(AchievementTracker *this); // 0042e7c0
+ __thiscall void AchievementTracker::OnRender(AchievementTracker *this); // 0042e7c0
 ".5589c889e557565383e4f083ec208b49":  // unique sig
-cleanup __amd64 CAchievement *AchievementTracker::GetAchievement(AchievementTracker *this, string *achievement); // 0042ec00
+ __thiscall CAchievement *AchievementTracker::GetAchievement(AchievementTracker *this, string *achievement); // 0042ec00
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec2c894d":  // unique sig
-cleanup __amd64 void AchievementTracker::destructor(AchievementTracker *this); // 0042eca0
+ __thiscall void AchievementTracker::destructor(AchievementTracker *this); // 0042eca0
 ".578d4124":  // unique sig
-cleanup __amd64 void AchievementTracker::ResetFlags(AchievementTracker *this); // 0042eeb0
+ __thiscall void AchievementTracker::ResetFlags(AchievementTracker *this); // 0042eeb0
 ".578d7c240883e4f0ff77fc5589e55783ec148b57":  // unique sig
-cleanup __amd64 void AchievementTracker::UnlockShip(AchievementTracker *this, int shipId, int layout); // 0042ef50
+ __thiscall void AchievementTracker::UnlockShip(AchievementTracker *this, int shipId, int layout); // 0042ef50
 ".578d7c240883e4f0ff77fc5589f889e557565383ec5c8b40":  // unique sig
-cleanup __amd64 std::vector<CAchievement*> *AchievementTracker::GetShipAchievements(AchievementTracker *this, string *ship); // 0042efc0
+ __thiscall std::vector<CAchievement*> *AchievementTracker::GetShipAchievements(AchievementTracker *this, string *ship); // 0042efc0
 ".5789ca8d7c240883e4f0ff77fc5589e557565381":  // unique sig
-cleanup __amd64 void AchievementTracker::CheckShipAchievements(AchievementTracker *this, int shipId, bool hidePopups); // 0042f360
+ __thiscall void AchievementTracker::CheckShipAchievements(AchievementTracker *this, int shipId, bool hidePopups); // 0042f360
 ".5789c88d7c240883e4f0ff77fc5589e557565383ec5c894dac":  // unique sig
-cleanup __amd64 void AchievementTracker::ForceUnlock(AchievementTracker *this, string *achievement, int difficulty, int shipMarker); // 0042f720
+ __thiscall void AchievementTracker::ForceUnlock(AchievementTracker *this, string *achievement, int difficulty, int shipMarker); // 0042f720
 ".578d7c240883e4f0ff77fc5589f889e557565381ec8c":  // unique sig
-cleanup __amd64 void AchievementTracker::LoadProfile(AchievementTracker *this, int fd, int version); // 0042f900
+ __thiscall void AchievementTracker::LoadProfile(AchievementTracker *this, int fd, int version); // 0042f900
 ".578d7c240883e4f0ff77fc5589e557565381ec8c0000008b078945":  // unique sig
-cleanup __amd64 void AchievementTracker::SetAchievement(AchievementTracker *this, string *achievement, bool noPopup, bool sendToServer); // 0042fbc0
+ __thiscall void AchievementTracker::SetAchievement(AchievementTracker *this, string *achievement, bool noPopup, bool sendToServer); // 0042fbc0
 ".578d7c240883e4f0ff77fc5589e55756538d7dc0":  // unique sig
-cleanup __amd64 void AchievementTracker::SetVictoryAchievement(AchievementTracker *this); // 00430040
+ __thiscall void AchievementTracker::SetVictoryAchievement(AchievementTracker *this); // 00430040
 ".57b8cc":  // unique sig
-cleanup __amd64 void AchievementTracker::LoadAchievementDescriptions(AchievementTracker *this); // 004302b0
+ __thiscall void AchievementTracker::LoadAchievementDescriptions(AchievementTracker *this); // 004302b0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8b0789":  // unique sig
-cleanup __amd64 void AchievementTracker::LoadGame(AchievementTracker *this, int fd); // 00433930
+ __thiscall void AchievementTracker::LoadGame(AchievementTracker *this, int fd); // 00433930
 ".5789c88d7c240883e4f0ff77fc5589e557565383ec4c8b58":  // unique sig
-cleanup __amd64 void AchievementTracker::SetFlag(AchievementTracker *this, string *flag); // 00433ad0
+ __thiscall void AchievementTracker::SetFlag(AchievementTracker *this, string *flag); // 00433ad0
 ".578d51288d7c240883e4f0ff77fc5589e557565383ec4c8b078b792c8955cc85ff8945c40f84????????8b70048b0089fb897dc8894dc08955d08945d489f7eb??894424088b45d4894424048b4310890424e8????????85c074??85c078??895dd08b5b0885db74??8b731489f839fe0f46c685c075??89f029f885c079??8b5b0c85db75??8b4dd0394dcc89fe8b7dc80f84????????8b591489f039f30f46c385c00f85????????89f029d885c00f88????????8b55cc8955d0eb??8d7600894424088b45d4894424048b4710890424e8????????85c074??85c078??897dd08b7f0885ff74??8b5f1489f039f30f46c385c075??89d829f085c079??8b7f0c85ff75??8b55d03955cc0f84????????8b5a1489f039f30f46c385c075??89f029d885c078":  // unique sig
-cleanup __amd64 int AchievementTracker::GetFlagValue(AchievementTracker *this, string *flag); // 00433da0
+ __thiscall int AchievementTracker::GetFlagValue(AchievementTracker *this, string *flag); // 00433da0
 ".578d51288d7c240883e4f0ff77fc5589e557565383ec4c8b078b792c8955cc85ff8945c40f84????????8b70048b0089fb897dc8894dc08955d08945d489f7eb??894424088b45d4894424048b4310890424e8????????85c074??85c078??895dd08b5b0885db74??8b731489f839fe0f46c685c075??89f029f885c079??8b5b0c85db75??8b4dd0394dcc89fe8b7dc80f84????????8b591489f039f30f46c385c00f85????????89f029d885c00f88????????8b55cc8955d0eb??8d7600894424088b45d4894424048b4710890424e8????????85c074??85c078??897dd08b7f0885ff74??8b5f1489f039f30f46c385c075??89d829f085c079??8b7f0c85ff75??8b55d03955cc0f84????????8b5a1489f039f30f46c385c075??89f029d885c00f":  // unique sig
-cleanup __amd64 bool AchievementTracker::GetFlag(AchievementTracker *this, string *flag); // 00433f80
+ __thiscall bool AchievementTracker::GetFlag(AchievementTracker *this, string *flag); // 00433f80
 ".578d7c240883e4f0ff77fc5589e55756538d45d08d7d":  // unique sig
-cleanup __amd64 void AchievementTracker::SetSectorEight(AchievementTracker *this); // 00434160
+ __thiscall void AchievementTracker::SetSectorEight(AchievementTracker *this); // 00434160

@@ -1,2 +1,2 @@
 "578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b77048b46":  // unique sig
-cleanup __amd64 string *EffectsBlueprint::RandomSoundChoice(EffectsBlueprint *this, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *vec); // 005dedd0
+ __thiscall string *EffectsBlueprint::RandomSoundChoice(EffectsBlueprint *this, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *vec); // 005dedd0

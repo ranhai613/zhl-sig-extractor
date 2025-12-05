@@ -1,80 +1,80 @@
 "d905????????c390908d":  // unique sig
-cleanup __amd64 float CrewDrone::GetMoveSpeedMultipler(CrewDrone *this); // 00437570
+ __thiscall float CrewDrone::GetMoveSpeedMultipler(CrewDrone *this); // 00437570
 ".0fb681fc010000c3908d":  // unique sig
-cleanup __amd64 bool CrewDrone::Destroyed(CrewDrone *this); // 00437580
+ __thiscall bool CrewDrone::Destroyed(CrewDrone *this); // 00437580
 ".578d7c240883e4f0ff77fc5589e55783ec24f30f2c410c89442404f30f2c41088d4df0890424e8????????8b7dfc8b45f083ec088b55f4c98d67f85fc38d":  // unique sig
-cleanup __amd64 Point CrewDrone::GetWorldLocation(CrewDrone *this); // 004375a0
+ __thiscall Point CrewDrone::GetWorldLocation(CrewDrone *this); // 004375a0
 ".578d7c240883e4f0ff77fc5589e55756538db1":  // unique sig
-cleanup __amd64 void CrewDrone::SetInstantPowered(CrewDrone *this); // 004375f0
+ __thiscall void CrewDrone::SetInstantPowered(CrewDrone *this); // 004375f0
 ".578d7c240883e4f0ff77fc5589e55783ec14c7042400007a":  // unique sig
-cleanup __amd64 void CrewDrone::BlowUp(CrewDrone *this, bool silent); // 004376c0
+ __thiscall void CrewDrone::BlowUp(CrewDrone *this, bool silent); // 004376c0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b8160":  // unique sig
-cleanup __amd64 void CrewDrone::SetWorldLocation(CrewDrone *this, Point p); // 00437700
+ __thiscall void CrewDrone::SetWorldLocation(CrewDrone *this, Point p); // 00437700
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f84":  // unique sig
-cleanup __amd64 void CrewDrone::SetDeployed(CrewDrone *this, bool deploy); // 00437770
+ __thiscall void CrewDrone::SetDeployed(CrewDrone *this, bool deploy); // 00437770
 ".57660fefc931":  // unique sig
-cleanup __amd64 bool CrewDrone::ShipDamage(CrewDrone *this, float amount); // 00437810
+ __thiscall bool CrewDrone::ShipDamage(CrewDrone *this, float amount); // 00437810
 ".578d7c240883e4f0ff77fc5589e557565389cb8d895c":  // unique sig
-cleanup __amd64 void CrewDrone::SetPowered(CrewDrone *this, bool powered); // 00437a30
+ __thiscall void CrewDrone::SetPowered(CrewDrone *this, bool powered); // 00437a30
 ".578d7c240883e4f0ff77fc5589f889e557565389cf81ecbc01":  // unique sig
-cleanup __amd64 void CrewDrone::constructor(CrewDrone *this, string *type, TextString *name, int iShipId, DroneBlueprint *blueprint, CrewAnimation *anim); // 00438130
+ __thiscall void CrewDrone::constructor(CrewDrone *this, string *type, TextString *name, int iShipId, DroneBlueprint *blueprint, CrewAnimation *anim); // 00438130
 ".578d7c240883e4f0ff77fc5589e557568db15c":  // unique sig
-cleanup __amd64 void CrewDrone::OnLoop(CrewDrone *this); // 0043ce20
+ __thiscall void CrewDrone::OnLoop(CrewDrone *this); // 0043ce20
 ".578d7c240883e4f0ff77fc5589e5575383ec50":  // unique sig
-cleanup __amd64 void CrewDrone::OnRender(CrewDrone *this, bool outlineOnly); // 0043d1a0
+ __thiscall void CrewDrone::OnRender(CrewDrone *this, bool outlineOnly); // 0043d1a0
 ".0fb6817007000084":  // unique sig
-cleanup __amd64 bool CrewDrone::Functional(CrewDrone *this); // 0073dd70
+ __thiscall bool CrewDrone::Functional(CrewDrone *this); // 0073dd70
 ".31c0c39090909090909090909090909031c0c3909090909090909090909090905589e553":  // unique sig
-cleanup __amd64 bool CrewDrone::CanSabotage(CrewDrone *this); // 0073ddb0
+ __thiscall bool CrewDrone::CanSabotage(CrewDrone *this); // 0073ddb0
 ".31c0c3909090909090909090909090905589e55389cb83e4f0e8":  // unique sig
-cleanup __amd64 bool CrewDrone::CanTeleport(CrewDrone *this); // 0073ddc0
+ __thiscall bool CrewDrone::CanTeleport(CrewDrone *this); // 0073ddc0
 ".5589e55389cb83e4f0e8????????84c074??0f":  // unique sig
-cleanup __amd64 bool CrewDrone::GetIntruder(CrewDrone *this); // 0073ddd0
+ __thiscall bool CrewDrone::GetIntruder(CrewDrone *this); // 0073ddd0
 ".31c0c3909090909090909090909090908b54":  // unique sig
-cleanup __amd64 bool CrewDrone::CanSuffocate(CrewDrone *this); // 0073de00
+ __thiscall bool CrewDrone::CanSuffocate(CrewDrone *this); // 0073de00
 ".8b54240489c88b8a88":  // unique sig
-cleanup __amd64 Slot *CrewDrone::GetDroneSlot(CrewDrone *this); // 0073de10
+ __thiscall Slot *CrewDrone::GetDroneSlot(CrewDrone *this); // 0073de10
 ".b864000000c39090909090909090909031c0c390909090909090909090909090f3":  // unique sig
-cleanup __amd64 int CrewDrone::GetMaxHealth(CrewDrone *this); // 0073de40
+ __thiscall int CrewDrone::GetMaxHealth(CrewDrone *this); // 0073de40
 ".31c0c390909090909090909090909090f30f2c":  // unique sig
-cleanup __amd64 bool CrewDrone::ReadyToFight(CrewDrone *this); // 0073de50
+ __thiscall bool CrewDrone::ReadyToFight(CrewDrone *this); // 0073de50
 ".f30f2c4128c3":  // unique sig
-cleanup __amd64 int CrewDrone::GetDroneHealth(CrewDrone *this); // 0073de60
+ __thiscall int CrewDrone::GetDroneHealth(CrewDrone *this); // 0073de60
 ".31c0c3909090909090909090909090908b4104":  // unique sig
-cleanup __amd64 bool CrewDrone::PermanentDeath(CrewDrone *this); // 0073de70
+ __thiscall bool CrewDrone::PermanentDeath(CrewDrone *this); // 0073de70
 ".8b410485c074??0f":  // unique sig
-cleanup __amd64 bool CrewDrone::ProvidesVision(CrewDrone *this); // 0073de80
+ __thiscall bool CrewDrone::ProvidesVision(CrewDrone *this); // 0073de80
 ".578d7c240883e4f0ff77fc5589e55783ec148b07890424e8????????8b7dfc83ec04c98d67f85fc2040090":  // unique sig
-cleanup __amd64 void CrewDrone::SetCurrentShip(CrewDrone *this, int iShipId); // 0073dec0
+ __thiscall void CrewDrone::SetCurrentShip(CrewDrone *this, int iShipId); // 0073dec0
 ".31c0c39090909090909090909090909031c0c3909090909090909090909090905589e583e4f0e8":  // unique sig
-cleanup __amd64 bool CrewDrone::CountForVictory(CrewDrone *this); // 0073def0
+ __thiscall bool CrewDrone::CountForVictory(CrewDrone *this); // 0073def0
 ".31c0c3909090909090909090909090905589e583e4f0e8????????c9c390909031":  // unique sig
-cleanup __amd64 bool CrewDrone::GetControllable(CrewDrone *this); // 0073df00
+ __thiscall bool CrewDrone::GetControllable(CrewDrone *this); // 0073df00
 ".5589e583e4f0e8????????c9c390909031":  // unique sig
-cleanup __amd64 void CrewDrone::Jump(CrewDrone *this); // 0073df10
+ __thiscall void CrewDrone::Jump(CrewDrone *this); // 0073df10
 ".31c0c39090909090909090909090909031c0c39090909090909090909090909031c0c390909090909090909090909090b801000000c39090909090909090909031c0c390909090909090909090909090f3":  // unique sig
-cleanup __amd64 bool CrewDrone::CanMan(CrewDrone *this); // 0073df20
+ __thiscall bool CrewDrone::CanMan(CrewDrone *this); // 0073df20
 ".31c0c39090909090909090909090909031c0c390909090909090909090909090b801000000c39090909090909090909031c0c390909090909090909090909090f3":  // unique sig
-cleanup __amd64 bool CrewDrone::CanBurn(CrewDrone *this); // 0073df30
+ __thiscall bool CrewDrone::CanBurn(CrewDrone *this); // 0073df30
 ".31c0c390909090909090909090909090b801000000c39090909090909090909031c0c390909090909090909090909090f3":  // unique sig
-cleanup __amd64 bool CrewDrone::CanStim(CrewDrone *this); // 0073df40
+ __thiscall bool CrewDrone::CanStim(CrewDrone *this); // 0073df40
 ".b801000000c39090909090909090909031c0c390909090909090909090909090f3c3909090909090909090909090909031":  // unique sig
-cleanup __amd64 bool CrewDrone::IsDrone(CrewDrone *this); // 0073df50
+ __thiscall bool CrewDrone::IsDrone(CrewDrone *this); // 0073df50
 ".31c0c390909090909090909090909090f3c3909090909090909090909090909031":  // unique sig
-cleanup __amd64 bool CrewDrone::CanFight(CrewDrone *this); // 0073df60
+ __thiscall bool CrewDrone::CanFight(CrewDrone *this); // 0073df60
 ".f3c3909090909090909090909090909031c0c390909090909090909090909090c2":  // unique sig
-cleanup __amd64 void CrewDrone::OnDestoy(CrewDrone *this); // 0073df70
+ __thiscall void CrewDrone::OnDestoy(CrewDrone *this); // 0073df70
 ".31c0c390909090909090909090909090c20400909090909090909090909090900f":  // unique sig
-cleanup __amd64 bool CrewDrone::CanRepair(CrewDrone *this); // 0073df80
+ __thiscall bool CrewDrone::CanRepair(CrewDrone *this); // 0073df80
 ".c20400909090909090909090909090900f":  // unique sig
-cleanup __amd64 void CrewDrone::LoadState(CrewDrone *this, int fd); // 0073df90
+ __thiscall void CrewDrone::LoadState(CrewDrone *this, int fd); // 0073df90
 ".0fb6817007000083":  // unique sig
-cleanup __amd64 bool CrewDrone::NeedsRoom(CrewDrone *this); // 0073dfa0
+ __thiscall bool CrewDrone::NeedsRoom(CrewDrone *this); // 0073dfa0
 ".c2040090909090909090909090909090558d9108":  // unique sig
-cleanup __amd64 void CrewDrone::SaveState(CrewDrone *this, int fd); // 0073dfb0
+ __thiscall void CrewDrone::SaveState(CrewDrone *this, int fd); // 0073dfb0
 "!.90":  // non-unique sig
 noHook __amd64 void CrewDrone::__DO_NOT_HOOK(); // 0073dfbf
 ".55":  // non-unique sig
-cleanup __amd64 void CrewDrone::destructor(CrewDrone *this); // 0073dfc0
+ __thiscall void CrewDrone::destructor(CrewDrone *this); // 0073dfc0
 ".558d910809000089e557565383e4f083ec208b8100090000c701????????894c2418c7815c070000????????39d074??890424e8????????8b4424188bb0f008000089f38974241c8bb0ec08000039f374??8b5e048b3e39fb74??908d7426008b178d4f0839ca74??891424e8????????83c71839fb75??8b1e85db74??891c24e8????????83c60c3974241c75??8b4424188b80ec0800008944241c8b44241c85c074??890424e8????????8b7424188b86c00800008d96c808000039d074??890424e8????????8b7424188b86a80800008d96b008000039d074??890424e8????????8b7424188b86340800008d963c08000039d074??890424e8????????8b4424188bb02408000089f38974241c8bb02008000039f374??908d7426008b5e048b3e39fb74??8db426000000008b178d4f0839ca74??891424e8????????83c71839fb75??8b1e85db74??891c24e8????????83c60c3974241c75??8b4424188b80200800008944241c8b44241c85c074??890424e8????????8b7424188b86f40700008d96fc07000039d074??890424e8????????8b7424188b86dc0700008d96e407000039d074??890424e8????????8b4c2418e8????????8d65f45b5e5f5dc390909090909090909090558d91":  // unique sig
-cleanup __amd64 void CrewDrone::destructor(CrewDrone *this); // 0073e190
+ __thiscall void CrewDrone::destructor(CrewDrone *this); // 0073e190

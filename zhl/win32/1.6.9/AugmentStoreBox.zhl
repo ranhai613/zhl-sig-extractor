@@ -1,16 +1,16 @@
 "578d7c240883e4f0ff77fc5589e55783ec148b078b915401000089c1891424e8????????8b7dfc83ec04b8c3000000c98d67f85fc2080090908db426000000005789":  // unique sig
-cleanup __amd64 int AugmentStoreBox::SetInfoBox(AugmentStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 005062a0
+ __thiscall int AugmentStoreBox::SetInfoBox(AugmentStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 005062a0
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b8138":  // unique sig
-cleanup __amd64 bool AugmentStoreBox::CanHold(AugmentStoreBox *this); // 00506800
+ __thiscall bool AugmentStoreBox::CanHold(AugmentStoreBox *this); // 00506800
 ".578d7c240883e4f0ff77fc5589e55756538d7dd08d45cc8d75d889cb83ec3c89f9c745cc15":  // unique sig
-cleanup __amd64 void AugmentStoreBox::constructor(AugmentStoreBox *this); // 00507d70
+ __thiscall void AugmentStoreBox::constructor(AugmentStoreBox *this); // 00507d70
 ".578d7c240883e4f0ff77fc5589f889e557565389cb8d4dd083ec4c8b7004":  // unique sig
-cleanup __amd64 void AugmentStoreBox::constructor(AugmentStoreBox *this, ShipManager *shopper, AugmentBlueprint *blue); // 00507e40
+ __thiscall void AugmentStoreBox::constructor(AugmentStoreBox *this, ShipManager *shopper, AugmentBlueprint *blue); // 00507e40
 ".578d7c240883e4f0ff77fc5589e557565389ce8d7dd883":  // unique sig
-cleanup __amd64 void AugmentStoreBox::Purchase(AugmentStoreBox *this); // 0050abe0
+ __thiscall void AugmentStoreBox::Purchase(AugmentStoreBox *this); // 0050abe0
 ".578d7c240883e4f0ff77fc5589e557565389cb83c12483":  // unique sig
-cleanup __amd64 void AugmentStoreBox::MouseMove(AugmentStoreBox *this, int mX, int mY); // 0050e370
+ __thiscall void AugmentStoreBox::MouseMove(AugmentStoreBox *this, int mX, int mY); // 0050e370
 ".5589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b24e8????????8b430c8d531439d074??890424e8????????891c24e8????????8b5dfcc9c3905589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b2483c314e8????????8b43f839d874??890424e8????????8b5dfcc9c390909090909090909031":  // unique sig
-cleanup __amd64 void AugmentStoreBox::destructor(AugmentStoreBox *this); // 0072cc60
+ __thiscall void AugmentStoreBox::destructor(AugmentStoreBox *this); // 0072cc60
 ".5589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b2483c314e8????????8b43f839d874??890424e8????????8b5dfcc9c390909090909090909031":  // unique sig
-cleanup __amd64 void AugmentStoreBox::destructor(AugmentStoreBox *this); // 0072cd20
+ __thiscall void AugmentStoreBox::destructor(AugmentStoreBox *this); // 0072cd20

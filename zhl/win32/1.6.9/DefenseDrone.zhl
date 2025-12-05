@@ -1,32 +1,32 @@
 "5589e55756538b5d":  // unique sig
-cleanup __amd64 bool DefenseDrone::ValidTargetObject(DefenseDrone *this, Targetable *target); // 0041e760
+ __thiscall bool DefenseDrone::ValidTargetObject(DefenseDrone *this, Targetable *target); // 0041e760
 ".0fb68155":  // unique sig
-cleanup __amd64 bool DefenseDrone::HasTarget(DefenseDrone *this); // 0041e810
+ __thiscall bool DefenseDrone::HasTarget(DefenseDrone *this); // 0041e810
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b018b401c3d????????0f85????????0fb6410c8d":  // unique sig
-cleanup __amd64 void DefenseDrone::RenderDrone(DefenseDrone *this); // 0041fbe0
+ __thiscall void DefenseDrone::RenderDrone(DefenseDrone *this); // 0041fbe0
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b01":  // unique sig
-cleanup __amd64 void DefenseDrone::SetWeaponTarget(DefenseDrone *this, Targetable *target); // 00420e90
+ __thiscall void DefenseDrone::SetWeaponTarget(DefenseDrone *this, Targetable *target); // 00420e90
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec308b8150010000f3":  // unique sig
-cleanup __amd64 void DefenseDrone::PickDestination(DefenseDrone *this); // 00421090
+ __thiscall void DefenseDrone::PickDestination(DefenseDrone *this); // 00421090
 ".8b915001000085d274??c204008d76005589e5538b450883e4f085c074??8b450889cb8b4d088b00ff501c89434c8b45088b4d088b00ff501c8943488b450889d98983500100008b03ff50788b43608b536489d98943508b03895354ff50788b5dfcc9c204008d76008dbc2700000000c7815001000000000000eb??8d74260057":  // unique sig
-cleanup __amd64 void DefenseDrone::SetMovementTarget(DefenseDrone *this, Targetable *target); // 00421870
+ __thiscall void DefenseDrone::SetMovementTarget(DefenseDrone *this, Targetable *target); // 00421870
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b11":  // unique sig
-cleanup __amd64 void DefenseDrone::SetDeployed(DefenseDrone *this, bool deployed); // 00421a10
+ __thiscall void DefenseDrone::SetDeployed(DefenseDrone *this, bool deployed); // 00421a10
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8b3789":  // unique sig
-cleanup __amd64 void DefenseDrone::SetPowered(DefenseDrone *this, bool powered); // 00421f70
+ __thiscall void DefenseDrone::SetPowered(DefenseDrone *this, bool powered); // 00421f70
 ".578d7c240883e4f0ff77fc5589f889e55756538d75a8":  // unique sig
-cleanup __amd64 string *DefenseDrone::GetTooltip(DefenseDrone *this); // 00422180
+ __thiscall string *DefenseDrone::GetTooltip(DefenseDrone *this); // 00422180
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c80b955":  // unique sig
-cleanup __amd64 void DefenseDrone::PickTarget(DefenseDrone *this); // 00422540
+ __thiscall void DefenseDrone::PickTarget(DefenseDrone *this); // 00422540
 ".578d7c240883e4f0ff77fc5589e557565389ce81ec0c01":  // unique sig
-cleanup __amd64 void DefenseDrone::constructor(DefenseDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 00424820
+ __thiscall void DefenseDrone::constructor(DefenseDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 00424820
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec4ce8????????66":  // unique sig
-cleanup __amd64 void DefenseDrone::OnLoop(DefenseDrone *this); // 00426a50
+ __thiscall void DefenseDrone::OnLoop(DefenseDrone *this); // 00426a50
 "!.e8c3909090909090909090909090905589e55389cb83e4f083ec10c701????????e8????????891c24e8????????8b5dfcc9c390909090909090909090909055c701????????89e583e4f0e8????????c9c390909090909090909090909090":  // unique sig
 noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 007261cf
 ".55":  // non-unique sig
-cleanup __amd64 void DefenseDrone::destructor(DefenseDrone *this); // 007261d0
+ __thiscall void DefenseDrone::destructor(DefenseDrone *this); // 007261d0
 "!.90":  // non-unique sig
 noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 0072657f
 ".55":  // non-unique sig
-cleanup __amd64 void DefenseDrone::destructor(DefenseDrone *this); // 00726580
+ __thiscall void DefenseDrone::destructor(DefenseDrone *this); // 00726580

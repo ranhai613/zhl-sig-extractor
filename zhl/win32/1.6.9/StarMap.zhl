@@ -1,160 +1,160 @@
 "5589e58b45088b550c5d89415c":  // unique sig
-cleanup __amd64 void StarMap::SetPosition(StarMap *this, Point p); // 005c62e0
+ __thiscall void StarMap::SetPosition(StarMap *this, Point p); // 005c62e0
 ".80b9100700000074":  // unique sig
-cleanup __amd64 bool StarMap::KeyDown(StarMap *this, SDLKey sym); // 005c6440
+ __thiscall bool StarMap::KeyDown(StarMap *this, SDLKey sym); // 005c6440
 ".56538b999804000085db78??83fb0119d283e2e083c24083fb0119c083e0cd83c06683fb0119db83e3c083eb808b715085f674??807e1e0074??80b9a5080000005b5e0f44c2c3":  // unique sig
-cleanup __amd64 int StarMap::GetNextDangerMove(StarMap *this); // 005c64c0
+ __thiscall int StarMap::GetNextDangerMove(StarMap *this); // 005c64c0
 ".8079040074??c3":  // unique sig
-cleanup __amd64 void StarMap::Open(StarMap *this); // 005c6520
+ __thiscall void StarMap::Open(StarMap *this); // 005c6520
 ".80b9c0060000000f85????????57":  // unique sig
-cleanup __amd64 void StarMap::Close(StarMap *this); // 005c6660
+ __thiscall void StarMap::Close(StarMap *this); // 005c6660
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c803f008b010f85????????8b4010":  // unique sig
-cleanup __amd64 void StarMap::SetOpen(StarMap *this, bool open); // 005c68b0
+ __thiscall void StarMap::SetOpen(StarMap *this, bool open); // 005c68b0
 ".578d7c240883e4f0ff77fc5589e557565389ce8d7dd081":  // unique sig
-cleanup __amd64 void StarMap::InitMapTitle(StarMap *this); // 005c6f00
+ __thiscall void StarMap::InitMapTitle(StarMap *this); // 005c6f00
 ".578d7c240883e4f0ff77fc5589e557565389cb8d7dc8":  // unique sig
-cleanup __amd64 void StarMap::InitNoFuelText(StarMap *this); // 005c72e0
+ __thiscall void StarMap::InitNoFuelText(StarMap *this); // 005c72e0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8bb158":  // unique sig
-cleanup __amd64 void StarMap::InitBossMessageBox(StarMap *this); // 005c76b0
+ __thiscall void StarMap::InitBossMessageBox(StarMap *this); // 005c76b0
 ".5589e55389cb83e4f0e8????????89":  // unique sig
-cleanup __amd64 void StarMap::OnLanguageChange(StarMap *this); // 005c77e0
+ __thiscall void StarMap::OnLanguageChange(StarMap *this); // 005c77e0
 ".5589e583e4f0803d????????0074":  // unique sig
-cleanup __amd64 int StarMap::GetRandomSectorChoice(StarMap *this); // 005c7870
+ __thiscall int StarMap::GetRandomSectorChoice(StarMap *this); // 005c7870
 ".565331c08b5c240c85db78??8bb1fc":  // unique sig
-cleanup __amd64 bool StarMap::NeighboringSector(StarMap *this, int potentialSector); // 005c78c0
+ __thiscall bool StarMap::NeighboringSector(StarMap *this, int potentialSector); // 005c78c0
 ".578d7c240883e4f0ff77fc5589fa89e557565389cf83ec3c8b4a":  // unique sig
-cleanup __amd64 int StarMap::GetSelectedSector(StarMap *this, int mX, int mY, int maxDist); // 005c7920
+ __thiscall int StarMap::GetSelectedSector(StarMap *this, int mX, int mY, int maxDist); // 005c7920
 ".578d7c240883e4f0ff77fc5589e55756538d75d08d5d":  // unique sig
-cleanup __amd64 void StarMap::StartSecretSector(StarMap *this); // 005c7a90
+ __thiscall void StarMap::StartSecretSector(StarMap *this); // 005c7a90
 ".578d7c240883e4f0ff77fc5589e557565383ec6c8b07894ddc":  // unique sig
-cleanup __amd64 void StarMap::ReachSector(StarMap *this, Sector *sector); // 005c7b20
+ __thiscall void StarMap::ReachSector(StarMap *this, Sector *sector); // 005c7b20
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83ec1c8b30":  // unique sig
-cleanup __amd64 void StarMap::UpdateSectorMap(StarMap *this, Sector *fakeCurrent); // 005c7e60
+ __thiscall void StarMap::UpdateSectorMap(StarMap *this, Sector *fakeCurrent); // 005c7e60
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83ec3c8b188b8108":  // unique sig
-cleanup __amd64 void StarMap::SaveGame(StarMap *this, int fd); // 005c7f30
+ __thiscall void StarMap::SaveGame(StarMap *this, int fd); // 005c7f30
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3":  // unique sig
-static cleanup __amd64 undefined StarMap::InitStatistics(); // 005c8560
+static cleanup __cdecl undefined StarMap::InitStatistics(); // 005c8560
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b44240401":  // unique sig
-static cleanup __amd64 undefined StarMap::PrintStatistics(); // 005c8570
+static cleanup __cdecl undefined StarMap::PrintStatistics(); // 005c8570
 ".f3c38db426000000008dbc27000000008b44240401":  // unique sig
-static cleanup __amd64 undefined StarMap::AnalyzeMap(); // 005c8580
+static cleanup __cdecl undefined StarMap::AnalyzeMap(); // 005c8580
 ".8b442404018198":  // unique sig
-cleanup __amd64 void StarMap::ModifyPursuit(StarMap *this, int amount); // 005c8590
+ __thiscall void StarMap::ModifyPursuit(StarMap *this, int amount); // 005c8590
 ".31c083b980":  // unique sig
-cleanup __amd64 int StarMap::GetNextDangerMove(StarMap *this); // 005c85a0
+ __thiscall int StarMap::GetNextDangerMove(StarMap *this); // 005c85a0
 ".8b41500f":  // unique sig
-cleanup __amd64 bool StarMap::AtBeacon(StarMap *this); // 005c8610
+ __thiscall bool StarMap::AtBeacon(StarMap *this); // 005c8610
 ".80797c0074??80b9ac0600000074":  // unique sig
-cleanup __amd64 Location *StarMap::GetWaitLocation(StarMap *this); // 005c8620
+ __thiscall Location *StarMap::GetWaitLocation(StarMap *this); // 005c8620
 ".8b919004":  // unique sig
-cleanup __amd64 bool StarMap::StartBeacon(StarMap *this); // 005c8650
+ __thiscall bool StarMap::StartBeacon(StarMap *this); // 005c8650
 ".538b4424088b5c240c8b4808":  // unique sig
-cleanup __amd64 bool StarMap::LocationsConnected(StarMap *this, Location *loc, Location *loc2); // 005c8690
+ __thiscall bool StarMap::LocationsConnected(StarMap *this, Location *loc, Location *loc2); // 005c8690
 ".578d7c240883e4f0ff77fc5589e5578d4df083ec34":  // unique sig
-cleanup __amd64 Point StarMap::PointToGrid(StarMap *this, float x, float y); // 005c86d0
+ __thiscall Point StarMap::PointToGrid(StarMap *this, float x, float y); // 005c86d0
 ".538b44240880":  // unique sig
-cleanup __amd64 void StarMap::TravelToLocation(StarMap *this, Location *loc); // 005c8760
+ __thiscall void StarMap::TravelToLocation(StarMap *this, Location *loc); // 005c8760
 ".8b4150c6":  // unique sig
-cleanup __amd64 void StarMap::ForceExitBeacon(StarMap *this); // 005c87b0
+ __thiscall void StarMap::ForceExitBeacon(StarMap *this); // 005c87b0
 ".f3c38db426000000008dbc2700000000568b":  // unique sig
-cleanup __amd64 void StarMap::OnRenderFogEffect(StarMap *this); // 005c87c0
+ __thiscall void StarMap::OnRenderFogEffect(StarMap *this); // 005c87c0
 ".568b91":  // unique sig
-cleanup __amd64 bool StarMap::LocationHasBoss(StarMap *this, Location *loc); // 005c87d0
+ __thiscall bool StarMap::LocationHasBoss(StarMap *this, Location *loc); // 005c87d0
 ".56538b54240c8b42":  // unique sig
-cleanup __amd64 bool StarMap::LocationHasStore(StarMap *this, Location *loc); // 005c8800
+ __thiscall bool StarMap::LocationHasStore(StarMap *this, Location *loc); // 005c8800
 ".8b4424048b4020":  // unique sig
-cleanup __amd64 bool StarMap::LocationHasShip(StarMap *this, Location *loc); // 005c8850
+ __thiscall bool StarMap::LocationHasShip(StarMap *this, Location *loc); // 005c8850
 ".8b819004000083":  // unique sig
-cleanup __amd64 void StarMap::AdvanceWorldLevel(StarMap *this); // 005c8870
+ __thiscall void StarMap::AdvanceWorldLevel(StarMap *this); // 005c8870
 ".568b8174":  // unique sig
-cleanup __amd64 void StarMap::ReverseBossPath(StarMap *this); // 005c8cf0
+ __thiscall void StarMap::ReverseBossPath(StarMap *this); // 005c8cf0
 ".80b97008":  // unique sig
-cleanup __amd64 void StarMap::ForceBossJump(StarMap *this); // 005c8d60
+ __thiscall void StarMap::ForceBossJump(StarMap *this); // 005c8d60
 ".578d7c240883e4f0ff77fc5589e557565331db89ce83ec1c8b5120":  // unique sig
-cleanup __amd64 void StarMap::ClearBoss(StarMap *this); // 005c8db0
+ __thiscall void StarMap::ClearBoss(StarMap *this); // 005c8db0
 ".8b4424048981e4":  // unique sig
-cleanup __amd64 void StarMap::SetBossStage(StarMap *this, int val); // 005c8e60
+ __thiscall void StarMap::SetBossStage(StarMap *this, int val); // 005c8e60
 ".31c083b96c":  // unique sig
-cleanup __amd64 bool StarMap::CheckGameOver(StarMap *this); // 005c8e70
+ __thiscall bool StarMap::CheckGameOver(StarMap *this); // 005c8e70
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec5c8b1f8b83":  // unique sig
-cleanup __amd64 string *StarMap::GetPotentialSectorChoiceName(StarMap *this); // 005c8ec0
+ __thiscall string *StarMap::GetPotentialSectorChoiceName(StarMap *this); // 005c8ec0
 ".578d7c240883e4f0ff77fc5589e557565389cf81ecdc":  // unique sig
-cleanup __amd64 void StarMap::RenderLabels(StarMap *this); // 005c9070
+ __thiscall void StarMap::RenderLabels(StarMap *this); // 005c9070
 ".578d41088d7c240883e4f0ff77fc5589e557565389ce83ec7c":  // unique sig
-cleanup __amd64 string *StarMap::GetLocationText(StarMap *this, Location *loc); // 005c9910
+ __thiscall string *StarMap::GetLocationText(StarMap *this, Location *loc); // 005c9910
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b81":  // unique sig
-cleanup __amd64 void StarMap::DeleteMap(StarMap *this); // 005ca200
+ __thiscall void StarMap::DeleteMap(StarMap *this); // 005ca200
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c80b9":  // unique sig
-cleanup __amd64 void StarMap::MouseClick(StarMap *this, int mX, int mY); // 005ca380
+ __thiscall void StarMap::MouseClick(StarMap *this, int mX, int mY); // 005ca380
 ".578d7c240883e4f0ff77fc5589e557565389cebb56":  // unique sig
-cleanup __amd64 void StarMap::AddSectorColumn(StarMap *this); // 005ca680
+ __thiscall void StarMap::AddSectorColumn(StarMap *this); // 005ca680
 ".5589e557565389cf83e4f083ec208b81fc":  // unique sig
-cleanup __amd64 void StarMap::PushSectorColumn(StarMap *this); // 005cb4e0
+ __thiscall void StarMap::PushSectorColumn(StarMap *this); // 005cb4e0
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83ec1c8b99":  // unique sig
-cleanup __amd64 void StarMap::SelectNewSector(StarMap *this, int choice); // 005cb5d0
+ __thiscall void StarMap::SelectNewSector(StarMap *this, int choice); // 005cb5d0
 ".578d7c240883e4f0ff77fc5589e557565389cb81ec1c":  // unique sig
-cleanup __amd64 void StarMap::GenerateSectorMap(StarMap *this); // 005cb6f0
+ __thiscall void StarMap::GenerateSectorMap(StarMap *this); // 005cb6f0
 ".578d7c240883e4f0ff77fc5589e557565381ec8c0000008b078b":  // unique sig
-cleanup __amd64 void StarMap::DrawConnection(StarMap *this, Pointf *p1, Pointf *p2, GL_Color *color); // 005cbe10
+ __thiscall void StarMap::DrawConnection(StarMap *this, Pointf *p1, Pointf *p2, GL_Color *color); // 005cbe10
 ".578d7c240883e4f0ff77fc5589e557565389cb8db518":  // unique sig
-cleanup __amd64 void StarMap::constructor(StarMap *this); // 005cc560
+ __thiscall void StarMap::constructor(StarMap *this); // 005cc560
 ".578d7c240883e4f0ff77fc5589e55756538d85d0":  // unique sig
-cleanup __amd64 void StarMap::RenderSectorName(StarMap *this, Sector *sector, GL_Color color); // 005cee20
+ __thiscall void StarMap::RenderSectorName(StarMap *this, Sector *sector, GL_Color color); // 005cee20
 ".578d7c240883e4f0ff77fc5589e557565389cf83ec7ce8":  // unique sig
-cleanup __amd64 void StarMap::RenderSectorMap(StarMap *this); // 005cf7d0
+ __thiscall void StarMap::RenderSectorMap(StarMap *this); // 005cf7d0
 ".578d7c240883e4f0ff77fc5589e557565389cb81ecdc00000083":  // unique sig
-cleanup __amd64 void StarMap::SetupNoFuel(StarMap *this, int seed, string *forceEscape); // 005d0250
+ __thiscall void StarMap::SetupNoFuel(StarMap *this, int seed, string *forceEscape); // 005d0250
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b1f8b4320":  // unique sig
-cleanup __amd64 void StarMap::TurnIntoFleetLocation(StarMap *this, Location *location); // 005d0940
+ __thiscall void StarMap::TurnIntoFleetLocation(StarMap *this, Location *location); // 005d0940
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec3c8b81":  // unique sig
-cleanup __amd64 void StarMap::UpdateBoss(StarMap *this); // 005d0b80
+ __thiscall void StarMap::UpdateBoss(StarMap *this); // 005d0b80
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec4c80b9c0":  // unique sig
-cleanup __amd64 void StarMap::UpdateDangerZone(StarMap *this); // 005d0f30
+ __thiscall void StarMap::UpdateDangerZone(StarMap *this); // 005d0f30
 ".31c080797c":  // unique sig
-cleanup __amd64 Location *StarMap::GetNewLocation(StarMap *this); // 005d1310
+ __thiscall Location *StarMap::GetNewLocation(StarMap *this); // 005d1310
 ".8079040075??c389f68dbc2700000000578d7c240883e4f0ff77fc5589e557565389cf83":  // unique sig
-cleanup __amd64 void StarMap::OnLoop(StarMap *this); // 005d13a0
+ __thiscall void StarMap::OnLoop(StarMap *this); // 005d13a0
 ".80b9800800000074":  // unique sig
-cleanup __amd64 void StarMap::UpdateBoss(StarMap *this); // 005d17c0
+ __thiscall void StarMap::UpdateBoss(StarMap *this); // 005d17c0
 ".578d7c240883e4f0ff77fc5589e557565381ecbc0000008b0789":  // unique sig
-cleanup __amd64 void StarMap::GenerateNebulas(StarMap *this, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *names); // 005d17e0
+ __thiscall void StarMap::GenerateNebulas(StarMap *this, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *names); // 005d17e0
 ".578d7c240883e4f0ff77fc5589e557565381ec2c0100008b":  // unique sig
-cleanup __amd64 void StarMap::GenerateEvents(StarMap *this, bool bTutorial); // 005d2100
+ __thiscall void StarMap::GenerateEvents(StarMap *this, bool bTutorial); // 005d2100
 ".578d7c240883e4f0ff77fc5589e557565383ec2c8b1f8b81":  // unique sig
-cleanup __amd64 void StarMap::AddConnections(StarMap *this, Location *loc); // 005d2e70
+ __thiscall void StarMap::AddConnections(StarMap *this, Location *loc); // 005d2e70
 ".578d810c":  // unique sig
-cleanup __amd64 bool StarMap::MapConnected(StarMap *this); // 005d3000
+ __thiscall bool StarMap::MapConnected(StarMap *this); // 005d3000
 ".578d7c240883e4f0ff77fc5589e55756538d712c":  // unique sig
-cleanup __amd64 void StarMap::ConnectLocations(StarMap *this, Point *grid1, Point grid2); // 005d30b0
+ __thiscall void StarMap::ConnectLocations(StarMap *this, Point *grid1, Point grid2); // 005d30b0
 ".5789c883c02c":  // unique sig
-cleanup __amd64 void StarMap::PopulateGrid(StarMap *this, Point *grid); // 005d3510
+ __thiscall void StarMap::PopulateGrid(StarMap *this, Point *grid); // 005d3510
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b078b5f":  // unique sig
-cleanup __amd64 Location *StarMap::PopClosestLoc(StarMap *this, std::vector<Location*> *locations, std::map<Location*, int> *distances); // 005d37c0
+ __thiscall Location *StarMap::PopClosestLoc(StarMap *this, std::vector<Location*> *locations, std::map<Location*, int> *distances); // 005d37c0
 ".578d7c240883e4f0ff77fc5589e55756538d45a4":  // unique sig
-static cleanup __amd64 std::vector<Location*> *StarMap::Dijkstra(vector<Location*,_std::allocator<Location*>_> *__return_storage_ptr__, StarMap *this, Location *start, Location *finish, bool include_unknown); // 005d3920
+static cleanup __cdecl std::vector<Location*> *StarMap::Dijkstra(vector<Location*,_std::allocator<Location*>_> *__return_storage_ptr__, StarMap *this, Location *start, Location *finish, bool include_unknown); // 005d3920
 ".578d7c240883e4f0ff77fc5589f889e557565389cf83ec5c8b10":  // unique sig
-cleanup __amd64 bool StarMap::AddQuest(StarMap *this, string *name, bool force); // 005d4100
+ __thiscall bool StarMap::AddQuest(StarMap *this, string *name, bool force); // 005d4100
 ".578d7c240883e4f0ff77fc5589e557565381ec2c01000080":  // unique sig
-cleanup __amd64 Location *StarMap::GenerateMap(StarMap *this, bool bTutorial, bool useOldSeed); // 005d4590
+ __thiscall Location *StarMap::GenerateMap(StarMap *this, bool bTutorial, bool useOldSeed); // 005d4590
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec7c8b078b99":  // unique sig
-cleanup __amd64 Location *StarMap::NewGame(StarMap *this, bool tutorial); // 005d5a20
+ __thiscall Location *StarMap::NewGame(StarMap *this, bool tutorial); // 005d5a20
 ".578d7c240883e4f0ff77fc5589f889e557565381ec9c0000000f":  // unique sig
-cleanup __amd64 std::vector<Location*> *StarMap::Dijkstra(StarMap *this, Location *start, Location *finish, bool include_unknown); // 005d5d70
+ __thiscall std::vector<Location*> *StarMap::Dijkstra(StarMap *this, Location *start, Location *finish, bool include_unknown); // 005d5d70
 ".578d7c240883e4f0ff77fc5589e557565381ec8c0000008b1f":  // unique sig
-cleanup __amd64 void StarMap::MouseMove(StarMap *this, int mX, int mY); // 005d6590
+ __thiscall void StarMap::MouseMove(StarMap *this, int mX, int mY); // 005d6590
 ".578d7c240883e4f0ff77fc5589e557565389ce81ec8c0000008b0780":  // unique sig
-cleanup __amd64 void StarMap::OnTouch(StarMap *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005d6e90
+ __thiscall void StarMap::OnTouch(StarMap *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005d6e90
 ".578d7c240883e4f0ff77fc5589f889e557565389cf81ecbc04":  // unique sig
-cleanup __amd64 Location *StarMap::LoadGame(StarMap *this, int fd); // 005d7710
+ __thiscall Location *StarMap::LoadGame(StarMap *this, int fd); // 005d7710
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec7c8b77":  // unique sig
-cleanup __amd64 void StarMap::RenderLeftInsetButton(StarMap *this, float rightX, float y, bool isWait); // 005d8ec0
+ __thiscall void StarMap::RenderLeftInsetButton(StarMap *this, float rightX, float y, bool isWait); // 005d8ec0
 ".578d7c240883e4f0ff77fc5589e55756538d7dc889":  // unique sig
-cleanup __amd64 void StarMap::RenderDistressButtons(StarMap *this); // 005d9240
+ __thiscall void StarMap::RenderDistressButtons(StarMap *this); // 005d9240
 ".578d7c240883e4f0ff77fc5589e557565389cb81ec8c01000080":  // unique sig
-cleanup __amd64 void StarMap::OnRender(StarMap *this); // 005d9ab0
+ __thiscall void StarMap::OnRender(StarMap *this); // 005d9ab0
 ".8079040074??5589e583":  // unique sig
-cleanup __amd64 void StarMap::OnRender(StarMap *this); // 005dd100
+ __thiscall void StarMap::OnRender(StarMap *this); // 005dd100
 ".578d7c240883e4f0ff77fc5589e557565389cb31f683ec1c":  // unique sig
-cleanup __amd64 void StarMap::destructor(StarMap *this); // 005dd120
+ __thiscall void StarMap::destructor(StarMap *this); // 005dd120
 ".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c39090a1":  // unique sig
-cleanup __amd64 void StarMap::destructor(StarMap *this); // 005dd630
+ __thiscall void StarMap::destructor(StarMap *this); // 005dd630

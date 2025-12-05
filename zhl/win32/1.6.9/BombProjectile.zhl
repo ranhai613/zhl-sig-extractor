@@ -1,22 +1,22 @@
 "578d7c240883e4f0ff77fc5589e5575389cb8d490483ec10c741fc00000000f30f1005????????f30f11442404f30f110424e8????????c7430c00000000c743100000000083ec088d65f889d85b5f5d8d67f85fc24c0090908d":  // unique sig
-static cleanup __amd64 CollisionResponse *BombProjectile::CollisionMoving(CollisionResponse *__return_storage_ptr__, BombProjectile *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 0044a190
+static cleanup __cdecl CollisionResponse *BombProjectile::CollisionMoving(CollisionResponse *__return_storage_ptr__, BombProjectile *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 0044a190
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f891c24e8????????0fb686a0":  // unique sig
-cleanup __amd64 void BombProjectile::SaveProjectile(BombProjectile *this, int fd); // 0044a1f0
+ __thiscall void BombProjectile::SaveProjectile(BombProjectile *this, int fd); // 0044a1f0
 ".5589e556538db1":  // unique sig
-cleanup __amd64 void BombProjectile::OnUpdate(BombProjectile *this); // 0044a290
+ __thiscall void BombProjectile::OnUpdate(BombProjectile *this); // 0044a290
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b37893424e8????????83ec04893424e8????????85":  // unique sig
-cleanup __amd64 void BombProjectile::LoadProjectile(BombProjectile *this, int fd); // 0044a340
+ __thiscall void BombProjectile::LoadProjectile(BombProjectile *this, int fd); // 0044a340
 ".578d7c240883e4f0ff77fc5589e5575383ec308b0739417474??8d65f85b5f5d8d67f85fc2040089f68dbc270000000089cbe8????????66":  // unique sig
-cleanup __amd64 void BombProjectile::OnRenderSpecific(BombProjectile *this, int spaceId); // 0044a3f0
+ __thiscall void BombProjectile::OnRenderSpecific(BombProjectile *this, int spaceId); // 0044a3f0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec6c8b0789":  // unique sig
-cleanup __amd64 void BombProjectile::CollisionCheck(BombProjectile *this, Collideable *object); // 0044a5c0
+ __thiscall void BombProjectile::CollisionCheck(BombProjectile *this, Collideable *object); // 0044a5c0
 ".5589e557565383e4f083ec208b99a4020000c701????????894c241c":  // unique sig
-cleanup __amd64 void BombProjectile::destructor(BombProjectile *this); // 0044a9e0
+ __thiscall void BombProjectile::destructor(BombProjectile *this); // 0044a9e0
 ".5589e557565383e4f083ec208b99a4020000c701????????894c2418":  // unique sig
-cleanup __amd64 void BombProjectile::destructor(BombProjectile *this); // 0044ac40
+ __thiscall void BombProjectile::destructor(BombProjectile *this); // 0044ac40
 ".578d7c240883e4f0ff77fc5589f889e557565389cf81ec2c0100008b70":  // unique sig
-cleanup __amd64 void BombProjectile::constructor(BombProjectile *this, Pointf position, int ownerId, int targetId, Pointf target); // 0044ae90
+ __thiscall void BombProjectile::constructor(BombProjectile *this, Pointf position, int ownerId, int targetId, Pointf target); // 0044ae90
 ".b8ffffffffc390909090909090909090b804":  // unique sig
-cleanup __amd64 int BombProjectile::GetOwnerId(BombProjectile *this); // 0072be60
+ __thiscall int BombProjectile::GetOwnerId(BombProjectile *this); // 0072be60
 ".b804000000c39090909090909090909055":  // unique sig
-cleanup __amd64 int BombProjectile::GetType(BombProjectile *this); // 0072be70
+ __thiscall int BombProjectile::GetType(BombProjectile *this); // 0072be70

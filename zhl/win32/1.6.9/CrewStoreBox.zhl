@@ -1,20 +1,20 @@
 "5789c8053802":  // unique sig
-cleanup __amd64 int CrewStoreBox::SetInfoBox(CrewStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 005062e0
+ __thiscall int CrewStoreBox::SetInfoBox(CrewStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 005062e0
 ".8b893801000085":  // unique sig
-cleanup __amd64 bool CrewStoreBox::CanHold(CrewStoreBox *this); // 00506330
+ __thiscall bool CrewStoreBox::CanHold(CrewStoreBox *this); // 00506330
 ".578d7c240883e4f0ff77fc5589e55756538d7dd08d45cc8d75d889cb83ec3c89f9c745cc16":  // unique sig
-cleanup __amd64 void CrewStoreBox::constructor(CrewStoreBox *this); // 005080d0
+ __thiscall void CrewStoreBox::constructor(CrewStoreBox *this); // 005080d0
 ".578d7c240883e4f0ff77fc5589e557565389cb8d8dc0":  // unique sig
-cleanup __amd64 void CrewStoreBox::constructor(CrewStoreBox *this, ShipManager *shopper, int worldLevel, string type); // 00508380
+ __thiscall void CrewStoreBox::constructor(CrewStoreBox *this, ShipManager *shopper, int worldLevel, string type); // 00508380
 ".578d7c240883e4f0ff77fc5589e557565389cf81ec6c01":  // unique sig
-cleanup __amd64 void CrewStoreBox::Purchase(CrewStoreBox *this); // 0050acf0
+ __thiscall void CrewStoreBox::Purchase(CrewStoreBox *this); // 0050acf0
 ".578d7c240883e4f0ff77fc5589e5575389cb83c12483ec408b078b5704c74424????????0089542404890424e8????????83":  // unique sig
-cleanup __amd64 void CrewStoreBox::MouseMove(CrewStoreBox *this, int mX, int mY); // 0050e5c0
+ __thiscall void CrewStoreBox::MouseMove(CrewStoreBox *this, int mX, int mY); // 0050e5c0
 "!.d0c1e81fc390909090":  // unique sig
 noHook __amd64 void CrewStoreBox::__DO_NOT_HOOK(); // 0072598f
 ".55":  // non-unique sig
-cleanup __amd64 void CrewStoreBox::destructor(CrewStoreBox *this); // 00725990
+ __thiscall void CrewStoreBox::destructor(CrewStoreBox *this); // 00725990
 "!.90":  // non-unique sig
 noHook __amd64 void CrewStoreBox::__DO_NOT_HOOK(); // 00725d0f
 ".55":  // non-unique sig
-cleanup __amd64 void CrewStoreBox::destructor(CrewStoreBox *this); // 00725d10
+ __thiscall void CrewStoreBox::destructor(CrewStoreBox *this); // 00725d10

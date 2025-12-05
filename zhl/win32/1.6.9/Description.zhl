@@ -1,10 +1,10 @@
 "578d41088d7c240883e4f0ff77fc5589e557565389cb83ec1c":  // unique sig
-cleanup __amd64 void Description::constructor(Description *this, Description *param_2); // 007238c0
+ __thiscall void Description::constructor(Description *this, Description *param_2); // 007238c0
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec10c70424????????e8????????8d":  // unique sig
-cleanup __amd64 void Description::constructor(Description *this); // 007239e0
+ __thiscall void Description::constructor(Description *this); // 007239e0
 ".558d918c00":  // unique sig
-cleanup __amd64 void Description::destructor(Description *this); // 00723a90
+ __thiscall void Description::destructor(Description *this); // 00723a90
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f891c24e8????????0fb643188d4e1c83ec048846188d431c890424e8????????0fb643348d4e3883ec048846348d4338890424e8????????0fb643508d4e6883ec048846508b43548946548b43588946588b435c89465c8b43608946600fb643648846648d436881c384000000890424e8????????0fb643fc83ec048d8e84000000891c24888680000000??????????83ec048d65f489f05b5e5f5d8d67f85fc20400909090909057":  // unique sig
-cleanup __amd64 Description *Description::operator=(Description *this, Description *param_2); // 00723b00
+ __thiscall Description *Description::operator=(Description *this, Description *param_2); // 00723b00
 ".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f891c24e8????????0fb643188d4e1c83ec048846188d431c890424e8????????0fb643348d4e3883ec048846348d4338890424e8????????0fb643508d4e6883ec048846508b43548946548b43588946588b435c89465c8b43608946600fb643648846648d436881c384000000890424e8????????0fb643fc83ec048d8e84000000891c24888680000000e8????????83ec048d65f489f05b5e5f5d8d67f85fc204009090909090b8":  // unique sig
-cleanup __amd64 Description *Description::operator=(Description *this, Description *param_2); // 00723bc0
+ __thiscall Description *Description::operator=(Description *this, Description *param_2); // 00723bc0

@@ -1,18 +1,18 @@
 "f30f1005????????f30f1101":  // unique sig
-cleanup __amd64 void Pointf::constructor(Pointf *this); // 00586170
+ __thiscall void Pointf::constructor(Pointf *this); // 00586170
 ".f30f10442404f30f1101":  // unique sig
-cleanup __amd64 void Pointf::constructor(Pointf *this, float x, float y); // 00586190
+ __thiscall void Pointf::constructor(Pointf *this, float x, float y); // 00586190
 ".5589e583ec04f30f1009":  // unique sig
-cleanup __amd64 float Pointf::RelativeDistance(Pointf *this, Pointf p); // 005861b0
+ __thiscall float Pointf::RelativeDistance(Pointf *this, Pointf p); // 005861b0
 ".5589e583e4f083ec20f30f1009f30f104104f30f5c":  // unique sig
-cleanup __amd64 float Pointf::Distance(Pointf *this, Pointf p); // 005861f0
+ __thiscall float Pointf::Distance(Pointf *this, Pointf p); // 005861f0
 ".5589e583ec04f30f104508f3":  // unique sig
-cleanup __amd64 float Pointf::Slope(Pointf *this, Pointf p); // 00586250
+ __thiscall float Pointf::Slope(Pointf *this, Pointf p); // 00586250
 ".5589e583ec04f30f1045088b":  // unique sig
-cleanup __amd64 bool Pointf::equals(Pointf *this, Pointf p); // 00586280
+ __thiscall bool Pointf::equals(Pointf *this, Pointf p); // 00586280
 ".5589e55389cb83e4f083ec20f30f100d":  // unique sig
-cleanup __amd64 Pointf Pointf::RotatePoint(Pointf *this, float angle); // 005862c0
+ __thiscall Pointf Pointf::RotatePoint(Pointf *this, float angle); // 005862c0
 ".5589e55389cb83e4f083ec30f3":  // unique sig
-cleanup __amd64 Pointf Pointf::RotatePoint(Pointf *this, float angle, Pointf p); // 00586370
+ __thiscall Pointf Pointf::RotatePoint(Pointf *this, float angle, Pointf p); // 00586370
 ".5589e583e4f083ec20f30f1009f30f104104f30f59":  // unique sig
-cleanup __amd64 Pointf Pointf::Normalize(Pointf *this); // 00586440
+ __thiscall Pointf Pointf::Normalize(Pointf *this); // 00586440

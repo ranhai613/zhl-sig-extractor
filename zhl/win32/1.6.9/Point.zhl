@@ -1,18 +1,18 @@
 "c70101000080":  // unique sig
-cleanup __amd64 void Point::constructor(Point *this); // 00585e50
+ __thiscall void Point::constructor(Point *this); // 00585e50
 ".8b44240489018b":  // unique sig
-cleanup __amd64 void Point::constructor(Point *this, int x, int y); // 00585e60
+ __thiscall void Point::constructor(Point *this, int x, int y); // 00585e60
 ".558b018b":  // unique sig
-cleanup __amd64 int Point::RelativeDistance(Point *this, Point p); // 00585e70
+ __thiscall int Point::RelativeDistance(Point *this, Point p); // 00585e70
 ".55660fefc089e583e4f083ec208b":  // unique sig
-cleanup __amd64 int Point::Distance(Point *this, Point p); // 00585e90
+ __thiscall int Point::Distance(Point *this, Point p); // 00585e90
 ".55660fefc0660fefc989e583ec":  // unique sig
-cleanup __amd64 float Point::Slope(Point *this, Point p); // 00585ee0
+ __thiscall float Point::Slope(Point *this, Point p); // 00585ee0
 ".5589e557565383e4f083ec208b45088b30":  // unique sig
-static cleanup __amd64 int Point::DistancePath(vector<Point,_std::allocator<Point>_> *path); // 00585f20
+static cleanup __cdecl int Point::DistancePath(vector<Point,_std::allocator<Point>_> *path); // 00585f20
 ".5531c089e5538b":  // unique sig
-cleanup __amd64 bool Point::equals(Point *this, Point p); // 00585fd0
+ __thiscall bool Point::equals(Point *this, Point p); // 00585fd0
 ".5589e55389cb83e4f083ec20f30f1005":  // unique sig
-cleanup __amd64 Point Point::RotatePoint(Point *this, float angle); // 00585ff0
+ __thiscall Point Point::RotatePoint(Point *this, float angle); // 00585ff0
 ".5589e557565389cf83e4f083ec208b5d":  // unique sig
-cleanup __amd64 Point Point::RotatePoint(Point *this, float angle, Point p); // 005860a0
+ __thiscall Point Point::RotatePoint(Point *this, float angle, Point p); // 005860a0

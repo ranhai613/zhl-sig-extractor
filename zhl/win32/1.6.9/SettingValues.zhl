@@ -1,2 +1,2 @@
 "578d4128":  // unique sig
-cleanup __amd64 void SettingValues::constructor(SettingValues *this); // 0057cc50
+ __thiscall void SettingValues::constructor(SettingValues *this); // 0057cc50

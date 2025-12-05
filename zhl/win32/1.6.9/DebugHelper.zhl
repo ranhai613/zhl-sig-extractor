@@ -1,14 +1,14 @@
 "5783c1188d7c240883e4f0ff77fc5589e55783ec148b078904":  // unique sig
-cleanup __amd64 void DebugHelper::SetPlayerBlueprint(DebugHelper *this, string *blueprint); // 004a96d0
+ __thiscall void DebugHelper::SetPlayerBlueprint(DebugHelper *this, string *blueprint); // 004a96d0
 ".5783c1308d7c240883e4f0ff77fc5589e55783ec148b07890424e8????????8b7dfc83ec04c98d67f85fc2040090669057":  // unique sig
-cleanup __amd64 void DebugHelper::SetEnemyBlueprint(DebugHelper *this, string *blueprint); // 004a9700
+ __thiscall void DebugHelper::SetEnemyBlueprint(DebugHelper *this, string *blueprint); // 004a9700
 ".5783c148":  // unique sig
-cleanup __amd64 void DebugHelper::SetLastEvent(DebugHelper *this, string *event); // 004a9730
+ __thiscall void DebugHelper::SetLastEvent(DebugHelper *this, string *event); // 004a9730
 ".803d????????0074??c38db6000000008d4c240483e4f0ff71fc5589e55183ec14c605????????01c70424????????ff15????????8b4dfc83ec04c98d61fcc38d":  // unique sig
-static cleanup __amd64 void DebugHelper::DebugInit(); // 004a97a0
+static cleanup __cdecl void DebugHelper::DebugInit(); // 004a97a0
 ".578d7c240883e4f0ff77fc5589e55756538d8518":  // unique sig
-cleanup __amd64 void DebugHelper::ParseFile(DebugHelper *this); // 004a9890
+ __thiscall void DebugHelper::ParseFile(DebugHelper *this); // 004a9890
 ".578d7c240883e4f0ff77fc5589e557565383ec4c8b078b7f04":  // unique sig
-cleanup __amd64 string *DebugHelper::LookupAdress(DebugHelper *this, ulong address); // 004aa780
+ __thiscall string *DebugHelper::LookupAdress(DebugHelper *this, ulong address); // 004aa780
 ".8d4c240483e4f0ff71fc5589e55756535181ec980d":  // unique sig
-static cleanup __amd64 LONG DebugHelper::CrashCatcher(EXCEPTION_POINTERS *e); // 004aa9e0
+static cleanup __cdecl LONG DebugHelper::CrashCatcher(EXCEPTION_POINTERS *e); // 004aa9e0

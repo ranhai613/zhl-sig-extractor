@@ -1,12 +1,12 @@
 "5789c883c008":  // unique sig
-cleanup __amd64 string *ShipBlueprint::Print(ShipBlueprint *this); // 005dfd30
+ __thiscall string *ShipBlueprint::Print(ShipBlueprint *this); // 005dfd30
 ".578d7c240883e4f0ff77fc5589e557565389cb83c1048d43":  // unique sig
-cleanup __amd64 void ShipBlueprint::constructor(ShipBlueprint *this, ShipBlueprint *param_2); // 0072a970
+ __thiscall void ShipBlueprint::constructor(ShipBlueprint *this, ShipBlueprint *param_2); // 0072a970
 ".578d7c240883e4f0ff77fc5589e5575389cb8d490483ec10c741fc????????c70424????????e8????????8d4b1c83ec04e8????????8d8b":  // unique sig
-cleanup __amd64 void ShipBlueprint::constructor(ShipBlueprint *this); // 0072b160
+ __thiscall void ShipBlueprint::constructor(ShipBlueprint *this); // 0072b160
 ".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c3909057":  // unique sig
-cleanup __amd64 void ShipBlueprint::destructor(ShipBlueprint *this); // 0072b440
+ __thiscall void ShipBlueprint::destructor(ShipBlueprint *this); // 0072b440
 ".578d91f802":  // unique sig
-cleanup __amd64 void ShipBlueprint::destructor(ShipBlueprint *this); // 0072b460
+ __thiscall void ShipBlueprint::destructor(ShipBlueprint *this); // 0072b460
 ".578d7c240883e4f0ff77fc5589e557565389cb83c10483ec3c8b378d":  // unique sig
-cleanup __amd64 ShipBlueprint *ShipBlueprint::operator=(ShipBlueprint *this, ShipBlueprint *param_2); // 0072b7e0
+ __thiscall ShipBlueprint *ShipBlueprint::operator=(ShipBlueprint *this, ShipBlueprint *param_2); // 0072b7e0

@@ -1,36 +1,36 @@
 "5589e58b45088b550c5d894114":  // unique sig
-cleanup __amd64 void FocusWindow::SetPosition(FocusWindow *this, Point p); // 00556310
+ __thiscall void FocusWindow::SetPosition(FocusWindow *this, Point p); // 00556310
 ".c6410400c3":  // unique sig
-cleanup __amd64 void FocusWindow::Close(FocusWindow *this); // 00556330
+ __thiscall void FocusWindow::Close(FocusWindow *this); // 00556330
 ".f3c38db426000000008dbc2700000000c6":  // unique sig
-cleanup __amd64 void FocusWindow::OnRender(FocusWindow *this); // 00556340
+ __thiscall void FocusWindow::OnRender(FocusWindow *this); // 00556340
 ".c6410401c3908d76008dbc2700000000578d7c240883e4f0ff77fc5589e55753":  // unique sig
-cleanup __amd64 void FocusWindow::Open(FocusWindow *this); // 00556350
+ __thiscall void FocusWindow::Open(FocusWindow *this); // 00556350
 ".578d7c240883e4f0ff77fc5589e5575383ec108b4108":  // unique sig
-cleanup __amd64 void FocusWindow::MouseMove(FocusWindow *this, int mX, int mY); // 00556360
+ __thiscall void FocusWindow::MouseMove(FocusWindow *this, int mX, int mY); // 00556360
 ".5589e5538b550883e4f083":  // unique sig
-cleanup __amd64 void FocusWindow::OnTouch(FocusWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005563e0
+ __thiscall void FocusWindow::OnTouch(FocusWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005563e0
 ".558b0189e583e4f080":  // unique sig
-cleanup __amd64 void FocusWindow::SetOpen(FocusWindow *this, bool open); // 00556470
+ __thiscall void FocusWindow::SetOpen(FocusWindow *this, bool open); // 00556470
 ".8079100075??c2":  // unique sig
-cleanup __amd64 void FocusWindow::MouseClick(FocusWindow *this, int mX, int mY); // 005564c0
+ __thiscall void FocusWindow::MouseClick(FocusWindow *this, int mX, int mY); // 005564c0
 ".578d7c240883e4f0ff77fc5589e5575389cb8d490883ec10c741f8????????c6":  // unique sig
-cleanup __amd64 void FocusWindow::constructor(FocusWindow *this); // 00556500
+ __thiscall void FocusWindow::constructor(FocusWindow *this); // 00556500
 ".31c0c39090909090909090909090909031c0c390909090909090909090909090c2":  // unique sig
-cleanup __amd64 bool FocusWindow::LockWindow(FocusWindow *this); // 00723cf0
+ __thiscall bool FocusWindow::LockWindow(FocusWindow *this); // 00723cf0
 ".31c0c390909090909090909090909090c208":  // unique sig
-cleanup __amd64 bool FocusWindow::PriorityPopup(FocusWindow *this); // 00723d00
+ __thiscall bool FocusWindow::PriorityPopup(FocusWindow *this); // 00723d00
 ".c208009090909090909090909090909031c0c204009090909090909090909090f3c3909090909090909090909090909031":  // unique sig
-cleanup __amd64 void FocusWindow::MouseRightClick(FocusWindow *this, int mX, int mY); // 00723d10
+ __thiscall void FocusWindow::MouseRightClick(FocusWindow *this, int mX, int mY); // 00723d10
 ".31c0c204009090909090909090909090f3c3909090909090909090909090909031":  // unique sig
-cleanup __amd64 bool FocusWindow::KeyUp(FocusWindow *this, SDLKey sym); // 00723d20
+ __thiscall bool FocusWindow::KeyUp(FocusWindow *this, SDLKey sym); // 00723d20
 ".f3c3909090909090909090909090909031c0c2":  // unique sig
-cleanup __amd64 void FocusWindow::OnLoop(FocusWindow *this); // 00723d30
+ __thiscall void FocusWindow::OnLoop(FocusWindow *this); // 00723d30
 ".31c0c204009090909090909090909090c2":  // unique sig
-cleanup __amd64 bool FocusWindow::KeyDown(FocusWindow *this, SDLKey sym); // 00723d40
+ __thiscall bool FocusWindow::KeyDown(FocusWindow *this, SDLKey sym); // 00723d40
 ".c20800909090909090909090909090905589":  // unique sig
-cleanup __amd64 void FocusWindow::MouseUp(FocusWindow *this, int mX, int mY); // 00723d50
+ __thiscall void FocusWindow::MouseUp(FocusWindow *this, int mX, int mY); // 00723d50
 ".5589e583e4f083ec10890c24e8????????c9c390909090909090909090909090f3c39090909090909090909090909090d9":  // unique sig
-cleanup __amd64 void FocusWindow::destructor(FocusWindow *this); // 00723d60
+ __thiscall void FocusWindow::destructor(FocusWindow *this); // 00723d60
 ".f3c39090909090909090909090909090d9":  // unique sig
-cleanup __amd64 void FocusWindow::destructor(FocusWindow *this); // 00723d80
+ __thiscall void FocusWindow::destructor(FocusWindow *this); // 00723d80
