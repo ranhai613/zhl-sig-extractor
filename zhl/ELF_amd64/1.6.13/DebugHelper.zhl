@@ -1,12 +1,10 @@
-"415541544989f45589fd":  // unique sig
+"!415541544989f45589fd":  // unique sig
 static cleanup __amd64 void DebugHelper::crit_err_hdlr(int sig_num, siginfo_t *info, void *ucontext); // 00422140
 ".4883c730e9????????90660f1f44000048":  // unique sig
 cleanup __amd64 void DebugHelper::SetPlayerBlueprint(DebugHelper *this, string *blueprint); // 00422330
 "!4883c738e9":  // unique sig
 cleanup __amd64 void DebugHelper::SetEnemyBlueprint(DebugHelper *this, string *blueprint); // 00422340
-"!38e9????????90660f1f440000":  // unique sig
-noHook __amd64 void DebugHelper::__DO_NOT_HOOK(); // 0042234f
-"!.48":  // non-unique sig
+"!.4883c740e9":  // unique sig
 cleanup __amd64 void DebugHelper::SetLastEvent(DebugHelper *this, string *event); // 00422350
-".4881eca8000000488d":  // unique sig
+".4881eca8000000488d7c2408":  // unique sig
 static cleanup __amd64 void DebugHelper::DebugInit(); // 00422360

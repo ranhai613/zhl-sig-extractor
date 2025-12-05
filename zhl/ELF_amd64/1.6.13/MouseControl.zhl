@@ -8,9 +8,9 @@ cleanup __amd64 void MouseControl::InstantTooltip(MouseControl *this); // 0053c0
 cleanup __amd64 void MouseControl::SetHideMouse(MouseControl *this, bool hide); // 0053c020
 ".c7471000000000c7471400000000c7471800000000c787":  // unique sig
 cleanup __amd64 void MouseControl::ResetArmed(MouseControl *this); // 0053c030
-".55be????????31":  // unique sig
+".55be????????31ed534883":  // unique sig
 cleanup __amd64 int MouseControl::GetTooltipFont(MouseControl *this); // 0053c060
-".41550f57":  // unique sig
+".41550f57c9":  // unique sig
 cleanup __amd64 Point MouseControl::MeasureTooltip(MouseControl *this, int width); // 0053c100
 ".4889b74001":  // unique sig
 cleanup __amd64 void MouseControl::QueueStaticTooltip(MouseControl *this, Point tooltipPoint); // 0053c2c0

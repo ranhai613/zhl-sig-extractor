@@ -1,6 +1,6 @@
 "41544989d4554889f5be":  // unique sig
 cleanup __amd64 RandomAmount EventsParser::PullMinMax(EventsParser *this, xml_node<char> *node, string *origin); // 005fead0
-".53be????????4889fbe8????????85c075??b8":  // unique sig
+".53be????????4889fbe8????????85c075??b8010000005bc30f1f8000000000be????????4889dfe8????????85c074??be????????4889dfe8????????85c074??31":  // unique sig
 static cleanup __amd64 bool EventsParser::ParseBoolean(string *input); // 005fecf0
 ".41544989f455534889fb488d":  // unique sig
 static cleanup __amd64 TextString EventsParser::ParseTextNode(xml_node<char> *node); // 005fed40
@@ -8,7 +8,7 @@ static cleanup __amd64 TextString EventsParser::ParseTextNode(xml_node<char> *no
 cleanup __amd64 void EventsParser::OnCleanup(EventsParser *this); // 005fee50
 ".41574d89c741564989f6":  // unique sig
 cleanup __amd64 ResourcesTemplate *EventsParser::ProcessModifyItem(EventsParser *this, ResourcesTemplate *ret_template, xml_node<char> *node, string *origin); // 005fef80
-".41554154554889fd534883ec2848c7":  // unique sig
+".41554154554889fd534883ec2848c70700":  // unique sig
 cleanup __amd64 std::vector<std::string> *EventsParser::ProcessImageList(EventsParser *this, xml_node<char> *node); // 005ff3d0
 ".41554154554889fd534883ec6848c7":  // unique sig
 cleanup __amd64 std::vector<std::pair<std::string, RandomAmount>> *EventsParser::ProcessEventCounts(EventsParser *this, xml_node<char> *node); // 005ff570
@@ -32,9 +32,9 @@ cleanup __amd64 std::vector<std::string> *EventsParser::ProcessEventList(EventsP
 cleanup __amd64 void EventsParser::ProcessChoice(EventsParser *this, EventTemplate *event, xml_node<char> *node, string *eventName); // 00603eb0
 ".415741564989fe41554989d54154554889f54c":  // unique sig
 cleanup __amd64 void EventsParser::ProcessBaseNode(EventsParser *this, xml_node<char> *node, EventGenerator *generator); // 00604450
-".41574989d7415641554154":  // unique sig
+".41574989d74156415541545553":  // unique sig
 cleanup __amd64 void EventsParser::AddEvents(EventsParser *this, EventGenerator *generator, char *buffer, string *filename); // 00605260
-".415531d2":  // unique sig
+".415531d2be":  // unique sig
 cleanup __amd64 void EventsParser::AddAllEvents(EventsParser *this); // 006057c0
 ".415741564989fe415541bd":  // unique sig
 cleanup __amd64 void EventsParser::destructor(EventsParser *this, int __in_chrg); // 00606220

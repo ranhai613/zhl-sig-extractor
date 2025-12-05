@@ -16,15 +16,13 @@ static cleanup __amd64 void Settings::SetHotkey(string *val, SDLKey key); // 005
 static cleanup __amd64 void Settings::SaveSettings(); // 005c74e0
 ".0fb605????????c30f1f8400000000000fb635":  // unique sig
 static cleanup __amd64 bool Settings::GetCommandConsole(); // 005c82f0
-"!0fb635????????bf????????31c083":  // unique sig
+"!.0fb635????????bf????????31c083":  // unique sig
 static cleanup __amd64 void Settings::ToggleVSync(); // 005c8300
-"!b6f6e9????????9066666666662e0f1f840000000000":  // unique sig
-noHook __amd64 void Settings::__DO_NOT_HOOK(); // 005c832f
-".31":  // non-unique sig
+".31c0833d????????01":  // unique sig
 static cleanup __amd64 void Settings::ToggleDifficulty(); // 005c8330
 ".8b05????????8d500131":  // unique sig
 static cleanup __amd64 void Settings::ToggleFullScreen(); // 005c8350
-".415641be":  // unique sig
+".415641be????????4155415441bc":  // unique sig
 static cleanup __amd64 void Settings::ResetHotkeys(); // 005c8370
 ".415741564155415455534881ec58":  // unique sig
 static cleanup __amd64 void Settings::LoadSettings(); // 005cc430

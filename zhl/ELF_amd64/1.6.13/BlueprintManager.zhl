@@ -1,12 +1,12 @@
 "488d4710c7":  // unique sig
 cleanup __amd64 void BlueprintManager::constructor(BlueprintManager *this); // 005e1790
-".803d????????00534889fb75??e8":  // unique sig
+".803d????????00534889fb75??e8????????99":  // unique sig
 cleanup __amd64 int BlueprintManager::ChooseRarityValue(BlueprintManager *this); // 005e19d0
 ".f3c366666666662e0f1f84000000000031c0c3906666662e0f1f84000000000041":  // unique sig
 static cleanup __amd64 void BlueprintManager::DumpTextData(); // 005e1a80
-"31c0c3906666662e0f1f8400000000004157":  // unique sig
+".31c0c3906666662e0f1f8400000000004157":  // unique sig
 cleanup __amd64 bool BlueprintManager::LockedInDemo(BlueprintManager *this, string *name); // 005e1a90
-"415741564c8db6":  // unique sig
+".415741564c8db6":  // unique sig
 cleanup __amd64 string BlueprintManager::GetCrewName(BlueprintManager *this, bool *isMale_ret); // 005e1aa0
 ".534889fb4883ec2085f6":  // unique sig
 static cleanup __amd64 string BlueprintManager::GetChanceString(int rating); // 005e1ca0
@@ -14,7 +14,7 @@ static cleanup __amd64 string BlueprintManager::GetChanceString(int rating); // 
 static cleanup __amd64 GL_Texture *BlueprintManager::GetSkillIcon(int skill, bool outline); // 005e2ad0
 "!.4881c718020000e9":  // unique sig
 cleanup __amd64 void BlueprintManager::SetUsedCrewNames(BlueprintManager *this, std::vector<std::string> *names); // 005e3910
-".4157be????????4156415541545548":  // unique sig
+".4157be????????415641554154554889fd4c":  // unique sig
 cleanup __amd64 Description *BlueprintManager::ProcessDescription(BlueprintManager *this, xml_node<char> *node); // 005e3920
 ".41574989d74156415541545548":  // unique sig
 cleanup __amd64 ItemBlueprint *BlueprintManager::ProcessItemBlueprint(BlueprintManager *this, xml_node<char> *node); // 005e3fa0
@@ -30,7 +30,7 @@ cleanup __amd64 std::vector<std::string> *BlueprintManager::ProcessSoundList(Blu
 cleanup __amd64 EffectsBlueprint *BlueprintManager::ProcessEffectsBlueprint(BlueprintManager *this, xml_node<char> *node); // 005e4cc0
 ".41574156415541544989f4554889d5":  // unique sig
 cleanup __amd64 WeaponBlueprint *BlueprintManager::ProcessWeaponBlueprint(BlueprintManager *this, xml_node<char> *node); // 005e4f40
-".4154554889fd534883ec2048c7":  // unique sig
+".4154554889fd534883ec2048c7070000000048c747080000000048c7471000000000488b5e":  // unique sig
 static cleanup __amd64 std::vector<std::string> *BlueprintManager::ProcessStringList(xml_node<char> *node); // 005e5e70
 ".4156415541544989f4554889fd534889":  // unique sig
 cleanup __amd64 SystemBlueprint *BlueprintManager::ProcessSystemBlueprint(BlueprintManager *this, xml_node<char> *node); // 005e5f40
@@ -46,13 +46,13 @@ cleanup __amd64 string BlueprintManager::GetPresetShort(BlueprintManager *this, 
 cleanup __amd64 WeaponBlueprint *BlueprintManager::GetWeaponBlueprint(BlueprintManager *this, string *name); // 005e7000
 ".415641554989f541544989fc5589":  // unique sig
 cleanup __amd64 ShipBlueprint *BlueprintManager::GetShipBlueprint(BlueprintManager *this, string *name, int sector); // 005e7170
-".41554154554889f5be????????534889fb4c8da3e80100004883ec28488d54240f488d7c2410e8????????4889ee4c89e7e8????????488d93f00100004839c274??803d????????000f85????????e8????????4189c54889ee4c89e7e8????????4889c631d24963c5488b4e08482b0e4c89e74889ee48c1f90348f7f14989d5e8????????488b00488d7c24104a8d34e8e8????????488b4424104c8d63":  // unique sig
+".41554154554889f5be????????534889fb4c8da3e80100004883ec28488d54240f488d7c2410e8????????4889ee4c89e7e8????????488d93f00100004839c274??803d????????000f85????????e8????????4189c54889ee4c89e7e8????????4889c631d24963c5488b4e08482b0e4c89e74889ee48c1f90348f7f14989d5e8????????488b00488d7c24104a8d34e8e8????????488b4424104c8d6368":  // unique sig
 cleanup __amd64 DroneBlueprint *BlueprintManager::GetDroneBlueprint(BlueprintManager *this, string *name); // 005e74d0
-".4157488d8f":  // unique sig
+".4157488d8f90":  // unique sig
 cleanup __amd64 ItemBlueprint *BlueprintManager::GetItemBlueprint(BlueprintManager *this, string *name); // 005e7640
-".4156415541544989fc55534883ec40":  // unique sig
+".4156415541544989fc55534883ec40803d????????00488bbfa0":  // unique sig
 cleanup __amd64 ItemBlueprint *BlueprintManager::GetRandomItem(BlueprintManager *this); // 005e7800
-".41554154554889f5be????????534889fb4c":  // unique sig
+".41554154554889f5be????????534889fb4c8da3e80100004883ec28488d54240f488d7c2410e8????????4889ee4c89e7e8????????488d93f00100004839c274??803d????????000f85????????e8????????4189c54889ee4c89e7e8????????4889c631d24963c5488b4e08482b0e4c89e74889ee48c1f90348f7f14989d5e8????????488b00488d7c24104a8d34e8e8????????488b4424104c8da3":  // unique sig
 cleanup __amd64 AugmentBlueprint *BlueprintManager::GetAugmentBlueprint(BlueprintManager *this, string *name); // 005e78e0
 ".4157488d8798":  // unique sig
 cleanup __amd64 float BlueprintManager::GetAugmentValue(BlueprintManager *this, string *name); // 005e7a70
@@ -60,13 +60,13 @@ cleanup __amd64 float BlueprintManager::GetAugmentValue(BlueprintManager *this, 
 cleanup __amd64 void BlueprintManager::SetRarity(BlueprintManager *this, string *name, int rarity); // 005e7b90
 ".4157488d87c8":  // unique sig
 cleanup __amd64 void BlueprintManager::SetRarity(BlueprintManager *this, string *name, int rarity); // 005e7c90
-".415741564989fe4155415455534883ec28":  // unique sig
+".415741564989fe4155415455534883ec2889":  // unique sig
 cleanup __amd64 void BlueprintManager::SetRarity(BlueprintManager *this, string *name, int rarity); // 005e7ec0
-".4156415541544989fc4d":  // unique sig
+".4156415541544989fc4d8db424d0":  // unique sig
 cleanup __amd64 void BlueprintManager::ResetRarities(BlueprintManager *this); // 005e80f0
 ".415741564989d641554989f541545553":  // unique sig
 cleanup __amd64 ShipBlueprint *BlueprintManager::ProcessShipBlueprint(BlueprintManager *this, xml_node<char> *node); // 005e83e0
-".4157488d46":  // unique sig
+".4157488d4610":  // unique sig
 cleanup __amd64 std::map<std::string, ShipBlueprint*> *BlueprintManager::GetShipBlueprints(BlueprintManager *this); // 005e9610
 ".488d4638":  // unique sig
 cleanup __amd64 std::vector<WeaponBlueprint*> *BlueprintManager::GetRandomWeapon(BlueprintManager *this, int count, bool demo_lock); // 005e9830
@@ -92,5 +92,5 @@ cleanup __amd64 std::vector<WeaponBlueprint*> *BlueprintManager::RandomItems<Wea
 cleanup __amd64 std::vector<CrewBlueprint*> *BlueprintManager::RandomItems<CrewBlueprint>(BlueprintManager *this, std::map<std::string, CrewBlueprint> *blueprints, int count, bool demo_lock); // 005f38e0
 ".4157be????????4156415541544589c4554889fd534889d3488d5b084881ec08":  // unique sig
 cleanup __amd64 std::vector<AugmentBlueprint*> *BlueprintManager::RandomItems<AugmentBlueprint>(BlueprintManager *this, std::map<std::string, AugmentBlueprint> *blueprints, int count, bool demo_lock); // 005f3e00
-".4157be????????41564155415445":  // unique sig
+".4157be????????4156415541544589c4554889fd534889d3488d5b084881ec38":  // unique sig
 cleanup __amd64 std::vector<DroneBlueprint*> *BlueprintManager::RandomItems<DroneBlueprint>(BlueprintManager *this, std::map<std::string, DroneBlueprint> *blueprints, int count, bool demo_lock); // 005f4350

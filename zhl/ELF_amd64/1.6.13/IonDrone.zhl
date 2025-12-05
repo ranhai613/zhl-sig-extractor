@@ -1,6 +1,6 @@
 "f3c366666666662e0f1f8400000000008b8720":  // unique sig
 cleanup __amd64 void IonDrone::UpdateRepair(IonDrone *this); // 00434cc0
-"8b872009":  // unique sig
+".8b872009":  // unique sig
 cleanup __amd64 int IonDrone::BlockRoom(IonDrone *this); // 00434cd0
 ".554889f5534889fb4883ec08c7":  // unique sig
 cleanup __amd64 Damage *IonDrone::GetRoomDamage(IonDrone *this); // 00434ce0
@@ -12,9 +12,9 @@ cleanup __amd64 void IonDrone::SetDeployed(IonDrone *this, bool deploy); // 0043
 cleanup __amd64 void IonDrone::constructor(IonDrone *this, int iShipId, DroneBlueprint *blueprint); // 0043a1a0
 ".31c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b8ff":  // unique sig
 cleanup __amd64 bool IonDrone::ReadyToFight(IonDrone *this); // 0043bdc0
-"b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b8ff":  // unique sig
+".b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b8ff":  // unique sig
 cleanup __amd64 bool IonDrone::CanSabotage(IonDrone *this); // 0043bdd0
-"31c0c3662e0f1f8400000000000f1f00b8ffffffffc3662e0f1f84000000000048c7":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00b8ffffffffc3662e0f1f84000000000048c7":  // unique sig
 cleanup __amd64 bool IonDrone::CanFight(IonDrone *this); // 0043bde0
 "!.20e8????????4889d85bc36690":  // unique sig
 noHook __amd64 void IonDrone::__DO_NOT_HOOK(); // 0043bfbf

@@ -2,37 +2,35 @@
 cleanup __amd64 void Shields::SetHackingLevel(Shields *this, int val); // 006453b0
 ".4883ec08e8????????83f8010f":  // unique sig
 cleanup __amd64 bool Shields::Powered(Shields *this); // 00645400
-".4154554889fd53e8":  // unique sig
+".4154554889fd53e8????????89":  // unique sig
 cleanup __amd64 bool Shields::ForceIncreasePower(Shields *this, int amount); // 00645420
-".534889fbe8????????4889dfe8":  // unique sig
+".534889fbe8????????4889dfe8????????a8":  // unique sig
 cleanup __amd64 void Shields::AddDamage(Shields *this, int amount); // 00645490
-".4157415641554989fd415441":  // unique sig
+".4157415641554989fd41544189f455534883ec08":  // unique sig
 cleanup __amd64 bool Shields::ForceDecreasePower(Shields *this, int amount); // 006454d0
 ".534889fb0f1f":  // unique sig
 cleanup __amd64 void Shields::ShipDestroyed(Shields *this); // 00645590
-".534889fbe8????????488dbb":  // unique sig
+".534889fbe8????????488dbba0":  // unique sig
 cleanup __amd64 void Shields::Restart(Shields *this); // 006455b0
-".534889fb4883ec30e8????????f3":  // unique sig
+".534889fb4883ec30e8????????f30f10":  // unique sig
 cleanup __amd64 void Shields::Jump(Shields *this); // 00645650
 ".41544989fc55534883ec1048c7":  // unique sig
 cleanup __amd64 void Shields::destructor(Shields *this, int __in_chrg); // 00645720
-".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004883ef10eb??662e0f1f84000000000041":  // unique sig
+".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004883ef10eb??662e0f1f8400000000004156":  // unique sig
 cleanup __amd64 void Shields::destructor(Shields *this, int __in_chrg); // 00645860
 "41564155415455534889fb4c":  // unique sig
 cleanup __amd64 void Shields::OnLoop(Shields *this); // 00645890
 ".4154554c89c541":  // unique sig
 cleanup __amd64 void Shields::constructor(Shields *this, int roomId, int shipId, int starting_power, string img); // 00646210
-".534889fb4883ec104883bf":  // unique sig
+".534889fb4883ec104883bff0":  // unique sig
 cleanup __amd64 void Shields::LoadImages(Shields *this); // 006466f0
-".c68728":  // unique sig
+".c6872803000001":  // unique sig
 cleanup __amd64 void Shields::ActivateBarrierMode(Shields *this); // 006467b0
-".f30f1005????????f30f5987":  // unique sig
+".f30f1005????????f30f59872c":  // unique sig
 cleanup __amd64 float Shields::GetDropTimer(Shields *this); // 006467d0
 "!.554889fd5389f34883ec088bb770":  // unique sig
 cleanup __amd64 void Shields::Save(Shields *this, int fd); // 006467f0
-"!c80200004883c40889df5b5de9????????":  // unique sig
-noHook __amd64 void Shields::__DO_NOT_HOOK(); // 006468cf
-".41":  // non-unique sig
+".4154554889fd89f74c8da5a0":  // unique sig
 cleanup __amd64 void Shields::Load(Shields *this, int fd); // 006468d0
 ".c7877802000000000000c7":  // unique sig
 cleanup __amd64 void Shields::DrainSuperShield(Shields *this); // 006469d0
@@ -40,19 +38,19 @@ cleanup __amd64 void Shields::DrainSuperShield(Shields *this); // 006469d0
 cleanup __amd64 void Shields::AddSuperShield(Shields *this, Point location); // 006469f0
 ".c7877c0200000c":  // unique sig
 cleanup __amd64 void Shields::PowerSuperShields(Shields *this); // 00646a50
-".660fd6":  // unique sig
+".660fd64424f8488b4424f84889b7":  // unique sig
 cleanup __amd64 void Shields::SetBaseEllipse(Shields *this, Ellipse ellipse); // 00646a70
-".55534889fb488dab":  // unique sig
+".55534889fb488dabd0":  // unique sig
 cleanup __amd64 void Shields::InstantCharge(Shields *this); // 00646ac0
-".554889f5534889fb4883ec28f3":  // unique sig
+".554889f5534889fb4883ec28f30f104e":  // unique sig
 cleanup __amd64 void Shields::RenderShield(Shields *this, ShieldAnimation *animation); // 00646b90
-".f3c366666666662e0f1f840000000000f30f":  // unique sig
+".f3c366666666662e0f1f840000000000f30f109f":  // unique sig
 cleanup __amd64 void Shields::RenderCover(Shields *this, int level); // 00646c70
-"f30f109f58":  // unique sig
+".f30f109f58":  // unique sig
 cleanup __amd64 bool Shields::SingleCollisionCheck(Shields *this, float x, float y); // 00646c80
-".f30f1097":  // unique sig
+".f30f109758":  // unique sig
 cleanup __amd64 bool Shields::InnerCollisionCheck(Shields *this, float x, float y); // 00646ce0
-".0f57db48":  // unique sig
+".0f57db4883":  // unique sig
 cleanup __amd64 float Shields::GetAngleFromX(Shields *this, float x, float y); // 00646d40
 ".5531c94889fd5331db4883ec08488b9710":  // unique sig
 cleanup __amd64 void Shields::OnRenderDamageMessages(Shields *this); // 00646e00
@@ -60,11 +58,11 @@ cleanup __amd64 void Shields::OnRenderDamageMessages(Shields *this); // 00646e00
 cleanup __amd64 void Shields::RenderBase(Shields *this, float alpha, float superShieldOverwrite); // 00646e60
 ".415741564155415455534889fb4883ec18f3":  // unique sig
 cleanup __amd64 void Shields::OnRenderBaseShield(Shields *this, float alpha); // 006475a0
-".4155415455534889fb4883ec3880bf":  // unique sig
+".4155415455534889fb4883ec3880bf84":  // unique sig
 cleanup __amd64 void Shields::OnRenderShields(Shields *this); // 00647900
 ".4155415455534889fb4883ec488b":  // unique sig
 cleanup __amd64 int Shields::PulsarDamage(Shields *this); // 00647a70
-".554889f5534889fb488d7f044883ec18":  // unique sig
+".554889f5534889fb488d7f044883ec18c747fc00000000f3":  // unique sig
 cleanup __amd64 CollisionResponse *Shields::CollisionTest(Shields *this, float x, float y, Damage damage); // 00647c30
 ".41574189d741564189":  // unique sig
 static cleanup __amd64 CollisionResponse *Shields::Collision(CollisionResponse *__return_storage_ptr__, Shields *this, float x, float y, Damage damage, bool real, bool force); // 00647d40

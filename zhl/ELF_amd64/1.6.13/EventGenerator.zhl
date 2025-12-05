@@ -6,7 +6,7 @@ cleanup __amd64 void EventGenerator::ClearSectorData(EventGenerator *this); // 0
 cleanup __amd64 void EventGenerator::Cleanup(EventGenerator *this); // 005f5a40
 ".554889f5be????????534889fb4881ecd8":  // unique sig
 cleanup __amd64 std::vector<SectorDescription> *EventGenerator::GetSectorDescriptions(EventGenerator *this); // 005f5b70
-".41544989fc5549":  // unique sig
+".41544989fc55498dac2410":  // unique sig
 cleanup __amd64 void EventGenerator::InitStatistics(EventGenerator *this); // 005f5d30
 ".41554989d541544c8da608":  // unique sig
 cleanup __amd64 TextString EventGenerator::GetTextFromList(EventGenerator *this, string *listName); // 005f6120
@@ -14,21 +14,21 @@ cleanup __amd64 TextString EventGenerator::GetTextFromList(EventGenerator *this,
 cleanup __amd64 string EventGenerator::GetImageFromList(EventGenerator *this, string *imageList); // 005f61f0
 ".4156415541544989d455488d":  // unique sig
 cleanup __amd64 ShipEvent *EventGenerator::GetShipEvent(EventGenerator *this, string *event); // 005f62b0
-".41574189cf41564989f6":  // unique sig
+".41574189cf41564989f641":  // unique sig
 cleanup __amd64 SectorDescription *EventGenerator::GetSectorDescription(EventGenerator *this, string *type, int sector); // 005f6af0
-".4157415641554c8d6e":  // unique sig
+".4157415641554c8d6e18":  // unique sig
 cleanup __amd64 SectorDescription *EventGenerator::GetSpecificSector(EventGenerator *this, string *name); // 005f6f70
-".4157415641554c8daf":  // unique sig
+".4157415641554c8daf08":  // unique sig
 cleanup __amd64 void EventGenerator::Clear(EventGenerator *this); // 005f73e0
 ".415741564155415455488d6f78":  // unique sig
 cleanup __amd64 LocationEvent *EventGenerator::CreateEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 005f7550
 ".55534889fb4883ec28eb":  // unique sig
 cleanup __amd64 LocationEvent *EventGenerator::GenerateEvent(EventGenerator *this); // 005f96e0
-".41564189ce41554189d5415449":  // unique sig
+".41564189ce41554189d541544989fc":  // unique sig
 cleanup __amd64 LocationEvent *EventGenerator::GetEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 005f9770
 ".5589cd534889fb4883ec18":  // unique sig
 cleanup __amd64 LocationEvent *EventGenerator::GetBaseEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique, int seed); // 005f9830
-".4155be0a":  // unique sig
+".4155be0a00000041545548bdffffffffffffff1f534889fb488d7f38":  // unique sig
 cleanup __amd64 void EventGenerator::constructor(EventGenerator *this); // 005fa040
 ".415541544989fc55534883ec18488b9f50":  // unique sig
 cleanup __amd64 void EventGenerator::destructor(EventGenerator *this, int __in_chrg); // 005fc150

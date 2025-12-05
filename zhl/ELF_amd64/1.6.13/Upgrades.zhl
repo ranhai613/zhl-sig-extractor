@@ -1,6 +1,6 @@
 "31c0c3906666662e0f1f840000000000415549":  // unique sig
 cleanup __amd64 bool Upgrades::KeyDown(Upgrades *this, SDLKey sym); // 00588e20
-"41554989fd41544189d45589":  // unique sig
+".41554989fd41544189d45589":  // unique sig
 cleanup __amd64 void Upgrades::MouseMove(Upgrades *this, int mX, int mY); // 00588e30
 ".415431c94989fc5531ed534883":  // unique sig
 cleanup __amd64 void Upgrades::MouseRightClick(Upgrades *this, int mX, int mY); // 00589460
@@ -10,17 +10,17 @@ cleanup __amd64 void Upgrades::Close(Upgrades *this); // 005897c0
 cleanup __amd64 void Upgrades::OnLoop(Upgrades *this); // 00589a80
 ".415531c941bd":  // unique sig
 cleanup __amd64 void Upgrades::ConfirmUpgrades(Upgrades *this); // 0058a080
-".415531d249":  // unique sig
+".415531d24989fd41545589f55331db4883ec08488b4f28488b47304829c848c1f8034885c075??eb??0f1f8000000000498b45":  // unique sig
 cleanup __amd64 int Upgrades::GetTempUpgrade(Upgrades *this, int sysId); // 0058a300
-".41554189d541544189f45548":  // unique sig
+".41554189d541544189f4554889fd5331":  // unique sig
 cleanup __amd64 void Upgrades::MouseClick(Upgrades *this, int mX, int mY); // 0058af40
-".415741564589ce":  // unique sig
+".415741564589ce41554589c541545531":  // unique sig
 cleanup __amd64 void Upgrades::OnTouch(Upgrades *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0058d5c0
 ".41544989fc55534883ec10488b4f30488b57284889":  // unique sig
 cleanup __amd64 void Upgrades::ClearUpgradeBoxes(Upgrades *this); // 0058da00
 ".41544989fc55534883ec10488b4f30488b572848c707????????4889c84829d048c1f80385c07e??b8????????31ed4885c00f84????????0f1f8400000000004863c5488b1cc24885db74??488bbb60010000e8????????488dbbc8000000e8????????488d7b38e8????????488b4330488d78e84881ff????????75":  // unique sig
 cleanup __amd64 void Upgrades::destructor(Upgrades *this, int __in_chrg); // 0058db40
-".41544989fc55534883ec10488b4f":  // unique sig
+".41544989fc55534883ec10488b4f30488b572848c707????????4889c84829d048c1f80385c07e??b8????????31ed4885c00f84????????0f1f8400000000004863c5488b1cc24885db74??488bbb60010000e8????????488dbbc8000000e8????????488d7b38e8????????488b4330488d78e84881ff????????0f":  // unique sig
 cleanup __amd64 void Upgrades::destructor(Upgrades *this, int __in_chrg); // 0058dce0
 ".41574989ff41564155415455534881ecb8":  // unique sig
 cleanup __amd64 void Upgrades::OnInit(Upgrades *this, ShipManager *ship); // 0058de90
@@ -28,5 +28,5 @@ cleanup __amd64 void Upgrades::OnInit(Upgrades *this, ShipManager *ship); // 005
 cleanup __amd64 void Upgrades::SetPosition(Upgrades *this, Point p); // 0058ed10
 "!.534889fbe8????????488b73":  // unique sig
 cleanup __amd64 void Upgrades::Open(Upgrades *this); // 0058ed60
-".415455534889fb4883ec5048":  // unique sig
+".415455534889fb4883ec50488b7f":  // unique sig
 cleanup __amd64 void Upgrades::OnRender(Upgrades *this); // 0058ed80

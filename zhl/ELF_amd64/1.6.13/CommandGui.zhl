@@ -1,6 +1,6 @@
 "4088b79032":  // unique sig
 cleanup __amd64 void CommandGui::SetPaused(CommandGui *this, bool val, bool isAutoPause); // 004f84b0
-".4088b739":  // unique sig
+".4088b7391c":  // unique sig
 cleanup __amd64 void CommandGui::SetBossDead(CommandGui *this, bool val); // 004f84d0
 ".53488b87701900004889fb488b7810488b07":  // unique sig
 cleanup __amd64 void CommandGui::SpaceBar(CommandGui *this); // 004f84e0
@@ -24,11 +24,11 @@ cleanup __amd64 void CommandGui::ForceJumpComplete(CommandGui *this); // 004f884
 cleanup __amd64 bool CommandGui::IsJumpComplete(CommandGui *this); // 004f88a0
 ".488b874040":  // unique sig
 cleanup __amd64 Location *CommandGui::GetNewLocation(CommandGui *this); // 004f8930
-".534889fbbf????????e8????????84":  // unique sig
+".534889fbbf????????e8????????84c0ba":  // unique sig
 cleanup __amd64 int CommandGui::GetCommand(CommandGui *this); // 004f8950
 ".4157415641554989fd415455534883ec7848":  // unique sig
 cleanup __amd64 void CommandGui::Victory(CommandGui *this); // 004f89d0
-".80bf10":  // unique sig
+".80bf1036":  // unique sig
 cleanup __amd64 void CommandGui::ConfirmUpgrades(CommandGui *this); // 004f8d30
 ".415455534889fb4883ec5080bf92":  // unique sig
 cleanup __amd64 void CommandGui::CheckGameover(CommandGui *this); // 004f8d50
@@ -38,25 +38,25 @@ cleanup __amd64 bool CommandGui::IsGameOver(CommandGui *this); // 004f9080
 cleanup __amd64 void CommandGui::KeyUp(CommandGui *this, SDLKey sym); // 004f9100
 ".80bf884600000075??80bfa83200000075??80bfe03800000075??f3c30f1f004881c7d8380000e9????????0f1f40004881c7a0320000e9????????0f1f400080":  // unique sig
 cleanup __amd64 void CommandGui::OnTextInput(CommandGui *this, int ch); // 004f9190
-"80bf884600000075??80bfa83200000075??80bfe03800000075??f3c30f1f004881c7d8380000e9????????0f1f40004881c7a0320000e9????????0f1f400040":  // unique sig
+".80bf884600000075??80bfa83200000075??80bfe03800000075??f3c30f1f004881c7d8380000e9????????0f1f40004881c7a0320000e9????????0f1f400040":  // unique sig
 cleanup __amd64 void CommandGui::OnTextEvent(CommandGui *this, TextEvent event); // 004f91d0
-"4084f674??c6":  // unique sig
+".4084f674??c6":  // unique sig
 cleanup __amd64 void CommandGui::SetSecretSector(CommandGui *this, bool secret); // 004f9210
 ".4883ec08bf????????e8????????4883c40883f001c3662e0f1f84000000000053":  // unique sig
 cleanup __amd64 bool CommandGui::CanSave(CommandGui *this); // 004f9220
-"53488b87701900004889fb488b7810488b17ff928000000084c075??80":  // unique sig
+".53488b87701900004889fb488b7810488b17ff928000000084c075??80":  // unique sig
 cleanup __amd64 bool CommandGui::CanAutoSave(CommandGui *this); // 004f9240
-".415455534889fb4883ec30803d":  // unique sig
+".415455534889fb4883ec30803d????????000f84":  // unique sig
 cleanup __amd64 Pointf CommandGui::UpdateShake(CommandGui *this); // 004f92b0
 ".554889f5534889fbbf????????48":  // unique sig
 cleanup __amd64 void CommandGui::LinkMap(CommandGui *this, StarMap *map); // 004f9700
 ".415455488daf90":  // unique sig
 cleanup __amd64 void CommandGui::OnInit(CommandGui *this); // 004f9770
-".554889fd534883ec08488bb760":  // unique sig
+"!.554889fd534883ec08488bb760":  // unique sig
 cleanup __amd64 void CommandGui::OnCleanup(CommandGui *this); // 004f9b00
 ".4154554889f5534889fb488dbf":  // unique sig
 cleanup __amd64 void CommandGui::AddEnemyShip(CommandGui *this, CompleteShip *ship); // 004f9ba0
-".53488b8770":  // unique sig
+".53488b87701900004889fb488d":  // unique sig
 cleanup __amd64 void CommandGui::ClearLocation(CommandGui *this); // 004f9d40
 ".415731d24156415541545548":  // unique sig
 cleanup __amd64 void CommandGui::LinkShip(CommandGui *this, CompleteShip *ship); // 004f9de0
@@ -74,7 +74,7 @@ cleanup __amd64 void CommandGui::LButtonUp(CommandGui *this, int mX, int mY, boo
 cleanup __amd64 void CommandGui::RButtonDown(CommandGui *this, int mX, int mY, bool shift); // 004fad70
 ".f3c366666666662e0f1f84000000000041544c8da6":  // unique sig
 cleanup __amd64 void CommandGui::RButtonUp(CommandGui *this, int mX, int mY, bool shift); // 004fae80
-"41544c8da610":  // unique sig
+".41544c8da610":  // unique sig
 cleanup __amd64 std::pair<std::string, int> CommandGui::LoadEvent(CommandGui *this); // 004fae90
 ".c6879848000000":  // unique sig
 cleanup __amd64 void CommandGui::ClearWriteError(CommandGui *this); // 004faee0
@@ -84,7 +84,7 @@ cleanup __amd64 void CommandGui::ShowWriteError(CommandGui *this); // 004faef0
 cleanup __amd64 void CommandGui::NewLocation(CommandGui *this, string *mainText, std::vector<ChoiceText> *choices, ResourceEvent *resources, bool testing_events); // 004fb390
 ".41554189d531d241544c":  // unique sig
 cleanup __amd64 void CommandGui::SetStore(CommandGui *this, Store *store, bool bOpen); // 004fbe20
-".4157415641554989fd41544989f455":  // unique sig
+".4157415641554989fd41544989f45531":  // unique sig
 cleanup __amd64 void CommandGui::RunCommand(CommandGui *this, string *command); // 004fbeb0
 ".53488db7a0":  // unique sig
 cleanup __amd64 void CommandGui::CheckCommandPrompt(CommandGui *this); // 004fcde0
@@ -92,7 +92,7 @@ cleanup __amd64 void CommandGui::CheckCommandPrompt(CommandGui *this); // 004fcd
 cleanup __amd64 Store *CommandGui::CreateNewStore(CommandGui *this, int sectorLevel); // 004fce70
 "!.4155415455488daf68":  // unique sig
 cleanup __amd64 void CommandGui::Restart(CommandGui *this); // 004fcf80
-".e9????????90662e0f1f840000000000415541":  // unique sig
+".e9????????90662e0f1f840000000000415541545589":  // unique sig
 cleanup __amd64 void CommandGui::Close(CommandGui *this); // 004fd100
 "415541545589f5534889fb4883ec38":  // unique sig
 cleanup __amd64 void CommandGui::KeyDown(CommandGui *this, SDLKey sym, bool bShift); // 004fd110
@@ -106,7 +106,7 @@ cleanup __amd64 void CommandGui::MouseMove(CommandGui *this, int mX, int mY); //
 cleanup __amd64 void CommandGui::OnLoop(CommandGui *this); // 004fe960
 ".41574589cf415641554589c541544189cc5589f5":  // unique sig
 cleanup __amd64 void CommandGui::OnTouch(CommandGui *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004ff1c0
-".41574156415541544989fc488d":  // unique sig
+".41574156415541544989fc488dbf88":  // unique sig
 cleanup __amd64 void CommandGui::OnLanguageChange(CommandGui *this); // 004ffb90
 ".41574156415541545548c7":  // unique sig
 cleanup __amd64 void CommandGui::constructor(CommandGui *this); // 00500150

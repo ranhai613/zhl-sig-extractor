@@ -6,5 +6,8 @@ cleanup __amd64 void CrewLaser::constructor(CrewLaser *this, Point pos, Pointf d
 cleanup __amd64 void CrewLaser::SetColor(CrewLaser *this, int r, int g, int b); // 0044b040
 ".415455534889fb4883ec2066":  // unique sig
 cleanup __amd64 void CrewLaser::OnRender(CrewLaser *this, GL_Color color); // 0044b060
-// Failed to generate signature for function: CrewLaser::~CrewLaser at 0044d650
+"!.0f1f8000000000":  // non-unique sig
+noHook __amd64 void CrewLaser::__DO_NOT_HOOK(); // 0044d64f
+".41":  // non-unique sig
+cleanup __amd64 void CrewLaser::destructor(CrewLaser *this, int __in_chrg); // 0044d650
 // Failed to generate signature for function: CrewLaser::~CrewLaser at 0044e0a0

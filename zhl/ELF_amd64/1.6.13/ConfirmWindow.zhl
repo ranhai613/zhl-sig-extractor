@@ -1,8 +1,6 @@
 "!534889fb488b7f70":  // unique sig
 cleanup __amd64 void ConfirmWindow::Close(ConfirmWindow *this); // 00501930
-"!00004889df5be9????????6690":  // unique sig
-noHook __amd64 void ConfirmWindow::__DO_NOT_HOOK(); // 0050194f
-".80":  // non-unique sig
+".807f080074??80":  // unique sig
 cleanup __amd64 void ConfirmWindow::MouseClick(ConfirmWindow *this, int mX, int mY); // 00501950
 ".534889fb4883ec10e8????????488d7b20":  // unique sig
 cleanup __amd64 void ConfirmWindow::constructor(ConfirmWindow *this); // 005019c0

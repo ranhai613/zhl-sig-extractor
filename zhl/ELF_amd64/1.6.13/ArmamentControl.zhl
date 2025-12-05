@@ -1,12 +1,10 @@
 "!488b07488b77":  // unique sig
 cleanup __amd64 void ArmamentControl::Restart(ArmamentControl *this); // 004de5a0
-".415431c94989fc5531ed53488b":  // unique sig
+".415431c94989fc5531ed53488b57":  // unique sig
 cleanup __amd64 bool ArmamentControl::LButton(ArmamentControl *this, int mX, int mY, bool shift); // 004de5b0
 "!.8b7708488b7f18e9":  // unique sig
 cleanup __amd64 void ArmamentControl::RenderTouchTooltips(ArmamentControl *this, bool renderTray); // 004de630
-"!7f18e9????????0f1f4000":  // unique sig
-noHook __amd64 void ArmamentControl::__DO_NOT_HOOK(); // 004de63f
-".55":  // non-unique sig
+".5531c94889fd5331db4883ec08488b5720":  // unique sig
 cleanup __amd64 void ArmamentControl::RButton(ArmamentControl *this, int mX, int mY, bool shift); // 004de640
 ".415431c94989fc5589":  // unique sig
 cleanup __amd64 bool ArmamentControl::KeyDown(ArmamentControl *this, SDLKey sym); // 004de6b0
@@ -16,19 +14,19 @@ cleanup __amd64 bool ArmamentControl::OnTouch(ArmamentControl *this, TouchAction
 cleanup __amd64 void ArmamentControl::RenderDragging(ArmamentControl *this); // 004dec10
 ".4155415455534889fb4883ec088b":  // unique sig
 cleanup __amd64 void ArmamentControl::RenderLabels(ArmamentControl *this); // 004df120
-".55534889fb4883ec0883":  // unique sig
+".55534889fb4883ec0883bfb0":  // unique sig
 cleanup __amd64 bool ArmamentControl::LButtonUp(ArmamentControl *this, int mX, int mY, bool shift); // 004df220
 ".415741564155415455534889fb4883ec2883":  // unique sig
 cleanup __amd64 void ArmamentControl::MouseMove(ArmamentControl *this, int mX, int mY); // 004df2e0
 ".415541545589f5534889fb4883ec588b":  // unique sig
 cleanup __amd64 void ArmamentControl::OnRender(ArmamentControl *this, bool front); // 004df560
-".41574156415541544989fc55534883ec5848":  // unique sig
+".41574156415541544989fc55534883ec58488b":  // unique sig
 cleanup __amd64 void ArmamentControl::destructor(ArmamentControl *this, int __in_chrg); // 004df8b0
 ".534889fbe8????????4889df5be9????????66666666662e0f1f840000000000415741bf":  // unique sig
 cleanup __amd64 void ArmamentControl::destructor(ArmamentControl *this, int __in_chrg); // 004dfc50
 "415741bf":  // unique sig
 cleanup __amd64 void ArmamentControl::OnLoop(ArmamentControl *this); // 004dfc70
-".53baffffffff4889fb8977":  // unique sig
+".53baffffffff4889fb897708":  // unique sig
 cleanup __amd64 void ArmamentControl::constructor(ArmamentControl *this, int systemId); // 004e0c20
 ".5383bfb0":  // unique sig
 cleanup __amd64 bool ArmamentControl::Dragging(ArmamentControl *this); // 004e0d40
@@ -54,29 +52,27 @@ cleanup __amd64 bool ArmamentControl::IsAnyTouchTooltipActive(ArmamentControl *t
 cleanup __amd64 void ArmamentControl::LinkShip(ArmamentControl *this, ShipManager *ship); // 004e1610
 ".f3c3662e0f1f8400000000000f1f40000fb687b8":  // unique sig
 cleanup __amd64 void ArmamentControl::RenderWarnings(ArmamentControl *this); // 004e1940
-"0fb687b800":  // unique sig
+".0fb687b800":  // unique sig
 cleanup __amd64 bool ArmamentControl::IsDragging(ArmamentControl *this); // 004e1950
 ".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400040":  // unique sig
 cleanup __amd64 void ArmamentControl::OnCleanup(ArmamentControl *this); // 004e1960
-"f3c3662e0f1f8400000000000f1f40004088b7":  // unique sig
+".f3c3662e0f1f8400000000000f1f40004088b7":  // unique sig
 cleanup __amd64 void ArmamentControl::Close(ArmamentControl *this); // 004e1970
-"!4088b79c000000c3":  // unique sig
+".4088b79c000000c3":  // unique sig
 cleanup __amd64 void ArmamentControl::SetOpen(ArmamentControl *this, bool open); // 004e1980
-"!9c000000c30f1f840000000000":  // unique sig
-noHook __amd64 void ArmamentControl::__DO_NOT_HOOK(); // 004e198f
-".31":  // non-unique sig
+".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053":  // unique sig
 cleanup __amd64 int ArmamentControl::NumArmamentSlots(ArmamentControl *this); // 004e1990
-".31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053":  // unique sig
 cleanup __amd64 SDLKey ArmamentControl::ArmamentHotkey(ArmamentControl *this, uint i); // 004e19a0
-"f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053be":  // unique sig
+".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053be":  // unique sig
 cleanup __amd64 void ArmamentControl::SelectArmament(ArmamentControl *this, uint i); // 004e19b0
-"f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053be":  // unique sig
+".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f400053be":  // unique sig
 cleanup __amd64 void ArmamentControl::DeselectArmament(ArmamentControl *this, uint i); // 004e19c0
-"f3c3662e0f1f8400000000000f1f400053be":  // unique sig
+".f3c3662e0f1f8400000000000f1f400053be":  // unique sig
 cleanup __amd64 void ArmamentControl::SwapArmaments(ArmamentControl *this, uint a, uint b); // 004e19d0
-"53be????????4889fb4883ec10488d54240fe8????????c64308014883c4104889d85bc3662e0f1f840000000000669048":  // unique sig
+".53be????????4889fb4883ec10488d54240fe8????????c64308014883c4104889d85bc3662e0f1f840000000000669048":  // unique sig
 cleanup __amd64 TextString ArmamentControl::HolderLabel(ArmamentControl *this); // 004e19e0
-"4883ec18ba10":  // unique sig
+".4883ec18ba10":  // unique sig
 cleanup __amd64 Point ArmamentControl::ArmamentBoxOrigin(ArmamentControl *this); // 004e1a10
 ".5531d24889f531":  // unique sig
 cleanup __amd64 ArmamentBox *ArmamentControl::CreateArmamentBox(ArmamentControl *this, Point loc); // 004e1a30

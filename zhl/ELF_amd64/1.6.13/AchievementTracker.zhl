@@ -20,11 +20,11 @@ cleanup __amd64 bool AchievementTracker::CheckCrystalUnlock(AchievementTracker *
 cleanup __amd64 bool AchievementTracker::OnlineAchievementsInitialized(AchievementTracker *this); // 00425770
 "31c0c3906666662e0f1f840000000000415531c9":  // unique sig
 cleanup __amd64 bool AchievementTracker::IsReadyToSync(AchievementTracker *this); // 00425780
-"415531c945":  // unique sig
+".415531c945":  // unique sig
 cleanup __amd64 void AchievementTracker::SyncAchievements(AchievementTracker *this); // 00425790
 "!.488b3ee9":  // unique sig
 cleanup __amd64 void AchievementTracker::ClearOnlineAchievement(AchievementTracker *this, string *achievement); // 00425870
-".53b8????????bb":  // unique sig
+".53b8????????bb????????4883ec20":  // unique sig
 cleanup __amd64 void AchievementTracker::ClearOnlineAchievements(AchievementTracker *this); // 00425880
 ".415455534889fb4883ec20488b07":  // unique sig
 cleanup __amd64 void AchievementTracker::OnLoop(AchievementTracker *this); // 00425980
@@ -54,7 +54,7 @@ cleanup __amd64 void AchievementTracker::SetVictoryAchievement(AchievementTracke
 cleanup __amd64 void AchievementTracker::SetFlag(AchievementTracker *this, string *flag); // 00427520
 ".4157488d47484989f7415641554154554889fd4889c7534883ec384889442408488d455048897424104889c348890424e8????????4889c231c04839d30f84????????4c8b6d584d85ed0f84????????4d8b3f4d8b77e8eb??0f1f80000000004489c085c078??4c89eb4d8b6d104d85ed74??498b7d204c89fe4c8b67e84d39e64c89e2490f46d6e8????????85c075??4d89e04d29f04981f8ffffff7f7f??4981f8000000807d??4d8b6d184d85ed75??48391c2474??488b73204c89ff488b4ee84939ce4889ca48894c2418490f46d6e8????????85c00f85????????488b4c24184d89f14929c94981f9ffffff7f0f8f????????4981f9000000800f8d????????bf300000004989de41bf20000000e8????????4885c04889c374??4c8d7b20488b742410c7030000000048c743080000000048c743100000000048c74318000000004c89ffe8????????c7432800000000488b7c24084c89fa4c89f6e8????????4885d274":  // unique sig
 cleanup __amd64 int AchievementTracker::GetFlagValue(AchievementTracker *this, string *flag); // 00427750
-".4157488d4748":  // unique sig
+".4157488d47484989f7415641554154554889fd4889c7534883ec384889442408488d455048897424104889c348890424e8????????4889c231c04839d30f84????????4c8b6d584d85ed0f84????????4d8b3f4d8b77e8eb??0f1f80000000004489c085c078??4c89eb4d8b6d104d85ed74??498b7d204c89fe4c8b67e84d39e64c89e2490f46d6e8????????85c075??4d89e04d29f04981f8ffffff7f7f??4981f8000000807d??4d8b6d184d85ed75??48391c2474??488b73204c89ff488b4ee84939ce4889ca48894c2418490f46d6e8????????85c00f85????????488b4c24184d89f14929c94981f9ffffff7f0f8f????????4981f9000000800f8d????????bf300000004989de41bf20000000e8????????4885c04889c374??4c8d7b20488b742410c7030000000048c743080000000048c743100000000048c74318000000004c89ffe8????????c7432800000000488b7c24084c89fa4c89f6e8????????4885d20f":  // unique sig
 cleanup __amd64 bool AchievementTracker::GetFlag(AchievementTracker *this, string *flag); // 00427960
 ".415741564155415455534889fb4883ec584889":  // unique sig
 cleanup __amd64 void AchievementTracker::LoadGame(AchievementTracker *this, int fd); // 00427b80

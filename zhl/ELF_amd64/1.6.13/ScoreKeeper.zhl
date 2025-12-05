@@ -6,7 +6,7 @@ cleanup __amd64 void ScoreKeeper::constructor(ScoreKeeper *this); // 00455dc0
 cleanup __amd64 std::pair<int, int> ScoreKeeper::GetShipId(ScoreKeeper *this, string *blueprintName); // 00456620
 ".4863d253":  // unique sig
 cleanup __amd64 string ScoreKeeper::GetShipBlueprint(ScoreKeeper *this, int id); // 004568b0
-".41544989fc5589f58b":  // unique sig
+"!.41544989fc5589f58b":  // unique sig
 cleanup __amd64 void ScoreKeeper::SaveGame(ScoreKeeper *this, int fd); // 004568d0
 ".41544989fc89f75589f55348":  // unique sig
 cleanup __amd64 void ScoreKeeper::LoadGame(ScoreKeeper *this, int fd); // 00456950
@@ -18,11 +18,9 @@ cleanup __amd64 bool ScoreKeeper::GetShipUnlocked(ScoreKeeper *this, int shipId,
 cleanup __amd64 void ScoreKeeper::LoadVersionOne(ScoreKeeper *this, int fd); // 00456f40
 "!.4881c778":  // unique sig
 cleanup __amd64 void ScoreKeeper::SetShipName(ScoreKeeper *this, string *name); // 00456f90
-"!.4881c780010000e9":  // unique sig
+"!.4881c780010000e9????????0f":  // unique sig
 cleanup __amd64 void ScoreKeeper::SetShipBlueprint(ScoreKeeper *this, string *blueprint); // 00456fa0
-"!80010000e9????????0f1f4000":  // unique sig
-noHook __amd64 void ScoreKeeper::__DO_NOT_HOOK(); // 00456faf
-".c7":  // non-unique sig
+".c7471800000000c74738":  // unique sig
 cleanup __amd64 void ScoreKeeper::SetSector(ScoreKeeper *this, int sector); // 00456fb0
 ".4084f64088b798":  // unique sig
 cleanup __amd64 void ScoreKeeper::SetVictory(ScoreKeeper *this, bool victory); // 00456fe0
@@ -34,7 +32,7 @@ cleanup __amd64 void ScoreKeeper::AddDefeatedShips(ScoreKeeper *this); // 004570
 cleanup __amd64 void ScoreKeeper::AddExploredLocations(ScoreKeeper *this); // 004570f0
 ".5589f5534889fbbf????????4883ec28":  // unique sig
 cleanup __amd64 void ScoreKeeper::AddScrapCollected(ScoreKeeper *this, int amount); // 00457110
-".534889fbbf????????e8????????84c075??83":  // unique sig
+".534889fbbf????????e8????????84c075??834368":  // unique sig
 cleanup __amd64 void ScoreKeeper::AddCrew(ScoreKeeper *this); // 004571c0
 ".53c747":  // unique sig
 cleanup __amd64 void ScoreKeeper::Reset(ScoreKeeper *this); // 004571e0
@@ -62,7 +60,7 @@ cleanup __amd64 void ScoreKeeper::WipeProfile(ScoreKeeper *this, bool permanent)
 cleanup __amd64 void ScoreKeeper::UnlockShip(ScoreKeeper *this, int shipId, int layout, bool save, bool hidePopup); // 00459170
 ".83feff74??83faff74??83":  // unique sig
 cleanup __amd64 void ScoreKeeper::UnlockShip(ScoreKeeper *this, int shipId, int layout, bool save, bool hidePopup); // 00459530
-".534889fbbf????????e8????????84c075":  // unique sig
+".534889fbbf????????e8????????84c075??5b":  // unique sig
 cleanup __amd64 void ScoreKeeper::CheckCrystalUnlock(ScoreKeeper *this); // 00459570
 ".41574156415541544989fc5531":  // unique sig
 cleanup __amd64 void ScoreKeeper::LoadVersionThree(ScoreKeeper *this, int fd); // 004595c0
@@ -80,13 +78,9 @@ cleanup __amd64 void ScoreKeeper::CheckTypes(ScoreKeeper *this); // 0045bed0
 cleanup __amd64 void ScoreKeeper::SetupTopShip(ScoreKeeper *this, int layout); // 0045c0c0
 "!.55bd09":  // unique sig
 cleanup __amd64 void ScoreKeeper::CycleLeft(ScoreKeeper *this); // 0045c300
-"!0b00004883c4084889df5b5de9????????662e0f1f840000000000":  // unique sig
-noHook __amd64 void ScoreKeeper::__DO_NOT_HOOK(); // 0045c35f
-"!.55":  // non-unique sig
+"!.5531ed534889fb4883ec088b":  // unique sig
 cleanup __amd64 void ScoreKeeper::CycleRight(ScoreKeeper *this); // 0045c360
-"!4889df5b5de9????????90":  // unique sig
-noHook __amd64 void ScoreKeeper::__DO_NOT_HOOK(); // 0045c3af
-".55":  // non-unique sig
+".55534889fb4883ec0880bf28":  // unique sig
 cleanup __amd64 void ScoreKeeper::MouseClick(ScoreKeeper *this, int mX, int mY); // 0045c3b0
 ".5589f5534889fb4883ec180f":  // unique sig
 cleanup __amd64 bool ScoreKeeper::KeyDown(ScoreKeeper *this, SDLKey sym); // 0045c640

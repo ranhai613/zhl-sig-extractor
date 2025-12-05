@@ -1,42 +1,40 @@
 "534889fbe8????????c783":  // unique sig
 cleanup __amd64 void TeleportSystem::Jump(TeleportSystem *this); // 00651420
-".5589f5534889fb4883ec0883":  // unique sig
+".5589f5534889fb4883ec0883fe017e??83bf20020000017e??89ab200200004883c4085b5dc3662e0f1f840000000000c7":  // unique sig
 cleanup __amd64 void TeleportSystem::SetHackingLevel(TeleportSystem *this, int val); // 00651440
-".415741564155415455534889fb4883ec3880":  // unique sig
+".415741564155415455534889fb4883ec38803d":  // unique sig
 cleanup __amd64 void TeleportSystem::OnRenderFloor(TeleportSystem *this); // 00651900
 ".5589d5534889fb4883ec08e8":  // unique sig
 cleanup __amd64 void TeleportSystem::constructor(TeleportSystem *this, int type, int roomId, int shipId, int starting_power); // 00651c40
-".f30f1087":  // unique sig
+".f30f108744020000f3":  // unique sig
 cleanup __amd64 float TeleportSystem::GetChargedPercent(TeleportSystem *this); // 00651d20
-".534889fbe8????????84c074":  // unique sig
+".534889fbe8????????84c074??31c05bc30f1f8000000000488b034889df5b488b4058ffe090662e0f1f84000000000041":  // unique sig
 cleanup __amd64 bool TeleportSystem::Charged(TeleportSystem *this); // 00651d40
 ".41564155415455534c63":  // unique sig
 cleanup __amd64 void TeleportSystem::ClearCrewLocations(TeleportSystem *this); // 00651d70
 ".488b97500200004863":  // unique sig
 cleanup __amd64 void TeleportSystem::UpdateCrewLocation(TeleportSystem *this, int slotId); // 00651e50
-"!.8b874c020000c3":  // unique sig
+".8b874c020000c3":  // unique sig
 cleanup __amd64 int TeleportSystem::GetArmed(TeleportSystem *this); // 00651e90
-"!4c020000c3900f1f840000000000":  // unique sig
-noHook __amd64 void TeleportSystem::__DO_NOT_HOOK(); // 00651e9f
-".53":  // non-unique sig
+".534889fb4883ec3083fe01":  // unique sig
 cleanup __amd64 void TeleportSystem::SetArmed(TeleportSystem *this, int val); // 00651ea0
-"!.c78744":  // unique sig
+"!.c787440200000000c84231f6e9":  // unique sig
 cleanup __amd64 void TeleportSystem::ForceReady(TeleportSystem *this); // 00652050
-".534889fb4883ec308b":  // unique sig
+".534889fb4883ec308b4f":  // unique sig
 cleanup __amd64 bool TeleportSystem::CanSend(TeleportSystem *this); // 00652070
 ".5589f5534889fb4883ec0880bf49":  // unique sig
 cleanup __amd64 bool TeleportSystem::CanReceive(TeleportSystem *this, bool countHacked); // 00652150
-".534889fb4883ec30e8????????488b03":  // unique sig
+".534889fb4883ec30e8????????488b034889dfff5058":  // unique sig
 cleanup __amd64 void TeleportSystem::OnLoop(TeleportSystem *this); // 006521d0
 ".4088b748":  // unique sig
 cleanup __amd64 void TeleportSystem::SetCanSend(TeleportSystem *this, bool val); // 00652310
 ".4088b749":  // unique sig
 cleanup __amd64 void TeleportSystem::SetCanReceive(TeleportSystem *this, bool val); // 00652320
-".534889fb4883ec20e8":  // unique sig
+".534889fb4883ec20e8????????83":  // unique sig
 cleanup __amd64 void TeleportSystem::InitiateTeleport(TeleportSystem *this); // 00652330
-".f30f1187":  // unique sig
+".f30f118744020000c30f":  // unique sig
 cleanup __amd64 void TeleportSystem::SetCharge(TeleportSystem *this, float val); // 006523e0
 "!.534889fb48c707????????48c74710????????488bbf500200004885ff74??e8????????4889df5b":  // unique sig
 cleanup __amd64 void TeleportSystem::destructor(TeleportSystem *this, int __in_chrg); // 006523f0
-".534889fb48c707":  // unique sig
+".534889fb48c707????????48c74710????????488bbf500200004885ff74??e8????????4889dfe8":  // unique sig
 cleanup __amd64 void TeleportSystem::destructor(TeleportSystem *this, int __in_chrg); // 00652430

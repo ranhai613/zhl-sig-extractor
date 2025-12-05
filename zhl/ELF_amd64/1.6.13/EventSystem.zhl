@@ -1,6 +1,6 @@
 "534889fb48c7070000000048c747080000000048c7471000000000bf":  // unique sig
 cleanup __amd64 void EventSystem::constructor(EventSystem *this); // 005b02d0
-".85f678??488b0f":  // unique sig
+".85f678??488b0f488b57":  // unique sig
 cleanup __amd64 int EventSystem::PollEvent(EventSystem *this, int eventId); // 005b0490
 ".85f678??488b5718488b":  // unique sig
 cleanup __amd64 void EventSystem::AddEvent(EventSystem *this, int eventId); // 005b04c0

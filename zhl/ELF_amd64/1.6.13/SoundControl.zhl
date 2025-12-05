@@ -2,15 +2,13 @@
 cleanup __amd64 void SoundControl::SetMusicVolume(SoundControl *this, float val); // 005cdd30
 ".f30f2a4714":  // unique sig
 cleanup __amd64 float SoundControl::GetMusicVolume(SoundControl *this); // 005cddb0
-"!.f30f2a4718f30f5e05????????c3":  // unique sig
+".f30f2a4718f30f5e05????????c3":  // unique sig
 cleanup __amd64 float SoundControl::GetSoundVolume(SoundControl *this); // 005cddc0
-"!18f30f5e05????????c36690":  // unique sig
-noHook __amd64 void SoundControl::__DO_NOT_HOOK(); // 005cddcf
-".41":  // non-unique sig
+".415541544989fc55534883ec38803f000f":  // unique sig
 cleanup __amd64 void SoundControl::StopPlaylist(SoundControl *this, int fadeout); // 005cddd0
 ".f3c366666666662e0f1f84000000000041564155415449":  // unique sig
 cleanup __amd64 void SoundControl::OnCleanup(SoundControl *this); // 005cdf40
-"4156415541544989fc55534883ec10803f000f":  // unique sig
+".4156415541544989fc55534883ec10803f000f":  // unique sig
 cleanup __amd64 void SoundControl::StopChannel(SoundControl *this, ChannelType channel, float fade); // 005cdf50
 ".4157488d8770":  // unique sig
 cleanup __amd64 void SoundControl::SetSoundVolume(SoundControl *this, float val); // 005ce090
@@ -18,11 +16,11 @@ cleanup __amd64 void SoundControl::SetSoundVolume(SoundControl *this, float val)
 cleanup __amd64 void SoundControl::SetSoundVolume(SoundControl *this, float val); // 005ce210
 ".534889fb4883ec10803f":  // unique sig
 cleanup __amd64 bool SoundControl::OnInit(SoundControl *this); // 005ce240
-".4156415541544989fc55534883ec10":  // unique sig
+".4156415541544989fc55534883ec10803f00f3":  // unique sig
 cleanup __amd64 void SoundControl::SetChannelVolume(SoundControl *this, ChannelType channel, float volume); // 005ce420
 ".4157415641554154554889fd534883ec38803f00488934":  // unique sig
 cleanup __amd64 void SoundControl::AddMusicStream(SoundControl *this, string *name, SampleType sample); // 005ce570
-".4157415641554989fd415455534883ec48":  // unique sig
+".4157415641554989fd415455534883ec4880":  // unique sig
 cleanup __amd64 void SoundControl::AddSoundFile(SoundControl *this, string *name, SampleType sample); // 005ce7c0
 ".4157415641554989fd415455534883ec280f":  // unique sig
 cleanup __amd64 bool SoundControl::DynamicTrack(SoundControl *this, string *track); // 005ceaa0
@@ -30,15 +28,15 @@ cleanup __amd64 bool SoundControl::DynamicTrack(SoundControl *this, string *trac
 cleanup __amd64 void SoundControl::AddMusicTrack(SoundControl *this, string *name, string *track1, string *track2); // 005cecd0
 ".415741564155415455534889fb4883ec38803f0074??807f100075":  // unique sig
 cleanup __amd64 void SoundControl::StopCombat(SoundControl *this); // 005cf480
-".415741564155415455534889fb4883ec38803f":  // unique sig
+".415741564155415455534889fb4883ec38803f0074??807f100074":  // unique sig
 cleanup __amd64 void SoundControl::StartCombat(SoundControl *this); // 005cf720
 ".415741564155415455534889fb4883ec4880":  // unique sig
 cleanup __amd64 void SoundControl::SwitchTracks(SoundControl *this); // 005cf9c0
-".41574156415541544989fc55534883ec58":  // unique sig
+".41574156415541544989fc55534883ec58803f0048":  // unique sig
 cleanup __amd64 void SoundControl::StartPlaylist(SoundControl *this, std::vector<std::string> *newPlayList); // 005d0390
 ".41574889f841564155415455534883ec5880":  // unique sig
 cleanup __amd64 void SoundControl::PauseLoops(SoundControl *this, bool gamePaused); // 005d0630
-".415741564155415455534889fb4883ec68":  // unique sig
+".415741564155415455534889fb4883ec68803f0089":  // unique sig
 cleanup __amd64 void SoundControl::OnLoop(SoundControl *this, bool gamePaused); // 005d0e90
 ".41574889f841564155415455534883ec78":  // unique sig
 cleanup __amd64 void SoundControl::Restart(SoundControl *this); // 005d1300
@@ -46,7 +44,7 @@ cleanup __amd64 void SoundControl::Restart(SoundControl *this); // 005d1300
 cleanup __amd64 void SoundControl::ParseSoundFile(SoundControl *this, char *buffer, string *filename); // 005d1e00
 ".415731c041564155415449":  // unique sig
 cleanup __amd64 ChannelType SoundControl::PlaySoundMix(SoundControl *this, string *name, float volume, bool loop); // 005d4030
-".4157415641554154554889fd534883ec3880":  // unique sig
+".4157415641554154554889fd534883ec38803f00488974":  // unique sig
 cleanup __amd64 void SoundControl::UpdateSoundLoop(SoundControl *this, string *loopId, float count); // 005d4870
-".4154554889fd488dbf":  // unique sig
+".4154554889fd488dbf70":  // unique sig
 cleanup __amd64 void SoundControl::destructor(SoundControl *this, int __in_chrg); // 005d6100

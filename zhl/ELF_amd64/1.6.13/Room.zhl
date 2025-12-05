@@ -1,30 +1,26 @@
 "41574156415541544989fc55534883ec5848c7":  // unique sig
 cleanup __amd64 void Room::destructor(Room *this, int __in_chrg); // 0049bce0
-".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004883ef10eb??662e0f1f8400000000004157":  // unique sig
+".534889fbe8????????4889df5be9????????66666666662e0f1f8400000000004883ef10eb??662e0f1f840000000000415749":  // unique sig
 cleanup __amd64 void Room::destructor(Room *this, int __in_chrg); // 0049c950
 "41574989ff41564589ce415541":  // unique sig
 cleanup __amd64 void Room::constructor(Room *this, int iShipId, int x, int y, int w, int h, int roomId); // 0049c980
 "!.4881c7c802":  // unique sig
 cleanup __amd64 void Room::TapRoom(Room *this); // 0049f300
-"!020000be01000000e9????????9066666666662e0f1f840000000000":  // unique sig
-noHook __amd64 void Room::__DO_NOT_HOOK(); // 0049f31f
-".40":  // non-unique sig
+".4088b790020000c3":  // unique sig
 cleanup __amd64 void Room::SetStunning(Room *this, bool val); // 0049f320
 ".f30f11879402":  // unique sig
 cleanup __amd64 void Room::SetHacked(Room *this, float val); // 0049f330
-"!.89b790000000c3":  // unique sig
+".89b790000000c3":  // unique sig
 cleanup __amd64 void Room::SetFireCount(Room *this, int newFires); // 0049f340
-".8b8fb0":  // unique sig
+".8b8fb000000083":  // unique sig
 cleanup __amd64 bool Room::IsPrimarySlotFilled(Room *this); // 0049f350
 ".89b7b400":  // unique sig
 cleanup __amd64 void Room::SetPrimaryDirection(Room *this, int val); // 0049f390
-".8b87b400":  // unique sig
+".8b87b4000000c3":  // unique sig
 cleanup __amd64 int Room::GetPrimaryDirection(Room *this); // 0049f3a0
-"!.8b87b0000000c390":  // unique sig
+".8b87b0000000c390":  // unique sig
 cleanup __amd64 int Room::GetPrimarySlot(Room *this); // 0049f3b0
-"!b0000000c3900f1f840000000000":  // unique sig
-noHook __amd64 void Room::__DO_NOT_HOOK(); // 0049f3bf
-".c7":  // non-unique sig
+".c787b0000000ffffffffc7":  // unique sig
 cleanup __amd64 void Room::ClearPrimarySlot(Room *this); // 0049f3c0
 ".85f678??488b5750":  // unique sig
 cleanup __amd64 void Room::SetPrimarySlot(Room *this, int slot); // 0049f3e0
@@ -38,13 +34,13 @@ cleanup __amd64 bool Room::Empty(Room *this, bool intruder); // 0049f490
 cleanup __amd64 int Room::GetEmptySlot(Room *this, bool intruder); // 0049f4b0
 ".0fb6d2488b4f504863c64c8d04950000000048c1e8064c01c2488d14d189f1488b12488d14c2b80100000048d3e0488b0a4885c175":  // unique sig
 cleanup __amd64 void Room::EmptySlot(Room *this, int slot, bool intruder); // 0049f560
-".0fb6d2488b4f":  // unique sig
+".0fb6d2488b4f504863c64c8d04950000000048c1e8064c01c2488d14d189f1488b12488d14c2b80100000048d3e0488b0a4885c174":  // unique sig
 cleanup __amd64 void Room::FillSlot(Room *this, int slot, bool intruder); // 0049f5c0
 ".41574989ffbf":  // unique sig
 cleanup __amd64 void Room::Restart(Room *this); // 0049f610
 ".f30f6f46":  // unique sig
 cleanup __amd64 Rect Room::GetRect(Room *this); // 0049f950
-".41544989fc55534883ec20e8":  // unique sig
+"!.41544989fc55534883ec20e8":  // unique sig
 cleanup __amd64 void Room::OnRenderSparks(Room *this); // 0049f960
 ".415741564155415455534889fb4883ec388b87":  // unique sig
 cleanup __amd64 void Room::OnRenderFire(Room *this); // 0049fb70
@@ -66,7 +62,7 @@ cleanup __amd64 void Room::OnRenderHighlight(Room *this); // 004a0010
 cleanup __amd64 Point Room::GetIntoRoom(Room *this, Point p); // 004a00f0
 ".f3c366666666662e0f1f84000000000084":  // unique sig
 cleanup __amd64 void Room::OnCleanup(Room *this); // 004a01d0
-"84c9b800":  // unique sig
+".84c9b800":  // unique sig
 cleanup __amd64 bool Room::ContainsPoint(Room *this, int x, int y, bool bIncludeWalls); // 004a01e0
 ".4157488d87a0":  // unique sig
 cleanup __amd64 void Room::TriggerSparks(Room *this, bool firstTrigger); // 004a0240

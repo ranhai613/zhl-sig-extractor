@@ -1,18 +1,16 @@
 "488b07534889fbff501031d284c075??488b83f001000083b8":  // unique sig
 cleanup __amd64 bool WeaponBox::GetHacked(WeaponBox *this); // 0058f3d0
-".534889fb4883ec20488b07":  // unique sig
+".534889fb4883ec20488b07ff501084c074??0f2805????????0f29442410488b4424184889442408f30f7e442410f30f7e4c24084883c4205bc3660f1f440000488b034889dfff502084c00f":  // unique sig
 cleanup __amd64 GL_Color WeaponBox::StatusColor(WeaponBox *this); // 0058f400
 "!.415431c9554889fd53488b971802000031db488b872002000048c707????????4829d048c1f8034885c074??0f1f4000488b3cca83c301e8????????488b9518020000488b852002000089d94829d048c1f8034839c172??488bbd30020000e8????????4c8ba540020000488b9d380200004939dc4c89e774??660f1f440000488b034889df4883c348ff50084939dc75??488bbd380200004885ff74??e8????????488bbd180200004885ff74??e8????????5b":  // unique sig
 cleanup __amd64 void WeaponBox::destructor(WeaponBox *this, int __in_chrg); // 0058f570
-"!74??e8????????5b4889ef5d415ce9????????":  // unique sig
-noHook __amd64 void WeaponBox::__DO_NOT_HOOK(); // 0058f62f
-".55":  // non-unique sig
+".554889f5534889fb4889f74883ec38":  // unique sig
 cleanup __amd64 string WeaponBox::GenerateTooltip(WeaponBox *this); // 0058f630
-".415431c9554889fd53488b97":  // unique sig
+"!.415431c9554889fd53488b971802000031db488b872002000048c707????????4829d048c1f8034885c074??0f1f4000488b3cca83c301e8????????488b9518020000488b852002000089d94829d048c1f8034839c172??488bbd30020000e8????????4c8ba540020000488b9d380200004939dc4c89e774??660f1f440000488b034889df4883c348ff50084939dc75??488bbd380200004885ff74??e8????????488bbd180200004885ff74??e8????????48":  // unique sig
 cleanup __amd64 void WeaponBox::destructor(WeaponBox *this, int __in_chrg); // 0058f750
-".55ba03":  // unique sig
+".55ba030000004889f5be22":  // unique sig
 cleanup __amd64 void WeaponBox::constructor(WeaponBox *this, Point loc); // 0058f820
-".41574889d048":  // unique sig
+".41574889d048c1f82041564155415449":  // unique sig
 cleanup __amd64 void WeaponBox::UpdateCooldownBox(WeaponBox *this, bool forIcon, Point p); // 0058feb0
 ".415741564155415455534889fb4881ec980000004839":  // unique sig
 cleanup __amd64 void WeaponBox::SetWeapon(WeaponBox *this, ProjectileFactory *weap); // 00590410
@@ -22,17 +20,17 @@ cleanup __amd64 void WeaponBox::OnLoop(WeaponBox *this); // 00590bf0
 cleanup __amd64 void WeaponBox::RenderBox(WeaponBox *this, bool dragging, bool flashPowerBox); // 00590cd0
 ".41574156415541544989fc554889f5":  // unique sig
 cleanup __amd64 void WeaponBox::RenderIcon(WeaponBox *this, Point *p); // 00591fa0
-".4883bff001":  // unique sig
+".4883bff0010000000f94c0c30f1f400040":  // unique sig
 cleanup __amd64 bool WeaponBox::Empty(WeaponBox *this); // 00592980
-".4088b750":  // unique sig
+".4088b75002":  // unique sig
 cleanup __amd64 void WeaponBox::SetDefaultAutofire(WeaponBox *this, bool val); // 00592990
 ".488b07534889fbff501031d284c075??488b83f00100000f":  // unique sig
 cleanup __amd64 bool WeaponBox::Powered(WeaponBox *this); // 005929a0
 ".488b07534889fbff501031d284c075??488b83f00100008b90f4":  // unique sig
 cleanup __amd64 int WeaponBox::RealRequiredPower(WeaponBox *this); // 005929d0
-".488b07534889fbff5010":  // unique sig
+".488b07534889fbff501031d284c075??488b83f00100008b9000":  // unique sig
 cleanup __amd64 int WeaponBox::GetBonusPower(WeaponBox *this); // 00592a00
-".53be????????4889fb4883ec10488d54240fe8????????4883":  // unique sig
+".53be????????4889fb4883ec10488d54240fe8????????4883c4104889d85bc355":  // unique sig
 cleanup __amd64 string WeaponBox::GetType(WeaponBox *this); // 00592a30
-".554889f5534889fb4889f74883ec18":  // unique sig
+".554889f5534889fb4889f74883ec18488b06ff501084c074??488d54240f4889dfbe????????e8????????4883c4184889d85b5dc30f1f00488b85":  // unique sig
 cleanup __amd64 string WeaponBox::Name(WeaponBox *this); // 00592a50

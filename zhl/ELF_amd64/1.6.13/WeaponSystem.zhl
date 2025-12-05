@@ -2,49 +2,45 @@
 cleanup __amd64 void WeaponSystem::ForceBatteryPower(WeaponSystem *this, int val); // 00652480
 "!.5531c94889fd5331db4883ec08488bb770020000488b976802000048c707????????48c74710????????4889f04829d048c1f8034885c074??0f1f8000000000488b3cca4885ff74??488b17ff5208488b9568020000488bb5700200004889f083c3014829d089d948c1f8034839c172??488bbdc80200004885ff74??e8????????488bbd980200004885ff74??e8????????488bbd680200004885ff74??e8????????488bbd500200004885ff74??e8????????4883":  // unique sig
 cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this, int __in_chrg); // 00652490
-".534889fbe8????????488b":  // unique sig
+".534889fbe8????????488b8350":  // unique sig
 cleanup __amd64 void WeaponSystem::Restart(WeaponSystem *this); // 00652570
 ".5531c94889fd5331db4883ec08488b9750020000488b87580200004829d048c1f8034885c074??660f1f840000000000488b3cca31":  // unique sig
 cleanup __amd64 void WeaponSystem::ShipDestroyed(WeaponSystem *this); // 00652590
 ".41544189d4554889fd534889f3e8":  // unique sig
 cleanup __amd64 bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 00652600
-".4154554889fd534883ec10488b87":  // unique sig
+".4154554889fd534883ec10488b8758":  // unique sig
 cleanup __amd64 void WeaponSystem::RemoveBatteryPower(WeaponSystem *this); // 006526e0
 ".41564155415455534889fb4883ec3048":  // unique sig
 cleanup __amd64 void WeaponSystem::Jump(WeaponSystem *this); // 00652cb0
 ".415531c0415455":  // unique sig
 cleanup __amd64 void WeaponSystem::AddDamage(WeaponSystem *this, int amount); // 00652df0
-".41554154554889fd534883ec08e8":  // unique sig
+"!.41554154554889fd534883ec08e8":  // unique sig
 cleanup __amd64 void WeaponSystem::CheckMaxPower(WeaponSystem *this); // 00652ee0
 ".41564189f6415549":  // unique sig
 cleanup __amd64 bool WeaponSystem::ForceDecreasePower(WeaponSystem *this, int amount); // 00652fb0
-".415531c941":  // unique sig
+".415531c9415449":  // unique sig
 cleanup __amd64 bool WeaponSystem::ForceIncreasePower(WeaponSystem *this, int amount); // 00653070
-".5531c94889fd5331db4883ec08488bb7":  // unique sig
+"!.5531c94889fd5331db4883ec08488bb770020000488b976802000048c707????????48c74710????????4889f04829d048c1f8034885c074??0f1f8000000000488b3cca4885ff74??488b17ff5208488b9568020000488bb5700200004889f083c3014829d089d948c1f8034839c172??488bbdc80200004885ff74??e8????????488bbd980200004885ff74??e8????????488bbd680200004885ff74??e8????????488bbd500200004885ff74??e8????????4889":  // unique sig
 cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this, int __in_chrg); // 006531c0
-".4156415541544589":  // unique sig
+".4156415541544589c44189c889d189f2be03":  // unique sig
 cleanup __amd64 void WeaponSystem::constructor(WeaponSystem *this, int roomId, int shipId, int starting_power, int slot_count); // 006532a0
 ".31c085f678??488b8f50020000488b97580200004829ca48c1fa0339d67d??4863f6488b04f148":  // unique sig
 cleanup __amd64 int WeaponSystem::GetWeaponValue(WeaponSystem *this, int slot); // 006534a0
-".31c085f60f88":  // unique sig
+".31c085f60f88????????4156":  // unique sig
 cleanup __amd64 ProjectileFactory *WeaponSystem::RemoveWeapon(WeaponSystem *this, int slot); // 006534d0
 ".488bb750020000488b8f":  // unique sig
 cleanup __amd64 float WeaponSystem::GetMaxCooldown(WeaponSystem *this); // 00653650
 ".85f678??488b8f50020000488b87":  // unique sig
 cleanup __amd64 void WeaponSystem::SwapWeapons(WeaponSystem *this, int slot1, int slot2); // 006536b0
-".415741564155415445":  // unique sig
+".41574156415541544531e4554889fd5348":  // unique sig
 cleanup __amd64 void WeaponSystem::UpdateBonusPower(WeaponSystem *this); // 00653710
-"!.5589f5534889fb4883ec08e8????????39":  // unique sig
+".5589f5534889fb4883ec08e8????????39e84889df0f4ee889abe40100004883c4085b5de9????????90660f1f44000041":  // unique sig
 cleanup __amd64 void WeaponSystem::SetBonusPower(WeaponSystem *this, int bonus, int permanentBonus); // 00653980
-"!40005589f5534889fb4883ec08e8????????39e84889df0f4ee889abe40100004883c4085b5de9????????90660f1f440000":  // unique sig
-noHook __amd64 void WeaponSystem::__DO_NOT_HOOK(); // 006539af
-".41":  // non-unique sig
+"415741564155415455534889fb4883ec38e8":  // unique sig
 cleanup __amd64 void WeaponSystem::OnLoop(WeaponSystem *this); // 006539b0
 "!.4883ec08e8????????bf":  // unique sig
 cleanup __amd64 float WeaponSystem::GetCooldownModifier(WeaponSystem *this); // 00653d50
-"!c408e9????????90660f1f440000":  // unique sig
-noHook __amd64 void WeaponSystem::__DO_NOT_HOOK(); // 00653d6f
-".31":  // non-unique sig
+".31c085f678??488b8f50020000488b97580200004829ca48c1fa0339d67d??4863f6488b04f1f3":  // unique sig
 cleanup __amd64 ProjectileFactory *WeaponSystem::GetWeapon(WeaponSystem *this, int slot); // 00653d70
 ".01b788":  // unique sig
 cleanup __amd64 void WeaponSystem::ModifyMissileCount(WeaponSystem *this, int amount); // 00653da0
@@ -52,13 +48,13 @@ cleanup __amd64 void WeaponSystem::ModifyMissileCount(WeaponSystem *this, int am
 cleanup __amd64 bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 00653dc0
 ".415541544989f455534883ec0844":  // unique sig
 cleanup __amd64 bool WeaponSystem::DePowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven); // 00653f20
-".5531c94889fd53":  // unique sig
+".5531c94889fd5331db4883ec08488b9750020000488b87580200004829d048c1f8034885c074??660f1f840000000000488b3cca83":  // unique sig
 cleanup __amd64 void WeaponSystem::ChargeAll(WeaponSystem *this); // 00653ff0
-".4889b790":  // unique sig
+".4889b79002":  // unique sig
 cleanup __amd64 void WeaponSystem::SetCloakingSystem(WeaponSystem *this, CloakingSystem *cloaking); // 00654050
-".554889fd534883ec08488b07ff":  // unique sig
+".554889fd534883ec08488b07ff50":  // unique sig
 cleanup __amd64 Projectile *WeaponSystem::GetPreparedProjectile(WeaponSystem *this); // 00654060
 ".4156415541545589d5534889fb4c":  // unique sig
 cleanup __amd64 ProjectileFactory *WeaponSystem::AddWeapon(WeaponSystem *this, ProjectileFactory *weapon, int slot); // 006540e0
-".415741564989fe41554c":  // unique sig
+".415741564989fe41554c63":  // unique sig
 cleanup __amd64 int WeaponSystem::AddWeapon(WeaponSystem *this, WeaponBlueprint *blueprint, int slot); // 00654300

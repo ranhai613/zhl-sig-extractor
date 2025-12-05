@@ -6,19 +6,17 @@ cleanup __amd64 void EquipmentBox::MouseMove(EquipmentBox *this, int mX, int mY)
 cleanup __amd64 void EquipmentBox::OnTouch(EquipmentBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00515840
 ".48c747700000000048c747780000000048c787800000000000000048c7878800000000000000c3900f1f840000000000488b44":  // unique sig
 cleanup __amd64 void EquipmentBox::Restart(EquipmentBox *this); // 00515890
-"488b44240848894770":  // unique sig
+".488b44240848894770":  // unique sig
 cleanup __amd64 void EquipmentBox::AddItem(EquipmentBox *this, EquipmentBoxItem newItem); // 005158c0
-"!.48c747700000000048c747780000000048c787800000000000000048c7878800000000000000c3":  // unique sig
+".48c747700000000048c747780000000048c787800000000000000048c7878800000000000000c3900f1f840000000000488b47":  // unique sig
 cleanup __amd64 void EquipmentBox::RemoveItem(EquipmentBox *this); // 005158f0
-"!400048c747700000000048c747780000000048c787800000000000000048c7878800000000000000c3900f1f840000000000":  // unique sig
-noHook __amd64 void EquipmentBox::__DO_NOT_HOOK(); // 0051591f
-".48":  // non-unique sig
+".488b47704885c074??4885":  // unique sig
 cleanup __amd64 bool EquipmentBox::CanHoldWeapon(EquipmentBox *this); // 00515920
 ".48837f700048":  // unique sig
 cleanup __amd64 bool EquipmentBox::CanHoldDrone(EquipmentBox *this); // 00515960
-".31c0c3906666662e0f1f84000000000048":  // unique sig
+".31c0c3906666662e0f1f8400000000004883":  // unique sig
 cleanup __amd64 bool EquipmentBox::CanHoldAugment(EquipmentBox *this); // 005159b0
-"48837f700074??40":  // unique sig
+".48837f700074??40":  // unique sig
 cleanup __amd64 int EquipmentBox::GetType(EquipmentBox *this, bool forcedEmpty); // 005159c0
 ".41545589f541":  // unique sig
 cleanup __amd64 void EquipmentBox::OnRender(EquipmentBox *this, bool dragging); // 00515a50
@@ -42,23 +40,23 @@ cleanup __amd64 void EquipmentBox::InitPrimitives(EquipmentBox *this); // 005174
 cleanup __amd64 void EquipmentBox::ForceHitBox(EquipmentBox *this, Rect *newBox); // 005174e0
 ".4088b792":  // unique sig
 cleanup __amd64 void EquipmentBox::SetBlocked(EquipmentBox *this, bool val); // 005174f0
-".660fd647":  // unique sig
+".660fd64710":  // unique sig
 cleanup __amd64 void EquipmentBox::SetColor(EquipmentBox *this, GL_Color color); // 00517500
 ".31c048837f70":  // unique sig
 cleanup __amd64 bool EquipmentBox::IsEmpty(EquipmentBox *this); // 00517510
-".488b47704885c074":  // unique sig
+".488b47704885c074??488b40":  // unique sig
 cleanup __amd64 int EquipmentBox::GetItemValue(EquipmentBox *this); // 00517550
 ".5531c04889f5":  // unique sig
 cleanup __amd64 void EquipmentBox::SetBlueprint(EquipmentBox *this, InfoBox *infoBox, bool detailedBox); // 005175a0
-".488b47784885":  // unique sig
+".488b47784885c074":  // unique sig
 cleanup __amd64 Blueprint *EquipmentBox::GetBlueprint(EquipmentBox *this); // 005176a0
-".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b8":  // unique sig
+".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000031":  // unique sig
 cleanup __amd64 void EquipmentBox::SetShipManager(EquipmentBox *this, ShipManager *ship); // 0051b350
-"f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b8":  // unique sig
+".f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b8":  // unique sig
 cleanup __amd64 void EquipmentBox::CheckContents(EquipmentBox *this); // 0051b360
-"b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b801":  // unique sig
+".b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00b801":  // unique sig
 cleanup __amd64 bool EquipmentBox::IsCargoBox(EquipmentBox *this); // 0051b370
-"31c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f0031":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f0031":  // unique sig
 cleanup __amd64 bool EquipmentBox::CanHoldCrew(EquipmentBox *this); // 0051b380
-"b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031":  // unique sig
+".b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0031":  // unique sig
 cleanup __amd64 bool EquipmentBox::CanDoJob(EquipmentBox *this); // 0051b390

@@ -1,36 +1,32 @@
 "f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f30f10":  // unique sig
 cleanup __amd64 void SpaceDrone::PickTarget(SpaceDrone *this); // 004449c0
-"31c0c3662e0f1f8400000000000f1f00f30f1087":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00f30f1087":  // unique sig
 cleanup __amd64 bool SpaceDrone::HasTarget(SpaceDrone *this); // 004449d0
-"f30f108764":  // unique sig
+".f30f108764":  // unique sig
 cleanup __amd64 bool SpaceDrone::GetStunned(SpaceDrone *this); // 004449e0
 ".488b4720f30f1080":  // unique sig
 cleanup __amd64 float SpaceDrone::GetWeaponCooldown(SpaceDrone *this); // 00444a10
-".f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f30f":  // unique sig
+".f3c3662e0f1f8400000000000f1f400031c0c3662e0f1f8400000000000f1f00f30f7e":  // unique sig
 cleanup __amd64 void SpaceDrone::SetWeaponTarget(SpaceDrone *this, Targetable *target); // 00444a20
-"31c0c3662e0f1f8400000000000f1f00f30f7e47":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00f30f7e47":  // unique sig
 cleanup __amd64 bool SpaceDrone::ValidTargetObject(SpaceDrone *this, Targetable *target); // 00444a30
-"f30f7e4760c3662e0f1f8400000000004883ef40eb??662e0f1f840000000000f3":  // unique sig
+".f30f7e4760c3662e0f1f8400000000004883ef40eb??662e0f1f840000000000f3":  // unique sig
 cleanup __amd64 Pointf SpaceDrone::GetWorldCenterPoint(SpaceDrone *this); // 00444a40
-"f30f7e4760c3662e0f1f8400000000004883ef40eb??662e0f1f8400000000008b":  // unique sig
+".f30f7e4760c3662e0f1f8400000000004883ef40eb??662e0f1f8400000000008b":  // unique sig
 cleanup __amd64 Pointf SpaceDrone::GetRandomTargettingPoint(SpaceDrone *this, bool valuable); // 00444a60
-"!8b4758c3":  // unique sig
+".8b4758c3":  // unique sig
 cleanup __amd64 int SpaceDrone::GetSpaceId(SpaceDrone *this); // 00444a80
-"!58c36666662e0f1f8400000000004883ef40eb??662e0f1f8400000000004883ef50eb??662e0f1f840000000000":  // unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 00444aaf
-".8b":  // non-unique sig
+".8b4708c36666662e0f1f8400000000004883ef40":  // unique sig
 cleanup __amd64 int SpaceDrone::GetOwnerId(SpaceDrone *this); // 00444ab0
-"!.8b470cc36666662e0f1f84000000000048":  // unique sig
+".8b470cc36666662e0f1f84000000000048":  // unique sig
 cleanup __amd64 int SpaceDrone::GetSelfId(SpaceDrone *this); // 00444ae0
-"!.31c0c3666666662e0f1f8400000000004883ef50":  // unique sig
+".31c0c3666666662e0f1f8400000000004883ef50eb??662e0f1f84000000000031c0c36666":  // unique sig
 cleanup __amd64 bool SpaceDrone::DamageBeam(SpaceDrone *this, Pointf current, Pointf last, Damage damage); // 00444b10
-"!.31c0c3666666662e0f1f8400000000004883ef":  // unique sig
+".31c0c3666666662e0f1f8400000000004883ef50eb??662e0f1f84000000000031c0c3662e":  // unique sig
 cleanup __amd64 bool SpaceDrone::DamageArea(SpaceDrone *this, Pointf location, Damage damage, bool forceHit); // 00444b30
-"!66662e0f1f8400000000004883ef50eb??662e0f1f84000000000031c0c3666666662e0f1f8400000000004883ef50eb??662e0f1f840000000000":  // unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 00444b4f
-".31":  // non-unique sig
+".31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000b801":  // unique sig
 cleanup __amd64 CrewDrone *SpaceDrone::GetBoardingDrone(SpaceDrone *this); // 00444b50
-".4883ec18baffffffff4889e789d6e8????????0f":  // unique sig
+".4883ec18baffffffff4889e789d6e8????????0f57c0488b0424f30f11442408f30f1144240cf30f7e4424084883c418c36666":  // unique sig
 cleanup __amd64 Ellipse SpaceDrone::GetShieldShape(SpaceDrone *this); // 00444b90
 ".f3c366666666662e0f1f840000000000488b07488b":  // unique sig
 cleanup __amd64 void SpaceDrone::MouseMove(SpaceDrone *this, int mX, int mY); // 00461000
@@ -46,13 +42,13 @@ cleanup __amd64 bool SpaceDrone::ValidTarget(SpaceDrone *this); // 004619d0
 cleanup __amd64 void SpaceDrone::RandomizeStartingPosition(SpaceDrone *this); // 00461d20
 ".534889fbe8????????f30f1083":  // unique sig
 cleanup __amd64 void SpaceDrone::OnLoop(SpaceDrone *this); // 00461dd0
-".534889fb4883ec103977":  // unique sig
+".534889fb4883ec10397758":  // unique sig
 cleanup __amd64 void SpaceDrone::OnRender(SpaceDrone *this, int spaceId); // 00462410
 ".41554154554889f5534889fb488d7f044883ec18":  // unique sig
 static cleanup __amd64 CollisionResponse *SpaceDrone::CollisionMoving(CollisionResponse *__return_storage_ptr__, SpaceDrone *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00462610
 "!.554889fd5389f34883ec08e8????????8b":  // unique sig
 cleanup __amd64 void SpaceDrone::SaveState(SpaceDrone *this, int fd); // 00462780
-".554889fd5389f34883ec08e8????????89":  // unique sig
+".554889fd5389f34883ec08e8????????89dfe8????????89":  // unique sig
 cleanup __amd64 void SpaceDrone::LoadState(SpaceDrone *this, int fd); // 00462a90
 ".4883ec28807f10":  // unique sig
 cleanup __amd64 Pointf SpaceDrone::GetSpeed(SpaceDrone *this); // 00462e50
@@ -60,7 +56,7 @@ cleanup __amd64 Pointf SpaceDrone::GetSpeed(SpaceDrone *this); // 00462e50
 cleanup __amd64 void SpaceDrone::BlowUp(SpaceDrone *this, bool silent); // 00463820
 ".4157415641554154554889fd488dbf80020000534883ec1848c78780fdffff????????48c787c0fdffff????????48c787d0fdffff????????e8????????488d":  // unique sig
 cleanup __amd64 void SpaceDrone::destructor(SpaceDrone *this, int __in_chrg); // 00464630
-".4157415641554154554889fd488d":  // unique sig
+".4157415641554154554889fd488dbf80020000534883ec1848c78780fdffff????????48c787c0fdffff????????48c787d0fdffff????????e8????????488b":  // unique sig
 cleanup __amd64 void SpaceDrone::destructor(SpaceDrone *this, int __in_chrg); // 00464800
 ".41570f57d2":  // unique sig
 cleanup __amd64 void SpaceDrone::constructor(SpaceDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 00464ea0
@@ -70,7 +66,7 @@ cleanup __amd64 void SpaceDrone::SetDestination(SpaceDrone *this, float angle, f
 cleanup __amd64 float SpaceDrone::UpdateAimingAngle(SpaceDrone *this, Pointf location, float percentage, float force_desired); // 00466100
 ".0fb687bc000000c30f1f84000000000041":  // unique sig
 cleanup __amd64 bool SpaceDrone::BlowingUp(SpaceDrone *this); // 00466460
-"4154554889fd530fb6":  // unique sig
+".4154554889fd530fb6":  // unique sig
 cleanup __amd64 bool SpaceDrone::UpdateExplosion(SpaceDrone *this); // 00466470
 ".807f100074??f3":  // unique sig
 cleanup __amd64 void SpaceDrone::Ionize(SpaceDrone *this, int amount); // 004664d0
@@ -84,13 +80,13 @@ cleanup __amd64 void SpaceDrone::UpdateLocation(SpaceDrone *this); // 00467d00
 cleanup __amd64 Projectile *SpaceDrone::GetNextProjectile(SpaceDrone *this); // 00468e70
 ".f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f840000000000b8":  // unique sig
 cleanup __amd64 void SpaceDrone::PickDestination(SpaceDrone *this); // 00469750
-"b801000000c3662e0f1f840000000000b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3":  // unique sig
+".b801000000c3662e0f1f840000000000b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3":  // unique sig
 cleanup __amd64 bool SpaceDrone::RecallOnJump(SpaceDrone *this); // 00469760
-"b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3":  // unique sig
+".b801000000c3662e0f1f84000000000031c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3":  // unique sig
 cleanup __amd64 bool SpaceDrone::CanBeRecovered(SpaceDrone *this); // 00469770
-"31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b8":  // unique sig
+".31c0c3662e0f1f8400000000000f1f00f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b8":  // unique sig
 cleanup __amd64 bool SpaceDrone::HideUnderOwner(SpaceDrone *this); // 00469780
-"f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000048":  // unique sig
+".f3c3662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b801000000c3662e0f1f84000000000048":  // unique sig
 cleanup __amd64 void SpaceDrone::RenderDrone(SpaceDrone *this); // 00469790
 ".53be????????4889fb4883ec10488d54240fe8????????4883c4104889d85bc34883":  // unique sig
 cleanup __amd64 string SpaceDrone::GetTooltip(SpaceDrone *this); // 004697e0

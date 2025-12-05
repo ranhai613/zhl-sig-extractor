@@ -10,7 +10,7 @@ static cleanup __amd64 float Globals::AngleDifference(float angle1, float angle2
 static cleanup __amd64 int Globals::GetDirection(string *dir); // 005b5580
 ".8b15????????b8":  // unique sig
 static cleanup __amd64 uint Globals::GetNextSpaceId(); // 005b55f0
-".53be????????4889fbe8????????85c0ba":  // unique sig
+".53be????????4889fbe8????????85c0ba01":  // unique sig
 static cleanup __amd64 int Globals::StringToItem(string *name); // 005b5610
 ".4883ec18f30f59":  // unique sig
 static cleanup __amd64 float Globals::AimAhead(Pointf delta, Pointf vr, float muzzleV); // 005b5660

@@ -6,11 +6,11 @@ cleanup __amd64 void AnimationTracker::destructor(AnimationTracker *this, int __
 cleanup __amd64 void AnimationTracker::Update(AnimationTracker *this); // 005a0270
 ".4088770c":  // unique sig
 cleanup __amd64 void AnimationTracker::SetLoop(AnimationTracker *this, bool loop, float delay); // 005a17f0
-".4084f6c6":  // unique sig
+".4084f6c647":  // unique sig
 cleanup __amd64 void AnimationTracker::Stop(AnimationTracker *this, bool keepTime); // 005a1810
 ".c6471600c6471401f3":  // unique sig
 cleanup __amd64 void AnimationTracker::Start(AnimationTracker *this, float specific); // 005a1830
-".0f57c9c6":  // unique sig
+".0f57c9c64716":  // unique sig
 cleanup __amd64 void AnimationTracker::StartReverse(AnimationTracker *this, float specific); // 005a1850
 ".807f14000f57":  // unique sig
 cleanup __amd64 float AnimationTracker::Progress(AnimationTracker *this, float time); // 005a1870

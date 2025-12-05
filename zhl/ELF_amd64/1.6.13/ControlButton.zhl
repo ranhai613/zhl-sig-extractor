@@ -10,11 +10,11 @@ cleanup __amd64 void ControlButton::OnRender(ControlButton *this); // 00544520
 cleanup __amd64 void ControlButton::MouseMove(ControlButton *this, int mX, int mY); // 005448a0
 ".837f300274??83":  // unique sig
 cleanup __amd64 void ControlButton::OnTouch(ControlButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005448e0
-".55534889fb4883ec28837f":  // unique sig
+".55534889fb4883ec28837f30":  // unique sig
 cleanup __amd64 void ControlButton::OnKeyDown(ControlButton *this, SDLKey sym); // 00544920
 ".837f3001":  // unique sig
 cleanup __amd64 bool ControlButton::GetHovering(ControlButton *this); // 005449b0
 ".4080fe0119c0f7d083e002894730":  // unique sig
 cleanup __amd64 void ControlButton::SetSelected(ControlButton *this, bool val); // 005449c0
-".55534889fb4883ec38807f":  // unique sig
+".55534889fb4883ec38807f20":  // unique sig
 cleanup __amd64 void ControlButton::OnLanguageChange(ControlButton *this); // 005449d0

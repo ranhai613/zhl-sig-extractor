@@ -4,23 +4,19 @@ cleanup __amd64 void CFPS::constructor(CFPS *this); // 005a3fc0
 cleanup __amd64 double CFPS::GetTime(CFPS *this); // 005a3ff0
 ".534889fb4883ec10f2":  // unique sig
 cleanup __amd64 void CFPS::OnLoop(CFPS *this); // 005a4010
-".f30f1005????????f30f5947":  // unique sig
+".f30f1005????????f30f594718f30f58":  // unique sig
 cleanup __amd64 void CFPS::OnLoopUnpaused(CFPS *this); // 005a40f0
-"!.f30f1007c3":  // unique sig
+".f30f1007c3":  // unique sig
 cleanup __amd64 float CFPS::GetUnpausedTime(CFPS *this); // 005a4110
-"!07c390662e0f1f840000000000":  // unique sig
-noHook __amd64 void CFPS::__DO_NOT_HOOK(); // 005a411f
-".f3":  // non-unique sig
+".f3c366666666662e0f1f8400000000008b4724":  // unique sig
 cleanup __amd64 void CFPS::OnRender(CFPS *this); // 005a4120
 ".8b4724ba03":  // unique sig
 cleanup __amd64 void CFPS::IncreaseSpeedLevel(CFPS *this); // 005a4130
-".8b4724ba":  // unique sig
+".8b4724bafe":  // unique sig
 cleanup __amd64 void CFPS::DecreaseSpeedLevel(CFPS *this); // 005a4150
-"!.c7472400000000c3":  // unique sig
+".c7472400000000c3":  // unique sig
 cleanup __amd64 void CFPS::NormalSpeedLevel(CFPS *this); // 005a4170
-"!2400000000c30f1f840000000000":  // unique sig
-noHook __amd64 void CFPS::__DO_NOT_HOOK(); // 005a417f
-".8b":  // non-unique sig
+".8b471cc36666":  // unique sig
 cleanup __amd64 int CFPS::GetFPS(CFPS *this); // 005a4180
 ".f30f104718c3":  // unique sig
 cleanup __amd64 float CFPS::GetSpeedFactor(CFPS *this); // 005a4190

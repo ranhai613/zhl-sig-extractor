@@ -1,16 +1,14 @@
 "488b97d802":  // unique sig
 cleanup __amd64 GL_Color ArtilleryBox::GetCooldownColor(ArtilleryBox *this); // 00577810
-".b8ffffffffc3662e0f1f840000000000f30f":  // unique sig
+".b8ffffffffc3662e0f1f840000000000f30f1005????????c390660f1f44000080":  // unique sig
 cleanup __amd64 int ArtilleryBox::GetCooldownLevel(ArtilleryBox *this); // 00577850
-"f30f1005????????c390660f1f44000080":  // unique sig
+".f30f1005????????c390660f1f44000080":  // unique sig
 cleanup __amd64 float ArtilleryBox::GetCooldownFraction(ArtilleryBox *this); // 00577860
 ".4154400fb6f655534889fb4883ec70":  // unique sig
 cleanup __amd64 void ArtilleryBox::OnRender(ArtilleryBox *this, bool ignoreStatus); // 0057b270
-".55b901":  // unique sig
+".55b90100000048":  // unique sig
 cleanup __amd64 void ArtilleryBox::constructor(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 0057ecd0
-"!.554889fd5331db4883ec0848c707????????488bbc1d700200004883c308e8????????4883fb2075??4883":  // unique sig
+"!.554889fd5331db4883ec0848c707????????488bbc1d700200004883c308e8????????4883fb2075??4883c4084889ef5b5de9????????66":  // unique sig
 cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this, int __in_chrg); // 0057ff00
-"!ef5b5de9????????660f1f840000000000":  // unique sig
-noHook __amd64 void ArtilleryBox::__DO_NOT_HOOK(); // 0057ff3f
-".55":  // non-unique sig
+".554889fd5331db4883ec0848c707????????488bbc1d700200004883c308e8????????4883fb2075??4889efe8????????4883c4084889ef5b5de9????????9041":  // unique sig
 cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this, int __in_chrg); // 0057ff40

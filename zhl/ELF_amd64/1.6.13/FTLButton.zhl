@@ -1,18 +1,16 @@
 "!534889fb48c707????????488bbf18010000e8????????488bbb20010000e8????????488bbb28010000e8????????488bbb30010000e8????????488bbb78010000e8????????488bbb80010000e8????????488bbb900100004885ff74??488b07ff50084889df5b":  // unique sig
 cleanup __amd64 void FTLButton::destructor(FTLButton *this, int __in_chrg); // 00522050
-".55534889fb4883ec1883":  // unique sig
+".55534889fb4883ec1883fe01c6":  // unique sig
 cleanup __amd64 bool FTLButton::OnTouch(FTLButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005220c0
-"!.534889fb48c707????????488bbf18":  // unique sig
+"!.534889fb48c707????????488bbf18010000e8????????488bbb20010000e8????????488bbb28010000e8????????488bbb30010000e8????????488bbb78010000e8????????488bbb80010000e8????????488bbb900100004885ff74??488b07ff50084889dfe8":  // unique sig
 cleanup __amd64 void FTLButton::destructor(FTLButton *this, int __in_chrg); // 00522470
-"!0100004885ff74??488b07ff50084889dfe8????????4889df5be9????????662e0f1f840000000000":  // unique sig
-noHook __amd64 void FTLButton::__DO_NOT_HOOK(); // 005224ef
-".53":  // non-unique sig
+".534889fbe8????????0f":  // unique sig
 cleanup __amd64 void FTLButton::constructor(FTLButton *this); // 005224f0
-".41544084":  // unique sig
+".41544084f641":  // unique sig
 cleanup __amd64 void FTLButton::RenderPullout(FTLButton *this, bool engines, bool pilot); // 005225a0
 ".55534889fb4883ec18807f48":  // unique sig
 cleanup __amd64 bool FTLButton::MouseClick(FTLButton *this, int mX, int mY); // 00522780
-".554889f5534889fb4883ec2848":  // unique sig
+".554889f5534889fb4883ec28488b":  // unique sig
 cleanup __amd64 string FTLButton::GetPilotTooltip(FTLButton *this); // 00522810
 ".534889fb4883ec20488bbe":  // unique sig
 cleanup __amd64 string FTLButton::GetEngineTooltip(FTLButton *this); // 00522920
@@ -20,5 +18,5 @@ cleanup __amd64 string FTLButton::GetEngineTooltip(FTLButton *this); // 00522920
 cleanup __amd64 void FTLButton::OnInit(FTLButton *this, Point p); // 005229d0
 ".4157be01":  // unique sig
 cleanup __amd64 void FTLButton::OnRender(FTLButton *this); // 005238d0
-".4157415641554189d5415441":  // unique sig
+".4157415641554189d541544189cc5589f531":  // unique sig
 cleanup __amd64 void FTLButton::MouseMove(FTLButton *this, int mX, int mY, bool silent); // 00525150

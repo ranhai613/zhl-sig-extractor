@@ -10,9 +10,7 @@ cleanup __amd64 void HackBox::KeyDown(HackBox *this, SDLKey key_sym, bool shift)
 cleanup __amd64 void HackBox::constructor(HackBox *this, Point loc, HackingSystem *sys, ShipManager *ship); // 0053f8f0
 "!.534889fb488dbf40":  // unique sig
 cleanup __amd64 void HackBox::OnLoop(HackBox *this); // 00540ee0
-"!f0eb??6666662e0f1f840000000000":  // unique sig
-noHook __amd64 void HackBox::__DO_NOT_HOOK(); // 0054108f
-".55":  // non-unique sig
+".55400fb6f6534889fb4883ec18e8":  // unique sig
 cleanup __amd64 void HackBox::OnRender(HackBox *this, bool ignoreStatus); // 00541090
 ".415541544189d45589f5534889fb4881ecd8":  // unique sig
 cleanup __amd64 void HackBox::MouseMove(HackBox *this, int mX, int mY); // 00541cd0
@@ -22,7 +20,5 @@ cleanup __amd64 bool HackBox::MouseClick(HackBox *this, bool force); // 005426c0
 cleanup __amd64 bool HackBox::HasButton(HackBox *this); // 00542af0
 "!.534889fb48c707????????48c78740040000????????488dbfa8030000e8????????488dbb18030000e8????????488bbbe00200004885ff74??e8????????4889df5b":  // unique sig
 cleanup __amd64 void HackBox::destructor(HackBox *this, int __in_chrg); // 00542c30
-"!e0020000e8????????4889dfe8????????4889df5be9????????0f1f840000000000":  // unique sig
-noHook __amd64 void HackBox::__DO_NOT_HOOK(); // 00542ccf
-".53":  // non-unique sig
+".534889fb48c707????????48c78740040000????????488dbfa8030000e8????????488dbb18030000e8????????488bbbe00200004885ff74??e8????????4889dfe8":  // unique sig
 cleanup __amd64 void HackBox::destructor(HackBox *this, int __in_chrg); // 00542cd0

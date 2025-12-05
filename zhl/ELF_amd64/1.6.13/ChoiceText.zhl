@@ -1,4 +1,4 @@
 "4154554889fd534883ec10488b878001":  // unique sig
 cleanup __amd64 void ChoiceText::destructor(ChoiceText *this, int __in_chrg); // 0054b3d0
-".415741564989f6488d76":  // unique sig
+".415741564989f6488d7608415541":  // unique sig
 cleanup __amd64 void ChoiceText::constructor(ChoiceText *this, ChoiceText *param_2); // 00554e80

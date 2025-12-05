@@ -18,11 +18,11 @@ cleanup __amd64 void OptionsScreen::OnLoop(OptionsScreen *this); // 005475c0
 cleanup __amd64 void OptionsScreen::CheckSelection(OptionsScreen *this); // 005478f0
 ".415455534889fbbf????????488d":  // unique sig
 cleanup __amd64 void OptionsScreen::OnInit(OptionsScreen *this); // 00548430
-".41574156415541544189f4554889fd":  // unique sig
+".41574156415541544189f4554889fd53":  // unique sig
 cleanup __amd64 bool OptionsScreen::KeyDown(OptionsScreen *this, SDLKey sym); // 00548c50
 ".4155415455534889fb4883ec3880bf28":  // unique sig
 cleanup __amd64 void OptionsScreen::OnRender(OptionsScreen *this); // 00549aa0
-".41554189d541544189f455534889":  // unique sig
+".41554189d541544189f455534889fb4883ec3880":  // unique sig
 cleanup __amd64 void OptionsScreen::MouseMove(OptionsScreen *this, int mX, int mY); // 0054a0a0
 ".415455534889fb4883ec7080":  // unique sig
 cleanup __amd64 void OptionsScreen::MouseClick(OptionsScreen *this, int mX, int mY); // 0054a630
@@ -30,5 +30,5 @@ cleanup __amd64 void OptionsScreen::MouseClick(OptionsScreen *this, int mX, int 
 cleanup __amd64 void OptionsScreen::OnTouch(OptionsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0054acb0
 "!.554889fd488dbfe80e0000534883ec0848c78718f1ffff????????e8????????488dbd680c0000e8????????488bb5480c0000488bbd400c000048c785200c0000????????4889f04829f848c1f8034885c074??31db31c90f1f840000000000488b04cf4889fa4885c074??488b104889c7ff5208488b95400c0000488bb5480c00004889f083c3014889d74829d089d948c1f8034839c172??4885ff4889bd480c000074??e8????????488dbde80a000048c785200c0000????????e8????????488dbde0090000e8????????488dbde0080000e8????????488dbda8020000e8????????4883":  // unique sig
 cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this, int __in_chrg); // 0054bcb0
-".554889fd488dbf":  // unique sig
+".554889fd488dbfe80e0000534883ec0848c78718f1ffff????????e8????????488dbd680c0000e8????????488bb5480c0000488bbd400c000048c785200c0000????????4889f04829f848c1f8034885c074??31db31c90f1f840000000000488b04cf4889fa4885c074??488b104889c7ff5208488b95400c0000488bb5480c00004889f083c3014889d74829d089d948c1f8034839c172??4885ff4889bd480c000074??e8????????488dbde80a000048c785200c0000????????e8????????488dbde0090000e8????????488dbde0080000e8????????488dbda8020000e8????????4889":  // unique sig
 cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this, int __in_chrg); // 0054bdb0

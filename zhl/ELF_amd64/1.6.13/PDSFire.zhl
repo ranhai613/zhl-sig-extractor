@@ -8,16 +8,16 @@ cleanup __amd64 void PDSFire::CollisionCheck(PDSFire *this, Collideable *object)
 cleanup __amd64 void PDSFire::SaveProjectile(PDSFire *this, int fd); // 00446d10
 ".534889fb4883ec3039":  // unique sig
 cleanup __amd64 void PDSFire::OnRenderSpecific(PDSFire *this, int spaceId); // 004471e0
-".554889fd5389f34883ec08e8????????89dfe8????????f3":  // unique sig
+".554889fd5389f34883ec08e8????????89dfe8????????f30f118578":  // unique sig
 cleanup __amd64 void PDSFire::LoadProjectile(PDSFire *this, int fd); // 00448500
 ".415741564989fe415541544989f449c1":  // unique sig
 cleanup __amd64 void PDSFire::constructor(PDSFire *this, Point pos, int destinationSpace, Pointf destination); // 0044b760
 ".b806000000c3662e0f1f840000000000f3":  // unique sig
 cleanup __amd64 int PDSFire::GetType(PDSFire *this); // 0044c170
-"f30f100d????????530f28c14889fbc70700000000488d7f04e8????????4889d8c7430c00000000c74310000000005bc3662e0f1f8400000000000f1f44000041":  // unique sig
+".f30f100d????????530f28c14889fbc70700000000488d7f04e8????????4889d8c7430c00000000c74310000000005bc3662e0f1f8400000000000f1f44000041":  // unique sig
 cleanup __amd64 CollisionResponse *PDSFire::CollisionMoving(PDSFire *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 0044c180
 // Failed to generate signature for function: PDSFire::~PDSFire at 0044eb00
-"!.2e0f1f8400000000004883ef08e9????????0f1f8000000000":  // unique sig
+"!.66662e0f1f8400000000004883ef08e9????????0f1f8000000000":  // unique sig
 noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 0044f23f
 ".41":  // non-unique sig
 cleanup __amd64 void PDSFire::destructor(PDSFire *this, int __in_chrg); // 0044f240

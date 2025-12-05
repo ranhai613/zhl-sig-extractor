@@ -1,28 +1,22 @@
 "!41544189d45589f548":  // unique sig
 cleanup __amd64 void TextInput::constructor(TextInput *this, int max, AllowedCharType allowedChars, string *prompt); // 00586ae0
-"!005b5d415ce9????????0f1f4000":  // unique sig
-noHook __amd64 void TextInput::__DO_NOT_HOOK(); // 00586b6f
-".41":  // non-unique sig
+".415741564989f641554189":  // unique sig
 cleanup __amd64 string TextInput::GetUTF8(TextInput *this, int start, int end); // 00586b70
 ".4156b9ff":  // unique sig
 cleanup __amd64 void TextInput::OnRender(TextInput *this, int size, Point position); // 00586e90
 "!.538b4738":  // unique sig
 cleanup __amd64 void TextInput::OnLoop(TextInput *this); // 005872a0
-"!3c4889dfe8????????4889df5be9????????0f1f840000000000":  // unique sig
-noHook __amd64 void TextInput::__DO_NOT_HOOK(); // 005872cf
-".53":  // non-unique sig
+".53807f40":  // unique sig
 cleanup __amd64 void TextInput::OnTextEvent(TextInput *this, TextEvent event); // 005872d0
-"!.0fb64740c3":  // unique sig
+".0fb64740c3":  // unique sig
 cleanup __amd64 bool TextInput::GetActive(TextInput *this); // 00587450
-".53b9":  // unique sig
+".53b9ff":  // unique sig
 cleanup __amd64 string TextInput::GetText(TextInput *this); // 00587460
 ".534883ec30488b47":  // unique sig
 cleanup __amd64 void TextInput::Start(TextInput *this); // 00587480
 "!.c6474000e9":  // unique sig
 cleanup __amd64 void TextInput::Stop(TextInput *this); // 00587560
-"!4000e9????????90660f1f440000":  // unique sig
-noHook __amd64 void TextInput::__DO_NOT_HOOK(); // 0058756f
-".55":  // non-unique sig
+".55488d6f08534889fb4883":  // unique sig
 cleanup __amd64 void TextInput::SetText(TextInput *this, string *newText); // 00587570
 ".41564155415455534889fb4883ec30807f40":  // unique sig
 cleanup __amd64 void TextInput::OnTextInput(TextInput *this, int ch); // 005875e0

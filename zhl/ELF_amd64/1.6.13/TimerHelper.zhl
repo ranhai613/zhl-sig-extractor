@@ -1,18 +1,14 @@
 "83feffc6":  // unique sig
 cleanup __amd64 void TimerHelper::Start(TimerHelper *this, int time); // 005b5e30
-"!.0fb64711c3":  // unique sig
+".0fb64711c3":  // unique sig
 cleanup __amd64 bool TimerHelper::Running(TimerHelper *this); // 005b5ec0
-"!11c390662e0f1f840000000000":  // unique sig
-noHook __amd64 void TimerHelper::__DO_NOT_HOOK(); // 005b5ecf
-".89":  // non-unique sig
+".89178977":  // unique sig
 cleanup __amd64 void TimerHelper::ResetMinMax(TimerHelper *this, int min, int max); // 005b5ed0
 ".f30f104f08":  // unique sig
 cleanup __amd64 void TimerHelper::SetMaxTime(TimerHelper *this, float max); // 005b5ee0
-"!.c6471100c3":  // unique sig
+".c6471100c390662e0f1f8400000000005380":  // unique sig
 cleanup __amd64 void TimerHelper::Stop(TimerHelper *this); // 005b5f00
-"!440000c6471100c390662e0f1f840000000000":  // unique sig
-noHook __amd64 void TimerHelper::__DO_NOT_HOOK(); // 005b5f0f
-".53":  // non-unique sig
+".53807f11":  // unique sig
 cleanup __amd64 void TimerHelper::Update(TimerHelper *this); // 005b5f10
 ".0fb6471184":  // unique sig
 cleanup __amd64 bool TimerHelper::Done(TimerHelper *this); // 005b5f40

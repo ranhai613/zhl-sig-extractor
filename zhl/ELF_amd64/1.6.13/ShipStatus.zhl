@@ -1,34 +1,32 @@
-"41574156415541544989fc55534883ec18488b7f":  // unique sig
+"!41574156415541544989fc55534883ec18488b7f":  // unique sig
 cleanup __amd64 void ShipStatus::RenderShields(ShipStatus *this, bool renderText); // 0055f290
-".53baffffffff4889fb89":  // unique sig
+".53baffffffff4889fb89d6":  // unique sig
 cleanup __amd64 void ShipStatus::constructor(ShipStatus *this); // 0055f600
-".415441bc04":  // unique sig
+".415441bc0400000055534889fb488b":  // unique sig
 cleanup __amd64 void ShipStatus::OnCleanup(ShipStatus *this); // 0055f9c0
 ".534889fbe8????????488bbbe8":  // unique sig
 cleanup __amd64 void ShipStatus::destructor(ShipStatus *this, int __in_chrg); // 0055fd10
 ".554889f5534889fb4883ec288b":  // unique sig
 cleanup __amd64 void ShipStatus::LinkShip(ShipStatus *this, ShipManager *ship); // 0055fd50
-"!.48897718c3":  // unique sig
+".48897718c390662e0f1f84000000000041":  // unique sig
 cleanup __amd64 void ShipStatus::LinkCombat(ShipStatus *this, CombatControl *combat); // 00560080
-"!9048897718c390662e0f1f840000000000":  // unique sig
-noHook __amd64 void ShipStatus::__DO_NOT_HOOK(); // 0056008f
-".41":  // non-unique sig
+".415541544531e4554889fd5331db4883ec48":  // unique sig
 cleanup __amd64 void ShipStatus::OnLoop(ShipStatus *this); // 00560090
 ".415741564155415455534889fb4881ec5803":  // unique sig
 cleanup __amd64 void ShipStatus::RenderEvadeOxygen(ShipStatus *this, bool renderText); // 005606e0
-".4084f674??f3":  // unique sig
+".4084f674??f3c3":  // unique sig
 cleanup __amd64 void ShipStatus::RenderShields(ShipStatus *this, bool renderText); // 00561780
 ".4155415455534881ec8800000040":  // unique sig
 cleanup __amd64 void ShipStatus::RenderHealth(ShipStatus *this, bool renderText); // 005617a0
-".31c0c3906666662e0f1f84000000000031":  // unique sig
+".31c0c3906666662e0f1f84000000000031c0c3906666662e0f1f8400000000008d":  // unique sig
 cleanup __amd64 bool ShipStatus::OnLButtonUp(ShipStatus *this); // 00561ec0
-"31c0c3906666662e0f1f8400000000008d":  // unique sig
+".31c0c3906666662e0f1f8400000000008d":  // unique sig
 cleanup __amd64 bool ShipStatus::OnRButtonUp(ShipStatus *this); // 00561ed0
-"8d46fa53":  // unique sig
+".8d46fa53":  // unique sig
 cleanup __amd64 void ShipStatus::OnMouseMove(ShipStatus *this, int mX, int mY); // 00561ee0
-".f3c366666666662e0f1f84000000000041574156415541545553":  // unique sig
+".f3c366666666662e0f1f840000000000415741564155415455534889":  // unique sig
 cleanup __amd64 void ShipStatus::OnTouch(ShipStatus *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00562050
-"415741564155415455534889fb4881ece8010000f3":  // unique sig
+".415741564155415455534889fb4881ece8010000f3":  // unique sig
 cleanup __amd64 void ShipStatus::OnInit(ShipStatus *this, Point location, float size); // 00562060
 ".415741564155415455534889fb4881ec5806":  // unique sig
 cleanup __amd64 void ShipStatus::RenderResources(ShipStatus *this, bool renderText); // 00564a50

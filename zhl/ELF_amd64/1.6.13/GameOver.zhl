@@ -14,7 +14,7 @@ cleanup __amd64 void GameOver::destructor(GameOver *this, int __in_chrg); // 005
 cleanup __amd64 void GameOver::OnRender(GameOver *this); // 00525e30
 ".534889fbe8????????488d7b64":  // unique sig
 cleanup __amd64 void GameOver::constructor(GameOver *this); // 00526a70
-".4157415641554989fd415455534883ec58":  // unique sig
+".4157415641554989fd415455534883ec5840":  // unique sig
 cleanup __amd64 void GameOver::SetVictory(GameOver *this, bool victory, string *shipName, std::vector<std::string> *crew); // 00526b00
 ".538b5f44":  // unique sig
 cleanup __amd64 int GameOver::GetCommand(GameOver *this); // 00526d20

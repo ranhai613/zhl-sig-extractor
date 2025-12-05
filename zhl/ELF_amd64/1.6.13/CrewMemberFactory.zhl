@@ -8,15 +8,15 @@ cleanup __amd64 int CrewMemberFactory::CountCloneReadyCrew(CrewMemberFactory *th
 cleanup __amd64 void CrewMemberFactory::GetCrewPortraitList(CrewMemberFactory *this, std::vector<CrewMember*> *retList, int player); // 00491510
 ".41574531c045":  // unique sig
 cleanup __amd64 void CrewMemberFactory::GetCrewList(CrewMemberFactory *this, std::vector<CrewMember*> *retList, int player, bool drones); // 00491720
-"!.8b07c390":  // unique sig
+".8b07c390":  // unique sig
 cleanup __amd64 int CrewMemberFactory::GetPlayerCrewCount(CrewMemberFactory *this); // 00491940
-".8b4708c36666662e0f1f8400000000008b":  // unique sig
+".8b4708c36666662e0f1f8400000000008b4704":  // unique sig
 cleanup __amd64 int CrewMemberFactory::GetEnemyCloneCount(CrewMemberFactory *this); // 00491950
-"8b470440":  // unique sig
+".8b470440":  // unique sig
 cleanup __amd64 int CrewMemberFactory::GetCrewCount(CrewMemberFactory *this, bool enemy); // 00491960
-"!.8b4704c366":  // unique sig
+".8b4704c366":  // unique sig
 cleanup __amd64 int CrewMemberFactory::GetEnemyCrewCount(CrewMemberFactory *this); // 00491970
-".53be????????4889fbe8????????85c075??b8":  // unique sig
+".53be????????4889fbe8????????85c075??b8010000005bc30f1f8000000000be????????4889dfe8????????85c074??be????????4889dfe8????????85c074??be":  // unique sig
 static cleanup __amd64 bool CrewMemberFactory::IsRace(string *type); // 00491980
 ".415641554189f5be":  // unique sig
 cleanup __amd64 BoarderDrone *CrewMemberFactory::CreateBoarderDrone(CrewMemberFactory *this, int iShipId, DroneBlueprint *blueprint); // 00491a20
@@ -24,15 +24,15 @@ cleanup __amd64 BoarderDrone *CrewMemberFactory::CreateBoarderDrone(CrewMemberFa
 cleanup __amd64 BattleDrone *CrewMemberFactory::CreateBattleDrone(CrewMemberFactory *this, int iShipId, DroneBlueprint *blueprint); // 00491cf0
 ".4157415641554989fd41544189d4":  // unique sig
 cleanup __amd64 void CrewMemberFactory::GetCloneReadyList(CrewMemberFactory *this, std::vector<CrewMember*> *retList, bool player); // 00491f90
-".41570f57c949":  // unique sig
+".41570f57c94989d7":  // unique sig
 cleanup __amd64 RepairDrone *CrewMemberFactory::CreateRepairDrone(CrewMemberFactory *this, int iShipId, DroneBlueprint *blueprint); // 004921f0
-".4157415641554989f54154554889fd534889":  // unique sig
+".4157415641554989f54154554889fd534889d34883ec68":  // unique sig
 cleanup __amd64 std::pair<std::string, bool> CrewMemberFactory::GetRandomFriendlyName(CrewMemberFactory *this, string *race); // 00492470
 ".415631d2415549":  // unique sig
 cleanup __amd64 std::vector<std::string> *CrewMemberFactory::GetCrewNames(CrewMemberFactory *this); // 00492890
 ".415741564155415455534889fb4881ecb800000048":  // unique sig
 cleanup __amd64 void CrewMemberFactory::OnLoop(CrewMemberFactory *this); // 004929d0
-".415431c0554889fd53488b":  // unique sig
+"!.415431c0554889fd53488b":  // unique sig
 cleanup __amd64 void CrewMemberFactory::RemoveExcessCrew(CrewMemberFactory *this); // 00493190
 ".415741564189ce41554189d5415449":  // unique sig
 cleanup __amd64 CrewMember *CrewMemberFactory::CreateCrewmember(CrewMemberFactory *this, CrewBlueprint *blueprint, int shipId, bool intruder); // 00493290

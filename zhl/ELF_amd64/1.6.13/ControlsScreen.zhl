@@ -8,15 +8,15 @@ cleanup __amd64 void ControlsScreen::OnLanguageChange(ControlsScreen *this); // 
 cleanup __amd64 void ControlsScreen::OnLoop(ControlsScreen *this); // 00544dd0
 ".41574156415541544989fc55534881ece8":  // unique sig
 cleanup __amd64 void ControlsScreen::OnInit(ControlsScreen *this); // 00547ac0
-".41564989fe41554154555389":  // unique sig
+".41564989fe41554154555389f34883ec30":  // unique sig
 cleanup __amd64 bool ControlsScreen::KeyDown(ControlsScreen *this, SDLKey sym); // 005489f0
-".415741564155415455534889fb4881ec1802":  // unique sig
+".415741564155415455534889fb4881ec1802000080bf70":  // unique sig
 cleanup __amd64 void ControlsScreen::OnRender(ControlsScreen *this); // 00548f40
 ".415641be04":  // unique sig
 cleanup __amd64 void ControlsScreen::MouseMove(ControlsScreen *this, int mX, int mY); // 00549f90
 ".4154555380bf70":  // unique sig
 cleanup __amd64 void ControlsScreen::MouseClick(ControlsScreen *this, int mX, int mY); // 0054a420
-".415741564989fe41554189cd":  // unique sig
+".415741564989fe41554189cd415445":  // unique sig
 cleanup __amd64 void ControlsScreen::OnTouch(ControlsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0054a980
-".4157415641554989fd415455534883ec4848":  // unique sig
+".4157415641554989fd415455534883ec48488b":  // unique sig
 cleanup __amd64 void ControlsScreen::destructor(ControlsScreen *this, int __in_chrg); // 0054b140
