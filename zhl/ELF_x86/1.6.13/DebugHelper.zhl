@@ -1,10 +1,10 @@
 "!5589e557565381ec1c12":  // unique sig
-static cleanup __amd64 void DebugHelper::crit_err_hdlr(int sig_num, siginfo_t *info, void *ucontext); // 08068920
+static cleanup __cdecl void DebugHelper::crit_err_hdlr(int sig_num, siginfo_t *info, void *ucontext); // 08068920
 "!.8b44240483c018":  // unique sig
-cleanup __amd64 void DebugHelper::SetPlayerBlueprint(DebugHelper *this, string *blueprint); // 08068b50
+cleanup __cdecl void DebugHelper::SetPlayerBlueprint(DebugHelper *this, string *blueprint); // 08068b50
 "!.8b44240483c01c":  // unique sig
-cleanup __amd64 void DebugHelper::SetEnemyBlueprint(DebugHelper *this, string *blueprint); // 08068b60
+cleanup __cdecl void DebugHelper::SetEnemyBlueprint(DebugHelper *this, string *blueprint); // 08068b60
 ".8b44240483c02089442404e9????????53":  // unique sig
-cleanup __amd64 void DebugHelper::SetLastEvent(DebugHelper *this, string *event); // 08068b70
+cleanup __cdecl void DebugHelper::SetLastEvent(DebugHelper *this, string *event); // 08068b70
 "5381eca8":  // unique sig
-static cleanup __amd64 void DebugHelper::DebugInit(); // 08068b80
+static cleanup __cdecl void DebugHelper::DebugInit(); // 08068b80

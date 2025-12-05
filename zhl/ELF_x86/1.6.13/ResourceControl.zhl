@@ -1,78 +1,78 @@
 "57565383ec208b5c24308d43":  // unique sig
-cleanup __amd64 void ResourceControl::constructor(ResourceControl *this); // 082130f0
+cleanup __cdecl void ResourceControl::constructor(ResourceControl *this); // 082130f0
 ".b801000000c38d76008dbc270000000083ec5c":  // unique sig
-cleanup __amd64 bool ResourceControl::ShipGlow(ResourceControl *this); // 08213350
+cleanup __cdecl bool ResourceControl::ShipGlow(ResourceControl *this); // 08213350
 ".83ec5c8b4424648b8c24????????85c00f84????????89c285d2f30f1074247cf30f1054":  // unique sig
-cleanup __amd64 void ResourceControl::RenderImage(ResourceControl *this, GL_Texture *image, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08213360
+cleanup __cdecl void ResourceControl::RenderImage(ResourceControl *this, GL_Texture *image, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08213360
 ".83ec5c8b4424648b8c24????????85c00f84????????89c285d2f30f1074247cf30f1064":  // unique sig
-cleanup __amd64 GL_Primitive *ResourceControl::CreateImagePrimitive(ResourceControl *this, GL_Texture *image, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08213460
+cleanup __cdecl GL_Primitive *ResourceControl::CreateImagePrimitive(ResourceControl *this, GL_Texture *image, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08213460
 ".5383ec188b5c24208b442424c783":  // unique sig
-cleanup __amd64 void ResourceControl::OnInit(ResourceControl *this, ImageSwappingMode imageSwappingMode); // 08213560
+cleanup __cdecl void ResourceControl::OnInit(ResourceControl *this, ImageSwappingMode imageSwappingMode); // 08213560
 ".8b442404660f6e":  // unique sig
-cleanup __amd64 void ResourceControl::SetRenderParams(ResourceControl *this, int width, int height, int x, int y); // 082135e0
+cleanup __cdecl void ResourceControl::SetRenderParams(ResourceControl *this, int width, int height, int x, int y); // 082135e0
 ".8b4424048b5424088990b4":  // unique sig
-cleanup __amd64 void ResourceControl::SetRenderParams(ResourceControl *this, int width, int height, int x, int y, GL_FrameBuffer *fb, int fbX, int fbY, int fbW, int fbH); // 08213620
+cleanup __cdecl void ResourceControl::SetRenderParams(ResourceControl *this, int width, int height, int x, int y, GL_FrameBuffer *fb, int fbX, int fbY, int fbW, int fbH); // 08213620
 ".565383ec148b7424208b5e":  // unique sig
-cleanup __amd64 void ResourceControl::OnCleanup(ResourceControl *this); // 08213680
+cleanup __cdecl void ResourceControl::OnCleanup(ResourceControl *this); // 08213680
 ".555731ff565383ec4c8d":  // unique sig
-cleanup __amd64 char *ResourceControl::LoadFile(ResourceControl *this, string *name); // 082136f0
+cleanup __cdecl char *ResourceControl::LoadFile(ResourceControl *this, string *name); // 082136f0
 ".5531ed57565383ec2c8b44":  // unique sig
-cleanup __amd64 char *ResourceControl::LoadFromResourceFile(ResourceControl *this, string *name, int *filesize, string *resourceFile); // 08213820
+cleanup __cdecl char *ResourceControl::LoadFromResourceFile(ResourceControl *this, string *name, int *filesize, string *resourceFile); // 08213820
 ".f3c38db426000000008dbc27000000005589e557565383ec2c8b75088d":  // unique sig
-cleanup __amd64 void ResourceControl::OnLanguageChange(ResourceControl *this); // 082138f0
+cleanup __cdecl void ResourceControl::OnLanguageChange(ResourceControl *this); // 082138f0
 ".5589e557565383ec2c8b75088d45":  // unique sig
-cleanup __amd64 void ResourceControl::destructor(ResourceControl *this); // 08213900
+cleanup __cdecl void ResourceControl::destructor(ResourceControl *this); // 08213900
 ".5589e557565383ec4c8b550c8b5d":  // unique sig
-cleanup __amd64 void ResourceControl::UnloadImage(ResourceControl *this, string *name); // 08213e80
+cleanup __cdecl void ResourceControl::UnloadImage(ResourceControl *this, string *name); // 08213e80
 ".5557565381ecac05":  // unique sig
-cleanup __amd64 void ResourceControl::ParseAtlas(ResourceControl *this, char *buffer, int size, string *physName); // 082140f0
+cleanup __cdecl void ResourceControl::ParseAtlas(ResourceControl *this, char *buffer, int size, string *physName); // 082140f0
 ".5531d257565383ec1c":  // unique sig
-cleanup __amd64 ImageDesc *ResourceControl::GetImageData(ResourceControl *this, GL_Texture *image); // 082148c0
+cleanup __cdecl ImageDesc *ResourceControl::GetImageData(ResourceControl *this, GL_Texture *image); // 082148c0
 ".5531ed57565383ec2c8b5c24408b54":  // unique sig
-cleanup __amd64 GL_Texture *ResourceControl::LoadImage(ResourceControl *this, string *path); // 08214990
+cleanup __cdecl GL_Texture *ResourceControl::LoadImage(ResourceControl *this, string *path); // 08214990
 ".5589e557565383ec5c8b7d088b9f":  // unique sig
-cleanup __amd64 void ResourceControl::BindAtlases(ResourceControl *this); // 08214ae0
+cleanup __cdecl void ResourceControl::BindAtlases(ResourceControl *this); // 08214ae0
 ".5589e557565383ec1c8b5d088b750c8d":  // unique sig
-cleanup __amd64 void ResourceControl::EnsureImageLoaded(ResourceControl *this, string *filename); // 08214eb0
+cleanup __cdecl void ResourceControl::EnsureImageLoaded(ResourceControl *this, string *filename); // 08214eb0
 ".5557565383ec2c8b4424488b5c2440":  // unique sig
-cleanup __amd64 bool ResourceControl::BindImage(ResourceControl *this, string *name, int image); // 08214f10
+cleanup __cdecl bool ResourceControl::BindImage(ResourceControl *this, string *name, int image); // 08214f10
 ".5557565383ec2c8b5c24408b8388":  // unique sig
-cleanup __amd64 void ResourceControl::ClearDynamicImages(ResourceControl *this); // 08215010
+cleanup __cdecl void ResourceControl::ClearDynamicImages(ResourceControl *this); // 08215010
 ".57565383ec208b4424388d":  // unique sig
-cleanup __amd64 GL_Texture *ResourceControl::LoadImageFromResourceFile(ResourceControl *this, string *name, string *pathPrefix); // 08215190
+cleanup __cdecl GL_Texture *ResourceControl::LoadImageFromResourceFile(ResourceControl *this, string *name, string *pathPrefix); // 08215190
 ".5589e557565383ec4c8b7d0c8d5dd88b7508c745d8????????8b078b40f4891c2483c00489442404e8????????c744240804000000c7442404????????891c24e8????????897c24048d":  // unique sig
-cleanup __amd64 bool ResourceControl::ImageExists(ResourceControl *this, string *name); // 08215280
+cleanup __cdecl bool ResourceControl::ImageExists(ResourceControl *this, string *name); // 08215280
 ".5589e557565383ec5c8d":  // unique sig
-cleanup __amd64 GL_Texture *ResourceControl::GetImageId(ResourceControl *this, string *name); // 08215390
+cleanup __cdecl GL_Texture *ResourceControl::GetImageId(ResourceControl *this, string *name); // 08215390
 ".5589e557565383ec4c8b7d0c8d5dd88b7508c745d8????????8b078b40f4891c2483c00489442404e8????????c744240804000000c7442404????????891c24e8????????897c240489":  // unique sig
-cleanup __amd64 GL_Texture *ResourceControl::GetShipImageId(ResourceControl *this, string *name); // 082157c0
+cleanup __cdecl GL_Texture *ResourceControl::GetShipImageId(ResourceControl *this, string *name); // 082157c0
 ".5383ec588b4424648b9c24????????894424048b442460890424e8????????f30f104c2474f30f10442478f30f1054247c85c00f84????????89c285d2f30f2a5c":  // unique sig
-cleanup __amd64 void ResourceControl::RenderImage(ResourceControl *this, string *imageName, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08215a50
+cleanup __cdecl void ResourceControl::RenderImage(ResourceControl *this, string *imageName, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08215a50
 ".5383ec588b4424648b9c24????????894424048b442460890424e8????????f30f104c2474f30f10442478f30f1054247c85c00f84????????89c285d2f30f2a6c":  // unique sig
-cleanup __amd64 GL_Primitive *ResourceControl::CreateImagePrimitive(ResourceControl *this, string *imageName, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08215b60
+cleanup __cdecl GL_Primitive *ResourceControl::CreateImagePrimitive(ResourceControl *this, string *imageName, int x, int y, int rotation, GL_Color color, float alpha, bool mirror); // 08215b60
 ".5557565381ec8c0000008b9c24????????8d6c":  // unique sig
-cleanup __amd64 void ResourceControl::RenderLoadingBar(ResourceControl *this, float initialProgress, float finalProgress); // 08215c70
+cleanup __cdecl void ResourceControl::RenderLoadingBar(ResourceControl *this, float initialProgress, float finalProgress); // 08215c70
 "!.57565383ec208b5c2430f3":  // unique sig
-cleanup __amd64 void ResourceControl::RenderLoadingBarFrame(ResourceControl *this, float initialProgress, float finalProgress); // 082161e0
+cleanup __cdecl void ResourceControl::RenderLoadingBarFrame(ResourceControl *this, float initialProgress, float finalProgress); // 082161e0
 ".5557565383ec3c8b7c24508b87":  // unique sig
-cleanup __amd64 void ResourceControl::LoadShipsFinish(ResourceControl *this); // 08216480
+cleanup __cdecl void ResourceControl::LoadShipsFinish(ResourceControl *this); // 08216480
 ".5383ec288b5c24348d43fb":  // unique sig
-cleanup __amd64 font_data *ResourceControl::GetJapaneseFont(ResourceControl *this, int size); // 08216600
+cleanup __cdecl font_data *ResourceControl::GetJapaneseFont(ResourceControl *this, int size); // 08216600
 ".5383ec288b5c24348d43c2":  // unique sig
-cleanup __amd64 font_data *ResourceControl::GetChineseFont(ResourceControl *this, int size); // 08216ef0
+cleanup __cdecl font_data *ResourceControl::GetChineseFont(ResourceControl *this, int size); // 08216ef0
 ".5557565383ec7c8bb424????????c7":  // unique sig
-cleanup __amd64 void ResourceControl::PreloadFont(ResourceControl *this, void *buffer, int size, string *font); // 082174a0
+cleanup __cdecl void ResourceControl::PreloadFont(ResourceControl *this, void *buffer, int size, string *font); // 082174a0
 ".5557565383ec4c8b4424648b5c24608b4c2468":  // unique sig
-cleanup __amd64 font_data *ResourceControl::GetFontData(ResourceControl *this, int size, bool ignoreLanguage); // 08218650
+cleanup __cdecl font_data *ResourceControl::GetFontData(ResourceControl *this, int size, bool ignoreLanguage); // 08218650
 ".5557565383ec7c8b9c24????????0f":  // unique sig
-cleanup __amd64 void ResourceControl::LoadShipList(ResourceControl *this, std::vector<std::string> *imagesToLoad, bool displayLoadingBar); // 082188d0
+cleanup __cdecl void ResourceControl::LoadShipList(ResourceControl *this, std::vector<std::string> *imagesToLoad, bool displayLoadingBar); // 082188d0
 ".5589e557565383ec4c8b7d088b57":  // unique sig
-cleanup __amd64 void ResourceControl::LoadPlayerShips(ResourceControl *this); // 08218f60
+cleanup __cdecl void ResourceControl::LoadPlayerShips(ResourceControl *this); // 08218f60
 ".5557565383ec6c8b9c24????????c7":  // unique sig
-cleanup __amd64 void ResourceControl::LoadText(ResourceControl *this); // 082191b0
+cleanup __cdecl void ResourceControl::LoadText(ResourceControl *this); // 082191b0
 ".5557565381ec8c0000000f":  // unique sig
-cleanup __amd64 bool ResourceControl::PreloadResources(ResourceControl *this, bool preloadPlayerShips); // 08219570
+cleanup __cdecl bool ResourceControl::PreloadResources(ResourceControl *this, bool preloadPlayerShips); // 08219570
 ".5589e557565383ec5c8b5d088b4b":  // unique sig
-cleanup __amd64 void ResourceControl::LoadEnemyShips(ResourceControl *this, string *playerShip); // 0821a6e0
+cleanup __cdecl void ResourceControl::LoadEnemyShips(ResourceControl *this, string *playerShip); // 0821a6e0
 ".5589e557565383ec5c8b5d088b4510":  // unique sig
-cleanup __amd64 void ResourceControl::LoadShipsStart(ResourceControl *this, std::vector<std::string> *shipImages, bool clear); // 0821ac50
+cleanup __cdecl void ResourceControl::LoadShipsStart(ResourceControl *this, std::vector<std::string> *shipImages, bool clear); // 0821ac50

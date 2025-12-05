@@ -1,114 +1,114 @@
 "8b4424088b5424048b4c":  // unique sig
-cleanup __amd64 void CommandGui::SetPaused(CommandGui *this, bool val, bool isAutoPause); // 08144e70
+cleanup __cdecl void CommandGui::SetPaused(CommandGui *this, bool val, bool isAutoPause); // 08144e70
 ".8b4424088b542404888269":  // unique sig
-cleanup __amd64 void CommandGui::SetBossDead(CommandGui *this, bool val); // 08144e90
+cleanup __cdecl void CommandGui::SetBossDead(CommandGui *this, bool val); // 08144e90
 ".5383ec188b5c24208b83b41200008b40088b10890424ff524084c075??80bb3e":  // unique sig
-cleanup __amd64 void CommandGui::SpaceBar(CommandGui *this); // 08144ea0
+cleanup __cdecl void CommandGui::SpaceBar(CommandGui *this); // 08144ea0
 ".5589e557565383ec3c8b4d088d":  // unique sig
-cleanup __amd64 void CommandGui::ExportData(CommandGui *this, int fd); // 08144f00
+cleanup __cdecl void CommandGui::ExportData(CommandGui *this, int fd); // 08144f00
 ".5589e557565383ec2c8b450c89":  // unique sig
-cleanup __amd64 void CommandGui::ImportData(CommandGui *this, int fd); // 08145010
+cleanup __cdecl void CommandGui::ImportData(CommandGui *this, int fd); // 08145010
 ".83ec1c0fb6442428c74424????????00894424088b442424894424048b44242005142d0000890424e8????????83c41cc3908db426000000008dbc270000000083ec1c0fb6442428c74424????????00894424088b442424894424048b44242005142d0000890424e8????????83c41cc3908db426000000008dbc270000000083":  // unique sig
-cleanup __amd64 void CommandGui::AddWeapon(CommandGui *this, WeaponBlueprint *blueprint, bool free); // 08145110
+cleanup __cdecl void CommandGui::AddWeapon(CommandGui *this, WeaponBlueprint *blueprint, bool free); // 08145110
 ".83ec1c0fb6442428c74424????????00894424088b442424894424048b44242005142d0000890424e8????????83c41cc3908db426000000008dbc270000000083ec1c0fb6442428c74424????????00894424088b442424894424048b44242005142d0000890424e8????????83c41cc3908db426000000008dbc270000000053":  // unique sig
-cleanup __amd64 void CommandGui::AddAugment(CommandGui *this, AugmentBlueprint *augment, bool free); // 08145150
+cleanup __cdecl void CommandGui::AddAugment(CommandGui *this, AugmentBlueprint *augment, bool free); // 08145150
 ".83ec1c0fb6442428c74424????????00894424088b442424894424048b44242005142d0000890424e8????????83c41cc3908db426000000008dbc270000000053":  // unique sig
-cleanup __amd64 void CommandGui::AddDrone(CommandGui *this, DroneBlueprint *blueprint, bool free); // 08145190
+cleanup __cdecl void CommandGui::AddDrone(CommandGui *this, DroneBlueprint *blueprint, bool free); // 08145190
 ".5383ec188b5c24208b83b41200008b40088b10890424ff524084c075??81":  // unique sig
-cleanup __amd64 int CommandGui::GetChoice(CommandGui *this); // 081451d0
+cleanup __cdecl int CommandGui::GetChoice(CommandGui *this); // 081451d0
 ".565383ec248b7424348d4424188b":  // unique sig
-cleanup __amd64 void CommandGui::LinkSpace(CommandGui *this, SpaceManager *space); // 08145210
+cleanup __cdecl void CommandGui::LinkSpace(CommandGui *this, SpaceManager *space); // 08145210
 ".5383ec188b5c242080bbbc":  // unique sig
-cleanup __amd64 void CommandGui::ForceJumpComplete(CommandGui *this); // 08145270
+cleanup __cdecl void CommandGui::ForceJumpComplete(CommandGui *this); // 08145270
 ".5383ec188b5c24200fb683bc":  // unique sig
-cleanup __amd64 bool CommandGui::IsJumpComplete(CommandGui *this); // 081452e0
+cleanup __cdecl bool CommandGui::IsJumpComplete(CommandGui *this); // 081452e0
 ".8b5424048b8210":  // unique sig
-cleanup __amd64 Location *CommandGui::GetNewLocation(CommandGui *this); // 08145370
+cleanup __cdecl Location *CommandGui::GetNewLocation(CommandGui *this); // 08145370
 ".5383ec18c70424????????8b5c2420e8????????ba":  // unique sig
-cleanup __amd64 int CommandGui::GetCommand(CommandGui *this); // 08145390
+cleanup __cdecl int CommandGui::GetCommand(CommandGui *this); // 08145390
 ".5589e557565383ec6c8b45088b80":  // unique sig
-cleanup __amd64 void CommandGui::Victory(CommandGui *this); // 08145430
+cleanup __cdecl void CommandGui::Victory(CommandGui *this); // 08145430
 ".8b44240480b8ec":  // unique sig
-cleanup __amd64 void CommandGui::ConfirmUpgrades(CommandGui *this); // 08145760
+cleanup __cdecl void CommandGui::ConfirmUpgrades(CommandGui *this); // 08145760
 ".5589e557565383ec5c8b7d0880":  // unique sig
-cleanup __amd64 void CommandGui::CheckGameover(CommandGui *this); // 08145780
+cleanup __cdecl void CommandGui::CheckGameover(CommandGui *this); // 08145780
 ".5383ec18803d????????008b5c242075??8b83":  // unique sig
-cleanup __amd64 bool CommandGui::IsGameOver(CommandGui *this); // 08145af0
+cleanup __cdecl bool CommandGui::IsGameOver(CommandGui *this); // 08145af0
 ".57565383ec108b7424208b7c242480":  // unique sig
-cleanup __amd64 void CommandGui::KeyUp(CommandGui *this, SDLKey sym); // 08145b70
+cleanup __cdecl void CommandGui::KeyUp(CommandGui *this, SDLKey sym); // 08145b70
 ".8b4424048b54240880b8003400000075??80b84c2500000075??80b8082a00000075??f3c38d760005042a00008954240889442404e9????????8db600000000054825000089442404e9????????66908b":  // unique sig
-cleanup __amd64 void CommandGui::OnTextInput(CommandGui *this, int ch); // 08145c00
+cleanup __cdecl void CommandGui::OnTextInput(CommandGui *this, int ch); // 08145c00
 ".8b4424048b54240880b8003400000075??80b84c2500000075??80b8082a00000075??f3c38d760005042a00008954240889442404e9????????8db600000000054825000089442404e9????????669080":  // unique sig
-cleanup __amd64 void CommandGui::OnTextEvent(CommandGui *this, TextEvent event); // 08145c50
+cleanup __cdecl void CommandGui::OnTextEvent(CommandGui *this, TextEvent event); // 08145c50
 ".807c24080074":  // unique sig
-cleanup __amd64 void CommandGui::SetSecretSector(CommandGui *this, bool secret); // 08145ca0
+cleanup __cdecl void CommandGui::SetSecretSector(CommandGui *this, bool secret); // 08145ca0
 ".83ec1cc70424????????e8????????83c41c83f001c38d76008dbc270000000053":  // unique sig
-cleanup __amd64 bool CommandGui::CanSave(CommandGui *this); // 08145cc0
+cleanup __cdecl bool CommandGui::CanSave(CommandGui *this); // 08145cc0
 ".5383ec188b5c24208b83b41200008b40088b10890424ff524084c075??80bb18":  // unique sig
-cleanup __amd64 bool CommandGui::CanAutoSave(CommandGui *this); // 08145ce0
+cleanup __cdecl bool CommandGui::CanAutoSave(CommandGui *this); // 08145ce0
 ".5557565383ec4c80":  // unique sig
-cleanup __amd64 Pointf CommandGui::UpdateShake(CommandGui *this); // 08145d50
+cleanup __cdecl Pointf CommandGui::UpdateShake(CommandGui *this); // 08145d50
 ".565383ec248b5c24308b74243489":  // unique sig
-cleanup __amd64 void CommandGui::LinkMap(CommandGui *this, StarMap *map); // 08146250
+cleanup __cdecl void CommandGui::LinkMap(CommandGui *this, StarMap *map); // 08146250
 ".5557565381ecbc0000008b8424????????8d74":  // unique sig
-cleanup __amd64 void CommandGui::OnInit(CommandGui *this); // 081462d0
+cleanup __cdecl void CommandGui::OnInit(CommandGui *this); // 081462d0
 "!.565383ec148b7424208b8e84":  // unique sig
-cleanup __amd64 void CommandGui::OnCleanup(CommandGui *this); // 08146750
+cleanup __cdecl void CommandGui::OnCleanup(CommandGui *this); // 08146750
 ".5557565383ec3c8b5c24508d7c24208b7424548d":  // unique sig
-cleanup __amd64 void CommandGui::AddEnemyShip(CommandGui *this, CompleteShip *ship); // 081467e0
+cleanup __cdecl void CommandGui::AddEnemyShip(CommandGui *this, CompleteShip *ship); // 081467e0
 ".5383ec188b5c24208b83b41200008b40088b88":  // unique sig
-cleanup __amd64 void CommandGui::ClearLocation(CommandGui *this); // 08146990
+cleanup __cdecl void CommandGui::ClearLocation(CommandGui *this); // 08146990
 ".5557565381ec0c0100008b9c24????????8d44":  // unique sig
-cleanup __amd64 void CommandGui::LinkShip(CommandGui *this, CompleteShip *ship); // 08146a30
+cleanup __cdecl void CommandGui::LinkShip(CommandGui *this, CompleteShip *ship); // 08146a30
 ".8b542404b80100000080ba":  // unique sig
-cleanup __amd64 bool CommandGui::IsPaused(CommandGui *this); // 081471e0
+cleanup __cdecl bool CommandGui::IsPaused(CommandGui *this); // 081471e0
 ".5589e557565381ec9c0000008b5d0880":  // unique sig
-cleanup __amd64 void CommandGui::RenderPause(CommandGui *this); // 08147200
+cleanup __cdecl void CommandGui::RenderPause(CommandGui *this); // 08147200
 ".5589e557565383ec3c8b5d18":  // unique sig
-cleanup __amd64 Point CommandGui::GetWorldCoordinates(CommandGui *this, Point screen, bool forEnemyShip); // 08147810
+cleanup __cdecl Point CommandGui::GetWorldCoordinates(CommandGui *this, Point screen, bool forEnemyShip); // 08147810
 ".565383ec248b7424348d44241089":  // unique sig
-cleanup __amd64 void CommandGui::RenderPlayerShip(CommandGui *this, Point *shipCenter, float jumpScale); // 081478c0
+cleanup __cdecl void CommandGui::RenderPlayerShip(CommandGui *this, Point *shipCenter, float jumpScale); // 081478c0
 ".5557565383ec2c8b7424408b44244c":  // unique sig
-cleanup __amd64 void CommandGui::LButtonUp(CommandGui *this, int mX, int mY, bool shift); // 08147a00
+cleanup __cdecl void CommandGui::LButtonUp(CommandGui *this, int mX, int mY, bool shift); // 08147a00
 ".5557565383ec2c8b5c24408b44244c":  // unique sig
-cleanup __amd64 void CommandGui::RButtonDown(CommandGui *this, int mX, int mY, bool shift); // 08147ad0
+cleanup __cdecl void CommandGui::RButtonDown(CommandGui *this, int mX, int mY, bool shift); // 08147ad0
 ".f3c38db426000000008dbc270000000057565383ec108b74":  // unique sig
-cleanup __amd64 void CommandGui::RButtonUp(CommandGui *this, int mX, int mY, bool shift); // 08147bd0
+cleanup __cdecl void CommandGui::RButtonUp(CommandGui *this, int mX, int mY, bool shift); // 08147bd0
 ".57565383ec108b7424248b5c24208dbe":  // unique sig
-cleanup __amd64 std::pair<std::string, int> CommandGui::LoadEvent(CommandGui *this); // 08147be0
+cleanup __cdecl std::pair<std::string, int> CommandGui::LoadEvent(CommandGui *this); // 08147be0
 ".8b442404c68050":  // unique sig
-cleanup __amd64 void CommandGui::ClearWriteError(CommandGui *this); // 08147c40
+cleanup __cdecl void CommandGui::ClearWriteError(CommandGui *this); // 08147c40
 ".5589e557565381ecac0000008b5d0880bb50":  // unique sig
-cleanup __amd64 void CommandGui::ShowWriteError(CommandGui *this); // 08147c50
+cleanup __cdecl void CommandGui::ShowWriteError(CommandGui *this); // 08147c50
 ".5557565381ec7c0100008bbc":  // unique sig
-cleanup __amd64 void CommandGui::NewLocation(CommandGui *this, string *mainText, std::vector<ChoiceText> *choices, ResourceEvent *resources, bool testing_events); // 08148040
+cleanup __cdecl void CommandGui::NewLocation(CommandGui *this, string *mainText, std::vector<ChoiceText> *choices, ResourceEvent *resources, bool testing_events); // 08148040
 ".5557565383ec1c8b5c24308b742434c74424????????008b6c":  // unique sig
-cleanup __amd64 void CommandGui::SetStore(CommandGui *this, Store *store, bool bOpen); // 08148580
+cleanup __cdecl void CommandGui::SetStore(CommandGui *this, Store *store, bool bOpen); // 08148580
 ".5589e557565331db81ec8c":  // unique sig
-cleanup __amd64 void CommandGui::RunCommand(CommandGui *this, string *command); // 08148610
+cleanup __cdecl void CommandGui::RunCommand(CommandGui *this, string *command); // 08148610
 ".5589e5565383ec308b75":  // unique sig
-cleanup __amd64 void CommandGui::CheckCommandPrompt(CommandGui *this); // 08149720
+cleanup __cdecl void CommandGui::CheckCommandPrompt(CommandGui *this); // 08149720
 ".5557565383ec2cc70424a4":  // unique sig
-cleanup __amd64 Store *CommandGui::CreateNewStore(CommandGui *this, int sectorLevel); // 081497b0
+cleanup __cdecl Store *CommandGui::CreateNewStore(CommandGui *this, int sectorLevel); // 081497b0
 ".5557565383ec1c8b5c24308db3":  // unique sig
-cleanup __amd64 void CommandGui::Restart(CommandGui *this); // 081498d0
+cleanup __cdecl void CommandGui::Restart(CommandGui *this); // 081498d0
 ".e9????????908d76008dbc27000000005589e557565383ec4c8b5d":  // unique sig
-cleanup __amd64 void CommandGui::Close(CommandGui *this); // 08149a60
+cleanup __cdecl void CommandGui::Close(CommandGui *this); // 08149a60
 "5589e557565383ec4c8b5d088b4510":  // unique sig
-cleanup __amd64 void CommandGui::KeyDown(CommandGui *this, SDLKey sym, bool bShift); // 08149a70
+cleanup __cdecl void CommandGui::KeyDown(CommandGui *this, SDLKey sym, bool bShift); // 08149a70
 ".5589e557565383ec7c8b5d08803d":  // unique sig
-cleanup __amd64 void CommandGui::RenderStatic(CommandGui *this); // 0814a350
+cleanup __cdecl void CommandGui::RenderStatic(CommandGui *this); // 0814a350
 ".5589e557565383ec3c8b5d088b7514":  // unique sig
-cleanup __amd64 void CommandGui::LButtonDown(CommandGui *this, int mX, int mY, bool shift); // 0814acb0
+cleanup __cdecl void CommandGui::LButtonDown(CommandGui *this, int mX, int mY, bool shift); // 0814acb0
 ".5589e557565383ec6c8b5d088b750c8b45":  // unique sig
-cleanup __amd64 void CommandGui::MouseMove(CommandGui *this, int mX, int mY); // 0814b050
+cleanup __cdecl void CommandGui::MouseMove(CommandGui *this, int mX, int mY); // 0814b050
 ".5589e557565383ec5c8b5d0880bb00":  // unique sig
-cleanup __amd64 void CommandGui::OnLoop(CommandGui *this); // 0814b6b0
+cleanup __cdecl void CommandGui::OnLoop(CommandGui *this); // 0814b6b0
 ".5589e557565383ec6c8b750c8b7d":  // unique sig
-cleanup __amd64 void CommandGui::OnTouch(CommandGui *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0814bf50
+cleanup __cdecl void CommandGui::OnTouch(CommandGui *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0814bf50
 ".5589e557565381ecec0000008b4508":  // unique sig
-cleanup __amd64 void CommandGui::OnLanguageChange(CommandGui *this); // 0814ca10
+cleanup __cdecl void CommandGui::OnLanguageChange(CommandGui *this); // 0814ca10
 ".5557565381ec8c0000008b9c24????????8d74":  // unique sig
-cleanup __amd64 void CommandGui::constructor(CommandGui *this); // 0814d090
+cleanup __cdecl void CommandGui::constructor(CommandGui *this); // 0814d090
 ".5557565383ec2c8b5c2440891c":  // unique sig
-cleanup __amd64 void CommandGui::destructor(CommandGui *this); // 0814dd50
+cleanup __cdecl void CommandGui::destructor(CommandGui *this); // 0814dd50

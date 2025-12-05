@@ -1,26 +1,26 @@
 "8b442404c780a4":  // unique sig
-cleanup __amd64 void MenuScreen::OnLoop(MenuScreen *this); // 08188300
+cleanup __cdecl void MenuScreen::OnLoop(MenuScreen *this); // 08188300
 ".8b5424040fb6825c":  // unique sig
-cleanup __amd64 bool MenuScreen::KeyDown(MenuScreen *this, SDLKey sym); // 08188310
+cleanup __cdecl bool MenuScreen::KeyDown(MenuScreen *this, SDLKey sym); // 08188310
 ".5589e557565381ec9c0000008b75088b56":  // unique sig
-cleanup __amd64 void MenuScreen::OnLanguageChange(MenuScreen *this); // 081887c0
+cleanup __cdecl void MenuScreen::OnLanguageChange(MenuScreen *this); // 081887c0
 ".8b4424048b5424088b8058":  // unique sig
-cleanup __amd64 void MenuScreen::SetSaveEnabled(MenuScreen *this, bool val); // 08189660
+cleanup __cdecl void MenuScreen::SetSaveEnabled(MenuScreen *this, bool val); // 08189660
 ".5383ec188b5c24208b4334":  // unique sig
-cleanup __amd64 int MenuScreen::GetCommand(MenuScreen *this); // 08189690
+cleanup __cdecl int MenuScreen::GetCommand(MenuScreen *this); // 08189690
 ".5557565381ec0c0100008b9c24????????8db4":  // unique sig
-cleanup __amd64 void MenuScreen::constructor(MenuScreen *this); // 081896e0
+cleanup __cdecl void MenuScreen::constructor(MenuScreen *this); // 081896e0
 ".565331db83ec248b74":  // unique sig
-cleanup __amd64 void MenuScreen::destructor(MenuScreen *this); // 0818acc0
+cleanup __cdecl void MenuScreen::destructor(MenuScreen *this); // 0818acc0
 ".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905589e557565381ecbc":  // unique sig
-cleanup __amd64 void MenuScreen::destructor(MenuScreen *this); // 0818af30
+cleanup __cdecl void MenuScreen::destructor(MenuScreen *this); // 0818af30
 "5589e557565381ecbc0000008b5d0880bb5c":  // unique sig
-cleanup __amd64 void MenuScreen::OnRender(MenuScreen *this); // 0818af50
+cleanup __cdecl void MenuScreen::OnRender(MenuScreen *this); // 0818af50
 ".5589e557565383ec3c8b5d088b7d":  // unique sig
-cleanup __amd64 void MenuScreen::MouseMove(MenuScreen *this, int mX, int mY); // 0818bfa0
+cleanup __cdecl void MenuScreen::MouseMove(MenuScreen *this, int mX, int mY); // 0818bfa0
 ".5557565383ec1c8b7c243080":  // unique sig
-cleanup __amd64 void MenuScreen::MouseClick(MenuScreen *this, int mX, int mY); // 0818c220
+cleanup __cdecl void MenuScreen::MouseClick(MenuScreen *this, int mX, int mY); // 0818c220
 "!.5557565383ec4c8b442464c7":  // unique sig
-cleanup __amd64 void MenuScreen::OnTouch(MenuScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0818c310
+cleanup __cdecl void MenuScreen::OnTouch(MenuScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0818c310
 ".5589e557565383ec4c8b7d088d75":  // unique sig
-cleanup __amd64 void MenuScreen::Open(MenuScreen *this); // 0818c5c0
+cleanup __cdecl void MenuScreen::Open(MenuScreen *this); // 0818c5c0

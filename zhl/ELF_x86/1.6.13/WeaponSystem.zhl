@@ -1,60 +1,60 @@
 "8b4424048b5424088990e4":  // unique sig
-cleanup __amd64 void WeaponSystem::ForceBatteryPower(WeaponSystem *this, int val); // 082af6b0
+cleanup __cdecl void WeaponSystem::ForceBatteryPower(WeaponSystem *this, int val); // 082af6b0
 "!.565331db83ec148b7424208b8eb00100008b96ac010000c706????????c74608????????89c829d0c1f80285c074??908b049a85c074??8b10890424ff52048b96ac0100008b8eb001000089c883c30129d0c1f80239c372??8b86e801000085c074??890424e8????????8b86cc01000085c074??890424e8????????8b86ac01000085c074??890424e8????????8b86a001000085c074??890424e8????????8974":  // unique sig
-cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this); // 082af6d0
+cleanup __cdecl void WeaponSystem::destructor(WeaponSystem *this); // 082af6d0
 ".5383ec188b5c2420891c24e8????????8b83a0":  // unique sig
-cleanup __amd64 void WeaponSystem::Restart(WeaponSystem *this); // 082af790
+cleanup __cdecl void WeaponSystem::Restart(WeaponSystem *this); // 082af790
 ".565331db83ec148b7424208b96a00100008b86a401000029d0c1f80285c074??c7":  // unique sig
-cleanup __amd64 void WeaponSystem::ShipDestroyed(WeaponSystem *this); // 082af7c0
+cleanup __cdecl void WeaponSystem::ShipDestroyed(WeaponSystem *this); // 082af7c0
 ".5789cf5689c65389d383ec10":  // unique sig
-cleanup __amd64 bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 082af820
+cleanup __cdecl bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 082af820
 ".5557565383ec1c8b7424308b86":  // unique sig
-cleanup __amd64 void WeaponSystem::RemoveBatteryPower(WeaponSystem *this); // 082af900
+cleanup __cdecl void WeaponSystem::RemoveBatteryPower(WeaponSystem *this); // 082af900
 ".5557565383ec3c8b5c24508b83a4":  // unique sig
-cleanup __amd64 void WeaponSystem::Jump(WeaponSystem *this); // 082afed0
+cleanup __cdecl void WeaponSystem::Jump(WeaponSystem *this); // 082afed0
 ".5557565383ec1c8b7424308b4424342986ec00000031c08b96ec00000085d20f4986ec0000008986ec000000893424e8????????8b96480100008bbe":  // unique sig
-cleanup __amd64 void WeaponSystem::AddDamage(WeaponSystem *this, int amount); // 082b0020
+cleanup __cdecl void WeaponSystem::AddDamage(WeaponSystem *this, int amount); // 082b0020
 "!.5557565383ec1c8b74243089":  // unique sig
-cleanup __amd64 void WeaponSystem::CheckMaxPower(WeaponSystem *this); // 082b0120
+cleanup __cdecl void WeaponSystem::CheckMaxPower(WeaponSystem *this); // 082b0120
 ".5557565383ec1c8b6c24308b85":  // unique sig
-cleanup __amd64 bool WeaponSystem::ForceDecreasePower(WeaponSystem *this, int amount); // 082b0200
+cleanup __cdecl bool WeaponSystem::ForceDecreasePower(WeaponSystem *this, int amount); // 082b0200
 ".5557565331db83ec1c8b7c24308b8fa4":  // unique sig
-cleanup __amd64 bool WeaponSystem::ForceIncreasePower(WeaponSystem *this, int amount); // 082b02d0
+cleanup __cdecl bool WeaponSystem::ForceIncreasePower(WeaponSystem *this, int amount); // 082b02d0
 "!.565331db83ec148b7424208b8eb00100008b96ac010000c706????????c74608????????89c829d0c1f80285c074??908b049a85c074??8b10890424ff52048b96ac0100008b8eb001000089c883c30129d0c1f80239c372??8b86e801000085c074??890424e8????????8b86cc01000085c074??890424e8????????8b86ac01000085c074??890424e8????????8b86a001000085c074??890424e8????????8934":  // unique sig
-cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this); // 082b0400
+cleanup __cdecl void WeaponSystem::destructor(WeaponSystem *this); // 082b0400
 ".5557565383ec2c8b44244c8b7424508b5c2440c744240403":  // unique sig
-cleanup __amd64 void WeaponSystem::constructor(WeaponSystem *this, int roomId, int shipId, int starting_power, int slot_count); // 082b04d0
+cleanup __cdecl void WeaponSystem::constructor(WeaponSystem *this, int roomId, int shipId, int starting_power, int slot_count); // 082b04d0
 ".538b4c240c31c08b54240885c978??8b9aa00100008b92a401000029dac1fa0239d17d??8b048b8b":  // unique sig
-cleanup __amd64 int WeaponSystem::GetWeaponValue(WeaponSystem *this, int slot); // 082b06c0
+cleanup __cdecl int WeaponSystem::GetWeaponValue(WeaponSystem *this, int slot); // 082b06c0
 ".5531c057565383ec2c8b7c":  // unique sig
-cleanup __amd64 ProjectileFactory *WeaponSystem::RemoveWeapon(WeaponSystem *this, int slot); // 082b06f0
+cleanup __cdecl ProjectileFactory *WeaponSystem::RemoveWeapon(WeaponSystem *this, int slot); // 082b06f0
 ".5383ec048b44240c":  // unique sig
-cleanup __amd64 float WeaponSystem::GetMaxCooldown(WeaponSystem *this); // 082b0870
+cleanup __cdecl float WeaponSystem::GetMaxCooldown(WeaponSystem *this); // 082b0870
 ".56538b5424108b4c240c85d278??8b99a0":  // unique sig
-cleanup __amd64 void WeaponSystem::SwapWeapons(WeaponSystem *this, int slot1, int slot2); // 082b08c0
+cleanup __cdecl void WeaponSystem::SwapWeapons(WeaponSystem *this, int slot1, int slot2); // 082b08c0
 ".5557565383ec2c8b6c2440c74424????????008b8548":  // unique sig
-cleanup __amd64 void WeaponSystem::UpdateBonusPower(WeaponSystem *this); // 082b0910
+cleanup __cdecl void WeaponSystem::UpdateBonusPower(WeaponSystem *this); // 082b0910
 ".565383ec148b5c24208b742424891c24e8????????39f00f4ef089b348010000895c242083c4145b5ee9????????669055":  // unique sig
-cleanup __amd64 void WeaponSystem::SetBonusPower(WeaponSystem *this, int bonus, int permanentBonus); // 082b0b70
+cleanup __cdecl void WeaponSystem::SetBonusPower(WeaponSystem *this, int bonus, int permanentBonus); // 082b0b70
 "5557565383ec3c8b6c2450892c24e8????????8b":  // unique sig
-cleanup __amd64 void WeaponSystem::OnLoop(WeaponSystem *this); // 082b0ba0
+cleanup __cdecl void WeaponSystem::OnLoop(WeaponSystem *this); // 082b0ba0
 ".83ec1c8b442420890424e8????????c704":  // unique sig
-cleanup __amd64 float WeaponSystem::GetCooldownModifier(WeaponSystem *this); // 082b0f30
+cleanup __cdecl float WeaponSystem::GetCooldownModifier(WeaponSystem *this); // 082b0f30
 ".538b4c240c31c08b54240885c978??8b9aa00100008b92a401000029dac1fa0239d17d??8b048b5b":  // unique sig
-cleanup __amd64 ProjectileFactory *WeaponSystem::GetWeapon(WeaponSystem *this, int slot); // 082b0f60
+cleanup __cdecl ProjectileFactory *WeaponSystem::GetWeapon(WeaponSystem *this, int slot); // 082b0f60
 ".8b4424048b5424080190c0":  // unique sig
-cleanup __amd64 void WeaponSystem::ModifyMissileCount(WeaponSystem *this, int amount); // 082b0f90
+cleanup __cdecl void WeaponSystem::ModifyMissileCount(WeaponSystem *this, int amount); // 082b0f90
 ".5557565383ec1c8b7424308b5c24348b6c":  // unique sig
-cleanup __amd64 bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 082b0fc0
+cleanup __cdecl bool WeaponSystem::PowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven, bool force); // 082b0fc0
 ".5557565383ec1c8b7424348b5c24308b44":  // unique sig
-cleanup __amd64 bool WeaponSystem::DePowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven); // 082b1120
+cleanup __cdecl bool WeaponSystem::DePowerWeapon(WeaponSystem *this, ProjectileFactory *weapon, bool userDriven); // 082b1120
 ".565331db83ec148b7424208b96a00100008b86a401000029d0c1f80285c074??8b":  // unique sig
-cleanup __amd64 void WeaponSystem::ChargeAll(WeaponSystem *this); // 082b11f0
+cleanup __cdecl void WeaponSystem::ChargeAll(WeaponSystem *this); // 082b11f0
 ".8b5424088b4424048990c8":  // unique sig
-cleanup __amd64 void WeaponSystem::SetCloakingSystem(WeaponSystem *this, CloakingSystem *cloaking); // 082b1240
+cleanup __cdecl void WeaponSystem::SetCloakingSystem(WeaponSystem *this, CloakingSystem *cloaking); // 082b1240
 ".565383ec148b7424208b06":  // unique sig
-cleanup __amd64 Projectile *WeaponSystem::GetPreparedProjectile(WeaponSystem *this); // 082b1250
+cleanup __cdecl Projectile *WeaponSystem::GetPreparedProjectile(WeaponSystem *this); // 082b1250
 ".5557565383ec2c8b4424448d":  // unique sig
-cleanup __amd64 ProjectileFactory *WeaponSystem::AddWeapon(WeaponSystem *this, ProjectileFactory *weapon, int slot); // 082b12c0
+cleanup __cdecl ProjectileFactory *WeaponSystem::AddWeapon(WeaponSystem *this, ProjectileFactory *weapon, int slot); // 082b12c0
 ".5557565383ec4c8b4424648d74":  // unique sig
-cleanup __amd64 int WeaponSystem::AddWeapon(WeaponSystem *this, WeaponBlueprint *blueprint, int slot); // 082b14d0
+cleanup __cdecl int WeaponSystem::AddWeapon(WeaponSystem *this, WeaponBlueprint *blueprint, int slot); // 082b14d0

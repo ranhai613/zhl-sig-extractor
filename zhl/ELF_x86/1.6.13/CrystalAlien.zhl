@@ -1,34 +1,34 @@
 "565383ec148b7424208b5c2424893424895c2404e8????????f30f108640":  // unique sig
-cleanup __amd64 void CrystalAlien::SaveState(CrystalAlien *this, int fd); // 080caf50
+cleanup __cdecl void CrystalAlien::SaveState(CrystalAlien *this, int fd); // 080caf50
 ".565383ec148b5c24208b742424891c2489742404e8????????893424e8????????d95c240c8b44240c898340":  // unique sig
-cleanup __amd64 void CrystalAlien::LoadState(CrystalAlien *this, int fd); // 080cc250
+cleanup __cdecl void CrystalAlien::LoadState(CrystalAlien *this, int fd); // 080cc250
 ".5383ec188b5c2420891c24e8????????c704":  // unique sig
-cleanup __amd64 void CrystalAlien::OnLoop(CrystalAlien *this); // 080d2e40
+cleanup __cdecl void CrystalAlien::OnLoop(CrystalAlien *this); // 080d2e40
 ".5589e557565381ecfc0000008b5d08f3":  // unique sig
-cleanup __amd64 void CrystalAlien::ActivatePower(CrystalAlien *this); // 080d4cd0
+cleanup __cdecl void CrystalAlien::ActivatePower(CrystalAlien *this); // 080d4cd0
 ".5557565383ec5c8b44247c8d6c":  // unique sig
-cleanup __amd64 void CrystalAlien::constructor(CrystalAlien *this, CrewBlueprint *blueprint, int shipId, bool intruder); // 080d8b40
+cleanup __cdecl void CrystalAlien::constructor(CrystalAlien *this, CrewBlueprint *blueprint, int shipId, bool intruder); // 080d8b40
 ".b87d000000c366":  // unique sig
-cleanup __amd64 int CrystalAlien::GetMaxHealth(CrystalAlien *this); // 080da310
+cleanup __cdecl int CrystalAlien::GetMaxHealth(CrystalAlien *this); // 080da310
 ".d905????????c366906690669066909031c0c366906690669066906690669090d9e8":  // unique sig
-cleanup __amd64 float CrystalAlien::GetMoveSpeedMultipler(CrystalAlien *this); // 080da320
+cleanup __cdecl float CrystalAlien::GetMoveSpeedMultipler(CrystalAlien *this); // 080da320
 ".31c0c366906690669066906690669090d9e8":  // unique sig
-cleanup __amd64 bool CrystalAlien::FireFightingSoundEffect(CrystalAlien *this); // 080da330
+cleanup __cdecl bool CrystalAlien::FireFightingSoundEffect(CrystalAlien *this); // 080da330
 ".d9e8c3669066906690669066906690908b":  // unique sig
-cleanup __amd64 float CrystalAlien::GetFireRepairMultiplier(CrystalAlien *this); // 080da340
+cleanup __cdecl float CrystalAlien::GetFireRepairMultiplier(CrystalAlien *this); // 080da340
 ".8b5424088b4424048b8a44":  // unique sig
-cleanup __amd64 std::pair<float, float> CrystalAlien::GetPowerCooldown(CrystalAlien *this); // 080da350
+cleanup __cdecl std::pair<float, float> CrystalAlien::GetPowerCooldown(CrystalAlien *this); // 080da350
 ".b801000000c3669066906690669066908b442404f3":  // unique sig
-cleanup __amd64 bool CrystalAlien::HasSpecialPower(CrystalAlien *this); // 080da370
+cleanup __cdecl bool CrystalAlien::HasSpecialPower(CrystalAlien *this); // 080da370
 ".8b442404f30f108040":  // unique sig
-cleanup __amd64 bool CrystalAlien::PowerReady(CrystalAlien *this); // 080da380
+cleanup __cdecl bool CrystalAlien::PowerReady(CrystalAlien *this); // 080da380
 ".d905????????c36690669066906690908b":  // unique sig
-cleanup __amd64 float CrystalAlien::GetSuffocationModifier(CrystalAlien *this); // 080da3a0
+cleanup __cdecl float CrystalAlien::GetSuffocationModifier(CrystalAlien *this); // 080da3a0
 ".8b442404f30f108044":  // unique sig
-cleanup __amd64 void CrystalAlien::ResetPower(CrystalAlien *this); // 080da3b0
+cleanup __cdecl void CrystalAlien::ResetPower(CrystalAlien *this); // 080da3b0
 ".5383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc20400669066906690905383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc20400669066906690905383ec18":  // unique sig
-cleanup __amd64 string CrystalAlien::GetUniqueRepairing(CrystalAlien *this); // 080da470
+cleanup __cdecl string CrystalAlien::GetUniqueRepairing(CrystalAlien *this); // 080da470
 ".8b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????6690669066906690669066909057":  // unique sig
-cleanup __amd64 void CrystalAlien::destructor(CrystalAlien *this); // 080da590
+cleanup __cdecl void CrystalAlien::destructor(CrystalAlien *this); // 080da590
 "5383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690908b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????6690669066906690669066909057":  // unique sig
-cleanup __amd64 void CrystalAlien::destructor(CrystalAlien *this); // 080da5a0
+cleanup __cdecl void CrystalAlien::destructor(CrystalAlien *this); // 080da5a0

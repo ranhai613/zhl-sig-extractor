@@ -1,42 +1,42 @@
 "!8b4424048b50408b40288b04908b10894424048b4230":  // unique sig
-cleanup __amd64 void TabbedWindow::MouseRightClick(TabbedWindow *this, int mX, int mY); // 081db860
+cleanup __cdecl void TabbedWindow::MouseRightClick(TabbedWindow *this, int mX, int mY); // 081db860
 "!.8b4424048b50408b40288b04908b10894424048b422c":  // unique sig
-cleanup __amd64 void TabbedWindow::MouseUp(TabbedWindow *this, int mX, int mY); // 081db880
+cleanup __cdecl void TabbedWindow::MouseUp(TabbedWindow *this, int mX, int mY); // 081db880
 ".83ec1c8b4424208b4c24248b5040":  // unique sig
-cleanup __amd64 bool TabbedWindow::KeyUp(TabbedWindow *this, SDLKey sym); // 081db8a0
+cleanup __cdecl bool TabbedWindow::KeyUp(TabbedWindow *this, SDLKey sym); // 081db8a0
 "!.5383ec188b5c24208b5340":  // unique sig
-cleanup __amd64 void TabbedWindow::Close(TabbedWindow *this); // 081db8d0
+cleanup __cdecl void TabbedWindow::Close(TabbedWindow *this); // 081db8d0
 ".565383ec148b5c24208b7424248b53":  // unique sig
-cleanup __amd64 bool TabbedWindow::KeyDown(TabbedWindow *this, SDLKey sym); // 081db900
+cleanup __cdecl bool TabbedWindow::KeyDown(TabbedWindow *this, SDLKey sym); // 081db900
 ".5557565381ec8c0000008b9c24????????8bbc":  // unique sig
-cleanup __amd64 void TabbedWindow::SetPosition(TabbedWindow *this, Point p); // 081db950
+cleanup __cdecl void TabbedWindow::SetPosition(TabbedWindow *this, Point p); // 081db950
 ".5383ec188b5c2420891c24e8????????8b44":  // unique sig
-cleanup __amd64 void TabbedWindow::constructor(TabbedWindow *this, int buttonType_, Point loc); // 081dbeb0
+cleanup __cdecl void TabbedWindow::constructor(TabbedWindow *this, int buttonType_, Point loc); // 081dbeb0
 ".5557565383ec2c8b5c24408b7b348b73388b432839":  // unique sig
-cleanup __amd64 void TabbedWindow::ClearWindows(TabbedWindow *this); // 081dbf80
+cleanup __cdecl void TabbedWindow::ClearWindows(TabbedWindow *this); // 081dbf80
 ".538b4424088b4c240c8b5828":  // unique sig
-cleanup __amd64 FocusWindow *TabbedWindow::GetWindow(TabbedWindow *this, int tab); // 081dc070
+cleanup __cdecl FocusWindow *TabbedWindow::GetWindow(TabbedWindow *this, int tab); // 081dc070
 ".57565383ec108b5c24208b7424288b7c24248b":  // unique sig
-cleanup __amd64 void TabbedWindow::SetNewWindow(TabbedWindow *this, FocusWindow *window, int tab); // 081dc0a0
+cleanup __cdecl void TabbedWindow::SetNewWindow(TabbedWindow *this, FocusWindow *window, int tab); // 081dc0a0
 ".8b4424088b54240488822c":  // unique sig
-cleanup __amd64 void TabbedWindow::SetBlockAccept(TabbedWindow *this, bool val); // 081dc0f0
+cleanup __cdecl void TabbedWindow::SetBlockAccept(TabbedWindow *this, bool val); // 081dc0f0
 ".5557565383ec4c8b7424608d6c":  // unique sig
-cleanup __amd64 void TabbedWindow::SetTab(TabbedWindow *this, uint tab); // 081dc100
+cleanup __cdecl void TabbedWindow::SetTab(TabbedWindow *this, uint tab); // 081dc100
 ".5557565383ec1c8b7c24308b442434":  // unique sig
-cleanup __amd64 void TabbedWindow::MouseClick(TabbedWindow *this, int mX, int mY); // 081dc430
+cleanup __cdecl void TabbedWindow::MouseClick(TabbedWindow *this, int mX, int mY); // 081dc430
 ".5383ec188b5c2420807b040075":  // unique sig
-cleanup __amd64 void TabbedWindow::Open(TabbedWindow *this); // 081dc500
+cleanup __cdecl void TabbedWindow::Open(TabbedWindow *this); // 081dc500
 ".565383ec248b4c243c":  // unique sig
-cleanup __amd64 void TabbedWindow::AddWindow(TabbedWindow *this, string *name, Button *button, FocusWindow *window); // 081dc540
+cleanup __cdecl void TabbedWindow::AddWindow(TabbedWindow *this, string *name, Button *button, FocusWindow *window); // 081dc540
 ".5557565383ec2c8b5c24408b7b348b73388b4328c703????????39f789432c74??b8????????89fd85c00f84????????8b45008d50f481fa????????0f85????????83c50439ee75??8b4b2031f68b531c897b3889c829d083f8037e??8d76008b04b285c074??8b10890424ff52048b531c8b4b2089c883c60129d0c1f80239c67c??8d4348895320890424e8????????8b7b388b733439f774??b8????????85c00f84????????8b068d50f481fa????????75??83c60439f775??8b7b3485ff74??893c24e8????????8b432885c074??890424e8????????8b431c85c074??890424e8????????c703????????83":  // unique sig
-cleanup __amd64 void TabbedWindow::destructor(TabbedWindow *this); // 081dc690
+cleanup __cdecl void TabbedWindow::destructor(TabbedWindow *this); // 081dc690
 ".5557565383ec2c8b5c24408b7b348b73388b4328c703????????39f789432c74??b8????????89fd85c00f84????????8b45008d50f481fa????????0f85????????83c50439ee75??8b4b2031f68b531c897b3889c829d083f8037e??8d76008b04b285c074??8b10890424ff52048b531c8b4b2089c883c60129d0c1f80239c67c??8d4348895320890424e8????????8b7b388b733439f774??b8????????85c00f84????????8b068d50f481fa????????75??83c60439f775??8b7b3485ff74??893c24e8????????8b432885c074??890424e8????????8b431c85c074??890424e8????????c703????????89":  // unique sig
-cleanup __amd64 void TabbedWindow::destructor(TabbedWindow *this); // 081dc850
+cleanup __cdecl void TabbedWindow::destructor(TabbedWindow *this); // 081dc850
 "!.57565383ec208b742430e8":  // unique sig
-cleanup __amd64 void TabbedWindow::OnRender(TabbedWindow *this); // 081dca20
+cleanup __cdecl void TabbedWindow::OnRender(TabbedWindow *this); // 081dca20
 ".5557565383ec1c8b6c24308b7424348b7c24388b":  // unique sig
-cleanup __amd64 void TabbedWindow::MouseMove(TabbedWindow *this, int mX, int mY); // 081dcbc0
+cleanup __cdecl void TabbedWindow::MouseMove(TabbedWindow *this, int mX, int mY); // 081dcbc0
 ".5557565383ec3c8b742458":  // unique sig
-cleanup __amd64 void TabbedWindow::OnTouch(TabbedWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081dcc90
+cleanup __cdecl void TabbedWindow::OnTouch(TabbedWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081dcc90
 ".57565383ec108b5c24208b53":  // unique sig
-cleanup __amd64 void TabbedWindow::OnLoop(TabbedWindow *this); // 081dce20
+cleanup __cdecl void TabbedWindow::OnLoop(TabbedWindow *this); // 081dce20

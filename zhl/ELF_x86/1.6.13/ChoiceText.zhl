@@ -1,4 +1,4 @@
 "5557565383ec2c8b7424408b86e4":  // unique sig
-cleanup __amd64 void ChoiceText::destructor(ChoiceText *this); // 08187110
+cleanup __cdecl void ChoiceText::destructor(ChoiceText *this); // 08187110
 ".5557565331db83ec2c8b7c24448b7424408b078974241889068d":  // unique sig
-cleanup __amd64 void ChoiceText::constructor(ChoiceText *this, ChoiceText *param_2); // 081a7170
+cleanup __cdecl void ChoiceText::constructor(ChoiceText *this, ChoiceText *param_2); // 081a7170

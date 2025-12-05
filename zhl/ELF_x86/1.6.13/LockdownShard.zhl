@@ -1,14 +1,14 @@
 "!565383ec148b7424208b5c2424f30f108690":  // unique sig
-cleanup __amd64 void LockdownShard::SaveState(LockdownShard *this, int fd); // 080ed7c0
+cleanup __cdecl void LockdownShard::SaveState(LockdownShard *this, int fd); // 080ed7c0
 ".5589e55383ec348b5d08c7":  // unique sig
-cleanup __amd64 void LockdownShard::Update(LockdownShard *this); // 080ed8d0
+cleanup __cdecl void LockdownShard::Update(LockdownShard *this); // 080ed8d0
 ".8b4424040fb680a5":  // unique sig
-cleanup __amd64 bool LockdownShard::Done(LockdownShard *this); // 080eda60
+cleanup __cdecl bool LockdownShard::Done(LockdownShard *this); // 080eda60
 ".5383ec388b5c2440e8":  // unique sig
-cleanup __amd64 void LockdownShard::OnRender(LockdownShard *this); // 080eda70
+cleanup __cdecl void LockdownShard::OnRender(LockdownShard *this); // 080eda70
 ".5589e5575689c65381ecfc":  // unique sig
-cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 080f6310
+cleanup __cdecl void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 080f6310
 ".5589e557565381ecfc0000008b75":  // unique sig
-cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 080f6970
+cleanup __cdecl void LockdownShard::constructor(LockdownShard *this, int lockingRoom, Pointf start, Point goal, bool superFreeze); // 080f6970
 ".5589e557565381ecfc0000008b7d088db5":  // unique sig
-cleanup __amd64 void LockdownShard::constructor(LockdownShard *this, int fd); // 080f7480
+cleanup __cdecl void LockdownShard::constructor(LockdownShard *this, int fd); // 080f7480

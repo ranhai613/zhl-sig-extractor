@@ -1,26 +1,26 @@
 "5557565383ec1c8b54243c":  // unique sig
-static cleanup __amd64 Point Globals::LineCollide(Point p1, Point p2, Point p3, Point p4); // 0820cd20
+static cleanup __cdecl Point Globals::LineCollide(Point p1, Point p2, Point p3, Point p4); // 0820cd20
 ".555756538b54241c":  // unique sig
-static cleanup __amd64 bool Globals::PointOnRect(Point p1, Rect *rect); // 0820cdc0
+static cleanup __cdecl bool Globals::PointOnRect(Point p1, Rect *rect); // 0820cdc0
 ".57565383ec308b7c24508d442444":  // unique sig
-static cleanup __amd64 Pointf Globals::GetNextPoint(Pointf current, float mag_speed, Pointf dest); // 0820ce20
+static cleanup __cdecl Pointf Globals::GetNextPoint(Pointf current, float mag_speed, Pointf dest); // 0820ce20
 ".83ec04f30f105c":  // unique sig
-static cleanup __amd64 float Globals::AngleDifference(float angle1, float angle2); // 0820cfd0
+static cleanup __cdecl float Globals::AngleDifference(float angle1, float angle2); // 0820cfd0
 ".5383ec188b5c2420c7442404????????891c24e8????????ba02":  // unique sig
-static cleanup __amd64 int Globals::GetDirection(string *dir); // 0820d030
+static cleanup __cdecl int Globals::GetDirection(string *dir); // 0820d030
 ".8b15????????b865":  // unique sig
-static cleanup __amd64 uint Globals::GetNextSpaceId(); // 0820d0b0
+static cleanup __cdecl uint Globals::GetNextSpaceId(); // 0820d0b0
 ".5383ec188b5c2420c7442404????????891c24e8????????ba01":  // unique sig
-static cleanup __amd64 int Globals::StringToItem(string *name); // 0820d0d0
+static cleanup __cdecl int Globals::StringToItem(string *name); // 0820d0d0
 ".83ec1cf30f1064":  // unique sig
-static cleanup __amd64 float Globals::AimAhead(Pointf delta, Pointf vr, float muzzleV); // 0820d130
+static cleanup __cdecl float Globals::AimAhead(Pointf delta, Pointf vr, float muzzleV); // 0820d130
 ".5383ec28f30f1044":  // unique sig
-static cleanup __amd64 Pointf Globals::GetNextPoint(Pointf current, float mag_speed, float heading); // 0820d220
+static cleanup __cdecl Pointf Globals::GetNextPoint(Pointf current, float mag_speed, float heading); // 0820d220
 ".83ec2c0f57c0f30f2a":  // unique sig
-static cleanup __amd64 float Globals::GetVectorAngle(Point p); // 0820d620
+static cleanup __cdecl float Globals::GetVectorAngle(Point p); // 0820d620
 ".83ec1c0f57c0":  // unique sig
-static cleanup __amd64 float Globals::GetVectorAngle(float dx, float dy); // 0820d6f0
+static cleanup __cdecl float Globals::GetVectorAngle(float dx, float dy); // 0820d6f0
 ".555756538b5424148b5c":  // unique sig
-static cleanup __amd64 bool Globals::PointOnSegment(Point p, Point p1, Point p2); // 0820d870
+static cleanup __cdecl bool Globals::PointOnSegment(Point p, Point p1, Point p2); // 0820d870
 ".5557565383ec7c8b8424????????8bb4":  // unique sig
-static cleanup __amd64 Point Globals::LineRectCollide(Rect *rect, Point p1, Point p2); // 0820dd40
+static cleanup __cdecl Point Globals::LineRectCollide(Rect *rect, Point p1, Point p2); // 0820dd40

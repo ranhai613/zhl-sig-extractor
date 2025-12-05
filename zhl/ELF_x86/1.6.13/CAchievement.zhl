@@ -1,6 +1,6 @@
 "5557565383ec2c8b5c24408d74241c89":  // unique sig
-cleanup __amd64 void CAchievement::constructor(CAchievement *this); // 080692f0
+cleanup __cdecl void CAchievement::constructor(CAchievement *this); // 080692f0
 ".565383ec248b5c24308b8364":  // unique sig
-cleanup __amd64 void CAchievement::destructor(CAchievement *this); // 08069590
+cleanup __cdecl void CAchievement::destructor(CAchievement *this); // 08069590
 ".5589e557565381ec9c0000008b4518":  // unique sig
-cleanup __amd64 void CAchievement::OnRender(CAchievement *this, Point pos, int style, bool showNew); // 080699d0
+cleanup __cdecl void CAchievement::OnRender(CAchievement *this, Point pos, int style, bool showNew); // 080699d0

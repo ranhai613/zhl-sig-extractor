@@ -1,22 +1,22 @@
 "b801000000c38d76008dbc27000000005589":  // unique sig
-cleanup __amd64 bool InputBox::KeyUp(InputBox *this, SDLKey sym); // 0817f180
+cleanup __cdecl bool InputBox::KeyUp(InputBox *this, SDLKey sym); // 0817f180
 ".5589e5565383ec308b5d08807b04000f84":  // unique sig
-cleanup __amd64 void InputBox::OnRender(InputBox *this); // 0817f190
+cleanup __cdecl void InputBox::OnRender(InputBox *this); // 0817f190
 ".5383ec18817c2424":  // unique sig
-cleanup __amd64 bool InputBox::KeyDown(InputBox *this, SDLKey sym); // 0817f270
+cleanup __cdecl bool InputBox::KeyDown(InputBox *this, SDLKey sym); // 0817f270
 ".565383ec24c704241c":  // unique sig
-cleanup __amd64 void InputBox::OnInit(InputBox *this); // 0817f2c0
+cleanup __cdecl void InputBox::OnInit(InputBox *this); // 0817f2c0
 ".565383ec248b7424348b5c243080":  // unique sig
-cleanup __amd64 string InputBox::GetInput(InputBox *this); // 0817f330
+cleanup __cdecl string InputBox::GetInput(InputBox *this); // 0817f330
 ".5557565383ec1c8b7424348b5c243083":  // unique sig
-cleanup __amd64 void InputBox::TextInput(InputBox *this, int ch); // 0817f3a0
+cleanup __cdecl void InputBox::TextInput(InputBox *this, int ch); // 0817f3a0
 "!.8b442404c6400400e9":  // unique sig
-cleanup __amd64 void InputBox::StopInput(InputBox *this); // 0817f6e0
+cleanup __cdecl void InputBox::StopInput(InputBox *this); // 0817f6e0
 ".5557565383ec2c8b4424448b5c244083":  // unique sig
-cleanup __amd64 void InputBox::TextEvent(InputBox *this, TextEvent event); // 0817f6f0
+cleanup __cdecl void InputBox::TextEvent(InputBox *this, TextEvent event); // 0817f6f0
 ".565383ec348b5c2440c7":  // unique sig
-cleanup __amd64 void InputBox::StartInput(InputBox *this); // 0817f8d0
+cleanup __cdecl void InputBox::StartInput(InputBox *this); // 0817f8d0
 ".5557565383ec2c8b7c24408b5f1cc707????????85db74??891c24e8????????891c24e8????????8b77308b5f2cc7471c0000000039de74??b8????????85c074??8db6000000008b038d50f481fa????????75??83c30439de75??8b772c85f674??893424e8????????8b47288d50f481fa????????75":  // unique sig
-cleanup __amd64 void InputBox::destructor(InputBox *this); // 0817fa00
+cleanup __cdecl void InputBox::destructor(InputBox *this); // 0817fa00
 ".5557565383ec2c8b7c24408b5f1cc707????????85db74??891c24e8????????891c24e8????????8b77308b5f2cc7471c0000000039de74??b8????????85c074??8db6000000008b038d50f481fa????????75??83c30439de75??8b772c85f674??893424e8????????8b47288d50f481fa????????0f":  // unique sig
-cleanup __amd64 void InputBox::destructor(InputBox *this); // 0817fb70
+cleanup __cdecl void InputBox::destructor(InputBox *this); // 0817fb70

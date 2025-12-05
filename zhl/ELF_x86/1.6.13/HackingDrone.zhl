@@ -1,44 +1,44 @@
 "b801000000c38d76008dbc27000000005531":  // unique sig
-cleanup __amd64 bool HackingDrone::RecallOnJump(HackingDrone *this); // 08087f70
+cleanup __cdecl bool HackingDrone::RecallOnJump(HackingDrone *this); // 08087f70
 ".5531c089e55383ec248b5d088b931401000085d274??8b028d4de889542404890c24ff50188b55f0b80100000083ec0485d27e??8b430485c00f94c08b5dfcc9c3908db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 bool HackingDrone::CanBeDeployed(HackingDrone *this); // 08087f80
+cleanup __cdecl bool HackingDrone::CanBeDeployed(HackingDrone *this); // 08087f80
 ".8b4c24048b4424088b54240c89415089515489818c":  // unique sig
-cleanup __amd64 void HackingDrone::SetCurrentLocation(HackingDrone *this, Pointf loc); // 08087fd0
+cleanup __cdecl void HackingDrone::SetCurrentLocation(HackingDrone *this, Pointf loc); // 08087fd0
 "!.0fb6442408c7":  // unique sig
-cleanup __amd64 void HackingDrone::SetDestroyed(HackingDrone *this, bool dead, bool rebuildRequired); // 08087ff0
+cleanup __cdecl void HackingDrone::SetDestroyed(HackingDrone *this, bool dead, bool rebuildRequired); // 08087ff0
 ".565383ec248b7424348b5c243085":  // unique sig
-cleanup __amd64 void HackingDrone::SetMovementTarget(HackingDrone *this, Targetable *target); // 08088010
+cleanup __cdecl void HackingDrone::SetMovementTarget(HackingDrone *this, Targetable *target); // 08088010
 ".5589e557565383ec6c8b5d088d45":  // unique sig
-cleanup __amd64 void HackingDrone::RenderDrone(HackingDrone *this); // 08088110
+cleanup __cdecl void HackingDrone::RenderDrone(HackingDrone *this); // 08088110
 ".5589e557565383ec7c8b750c8b5d088b":  // unique sig
-static cleanup __amd64 CollisionResponse *HackingDrone::CollisionMoving(CollisionResponse *__return_storage_ptr__, HackingDrone *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 080886a0
+static cleanup __cdecl CollisionResponse *HackingDrone::CollisionMoving(CollisionResponse *__return_storage_ptr__, HackingDrone *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 080886a0
 ".565383ec248b5c24300f":  // unique sig
-cleanup __amd64 void HackingDrone::SetDeployed(HackingDrone *this, bool newDeployed); // 08088820
+cleanup __cdecl void HackingDrone::SetDeployed(HackingDrone *this, bool newDeployed); // 08088820
 ".5589e5565383ec208b450c8b5d088078":  // unique sig
-cleanup __amd64 string HackingDrone::GetTooltip(HackingDrone *this); // 080888f0
+cleanup __cdecl string HackingDrone::GetTooltip(HackingDrone *this); // 080888f0
 "!.26008d45f28d75f489442408c7442404????????893424e8????????c744240c????????89742408c7442404????????891c24e8????????8b45f48d50f483ec0481fa????????74??be????????85f68d48fc74??83c8fff00fc10185c07f??8d45f389442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??8d742600":  // unique sig
 noHook __amd64 void HackingDrone::__DO_NOT_HOOK(); // 080889af
 ".55":  // non-unique sig
-cleanup __amd64 void HackingDrone::destructor(HackingDrone *this); // 080889b0
+cleanup __cdecl void HackingDrone::destructor(HackingDrone *this); // 080889b0
 "!.76008dbc2700000000836c240438e9????????8db600000000836c240444e9????????8db600000000":  // unique sig
 noHook __amd64 void HackingDrone::__DO_NOT_HOOK(); // 08088fff
 ".55":  // non-unique sig
-cleanup __amd64 void HackingDrone::destructor(HackingDrone *this); // 08089000
+cleanup __cdecl void HackingDrone::destructor(HackingDrone *this); // 08089000
 ".5589e557565381ecdc0000008b4d088d":  // unique sig
-cleanup __amd64 void HackingDrone::constructor(HackingDrone *this, int iShipId, int selfId); // 08089660
+cleanup __cdecl void HackingDrone::constructor(HackingDrone *this, int iShipId, int selfId); // 08089660
 ".57565383ec308b4424508b":  // unique sig
-cleanup __amd64 Pointf HackingDrone::CheckAxis(HackingDrone *this, Pointf p1, Pointf p2); // 0808ac90
+cleanup __cdecl Pointf HackingDrone::CheckAxis(HackingDrone *this, Pointf p1, Pointf p2); // 0808ac90
 ".5589e557565381ec9c0000008b75088b46":  // unique sig
-cleanup __amd64 void HackingDrone::PickDestination(HackingDrone *this); // 0808adf0
+cleanup __cdecl void HackingDrone::PickDestination(HackingDrone *this); // 0808adf0
 "!.565383ec148b7424248b5c242089742404891c24e8????????f3":  // unique sig
-cleanup __amd64 void HackingDrone::SaveState(HackingDrone *this, int fd); // 0808b350
+cleanup __cdecl void HackingDrone::SaveState(HackingDrone *this, int fd); // 0808b350
 "!.565383ec148b7424248b5c242089742404891c24e8????????893424e8????????d95c240c8b44240c8983a0":  // unique sig
-cleanup __amd64 void HackingDrone::LoadState(HackingDrone *this, int fd); // 0808b3f0
+cleanup __cdecl void HackingDrone::LoadState(HackingDrone *this, int fd); // 0808b3f0
 ".5589e55756be05":  // unique sig
-cleanup __amd64 void HackingDrone::OnLoop(HackingDrone *this); // 0808b490
+cleanup __cdecl void HackingDrone::OnLoop(HackingDrone *this); // 0808b490
 ".f3c36690669066906690669066906690b801000000c36690669066906690669031c0c36690669066906690669066909053":  // unique sig
-cleanup __amd64 void HackingDrone::RandomizeStartingPosition(HackingDrone *this); // 0808bbc0
+cleanup __cdecl void HackingDrone::RandomizeStartingPosition(HackingDrone *this); // 0808bbc0
 ".b801000000c36690669066906690669031c0c36690669066906690669066909053":  // unique sig
-cleanup __amd64 bool HackingDrone::HideUnderOwner(HackingDrone *this); // 0808bbd0
+cleanup __cdecl bool HackingDrone::HideUnderOwner(HackingDrone *this); // 0808bbd0
 ".31c0c3669066906690669066906690905383ec18":  // unique sig
-cleanup __amd64 bool HackingDrone::CanBeRecovered(HackingDrone *this); // 0808bbe0
+cleanup __cdecl bool HackingDrone::CanBeRecovered(HackingDrone *this); // 0808bbe0

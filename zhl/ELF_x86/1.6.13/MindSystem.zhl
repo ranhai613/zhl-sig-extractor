@@ -1,48 +1,48 @@
 "!5383ec188b5c24208b83c0010000c703????????c74308????????85c074??890424e8????????8b83a801000085c074??890424e8????????895c":  // unique sig
-cleanup __amd64 void MindSystem::destructor(MindSystem *this); // 0829e790
+cleanup __cdecl void MindSystem::destructor(MindSystem *this); // 0829e790
 "!.5383ec188b5c24208b83c0010000c703????????c74308????????85c074??890424e8????????8b83a801000085c074??890424e8????????891c":  // unique sig
-cleanup __amd64 void MindSystem::destructor(MindSystem *this); // 0829e7f0
+cleanup __cdecl void MindSystem::destructor(MindSystem *this); // 0829e7f0
 ".5383ec288b442440":  // unique sig
-cleanup __amd64 void MindSystem::constructor(MindSystem *this, int type, int roomId, int shipId, int starting_power); // 0829e850
+cleanup __cdecl void MindSystem::constructor(MindSystem *this, int type, int roomId, int shipId, int starting_power); // 0829e850
 ".8b4424088b5424048882b5":  // unique sig
-cleanup __amd64 void MindSystem::SetBlocked(MindSystem *this, bool val); // 0829e920
+cleanup __cdecl void MindSystem::SetBlocked(MindSystem *this, bool val); // 0829e920
 ".8b4424088b5424048882b4":  // unique sig
-cleanup __amd64 void MindSystem::SetSuperShields(MindSystem *this, bool val); // 0829e930
+cleanup __cdecl void MindSystem::SetSuperShields(MindSystem *this, bool val); // 0829e930
 "!.565383ec148b7424208b5c2424f30f108698010000891c24f30f11442404e8????????f30f10869c":  // unique sig
-cleanup __amd64 void MindSystem::Save(MindSystem *this, int fd); // 0829e940
+cleanup __cdecl void MindSystem::Save(MindSystem *this, int fd); // 0829e940
 ".83ec048b442408f30f1088":  // unique sig
-cleanup __amd64 float MindSystem::GetControlProgress(MindSystem *this); // 0829e980
+cleanup __cdecl float MindSystem::GetControlProgress(MindSystem *this); // 0829e980
 ".8b542404b801000000f30f108298":  // unique sig
-cleanup __amd64 bool MindSystem::InUse(MindSystem *this); // 0829e9b0
+cleanup __cdecl bool MindSystem::InUse(MindSystem *this); // 0829e9b0
 ".5383ec188b5c2420891c24e8????????84c074??83c41831c05bc3908d7426008b03895c24208b402c83c4185bffe0908b":  // unique sig
-cleanup __amd64 bool MindSystem::Charged(MindSystem *this); // 0829e9d0
+cleanup __cdecl bool MindSystem::Charged(MindSystem *this); // 0829e9d0
 ".8b44240480b884":  // unique sig
-cleanup __amd64 int MindSystem::GetMindPowerLevel(MindSystem *this); // 0829ea00
+cleanup __cdecl int MindSystem::GetMindPowerLevel(MindSystem *this); // 0829ea00
 ".5557565383ec3c8b5c24508b93":  // unique sig
-cleanup __amd64 void MindSystem::ReleaseCrew(MindSystem *this); // 0829ea30
+cleanup __cdecl void MindSystem::ReleaseCrew(MindSystem *this); // 0829ea30
 ".e9????????908d76008dbc27000000005383ec188b5c2420891c24e8????????89":  // unique sig
-cleanup __amd64 void MindSystem::ShipDestroyed(MindSystem *this); // 0829ec10
+cleanup __cdecl void MindSystem::ShipDestroyed(MindSystem *this); // 0829ec10
 "5383ec188b5c2420891c24e8????????891c24e8????????891c":  // unique sig
-cleanup __amd64 void MindSystem::Jump(MindSystem *this); // 0829ec20
+cleanup __cdecl void MindSystem::Jump(MindSystem *this); // 0829ec20
 ".565383ec148b7424248b5c242083fe017e??83bb80010000017e??89b38001000083c4145b5ec39083":  // unique sig
-cleanup __amd64 void MindSystem::SetHackingLevel(MindSystem *this, int val); // 0829ec50
+cleanup __cdecl void MindSystem::SetHackingLevel(MindSystem *this, int val); // 0829ec50
 ".83ec1c8b44242080b884":  // unique sig
-cleanup __amd64 int MindSystem::GetControlLimit(MindSystem *this); // 0829ecc0
+cleanup __cdecl int MindSystem::GetControlLimit(MindSystem *this); // 0829ecc0
 ".8b4424048b80a401":  // unique sig
-cleanup __amd64 int MindSystem::GetArmed(MindSystem *this); // 0829ed10
+cleanup __cdecl int MindSystem::GetArmed(MindSystem *this); // 0829ed10
 ".5383ec1883":  // unique sig
-cleanup __amd64 void MindSystem::SetArmed(MindSystem *this, int val); // 0829ed20
+cleanup __cdecl void MindSystem::SetArmed(MindSystem *this, int val); // 0829ed20
 ".83ec1c8b442420c74424????????0089":  // unique sig
-cleanup __amd64 void MindSystem::ForceReady(MindSystem *this); // 0829edc0
+cleanup __cdecl void MindSystem::ForceReady(MindSystem *this); // 0829edc0
 ".8b4424088b5424048882a0010000c39055":  // unique sig
-cleanup __amd64 void MindSystem::SetCanUse(MindSystem *this, bool val); // 0829ede0
+cleanup __cdecl void MindSystem::SetCanUse(MindSystem *this, bool val); // 0829ede0
 ".5557565383ec2c8b5c24408b442448":  // unique sig
-cleanup __amd64 void MindSystem::QueueMindControl(MindSystem *this, std::vector<CrewMember*> *crew, int roomId, int shipId); // 0829edf0
+cleanup __cdecl void MindSystem::QueueMindControl(MindSystem *this, std::vector<CrewMember*> *crew, int roomId, int shipId); // 0829edf0
 ".5383ec188b5c242080bba0":  // unique sig
-cleanup __amd64 bool MindSystem::CanUse(MindSystem *this); // 0829eff0
+cleanup __cdecl bool MindSystem::CanUse(MindSystem *this); // 0829eff0
 ".5557565383ec4c8b6c24608b95":  // unique sig
-cleanup __amd64 void MindSystem::InitiateMindControl(MindSystem *this); // 0829f050
+cleanup __cdecl void MindSystem::InitiateMindControl(MindSystem *this); // 0829f050
 ".5557565383ec3c8b5c2450891c24e8????????8b83c0":  // unique sig
-cleanup __amd64 void MindSystem::OnLoop(MindSystem *this); // 0829f6b0
+cleanup __cdecl void MindSystem::OnLoop(MindSystem *this); // 0829f6b0
 ".5557565383ec3c8b5c24548b74245089":  // unique sig
-cleanup __amd64 void MindSystem::Load(MindSystem *this, int fd); // 0829fb10
+cleanup __cdecl void MindSystem::Load(MindSystem *this, int fd); // 0829fb10

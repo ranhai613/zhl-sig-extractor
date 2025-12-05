@@ -1,28 +1,28 @@
 "8b442404c700????????c36690669090f3c366906690669066906690669066908b442404":  // unique sig
-cleanup __amd64 void ShipObject::destructor(ShipObject *this); // 08082560
+cleanup __cdecl void ShipObject::destructor(ShipObject *this); // 08082560
 ".8b442404c700????????e9????????905383ec188b4424248b5c2420f3":  // unique sig
-cleanup __amd64 void ShipObject::destructor(ShipObject *this); // 08082a90
+cleanup __cdecl void ShipObject::destructor(ShipObject *this); // 08082a90
 ".8b4424048b400485":  // unique sig
-cleanup __amd64 int ShipObject::GetAugmentationCount(ShipObject *this); // 08123030
+cleanup __cdecl int ShipObject::GetAugmentationCount(ShipObject *this); // 08123030
 ".5331db83ec188b":  // unique sig
-cleanup __amd64 void ShipObject::ClearShipInfo(ShipObject *this); // 081230c0
+cleanup __cdecl void ShipObject::ClearShipInfo(ShipObject *this); // 081230c0
 ".5557565383ec1c8b4424348b5c24308b40":  // unique sig
-cleanup __amd64 std::vector<std::string> *ShipObject::GetAugmentationList(ShipObject *this); // 081231f0
+cleanup __cdecl std::vector<std::string> *ShipObject::GetAugmentationList(ShipObject *this); // 081231f0
 ".5589e557565383ec6c8b450c894424048d45c8890424e8????????8b45088b400485c00f94c00fb6c06bc0348945a8a1????????0145a88b45":  // unique sig
-cleanup __amd64 void ShipObject::SetEquipmentLevel(ShipObject *this, string *blueName, int level); // 081232b0
+cleanup __cdecl void ShipObject::SetEquipmentLevel(ShipObject *this, string *blueName, int level); // 081232b0
 ".5589e557565383ec6c8b450c894424048d45c8890424e8????????8b45088b400485c00f94c00fb6c06bc0348945a8a1????????0145a88b55":  // unique sig
-cleanup __amd64 int ShipObject::HasAugmentation(ShipObject *this, string *augId); // 08123530
+cleanup __cdecl int ShipObject::HasAugmentation(ShipObject *this, string *augId); // 08123530
 ".5589e557565383ec7c8b5d0c8d":  // unique sig
-cleanup __amd64 int ShipObject::HasEquipment(ShipObject *this, string *blueName); // 08123950
+cleanup __cdecl int ShipObject::HasEquipment(ShipObject *this, string *blueName); // 08123950
 ".5589e557565383ec7c8b450c894424048d45b8890424e8????????8b45088b400485c00f94c00fb6c06bc034894598a1????????0145988d45b8894424048d45c8890424e8????????8b559889d083c00489c78945948d45c8894424088d45a489542404890424e8????????83ec043b7da40f84????????8b45988b580885db0f84????????8b45c88945a08b78f48b459489459ceb??90895d9c8b5b0885db74??8b43108b55a08b70f48954240489042439f789f10f46cf29fe894c2408e8????????85c00f44c685c079??8b5b0c85db75??8b45":  // unique sig
-cleanup __amd64 float ShipObject::GetAugmentationValue(ShipObject *this, string *augId); // 08124320
+cleanup __cdecl float ShipObject::GetAugmentationValue(ShipObject *this, string *augId); // 08124320
 ".5589e557565383ec7c8b450c894424048d45b8890424e8????????8b45088b400485c00f94c00fb6c06bc034894598a1????????0145988d45b8894424048d45c8890424e8????????8b559889d083c00489c78945948d45c8894424088d45a489542404890424e8????????83ec043b7da40f84????????8b45988b580885db0f84????????8b45c88945a08b78f48b459489459ceb??90895d9c8b5b0885db74??8b43108b55a08b70f48954240489042439f789f10f46cf29fe894c2408e8????????85c00f44c685c079??8b5b0c85db75??8b55":  // unique sig
-cleanup __amd64 void ShipObject::RemoveAugmentation(ShipObject *this, string *augId); // 08124e30
+cleanup __cdecl void ShipObject::RemoveAugmentation(ShipObject *this, string *augId); // 08124e30
 ".5589e557565331db83ec6c":  // unique sig
-cleanup __amd64 void ShipObject::AddEquipment(ShipObject *this, string *blueName); // 081251c0
+cleanup __cdecl void ShipObject::AddEquipment(ShipObject *this, string *blueName); // 081251c0
 ".5589e557565381ec8c0000008b450c":  // unique sig
-cleanup __amd64 bool ShipObject::AddAugmentation(ShipObject *this, string *augId); // 08125450
+cleanup __cdecl bool ShipObject::AddAugmentation(ShipObject *this, string *augId); // 08125450
 ".5557565383ec3c8b442450c7":  // unique sig
-cleanup __amd64 void ShipObject::AddAugmentation(ShipObject *this, string *augId, int slot); // 08125da0
+cleanup __cdecl void ShipObject::AddAugmentation(ShipObject *this, string *augId, int slot); // 08125da0
 ".5589e557565381ec8c0000008b451089":  // unique sig
-cleanup __amd64 void ShipObject::RemoveEquipment(ShipObject *this, string *blueName, bool completely); // 081260f0
+cleanup __cdecl void ShipObject::RemoveEquipment(ShipObject *this, string *blueName, bool completely); // 081260f0

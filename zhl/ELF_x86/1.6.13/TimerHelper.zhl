@@ -1,14 +1,14 @@
 "565383ec048b442414":  // unique sig
-cleanup __amd64 void TimerHelper::Start(TimerHelper *this, int time); // 0820d910
+cleanup __cdecl void TimerHelper::Start(TimerHelper *this, int time); // 0820d910
 ".8b4424040fb64011":  // unique sig
-cleanup __amd64 bool TimerHelper::Running(TimerHelper *this); // 0820d9a0
+cleanup __cdecl bool TimerHelper::Running(TimerHelper *this); // 0820d9a0
 ".8b4424048b54240c89108b542408895004c3":  // unique sig
-cleanup __amd64 void TimerHelper::ResetMinMax(TimerHelper *this, int min, int max); // 0820d9b0
+cleanup __cdecl void TimerHelper::ResetMinMax(TimerHelper *this, int min, int max); // 0820d9b0
 ".8b442404f30f104c2408f30f1040":  // unique sig
-cleanup __amd64 void TimerHelper::SetMaxTime(TimerHelper *this, float max); // 0820d9d0
+cleanup __cdecl void TimerHelper::SetMaxTime(TimerHelper *this, float max); // 0820d9d0
 ".8b442404c6401100c3908db60000000053":  // unique sig
-cleanup __amd64 void TimerHelper::Stop(TimerHelper *this); // 0820da00
+cleanup __cdecl void TimerHelper::Stop(TimerHelper *this); // 0820da00
 ".5383ec188b5c2420807b11":  // unique sig
-cleanup __amd64 void TimerHelper::Update(TimerHelper *this); // 0820da10
+cleanup __cdecl void TimerHelper::Update(TimerHelper *this); // 0820da10
 ".57565383ec108b5c24200fb643":  // unique sig
-cleanup __amd64 bool TimerHelper::Done(TimerHelper *this); // 0820da50
+cleanup __cdecl bool TimerHelper::Done(TimerHelper *this); // 0820da50

@@ -1,11 +1,11 @@
 "83ec1c8b4424208b80dc000000894424048b442424890424e8????????b8c3":  // unique sig
-cleanup __amd64 int ItemStoreBox::SetInfoBox(ItemStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081bc6d0
+cleanup __cdecl int ItemStoreBox::SetInfoBox(ItemStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081bc6d0
 ".5557565383ec3c8b7c24588d":  // unique sig
-cleanup __amd64 void ItemStoreBox::constructor(ItemStoreBox *this, ShipManager *shopper, string name); // 081bf620
+cleanup __cdecl void ItemStoreBox::constructor(ItemStoreBox *this, ShipManager *shopper, string name); // 081bf620
 ".5557565383ec2c8d74241c8b5c24408d7c241a897c2408c7442404????????893424e8????????c74424????????00c7442408000080bf89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????897c2408c7442404????????893424e8????????89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????c74424????????008b8398000000f7d8894424048b83c0000000890424e8????????8b83b800000083e80185c08983b80000000f9fc00fb6c0894424048d4310890424e8????????8b83dc0000008944":  // unique sig
-cleanup __amd64 void ItemStoreBox::Purchase(ItemStoreBox *this); // 081c1350
+cleanup __cdecl void ItemStoreBox::Purchase(ItemStoreBox *this); // 081c1350
 // Failed to generate signature for function: ItemStoreBox::~ItemStoreBox at 081c5330
 "!.??":  // non-unique sig
 noHook __amd64 void ItemStoreBox::__DO_NOT_HOOK(); // 081c5d0f
 ".56":  // non-unique sig
-cleanup __amd64 void ItemStoreBox::destructor(ItemStoreBox *this); // 081c5d10
+cleanup __cdecl void ItemStoreBox::destructor(ItemStoreBox *this); // 081c5d10

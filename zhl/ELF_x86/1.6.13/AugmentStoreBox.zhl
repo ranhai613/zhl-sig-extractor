@@ -1,17 +1,17 @@
 "83ec1c8b4424208b80dc000000894424048b442424890424e8????????b8d1":  // unique sig
-cleanup __amd64 int AugmentStoreBox::SetInfoBox(AugmentStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081bc5b0
+cleanup __cdecl int AugmentStoreBox::SetInfoBox(AugmentStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081bc5b0
 ".565383ec348b5c24408b83":  // unique sig
-cleanup __amd64 bool AugmentStoreBox::CanHold(AugmentStoreBox *this); // 081bcc90
+cleanup __cdecl bool AugmentStoreBox::CanHold(AugmentStoreBox *this); // 081bcc90
 ".565383ec248b5c24308d44241a8d74241c89442408c7442404????????893424e8????????c74424????????00c74424????????0089742404891c24e8????????8b44241c8d50f481fa????????75??c703????????c783dc0000000000000083":  // unique sig
-cleanup __amd64 void AugmentStoreBox::constructor(AugmentStoreBox *this); // 081be020
+cleanup __cdecl void AugmentStoreBox::constructor(AugmentStoreBox *this); // 081be020
 ".5557565383ec2c8d44241a8b5c24408d7c241c8b742448":  // unique sig
-cleanup __amd64 void AugmentStoreBox::constructor(AugmentStoreBox *this, ShipManager *shopper, AugmentBlueprint *blue); // 081be0c0
+cleanup __cdecl void AugmentStoreBox::constructor(AugmentStoreBox *this, ShipManager *shopper, AugmentBlueprint *blue); // 081be0c0
 ".5557565383ec2c8d74241c8b5c24408d7c241a897c2408c7442404????????893424e8????????c74424????????00c7442408000080bf89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????897c2408c7442404????????893424e8????????89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????c74424????????008b8398000000f7d8894424048b83c0000000890424e8????????8b83b800000083e80185c08983b80000000f9fc00fb6c0894424048d4310890424e8????????8b83dc0000008934":  // unique sig
-cleanup __amd64 void AugmentStoreBox::Purchase(AugmentStoreBox *this); // 081c17f0
+cleanup __cdecl void AugmentStoreBox::Purchase(AugmentStoreBox *this); // 081c17f0
 ".5589e557565383ec4c8b45108b5d08c7":  // unique sig
-cleanup __amd64 void AugmentStoreBox::MouseMove(AugmentStoreBox *this, int mX, int mY); // 081c3bf0
+cleanup __cdecl void AugmentStoreBox::MouseMove(AugmentStoreBox *this, int mX, int mY); // 081c3bf0
 // Failed to generate signature for function: AugmentStoreBox::~AugmentStoreBox at 081c5100
 "!.??":  // non-unique sig
 noHook __amd64 void AugmentStoreBox::__DO_NOT_HOOK(); // 081c5f3f
 ".56":  // non-unique sig
-cleanup __amd64 void AugmentStoreBox::destructor(AugmentStoreBox *this); // 081c5f40
+cleanup __cdecl void AugmentStoreBox::destructor(AugmentStoreBox *this); // 081c5f40

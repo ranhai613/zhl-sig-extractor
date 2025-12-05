@@ -1,28 +1,28 @@
 "5589e5575689d65383":  // unique sig
-static cleanup __amd64 Pointf freetype::renderCacheItem(TextCacheItem *item, float x, float y); // 08209b00
+static cleanup __cdecl Pointf freetype::renderCacheItem(TextCacheItem *item, float x, float y); // 08209b00
 ".5557565383ec2c8b3d????????8d":  // unique sig
-static cleanup __amd64 void freetype::ageCache(); // 08209d80
+static cleanup __cdecl void freetype::ageCache(); // 08209d80
 ".5557565383ec2c8b1d":  // unique sig
-static cleanup __amd64 void freetype::clearCache(); // 08209ef0
+static cleanup __cdecl void freetype::clearCache(); // 08209ef0
 ".5531ed5789d7":  // unique sig
-static cleanup __amd64 std::vector<std::string> *freetype::formatLines(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, font_data *font, char *string, float maxWidth, font_data *font_1); // 0820a1b0
+static cleanup __cdecl std::vector<std::string> *freetype::formatLines(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, font_data *font, char *string, float maxWidth, font_data *font_1); // 0820a1b0
 ".5557565383ec4c8b44246c8b74":  // unique sig
-static cleanup __amd64 Pointf freetype::measurePrintLines(font_data *font, int maxWidth, string *text); // 0820b270
+static cleanup __cdecl Pointf freetype::measurePrintLines(font_data *font, int maxWidth, string *text); // 0820b270
 ".5589e5565383ec208b5d088d45f289":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_measurePrintLines(int fontSize, float x, float y, int line_length, string *text); // 0820b3e0
+static cleanup __cdecl Pointf freetype::easy_measurePrintLines(int fontSize, float x, float y, int line_length, string *text); // 0820b3e0
 ".5589e5565383ec308d":  // unique sig
-static cleanup __amd64 int freetype::easy_measureWidth(int fontSize, string *text); // 0820b490
+static cleanup __cdecl int freetype::easy_measureWidth(int fontSize, string *text); // 0820b490
 ".55575631f65381":  // unique sig
-static cleanup __amd64 Pointf freetype::print(font_data *font, float x, float y, int maxWidth, FontAlignment align, string *text); // 0820b550
+static cleanup __cdecl Pointf freetype::print(font_data *font, float x, float y, int maxWidth, FontAlignment align, string *text); // 0820b550
 ".5589e5565383ec308b5d088d45f2894424088b45188d75f48b0089342489442404e8????????8b450cc74424????????00c70424????????89442404e8????????f30f10451489742418c74424????????00f30f1144240cf30f10451089442404c74424????????00f30f11442408891c24e8????????8b45f48d50f483ec0481fa????????75??8d65f889d85b5e5dc20400be????????85f68d48fc74??83c8fff00fc10185c07f??8d45f389442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??908db426000000005589e5565383ec308b5d088d45f2894424088b4518":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_print(int fontSize, float x, float y, string *text); // 0820bd00
+static cleanup __cdecl Pointf freetype::easy_print(int fontSize, float x, float y, string *text); // 0820bd00
 ".5589e5565383ec308b5d088d45f2894424088b45188d75f48b0089342489442404e8????????8b450cc74424????????00c70424????????89442404e8????????f30f10451489742418c744241402":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_printRightAlign(int fontSize, float x, float y, string *text); // 0820bdd0
+static cleanup __cdecl Pointf freetype::easy_printRightAlign(int fontSize, float x, float y, string *text); // 0820bdd0
 ".5589e5565383ec308b5d088d45f2894424088b451c8d75f48b0089342489442404e8????????8b450cc74424????????00c70424????????89442404e8????????8b5518f30f10451489742418c744241401":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_printNewlinesCentered(int fontSize, float x, float y, int line_length, string *text); // 0820bea0
+static cleanup __cdecl Pointf freetype::easy_printNewlinesCentered(int fontSize, float x, float y, int line_length, string *text); // 0820bea0
 ".5589e5565383ec308b5d088d45f2894424088b451c8d75f48b0089342489442404e8????????8b450cc74424????????00c70424????????89442404e8????????8b5518f30f10451489742418c74424????????00f30f1144240cf30f1045108954241089442404f30f11442408891c24e8????????8b45f48d50f483ec0481fa????????75??8d65f889d85b5e5dc20400be????????85f68d48fc74??83c8fff00fc10185c07f??8d45f389442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??89f68dbc27000000005589e5565383ec308b5d088d45f2894424088b4518":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_printAutoNewlines(int fontSize, float x, float y, int line_length, string *text); // 0820bf70
+static cleanup __cdecl Pointf freetype::easy_printAutoNewlines(int fontSize, float x, float y, int line_length, string *text); // 0820bf70
 ".5589e5565383ec308b5d088d45f2894424088b45188d75f48b0089342489442404e8????????8b450cc74424????????00c70424????????89442404e8????????f30f10451489742418c744241401":  // unique sig
-static cleanup __amd64 Pointf freetype::easy_printCenter(int fontSize, float x, float y, string *text); // 0820c040
+static cleanup __cdecl Pointf freetype::easy_printCenter(int fontSize, float x, float y, string *text); // 0820c040
 ".5589e557565383ec6c8b7d088b75":  // unique sig
-static cleanup __amd64 void freetype::easy_printAutoShrink(int fontId, float x, float y, int maxWidth, bool centered, string *text); // 0820c110
+static cleanup __cdecl void freetype::easy_printAutoShrink(int fontId, float x, float y, int maxWidth, bool centered, string *text); // 0820c110

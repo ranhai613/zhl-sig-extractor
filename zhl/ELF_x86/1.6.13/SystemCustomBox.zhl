@@ -1,14 +1,14 @@
 "8b44240480b8f4":  // unique sig
-cleanup __amd64 bool SystemCustomBox::GetMouseHover(SystemCustomBox *this); // 081cc9b0
+cleanup __cdecl bool SystemCustomBox::GetMouseHover(SystemCustomBox *this); // 081cc9b0
 ".5557565383ec5c8b5c24708b742478":  // unique sig
-cleanup __amd64 void SystemCustomBox::constructor(SystemCustomBox *this, Point loc, ShipSystem *sys, ShipManager *ship); // 081d3660
+cleanup __cdecl void SystemCustomBox::constructor(SystemCustomBox *this, Point loc, ShipSystem *sys, ShipManager *ship); // 081d3660
 ".5383ec288b4424488b5c2430894424188b442444894424148b442440894424108b44243c8944240c8b442438894424088b442434894424048d83":  // unique sig
-cleanup __amd64 void SystemCustomBox::OnTouch(SystemCustomBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081d52e0
+cleanup __cdecl void SystemCustomBox::OnTouch(SystemCustomBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081d52e0
 ".565383ec148b5c24208b7424248d83":  // unique sig
-cleanup __amd64 void SystemCustomBox::OnRender(SystemCustomBox *this, bool ignoreStatus); // 081d5610
+cleanup __cdecl void SystemCustomBox::OnRender(SystemCustomBox *this, bool ignoreStatus); // 081d5610
 ".83ec1c8b442428c74424????????00894424088b442424894424048b44242005":  // unique sig
-cleanup __amd64 void SystemCustomBox::MouseMove(SystemCustomBox *this, int mX, int mY); // 081d5a10
+cleanup __cdecl void SystemCustomBox::MouseMove(SystemCustomBox *this, int mX, int mY); // 081d5a10
 "!.5383ec188b5c24208d83b4010000c703????????890424e8????????895c":  // unique sig
-cleanup __amd64 void SystemCustomBox::destructor(SystemCustomBox *this); // 081d5e90
+cleanup __cdecl void SystemCustomBox::destructor(SystemCustomBox *this); // 081d5e90
 ".5383ec188b5c24208d83b4010000c703????????890424e8????????891c":  // unique sig
-cleanup __amd64 void SystemCustomBox::destructor(SystemCustomBox *this); // 081d5ec0
+cleanup __cdecl void SystemCustomBox::destructor(SystemCustomBox *this); // 081d5ec0

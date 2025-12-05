@@ -1,20 +1,20 @@
 "f3c38db426000000008dbc27000000008b4424048b80a4":  // unique sig
-cleanup __amd64 void IonDrone::UpdateRepair(IonDrone *this); // 0807b750
+cleanup __cdecl void IonDrone::UpdateRepair(IonDrone *this); // 0807b750
 ".8b4424048b80a406":  // unique sig
-cleanup __amd64 int IonDrone::BlockRoom(IonDrone *this); // 0807b760
+cleanup __cdecl int IonDrone::BlockRoom(IonDrone *this); // 0807b760
 ".565383ec148b7424248b5c24208b869c":  // unique sig
-cleanup __amd64 Damage *IonDrone::GetRoomDamage(IonDrone *this); // 0807b770
+cleanup __cdecl Damage *IonDrone::GetRoomDamage(IonDrone *this); // 0807b770
 ".b87d000000c38d":  // unique sig
-cleanup __amd64 int IonDrone::GetMaxHealth(IonDrone *this); // 0807b820
+cleanup __cdecl int IonDrone::GetMaxHealth(IonDrone *this); // 0807b820
 ".565383ec148b5c24208b7424248b8340":  // unique sig
-cleanup __amd64 void IonDrone::SetDeployed(IonDrone *this, bool deploy); // 0807c6b0
+cleanup __cdecl void IonDrone::SetDeployed(IonDrone *this, bool deploy); // 0807c6b0
 ".5589e557565381ecec0000008b5d":  // unique sig
-cleanup __amd64 void IonDrone::constructor(IonDrone *this, int iShipId, DroneBlueprint *blueprint); // 08080dc0
+cleanup __cdecl void IonDrone::constructor(IonDrone *this, int iShipId, DroneBlueprint *blueprint); // 08080dc0
 ".31c0c366906690669066906690669090b801000000c36690669066906690669031c0c366906690669066906690669090b8ff":  // unique sig
-cleanup __amd64 bool IonDrone::ReadyToFight(IonDrone *this); // 08082a50
+cleanup __cdecl bool IonDrone::ReadyToFight(IonDrone *this); // 08082a50
 ".b801000000c36690669066906690669031c0c366906690669066906690669090b8ff":  // unique sig
-cleanup __amd64 bool IonDrone::CanSabotage(IonDrone *this); // 08082a60
+cleanup __cdecl bool IonDrone::CanSabotage(IonDrone *this); // 08082a60
 ".31c0c366906690669066906690669090b8ffffffffc3669066906690669066908b":  // unique sig
-cleanup __amd64 bool IonDrone::CanFight(IonDrone *this); // 08082a70
+cleanup __cdecl bool IonDrone::CanFight(IonDrone *this); // 08082a70
 // Failed to generate signature for function: IonDrone::~IonDrone at 080830d0
 // Failed to generate signature for function: IonDrone::~IonDrone at 08083da0

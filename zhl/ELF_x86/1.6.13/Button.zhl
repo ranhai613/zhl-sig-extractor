@@ -1,24 +1,24 @@
 "5383ec188b5c24208b4354c703????????890424e8????????8b4358890424e8????????8b435c890424e8????????c703????????c74324????????83c4185bc390":  // unique sig
-cleanup __amd64 void Button::destructor(Button *this); // 0812d480
+cleanup __cdecl void Button::destructor(Button *this); // 0812d480
 ".565331db83ec148b7424208b449e54":  // unique sig
-cleanup __amd64 void Button::ResetPrimitives(Button *this); // 0812d4d0
+cleanup __cdecl void Button::ResetPrimitives(Button *this); // 0812d4d0
 ".5383ec188b5c24208b4354c703????????890424e8????????8b4358890424e8????????8b435c890424e8????????c703????????c74324????????895c242083c4185be9????????90":  // unique sig
-cleanup __amd64 void Button::destructor(Button *this); // 0812d580
+cleanup __cdecl void Button::destructor(Button *this); // 0812d580
 ".5557565383ec4c8b6c2464":  // unique sig
-cleanup __amd64 void Button::OnInit(Button *this, string *imageBase, Point pos); // 0812d800
+cleanup __cdecl void Button::OnInit(Button *this, string *imageBase, Point pos); // 0812d800
 ".57565383ec408b5c24508b4354":  // unique sig
-cleanup __amd64 void Button::OnRender(Button *this); // 0812da80
+cleanup __cdecl void Button::OnRender(Button *this); // 0812da80
 ".565383ec148b5c24208d43":  // unique sig
-cleanup __amd64 void Button::constructor(Button *this); // 0812dc90
+cleanup __cdecl void Button::constructor(Button *this); // 0812dc90
 ".57565383ec408b5c245089":  // unique sig
-cleanup __amd64 void Button::InitPrimitives(Button *this); // 0812dd90
+cleanup __cdecl void Button::InitPrimitives(Button *this); // 0812dd90
 ".55b8????????57bd":  // unique sig
-cleanup __amd64 void Button::OnInit(Button *this, string *imageBase, Rect *imageStats, Rect *hitStats, bool alwaysActive); // 0812de30
+cleanup __cdecl void Button::OnInit(Button *this, string *imageBase, Rect *imageStats, Rect *hitStats, bool alwaysActive); // 0812de30
 ".5557565383ec2c8b7c24448d5c241c891c248b":  // unique sig
-cleanup __amd64 void Button::SetImageBase(Button *this, string *imageBase); // 0812e030
+cleanup __cdecl void Button::SetImageBase(Button *this, string *imageBase); // 0812e030
 ".8b4424048b542408395048":  // unique sig
-cleanup __amd64 void Button::SetInactiveImage(Button *this, GL_Texture *image); // 0812e1e0
+cleanup __cdecl void Button::SetInactiveImage(Button *this, GL_Texture *image); // 0812e1e0
 ".8b4424048b54240839504c":  // unique sig
-cleanup __amd64 void Button::SetActiveImage(Button *this, GL_Texture *image); // 0812e200
+cleanup __cdecl void Button::SetActiveImage(Button *this, GL_Texture *image); // 0812e200
 ".5756538b4424108b5424148b4c24188b58048b700839d3":  // unique sig
-cleanup __amd64 void Button::SetLocation(Button *this, Point p); // 081308f0
+cleanup __cdecl void Button::SetLocation(Button *this, Point p); // 081308f0

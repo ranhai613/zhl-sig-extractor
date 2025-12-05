@@ -1,21 +1,21 @@
 "5383ec388b5c24408b44244439437474??83c4385bc36690e8????????80":  // unique sig
-cleanup __amd64 void LaserBlast::OnRenderSpecific(LaserBlast *this, int spaceId); // 0808d3e0
+cleanup __cdecl void LaserBlast::OnRenderSpecific(LaserBlast *this, int spaceId); // 0808d3e0
 ".5383ec08f3":  // unique sig
-cleanup __amd64 void LaserBlast::SetSpin(LaserBlast *this, float spin); // 0808d670
+cleanup __cdecl void LaserBlast::SetSpin(LaserBlast *this, float spin); // 0808d670
 ".565383ec148b7424208b5c2424893424895c2404e8????????f30f1086f0":  // unique sig
-cleanup __amd64 void LaserBlast::SaveProjectile(LaserBlast *this, int fd); // 0808dfd0
+cleanup __cdecl void LaserBlast::SaveProjectile(LaserBlast *this, int fd); // 0808dfd0
 ".5589e55383ec448b5d0880bbb00000000074??8d":  // unique sig
-cleanup __amd64 void LaserBlast::OnUpdate(LaserBlast *this); // 0808eac0
+cleanup __cdecl void LaserBlast::OnUpdate(LaserBlast *this); // 0808eac0
 ".565383ec148b5c24208b742424891c2489742404e8????????893424e8????????d95c240c8b44240c8983f0":  // unique sig
-cleanup __amd64 void LaserBlast::LoadProjectile(LaserBlast *this, int fd); // 0808fc20
+cleanup __cdecl void LaserBlast::LoadProjectile(LaserBlast *this, int fd); // 0808fc20
 ".5589e557565383ec6c8b7d088b87":  // unique sig
-cleanup __amd64 void LaserBlast::ComputeHeading(LaserBlast *this); // 0808fd10
+cleanup __cdecl void LaserBlast::ComputeHeading(LaserBlast *this); // 0808fd10
 ".5383ec188b5c24208b437439":  // unique sig
-cleanup __amd64 void LaserBlast::OnInit(LaserBlast *this); // 08093c30
+cleanup __cdecl void LaserBlast::OnInit(LaserBlast *this); // 08093c30
 ".b801000000c366906690669066906690b806":  // unique sig
-cleanup __amd64 int LaserBlast::GetType(LaserBlast *this); // 08093d10
+cleanup __cdecl int LaserBlast::GetType(LaserBlast *this); // 08093d10
 "!.6690":  // non-unique sig
 noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 080942cf
 ".55":  // non-unique sig
-cleanup __amd64 void LaserBlast::destructor(LaserBlast *this); // 080942d0
+cleanup __cdecl void LaserBlast::destructor(LaserBlast *this); // 080942d0
 // Failed to generate signature for function: LaserBlast::~LaserBlast at 080957e0

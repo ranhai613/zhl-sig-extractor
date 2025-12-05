@@ -1,48 +1,48 @@
 "5589cd575689":  // unique sig
-cleanup __amd64 void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, int height, int width); // 0804eef8
+cleanup __cdecl void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, int height, int width); // 0804eef8
 ".5589e557565389c383ec2c":  // unique sig
-cleanup __amd64 void InfoBox::CreateTipBox(InfoBox *this); // 08177df0
+cleanup __cdecl void InfoBox::CreateTipBox(InfoBox *this); // 08177df0
 ".565383ec248b5c24308d74241fc74424????????00c74424????????00891c24e8????????8d430c":  // unique sig
-cleanup __amd64 void InfoBox::constructor(InfoBox *this); // 08177f30
+cleanup __cdecl void InfoBox::constructor(InfoBox *this); // 08177f30
 "!.5557565383ec2c8b542444c7":  // unique sig
-cleanup __amd64 void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, int height, int width); // 08178080
+cleanup __cdecl void InfoBox::CreateCustomWindow(InfoBox *this, bool primary, int height, int width); // 08178080
 ".565383ec148b5c24208b73":  // unique sig
-cleanup __amd64 void InfoBox::ClearCustomBoxes(InfoBox *this); // 08178140
+cleanup __cdecl void InfoBox::ClearCustomBoxes(InfoBox *this); // 08178140
 ".5589e557bf????????565383ec4ca1":  // unique sig
-static cleanup __amd64 int InfoBox::CalcCenterCountForSystem(int systemId, int maxPower); // 081781a0
+static cleanup __cdecl int InfoBox::CalcCenterCountForSystem(int systemId, int maxPower); // 081781a0
 ".5383ec188b44242489":  // unique sig
-static cleanup __amd64 int InfoBox::CalcWidthForSystem(int systemId, int maxPower); // 08178580
+static cleanup __cdecl int InfoBox::CalcWidthForSystem(int systemId, int maxPower); // 08178580
 ".5589e557565383ec4c8b7d0c8d75":  // unique sig
-cleanup __amd64 void InfoBox::SetBlueprint(InfoBox *this, WeaponBlueprint *blueprint, int status, bool hasWeaponSystem, int yShift); // 08178610
+cleanup __cdecl void InfoBox::SetBlueprint(InfoBox *this, WeaponBlueprint *blueprint, int status, bool hasWeaponSystem, int yShift); // 08178610
 ".5589e557565383ec2c8b5d08807b":  // unique sig
-cleanup __amd64 void InfoBox::CreateTipBox(InfoBox *this); // 08178a60
+cleanup __cdecl void InfoBox::CreateTipBox(InfoBox *this); // 08178a60
 ".5589e557565381ec3c0100008b4514":  // unique sig
-cleanup __amd64 void InfoBox::SetBlueprint(InfoBox *this, DroneBlueprint *blueprint, int status, bool hasDroneSystem, int yShift); // 08178bc0
+cleanup __cdecl void InfoBox::SetBlueprint(InfoBox *this, DroneBlueprint *blueprint, int status, bool hasDroneSystem, int yShift); // 08178bc0
 ".57565383ec208b7424348b5c24308d4608894424048d430c890424e8????????0fb6460c8843108d4610894424048d4314890424e8????????0fb646148843188d4618894424048d431c890424e8????????0fb6461c8843208b46208943248b46248943288b462889432c8b462c8943300fb646308843348d463483c63c894424048d4338890424e8????????0fb646fc88433c8d434089742404890424e8????????c7435c31010000c7436087":  // unique sig
-cleanup __amd64 void InfoBox::SetBlueprint(InfoBox *this, ItemBlueprint *blueprint); // 08179f80
+cleanup __cdecl void InfoBox::SetBlueprint(InfoBox *this, ItemBlueprint *blueprint); // 08179f80
 ".5589e557565381ec8c0000008b4514":  // unique sig
-cleanup __amd64 void InfoBox::SetBlueprint(InfoBox *this, CrewBlueprint *blueprint, int yShift, bool detailedCrew); // 0817a0f0
+cleanup __cdecl void InfoBox::SetBlueprint(InfoBox *this, CrewBlueprint *blueprint, int yShift, bool detailedCrew); // 0817a0f0
 ".57565383ec208b7424348b5c24308d4608894424048d430c890424e8????????0fb6460c8843108d4610894424048d4314890424e8????????0fb646148843188d4618894424048d431c890424e8????????0fb6461c8843208b46208943248b46248943288b462889432c8b462c8943300fb646308843348d463483c63c894424048d4338890424e8????????0fb646fc88433c8d434089742404890424e8????????c7435c31010000c7436096":  // unique sig
-cleanup __amd64 void InfoBox::SetBlueprint(InfoBox *this, AugmentBlueprint *blueprint); // 0817b030
+cleanup __cdecl void InfoBox::SetBlueprint(InfoBox *this, AugmentBlueprint *blueprint); // 0817b030
 ".5589e557565383ec3c8b5d0883":  // unique sig
-cleanup __amd64 bool InfoBox::IsEmpty(InfoBox *this); // 0817b1a0
+cleanup __cdecl bool InfoBox::IsEmpty(InfoBox *this); // 0817b1a0
 ".5589e557565383ec6c8b7d0883":  // unique sig
-cleanup __amd64 int InfoBox::CalcBoxHeight(InfoBox *this); // 0817b260
+cleanup __cdecl int InfoBox::CalcBoxHeight(InfoBox *this); // 0817b260
 ".5589e557565383ec3c8b5d088b4518":  // unique sig
-cleanup __amd64 void InfoBox::SetSystem(InfoBox *this, int systemId, int maxPower, int currentLevel, int upgrade, int yShift, int forceSystemWidth); // 0817b920
+cleanup __cdecl void InfoBox::SetSystem(InfoBox *this, int systemId, int maxPower, int currentLevel, int upgrade, int yShift, int forceSystemWidth); // 0817b920
 ".5557565383ec2c8b5c24408b7424448b7c24488b6c":  // unique sig
-cleanup __amd64 void InfoBox::SetDescription(InfoBox *this, Description *desc, int width, int height, ExpandDir expandDir); // 0817bd90
+cleanup __cdecl void InfoBox::SetDescription(InfoBox *this, Description *desc, int width, int height, ExpandDir expandDir); // 0817bd90
 ".5557565383ec7c8d":  // unique sig
-cleanup __amd64 void InfoBox::SetText(InfoBox *this, string *title, string *text, int width, int height, ExpandDir expandDir); // 0817bf50
+cleanup __cdecl void InfoBox::SetText(InfoBox *this, string *title, string *text, int width, int height, ExpandDir expandDir); // 0817bf50
 ".5557565383ec3c8b7424548b5c245085":  // unique sig
-cleanup __amd64 void InfoBox::SetSystem(InfoBox *this, ShipSystem *_sil__DO_NOT_USE_system, int upgrade, int yShift, int forceSystemWidth); // 0817c4b0
+cleanup __cdecl void InfoBox::SetSystem(InfoBox *this, ShipSystem *_sil__DO_NOT_USE_system, int upgrade, int yShift, int forceSystemWidth); // 0817c4b0
 ".57565383ec208b5c24308d742418":  // unique sig
-cleanup __amd64 void InfoBox::Clear(InfoBox *this); // 0817c6b0
+cleanup __cdecl void InfoBox::Clear(InfoBox *this); // 0817c6b0
 "!.8b44240483c068":  // unique sig
-cleanup __amd64 void InfoBox::SetWarning(InfoBox *this, string *text); // 0817c7e0
+cleanup __cdecl void InfoBox::SetWarning(InfoBox *this, string *text); // 0817c7e0
 "!.8b4424040584":  // unique sig
-cleanup __amd64 void InfoBox::AddDroneIcon(InfoBox *this, string *icon); // 0817c7f0
+cleanup __cdecl void InfoBox::AddDroneIcon(InfoBox *this, string *icon); // 0817c7f0
 ".5589e557565381ecbc0100008b7d08":  // unique sig
-cleanup __amd64 void InfoBox::OnRender(InfoBox *this); // 0817c810
+cleanup __cdecl void InfoBox::OnRender(InfoBox *this); // 0817c810
 ".565383ec248b5c24308b73":  // unique sig
-cleanup __amd64 void InfoBox::destructor(InfoBox *this); // 0817ed80
+cleanup __cdecl void InfoBox::destructor(InfoBox *this); // 0817ed80

@@ -1,82 +1,82 @@
 "555789c7565383ec5c":  // unique sig
-cleanup __amd64 void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 08288fc0
+cleanup __cdecl void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 08288fc0
 ".565383ec248b5c24308d74241f8d4308":  // unique sig
-cleanup __amd64 void WorldManager::constructor(WorldManager *this); // 08289690
+cleanup __cdecl void WorldManager::constructor(WorldManager *this); // 08289690
 ".57565383ec108b5c24208d73":  // unique sig
-cleanup __amd64 void WorldManager::OnInit(WorldManager *this); // 08289e30
+cleanup __cdecl void WorldManager::OnInit(WorldManager *this); // 08289e30
 ".5589e557565381ecac0000008b75088b":  // unique sig
-cleanup __amd64 int WorldManager::PossibleDamage(WorldManager *this, EventDamage damage); // 08289ec0
+cleanup __cdecl int WorldManager::PossibleDamage(WorldManager *this, EventDamage damage); // 08289ec0
 ".565383ec148b7424248b5c24208b86d4":  // unique sig
-cleanup __amd64 void WorldManager::CreateStore(WorldManager *this, LocationEvent *event); // 0828a130
+cleanup __cdecl void WorldManager::CreateStore(WorldManager *this, LocationEvent *event); // 0828a130
 ".5557565383ec3c8b5c245485":  // unique sig
-cleanup __amd64 bool WorldManager::CheckRequirements(WorldManager *this, LocationEvent *event, bool hidden); // 0828a1c0
+cleanup __cdecl bool WorldManager::CheckRequirements(WorldManager *this, LocationEvent *event, bool hidden); // 0828a1c0
 ".5557565383ec2c8b7424408b5c24448b06":  // unique sig
-cleanup __amd64 bool WorldManager::AddBoarders(WorldManager *this, BoardingEvent *boarders); // 0828a3b0
+cleanup __cdecl bool WorldManager::AddBoarders(WorldManager *this, BoardingEvent *boarders); // 0828a3b0
 ".8b4424048b80cc":  // unique sig
-cleanup __amd64 CommandGui *WorldManager::CreateCommandGui(WorldManager *this); // 0828a430
+cleanup __cdecl CommandGui *WorldManager::CreateCommandGui(WorldManager *this); // 0828a430
 "!.c7442404????????e9????????9066":  // unique sig
-cleanup __amd64 void WorldManager::CountCrews(WorldManager *this); // 0828a440
+cleanup __cdecl void WorldManager::CountCrews(WorldManager *this); // 0828a440
 "!.5557565383ec1c8b7c24308b8f":  // unique sig
-cleanup __amd64 void WorldManager::CheckMusic(WorldManager *this); // 0828a450
+cleanup __cdecl void WorldManager::CheckMusic(WorldManager *this); // 0828a450
 ".5383ec188b5c24208d430889":  // unique sig
-cleanup __amd64 bool WorldManager::HostileEnvironment(WorldManager *this); // 0828a530
+cleanup __cdecl bool WorldManager::HostileEnvironment(WorldManager *this); // 0828a530
 ".f3c38db426000000008dbc27000000005383ec188b44":  // unique sig
-cleanup __amd64 void WorldManager::PrepareNextLocation(WorldManager *this, LocationEvent *event, bool boss); // 0828a570
+cleanup __cdecl void WorldManager::PrepareNextLocation(WorldManager *this, LocationEvent *event, bool boss); // 0828a570
 ".5383ec188b4424248b5c24208b54":  // unique sig
-cleanup __amd64 void WorldManager::ModifyEnvironment(WorldManager *this, int envFlag, int envTarget); // 0828a580
+cleanup __cdecl void WorldManager::ModifyEnvironment(WorldManager *this, int envFlag, int envTarget); // 0828a580
 ".5557565383ec5c8b4424748b":  // unique sig
-cleanup __amd64 void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 0828a680
+cleanup __cdecl void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 0828a680
 ".555731ff565383ec2c8b6c24408b74":  // unique sig
-cleanup __amd64 void WorldManager::ModifyAllStatusEffects(WorldManager *this, ShipManager *target, int targetType); // 0828a800
+cleanup __cdecl void WorldManager::ModifyAllStatusEffects(WorldManager *this, ShipManager *target, int targetType); // 0828a800
 ".f3c38db426000000008dbc27000000005589e557565381ecbc":  // unique sig
-cleanup __amd64 void WorldManager::KeyDown(WorldManager *this, SDLKey sym); // 0828a890
+cleanup __cdecl void WorldManager::KeyDown(WorldManager *this, SDLKey sym); // 0828a890
 ".5589e557565381ecbc0100008b7d0c":  // unique sig
-cleanup __amd64 LocationEvent *WorldManager::ModifyResources(WorldManager *this, LocationEvent *event); // 0828a8a0
+cleanup __cdecl LocationEvent *WorldManager::ModifyResources(WorldManager *this, LocationEvent *event); // 0828a8a0
 "!.5557565383ec3c8b5c24548b7c":  // unique sig
-cleanup __amd64 void WorldManager::CheckStatusEffects(WorldManager *this, std::vector<StatusEffect> *effects); // 0828b410
+cleanup __cdecl void WorldManager::CheckStatusEffects(WorldManager *this, std::vector<StatusEffect> *effects); // 0828b410
 ".5383ec188b5c24208b03894424048b44":  // unique sig
-cleanup __amd64 void WorldManager::AddShip(WorldManager *this, CompleteShip *ship); // 0828b5b0
+cleanup __cdecl void WorldManager::AddShip(WorldManager *this, CompleteShip *ship); // 0828b5b0
 ".5557565383ec6c85":  // unique sig
-static cleanup __amd64 std::vector<std::string> *WorldManager::RetrieveShipList(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, WorldManager *this, LocationEvent *event, bool boss); // 0828b660
+static cleanup __cdecl std::vector<std::string> *WorldManager::RetrieveShipList(vector<std::string,_std::allocator<std::string_>_> *__return_storage_ptr__, WorldManager *this, LocationEvent *event, bool boss); // 0828b660
 ".5589e557565383ec7c8b4d":  // unique sig
-cleanup __amd64 std::vector<std::string> *WorldManager::RetrieveShipList(WorldManager *this, LocationEvent *event, bool boss); // 0828b980
+cleanup __cdecl std::vector<std::string> *WorldManager::RetrieveShipList(WorldManager *this, LocationEvent *event, bool boss); // 0828b980
 ".5589e55789d7565389c381":  // unique sig
-cleanup __amd64 void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 0828bd50
+cleanup __cdecl void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 0828bd50
 ".565383ec148b5c24208b7424248b038b48088b01890c24ff504484c075??85":  // unique sig
-cleanup __amd64 void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 0828da60
+cleanup __cdecl void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 0828da60
 ".5557565381ec1c02000080":  // unique sig
-cleanup __amd64 CompleteShip *WorldManager::CreateShip(WorldManager *this, ShipEvent *ship, bool boss); // 0828dab0
+cleanup __cdecl CompleteShip *WorldManager::CreateShip(WorldManager *this, ShipEvent *ship, bool boss); // 0828dab0
 ".5589e557565381ec7c0200008b75":  // unique sig
-cleanup __amd64 void WorldManager::CreateLocation(WorldManager *this, Location *loc); // 0828dd50
+cleanup __cdecl void WorldManager::CreateLocation(WorldManager *this, Location *loc); // 0828dd50
 ".5589e55789d7565381":  // unique sig
-cleanup __amd64 void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 0828e940
+cleanup __cdecl void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 0828e940
 ".565383ec148b5c24208b7424248b038b48088b01890c24ff504484c075??83":  // unique sig
-cleanup __amd64 void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 0828f120
+cleanup __cdecl void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 0828f120
 ".5589e557565381ec9c0100008b75088d":  // unique sig
-cleanup __amd64 void WorldManager::ClearLocation(WorldManager *this); // 0828f160
+cleanup __cdecl void WorldManager::ClearLocation(WorldManager *this); // 0828f160
 ".5589e557565381ec3c0100008b75":  // unique sig
-cleanup __amd64 void WorldManager::LoadGame(WorldManager *this, string *file); // 0828f930
+cleanup __cdecl void WorldManager::LoadGame(WorldManager *this, string *file); // 0828f930
 ".5589e557565381ec1c02":  // unique sig
-cleanup __amd64 void WorldManager::TestBlueprints(WorldManager *this); // 08290670
+cleanup __cdecl void WorldManager::TestBlueprints(WorldManager *this); // 08290670
 ".5589e557565383ec5c8b7d088b5d":  // unique sig
-cleanup __amd64 bool WorldManager::CheckForNewLocation(WorldManager *this, bool savingGame); // 082911e0
+cleanup __cdecl bool WorldManager::CheckForNewLocation(WorldManager *this, bool savingGame); // 082911e0
 ".5589e557565383ec2c8b5d088b83cc":  // unique sig
-cleanup __amd64 void WorldManager::SaveGame(WorldManager *this); // 08291560
+cleanup __cdecl void WorldManager::SaveGame(WorldManager *this); // 08291560
 ".5383ec188b5c24208b83cc0c":  // unique sig
-cleanup __amd64 void WorldManager::PrepareAutoSave(WorldManager *this); // 082918d0
+cleanup __cdecl void WorldManager::PrepareAutoSave(WorldManager *this); // 082918d0
 ".5383ec188b5c2420891c24e8????????8b8384":  // unique sig
-cleanup __amd64 void WorldManager::OnCleanup(WorldManager *this); // 08291920
+cleanup __cdecl void WorldManager::OnCleanup(WorldManager *this); // 08291920
 ".57565383ec208b7424308d":  // unique sig
-cleanup __amd64 void WorldManager::CreateNewGame(WorldManager *this); // 08291990
+cleanup __cdecl void WorldManager::CreateNewGame(WorldManager *this); // 08291990
 ".5589e557565383ec3c8b5d088b750c8b03":  // unique sig
-cleanup __amd64 void WorldManager::StartGame(WorldManager *this, ShipManager *newShip); // 08291ae0
+cleanup __cdecl void WorldManager::StartGame(WorldManager *this, ShipManager *newShip); // 08291ae0
 "!.5383ec188b5c2420891c24e8????????e8":  // unique sig
-cleanup __amd64 void WorldManager::Restart(WorldManager *this); // 08291c90
+cleanup __cdecl void WorldManager::Restart(WorldManager *this); // 08291c90
 ".5589e557565381ec2c0200008b5d":  // unique sig
-cleanup __amd64 void WorldManager::CheckLoadEvent(WorldManager *this); // 08291d20
+cleanup __cdecl void WorldManager::CheckLoadEvent(WorldManager *this); // 08291d20
 ".5589e557565381ecac0000008b7508c7":  // unique sig
-cleanup __amd64 void WorldManager::OnLoop(WorldManager *this); // 08292800
+cleanup __cdecl void WorldManager::OnLoop(WorldManager *this); // 08292800
 ".5589e557565383ec4c8b75088b06":  // unique sig
-cleanup __amd64 void WorldManager::PauseLoop(WorldManager *this); // 08294450
+cleanup __cdecl void WorldManager::PauseLoop(WorldManager *this); // 08294450
 ".5557565383ec4c8b4424608b80":  // unique sig
-cleanup __amd64 void WorldManager::destructor(WorldManager *this); // 08294870
+cleanup __cdecl void WorldManager::destructor(WorldManager *this); // 08294870

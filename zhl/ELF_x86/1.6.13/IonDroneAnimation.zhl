@@ -1,20 +1,20 @@
 "5383ec188b5c2420891c24e8????????8d839c":  // unique sig
-cleanup __amd64 void IonDroneAnimation::Restart(IonDroneAnimation *this); // 0807b910
+cleanup __cdecl void IonDroneAnimation::Restart(IonDroneAnimation *this); // 0807b910
 ".83ec3c8b44244080b8d0":  // unique sig
-cleanup __amd64 void IonDroneAnimation::OnRenderProps(IonDroneAnimation *this); // 0807bf70
+cleanup __cdecl void IonDroneAnimation::OnRenderProps(IonDroneAnimation *this); // 0807bf70
 ".565383ec348b74244c":  // unique sig
-cleanup __amd64 void IonDroneAnimation::OnRender(IonDroneAnimation *this, float scale, int selectedState, bool outlineOnly); // 0807c000
+cleanup __cdecl void IonDroneAnimation::OnRender(IonDroneAnimation *this, float scale, int selectedState, bool outlineOnly); // 0807c000
 ".565383ec148b5c242080bbd0":  // unique sig
-cleanup __amd64 void IonDroneAnimation::OnUpdateEffects(IonDroneAnimation *this); // 0807c100
+cleanup __cdecl void IonDroneAnimation::OnUpdateEffects(IonDroneAnimation *this); // 0807c100
 ".5557565383ec2c8b5c24400f":  // unique sig
-cleanup __amd64 bool IonDroneAnimation::FireShot(IonDroneAnimation *this); // 0807c780
+cleanup __cdecl bool IonDroneAnimation::FireShot(IonDroneAnimation *this); // 0807c780
 ".5589e557565381ecfc0000008b5d18":  // unique sig
-cleanup __amd64 void IonDroneAnimation::constructor(IonDroneAnimation *this, int iShipId, Pointf position, bool enemy); // 0807e1a0
+cleanup __cdecl void IonDroneAnimation::constructor(IonDroneAnimation *this, int iShipId, Pointf position, bool enemy); // 0807e1a0
 ".5557565383ec3c8b5c24508db3":  // unique sig
-cleanup __amd64 void IonDroneAnimation::UpdateShooting(IonDroneAnimation *this); // 08081d20
+cleanup __cdecl void IonDroneAnimation::UpdateShooting(IonDroneAnimation *this); // 08081d20
 ".b8ffffffffc3669066906690669066908b442404c700????????e9":  // unique sig
-cleanup __amd64 int IonDroneAnimation::GetFiringFrame(IonDroneAnimation *this); // 08082a80
+cleanup __cdecl int IonDroneAnimation::GetFiringFrame(IonDroneAnimation *this); // 08082a80
 ".5557565383ec5c8b442470c700????????05000d000089442418":  // unique sig
-cleanup __amd64 void IonDroneAnimation::destructor(IonDroneAnimation *this); // 08084bf0
+cleanup __cdecl void IonDroneAnimation::destructor(IonDroneAnimation *this); // 08084bf0
 ".5557565383ec5c8b442470c700????????05000d000089442410":  // unique sig
-cleanup __amd64 void IonDroneAnimation::destructor(IonDroneAnimation *this); // 08085a90
+cleanup __cdecl void IonDroneAnimation::destructor(IonDroneAnimation *this); // 08085a90

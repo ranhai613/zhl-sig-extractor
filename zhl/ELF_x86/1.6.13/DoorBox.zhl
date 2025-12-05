@@ -1,18 +1,18 @@
 "565383ec248b5c243080bb":  // unique sig
-cleanup __amd64 void DoorBox::KeyDown(DoorBox *this, SDLKey key_sym, bool shift); // 081cd610
+cleanup __cdecl void DoorBox::KeyDown(DoorBox *this, SDLKey key_sym, bool shift); // 081cd610
 ".83ec1c8b54242080":  // unique sig
-cleanup __amd64 bool DoorBox::MouseClick(DoorBox *this, bool force); // 081cd810
+cleanup __cdecl bool DoorBox::MouseClick(DoorBox *this, bool force); // 081cd810
 ".5557565383ec5c8b44247c8d74":  // unique sig
-cleanup __amd64 void DoorBox::constructor(DoorBox *this, Point loc, ShipSystem *sys, ShipManager *ship); // 081d31d0
+cleanup __cdecl void DoorBox::constructor(DoorBox *this, Point loc, ShipSystem *sys, ShipManager *ship); // 081d31d0
 ".5557565383ec4c8b4424648b5c24608b74":  // unique sig
-cleanup __amd64 void DoorBox::OnTouch(DoorBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081d4ea0
+cleanup __cdecl void DoorBox::OnTouch(DoorBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081d4ea0
 "!.5557565383ec5c8b5c24708b44":  // unique sig
-cleanup __amd64 void DoorBox::OnRender(DoorBox *this, bool ignoreStatus); // 081d5340
+cleanup __cdecl void DoorBox::OnRender(DoorBox *this, bool ignoreStatus); // 081d5340
 ".5589e557565383ec3c8b5d088b750c8b7d10891c2489742404897c2408e8????????89":  // unique sig
-cleanup __amd64 void DoorBox::MouseMove(DoorBox *this, int mX, int mY); // 081d5650
+cleanup __cdecl void DoorBox::MouseMove(DoorBox *this, int mX, int mY); // 081d5650
 ".b801000000c366906690669066906690b801000000c366906690669066906690b801000000c3669066906690669066908b442404c7":  // unique sig
-cleanup __amd64 bool DoorBox::HasButton(DoorBox *this); // 081d5a80
+cleanup __cdecl bool DoorBox::HasButton(DoorBox *this); // 081d5a80
 "!.5383ec188b5c24208d8320020000c703????????890424e8????????8d83b4010000890424e8????????895c":  // unique sig
-cleanup __amd64 void DoorBox::destructor(DoorBox *this); // 081d5f00
+cleanup __cdecl void DoorBox::destructor(DoorBox *this); // 081d5f00
 ".5383ec188b5c24208d8320020000c703????????890424e8????????8d83b4010000890424e8????????891c":  // unique sig
-cleanup __amd64 void DoorBox::destructor(DoorBox *this); // 081d5f40
+cleanup __cdecl void DoorBox::destructor(DoorBox *this); // 081d5f40

@@ -1,8 +1,8 @@
 "565383ec148b5c24208b742424891c2489742404e8????????0fb646048843048d4608894424048d4308890424e8????????0fb6460c88430c8d4610894424048d4310890424e8????????0fb646148843148b46188943188b461c89431c8b46208943208b46248943240fb646288843288d462c83c634894424048d432c890424e8????????0fb646fc8843308d433489742404890424e8????????83c41489d85b5ec3669066906690669066906690b8":  // unique sig
-cleanup __amd64 Description *Description::operator=(Description *this, Description *param_2); // 0817f0d0
+cleanup __cdecl Description *Description::operator=(Description *this, Description *param_2); // 0817f0d0
 ".565383ec248b5c24308b4334":  // unique sig
-cleanup __amd64 void Description::destructor(Description *this); // 081a6d10
+cleanup __cdecl void Description::destructor(Description *this); // 081a6d10
 ".565383ec148b5c24208b742424891c2489742404e8????????0fb646048843048d4608894424048d4308890424e8????????0fb6460c88430c8d4610894424048d4310890424e8????????0fb646148843148b46188943188b461c89431c8b46208943208b46248943240fb646288843288d462c83c634894424048d432c83":  // unique sig
-cleanup __amd64 void Description::constructor(Description *this, Description *param_2); // 081a6eb0
+cleanup __cdecl void Description::constructor(Description *this, Description *param_2); // 081a6eb0
 ".565383ec148b5c24208b742424891c2489742404e8????????0fb646048843048d4608894424048d4308890424e8????????0fb6460c88430c8d4610894424048d4310890424e8????????0fb646148843148b46188943188b461c89431c8b46208943208b46248943240fb646288843288d462c83c634894424048d432c890424e8????????0fb646fc8843308d433489742404890424e8????????83c41489d85b5ec366906690669066906690669055":  // unique sig
-cleanup __amd64 Description *Description::operator=(Description *this, Description *param_2); // 082478d0
+cleanup __cdecl Description *Description::operator=(Description *this, Description *param_2); // 082478d0

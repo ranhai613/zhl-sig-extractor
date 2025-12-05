@@ -1,28 +1,28 @@
 "5589e583ec28":  // unique sig
-cleanup __amd64 float SuperShieldDrone::GetWeaponCooldown(SuperShieldDrone *this); // 080a99c0
+cleanup __cdecl float SuperShieldDrone::GetWeaponCooldown(SuperShieldDrone *this); // 080a99c0
 ".31c0c3908db6000000008dbf0000000031c0c3908db6000000008dbf00000000f3":  // unique sig
-cleanup __amd64 bool SuperShieldDrone::HasTarget(SuperShieldDrone *this); // 080a9a10
+cleanup __cdecl bool SuperShieldDrone::HasTarget(SuperShieldDrone *this); // 080a9a10
 ".31c0c3908db6000000008dbf00000000f3c38db426000000008dbc27000000005383ec28":  // unique sig
-cleanup __amd64 Projectile *SuperShieldDrone::GetNextProjectile(SuperShieldDrone *this); // 080a9a20
+cleanup __cdecl Projectile *SuperShieldDrone::GetNextProjectile(SuperShieldDrone *this); // 080a9a20
 ".f3c38db426000000008dbc27000000005383ec28":  // unique sig
-cleanup __amd64 void SuperShieldDrone::SetWeaponTarget(SuperShieldDrone *this, Targetable *target); // 080a9a30
+cleanup __cdecl void SuperShieldDrone::SetWeaponTarget(SuperShieldDrone *this, Targetable *target); // 080a9a30
 ".57565383ec308b5c24408b03891c24ff50":  // unique sig
-cleanup __amd64 void SuperShieldDrone::RenderDrone(SuperShieldDrone *this); // 080a9dd0
+cleanup __cdecl void SuperShieldDrone::RenderDrone(SuperShieldDrone *this); // 080a9dd0
 ".565383ec148b7424208b5c2424893424895c2404e8????????f30f108660":  // unique sig
-cleanup __amd64 void SuperShieldDrone::SaveState(SuperShieldDrone *this, int fd); // 080abc60
+cleanup __cdecl void SuperShieldDrone::SaveState(SuperShieldDrone *this, int fd); // 080abc60
 ".565383ec148b5c24208b742424891c2489742404e8????????893424e8????????d95c240c8b44240c898360":  // unique sig
-cleanup __amd64 void SuperShieldDrone::LoadState(SuperShieldDrone *this, int fd); // 080ac0a0
+cleanup __cdecl void SuperShieldDrone::LoadState(SuperShieldDrone *this, int fd); // 080ac0a0
 ".5589e5565383ec208b5d088d45f28d75f489442408c7442404????????893424e8????????c744240c????????89742408c7442404????????891c24e8????????8b45f48d50f483ec0481fa????????75??8d65f889d85b5e5dc20400be????????85f68d48fc74??83c8fff00fc10185c07f??8d45f389442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??8db426000000008dbc27000000005589e5565383ec208b45":  // unique sig
-cleanup __amd64 string SuperShieldDrone::GetTooltip(SuperShieldDrone *this); // 080ac320
+cleanup __cdecl string SuperShieldDrone::GetTooltip(SuperShieldDrone *this); // 080ac320
 ".565383ec148b7424248b5c242085f674??8b03891c":  // unique sig
-cleanup __amd64 void SuperShieldDrone::SetMovementTarget(SuperShieldDrone *this, Targetable *target); // 080ace30
+cleanup __cdecl void SuperShieldDrone::SetMovementTarget(SuperShieldDrone *this, Targetable *target); // 080ace30
 ".565383ec348b5c2440891c24e8????????8b":  // unique sig
-cleanup __amd64 void SuperShieldDrone::OnLoop(SuperShieldDrone *this); // 080af8a0
+cleanup __cdecl void SuperShieldDrone::OnLoop(SuperShieldDrone *this); // 080af8a0
 ".8b5424088b4424048990b4":  // unique sig
-cleanup __amd64 void SuperShieldDrone::SetShieldSystem(SuperShieldDrone *this, Shields *shieldSystem); // 080b0c30
+cleanup __cdecl void SuperShieldDrone::SetShieldSystem(SuperShieldDrone *this, Shields *shieldSystem); // 080b0c30
 ".5557565383ec2c8b44244c8d":  // unique sig
-cleanup __amd64 void SuperShieldDrone::constructor(SuperShieldDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 080b10c0
+cleanup __cdecl void SuperShieldDrone::constructor(SuperShieldDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 080b10c0
 ".5557565383ec2c8b7424408b8630":  // unique sig
-cleanup __amd64 void SuperShieldDrone::destructor(SuperShieldDrone *this); // 080b41f0
+cleanup __cdecl void SuperShieldDrone::destructor(SuperShieldDrone *this); // 080b41f0
 ".565383ec248b5c24308b8330":  // unique sig
-cleanup __amd64 void SuperShieldDrone::destructor(SuperShieldDrone *this); // 080b4770
+cleanup __cdecl void SuperShieldDrone::destructor(SuperShieldDrone *this); // 080b4770

@@ -1,14 +1,14 @@
 "538b54240c8b4424088b":  // unique sig
-cleanup __amd64 GL_Color *ArtilleryBox::GetCooldownColor(ArtilleryBox *this); // 081cc940
+cleanup __cdecl GL_Color *ArtilleryBox::GetCooldownColor(ArtilleryBox *this); // 081cc940
 ".b8ffffffffc38d76008dbc2700000000d9e8d9e0c3908d76008dbc27000000008b":  // unique sig
-cleanup __amd64 int ArtilleryBox::GetCooldownLevel(ArtilleryBox *this); // 081cc990
+cleanup __cdecl int ArtilleryBox::GetCooldownLevel(ArtilleryBox *this); // 081cc990
 ".d9e8d9e0c3908d76008dbc27000000008b":  // unique sig
-cleanup __amd64 float ArtilleryBox::GetCooldownFraction(ArtilleryBox *this); // 081cc9a0
+cleanup __cdecl float ArtilleryBox::GetCooldownFraction(ArtilleryBox *this); // 081cc9a0
 ".5557565381ec1c0100008b9c":  // unique sig
-cleanup __amd64 void ArtilleryBox::OnRender(ArtilleryBox *this, bool ignoreStatus); // 081d3790
+cleanup __cdecl void ArtilleryBox::OnRender(ArtilleryBox *this, bool ignoreStatus); // 081d3790
 ".565383ec248b5c24308b74243c":  // unique sig
-cleanup __amd64 void ArtilleryBox::constructor(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 081d45b0
+cleanup __cdecl void ArtilleryBox::constructor(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 081d45b0
 "!.5653bb0100000083ec148b742420c706????????8b849eb001000083c301890424e8????????83fb0575??8974242083c4145b5ee9????????66":  // unique sig
-cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this); // 081d5af0
+cleanup __cdecl void ArtilleryBox::destructor(ArtilleryBox *this); // 081d5af0
 ".5653bb0100000083ec148b742420c706????????8b849eb001000083c301890424e8????????83fb0575??893424e8????????8974242083c4145b5ee9????????66":  // unique sig
-cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this); // 081d5b30
+cleanup __cdecl void ArtilleryBox::destructor(ArtilleryBox *this); // 081d5b30

@@ -1,22 +1,22 @@
 "5589e55789d7565389cb":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<TextString>(TextLibrary *this, string *name, TextString *param_2); // 080690a0
+cleanup __cdecl string TextLibrary::FormatText<TextString>(TextLibrary *this, string *name, TextString *param_2); // 080690a0
 ".5589e557565383ec4c8b4514":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<std::string_>(TextLibrary *this, string *name); // 080db300
+cleanup __cdecl string TextLibrary::FormatText<std::string_>(TextLibrary *this, string *name); // 080db300
 ".5589e557565381ec1c0100008b450c":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<int>(TextLibrary *this, string *name); // 08137ef0
+cleanup __cdecl string TextLibrary::FormatText<int>(TextLibrary *this, string *name); // 08137ef0
 ".5557565381ec0c0100000f":  // unique sig
-cleanup __amd64 string TextLibrary::DoFormatText<int>(TextLibrary *this, int index, string *text, int v); // 08139190
+cleanup __cdecl string TextLibrary::DoFormatText<int>(TextLibrary *this, int index, string *text, int v); // 08139190
 ".5557565383ec4c0f":  // unique sig
-cleanup __amd64 string TextLibrary::DoFormatText<std::basic_string<char>>(TextLibrary *this, int index, string *text, basic_string<char, _std::char_traits<char>, _std::allocator<char>> *v); // 081d5b80
+cleanup __cdecl string TextLibrary::DoFormatText<std::basic_string<char>>(TextLibrary *this, int index, string *text, basic_string<char, _std::char_traits<char>, _std::allocator<char>> *v); // 081d5b80
 ".8b44240483c030":  // unique sig
-cleanup __amd64 void TextLibrary::SetLanguage(TextLibrary *this, string *language); // 0820cd10
+cleanup __cdecl void TextLibrary::SetLanguage(TextLibrary *this, string *language); // 0820cd10
 ".5557565383ec3c8b4424508b4008":  // unique sig
-cleanup __amd64 void TextLibrary::Clear(TextLibrary *this); // 0820db00
+cleanup __cdecl void TextLibrary::Clear(TextLibrary *this); // 0820db00
 ".5589e557565381ecfc0001":  // unique sig
-cleanup __amd64 void TextLibrary::LoadText(TextLibrary *this, string *data, string *filename); // 0820e3d0
+cleanup __cdecl void TextLibrary::LoadText(TextLibrary *this, string *data, string *filename); // 0820e3d0
 ".5589e557565383ec5c8b450c83c01c":  // unique sig
-cleanup __amd64 string TextLibrary::GetText(TextLibrary *this, string *name, string *language); // 0820f540
+cleanup __cdecl string TextLibrary::GetText(TextLibrary *this, string *name, string *language); // 0820f540
 ".5557565383ec3c8b4424508b4030":  // unique sig
-cleanup __amd64 void TextLibrary::destructor(TextLibrary *this); // 08210630
+cleanup __cdecl void TextLibrary::destructor(TextLibrary *this); // 08210630
 ".5589e557565381ec0c0100008b450c8d":  // unique sig
-cleanup __amd64 string TextLibrary::FormatText<float>(TextLibrary *this, string *name); // 08247ec0
+cleanup __cdecl string TextLibrary::FormatText<float>(TextLibrary *this, string *name); // 08247ec0

@@ -1,34 +1,34 @@
 "f3c38db426000000008dbc27000000005557565383ec3c8b7c":  // unique sig
-cleanup __amd64 void EventGenerator::PrintStatistics(EventGenerator *this, int sectors); // 0824ec30
+cleanup __cdecl void EventGenerator::PrintStatistics(EventGenerator *this, int sectors); // 0824ec30
 ".5557565383ec2c8b7424408b5e14":  // unique sig
-cleanup __amd64 void EventGenerator::ClearSectorData(EventGenerator *this); // 0824efb0
+cleanup __cdecl void EventGenerator::ClearSectorData(EventGenerator *this); // 0824efb0
 ".5557565383ec2c8b7424408b96":  // unique sig
-cleanup __amd64 void EventGenerator::Cleanup(EventGenerator *this); // 0824f0b0
+cleanup __cdecl void EventGenerator::Cleanup(EventGenerator *this); // 0824f0b0
 ".57565381ec900000008b9c":  // unique sig
-cleanup __amd64 std::vector<SectorDescription> *EventGenerator::GetSectorDescriptions(EventGenerator *this); // 0824f1e0
+cleanup __cdecl std::vector<SectorDescription> *EventGenerator::GetSectorDescriptions(EventGenerator *this); // 0824f1e0
 ".5557565381ec0c0100008b84":  // unique sig
-cleanup __amd64 void EventGenerator::InitStatistics(EventGenerator *this); // 0824f380
+cleanup __cdecl void EventGenerator::InitStatistics(EventGenerator *this); // 0824f380
 ".5589e557565383ec2c8b7d0c8b4d":  // unique sig
-cleanup __amd64 TextString EventGenerator::GetTextFromList(EventGenerator *this, string *listName); // 0824f7a0
+cleanup __cdecl TextString EventGenerator::GetTextFromList(EventGenerator *this, string *listName); // 0824f7a0
 ".5589e557565383ec3c8b450c8b7d10":  // unique sig
-cleanup __amd64 string EventGenerator::GetImageFromList(EventGenerator *this, string *imageList); // 0824f880
+cleanup __cdecl string EventGenerator::GetImageFromList(EventGenerator *this, string *imageList); // 0824f880
 ".5589e557565383ec2c8b450c8b75":  // unique sig
-cleanup __amd64 ShipEvent *EventGenerator::GetShipEvent(EventGenerator *this, string *event); // 0824f950
+cleanup __cdecl ShipEvent *EventGenerator::GetShipEvent(EventGenerator *this, string *event); // 0824f950
 ".5589e557565383ec5c8b45088b5d":  // unique sig
-cleanup __amd64 SectorDescription *EventGenerator::GetSectorDescription(EventGenerator *this, string *type, int sector); // 082501f0
+cleanup __cdecl SectorDescription *EventGenerator::GetSectorDescription(EventGenerator *this, string *type, int sector); // 082501f0
 ".5589e557565381ecac0000008b7510":  // unique sig
-cleanup __amd64 SectorDescription *EventGenerator::GetSpecificSector(EventGenerator *this, string *name); // 082506c0
+cleanup __cdecl SectorDescription *EventGenerator::GetSpecificSector(EventGenerator *this, string *name); // 082506c0
 ".5557565383ec3c8b7424508b9e":  // unique sig
-cleanup __amd64 void EventGenerator::Clear(EventGenerator *this); // 08250ac0
+cleanup __cdecl void EventGenerator::Clear(EventGenerator *this); // 08250ac0
 ".5589e557565381ecdc0100008b45":  // unique sig
-cleanup __amd64 LocationEvent *EventGenerator::CreateEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 08250c10
+cleanup __cdecl LocationEvent *EventGenerator::CreateEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 08250c10
 ".5557565383ec2c8b5c24408d74241c8d":  // unique sig
-cleanup __amd64 LocationEvent *EventGenerator::GenerateEvent(EventGenerator *this); // 082530d0
+cleanup __cdecl LocationEvent *EventGenerator::GenerateEvent(EventGenerator *this); // 082530d0
 ".5589e557565383ec3c8b4d088b":  // unique sig
-cleanup __amd64 LocationEvent *EventGenerator::GetEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 08253160
+cleanup __cdecl LocationEvent *EventGenerator::GetEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique); // 08253160
 ".5557565383ec1c8b442440":  // unique sig
-cleanup __amd64 LocationEvent *EventGenerator::GetBaseEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique, int seed); // 08253240
+cleanup __cdecl LocationEvent *EventGenerator::GetBaseEvent(EventGenerator *this, string *eventName, int worldLevel, bool ignoreUnique, int seed); // 08253240
 ".57565383ec108b5c24208d431c":  // unique sig
-cleanup __amd64 void EventGenerator::constructor(EventGenerator *this); // 08253a70
+cleanup __cdecl void EventGenerator::constructor(EventGenerator *this); // 08253a70
 ".5557565383ec2c8b7c24408d74241f8b":  // unique sig
-cleanup __amd64 void EventGenerator::destructor(EventGenerator *this); // 082559d0
+cleanup __cdecl void EventGenerator::destructor(EventGenerator *this); // 082559d0

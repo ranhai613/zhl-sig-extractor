@@ -1,186 +1,186 @@
 "80b8f002000000f3":  // unique sig
-cleanup __amd64 float Ship::GetCloakAlpha(Ship *this, bool complete); // 080ed3e0
+cleanup __cdecl float Ship::GetCloakAlpha(Ship *this, bool complete); // 080ed3e0
 ".57565383ec208b7424308b46":  // unique sig
-cleanup __amd64 void Ship::destructor(Ship *this); // 080ed5d0
+cleanup __cdecl void Ship::destructor(Ship *this); // 080ed5d0
 ".5383ec188b5c2420891c24e8????????895c242083c4185be9????????906690565383":  // unique sig
-cleanup __amd64 void Ship::destructor(Ship *this); // 080ed7a0
+cleanup __cdecl void Ship::destructor(Ship *this); // 080ed7a0
 ".5557565383ec3c8b5c24508d6c242f":  // unique sig
-cleanup __amd64 void Ship::constructor(Ship *this, int shipId); // 080edb00
+cleanup __cdecl void Ship::constructor(Ship *this, int shipId); // 080edb00
 ".5383ec488b5c24508b43":  // unique sig
-cleanup __amd64 void Ship::LoadImages(Ship *this); // 080ee0f0
+cleanup __cdecl void Ship::LoadImages(Ship *this); // 080ee0f0
 ".5383ec188b5c24208b436c":  // unique sig
-cleanup __amd64 void Ship::ClearImages(Ship *this); // 080ee230
+cleanup __cdecl void Ship::ClearImages(Ship *this); // 080ee230
 ".56538b4424108b4c240c":  // unique sig
-cleanup __amd64 int Ship::DamageHull(Ship *this, int amount); // 080ee2a0
+cleanup __cdecl int Ship::DamageHull(Ship *this, int amount); // 080ee2a0
 ".8b44240c8b542408894424088b4424048b40088b049089442404e9????????9056":  // unique sig
-cleanup __amd64 void Ship::OnRenderSystem(Ship *this, int roomId, int computerLevel); // 080ee2f0
+cleanup __cdecl void Ship::OnRenderSystem(Ship *this, int roomId, int computerLevel); // 080ee2f0
 "565383ec248b7424348b5c24308b86a4":  // unique sig
-cleanup __amd64 Ellipse *Ship::GetBaseEllipse(Ship *this); // 080ee310
+cleanup __cdecl Ellipse *Ship::GetBaseEllipse(Ship *this); // 080ee310
 ".5383ec488b5c24508b93":  // unique sig
-cleanup __amd64 void Ship::LoadCloakImage(Ship *this); // 080ee3a0
+cleanup __cdecl void Ship::LoadCloakImage(Ship *this); // 080ee3a0
 ".5383ec188b5424248b4c":  // unique sig
-cleanup __amd64 WeaponMount *Ship::GetWeaponMount(Ship *this, int val); // 080ee490
+cleanup __cdecl WeaponMount *Ship::GetWeaponMount(Ship *this, int val); // 080ee490
 ".55575631f65383ec1c8b5c24308b53":  // unique sig
-cleanup __amd64 void Ship::Restart(Ship *this); // 080ee530
+cleanup __cdecl void Ship::Restart(Ship *this); // 080ee530
 ".5631f65383ec148b5c24208b53":  // unique sig
-cleanup __amd64 void Ship::PauseLoop(Ship *this); // 080ee700
+cleanup __cdecl void Ship::PauseLoop(Ship *this); // 080ee700
 ".5589e55731ff565383ec2c":  // unique sig
-cleanup __amd64 std::pair<int, int> Ship::ContainsHullBreach(Ship *this, int roomId); // 080ee780
+cleanup __cdecl std::pair<int, int> Ship::ContainsHullBreach(Ship *this, int roomId); // 080ee780
 ".5589e55383ec148b450c8b5d088b4004890424e8????????8b":  // unique sig
-cleanup __amd64 Pointf Ship::GetRoomCenter(Ship *this, int roomId); // 080ee8a0
+cleanup __cdecl Pointf Ship::GetRoomCenter(Ship *this, int roomId); // 080ee8a0
 ".538b4424088b5c240c8b90":  // unique sig
-cleanup __amd64 bool Ship::RoomLocked(Ship *this, int roomId); // 080ee8e0
+cleanup __cdecl bool Ship::RoomLocked(Ship *this, int roomId); // 080ee8e0
 ".5557565383ec1c8b5c24308b7424348b7c24388b43":  // unique sig
-cleanup __amd64 void Ship::SetHackLevel(Ship *this, int roomId, int hackLevel); // 080ee940
+cleanup __cdecl void Ship::SetHackLevel(Ship *this, int roomId, int hackLevel); // 080ee940
 "!.8b442404f30f1044240c":  // unique sig
-cleanup __amd64 void Ship::RoomHacked(Ship *this, int roomId, float hackTime); // 080eeaf0
+cleanup __cdecl void Ship::RoomHacked(Ship *this, int roomId, float hackTime); // 080eeaf0
 "!.8b4424048b542408c744":  // unique sig
-cleanup __amd64 void Ship::TriggerSparks(Ship *this, int room); // 080eeb20
+cleanup __cdecl void Ship::TriggerSparks(Ship *this, int room); // 080eeb20
 ".8b44240c8b542408894424088b4424048b40088b049089442404e9????????9083":  // unique sig
-cleanup __amd64 void Ship::SetFireCount(Ship *this, int roomId, int fireId); // 080eeb40
+cleanup __cdecl void Ship::SetFireCount(Ship *this, int roomId, int fireId); // 080eeb40
 "837c2408ff8b":  // unique sig
-cleanup __amd64 void Ship::ProjectileStrike(Ship *this, int roomId, float damage); // 080eeb60
+cleanup __cdecl void Ship::ProjectileStrike(Ship *this, int roomId, float damage); // 080eeb60
 ".8b4424048b542408f30f1080":  // unique sig
-cleanup __amd64 void Ship::SetCloaked(Ship *this, bool value); // 080eeb80
+cleanup __cdecl void Ship::SetCloaked(Ship *this, bool value); // 080eeb80
 ".8b5424040fb682a0":  // unique sig
-cleanup __amd64 bool Ship::DestroyedDone(Ship *this); // 080eec60
+cleanup __cdecl bool Ship::DestroyedDone(Ship *this); // 080eec60
 ".8b4424048b4c24088b54240c80":  // unique sig
-cleanup __amd64 void Ship::SetDestroyed(Ship *this, bool animation, bool bossAnimation); // 080eeca0
+cleanup __cdecl void Ship::SetDestroyed(Ship *this, bool animation, bool bossAnimation); // 080eeca0
 ".565331db83ec148b7424208b5614":  // unique sig
-cleanup __amd64 void Ship::ResetDoorHealth(Ship *this); // 080ef220
+cleanup __cdecl void Ship::ResetDoorHealth(Ship *this); // 080ef220
 ".5557565383ec5c8b5c24708b43":  // unique sig
-cleanup __amd64 void Ship::OnRenderJump(Ship *this, float progress); // 080ef270
+cleanup __cdecl void Ship::OnRenderJump(Ship *this, float progress); // 080ef270
 ".57565383ec408b5c24508b4304":  // unique sig
-cleanup __amd64 void Ship::OnRenderExplosion(Ship *this); // 080ef710
+cleanup __cdecl void Ship::OnRenderExplosion(Ship *this); // 080ef710
 ".5383ec188b4424208b5c2424f3":  // unique sig
-cleanup __amd64 float Ship::GetCloakAlpha(Ship *this, bool complete); // 080ef820
+cleanup __cdecl float Ship::GetCloakAlpha(Ship *this, bool complete); // 080ef820
 ".565383ec148b5c24248b7424208b43":  // unique sig
-cleanup __amd64 Point Ship::GetShipCorner(Ship *this); // 080ef8a0
+cleanup __cdecl Point Ship::GetShipCorner(Ship *this); // 080ef8a0
 ".57565383ec108b5c24208b4304890424e8????????8b":  // unique sig
-cleanup __amd64 void Ship::OnRenderSimple(Ship *this, float alpha); // 080ef8f0
+cleanup __cdecl void Ship::OnRenderSimple(Ship *this, float alpha); // 080ef8f0
 ".5557565383ec3c8b5c24508b6c24548b":  // unique sig
-cleanup __amd64 void Ship::OnRenderBase(Ship *this, bool enginesWorking); // 080ef970
+cleanup __cdecl void Ship::OnRenderBase(Ship *this, bool enginesWorking); // 080ef970
 ".565331db83ec148b7424208b56088b460c29d0c1f80285c074??8db6000000008b049a83c301890424e8????????8b56088b460c29d0c1f80239c372??83c4145b5ec3908db6000000008dbf00000000565383":  // unique sig
-cleanup __amd64 void Ship::OnRenderHighlight(Ship *this); // 080efe70
+cleanup __cdecl void Ship::OnRenderHighlight(Ship *this); // 080efe70
 ".565383ec148b5c24208b7424248b4b":  // unique sig
-cleanup __amd64 void Ship::OnRenderFire(Ship *this, bool forceView); // 080efec0
+cleanup __cdecl void Ship::OnRenderFire(Ship *this, bool forceView); // 080efec0
 ".5631f65383ec148b5c24208b430c":  // unique sig
-cleanup __amd64 void Ship::OnRenderBlackout(Ship *this); // 080eff40
+cleanup __cdecl void Ship::OnRenderBlackout(Ship *this); // 080eff40
 ".565383ec248b5c24308b74243480":  // unique sig
-cleanup __amd64 void Ship::OnRenderFloor(Ship *this, bool forceView); // 080efff0
+cleanup __cdecl void Ship::OnRenderFloor(Ship *this, bool forceView); // 080efff0
 "!.5557565383ec1c8b7424308b4c":  // unique sig
-cleanup __amd64 void Ship::OnRenderFloorEffects(Ship *this, bool forceView); // 080f0170
+cleanup __cdecl void Ship::OnRenderFloorEffects(Ship *this, bool forceView); // 080f0170
 ".565331db83ec148b7424208b56088b460c29d0c1f80285c074??8db600000000c7":  // unique sig
-cleanup __amd64 void Ship::HideInterior(Ship *this); // 080f0320
+cleanup __cdecl void Ship::HideInterior(Ship *this); // 080f0320
 ".565331db83ec148b7424208b56088b460c29d0c1f80285c074??8db6000000008b049a83c301890424e8????????8b56088b460c29d0c1f80239c372??83c4145b5ec3908db6000000008dbf00000000565331":  // unique sig
-cleanup __amd64 void Ship::OnRenderSparks(Ship *this); // 080f0370
+cleanup __cdecl void Ship::OnRenderSparks(Ship *this); // 080f0370
 ".565331db83ec148b7424208b56208b462429":  // unique sig
-cleanup __amd64 void Ship::OnRenderBreaches(Ship *this); // 080f03c0
+cleanup __cdecl void Ship::OnRenderBreaches(Ship *this); // 080f03c0
 ".5631f65383ec148b5c24208b4b":  // unique sig
-cleanup __amd64 void Ship::OnCleanup(Ship *this); // 080f0430
+cleanup __cdecl void Ship::OnCleanup(Ship *this); // 080f0430
 ".57565383ec108b7c24208b4f20":  // unique sig
-cleanup __amd64 int Ship::GetHullDamageCount(Ship *this); // 080f05d0
+cleanup __cdecl int Ship::GetHullDamageCount(Ship *this); // 080f05d0
 ".5589e557565331db83ec2c8b75":  // unique sig
-cleanup __amd64 Repairable *Ship::GetHullBreach(Ship *this, Point world); // 080f0620
+cleanup __cdecl Repairable *Ship::GetHullBreach(Ship *this, Point world); // 080f0620
 ".5589e557565331db83ec3c8b7d":  // unique sig
-cleanup __amd64 Repairable *Ship::GetSpecificHull(Ship *this, int grid_x, int grid_y); // 080f06c0
+cleanup __cdecl Repairable *Ship::GetSpecificHull(Ship *this, int grid_x, int grid_y); // 080f06c0
 ".5589e557565383ec4c8b450c8b7d":  // unique sig
-cleanup __amd64 bool Ship::BreachSpecificHull(Ship *this, int grid_x, int grid_y); // 080f0790
+cleanup __cdecl bool Ship::BreachSpecificHull(Ship *this, int grid_x, int grid_y); // 080f0790
 ".57565383ec108b4424208b7424248b7c24288b5c242c8b40040fb6db890424e8????????895c242c897c2428897424248944242083c4105b5e5fe9????????9057":  // unique sig
-cleanup __amd64 int Ship::GetSelectedRoomId(Ship *this, int x, int y, bool bIncludeWalls); // 080f0980
+cleanup __cdecl int Ship::GetSelectedRoomId(Ship *this, int x, int y, bool bIncludeWalls); // 080f0980
 "57565383ec108b4424208b7424248b7c24288b5c242c8b40040fb6db890424e8????????895c242c897c2428897424248944242083c4105b5e5fe9????????9055":  // unique sig
-cleanup __amd64 int Ship::GetSelectedRoomId(Ship *this, Point p, bool bIncludeWalls); // 080f09c0
+cleanup __cdecl int Ship::GetSelectedRoomId(Ship *this, Point p, bool bIncludeWalls); // 080f09c0
 "5589e557565383ec3c8b5d088b7510":  // unique sig
-cleanup __amd64 Door *Ship::GetSelectedDoor(Ship *this, int x, int y, float doorScale); // 080f0a00
+cleanup __cdecl Door *Ship::GetSelectedDoor(Ship *this, int x, int y, float doorScale); // 080f0a00
 ".5731ff565383ec108b5c24208b7424248b53148b431829d0c1f80285c074??90897424048b04ba83c701890424e8????????8b53148b431829d0c1f80239c772??8b532c31ff8b433029d0c1f80285c074??8db600000000897424048b04ba83c701890424e8????????8b532c8b433029d0c1f80239c772??f3":  // unique sig
-cleanup __amd64 void Ship::SaveState(Ship *this, int fd); // 080f0be0
+cleanup __cdecl void Ship::SaveState(Ship *this, int fd); // 080f0be0
 ".5557565383ec3c8b7c24508b5c2454c6":  // unique sig
-cleanup __amd64 void Ship::ManipulateAllDoors(Ship *this, bool open); // 080f0cf0
+cleanup __cdecl void Ship::ManipulateAllDoors(Ship *this, bool open); // 080f0cf0
 ".57565383ec108b5c24208b7424248b4c":  // unique sig
-cleanup __amd64 void Ship::ManipulateDoors(Ship *this, int roomid, bool open); // 080f0fc0
+cleanup __cdecl void Ship::ManipulateDoors(Ship *this, int roomid, bool open); // 080f0fc0
 ".8b5424088b44240485d278??8b48088b400c29c8c1f80239c27d??8b049189":  // unique sig
-cleanup __amd64 void Ship::TapRoom(Ship *this, int roomId); // 080f1150
+cleanup __cdecl void Ship::TapRoom(Ship *this, int roomId); // 080f1150
 ".57565331db83ec108b7c24208b7424248b5708":  // unique sig
-cleanup __amd64 void Ship::SetSelectedRoom(Ship *this, int roomId); // 080f1180
+cleanup __cdecl void Ship::SetSelectedRoom(Ship *this, int roomId); // 080f1180
 ".8b5424088b44240485d278??8b48088b400c29c8c1f80239c27d??8b04918b":  // unique sig
-cleanup __amd64 void Ship::HighlightRoom(Ship *this, int roomId); // 080f11f0
+cleanup __cdecl void Ship::HighlightRoom(Ship *this, int roomId); // 080f11f0
 ".5589e557565383ec2c8b5510":  // unique sig
-cleanup __amd64 int Ship::IsOuterWall(Ship *this, int grid_x, int grid_y); // 080f1230
+cleanup __cdecl int Ship::IsOuterWall(Ship *this, int grid_x, int grid_y); // 080f1230
 ".0fb644240c8b542408894424088b4424048b40088b049089442404e9????????538b4424088b5c":  // unique sig
-cleanup __amd64 void Ship::SetRoomBlackout(Ship *this, int roomId, bool blackout); // 080f1380
+cleanup __cdecl void Ship::SetRoomBlackout(Ship *this, int roomId, bool blackout); // 080f1380
 "538b4424088b5c240c8b48":  // unique sig
-cleanup __amd64 bool Ship::GetRoomBlackout(Ship *this, int roomId); // 080f13a0
+cleanup __cdecl bool Ship::GetRoomBlackout(Ship *this, int roomId); // 080f13a0
 ".5731c056538b7c2410":  // unique sig
-cleanup __amd64 void Ship::SetIonedDoors(Ship *this, bool val); // 080f13d0
+cleanup __cdecl void Ship::SetIonedDoors(Ship *this, bool val); // 080f13d0
 ".5731ff565383ec108b5c24208b7424248b53148b431829d0c1f80285c074??90897424048b04ba83c701890424e8????????8b53148b431829d0c1f80239c772??8b532c31ff8b433029d0c1f80285c074??8db600000000897424048b04ba83c701890424e8????????8b532c8b433029d0c1f80239c772??83":  // unique sig
-cleanup __amd64 void Ship::SetBlastDoors(Ship *this, int val); // 080f1430
+cleanup __cdecl void Ship::SetBlastDoors(Ship *this, int val); // 080f1430
 ".5589e55383ec148b450c8b55":  // unique sig
-cleanup __amd64 Rect *Ship::GetRoomRect(Ship *this, int id); // 080f14b0
+cleanup __cdecl Rect *Ship::GetRoomRect(Ship *this, int id); // 080f14b0
 ".0fb644240c8b542408894424088b4424048b40088b049089442404e9????????8b":  // unique sig
-cleanup __amd64 int Ship::GetAvailableRoomSlot(Ship *this, int id, bool intruder); // 080f14e0
+cleanup __cdecl int Ship::GetAvailableRoomSlot(Ship *this, int id, bool intruder); // 080f14e0
 "8b4424048b5424088b40088b049089442404e9????????90908db426000000008b4424048b54240c":  // unique sig
-cleanup __amd64 void Ship::ClearPrimarySlot(Ship *this, int roomId); // 080f1500
+cleanup __cdecl void Ship::ClearPrimarySlot(Ship *this, int roomId); // 080f1500
 "8b4424048b54240c8b40088b049089442404e9????????90908db426000000008b4424048b54240c":  // unique sig
-cleanup __amd64 void Ship::SetPrimarySlot(Ship *this, int slotId, int roomId); // 080f1520
+cleanup __cdecl void Ship::SetPrimarySlot(Ship *this, int slotId, int roomId); // 080f1520
 "8b4424048b54240c8b40088b049089442404e9????????90908db426000000008b4424048b542408":  // unique sig
-cleanup __amd64 void Ship::SetPrimaryDirection(Ship *this, int dir, int roomId); // 080f1540
+cleanup __cdecl void Ship::SetPrimaryDirection(Ship *this, int dir, int roomId); // 080f1540
 "8b4424048b5424088b40088b049089442404e9????????90908db426000000008b4424048b5424088b40088b049089442404e9????????90908db426000000008b":  // unique sig
-cleanup __amd64 bool Ship::IsPrimarySlotFilled(Ship *this, int roomId); // 080f1560
+cleanup __cdecl bool Ship::IsPrimarySlotFilled(Ship *this, int roomId); // 080f1560
 "8b4424048b5424088b40088b049089442404e9????????90908db426000000008b4424048b5424088b40088b049089442404e9????????90908db426000000000f":  // unique sig
-cleanup __amd64 int Ship::GetPrimarySlot(Ship *this, int roomId); // 080f1580
+cleanup __cdecl int Ship::GetPrimarySlot(Ship *this, int roomId); // 080f1580
 "8b4424048b5424088b40088b049089442404e9????????90908db426000000000f":  // unique sig
-cleanup __amd64 int Ship::GetPrimaryDirection(Ship *this, int roomId); // 080f15a0
+cleanup __cdecl int Ship::GetPrimaryDirection(Ship *this, int roomId); // 080f15a0
 "0fb64424108b54240c8944240c8b4424048b40088b049089442404e9????????0f":  // unique sig
-cleanup __amd64 void Ship::FillRoomSlot(Ship *this, int slotId, int roomId, bool intruder); // 080f15c0
+cleanup __cdecl void Ship::FillRoomSlot(Ship *this, int slotId, int roomId, bool intruder); // 080f15c0
 "0fb64424108b54240c8944240c8b4424048b40088b049089442404e9????????55":  // unique sig
-cleanup __amd64 void Ship::EmptyRoomSlot(Ship *this, int slotId, int roomId, bool intruder); // 080f15e0
+cleanup __cdecl void Ship::EmptyRoomSlot(Ship *this, int slotId, int roomId, bool intruder); // 080f15e0
 "5557565331db83ec1c8b6c24308b44":  // unique sig
-cleanup __amd64 void Ship::EmptySlots(Ship *this, int roomId); // 080f1600
+cleanup __cdecl void Ship::EmptySlots(Ship *this, int roomId); // 080f1600
 ".538b4424088b542410":  // unique sig
-cleanup __amd64 bool Ship::IsSlotFilled(Ship *this, int slotId, int roomId, bool intruder); // 080f16a0
+cleanup __cdecl bool Ship::IsSlotFilled(Ship *this, int slotId, int roomId, bool intruder); // 080f16a0
 ".0fb644240c8b542408894424088b4424048b40088b049089442404e9????????538b4424088b54":  // unique sig
-cleanup __amd64 bool Ship::EmptyRoom(Ship *this, int id, bool intruder); // 080f16e0
+cleanup __cdecl bool Ship::EmptyRoom(Ship *this, int id, bool intruder); // 080f16e0
 "538b4424088b54240c8b5c24108b":  // unique sig
-cleanup __amd64 bool Ship::FullRoom(Ship *this, int id, bool intruder); // 080f1700
+cleanup __cdecl bool Ship::FullRoom(Ship *this, int id, bool intruder); // 080f1700
 ".5589e557565383ec5c8b5510":  // unique sig
-cleanup __amd64 int Ship::GetAvailableRoom(Ship *this, int preferred, bool intruder); // 080f1740
+cleanup __cdecl int Ship::GetAvailableRoom(Ship *this, int preferred, bool intruder); // 080f1740
 ".8b4424048b5424088b40088b14":  // unique sig
-cleanup __amd64 void Ship::SetRoomWarning(Ship *this, int roomId, bool warning); // 080f1a10
+cleanup __cdecl void Ship::SetRoomWarning(Ship *this, int roomId, bool warning); // 080f1a10
 ".5557565331db83ec1c8b44":  // unique sig
-cleanup __amd64 std::vector<Door*> *Ship::GetRoomAirlocks(Ship *this, int roomId); // 080f1a30
+cleanup __cdecl std::vector<Door*> *Ship::GetRoomAirlocks(Ship *this, int roomId); // 080f1a30
 ".5589e557565381ecac0000008b45148b":  // unique sig
-cleanup __amd64 Path *Ship::DFS(Ship *this, int startRoom, Path *lastPath); // 080f1af0
+cleanup __cdecl Path *Ship::DFS(Ship *this, int startRoom, Path *lastPath); // 080f1af0
 ".565383ec148b7424208b5c24248b96":  // unique sig
-cleanup __amd64 bool Ship::UpdateDoorState(Ship *this, int index, Door *door); // 080f2160
+cleanup __cdecl bool Ship::UpdateDoorState(Ship *this, int index, Door *door); // 080f2160
 ".5589e557565381ecac0000008b5d0c":  // unique sig
-cleanup __amd64 void Ship::AddDoorVertices(Ship *this, Door *door, std::vector<GL_ColorTexVertex> *vertices); // 080f21e0
+cleanup __cdecl void Ship::AddDoorVertices(Ship *this, Door *door, std::vector<GL_ColorTexVertex> *vertices); // 080f21e0
 ".5557565383ec4c8b5c24608b4424648b":  // unique sig
-cleanup __amd64 void Ship::UpdateDoorsPrimitive(Ship *this, bool doorControlMode); // 080f2700
+cleanup __cdecl void Ship::UpdateDoorsPrimitive(Ship *this, bool doorControlMode); // 080f2700
 ".555731ff565383ec4c8b5c":  // unique sig
-cleanup __amd64 void Ship::OnRenderWalls(Ship *this, bool forceView, bool doorControlMode); // 080f2a40
+cleanup __cdecl void Ship::OnRenderWalls(Ship *this, bool forceView, bool doorControlMode); // 080f2a40
 ".5589e557565383ec5c8b7d088b4720":  // unique sig
-cleanup __amd64 void Ship::FindOuterWalls(Ship *this); // 080f2d40
+cleanup __cdecl void Ship::FindOuterWalls(Ship *this); // 080f2d40
 ".5557565381ecbc0100008bb4":  // unique sig
-cleanup __amd64 bool Ship::Import(Ship *this, string *shipName); // 080f2f20
+cleanup __cdecl bool Ship::Import(Ship *this, string *shipName); // 080f2f20
 ".5589e557565383ec7c8b7d088b4704890424e8????????8b":  // unique sig
-cleanup __amd64 void Ship::ChoosePrimarySlot(Ship *this, int roomId); // 080f3920
+cleanup __cdecl void Ship::ChoosePrimarySlot(Ship *this, int roomId); // 080f3920
 ".5589e557565381ec8c0000008b45088b5d0c8d":  // unique sig
-cleanup __amd64 void Ship::OnLoop(Ship *this, std::vector<float> *oxygenLevels); // 080f4af0
+cleanup __cdecl void Ship::OnLoop(Ship *this, std::vector<float> *oxygenLevels); // 080f4af0
 ".5557565383ec2c8b7c24448b4424408b4f0c":  // unique sig
-cleanup __amd64 std::vector<Room*> *Ship::GetRoomListConst(Ship *this); // 080f5210
+cleanup __cdecl std::vector<Room*> *Ship::GetRoomListConst(Ship *this); // 080f5210
 ".5557565383ec2c8b7c24448b4424408b4f18":  // unique sig
-cleanup __amd64 std::vector<Door*> *Ship::GetDoorListConst(Ship *this); // 080f52c0
+cleanup __cdecl std::vector<Door*> *Ship::GetDoorListConst(Ship *this); // 080f52c0
 ".5589e557565381ec2c0200008b45":  // unique sig
-cleanup __amd64 void Ship::RemoveRoom(Ship *this, int room); // 080f5370
+cleanup __cdecl void Ship::RemoveRoom(Ship *this, int room); // 080f5370
 ".5557565383ec5c8b7c24708b742474c7":  // unique sig
-cleanup __amd64 void Ship::BreachRandomHull(Ship *this, int roomId); // 080f5fe0
+cleanup __cdecl void Ship::BreachRandomHull(Ship *this, int roomId); // 080f5fe0
 ".57565383ec208b7c24348b5c24308b4c":  // unique sig
-cleanup __amd64 std::vector<Repairable*> *Ship::GetHullBreaches(Ship *this, bool onlyDamaged); // 080f6200
+cleanup __cdecl std::vector<Repairable*> *Ship::GetHullBreaches(Ship *this, bool onlyDamaged); // 080f6200
 ".5589e557565381ec2c0100008b45088b40":  // unique sig
-cleanup __amd64 void Ship::LockdownRoom(Ship *this, int roomId, Pointf position); // 080f6f70
+cleanup __cdecl void Ship::LockdownRoom(Ship *this, int roomId, Pointf position); // 080f6f70
 ".5557565381ecdc00000083":  // unique sig
-cleanup __amd64 void Ship::LoadState(Ship *this, int fd); // 080f7b40
+cleanup __cdecl void Ship::LoadState(Ship *this, int fd); // 080f7b40
 ".5589e557565381ecfc0101008b45088b":  // unique sig
-cleanup __amd64 bool Ship::OnInit(Ship *this, ShipBlueprint *blueprint); // 080f8ee0
+cleanup __cdecl bool Ship::OnInit(Ship *this, ShipBlueprint *blueprint); // 080f8ee0
 ".5557565383ec3c8b7c24548b742450c7":  // unique sig
-cleanup __amd64 void Ship::SetWeaponAnimations(Ship *this, std::vector<WeaponAnimation*> *anims); // 0811c6d0
+cleanup __cdecl void Ship::SetWeaponAnimations(Ship *this, std::vector<WeaponAnimation*> *anims); // 0811c6d0

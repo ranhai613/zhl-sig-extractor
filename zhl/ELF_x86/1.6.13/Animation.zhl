@@ -1,54 +1,54 @@
 "5557565383ec2c8d44241f":  // unique sig
-cleanup __amd64 void Animation::destructor(Animation *this); // 080b2960
+cleanup __cdecl void Animation::destructor(Animation *this); // 080b2960
 ".5557565383ec2c8b6c24448b4c":  // unique sig
-cleanup __amd64 Animation *Animation::operator=(Animation *this, Animation *param_2); // 080b4ba0
+cleanup __cdecl Animation *Animation::operator=(Animation *this, Animation *param_2); // 080b4ba0
 ".55575631f65331db83ec1c8b44":  // unique sig
-cleanup __amd64 void Animation::constructor(Animation *this, Animation *param_2); // 080da7e0
+cleanup __cdecl void Animation::constructor(Animation *this, Animation *param_2); // 080da7e0
 ".565383ec148b7424248b5c24208b06f30f1046248903":  // unique sig
-cleanup __amd64 Animation *Animation::operator=(Animation *this, Animation *param_2); // 080dc2d0
+cleanup __cdecl Animation *Animation::operator=(Animation *this, Animation *param_2); // 080dc2d0
 ".5557565383ec3c8b5c24508b442460":  // unique sig
-cleanup __amd64 void Animation::constructor(Animation *this, string *image, int frames, float length, Pointf position, int image_width, int image_height, int image_start, int sub_frames); // 081f7520
+cleanup __cdecl void Animation::constructor(Animation *this, string *image, int frames, float length, Pointf position, int image_width, int image_height, int image_start, int sub_frames); // 081f7520
 ".5557565383ec3c8b5c24508b4424788b54247cf30f10442458c743040000000089433c8d44242ff30f114324895340c7430800000000c7430c00000000c7431000000000c7431400000000c7431800000000c7431c00000000c74320????????c6432800c7432c00000000c6433000c6433100c6433201c7433400000000c74338000080bf894424088d4344890424c7442404????????e8????????8d44242f894424088d4348890424c7442404????????e8????????8b54":  // unique sig
-cleanup __amd64 void Animation::constructor(Animation *this, GL_Texture *image, float length, AnimationDescriptor descriptor, Pointf position); // 081f7800
+cleanup __cdecl void Animation::constructor(Animation *this, GL_Texture *image, float length, AnimationDescriptor descriptor, Pointf position); // 081f7800
 ".5557565383ec3c8b5c24508b4424788b54247cf30f10442458c743040000000089433c8d44242ff30f114324895340c7430800000000c7430c00000000c7431000000000c7431400000000c7431800000000c7431c00000000c74320????????c6432800c7432c00000000c6433000c6433100c6433201c7433400000000c74338000080bf894424088d4344890424c7442404????????e8????????8d44242f894424088d4348890424c7442404????????e8????????8b44":  // unique sig
-cleanup __amd64 void Animation::constructor(Animation *this, string *image, float length, AnimationDescriptor descriptor, Pointf position); // 081f7ab0
+cleanup __cdecl void Animation::constructor(Animation *this, string *image, float length, AnimationDescriptor descriptor, Pointf position); // 081f7ab0
 ".8b442404c7808c":  // unique sig
-cleanup __amd64 void Animation::ClearPrimitives(Animation *this); // 081f7d80
+cleanup __cdecl void Animation::ClearPrimitives(Animation *this); // 081f7d80
 "!.565383ec148b5c24208b7424240fb643":  // unique sig
-cleanup __amd64 void Animation::SaveState(Animation *this, int fd); // 081f7da0
+cleanup __cdecl void Animation::SaveState(Animation *this, int fd); // 081f7da0
 ".8b4424040f57c0f3":  // unique sig
-cleanup __amd64 void Animation::SetProgress(Animation *this, float val); // 081f7e50
+cleanup __cdecl void Animation::SetProgress(Animation *this, float val); // 081f7e50
 ".8b4424048b4804":  // unique sig
-cleanup __amd64 void Animation::SetCurrentFrame(Animation *this, int frame); // 081f7ea0
+cleanup __cdecl void Animation::SetCurrentFrame(Animation *this, int frame); // 081f7ea0
 ".8b442404f30f10442408f30f114070":  // unique sig
-cleanup __amd64 void Animation::SetFadeOut(Animation *this, float val); // 081f7ef0
+cleanup __cdecl void Animation::SetFadeOut(Animation *this, float val); // 081f7ef0
 ".8b54240431c0807a32":  // unique sig
-cleanup __amd64 bool Animation::Done(Animation *this); // 081f7f10
+cleanup __cdecl bool Animation::Done(Animation *this); // 081f7f10
 ".8b5424040f57":  // unique sig
-cleanup __amd64 int Animation::CalculateCurrentFrame(Animation *this); // 081f7f30
+cleanup __cdecl int Animation::CalculateCurrentFrame(Animation *this); // 081f7f30
 ".5557565383ec4c8b5c24608b43":  // unique sig
-cleanup __amd64 void Animation::Update(Animation *this); // 081f7f70
+cleanup __cdecl void Animation::Update(Animation *this); // 081f7f70
 ".5383ec08803d????????008b5c241075??e8????????8b4b04":  // unique sig
-cleanup __amd64 void Animation::RandomStart(Animation *this); // 081f8490
+cleanup __cdecl void Animation::RandomStart(Animation *this); // 081f8490
 ".8b4424048b54240839501074??89":  // unique sig
-cleanup __amd64 void Animation::SetStartY(Animation *this, int y); // 081f84f0
+cleanup __cdecl void Animation::SetStartY(Animation *this, int y); // 081f84f0
 ".8b4424048b5424083910":  // unique sig
-cleanup __amd64 void Animation::SetAnimationId(Animation *this, GL_Texture *id); // 081f8520
+cleanup __cdecl void Animation::SetAnimationId(Animation *this, GL_Texture *id); // 081f8520
 ".8b4424048b5424088b4c240c3950":  // unique sig
-cleanup __amd64 void Animation::MaskX(Animation *this, int mask_pos, int mask_size); // 081f8580
+cleanup __cdecl void Animation::MaskX(Animation *this, int mask_pos, int mask_size); // 081f8580
 ".8b4424048b5424088b4c240c3990":  // unique sig
-cleanup __amd64 void Animation::MaskY(Animation *this, int mask_pos, int mask_size); // 081f85c0
+cleanup __cdecl void Animation::MaskY(Animation *this, int mask_pos, int mask_size); // 081f85c0
 ".57565383ec208b5424388b5c2430":  // unique sig
-cleanup __amd64 string Animation::GetSoundQueue(Animation *this, int frame); // 081f8610
+cleanup __cdecl string Animation::GetSoundQueue(Animation *this, int frame); // 081f8610
 ".5383ec28807c":  // unique sig
-cleanup __amd64 void Animation::Start(Animation *this, bool reset); // 081f86c0
+cleanup __cdecl void Animation::Start(Animation *this, bool reset); // 081f86c0
 ".565383ec148b7424248b5c2420893424e8????????85c00f85":  // unique sig
-cleanup __amd64 void Animation::LoadState(Animation *this, int fd); // 081f87a0
+cleanup __cdecl void Animation::LoadState(Animation *this, int fd); // 081f87a0
 ".5383ec288b4424348b5c243084":  // unique sig
-cleanup __amd64 void Animation::StartReverse(Animation *this, bool reset); // 081f8860
+cleanup __cdecl void Animation::StartReverse(Animation *this, bool reset); // 081f8860
 ".565383ec148b5424248b44":  // unique sig
-cleanup __amd64 void Animation::AddSoundQueue(Animation *this, int frame, string *sound); // 081f8ad0
+cleanup __cdecl void Animation::AddSoundQueue(Animation *this, int frame, string *sound); // 081f8ad0
 ".5557565381ecac0000008bac":  // unique sig
-cleanup __amd64 void Animation::InitPrimitives(Animation *this); // 081f8b50
+cleanup __cdecl void Animation::InitPrimitives(Animation *this); // 081f8b50
 ".57565383ec508b442478":  // unique sig
-cleanup __amd64 void Animation::OnRender(Animation *this, float alpha, GL_Color color, bool mirror); // 081f8f90
+cleanup __cdecl void Animation::OnRender(Animation *this, float alpha, GL_Color color, bool mirror); // 081f8f90

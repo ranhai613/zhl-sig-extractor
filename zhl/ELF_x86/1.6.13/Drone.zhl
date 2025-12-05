@@ -1,66 +1,66 @@
 "f3c366906690669066906690669066908b4424040fb6400c":  // unique sig
-cleanup __amd64 void Drone::OnInit(Drone *this); // 08082570
+cleanup __cdecl void Drone::OnInit(Drone *this); // 08082570
 ".8b4424040fb6400c":  // unique sig
-cleanup __amd64 bool Drone::GetPowered(Drone *this); // 08082580
+cleanup __cdecl bool Drone::GetPowered(Drone *this); // 08082580
 ".8b4424040fb64014":  // unique sig
-cleanup __amd64 bool Drone::GetDeployed(Drone *this); // 08082590
+cleanup __cdecl bool Drone::GetDeployed(Drone *this); // 08082590
 ".f3c366906690669066906690669066908b5424048b42":  // unique sig
-cleanup __amd64 void Drone::SetSlot(Drone *this, int slotId, int roomId); // 080825a0
+cleanup __cdecl void Drone::SetSlot(Drone *this, int slotId, int roomId); // 080825a0
 ".8b5424048b42102b":  // unique sig
-cleanup __amd64 int Drone::GetRequiredPower(Drone *this); // 080825b0
+cleanup __cdecl int Drone::GetRequiredPower(Drone *this); // 080825b0
 ".83ec1c8b4424208b401c":  // unique sig
-cleanup __amd64 void Drone::RenderIcon(Drone *this); // 080825c0
+cleanup __cdecl void Drone::RenderIcon(Drone *this); // 080825c0
 ".b801000000c36690669066906690669031c0c36690669066906690669066909031c0c3669066906690669066906690908b":  // unique sig
-cleanup __amd64 bool Drone::CanBeDeployed(Drone *this); // 080825e0
+cleanup __cdecl bool Drone::CanBeDeployed(Drone *this); // 080825e0
 ".31c0c36690669066906690669066909031c0c3669066906690669066906690908b44240483":  // unique sig
-cleanup __amd64 bool Drone::RecallOnJump(Drone *this); // 080825f0
+cleanup __cdecl bool Drone::RecallOnJump(Drone *this); // 080825f0
 ".31c0c3669066906690669066906690908b44240483":  // unique sig
-cleanup __amd64 bool Drone::CanBeRecovered(Drone *this); // 08082600
+cleanup __cdecl bool Drone::CanBeRecovered(Drone *this); // 08082600
 ".8b442404837830":  // unique sig
-cleanup __amd64 bool Drone::GetStunned(Drone *this); // 08082610
+cleanup __cdecl bool Drone::GetStunned(Drone *this); // 08082610
 ".5589e55383ec148b450c8b5d088b401c":  // unique sig
-cleanup __amd64 string Drone::GetName(Drone *this); // 08082c30
+cleanup __cdecl string Drone::GetName(Drone *this); // 08082c30
 ".8b4424048b5424088b4c240c807820":  // unique sig
-cleanup __amd64 void Drone::SetDestroyed(Drone *this, bool dead, bool rebuildRequired); // 08087bd0
+cleanup __cdecl void Drone::SetDestroyed(Drone *this, bool dead, bool rebuildRequired); // 08087bd0
 ".8b5424088b442404895030":  // unique sig
-cleanup __amd64 void Drone::SetHacked(Drone *this, int val); // 08087c00
+cleanup __cdecl void Drone::SetHacked(Drone *this, int val); // 08087c00
 ".8b4424088b542404884214":  // unique sig
-cleanup __amd64 void Drone::SetDeployed(Drone *this, bool newDeployed); // 08087c10
+cleanup __cdecl void Drone::SetDeployed(Drone *this, bool newDeployed); // 08087c10
 ".83ec1c8b4424208b10c7442408":  // unique sig
-cleanup __amd64 void Drone::BlowUp(Drone *this, bool silent); // 08087c20
+cleanup __cdecl void Drone::BlowUp(Drone *this, bool silent); // 08087c20
 "!.8b5424048b442408f3":  // unique sig
-cleanup __amd64 void Drone::SaveState(Drone *this, int fd); // 08087c50
+cleanup __cdecl void Drone::SaveState(Drone *this, int fd); // 08087c50
 ".83ec1c8b442424890424e8????????8b":  // unique sig
-cleanup __amd64 void Drone::LoadState(Drone *this, int fd); // 08087c70
+cleanup __cdecl void Drone::LoadState(Drone *this, int fd); // 08087c70
 ".565383ec148b5c24208b03":  // unique sig
-cleanup __amd64 void Drone::OnLoop(Drone *this); // 08087ca0
+cleanup __cdecl void Drone::OnLoop(Drone *this); // 08087ca0
 ".5383ec188b5c2420f30f10432c":  // unique sig
-cleanup __amd64 void Drone::UpdateRebuilding(Drone *this); // 08087dc0
+cleanup __cdecl void Drone::UpdateRebuilding(Drone *this); // 08087dc0
 ".8b442404f30f10402c0f2e05????????0f":  // unique sig
-cleanup __amd64 bool Drone::Rebuilding(Drone *this); // 08087e10
+cleanup __cdecl bool Drone::Rebuilding(Drone *this); // 08087e10
 ".83ec048b442408f30f1040":  // unique sig
-cleanup __amd64 float Drone::GetRebuildProgress(Drone *this); // 08087e30
+cleanup __cdecl float Drone::GetRebuildProgress(Drone *this); // 08087e30
 ".8b442404c700????????c36690669090f3c366906690669066906690669066908b442408":  // unique sig
-cleanup __amd64 void Drone::destructor(Drone *this); // 08087e50
+cleanup __cdecl void Drone::destructor(Drone *this); // 08087e50
 ".f3c366906690669066906690669066908b4424088b54240488420c":  // unique sig
-cleanup __amd64 void Drone::OnDestoy(Drone *this); // 08087e60
+cleanup __cdecl void Drone::OnDestoy(Drone *this); // 08087e60
 ".8b4424088b54240488420c":  // unique sig
-cleanup __amd64 void Drone::SetPowered(Drone *this, bool powered); // 08087e70
+cleanup __cdecl void Drone::SetPowered(Drone *this, bool powered); // 08087e70
 ".83ec1c8b4424208b10c744240401":  // unique sig
-cleanup __amd64 void Drone::SetInstantPowered(Drone *this); // 08087e80
+cleanup __cdecl void Drone::SetInstantPowered(Drone *this); // 08087e80
 ".f3c3669066906690669066906690669031c0c3669066906690669066906690908b44":  // unique sig
-cleanup __amd64 void Drone::SetCurrentShip(Drone *this, int iShipId); // 08087ea0
+cleanup __cdecl void Drone::SetCurrentShip(Drone *this, int iShipId); // 08087ea0
 ".31c0c3669066906690669066906690908b4424040fb64020":  // unique sig
-cleanup __amd64 bool Drone::NeedsRoom(Drone *this); // 08087eb0
+cleanup __cdecl bool Drone::NeedsRoom(Drone *this); // 08087eb0
 ".8b4424040fb64020":  // unique sig
-cleanup __amd64 bool Drone::Destroyed(Drone *this); // 08087ec0
+cleanup __cdecl bool Drone::Destroyed(Drone *this); // 08087ec0
 ".f3c36690669066906690669066906690b801000000c3669066906690669066908b442404c7":  // unique sig
-cleanup __amd64 void Drone::SetWorldLocation(Drone *this, Point p); // 08087ed0
+cleanup __cdecl void Drone::SetWorldLocation(Drone *this, Point p); // 08087ed0
 ".b801000000c3669066906690669066908b442404c700????????e9????????905383ec188b5c2420c744":  // unique sig
-cleanup __amd64 int Drone::GetDroneHealth(Drone *this); // 08087ee0
+cleanup __cdecl int Drone::GetDroneHealth(Drone *this); // 08087ee0
 ".8b442404c700????????e9????????905383ec188b5c2420c7442408ffffffffc7442404ffffffff891c24e8????????83c41889d85bc20400669066906690905383ec18":  // unique sig
-cleanup __amd64 void Drone::destructor(Drone *this); // 08087ef0
+cleanup __cdecl void Drone::destructor(Drone *this); // 08087ef0
 "5383ec188b5c2420c7442408ffffffffc7442404ffffffff891c24e8????????83c41889d85bc20400669066906690905383ec18":  // unique sig
-cleanup __amd64 Point Drone::GetWorldLocation(Drone *this); // 08087f00
+cleanup __cdecl Point Drone::GetWorldLocation(Drone *this); // 08087f00
 ".5383ec188b5c24208d4308c7":  // unique sig
-cleanup __amd64 Slot *Drone::GetDroneSlot(Drone *this); // 08087f30
+cleanup __cdecl Slot *Drone::GetDroneSlot(Drone *this); // 08087f30

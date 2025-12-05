@@ -1,24 +1,24 @@
 "f3c38db426000000008dbc27000000005383ec188b5c24208b83":  // unique sig
-cleanup __amd64 void HackBox::OnTouch(HackBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0818ecc0
+cleanup __cdecl void HackBox::OnTouch(HackBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0818ecc0
 ".5383ec188b5c24208b83f0010000890424e8????????84c074??8b":  // unique sig
-cleanup __amd64 int HackBox::GetCooldownLevel(HackBox *this); // 0818ed80
+cleanup __cdecl int HackBox::GetCooldownLevel(HackBox *this); // 0818ed80
 ".5383ec188b5c24208b83f0010000890424e8????????84c074??a1":  // unique sig
-cleanup __amd64 float HackBox::GetCooldownFraction(HackBox *this); // 0818ee90
+cleanup __cdecl float HackBox::GetCooldownFraction(HackBox *this); // 0818ee90
 ".5557565383ec2c8d44241a8b5c2444":  // unique sig
-cleanup __amd64 void HackBox::KeyDown(HackBox *this, SDLKey key_sym, bool shift); // 0818ef60
+cleanup __cdecl void HackBox::KeyDown(HackBox *this, SDLKey key_sym, bool shift); // 0818ef60
 ".5557565381ec9c0000008b9c24????????8d":  // unique sig
-cleanup __amd64 void HackBox::constructor(HackBox *this, Point loc, HackingSystem *sys, ShipManager *ship); // 081906f0
+cleanup __cdecl void HackBox::constructor(HackBox *this, Point loc, HackingSystem *sys, ShipManager *ship); // 081906f0
 ".5383ec188b5c24208d83f0":  // unique sig
-cleanup __amd64 void HackBox::OnLoop(HackBox *this); // 08191fa0
+cleanup __cdecl void HackBox::OnLoop(HackBox *this); // 08191fa0
 ".565383ec448b5c24500f":  // unique sig
-cleanup __amd64 void HackBox::OnRender(HackBox *this, bool ignoreStatus); // 081921a0
+cleanup __cdecl void HackBox::OnRender(HackBox *this, bool ignoreStatus); // 081921a0
 ".5589e557565383ec6c8b5d088b750c8b7d":  // unique sig
-cleanup __amd64 void HackBox::MouseMove(HackBox *this, int mX, int mY); // 08192d80
+cleanup __cdecl void HackBox::MouseMove(HackBox *this, int mX, int mY); // 08192d80
 ".575631f65383ec108b5c24208b7c":  // unique sig
-cleanup __amd64 bool HackBox::MouseClick(HackBox *this, bool force); // 08193640
+cleanup __cdecl bool HackBox::MouseClick(HackBox *this, bool force); // 08193640
 ".b801000000c366906690669066906690b801000000c3669066906690669066908b4424048b":  // unique sig
-cleanup __amd64 bool HackBox::HasButton(HackBox *this); // 08193b10
+cleanup __cdecl bool HackBox::HasButton(HackBox *this); // 08193b10
 "!.5383ec188b5c24208d8380020000c703????????c783f0020000????????890424e8????????8d8314020000890424e8????????8b83f401000085c074??890424e8????????895c":  // unique sig
-cleanup __amd64 void HackBox::destructor(HackBox *this); // 08193c30
+cleanup __cdecl void HackBox::destructor(HackBox *this); // 08193c30
 ".5383ec188b5c24208d8380020000c703????????c783f0020000????????890424e8????????8d8314020000890424e8????????8b83f401000085c074??890424e8????????891c":  // unique sig
-cleanup __amd64 void HackBox::destructor(HackBox *this); // 08193d00
+cleanup __cdecl void HackBox::destructor(HackBox *this); // 08193d00

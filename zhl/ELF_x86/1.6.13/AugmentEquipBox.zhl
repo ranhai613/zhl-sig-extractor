@@ -1,26 +1,26 @@
 "8b5424088b442404895070c38d74260057":  // unique sig
-cleanup __amd64 void AugmentEquipBox::SetShipManager(AugmentEquipBox *this, ShipManager *ship); // 081639f0
+cleanup __cdecl void AugmentEquipBox::SetShipManager(AugmentEquipBox *this, ShipManager *ship); // 081639f0
 ".565383ec248b5c24308b4370":  // unique sig
-cleanup __amd64 void AugmentEquipBox::RemoveItem(AugmentEquipBox *this); // 08164160
+cleanup __cdecl void AugmentEquipBox::RemoveItem(AugmentEquipBox *this); // 08164160
 ".565383ec248b5c24308b5424348b44":  // unique sig
-cleanup __amd64 void AugmentEquipBox::AddItem(AugmentEquipBox *this, EquipmentBoxItem item); // 081641f0
+cleanup __cdecl void AugmentEquipBox::AddItem(AugmentEquipBox *this, EquipmentBoxItem item); // 081641f0
 ".5589e557565383ec3c8b7d088b47":  // unique sig
-cleanup __amd64 void AugmentEquipBox::CheckContents(AugmentEquipBox *this); // 08164480
+cleanup __cdecl void AugmentEquipBox::CheckContents(AugmentEquipBox *this); // 08164480
 ".5383ec188b5c2420e8????????c74424????????008b":  // unique sig
-cleanup __amd64 void AugmentEquipBox::RenderIcon(AugmentEquipBox *this); // 08165120
+cleanup __cdecl void AugmentEquipBox::RenderIcon(AugmentEquipBox *this); // 08165120
 ".57565383ec508d":  // unique sig
-cleanup __amd64 void AugmentEquipBox::constructor(AugmentEquipBox *this, Point loc, ShipManager *shipManager, int slot); // 08166f80
+cleanup __cdecl void AugmentEquipBox::constructor(AugmentEquipBox *this, Point loc, ShipManager *shipManager, int slot); // 08166f80
 ".31c0c36690669066906690669066909031c0c366906690669066906690669090b801000000c366906690669066906690b803":  // unique sig
-cleanup __amd64 bool AugmentEquipBox::CanHoldWeapon(AugmentEquipBox *this); // 08169a10
+cleanup __cdecl bool AugmentEquipBox::CanHoldWeapon(AugmentEquipBox *this); // 08169a10
 ".31c0c366906690669066906690669090b801000000c366906690669066906690b803":  // unique sig
-cleanup __amd64 bool AugmentEquipBox::CanHoldDrone(AugmentEquipBox *this); // 08169a20
+cleanup __cdecl bool AugmentEquipBox::CanHoldDrone(AugmentEquipBox *this); // 08169a20
 ".b801000000c366906690669066906690b803":  // unique sig
-cleanup __amd64 bool AugmentEquipBox::CanHoldAugment(AugmentEquipBox *this); // 08169a30
+cleanup __cdecl bool AugmentEquipBox::CanHoldAugment(AugmentEquipBox *this); // 08169a30
 ".b803000000c36690669066906690669031c0c36690669066906690669066909053":  // unique sig
-cleanup __amd64 int AugmentEquipBox::GetType(AugmentEquipBox *this, bool forcedEmpty); // 08169a40
+cleanup __cdecl int AugmentEquipBox::GetType(AugmentEquipBox *this, bool forcedEmpty); // 08169a40
 ".31c0c3669066906690669066906690905383ec288b5c24308b":  // unique sig
-cleanup __amd64 bool AugmentEquipBox::IsCargoBox(AugmentEquipBox *this); // 08169a50
+cleanup __cdecl bool AugmentEquipBox::IsCargoBox(AugmentEquipBox *this); // 08169a50
 ".5383ec288b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??83c4285bc3bb????????85db8d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d59ff8958fc89c8eb??66905383ec288b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??83c4285bc3bb????????85db8d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d59ff8958fc89c8eb??669056":  // unique sig
-cleanup __amd64 void AugmentEquipBox::destructor(AugmentEquipBox *this); // 08169af0
+cleanup __cdecl void AugmentEquipBox::destructor(AugmentEquipBox *this); // 08169af0
 ".565383ec248b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??891c24e8????????83c4245b5ec3be????????85f68d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??6690669066906690565383ec248b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??891c24e8????????83c4245b5ec3be????????85f68d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??669066906690669055":  // unique sig
-cleanup __amd64 void AugmentEquipBox::destructor(AugmentEquipBox *this); // 08169cb0
+cleanup __cdecl void AugmentEquipBox::destructor(AugmentEquipBox *this); // 08169cb0

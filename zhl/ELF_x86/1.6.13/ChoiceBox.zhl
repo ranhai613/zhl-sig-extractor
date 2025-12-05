@@ -1,42 +1,42 @@
 "8b442404c6400400c7":  // unique sig
-cleanup __amd64 void ChoiceBox::Close(ChoiceBox *this); // 08130be0
+cleanup __cdecl void ChoiceBox::Close(ChoiceBox *this); // 08130be0
 ".565383ec148b5c24248b74242084":  // unique sig
-cleanup __amd64 void ChoiceBox::SetOpen(ChoiceBox *this, bool open); // 08130bf0
+cleanup __cdecl void ChoiceBox::SetOpen(ChoiceBox *this, bool open); // 08130bf0
 ".5557565383ec1c8b442430c7":  // unique sig
-cleanup __amd64 void ChoiceBox::MouseMove(ChoiceBox *this, int mX, int mY); // 08130c20
+cleanup __cdecl void ChoiceBox::MouseMove(ChoiceBox *this, int mX, int mY); // 08130c20
 "!.5557565383ec2c8b7c24488b44":  // unique sig
-cleanup __amd64 void ChoiceBox::OnTouch(ChoiceBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08130d10
+cleanup __cdecl void ChoiceBox::OnTouch(ChoiceBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08130d10
 ".833d????????0253":  // unique sig
-cleanup __amd64 void ChoiceBox::MouseClick(ChoiceBox *this, int mX, int mY); // 08130e60
+cleanup __cdecl void ChoiceBox::MouseClick(ChoiceBox *this, int mX, int mY); // 08130e60
 ".8b15????????31c056":  // unique sig
-cleanup __amd64 bool ChoiceBox::KeyDown(ChoiceBox *this, SDLKey sym); // 08130ea0
+cleanup __cdecl bool ChoiceBox::KeyDown(ChoiceBox *this, SDLKey sym); // 08130ea0
 ".5557565383ec7c8b8424????????8b58":  // unique sig
-cleanup __amd64 void ChoiceBox::destructor(ChoiceBox *this); // 08130f10
+cleanup __cdecl void ChoiceBox::destructor(ChoiceBox *this); // 08130f10
 ".5383ec188b5c2420891c24e8????????895c242083c4185be9????????906690f3":  // unique sig
-cleanup __amd64 void ChoiceBox::destructor(ChoiceBox *this); // 08131630
+cleanup __cdecl void ChoiceBox::destructor(ChoiceBox *this); // 08131630
 "f3c38db426000000008dbc27000000008b5424048b42":  // unique sig
-cleanup __amd64 void ChoiceBox::OnInit(ChoiceBox *this); // 08131650
+cleanup __cdecl void ChoiceBox::OnInit(ChoiceBox *this); // 08131650
 ".8b5424048b4248":  // unique sig
-cleanup __amd64 int ChoiceBox::GetChoice(ChoiceBox *this); // 08131660
+cleanup __cdecl int ChoiceBox::GetChoice(ChoiceBox *this); // 08131660
 ".8b4424048b4044c3908db4260000000057":  // unique sig
-cleanup __amd64 int ChoiceBox::GetPotentialChoice(ChoiceBox *this); // 08131680
+cleanup __cdecl int ChoiceBox::GetPotentialChoice(ChoiceBox *this); // 08131680
 ".57565383ec208b5c243083":  // unique sig
-cleanup __amd64 void ChoiceBox::IncreaseFont(ChoiceBox *this); // 08131690
+cleanup __cdecl void ChoiceBox::IncreaseFont(ChoiceBox *this); // 08131690
 ".57565383ec208b5c24308b434c":  // unique sig
-cleanup __amd64 void ChoiceBox::DecreaseFont(ChoiceBox *this); // 08131760
+cleanup __cdecl void ChoiceBox::DecreaseFont(ChoiceBox *this); // 08131760
 ".55ba????????89e5b8":  // unique sig
-cleanup __amd64 int ChoiceBox::RenderResource(ChoiceBox *this, string *name, int val, int x, int y); // 08131830
+cleanup __cdecl int ChoiceBox::RenderResource(ChoiceBox *this, string *name, int val, int x, int y); // 08131830
 "!.8b44240483c024":  // unique sig
-cleanup __amd64 void ChoiceBox::UpdateMainText(ChoiceBox *this, string *text); // 08132050
+cleanup __cdecl void ChoiceBox::UpdateMainText(ChoiceBox *this, string *text); // 08132050
 ".5589e557565381ecec01":  // unique sig
-static cleanup __amd64 ResourceBoxDesc *ChoiceBox::RenderResources(ResourceBoxDesc *__return_storage_ptr__, ChoiceBox *this, ResourceEvent *resources, int x, int y, bool choice, ResourceBoxDesc desc); // 08132060
+static cleanup __cdecl ResourceBoxDesc *ChoiceBox::RenderResources(ResourceBoxDesc *__return_storage_ptr__, ChoiceBox *this, ResourceEvent *resources, int x, int y, bool choice, ResourceBoxDesc desc); // 08132060
 ".5589e557565381ec4c0100008b75":  // unique sig
-cleanup __amd64 ResourceBoxDesc *ChoiceBox::MeasureResources(ChoiceBox *this, ResourceEvent *resources, bool choice); // 08134800
+cleanup __cdecl ResourceBoxDesc *ChoiceBox::MeasureResources(ChoiceBox *this, ResourceEvent *resources, bool choice); // 08134800
 ".5589e557565381ec5c0100008b45":  // unique sig
-cleanup __amd64 ResourceBoxDesc *ChoiceBox::PrintResourceBox(ChoiceBox *this, ResourceEvent *resources, int x, int y, GL_Color border, bool choice); // 08134c80
+cleanup __cdecl ResourceBoxDesc *ChoiceBox::PrintResourceBox(ChoiceBox *this, ResourceEvent *resources, int x, int y, GL_Color border, bool choice); // 08134c80
 ".5589e557565381ecdc0100008b75":  // unique sig
-cleanup __amd64 void ChoiceBox::OnRender(ChoiceBox *this); // 08135370
+cleanup __cdecl void ChoiceBox::OnRender(ChoiceBox *this); // 08135370
 "!.565383ec148b7424248b5c24208b068943":  // unique sig
-cleanup __amd64 void ChoiceBox::SetEventReward(ChoiceBox *this, ResourceEvent *resource); // 081368f0
+cleanup __cdecl void ChoiceBox::SetEventReward(ChoiceBox *this, ResourceEvent *resource); // 081368f0
 ".5589e557565381ec2c0100008b75":  // unique sig
-cleanup __amd64 void ChoiceBox::SetChoices(ChoiceBox *this, string *mainText, std::vector<ChoiceText> *newChoices, std::vector<ChoiceText> *choicesSecond); // 08136b60
+cleanup __cdecl void ChoiceBox::SetChoices(ChoiceBox *this, string *mainText, std::vector<ChoiceText> *newChoices, std::vector<ChoiceText> *choicesSecond); // 08136b60

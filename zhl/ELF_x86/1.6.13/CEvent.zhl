@@ -1,60 +1,60 @@
 "f3c366906690669066906690669066905557565383ec2c8b7424408b":  // unique sig
-cleanup __amd64 void CEvent::OnWindowResize(CEvent *this, int new_x, int new_y); // 08065950
+cleanup __cdecl void CEvent::OnWindowResize(CEvent *this, int new_x, int new_y); // 08065950
 ".8b442404c700????????c390":  // unique sig
-cleanup __amd64 void CEvent::destructor(CEvent *this); // 081fac50
+cleanup __cdecl void CEvent::destructor(CEvent *this); // 081fac50
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3":  // unique sig
-cleanup __amd64 void CEvent::OnInputFocus(CEvent *this); // 081fac60
+cleanup __cdecl void CEvent::OnInputFocus(CEvent *this); // 081fac60
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnInputBlur(CEvent *this); // 081fac70
+cleanup __cdecl void CEvent::OnInputBlur(CEvent *this); // 081fac70
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnKeyDown(CEvent *this, SDLKey sym); // 081fac80
+cleanup __cdecl void CEvent::OnKeyDown(CEvent *this, SDLKey sym); // 081fac80
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnKeyUp(CEvent *this, SDLKey sym); // 081fac90
+cleanup __cdecl void CEvent::OnKeyUp(CEvent *this, SDLKey sym); // 081fac90
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnTextInput(CEvent *this, int ch); // 081faca0
+cleanup __cdecl void CEvent::OnTextInput(CEvent *this, int ch); // 081faca0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnTextEvent(CEvent *this, TextEvent event); // 081facb0
+cleanup __cdecl void CEvent::OnTextEvent(CEvent *this, TextEvent event); // 081facb0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnMouseMove(CEvent *this, int mX, int mY, int relX, int relY, bool Left, bool Right, bool Middle); // 081facc0
+cleanup __cdecl void CEvent::OnMouseMove(CEvent *this, int mX, int mY, int relX, int relY, bool Left, bool Right, bool Middle); // 081facc0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnMouseWheel(CEvent *this, bool Up, bool Down); // 081facd0
+cleanup __cdecl void CEvent::OnMouseWheel(CEvent *this, bool Up, bool Down); // 081facd0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnLButtonDown(CEvent *this, int mX, int mY); // 081face0
+cleanup __cdecl void CEvent::OnLButtonDown(CEvent *this, int mX, int mY); // 081face0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnLButtonUp(CEvent *this, int mX, int mY); // 081facf0
+cleanup __cdecl void CEvent::OnLButtonUp(CEvent *this, int mX, int mY); // 081facf0
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnRButtonDown(CEvent *this, int mX, int mY); // 081fad00
+cleanup __cdecl void CEvent::OnRButtonDown(CEvent *this, int mX, int mY); // 081fad00
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnRButtonUp(CEvent *this, int mX, int mY); // 081fad10
+cleanup __cdecl void CEvent::OnRButtonUp(CEvent *this, int mX, int mY); // 081fad10
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnMButtonDown(CEvent *this, int mX, int mY); // 081fad20
+cleanup __cdecl void CEvent::OnMButtonDown(CEvent *this, int mX, int mY); // 081fad20
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnMButtonUp(CEvent *this, int mX, int mY); // 081fad30
+cleanup __cdecl void CEvent::OnMButtonUp(CEvent *this, int mX, int mY); // 081fad30
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnTouchDown(CEvent *this, int id, int x, int y); // 081fad40
+cleanup __cdecl void CEvent::OnTouchDown(CEvent *this, int id, int x, int y); // 081fad40
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig
-cleanup __amd64 void CEvent::OnTouchMove(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad50
+cleanup __cdecl void CEvent::OnTouchMove(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad50
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b442404c7":  // unique sig
-cleanup __amd64 void CEvent::OnTouchUp(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad60
+cleanup __cdecl void CEvent::OnTouchUp(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad60
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b442404c7":  // unique sig
-cleanup __amd64 void CEvent::OnTouchCancel(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad70
+cleanup __cdecl void CEvent::OnTouchCancel(CEvent *this, int id, int x, int y, int initialX, int initialY); // 081fad70
 ".f3c38db426000000008dbc27000000008b442404c7":  // unique sig
-cleanup __amd64 void CEvent::OnExit(CEvent *this); // 081fad80
+cleanup __cdecl void CEvent::OnExit(CEvent *this); // 081fad80
 ".8b442404c700????????e9????????9055":  // unique sig
-cleanup __amd64 void CEvent::destructor(CEvent *this); // 081fad90
+cleanup __cdecl void CEvent::destructor(CEvent *this); // 081fad90
 "5557565383ec3c8b7424548b5c24508b4604f2":  // unique sig
-cleanup __amd64 void CEvent::OnEvent(CEvent *this, EventType *Event); // 081fada0
+cleanup __cdecl void CEvent::OnEvent(CEvent *this, EventType *Event); // 081fada0
 ".83ec0ce8????????31":  // unique sig
-static cleanup __amd64 bool CEvent::IsKeyboardPresent(); // 081fb2a0
+static cleanup __cdecl bool CEvent::IsKeyboardPresent(); // 081fb2a0
 ".83ec1cc704244b":  // unique sig
-static cleanup __amd64 bool CEvent::GetShiftState(); // 081fb2c0
+static cleanup __cdecl bool CEvent::GetShiftState(); // 081fb2c0
 ".83ec1cc704244d":  // unique sig
-static cleanup __amd64 bool CEvent::GetCtrlState(); // 081fb2f0
+static cleanup __cdecl bool CEvent::GetCtrlState(); // 081fb2f0
 ".83ec1c8b442420890424e8????????85c00f95c083c41cc3":  // unique sig
-static cleanup __amd64 bool CEvent::IsTouchActive(int id); // 081fb320
+static cleanup __cdecl bool CEvent::IsTouchActive(int id); // 081fb320
 ".8b442404c700????????c36690669090f3c36690669066906690669066906690f3":  // unique sig
-cleanup __amd64 void CEvent::constructor(CEvent *this); // 081fb340
+cleanup __cdecl void CEvent::constructor(CEvent *this); // 081fb340
 ".f3c36690669066906690669066906690f3c366906690669066906690669066908b44240466":  // unique sig
-cleanup __amd64 void CEvent::OnRequestExit(CEvent *this); // 081fb350
+cleanup __cdecl void CEvent::OnRequestExit(CEvent *this); // 081fb350
 ".f3c366906690669066906690669066908b44240466":  // unique sig
-cleanup __amd64 void CEvent::OnLanguageChange(CEvent *this); // 081fb360
+cleanup __cdecl void CEvent::OnLanguageChange(CEvent *this); // 081fb360

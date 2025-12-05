@@ -1,32 +1,32 @@
 "5589e557565383ec7c8b5d08807b28":  // unique sig
-cleanup __amd64 void WarningMessage::RenderWithAlpha(WarningMessage *this, float alpha); // 082300c0
+cleanup __cdecl void WarningMessage::RenderWithAlpha(WarningMessage *this, float alpha); // 082300c0
 ".560f57c05383":  // unique sig
-cleanup __amd64 void WarningMessage::constructor(WarningMessage *this); // 082304e0
+cleanup __cdecl void WarningMessage::constructor(WarningMessage *this); // 082304e0
 ".5557565383ec1c8b5c24308b7c24388b6c":  // unique sig
-cleanup __amd64 void WarningMessage::InitImage(WarningMessage *this, string *imageName, Point position, float length, bool flash); // 08230630
+cleanup __cdecl void WarningMessage::InitImage(WarningMessage *this, string *imageName, Point position, float length, bool flash); // 08230630
 ".5557565383ec1c8b5c24308b442438":  // unique sig
-cleanup __amd64 void WarningMessage::InitText(WarningMessage *this, TextString *text, Point position, float length, GL_Color textColor, bool centerText, bool flash); // 082306c0
+cleanup __cdecl void WarningMessage::InitText(WarningMessage *this, TextString *text, Point position, float length, GL_Color textColor, bool centerText, bool flash); // 082306c0
 ".565383ec148b5c24208d73":  // unique sig
-cleanup __amd64 void WarningMessage::OnLoop(WarningMessage *this); // 08230770
+cleanup __cdecl void WarningMessage::OnLoop(WarningMessage *this); // 08230770
 ".5383ec188b5c2420807b16":  // unique sig
-cleanup __amd64 void WarningMessage::OnRender(WarningMessage *this); // 082307c0
+cleanup __cdecl void WarningMessage::OnRender(WarningMessage *this); // 082307c0
 ".5557565383ec1c8b5c24308b742434807b280075??83":  // unique sig
-cleanup __amd64 void WarningMessage::SetImage(WarningMessage *this, string *imageName); // 08230840
+cleanup __cdecl void WarningMessage::SetImage(WarningMessage *this, string *imageName); // 08230840
 ".5557565383ec1c8b5c24308b742434807b280075??0fb643300fb6560438d074??29d085c074??807b140075":  // unique sig
-cleanup __amd64 void WarningMessage::SetText(WarningMessage *this, TextString *text); // 082308e0
+cleanup __cdecl void WarningMessage::SetText(WarningMessage *this, TextString *text); // 082308e0
 ".5557565383ec1c8b5c24308b742434807b280075??0fb643300fb6560438d074??29d085c074??807b14000f":  // unique sig
-cleanup __amd64 void WarningMessage::SetText(WarningMessage *this, TextString *text, GL_Color textColor); // 08230980
+cleanup __cdecl void WarningMessage::SetText(WarningMessage *this, TextString *text, GL_Color textColor); // 08230980
 ".8b4424048b5424088b4c240c807828":  // unique sig
-cleanup __amd64 void WarningMessage::SetPosition(WarningMessage *this, Point position); // 08230a60
+cleanup __cdecl void WarningMessage::SetPosition(WarningMessage *this, Point position); // 08230a60
 ".83ec1c0fb6442424":  // unique sig
-cleanup __amd64 void WarningMessage::SetLoop(WarningMessage *this, bool loop); // 08230a90
+cleanup __cdecl void WarningMessage::SetLoop(WarningMessage *this, bool loop); // 08230a90
 "!.8b442404058c":  // unique sig
-cleanup __amd64 void WarningMessage::SetSound(WarningMessage *this, string *name); // 08230ac0
+cleanup __cdecl void WarningMessage::SetSound(WarningMessage *this, string *name); // 08230ac0
 ".8b4424088b542404884248":  // unique sig
-cleanup __amd64 void WarningMessage::SetWarningLine(WarningMessage *this, bool enable); // 08230ae0
+cleanup __cdecl void WarningMessage::SetWarningLine(WarningMessage *this, bool enable); // 08230ae0
 ".5383ec188b5c2420807b14":  // unique sig
-cleanup __amd64 void WarningMessage::Start(WarningMessage *this); // 08230af0
+cleanup __cdecl void WarningMessage::Start(WarningMessage *this); // 08230af0
 ".565383ec248b5c24308b838c000000c703????????c78390000000????????8d50f481fa????????75??8b83840000008d50f481fa????????0f85????????8b4354c7434c????????8d50f481fa????????0f85????????8d434c890424e8????????8b432c8d50f481fa????????75??c74304????????83":  // unique sig
-cleanup __amd64 void WarningMessage::destructor(WarningMessage *this); // 08231440
+cleanup __cdecl void WarningMessage::destructor(WarningMessage *this); // 08231440
 ".565383ec248b5c24308b838c000000c703????????c78390000000????????8d50f481fa????????75??8b83840000008d50f481fa????????0f85????????8b4354c7434c????????8d50f481fa????????0f85????????8d434c890424e8????????8b432c8d50f481fa????????75??c74304????????89":  // unique sig
-cleanup __amd64 void WarningMessage::destructor(WarningMessage *this); // 082315c0
+cleanup __cdecl void WarningMessage::destructor(WarningMessage *this); // 082315c0

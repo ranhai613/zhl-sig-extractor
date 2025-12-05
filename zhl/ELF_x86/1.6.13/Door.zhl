@@ -1,82 +1,82 @@
 "5383ec288b4424348b5c24308b":  // unique sig
-cleanup __amd64 Point Door::GetPosition(Door *this); // 080e2380
+cleanup __cdecl Point Door::GetPosition(Door *this); // 080e2380
 ".5383ec188b5c242080bb70":  // unique sig
-cleanup __amd64 bool Door::ApplyDamage(Door *this, float amount); // 080e23d0
+cleanup __cdecl bool Door::ApplyDamage(Door *this, float amount); // 080e23d0
 ".5557565383ec2c8b7424408b462c":  // unique sig
-cleanup __amd64 void Door::destructor(Door *this); // 080e2470
+cleanup __cdecl void Door::destructor(Door *this); // 080e2470
 ".5383ec188b5c2420891c24e8????????895c242083c4185be9????????8d7600836c240408eb??90908db426000000005557565381":  // unique sig
-cleanup __amd64 void Door::destructor(Door *this); // 080e28a0
+cleanup __cdecl void Door::destructor(Door *this); // 080e28a0
 "5557565381ec2c0100008bac24????????8b":  // unique sig
-cleanup __amd64 void Door::constructor(Door *this, int roomId1, int roomId2, int locX, int locY, bool bVertical, int doorId, int shipId); // 080e28d0
+cleanup __cdecl void Door::constructor(Door *this, int roomId1, int roomId2, int locX, int locY, bool bVertical, int doorId, int shipId); // 080e28d0
 "!.565383ec148b7424208b5c24248b8658":  // unique sig
-cleanup __amd64 void Door::SaveState(Door *this, int fd); // 080e3d30
+cleanup __cdecl void Door::SaveState(Door *this, int fd); // 080e3d30
 "!.565383ec148b7424248b5c2420893424e8????????898358":  // unique sig
-cleanup __amd64 void Door::LoadState(Door *this, int fd); // 080e3dc0
+cleanup __cdecl void Door::LoadState(Door *this, int fd); // 080e3dc0
 ".8b44240883f80174":  // unique sig
-cleanup __amd64 int Door::GetBaseHealth(Door *this, int val); // 080e3ea0
+cleanup __cdecl int Door::GetBaseHealth(Door *this, int val); // 080e3ea0
 ".5383ec188b5c2420807b18":  // unique sig
-cleanup __amd64 void Door::AccelerateAnimation(Door *this); // 080e3ef0
+cleanup __cdecl void Door::AccelerateAnimation(Door *this); // 080e3ef0
 ".565383ec148b5c242083bb8c00000004c64320":  // unique sig
-cleanup __amd64 void Door::FakeOpen(Door *this); // 080e3f70
+cleanup __cdecl void Door::FakeOpen(Door *this); // 080e3f70
 ".565383ec148b5c24200fb64318c6":  // unique sig
-cleanup __amd64 void Door::FakeClose(Door *this); // 080e4040
+cleanup __cdecl void Door::FakeClose(Door *this); // 080e4040
 ".8b4424048b54240880b8b4010000000f":  // unique sig
-cleanup __amd64 void Door::SetBlastDoor(Door *this, int val); // 080e4130
+cleanup __cdecl void Door::SetBlastDoor(Door *this, int val); // 080e4130
 ".8b5424048b82c4":  // unique sig
-cleanup __amd64 bool Door::IsSealed(Door *this, int shipId); // 080e4260
+cleanup __cdecl bool Door::IsSealed(Door *this, int shipId); // 080e4260
 ".8b4424048b905801":  // unique sig
-cleanup __amd64 void Door::ResetHealth(Door *this); // 080e42b0
+cleanup __cdecl void Door::ResetHealth(Door *this); // 080e42b0
 ".5383ec18807c2424008b5c242075":  // unique sig
-cleanup __amd64 void Door::SetLockdown(Door *this, bool val); // 080e42d0
+cleanup __cdecl void Door::SetLockdown(Door *this, bool val); // 080e42d0
 ".565383ec448b742454":  // unique sig
-cleanup __amd64 Point Door::GetEntryWay(Door *this, int roomId); // 080e4340
+cleanup __cdecl Point Door::GetEntryWay(Door *this, int roomId); // 080e4340
 ".5589e557565383ec4c8b450c8b5510":  // unique sig
-cleanup __amd64 bool Door::InEntryWay(Door *this, Point p); // 080e4490
+cleanup __cdecl bool Door::InEntryWay(Door *this, Point p); // 080e4490
 ".56538b5c24148b54":  // unique sig
-cleanup __amd64 bool Door::ConnectsRooms(Door *this, int roomId1, int roomId2); // 080e45c0
+cleanup __cdecl bool Door::ConnectsRooms(Door *this, int roomId1, int roomId2); // 080e45c0
 ".8b4424048b54240839501074??39":  // unique sig
-cleanup __amd64 void Door::TurnIntoAirlock(Door *this, int roomId); // 080e4620
+cleanup __cdecl void Door::TurnIntoAirlock(Door *this, int roomId); // 080e4620
 ".5531c05756538b54":  // unique sig
-cleanup __amd64 bool Door::ContainsPoint(Door *this, int loc_x, int loc_y, float scale); // 080e4650
+cleanup __cdecl bool Door::ContainsPoint(Door *this, int loc_x, int loc_y, float scale); // 080e4650
 ".5383ec188b4424248b5c24208b90":  // unique sig
-cleanup __amd64 Point Door::GetCenterPoint(Door *this); // 080e4750
+cleanup __cdecl Point Door::GetCenterPoint(Door *this); // 080e4750
 ".5383ec188b4424248b5c242080b8":  // unique sig
-cleanup __amd64 Point Door::GetCornerPoint(Door *this); // 080e4790
+cleanup __cdecl Point Door::GetCornerPoint(Door *this); // 080e4790
 ".565383ec148b5c2420807b20":  // unique sig
-cleanup __amd64 void Door::Close(Door *this); // 080e4800
+cleanup __cdecl void Door::Close(Door *this); // 080e4800
 ".565383ec148b5c242083bb8c00000004c64318":  // unique sig
-cleanup __amd64 void Door::Open(Door *this); // 080e48f0
+cleanup __cdecl void Door::Open(Door *this); // 080e48f0
 ".565383ec148b5c24200fb6431883":  // unique sig
-cleanup __amd64 void Door::Manipulate(Door *this); // 080e49c0
+cleanup __cdecl void Door::Manipulate(Door *this); // 080e49c0
 ".565383ec148b5c24200fb6431884":  // unique sig
-cleanup __amd64 void Door::StartAnimIfNecessary(Door *this); // 080e4aa0
+cleanup __cdecl void Door::StartAnimIfNecessary(Door *this); // 080e4aa0
 ".5557565383ec1c8b5c24308d7b34893c248db3c4000000e8????????893424e8????????83bb980100000477??8b8398010000ff2485????????8db600000000c744240423000000893c24e8????????c744240423000000893424e8????????8b83c401000085c07e??c74424????????00893c24e8????????c74424????????00893424e8????????891c248dab7c010000e8????????892c24e8????????80bb8e010000000f85????????80bb700100000074??c74424????????00893c24e8????????c744240403000000893c24e8????????c74424????????00893424e8????????c744240403000000893424e8????????83c41c5b5e5f5dc36690c744240446000000893c24e8????????c744240446000000893424e8????????e9????????8d7600c744240469000000893c24e8????????c744240469000000893424e8????????e9????????8d7600c74424048c000000893c24e8????????c74424048c000000893424e8????????e9????????8d7600c74424????????00892c24e8????????e9????????90669055":  // unique sig
-cleanup __amd64 void Door::PauseLoop(Door *this); // 080e4b80
+cleanup __cdecl void Door::PauseLoop(Door *this); // 080e4b80
 ".5557565383ec1c8b5c24308d7b34893c248db3c4000000e8????????893424e8????????83bb980100000477??8b8398010000ff2485????????8db600000000c744240423000000893c24e8????????c744240423000000893424e8????????8b83c401000085c07e??c74424????????00893c24e8????????c74424????????00893424e8????????891c248dab7c010000e8????????892c24e8????????80bb8e010000000f85????????80bb700100000074??c74424????????00893c24e8????????c744240403000000893c24e8????????c74424????????00893424e8????????c744240403000000893424e8????????83c41c5b5e5f5dc36690c744240446000000893c24e8????????c744240446000000893424e8????????e9????????8d7600c744240469000000893c24e8????????c744240469000000893424e8????????e9????????8d7600c74424048c000000893c24e8????????c74424048c000000893424e8????????e9????????8d7600c74424????????00892c24e8????????e9????????90669056":  // unique sig
-cleanup __amd64 void Door::UpdateAnimations(Door *this); // 080e4d10
+cleanup __cdecl void Door::UpdateAnimations(Door *this); // 080e4d10
 "!.565383ec148b5c24208b83c4":  // unique sig
-cleanup __amd64 void Door::OnLoop(Door *this); // 080e4ea0
+cleanup __cdecl void Door::OnLoop(Door *this); // 080e4ea0
 ".5383ec188b5c24208b43088d":  // unique sig
-cleanup __amd64 bool Door::IsAnimating(Door *this); // 080e5110
+cleanup __cdecl bool Door::IsAnimating(Door *this); // 080e5110
 ".56538b44240c8b74":  // unique sig
-cleanup __amd64 void Door::GetFrameInfo(Door *this, Point *origin_ret, Point *size_ret); // 080e5170
+cleanup __cdecl void Door::GetFrameInfo(Door *this, Point *origin_ret, Point *size_ret); // 080e5170
 ".565383ec248b7424348d44241889":  // unique sig
-cleanup __amd64 Point Door::GetAnimPosition(Door *this); // 080e51c0
+cleanup __cdecl Point Door::GetAnimPosition(Door *this); // 080e51c0
 ".8b5424088b4424040f2805????????80ba8c":  // unique sig
-cleanup __amd64 GL_Color *Door::GetColor(Door *this); // 080e5240
+cleanup __cdecl GL_Color *Door::GetColor(Door *this); // 080e5240
 ".565383ec448b5c24508b74245c":  // unique sig
-cleanup __amd64 bool Door::OnRender(Door *this, float alpha, bool bForceView, bool useLargeSprites); // 080e52a0
+cleanup __cdecl bool Door::OnRender(Door *this, float alpha, bool bForceView, bool useLargeSprites); // 080e52a0
 ".8b5424048b4c24088b4210":  // unique sig
-cleanup __amd64 int Door::ConnectingRoom(Door *this, int roomId); // 080e5490
+cleanup __cdecl int Door::ConnectingRoom(Door *this, int roomId); // 080e5490
 ".83ec3cf30f100d":  // unique sig
-cleanup __amd64 void Door::OnRenderHighlight(Door *this, float r, float g, float b); // 080e54c0
+cleanup __cdecl void Door::OnRenderHighlight(Door *this, float r, float g, float b); // 080e54c0
 ".d9eec3669066906690669066906690908b":  // unique sig
-cleanup __amd64 float Door::PositionShift(Door *this); // 080e5530
+cleanup __cdecl float Door::PositionShift(Door *this); // 080e5530
 ".8b4424048b54240839501074??3b":  // unique sig
-cleanup __amd64 bool Door::InsideRoom(Door *this, int roomId); // 080e5540
+cleanup __cdecl bool Door::InsideRoom(Door *this, int roomId); // 080e5540
 ".8b54240431c08b4c":  // unique sig
-cleanup __amd64 bool Door::ValidTarget(Door *this, int shipId); // 080e5560
+cleanup __cdecl bool Door::ValidTarget(Door *this, int shipId); // 080e5560
 ".b801000000c36690669066906690669031c0c3669066906690669066906690908b4424040f":  // unique sig
-cleanup __amd64 bool Door::MultiShots(Door *this); // 080e55a0
+cleanup __cdecl bool Door::MultiShots(Door *this); // 080e55a0
 ".31c0c3669066906690669066906690908b4424040f57":  // unique sig
-cleanup __amd64 bool Door::IsCrew(Door *this); // 080e55b0
+cleanup __cdecl bool Door::IsCrew(Door *this); // 080e55b0

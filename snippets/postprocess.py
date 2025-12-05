@@ -13,10 +13,15 @@ def remove_const(content: str) -> str:
         
     return content
 
-def preprocess(content: str) -> str:
+def preprocess(content: str, platform: str) -> str:
     content = content.replace(" * ", " *") \
                      .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string") \
                      .replace(", int __in_chrg", "")
+    if platform == "win32":
+        content = content.replace("static cleanup __amd64 ", "static cleanup __cdecl ") \
+                         .replace("cleanup __amd64 ", " __thiscall ")
+    elif platform == "elf_x86":
+        content = content.replace("cleanup __amd64 ", "cleanup __cdecl ")
     return content
 
 def process_template(content: str) -> str:
@@ -100,15 +105,15 @@ def rename_functions(content: str) -> str:
     PROTOTYPE_PATTERN = re.compile(r'(.+)(\s+)(\S+?)::(\S+?)\((.*)\);')
     return re.sub(PROTOTYPE_PATTERN, rename_match, content)
 
-def main(target_dir: str) -> None:
+def main(target_dir: str, platform: str = "elf_amd64") -> None:
     for file in glob(target_dir + "/*.zhl"):
         with open(file, "r", encoding="utf-8") as f:
             content = f.read()
-        content = preprocess(content)
+        content = preprocess(content, platform)
         content = process_template(content)
         content = rename_functions(content)
         with open(file, "w", encoding="utf-8") as f:
             f.write(content)
 
 if __name__ == "__main__":
-    main("zhl/ELF_x86/1.6.13")
+    main("zhl/ELF_x86/1.6.13", "elf_x86")

@@ -1,36 +1,36 @@
 "5383ec188b5c24208b03891c24ff500831d284c075??8b835801000083b8":  // unique sig
-cleanup __amd64 bool WeaponBox::GetHacked(WeaponBox *this); // 081e6200
+cleanup __cdecl bool WeaponBox::GetHacked(WeaponBox *this); // 081e6200
 ".565383ec148b7424248b5c24208b06893424ff500884c074??0f2805????????0f13030f17430883c41489d85b5ec204008db426000000008b06893424ff501084c00f":  // unique sig
-cleanup __amd64 GL_Color *WeaponBox::StatusColor(WeaponBox *this); // 081e6230
+cleanup __cdecl GL_Color *WeaponBox::StatusColor(WeaponBox *this); // 081e6230
 "!.57565331db83ec108b7424208b96780100008b867c010000c706????????29d0c1f80285c074??908b049a83c301890424e8????????8b96780100008b867c01000029d0c1f80239c372??8b8684010000890424e8????????8bbe8c0100008b9e8801000039df74??8db426000000008b03891c2483c338ff500439df75??8bbe8801000085ff74??893c24e8????????8b867801000085c074??890424e8????????8974":  // unique sig
-cleanup __amd64 void WeaponBox::destructor(WeaponBox *this); // 081e6380
+cleanup __cdecl void WeaponBox::destructor(WeaponBox *this); // 081e6380
 ".5589e557565383ec2c8b750c8b5d088b06":  // unique sig
-cleanup __amd64 string WeaponBox::GenerateTooltip(WeaponBox *this); // 081e6440
+cleanup __cdecl string WeaponBox::GenerateTooltip(WeaponBox *this); // 081e6440
 "!.57565331db83ec108b7424208b96780100008b867c010000c706????????29d0c1f80285c074??908b049a83c301890424e8????????8b96780100008b867c01000029d0c1f80239c372??8b8684010000890424e8????????8bbe8c0100008b9e8801000039df74??8db426000000008b03891c2483c338ff500439df75??8bbe8801000085ff74??893c24e8????????8b867801000085c074??890424e8????????8934":  // unique sig
-cleanup __amd64 void WeaponBox::destructor(WeaponBox *this); // 081e6580
+cleanup __cdecl void WeaponBox::destructor(WeaponBox *this); // 081e6580
 ".5557565383ec5c8d7424408b5c2470c744240803":  // unique sig
-cleanup __amd64 void WeaponBox::constructor(WeaponBox *this, Point loc); // 081e6640
+cleanup __cdecl void WeaponBox::constructor(WeaponBox *this, Point loc); // 081e6640
 ".5557565381ecbc0000008b8424????????80":  // unique sig
-cleanup __amd64 void WeaponBox::UpdateCooldownBox(WeaponBox *this, bool forIcon, Point p); // 081e6d50
+cleanup __cdecl void WeaponBox::UpdateCooldownBox(WeaponBox *this, bool forIcon, Point p); // 081e6d50
 ".5557565381ecac0000008b9c24????????8b":  // unique sig
-cleanup __amd64 void WeaponBox::SetWeapon(WeaponBox *this, ProjectileFactory *weap); // 081e7350
+cleanup __cdecl void WeaponBox::SetWeapon(WeaponBox *this, ProjectileFactory *weap); // 081e7350
 ".565383ec248b5c243089":  // unique sig
-cleanup __amd64 void WeaponBox::OnLoop(WeaponBox *this); // 081e7be0
+cleanup __cdecl void WeaponBox::OnLoop(WeaponBox *this); // 081e7be0
 ".5589e557565381ec2c0200000f":  // unique sig
-cleanup __amd64 void WeaponBox::RenderBox(WeaponBox *this, bool dragging, bool flashPowerBox); // 081e7ce0
+cleanup __cdecl void WeaponBox::RenderBox(WeaponBox *this, bool dragging, bool flashPowerBox); // 081e7ce0
 ".5589e557565381ec4c0100008b5d":  // unique sig
-cleanup __amd64 void WeaponBox::RenderIcon(WeaponBox *this, Point *p); // 081e9250
+cleanup __cdecl void WeaponBox::RenderIcon(WeaponBox *this, Point *p); // 081e9250
 ".8b4424048b805801000085c00f94c0c38b":  // unique sig
-cleanup __amd64 bool WeaponBox::Empty(WeaponBox *this); // 081e9d20
+cleanup __cdecl bool WeaponBox::Empty(WeaponBox *this); // 081e9d20
 ".8b4424088b542404888294":  // unique sig
-cleanup __amd64 void WeaponBox::SetDefaultAutofire(WeaponBox *this, bool val); // 081e9d30
+cleanup __cdecl void WeaponBox::SetDefaultAutofire(WeaponBox *this, bool val); // 081e9d30
 ".5383ec188b5c24208b03891c24ff500831d284c075??8b83580100000f":  // unique sig
-cleanup __amd64 bool WeaponBox::Powered(WeaponBox *this); // 081e9d40
+cleanup __cdecl bool WeaponBox::Powered(WeaponBox *this); // 081e9d40
 ".5383ec188b5c24208b03891c24ff500831d284c075??8b83580100008b90bc":  // unique sig
-cleanup __amd64 int WeaponBox::RealRequiredPower(WeaponBox *this); // 081e9d70
+cleanup __cdecl int WeaponBox::RealRequiredPower(WeaponBox *this); // 081e9d70
 ".5383ec188b5c24208b03891c24ff500831d284c075??8b83580100008b9090":  // unique sig
-cleanup __amd64 int WeaponBox::GetBonusPower(WeaponBox *this); // 081e9da0
+cleanup __cdecl int WeaponBox::GetBonusPower(WeaponBox *this); // 081e9da0
 ".5383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc20400669066906690905589":  // unique sig
-cleanup __amd64 string WeaponBox::GetType(WeaponBox *this); // 081e9dd0
+cleanup __cdecl string WeaponBox::GetType(WeaponBox *this); // 081e9dd0
 ".5589e5565383ec208b750c8b5d088b06893424ff500884c074??8d45f789442408891c24c7442404????????e8????????8d65f889d85b5e5dc204008d7426008b86580100008b40":  // unique sig
-cleanup __amd64 string WeaponBox::Name(WeaponBox *this); // 081e9e00
+cleanup __cdecl string WeaponBox::Name(WeaponBox *this); // 081e9e00

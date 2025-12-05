@@ -1,38 +1,38 @@
 "5557565383ec3c8b5424508d":  // unique sig
-cleanup __amd64 void CrewManifest::SetPosition(CrewManifest *this, Point p); // 0815d980
+cleanup __cdecl void CrewManifest::SetPosition(CrewManifest *this, Point p); // 0815d980
 ".5383ec188b5c24208b5370":  // unique sig
-cleanup __amd64 bool CrewManifest::LockWindow(CrewManifest *this); // 0815da70
+cleanup __cdecl bool CrewManifest::LockWindow(CrewManifest *this); // 0815da70
 ".5557565381ec8c0000008bbc24????????8d":  // unique sig
-cleanup __amd64 void CrewManifest::constructor(CrewManifest *this); // 0815dab0
+cleanup __cdecl void CrewManifest::constructor(CrewManifest *this); // 0815dab0
 ".565383ec148b7424208b4e74":  // unique sig
-cleanup __amd64 void CrewManifest::ClearCrew(CrewManifest *this); // 0815def0
+cleanup __cdecl void CrewManifest::ClearCrew(CrewManifest *this); // 0815def0
 ".57565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057":  // unique sig
-cleanup __amd64 void CrewManifest::OnKeyDown(CrewManifest *this, SDLKey sym); // 0815df40
+cleanup __cdecl void CrewManifest::OnKeyDown(CrewManifest *this, SDLKey sym); // 0815df40
 ".57565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000056":  // unique sig
-cleanup __amd64 void CrewManifest::OnKeyUp(CrewManifest *this, SDLKey sym); // 0815dfb0
+cleanup __cdecl void CrewManifest::OnKeyUp(CrewManifest *this, SDLKey sym); // 0815dfb0
 ".57565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000057565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000056":  // unique sig
-cleanup __amd64 void CrewManifest::OnTextInput(CrewManifest *this, int ch); // 0815e020
+cleanup __cdecl void CrewManifest::OnTextInput(CrewManifest *this, int ch); // 0815e020
 ".57565331db83ec108b7c24208b7424248b57708b477429d0c1f80285c075??eb??8db426000000008b577083c3018b477429d0c1f80239c373??8b049a890424e8????????84c075??897424048b47708b0498890424e8????????eb??8d760083c4105b5e5fc390908db4260000000056":  // unique sig
-cleanup __amd64 void CrewManifest::OnTextEvent(CrewManifest *this, TextEvent event); // 0815e090
+cleanup __cdecl void CrewManifest::OnTextEvent(CrewManifest *this, TextEvent event); // 0815e090
 ".565383ec448b7424508d":  // unique sig
-cleanup __amd64 void CrewManifest::Update(CrewManifest *this); // 0815e100
+cleanup __cdecl void CrewManifest::Update(CrewManifest *this); // 0815e100
 ".565383ec248b7424308b4e":  // unique sig
-cleanup __amd64 void CrewManifest::destructor(CrewManifest *this); // 0815e220
+cleanup __cdecl void CrewManifest::destructor(CrewManifest *this); // 0815e220
 ".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905557":  // unique sig
-cleanup __amd64 void CrewManifest::destructor(CrewManifest *this); // 0815e440
+cleanup __cdecl void CrewManifest::destructor(CrewManifest *this); // 0815e440
 "5557565383ec4c8b5c24608b4b":  // unique sig
-cleanup __amd64 void CrewManifest::OnInit(CrewManifest *this, ShipManager *ship); // 0815e460
+cleanup __cdecl void CrewManifest::OnInit(CrewManifest *this, ShipManager *ship); // 0815e460
 "!.565331db83ec148b7424208b5670":  // unique sig
-cleanup __amd64 void CrewManifest::Close(CrewManifest *this); // 0815e5e0
+cleanup __cdecl void CrewManifest::Close(CrewManifest *this); // 0815e5e0
 "!.5383ec188b5c2420891c24e8????????8d437c":  // unique sig
-cleanup __amd64 void CrewManifest::Open(CrewManifest *this); // 0815e660
+cleanup __cdecl void CrewManifest::Open(CrewManifest *this); // 0815e660
 "!.565383ec148b7424208b4424248b5424288b":  // unique sig
-cleanup __amd64 void CrewManifest::MouseClick(CrewManifest *this, int mX, int mY); // 0815e6a0
+cleanup __cdecl void CrewManifest::MouseClick(CrewManifest *this, int mX, int mY); // 0815e6a0
 "!.5557565383ec4c8b7c2470":  // unique sig
-cleanup __amd64 void CrewManifest::OnTouch(CrewManifest *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0815e770
+cleanup __cdecl void CrewManifest::OnTouch(CrewManifest *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0815e770
 ".5589e557565383ec6c8b5d08e8????????8b93":  // unique sig
-cleanup __amd64 void CrewManifest::OnRender(CrewManifest *this); // 0815e950
+cleanup __cdecl void CrewManifest::OnRender(CrewManifest *this); // 0815e950
 ".5557565383ec2c8b5c24408b7424448b7c24488d":  // unique sig
-cleanup __amd64 void CrewManifest::MouseMove(CrewManifest *this, int mX, int mY); // 0815f010
+cleanup __cdecl void CrewManifest::MouseMove(CrewManifest *this, int mX, int mY); // 0815f010
 ".8b4424048b8004":  // unique sig
-cleanup __amd64 bool CrewManifest::PriorityPopup(CrewManifest *this); // 0815f150
+cleanup __cdecl bool CrewManifest::PriorityPopup(CrewManifest *this); // 0815f150

@@ -1,26 +1,26 @@
 "8b442404c700????????c36690669090d9":  // unique sig
-cleanup __amd64 void CrewTarget::destructor(CrewTarget *this); // 080da080
+cleanup __cdecl void CrewTarget::destructor(CrewTarget *this); // 080da080
 ".d9eec36690669066906690669066909031c0c36690669066906690669066909031":  // unique sig
-cleanup __amd64 float CrewTarget::PositionShift(CrewTarget *this); // 080da090
+cleanup __cdecl float CrewTarget::PositionShift(CrewTarget *this); // 080da090
 ".31c0c36690669066906690669066909031c0c366906690669066906690669090b8ffffffffc36690669066906690669031":  // unique sig
-cleanup __amd64 bool CrewTarget::InsideRoom(CrewTarget *this, int roomId); // 080da0a0
+cleanup __cdecl bool CrewTarget::InsideRoom(CrewTarget *this, int roomId); // 080da0a0
 ".31c0c366906690669066906690669090b8ffffffffc36690669066906690669031":  // unique sig
-cleanup __amd64 bool CrewTarget::ApplyDamage(CrewTarget *this, float damage); // 080da0b0
+cleanup __cdecl bool CrewTarget::ApplyDamage(CrewTarget *this, float damage); // 080da0b0
 ".b8ffffffffc36690669066906690669031c0c36690669066906690669066909031":  // unique sig
-cleanup __amd64 int CrewTarget::GetPriority(CrewTarget *this); // 080da0c0
+cleanup __cdecl int CrewTarget::GetPriority(CrewTarget *this); // 080da0c0
 ".31c0c36690669066906690669066909031c0c366906690669066906690669090b801000000c366906690669066906690b801":  // unique sig
-cleanup __amd64 bool CrewTarget::ValidTarget(CrewTarget *this, int shipId); // 080da0d0
+cleanup __cdecl bool CrewTarget::ValidTarget(CrewTarget *this, int shipId); // 080da0d0
 ".31c0c366906690669066906690669090b801000000c366906690669066906690b801000000c36690669066906690669031":  // unique sig
-cleanup __amd64 bool CrewTarget::MultiShots(CrewTarget *this); // 080da0e0
+cleanup __cdecl bool CrewTarget::MultiShots(CrewTarget *this); // 080da0e0
 ".b801000000c366906690669066906690b801000000c36690669066906690669031c0c36690669066906690669066909031":  // unique sig
-cleanup __amd64 bool CrewTarget::ExactTarget(CrewTarget *this); // 080da0f0
+cleanup __cdecl bool CrewTarget::ExactTarget(CrewTarget *this); // 080da0f0
 ".b801000000c36690669066906690669031c0c36690669066906690669066909031c0c36690669066906690669066909083":  // unique sig
-cleanup __amd64 bool CrewTarget::IsCrew(CrewTarget *this); // 080da100
+cleanup __cdecl bool CrewTarget::IsCrew(CrewTarget *this); // 080da100
 ".31c0c36690669066906690669066909031c0c36690669066906690669066909083":  // unique sig
-cleanup __amd64 bool CrewTarget::IsCloned(CrewTarget *this); // 080da110
+cleanup __cdecl bool CrewTarget::IsCloned(CrewTarget *this); // 080da110
 ".31c0c36690669066906690669066909083ec1c":  // unique sig
-cleanup __amd64 bool CrewTarget::IsDrone(CrewTarget *this); // 080da120
+cleanup __cdecl bool CrewTarget::IsDrone(CrewTarget *this); // 080da120
 ".8b442404c700????????e9????????905383ec188b5c2420c7442408ffffffffc7442404ffffffff891c24e8????????83c41889d85bc20400669066906690905383ec28":  // unique sig
-cleanup __amd64 void CrewTarget::destructor(CrewTarget *this); // 080da400
+cleanup __cdecl void CrewTarget::destructor(CrewTarget *this); // 080da400
 "5383ec188b5c2420c7442408ffffffffc7442404ffffffff891c24e8????????83c41889d85bc20400669066906690905383ec28":  // unique sig
-cleanup __amd64 Point CrewTarget::GetPosition(CrewTarget *this); // 080da410
+cleanup __cdecl Point CrewTarget::GetPosition(CrewTarget *this); // 080da410

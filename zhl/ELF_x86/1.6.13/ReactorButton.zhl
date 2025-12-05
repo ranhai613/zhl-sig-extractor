@@ -1,20 +1,20 @@
 "5589e557565383ec3c8b5d088d75d08b436c":  // unique sig
-cleanup __amd64 void ReactorButton::OnRightClick(ReactorButton *this); // 081dfa80
+cleanup __cdecl void ReactorButton::OnRightClick(ReactorButton *this); // 081dfa80
 ".5589e557565383ec3c8b5d088d75d08b4370":  // unique sig
-cleanup __amd64 void ReactorButton::OnClick(ReactorButton *this); // 081dfd00
+cleanup __cdecl void ReactorButton::OnClick(ReactorButton *this); // 081dfd00
 ".5589e55383ec148b5d088d45f08b537089042489542404e8????????8b43":  // unique sig
-cleanup __amd64 int ReactorButton::GetReactorRefund(ReactorButton *this); // 081e1480
+cleanup __cdecl int ReactorButton::GetReactorRefund(ReactorButton *this); // 081e1480
 ".5589e55383ec148b5d088d45f08b537089042489542404e8????????8b4b":  // unique sig
-cleanup __amd64 int ReactorButton::GetReactorCost(ReactorButton *this); // 081e14e0
+cleanup __cdecl int ReactorButton::GetReactorCost(ReactorButton *this); // 081e14e0
 ".5589e557bf67":  // unique sig
-cleanup __amd64 void ReactorButton::Undo(ReactorButton *this); // 081e1540
+cleanup __cdecl void ReactorButton::Undo(ReactorButton *this); // 081e1540
 ".5589e5565383ec308b5d088b43":  // unique sig
-cleanup __amd64 void ReactorButton::Accept(ReactorButton *this); // 081e15f0
+cleanup __cdecl void ReactorButton::Accept(ReactorButton *this); // 081e15f0
 ".5589e557565381ec0c03":  // unique sig
-cleanup __amd64 void ReactorButton::OnRender(ReactorButton *this); // 081e2270
+cleanup __cdecl void ReactorButton::OnRender(ReactorButton *this); // 081e2270
 ".5589e557565383ec4c8b4520":  // unique sig
-cleanup __amd64 bool ReactorButton::OnTouch(ReactorButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081e3f00
+cleanup __cdecl bool ReactorButton::OnTouch(ReactorButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081e3f00
 ".8b442404c700????????e9????????905383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690905557bf":  // unique sig
-cleanup __amd64 void ReactorButton::destructor(ReactorButton *this); // 081e60f0
+cleanup __cdecl void ReactorButton::destructor(ReactorButton *this); // 081e60f0
 "5383ec188b5c2420c703????????891c24e8????????895c242083c4185be9????????669066906690669066906690905557bf":  // unique sig
-cleanup __amd64 void ReactorButton::destructor(ReactorButton *this); // 081e6100
+cleanup __cdecl void ReactorButton::destructor(ReactorButton *this); // 081e6100

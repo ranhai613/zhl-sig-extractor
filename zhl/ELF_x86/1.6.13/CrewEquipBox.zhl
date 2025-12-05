@@ -1,52 +1,52 @@
 "8b5424088b442404895070c38d7426008b":  // unique sig
-cleanup __amd64 void CrewEquipBox::SetShipManager(CrewEquipBox *this, ShipManager *ship); // 081639e0
+cleanup __cdecl void CrewEquipBox::SetShipManager(CrewEquipBox *this, ShipManager *ship); // 081639e0
 ".5383ec188b5c24208b435485":  // unique sig
-cleanup __amd64 void CrewEquipBox::RemoveItem(CrewEquipBox *this); // 08163db0
+cleanup __cdecl void CrewEquipBox::RemoveItem(CrewEquipBox *this); // 08163db0
 ".5383ec188b5c2420c7442408010000008b":  // unique sig
-cleanup __amd64 void CrewEquipBox::CheckContents(CrewEquipBox *this); // 08163e20
+cleanup __cdecl void CrewEquipBox::CheckContents(CrewEquipBox *this); // 08163e20
 ".5589e5565383ec208b5d088b55":  // unique sig
-cleanup __amd64 void CrewEquipBox::AddItem(CrewEquipBox *this, EquipmentBoxItem item); // 081640c0
+cleanup __cdecl void CrewEquipBox::AddItem(CrewEquipBox *this, EquipmentBoxItem item); // 081640c0
 ".8b5424040fb68280":  // unique sig
-cleanup __amd64 bool CrewEquipBox::GetConfirmDelete(CrewEquipBox *this); // 081657e0
+cleanup __cdecl bool CrewEquipBox::GetConfirmDelete(CrewEquipBox *this); // 081657e0
 ".8b44240480b832":  // unique sig
-cleanup __amd64 void CrewEquipBox::CloseRename(CrewEquipBox *this); // 08165800
+cleanup __cdecl void CrewEquipBox::CloseRename(CrewEquipBox *this); // 08165800
 ".5589e557565381ecac0000008b5d088b":  // unique sig
-cleanup __amd64 void CrewEquipBox::RenderLabels(CrewEquipBox *this, bool dragging, bool isNew); // 08165830
+cleanup __cdecl void CrewEquipBox::RenderLabels(CrewEquipBox *this, bool dragging, bool isNew); // 08165830
 ".5589e557565383ec2c8b5d088b73":  // unique sig
-cleanup __amd64 void CrewEquipBox::MouseClick(CrewEquipBox *this); // 08165f40
+cleanup __cdecl void CrewEquipBox::MouseClick(CrewEquipBox *this); // 08165f40
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc270000000056":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnKeyDown(CrewEquipBox *this, SDLKey sym); // 08166120
+cleanup __cdecl void CrewEquipBox::OnKeyDown(CrewEquipBox *this, SDLKey sym); // 08166120
 ".f3c38db426000000008dbc2700000000565383ec148b44":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnKeyUp(CrewEquipBox *this, SDLKey sym); // 08166130
+cleanup __cdecl void CrewEquipBox::OnKeyUp(CrewEquipBox *this, SDLKey sym); // 08166130
 ".565383ec148b4424208b7424248d9834020000891c24e8????????84c075??83c4145b5ec38d760089742424895c242083c4145b5ee9????????8db60000000056":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnTextInput(CrewEquipBox *this, int ch); // 08166140
+cleanup __cdecl void CrewEquipBox::OnTextInput(CrewEquipBox *this, int ch); // 08166140
 ".565383ec148b4424208b7424248d9834020000891c24e8????????84c075??83c4145b5ec38d760089742424895c242083c4145b5ee9????????8db60000000055":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnTextEvent(CrewEquipBox *this, TextEvent event); // 08166180
+cleanup __cdecl void CrewEquipBox::OnTextEvent(CrewEquipBox *this, TextEvent event); // 08166180
 ".5557565383ec6c8b9c24????????8bb4":  // unique sig
-cleanup __amd64 void CrewEquipBox::SetPosition(CrewEquipBox *this, Point p); // 08167160
+cleanup __cdecl void CrewEquipBox::SetPosition(CrewEquipBox *this, Point p); // 08167160
 ".5557565383ec7c8b8424????????8d74":  // unique sig
-cleanup __amd64 void CrewEquipBox::constructor(CrewEquipBox *this, Point location, ShipManager *shipManager, int slot); // 08167430
+cleanup __cdecl void CrewEquipBox::constructor(CrewEquipBox *this, Point location, ShipManager *shipManager, int slot); // 08167430
 ".565383ec248b5c24308b8378020000c703????????890424e8????????8b837c020000890424e8????????8b834402000085c074??890424e8????????8b833802000085c074??890424e8????????8b83340200008d50f481fa????????75??8d8354010000890424e8????????8d4378890424e8????????8b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??83":  // unique sig
-cleanup __amd64 void CrewEquipBox::destructor(CrewEquipBox *this); // 08167f40
+cleanup __cdecl void CrewEquipBox::destructor(CrewEquipBox *this); // 08167f40
 ".565383ec248b5c24308b8378020000c703????????890424e8????????8b837c020000890424e8????????8b834402000085c074??890424e8????????8b833802000085c074??890424e8????????8b83340200008d50f481fa????????75??8d8354010000890424e8????????8d4378890424e8????????8b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??89":  // unique sig
-cleanup __amd64 void CrewEquipBox::destructor(CrewEquipBox *this); // 08168080
+cleanup __cdecl void CrewEquipBox::destructor(CrewEquipBox *this); // 08168080
 ".5589e557565383ec2c8b5d08c70424????????8b":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnRender(CrewEquipBox *this, bool dragging); // 081681d0
+cleanup __cdecl void CrewEquipBox::OnRender(CrewEquipBox *this, bool dragging); // 081681d0
 ".5731d2565383ec108b5c24208b7424248b7c24288b433c39c67e??03434439c60f8c????????80bb300200000088535c74??8b434c85c00f84????????8d4378c74424????????00897c240889742404890424e8????????80bb310200000074":  // unique sig
-cleanup __amd64 void CrewEquipBox::MouseMove(CrewEquipBox *this, int mX, int mY); // 081683c0
+cleanup __cdecl void CrewEquipBox::MouseMove(CrewEquipBox *this, int mX, int mY); // 081683c0
 ".5589e557565383ec3c8b7d0c8b":  // unique sig
-cleanup __amd64 void CrewEquipBox::OnTouch(CrewEquipBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08168700
+cleanup __cdecl void CrewEquipBox::OnTouch(CrewEquipBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08168700
 ".31c0c36690669066906690669066909031c0c36690669066906690669066909031c0c366906690669066906690669090b801":  // unique sig
-cleanup __amd64 bool CrewEquipBox::CanHoldWeapon(CrewEquipBox *this); // 081698f0
+cleanup __cdecl bool CrewEquipBox::CanHoldWeapon(CrewEquipBox *this); // 081698f0
 ".31c0c36690669066906690669066909031c0c366906690669066906690669090b801000000c36690669066906690669031c0c366906690669066906690669090b8":  // unique sig
-cleanup __amd64 bool CrewEquipBox::CanHoldDrone(CrewEquipBox *this); // 08169900
+cleanup __cdecl bool CrewEquipBox::CanHoldDrone(CrewEquipBox *this); // 08169900
 ".31c0c366906690669066906690669090b801000000c36690669066906690669031c0c366906690669066906690669090b802":  // unique sig
-cleanup __amd64 bool CrewEquipBox::CanHoldAugment(CrewEquipBox *this); // 08169910
+cleanup __cdecl bool CrewEquipBox::CanHoldAugment(CrewEquipBox *this); // 08169910
 ".b801000000c36690669066906690669031c0c366906690669066906690669090b802":  // unique sig
-cleanup __amd64 bool CrewEquipBox::CanHoldCrew(CrewEquipBox *this); // 08169920
+cleanup __cdecl bool CrewEquipBox::CanHoldCrew(CrewEquipBox *this); // 08169920
 ".31c0c366906690669066906690669090b802000000c3669066906690669066908b":  // unique sig
-cleanup __amd64 bool CrewEquipBox::IsCargoBox(CrewEquipBox *this); // 08169930
+cleanup __cdecl bool CrewEquipBox::IsCargoBox(CrewEquipBox *this); // 08169930
 ".b802000000c3669066906690669066908b":  // unique sig
-cleanup __amd64 int CrewEquipBox::GetType(CrewEquipBox *this, bool forcedEmpty); // 08169940
+cleanup __cdecl int CrewEquipBox::GetType(CrewEquipBox *this, bool forcedEmpty); // 08169940
 ".5589e557565381ec8c0000008b75088b":  // unique sig
-cleanup __amd64 void CrewEquipBox::RenderLabels(CrewEquipBox *this, bool dragging); // 08169df0
+cleanup __cdecl void CrewEquipBox::RenderLabels(CrewEquipBox *this, bool dragging); // 08169df0

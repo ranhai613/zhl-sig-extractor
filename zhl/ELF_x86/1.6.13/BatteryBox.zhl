@@ -1,22 +1,22 @@
 "b803000000c38d":  // unique sig
-cleanup __amd64 int BatteryBox::GetCooldownLevel(BatteryBox *this); // 0818eca0
+cleanup __cdecl int BatteryBox::GetCooldownLevel(BatteryBox *this); // 0818eca0
 ".5383ec188b5c24208b83f0010000890424e8????????8b":  // unique sig
-cleanup __amd64 float BatteryBox::GetCooldownFraction(BatteryBox *this); // 0818ee00
+cleanup __cdecl float BatteryBox::GetCooldownFraction(BatteryBox *this); // 0818ee00
 ".5557565383ec7c8b9c24????????8d7c243e":  // unique sig
-cleanup __amd64 void BatteryBox::constructor(BatteryBox *this, Point loc, BatterySystem *sys); // 0818f360
+cleanup __cdecl void BatteryBox::constructor(BatteryBox *this, Point loc, BatterySystem *sys); // 0818f360
 "!.57565383ec108b5c24200fb6442424891c2489442404e8????????8bbb640200008bb360020000e8????????c74424????????00f30f2ac7f30f11442404f30f2ac6f30f110424e8????????8b83f0":  // unique sig
-cleanup __amd64 void BatteryBox::OnRender(BatteryBox *this, bool ignoreStatus); // 08192000
+cleanup __cdecl void BatteryBox::OnRender(BatteryBox *this, bool ignoreStatus); // 08192000
 ".5589e557565383ec5c8b5d088b750c8b7d10891c2489742404897c2408e8????????8b434c890424e8????????84c074??8d65f45b5e5f5dc38db42600000000c7":  // unique sig
-cleanup __amd64 void BatteryBox::MouseMove(BatteryBox *this, int mX, int mY); // 081923a0
+cleanup __cdecl void BatteryBox::MouseMove(BatteryBox *this, int mX, int mY); // 081923a0
 ".565383ec148b5c24208b7424248b434c":  // unique sig
-cleanup __amd64 bool BatteryBox::MouseClick(BatteryBox *this, bool force); // 081927a0
+cleanup __cdecl bool BatteryBox::MouseClick(BatteryBox *this, bool force); // 081927a0
 ".5557565383ec3c8b5c24508b74":  // unique sig
-cleanup __amd64 void BatteryBox::KeyDown(BatteryBox *this, SDLKey key_sym, bool shift); // 08192840
+cleanup __cdecl void BatteryBox::KeyDown(BatteryBox *this, SDLKey key_sym, bool shift); // 08192840
 ".5557565383ec3c8b4424548b5c24508b4c":  // unique sig
-cleanup __amd64 void BatteryBox::OnTouch(BatteryBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08193780
+cleanup __cdecl void BatteryBox::OnTouch(BatteryBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08193780
 ".b801000000c366906690669066906690b801000000c366906690669066906690b801000000c3669066906690669066908b4424048b":  // unique sig
-cleanup __amd64 bool BatteryBox::HasButton(BatteryBox *this); // 08193b00
+cleanup __cdecl bool BatteryBox::HasButton(BatteryBox *this); // 08193b00
 "!.5383ec188b5c24208d83f4010000c703????????890424e8????????895c":  // unique sig
-cleanup __amd64 void BatteryBox::destructor(BatteryBox *this); // 08193c90
+cleanup __cdecl void BatteryBox::destructor(BatteryBox *this); // 08193c90
 ".5383ec188b5c24208d83f4010000c703????????890424e8????????891c":  // unique sig
-cleanup __amd64 void BatteryBox::destructor(BatteryBox *this); // 08193cc0
+cleanup __cdecl void BatteryBox::destructor(BatteryBox *this); // 08193cc0

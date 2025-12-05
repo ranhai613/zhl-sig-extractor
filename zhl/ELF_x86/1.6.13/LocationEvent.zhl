@@ -1,8 +1,8 @@
 "565383ec248b5c24308d74241f89742408":  // unique sig
-cleanup __amd64 void LocationEvent::constructor(LocationEvent *this); // 08263590
+cleanup __cdecl void LocationEvent::constructor(LocationEvent *this); // 08263590
 ".5557565383ec3c8b5c24508b8310":  // unique sig
-cleanup __amd64 void LocationEvent::destructor(LocationEvent *this); // 08264450
+cleanup __cdecl void LocationEvent::destructor(LocationEvent *this); // 08264450
 ".5557565383ec4c8b7424608b44":  // unique sig
-cleanup __amd64 void LocationEvent::ClearEvent(LocationEvent *this, bool force); // 08265840
+cleanup __cdecl void LocationEvent::ClearEvent(LocationEvent *this, bool force); // 08265840
 ".5557565383ec6c8b9c24????????8d74":  // unique sig
-cleanup __amd64 void LocationEvent::AddChoice(LocationEvent *this, TextString *text, LocationEvent *event, ChoiceReq *req, bool hiddenReward); // 08265e00
+cleanup __cdecl void LocationEvent::AddChoice(LocationEvent *this, TextString *text, LocationEvent *event, ChoiceReq *req, bool hiddenReward); // 08265e00
