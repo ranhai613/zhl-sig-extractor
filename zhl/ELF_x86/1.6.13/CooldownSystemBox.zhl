@@ -1,0 +1,18 @@
+"8b4424048b15????????89108b15????????8950048b15????????8950088b15????????89500cc2040066":  // unique sig
+cleanup __amd64 GL_Color *CooldownSystemBox::GetCooldownColor(CooldownSystemBox *this); // 08193ad0
+".83ec1c8b4424208b10890424ff524c":  // unique sig
+cleanup __amd64 int CooldownSystemBox::GetCooldownBarHeight(CooldownSystemBox *this); // 081cc910
+".5589e557565383ec5c8b5d080f":  // unique sig
+cleanup __amd64 void CooldownSystemBox::OnRender(CooldownSystemBox *this, bool ignoreStatus); // 081cd1f0
+"!.5653bb0100000083ec148b742420c706????????8b849eb001000083c301890424e8????????83fb0575??8974242083c4145b5ee9????????90":  // unique sig
+cleanup __amd64 void CooldownSystemBox::destructor(CooldownSystemBox *this); // 081cdd70
+".5653bb0100000083ec148b742420c706????????8b849eb001000083c301890424e8????????83fb0575??893424e8????????8974242083c4145b5ee9????????90":  // unique sig
+cleanup __amd64 void CooldownSystemBox::destructor(CooldownSystemBox *this); // 081cddb0
+".5557565383ec4c8b7c24608b07":  // unique sig
+cleanup __amd64 void CooldownSystemBox::DrawCooldownBoxStencil(CooldownSystemBox *this, int stencilBit); // 081cf180
+".5557565381ec1c0100008bac":  // unique sig
+cleanup __amd64 void CooldownSystemBox::constructor(CooldownSystemBox *this, Point loc, ShipSystem *sys, bool roundDown); // 081d3d10
+".b801000000c366906690669066906690d9ee":  // unique sig
+cleanup __amd64 int CooldownSystemBox::GetCooldownLevel(CooldownSystemBox *this); // 081d5a50
+".d9eec36690669066906690669066909031c0c366906690669066906690669090b8":  // unique sig
+cleanup __amd64 float CooldownSystemBox::GetCooldownFraction(CooldownSystemBox *this); // 081d5a60

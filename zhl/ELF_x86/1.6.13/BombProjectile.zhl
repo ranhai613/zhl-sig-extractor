@@ -1,0 +1,26 @@
+"5383ec188b5c2420f30f1005????????c703000000008d4304f30f11442408f30f11442404890424e8????????89d8c7430c00000000c743100000000083c4185bc204008db6000000008dbf0000000056":  // unique sig
+cleanup __amd64 CollisionResponse *BombProjectile::CollisionMoving(BombProjectile *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 08079da0
+"!.565383ec148b7424208b5c2424893424895c2404e8????????0f":  // unique sig
+cleanup __amd64 void BombProjectile::SaveProjectile(BombProjectile *this, int fd); // 08079df0
+".565383ec148b5c24208db3":  // unique sig
+cleanup __amd64 void BombProjectile::OnUpdate(BombProjectile *this); // 08079e80
+".5589e557565383ec7c8b5d0c8b":  // unique sig
+cleanup __amd64 void BombProjectile::CollisionCheck(BombProjectile *this, Collideable *object); // 08079f30
+".5383ec388b5c24408b44244439437474??83c4385bc36690e8????????0f":  // unique sig
+cleanup __amd64 void BombProjectile::OnRenderSpecific(BombProjectile *this, int spaceId); // 0807a400
+".565383ec148b7424208b5c2424893424895c2404e8????????89":  // unique sig
+cleanup __amd64 void BombProjectile::LoadProjectile(BombProjectile *this, int fd); // 0807a600
+"!.20c74424????????0083c4145b5ee9????????":  // unique sig
+noHook __amd64 void BombProjectile::__DO_NOT_HOOK(); // 0807a69f
+".55":  // non-unique sig
+cleanup __amd64 void BombProjectile::destructor(BombProjectile *this); // 0807a6a0
+"!.90836c240404e9????????8db600000000":  // unique sig
+noHook __amd64 void BombProjectile::__DO_NOT_HOOK(); // 0807abdf
+".55":  // non-unique sig
+cleanup __amd64 void BombProjectile::destructor(BombProjectile *this); // 0807abe0
+".5589e557565381ecdc0000008b451c8b55208d":  // unique sig
+cleanup __amd64 void BombProjectile::constructor(BombProjectile *this, Pointf position, int ownerId, int targetId, Pointf target); // 0807b120
+".b8ffffffffc38d76008dbc2700000000836c":  // unique sig
+cleanup __amd64 int BombProjectile::GetOwnerId(BombProjectile *this); // 0807b720
+".b804000000c3669066":  // unique sig
+cleanup __amd64 int BombProjectile::GetType(BombProjectile *this); // 0807b740

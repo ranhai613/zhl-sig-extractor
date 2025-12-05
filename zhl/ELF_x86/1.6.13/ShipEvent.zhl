@@ -1,0 +1,12 @@
+"565383ec248b5c24308d74241f8d4304c6":  // unique sig
+cleanup __amd64 void ShipEvent::constructor(ShipEvent *this); // 08253310
+".5557565383ec2c8b7424408bbec4":  // unique sig
+cleanup __amd64 void ShipEvent::destructor(ShipEvent *this); // 0825fd70
+"!.565383ec148b7424208b5c24240fb606":  // unique sig
+cleanup __amd64 void ShipEvent::Save(ShipEvent *this, int fd); // 08264060
+".5589e557565383ec2c8b7d0c8b75":  // unique sig
+cleanup __amd64 void ShipEvent::Load(ShipEvent *this, int fd); // 082640f0
+".5531ed57565331db83ec1c8b7c24348b7424300f":  // unique sig
+cleanup __amd64 void ShipEvent::constructor(ShipEvent *this, ShipEvent *param_2); // 08296420
+".57565383ec108b7424248b5c24200f":  // unique sig
+cleanup __amd64 ShipEvent *ShipEvent::operator=(ShipEvent *this, ShipEvent *param_2); // 08297840

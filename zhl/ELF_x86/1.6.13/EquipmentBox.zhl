@@ -1,0 +1,62 @@
+"8b4424048b4c24088b54240c89":  // unique sig
+cleanup __amd64 void EquipmentBox::SetPosition(EquipmentBox *this, Point p); // 081637f0
+".538b44240831db8b":  // unique sig
+cleanup __amd64 void EquipmentBox::MouseMove(EquipmentBox *this, int mX, int mY); // 08163810
+".837c240804":  // unique sig
+cleanup __amd64 void EquipmentBox::OnTouch(EquipmentBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08163850
+".8b442404660fefc0f30f7f404cc366908b44":  // unique sig
+cleanup __amd64 void EquipmentBox::Restart(EquipmentBox *this); // 081638a0
+".8b4424048b54240889504c":  // unique sig
+cleanup __amd64 void EquipmentBox::AddItem(EquipmentBox *this, EquipmentBoxItem newItem); // 081638b0
+".8b442404660fefc0f30f7f404cc366908b54":  // unique sig
+cleanup __amd64 void EquipmentBox::RemoveItem(EquipmentBox *this); // 081638e0
+".8b5424048b424c85c074??85":  // unique sig
+cleanup __amd64 bool EquipmentBox::CanHoldWeapon(EquipmentBox *this); // 081638f0
+".8b4424048b504c":  // unique sig
+cleanup __amd64 bool EquipmentBox::CanHoldDrone(EquipmentBox *this); // 08163930
+".31c0c3908db6000000008dbf000000008b54":  // unique sig
+cleanup __amd64 bool EquipmentBox::CanHoldAugment(EquipmentBox *this); // 08163970
+".8b5424048b4c24088b424c":  // unique sig
+cleanup __amd64 int EquipmentBox::GetType(EquipmentBox *this, bool forcedEmpty); // 08163980
+".57565383ec408b5c24508b742454":  // unique sig
+cleanup __amd64 void EquipmentBox::OnRender(EquipmentBox *this, bool dragging); // 08163a00
+".5383ec188b5c24208b434c85":  // unique sig
+cleanup __amd64 void EquipmentBox::RenderIcon(EquipmentBox *this); // 08164010
+".5383ec288b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??83c4285bc3bb????????85db8d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d59ff8958fc89c8eb??669055":  // unique sig
+cleanup __amd64 void EquipmentBox::destructor(EquipmentBox *this); // 08164290
+".565383ec248b5c24308b431cc703????????890424e8????????8b4320890424e8????????8b4324890424e8????????8b4328890424e8????????8b4304890424e8????????8b43188d50f481fa????????75??891c24e8????????83c4245b5ec3be????????85f68d48fc74??83c8fff00fc10185c07f??8d44241f89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??90":  // unique sig
+cleanup __amd64 void EquipmentBox::destructor(EquipmentBox *this); // 081643e0
+".5557565383ec6c8bb424????????8d442450":  // unique sig
+cleanup __amd64 void EquipmentBox::UpdateBoxImage(EquipmentBox *this, bool dragging); // 081645e0
+".5589e557565383ec5c8b5d088b450c8d7dd8":  // unique sig
+cleanup __amd64 void EquipmentBox::RenderLabels(EquipmentBox *this, bool dragging); // 08164e20
+".565383ec548b0d????????8b5c24608d74243c8b4424688b542464894b088b0d????????8943388943408b44246c":  // unique sig
+cleanup __amd64 void EquipmentBox::constructor(EquipmentBox *this, Point loc, int slot); // 08165180
+".565383ec548b0d????????8b5c24608d74243c8b4424688b542464894b088b0d????????8943388943408b442470895334894b0c8b0d????????89533c894344":  // unique sig
+cleanup __amd64 void EquipmentBox::constructor(EquipmentBox *this, Point loc, int slot, Point size); // 08165320
+".56660f":  // unique sig
+cleanup __amd64 void EquipmentBox::InitPrimitives(EquipmentBox *this); // 081654d0
+".8b5424088b4424048b0a89483c":  // unique sig
+cleanup __amd64 void EquipmentBox::ForceHitBox(EquipmentBox *this, Rect *newBox); // 081655b0
+".8b4424088b54240488425e":  // unique sig
+cleanup __amd64 void EquipmentBox::SetBlocked(EquipmentBox *this, bool val); // 081655d0
+".8b4424048b542408895008":  // unique sig
+cleanup __amd64 void EquipmentBox::SetColor(EquipmentBox *this, GL_Color color); // 081655e0
+".8b54240431c08b4a4c":  // unique sig
+cleanup __amd64 bool EquipmentBox::IsEmpty(EquipmentBox *this); // 08165610
+".8b5424048b424c85c074??8b":  // unique sig
+cleanup __amd64 int EquipmentBox::GetItemValue(EquipmentBox *this); // 08165650
+".5731c0565383ec208b5c":  // unique sig
+cleanup __amd64 void EquipmentBox::SetBlueprint(EquipmentBox *this, InfoBox *infoBox, bool detailedBox); // 08165690
+".8b5424048b425085":  // unique sig
+cleanup __amd64 Blueprint *EquipmentBox::GetBlueprint(EquipmentBox *this); // 081657a0
+".f3c36690669066906690669066906690f3c36690669066906690669066906690b801000000c36690669066906690669031":  // unique sig
+cleanup __amd64 void EquipmentBox::SetShipManager(EquipmentBox *this, ShipManager *ship); // 081698a0
+".f3c36690669066906690669066906690b801000000c36690669066906690669031c0c366906690669066906690669090b8":  // unique sig
+cleanup __amd64 void EquipmentBox::CheckContents(EquipmentBox *this); // 081698b0
+".b801000000c36690669066906690669031c0c366906690669066906690669090b801":  // unique sig
+cleanup __amd64 bool EquipmentBox::IsCargoBox(EquipmentBox *this); // 081698c0
+".31c0c366906690669066906690669090b801000000c36690669066906690669031c0c36690669066906690669066909031":  // unique sig
+cleanup __amd64 bool EquipmentBox::CanHoldCrew(EquipmentBox *this); // 081698d0
+".b801000000c36690669066906690669031c0c36690669066906690669066909031c0c36690669066906690669066909031":  // unique sig
+cleanup __amd64 bool EquipmentBox::CanDoJob(EquipmentBox *this); // 081698e0

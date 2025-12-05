@@ -1,0 +1,18 @@
+"8b442404f30f1005????????f30f11":  // unique sig
+cleanup __amd64 void Pointf::constructor(Pointf *this); // 08212420
+".8b442404f30f10442408f30f1100":  // unique sig
+cleanup __amd64 void Pointf::constructor(Pointf *this, float x, float y); // 08212440
+".83ec048b442408f30f1000":  // unique sig
+cleanup __amd64 float Pointf::RelativeDistance(Pointf *this, Pointf p); // 08212460
+".83ec1c8b442420f30f1000":  // unique sig
+cleanup __amd64 float Pointf::Distance(Pointf *this, Pointf p); // 082124a0
+".83ec048b442408f30f1044240cf30f10":  // unique sig
+cleanup __amd64 float Pointf::Slope(Pointf *this, Pointf p); // 08212500
+".83ec048b542408f3":  // unique sig
+cleanup __amd64 bool Pointf::equals(Pointf *this, Pointf p); // 08212530
+".565383ec24f30f104424388b7424348d44241c8d5424188b5c2430f30f5905????????8944240489542408f30f5e05????????f30f110424e8????????89":  // unique sig
+cleanup __amd64 Pointf Pointf::RotatePoint(Pointf *this, float angle); // 08212570
+".565383ec24f30f104424388b7424348d44241cf3":  // unique sig
+cleanup __amd64 Pointf Pointf::RotatePoint(Pointf *this, float angle, Pointf p); // 08212600
+".5383ec288b5c24348b":  // unique sig
+cleanup __amd64 Pointf Pointf::Normalize(Pointf *this); // 082126c0

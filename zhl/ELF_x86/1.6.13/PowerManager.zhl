@@ -1,0 +1,42 @@
+"8b442404c70000000000c7400400000000c740080f":  // unique sig
+cleanup __amd64 void PowerManager::constructor(PowerManager *this); // 082a0930
+".8b442404c70000000000c7400c":  // unique sig
+cleanup __amd64 void PowerManager::Restart(PowerManager *this); // 082a0980
+".f3c38db426000000008dbc270000000031c0c3908db6000000008dbf00000000b8":  // unique sig
+cleanup __amd64 void PowerManager::UpdateFuel(PowerManager *this); // 082a09c0
+".31c0c3908db6000000008dbf00000000b8":  // unique sig
+cleanup __amd64 int PowerManager::GetOverAmount(PowerManager *this); // 082a09d0
+".b801000000c38d76008dbc270000000056538b":  // unique sig
+cleanup __amd64 bool PowerManager::UpdatePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int required); // 082a09e0
+".56538b5c24108b44":  // unique sig
+cleanup __amd64 bool PowerManager::DecreasePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int required); // 082a09f0
+".8b5424040fb642":  // unique sig
+cleanup __amd64 bool PowerManager::GetFailedPowerup(PowerManager *this); // 082a0a40
+".8b5424088b442404895024":  // unique sig
+cleanup __amd64 void PowerManager::ForceBatteryPower(PowerManager *this, int used); // 082a0a50
+".8b4424048b5028":  // unique sig
+cleanup __amd64 void PowerManager::SetBatteryPower(PowerManager *this, int amount); // 082a0a60
+".555756538b4424148b7c":  // unique sig
+cleanup __amd64 bool PowerManager::IncreasePower(PowerManager *this, std::pair<int, int> *powerLevel, int *iBatteryPower, int requestedPower); // 082a0a80
+".538b4c240c8b4424088b51":  // unique sig
+cleanup __amd64 std::pair<int, int> PowerManager::GetAvailablePower(PowerManager *this); // 082a0b30
+".8b5424048b4a18":  // unique sig
+cleanup __amd64 int PowerManager::GetMaxPower(PowerManager *this); // 082a0b50
+".8b442404c74014":  // unique sig
+cleanup __amd64 void PowerManager::ClearStatus(PowerManager *this); // 082a0b70
+".807c2408018b54240419c0f7d083e002894220c38db6000000008dbf000000008b":  // unique sig
+cleanup __amd64 void PowerManager::SetHacked(PowerManager *this, bool val); // 082a0b90
+".8b5424048b4218":  // unique sig
+cleanup __amd64 int PowerManager::GetPowerLoss(PowerManager *this); // 082a0bb0
+".5383ec188b5c24208b431c83":  // unique sig
+cleanup __amd64 void PowerManager::OnLoop(PowerManager *this); // 082a0bc0
+".8b5424088b442404895014":  // unique sig
+cleanup __amd64 void PowerManager::SetPowerCap(PowerManager *this, int val); // 082a0c00
+".8b5424088b442404895018":  // unique sig
+cleanup __amd64 void PowerManager::SetPowerLoss(PowerManager *this, int val); // 082a0c10
+".5383ec188b5c24208b442424f3":  // unique sig
+cleanup __amd64 void PowerManager::SetDividePower(PowerManager *this, int val); // 082a0c20
+".8b15????????a1????????29":  // unique sig
+static cleanup __amd64 void PowerManager::RestartAll(); // 082a0c60
+".565383ec448b15":  // unique sig
+static cleanup __amd64 PowerManager *PowerManager::GetPowerManager(int shipId); // 082a0c90

@@ -1,0 +1,28 @@
+"565383ec248b5c24308d74241fc74424086e":  // unique sig
+cleanup __amd64 void ShipSelect::constructor(ShipSelect *this); // 081aa210
+".565383ec148b7424208b4e208b561c89c829d083f8037e??31db8db6000000008b049a85c074??8b10890424ff52048b561c8b4e2089c883c30129d0c1f80239c37c??89":  // unique sig
+cleanup __amd64 void ShipSelect::ClearShipButtons(ShipSelect *this); // 081aa510
+".5589e557565381ecac0000008b5d0880bb44":  // unique sig
+cleanup __amd64 void ShipSelect::OnLoop(ShipSelect *this); // 081aa560
+"!.8b4424040540":  // unique sig
+cleanup __amd64 void ShipSelect::KeyDown(ShipSelect *this, SDLKey sym); // 081ab290
+".5383ec188b5c242080bb44":  // unique sig
+cleanup __amd64 void ShipSelect::MouseClick(ShipSelect *this); // 081ab2b0
+"!.8b442404c64034":  // unique sig
+cleanup __amd64 void ShipSelect::Close(ShipSelect *this); // 081ab3d0
+".8b4424048b4038":  // unique sig
+cleanup __amd64 int ShipSelect::GetSelection(ShipSelect *this); // 081ab3f0
+".5589e557565389c381ec8c":  // unique sig
+cleanup __amd64 void ShipSelect::SelectShip(ShipSelect *this, int ship); // 081ab400
+"!.5383ec188b5424248b5c242085":  // unique sig
+cleanup __amd64 void ShipSelect::SelectShip(ShipSelect *this, int ship); // 081ad7e0
+".5557565383ec4c8b4424688b74":  // unique sig
+cleanup __amd64 void ShipSelect::OnTouch(ShipSelect *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081ad850
+".5589e557565381ecac0000008b450880b8":  // unique sig
+cleanup __amd64 void ShipSelect::MouseMove(ShipSelect *this, int mX, int mY); // 081adcc0
+".5589e557565381ec8c0100008b450883":  // unique sig
+cleanup __amd64 void ShipSelect::Open(ShipSelect *this, int ship, int type); // 081ae8c0
+".565383ec148b7424208b4e208b561c89c829d083f8037e??31db8db6000000008b049a85c074??8b10890424ff52048b561c8b4e2089c883c30129d0c1f80239c37c??8d":  // unique sig
+cleanup __amd64 void ShipSelect::destructor(ShipSelect *this); // 081b1750
+".5589e557565383ec5c8b5d0880bb44":  // unique sig
+cleanup __amd64 void ShipSelect::OnRender(ShipSelect *this); // 081b1830

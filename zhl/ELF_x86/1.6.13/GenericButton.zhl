@@ -1,0 +1,28 @@
+"8b442404c700????????c74024????????c3":  // unique sig
+cleanup __amd64 void GenericButton::destructor(GenericButton *this); // 0812d150
+".8b5424088b4424048b0a89480c":  // unique sig
+cleanup __amd64 void GenericButton::SetHitBox(GenericButton *this, Rect *box); // 0812d170
+".8b442404c64041":  // unique sig
+cleanup __amd64 void GenericButton::Reset(GenericButton *this); // 0812d190
+".5756538b4424108b5424148b4c24188b58048b700839da":  // unique sig
+cleanup __amd64 void GenericButton::SetLocation(GenericButton *this, Point p); // 0812d1b0
+".8b5424088b44240484d28850":  // unique sig
+cleanup __amd64 void GenericButton::SetActive(GenericButton *this, bool active); // 0812d200
+"!.8b442404c700????????c74024????????e9":  // unique sig
+cleanup __amd64 void GenericButton::destructor(GenericButton *this); // 0812d220
+"!.8344240424":  // unique sig
+cleanup __amd64 void GenericButton::OnLoop(GenericButton *this); // 0812d240
+".5756538b4424108b5424148b5c":  // unique sig
+cleanup __amd64 void GenericButton::MouseMove(GenericButton *this, int mX, int mY, bool silent); // 0812d250
+".565383ec148b5c24208b7424240fb653":  // unique sig
+cleanup __amd64 bool GenericButton::OnTouch(GenericButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0812d2e0
+".5383ec188b5c24208d430483":  // unique sig
+cleanup __amd64 void GenericButton::constructor(GenericButton *this); // 0812dbc0
+".f3c36690669066906690669066906690f3c36690669066906690669066906690f3c36690669066906690669066906690f3c3669066906690669066906690669057":  // unique sig
+cleanup __amd64 void GenericButton::OnRender(GenericButton *this); // 081308b0
+".f3c36690669066906690669066906690f3c36690669066906690669066906690f3c3669066906690669066906690669057":  // unique sig
+cleanup __amd64 void GenericButton::OnClick(GenericButton *this); // 081308c0
+".f3c36690669066906690669066906690f3c3669066906690669066906690669057":  // unique sig
+cleanup __amd64 void GenericButton::OnRightClick(GenericButton *this); // 081308d0
+".f3c36690669066906690669066906690575653":  // unique sig
+cleanup __amd64 void GenericButton::ResetPrimitives(GenericButton *this); // 081308e0

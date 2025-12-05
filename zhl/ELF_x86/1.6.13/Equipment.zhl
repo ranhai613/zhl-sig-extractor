@@ -1,0 +1,62 @@
+"565331db83ec148b74242089":  // unique sig
+cleanup __amd64 void Equipment::Open(Equipment *this); // 0816a240
+".e9????????908d76008dbc27000000005557565383ec7c":  // unique sig
+cleanup __amd64 void Equipment::Close(Equipment *this); // 0816a2d0
+"5557565383ec7c8b9c24????????8b84":  // unique sig
+cleanup __amd64 void Equipment::SetPosition(Equipment *this, Point p); // 0816a2e0
+".5383ec188b4424288b5c242089":  // unique sig
+cleanup __amd64 void Equipment::MouseClick(Equipment *this, int mX, int mY); // 0816a840
+".55575631f65383ec2c8b5c24408b83":  // unique sig
+cleanup __amd64 void Equipment::OnLoop(Equipment *this); // 0816a8b0
+".565383ec548b5c246080bb":  // unique sig
+cleanup __amd64 void Equipment::MouseUp(Equipment *this, int mX, int mY); // 0816abf0
+".5557565381ec0c0100008bbc":  // unique sig
+cleanup __amd64 void Equipment::MouseMove(Equipment *this, int mX, int mY); // 0816ae60
+".5589e557565381ec9c0000008b5d08e8":  // unique sig
+cleanup __amd64 void Equipment::OnRender(Equipment *this); // 0816b6c0
+".5557565381ecfc0100008bbc":  // unique sig
+cleanup __amd64 void Equipment::OnTouch(Equipment *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0816c390
+".565383ec248b5c24308d74241f891c24e8????????8d4324":  // unique sig
+cleanup __amd64 void Equipment::constructor(Equipment *this); // 0816d980
+".5383ec188b5c24208b8328":  // unique sig
+cleanup __amd64 void Equipment::Jump(Equipment *this); // 0816dc60
+".57565331db83ec108b7424208b96100100008b861401000029d0c1f80285c075??eb??908d7426008b96100100008b861401000083c30129d0c1f80239c373??8b049a8d3c9d00000000890424e8????????84c074??8b86100100008b04988b10890424ff5234":  // unique sig
+cleanup __amd64 bool Equipment::CanHoldWeapon(Equipment *this); // 0816dca0
+".5557565331db83ec1c8b7424308b7c24348b":  // unique sig
+cleanup __amd64 bool Equipment::IsCompletelyFull(Equipment *this, int type); // 0816dd40
+".57565331db83ec108b7424208b96100100008b861401000029d0c1f80285c075??eb??908d7426008b96100100008b861401000083c30129d0c1f80239c373??8b049a8d3c9d00000000890424e8????????84c074??8b86100100008b04988b10890424ff5238":  // unique sig
+cleanup __amd64 bool Equipment::CanHoldDrone(Equipment *this); // 0816de70
+".57565383ec3080":  // unique sig
+cleanup __amd64 void Equipment::AddDrone(Equipment *this, DroneBlueprint *droneBlueprint, bool free, bool forceCargo); // 0816df10
+".5557565383ec1c8b5c24308b7424348b830c":  // unique sig
+cleanup __amd64 bool Equipment::ValidBox(Equipment *this, int boxNum); // 0816e160
+".5631f65383ec148b5c24208b83":  // unique sig
+cleanup __amd64 void Equipment::CheckContents(Equipment *this); // 0816e240
+".5557565383ec4c8b7c24648d74":  // unique sig
+cleanup __amd64 void Equipment::AddAugment(Equipment *this, AugmentBlueprint *augBlueprint, bool free, bool forceCargo); // 0816e2d0
+".f3c38db426000000008dbc2700000000565383ec148b7424208b8e":  // unique sig
+cleanup __amd64 void Equipment::UpdateInventory(Equipment *this); // 0816e440
+".565383ec148b7424208b8e20":  // unique sig
+cleanup __amd64 void Equipment::OnCleanup(Equipment *this); // 0816e450
+".565331db83ec148b7424208b9610":  // unique sig
+cleanup __amd64 void Equipment::Restart(Equipment *this); // 0816e500
+".8b44240480b83c":  // unique sig
+cleanup __amd64 bool Equipment::DraggingCargoBox(Equipment *this); // 0816e550
+".8b54240431c080ba3c0100000074??8b8a340100008b82100100008b04888b404c":  // unique sig
+cleanup __amd64 bool Equipment::DraggingWeapon(Equipment *this); // 0816e580
+".8b54240431c080ba3c0100000074??8b8a340100008b82100100008b04888b4050":  // unique sig
+cleanup __amd64 bool Equipment::DraggingDrone(Equipment *this); // 0816e5b0
+".8b54240431c080ba3c0100000074??8b8a340100008b92":  // unique sig
+cleanup __amd64 bool Equipment::DraggingAugment(Equipment *this); // 0816e5e0
+".5557565383ec1c8b7424348b7c2430":  // unique sig
+cleanup __amd64 std::vector<std::string> *Equipment::GetCargoHold(Equipment *this); // 0816e620
+".5557565383ec4c8b44246c8b5c":  // unique sig
+cleanup __amd64 void Equipment::AddWeapon(Equipment *this, WeaponBlueprint *weaponBlueprint, bool free, bool forceCargo); // 0816e7c0
+".5557565383ec3c8b7424548d":  // unique sig
+cleanup __amd64 void Equipment::AddToCargo(Equipment *this, string *equip); // 0816ea70
+".5557565381ec8c0000008bac24????????8bb5":  // unique sig
+cleanup __amd64 void Equipment::OnInit(Equipment *this, ShipManager *ship); // 0816ec80
+".565383ec248b5c24308b83e8010000c703????????8d50f481fa????????0f85????????8d8360010000890424e8????????8b831c01000085c074??890424e8????????8b831001000085c074??890424e8????????8b83f80000008d50f481fa????????0f85????????8b83f00000008d50f481fa????????0f85????????8b83e80000008d50f481fa????????0f85????????8b83dc0000008d50f481fa????????0f85????????8b83d40000008d50f481fa????????0f85????????8b83ac0000008d50f481fa????????0f85????????8b83a40000008d50f481fa????????0f85????????8b839c0000008d50f481fa????????0f85????????8b83900000008d50f481fa????????0f85????????8b83880000008d50f481fa????????0f85????????8b43608d50f481fa????????0f85????????8b43588d50f481fa????????0f85????????8b43508d50f481fa????????0f85????????8b43448d50f481fa????????75":  // unique sig
+cleanup __amd64 void Equipment::destructor(Equipment *this); // 0816fb30
+".565383ec248b5c24308b83e8010000c703????????8d50f481fa????????0f85????????8d8360010000890424e8????????8b831c01000085c074??890424e8????????8b831001000085c074??890424e8????????8b83f80000008d50f481fa????????0f85????????8b83f00000008d50f481fa????????0f85????????8b83e80000008d50f481fa????????0f85????????8b83dc0000008d50f481fa????????0f85????????8b83d40000008d50f481fa????????0f85????????8b83ac0000008d50f481fa????????0f85????????8b83a40000008d50f481fa????????0f85????????8b839c0000008d50f481fa????????0f85????????8b83900000008d50f481fa????????0f85????????8b83880000008d50f481fa????????0f85????????8b43608d50f481fa????????0f85????????8b43588d50f481fa??????????85????????8b43508d50f481fa????????0f85????????8b43448d50f481fa????????0f":  // unique sig
+cleanup __amd64 void Equipment::destructor(Equipment *this); // 081700f0

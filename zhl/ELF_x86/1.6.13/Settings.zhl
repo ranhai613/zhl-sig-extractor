@@ -1,0 +1,28 @@
+"5589c557565383ec2cc744241c":  // unique sig
+static cleanup __amd64 void Settings::SetHotkey(string *val, SDLKey key); // 0804f0a4
+".31c0803d????????0075??c38d74260083":  // unique sig
+static cleanup __amd64 bool Settings::GetDlcEnabled(); // 0821c640
+".83ec1cc70424????????e8????????83c41cc390":  // unique sig
+static cleanup __amd64 bool Settings::_GetTutorialRunning(); // 0821c670
+".5589e557565383ec5c8b450c8d":  // unique sig
+static cleanup __amd64 string Settings::GetHotkeyName(string *val); // 0821c690
+".5557565383ec2cc744":  // unique sig
+static cleanup __amd64 SDLKey Settings::GetHotkey(string *val); // 0821f670
+".55bd????????57565383ec2c8b7c":  // unique sig
+static cleanup __amd64 string Settings::GetBinding(SDLKey key); // 0821f710
+".5557565383ec5cc7":  // unique sig
+static cleanup __amd64 void Settings::SetHotkey(string *val, SDLKey key); // 0821f7a0
+".5557565381ec3c0100008d":  // unique sig
+static cleanup __amd64 void Settings::SaveSettings(); // 0821f9d0
+".0fb605????????c3908db4260000000083":  // unique sig
+static cleanup __amd64 bool Settings::GetCommandConsole(); // 08220960
+".83ec1c0fb605":  // unique sig
+static cleanup __amd64 void Settings::ToggleVSync(); // 08220970
+".31c0833d????????010f":  // unique sig
+static cleanup __amd64 void Settings::ToggleDifficulty(); // 082209a0
+".a1????????8d5001":  // unique sig
+static cleanup __amd64 void Settings::ToggleFullScreen(); // 082209c0
+".5557bf????????565383ec4c":  // unique sig
+static cleanup __amd64 void Settings::ResetHotkeys(); // 082209e0
+".5589e557565381ec9c01000065":  // unique sig
+static cleanup __amd64 void Settings::LoadSettings(); // 08224820

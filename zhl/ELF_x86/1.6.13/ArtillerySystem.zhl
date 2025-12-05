@@ -1,0 +1,22 @@
+"8b4424048b80980100008b":  // unique sig
+cleanup __amd64 WeaponBlueprint *ArtillerySystem::GetWeaponInfo(ArtillerySystem *this); // 08297ec0
+".8b4424048b8098010000c7":  // unique sig
+cleanup __amd64 void ArtillerySystem::Jump(ArtillerySystem *this); // 08297ed0
+"!.5383ec188b5c24208b8398010000c703????????c74308????????85c074??8b10890424ff5204895c":  // unique sig
+cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this); // 08297ef0
+".5589e55383ec148b450c8b5d088b80":  // unique sig
+cleanup __amd64 string ArtillerySystem::GetOverrideTooltip(ArtillerySystem *this); // 08297f40
+"!.5383ec188b5c24208b8398010000c703????????c74308????????85c074??8b10890424ff5204891c":  // unique sig
+cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this); // 08297fa0
+".57565383ec208b442440":  // unique sig
+cleanup __amd64 void ArtillerySystem::constructor(ArtillerySystem *this, WeaponBlueprint *weapBlueprint, int roomId, int shipId, int starting_power); // 08297ff0
+"!.8b4424048b54240889909c01":  // unique sig
+cleanup __amd64 void ArtillerySystem::SetEnemy(ArtillerySystem *this, Targetable *ship); // 08298070
+".8b4424088b5424048882a0010000c3908b":  // unique sig
+cleanup __amd64 void ArtillerySystem::SetCloaked(ArtillerySystem *this, bool val); // 08298090
+".8b4424048b8098010000c3":  // unique sig
+cleanup __amd64 ProjectileFactory *ArtillerySystem::GetWeapon(ArtillerySystem *this); // 082980a0
+"!.8b4424048b809801000089":  // unique sig
+cleanup __amd64 Projectile *ArtillerySystem::GetPreparedProjectile(ArtillerySystem *this); // 082980b0
+".5589e557565383ec6c8b5d0889":  // unique sig
+cleanup __amd64 void ArtillerySystem::OnLoop(ArtillerySystem *this); // 082980d0

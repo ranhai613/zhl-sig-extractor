@@ -1,0 +1,6 @@
+"5589e55383ec148b450c8b5d08807804":  // unique sig
+cleanup __amd64 string TextString::GetText(TextString *this); // 082532b0
+".5589e5565383ec408b450880":  // unique sig
+cleanup __amd64 bool TextString::empty(TextString *this); // 0825fb90
+".5589e5565383ec308b5d08807b04000f85":  // unique sig
+cleanup __amd64 TextString *TextString::operator+=(TextString *this, string *other); // 08294c90

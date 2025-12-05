@@ -1,0 +1,34 @@
+"565383ec748b9c":  // unique sig
+cleanup __amd64 void CachedImage::CreatePrimitive(CachedImage *this); // 081f96b0
+".8b4424040f57c9f30f1005":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this); // 081f9a00
+".5383ec188b5c24208b442424c7430400000000c703????????89":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, string *imageName, int x, int y); // 081f9a60
+".5383ec188b5c24208b442424c7430400000000c703????????c7":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, string *imageName, Centered centered); // 081f9ae0
+".8b4424040f57c98b":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, GL_Texture *texture, int x, int y); // 081f9ba0
+".538b54240c8b44240889":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, GL_Texture *texture, Centered centered); // 081f9c00
+".565383ec148b7424248b5c24208d4608":  // unique sig
+cleanup __amd64 void CachedImage::constructor(CachedImage *this, CachedImage *source); // 081f9ca0
+".565383ec148b5c24208b742424891c2489742404e8????????8d":  // unique sig
+cleanup __amd64 CachedImage *CachedImage::operator=(CachedImage *this, CachedImage *rhs); // 081f9d40
+".565383ec148b4424248b5c":  // unique sig
+cleanup __amd64 void CachedImage::SetImage(CachedImage *this, string *name); // 081f9de0
+".565383ec148b5c24208b74242439730c":  // unique sig
+cleanup __amd64 void CachedImage::SetImage(CachedImage *this, GL_Texture *texture); // 081f9e50
+".57565383ec108b5c24208b7424248b7c242839731074??8b4304890424e8????????c7430400000000897310897b1483c4105b5e5fc36690397b1475??eb??9053":  // unique sig
+cleanup __amd64 void CachedImage::SetPosition(CachedImage *this, int x, int y); // 081f9eb0
+".5383ec188b5c2420f30f104424240f2e4318":  // unique sig
+cleanup __amd64 void CachedImage::SetScale(CachedImage *this, float wScale, float hScale); // 081f9ef0
+".5383ec188b5c2420f30f104424240f2e4320":  // unique sig
+cleanup __amd64 void CachedImage::SetPartial(CachedImage *this, float x_start, float y_start, float x_size, float y_size); // 081f9f50
+".5383ec188b5c2420f30f104424240f2e4330":  // unique sig
+cleanup __amd64 void CachedImage::SetRotation(CachedImage *this, float rotation); // 081f9fe0
+".565383ec148b5c24208b74242489f0":  // unique sig
+cleanup __amd64 void CachedImage::SetMirrored(CachedImage *this, bool mirrored); // 081fa030
+".565383ec248b5c24308b4308c703????????8d50f481fa????????75??891c24e8????????89":  // unique sig
+cleanup __amd64 void CachedImage::destructor(CachedImage *this); // 081fa070
+".565383ec248b5c24308b4308c703????????8d50f481fa????????75??891c24e8????????83":  // unique sig
+cleanup __amd64 void CachedImage::destructor(CachedImage *this); // 081fa0e0

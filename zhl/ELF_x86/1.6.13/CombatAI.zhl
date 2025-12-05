@@ -1,0 +1,20 @@
+"5589e55383ec248b5d088b450c8d":  // unique sig
+cleanup __amd64 void CombatAI::LinkShip(CombatAI *this, ShipManager *ship); // 08232e80
+".8b5424048b4c24088b4230":  // unique sig
+cleanup __amd64 void CombatAI::SetTarget(CombatAI *this, ShipManager *target); // 08232ef0
+".5589e557565383ec4c8b45088b55":  // unique sig
+cleanup __amd64 void CombatAI::UpdateMindControl(CombatAI *this, bool hostile); // 08232f20
+".5557565383ec1c8b5c243090":  // unique sig
+cleanup __amd64 void CombatAI::DeactiveWeapons(CombatAI *this); // 082332a0
+".5589e55383ec248b5d0880":  // unique sig
+cleanup __amd64 Pointf CombatAI::ChooseSecondTarget(CombatAI *this, Pointf *weapon_target); // 08233390
+".5589e557565383ec4ca1":  // unique sig
+cleanup __amd64 int CombatAI::PrioritizeSystem(CombatAI *this, int weaponType); // 08233410
+".5589e557565383ec2c8b5d0c8b":  // unique sig
+cleanup __amd64 Pointf CombatAI::ChooseTarget(CombatAI *this, int weaponType); // 08233900
+".5589e557565383ec5c8b5d08807b2c":  // unique sig
+cleanup __amd64 void CombatAI::UpdateWeapons(CombatAI *this); // 082339e0
+".57565383ec108b742420893424e8????????8b":  // unique sig
+cleanup __amd64 void CombatAI::OnLoop(CombatAI *this); // 08233e40
+".565383ec248b5c2430803d":  // unique sig
+cleanup __amd64 void CombatAI::constructor(CombatAI *this); // 08233f90

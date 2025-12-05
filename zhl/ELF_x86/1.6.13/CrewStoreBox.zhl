@@ -1,0 +1,16 @@
+"83ec1c8b442420c744240c":  // unique sig
+cleanup __amd64 int CrewStoreBox::SetInfoBox(CrewStoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081bc5e0
+".83ec1c8b4424208b90c0":  // unique sig
+cleanup __amd64 bool CrewStoreBox::CanHold(CrewStoreBox *this); // 081bc620
+".57565383ec208b5c24308d44241a8d74241c89442408c7442404????????893424e8????????c7":  // unique sig
+cleanup __amd64 void CrewStoreBox::constructor(CrewStoreBox *this); // 081be2c0
+".5589e557565381ecdc0000008b5d088d":  // unique sig
+cleanup __amd64 void CrewStoreBox::constructor(CrewStoreBox *this, ShipManager *shopper, int worldLevel, string type); // 081be530
+".5557565331db81eccc":  // unique sig
+cleanup __amd64 void CrewStoreBox::Purchase(CrewStoreBox *this); // 081c0780
+".5589e5565383ec208b45108b5d08c74424????????00894424088b450c894424048d4310890424e8????????80":  // unique sig
+cleanup __amd64 void CrewStoreBox::MouseMove(CrewStoreBox *this, int mX, int mY); // 081c3e20
+".5557565383ec2c8b442440c700????????05":  // unique sig
+cleanup __amd64 void CrewStoreBox::destructor(CrewStoreBox *this); // 081c43e0
+".5557565383ec2c8b7424408b86ec":  // unique sig
+cleanup __amd64 void CrewStoreBox::destructor(CrewStoreBox *this); // 081c4680

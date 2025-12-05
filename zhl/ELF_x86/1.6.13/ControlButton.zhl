@@ -1,0 +1,20 @@
+"5383ec288b5c24308b442434c7":  // unique sig
+cleanup __amd64 void ControlButton::constructor(ControlButton *this, Point pos, string value); // 08195380
+".5589e557565383ec3c8b75088b":  // unique sig
+cleanup __amd64 void ControlButton::SetDesc(ControlButton *this, TextString *desc); // 081953f0
+".5589e557565383ec4c8b75088d5d":  // unique sig
+cleanup __amd64 void ControlButton::OnLoop(ControlButton *this); // 081954e0
+".5589e557565383ec6c8b5d08f3":  // unique sig
+cleanup __amd64 void ControlButton::OnRender(ControlButton *this); // 08195650
+".8b4424048378200274??8b":  // unique sig
+cleanup __amd64 void ControlButton::MouseMove(ControlButton *this, int mX, int mY); // 08195a20
+".8b4424048378200274??83":  // unique sig
+cleanup __amd64 void ControlButton::OnTouch(ControlButton *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08195a70
+".565383ec248b5c243083":  // unique sig
+cleanup __amd64 void ControlButton::OnKeyDown(ControlButton *this, SDLKey sym); // 08195ac0
+".8b44240483782001":  // unique sig
+cleanup __amd64 bool ControlButton::GetHovering(ControlButton *this); // 08195b50
+".807c2408018b54240419c0f7d083e002894220c38db6000000008dbf0000000055":  // unique sig
+cleanup __amd64 void ControlButton::SetSelected(ControlButton *this, bool val); // 08195b60
+".5589e5565383ec308b5d08807b18":  // unique sig
+cleanup __amd64 void ControlButton::OnLanguageChange(ControlButton *this); // 08195b80

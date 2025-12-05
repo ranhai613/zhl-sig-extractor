@@ -1,0 +1,20 @@
+"8b442404c700????????c366906690908b4424040f":  // unique sig
+cleanup __amd64 void AnimationTracker::destructor(AnimationTracker *this); // 0811bde0
+".8b442404c700????????e9????????905383ec188b4424248b5c24208b":  // unique sig
+cleanup __amd64 void AnimationTracker::destructor(AnimationTracker *this); // 0811bf60
+".5383ec188b5c2420807b10":  // unique sig
+cleanup __amd64 void AnimationTracker::Update(AnimationTracker *this); // 081f7380
+".8b4424048b542408f30f1044240cc7":  // unique sig
+cleanup __amd64 void AnimationTracker::SetLoop(AnimationTracker *this, bool loop, float delay); // 081f8950
+".8b5424080f57":  // unique sig
+cleanup __amd64 void AnimationTracker::Stop(AnimationTracker *this, bool keepTime); // 081f8970
+".8b442404f30f10442408c640":  // unique sig
+cleanup __amd64 void AnimationTracker::Start(AnimationTracker *this, float specific); // 081f8990
+".8b4424040f57c9f30f1044":  // unique sig
+cleanup __amd64 void AnimationTracker::StartReverse(AnimationTracker *this, float specific); // 081f89b0
+".83ec040f57c08b44":  // unique sig
+cleanup __amd64 float AnimationTracker::Progress(AnimationTracker *this, float time); // 081f89e0
+".8b442404f30f104004":  // unique sig
+cleanup __amd64 void AnimationTracker::SetProgress(AnimationTracker *this, float progress); // 081f8a50
+".83ec048b442408f30f1005????????f30f10":  // unique sig
+cleanup __amd64 float AnimationTracker::GetAlphaLevel(AnimationTracker *this, bool invert); // 081f8a70

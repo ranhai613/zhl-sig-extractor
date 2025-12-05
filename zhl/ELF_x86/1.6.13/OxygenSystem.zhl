@@ -1,0 +1,34 @@
+"e9????????908d76008dbc27000000005383ec188b5c2420891c24e8????????8b":  // unique sig
+cleanup __amd64 bool OxygenSystem::Functioning(OxygenSystem *this); // 0829fc80
+"5383ec188b5c2420891c24e8????????8b8b":  // unique sig
+cleanup __amd64 void OxygenSystem::Restart(OxygenSystem *this); // 0829fc90
+".e9????????908d76008dbc27000000005557565383ec2c8b44":  // unique sig
+cleanup __amd64 void OxygenSystem::OnRender(OxygenSystem *this); // 0829fd00
+"5557565383ec2c8b4424508b5c24408b74":  // unique sig
+cleanup __amd64 void OxygenSystem::constructor(OxygenSystem *this, int numRooms, int roomId, int shipId, int starting_power); // 0829fd10
+".8b44240483a8":  // unique sig
+cleanup __amd64 void OxygenSystem::RemoveRoom(OxygenSystem *this); // 0829fef0
+".5383ec188b5c242080bb84":  // unique sig
+cleanup __amd64 float OxygenSystem::GetRefillSpeed(OxygenSystem *this); // 0829ff00
+".5383ec048b15????????8b4c24108b44240c85c978??8b98":  // unique sig
+cleanup __amd64 float OxygenSystem::GetOxygenLevel(OxygenSystem *this, int roomId); // 082a0000
+".8b4424048b5424088b809c0100008d":  // unique sig
+cleanup __amd64 void OxygenSystem::ModifyRoomOxygen(OxygenSystem *this, int roomId, float amount); // 082a0040
+".8b4424048b542408f30f1044240c8b":  // unique sig
+cleanup __amd64 void OxygenSystem::SetRoomOxygen(OxygenSystem *this, int roomId, float amount); // 082a0060
+".5589e557565383ec3c0fb64514":  // unique sig
+cleanup __amd64 void OxygenSystem::ComputeAirLoss(OxygenSystem *this, int roomId, float base_loss, bool silent); // 082a0080
+".538b4424108b5c241485":  // unique sig
+cleanup __amd64 void OxygenSystem::UpdateBreach(OxygenSystem *this, int roomId, int count, bool silent); // 082a01f0
+".5557565383ec2c8b5c2448":  // unique sig
+cleanup __amd64 void OxygenSystem::UpdateAirlock(OxygenSystem *this, int roomId, int count); // 082a0230
+".8b4424048b5424088b809c010000c7":  // unique sig
+cleanup __amd64 void OxygenSystem::EmptyOxygen(OxygenSystem *this, int roomId); // 082a0320
+".5589e557565383ec4c8b7d088b87":  // unique sig
+cleanup __amd64 void OxygenSystem::RedistributeOxygen(OxygenSystem *this); // 082a0340
+".5557565383ec3c8b5c2450891c24e8????????8b8380":  // unique sig
+cleanup __amd64 void OxygenSystem::OnLoop(OxygenSystem *this); // 082a0550
+"!.5383ec188b5c24208b839c010000c703????????c74308????????85c074??890424e8????????895c":  // unique sig
+cleanup __amd64 void OxygenSystem::destructor(OxygenSystem *this); // 082a0890
+".5383ec188b5c24208b839c010000c703????????c74308????????85c074??890424e8????????891c":  // unique sig
+cleanup __amd64 void OxygenSystem::destructor(OxygenSystem *this); // 082a08e0

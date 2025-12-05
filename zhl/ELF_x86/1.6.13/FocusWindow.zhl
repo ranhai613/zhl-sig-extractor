@@ -1,0 +1,36 @@
+"f3c3669066906690669066906690669031c0c366906690669066906690669090f3c36690669066906690669066906690f3":  // unique sig
+cleanup __amd64 void FocusWindow::OnLoop(FocusWindow *this); // 08137460
+".31c0c366906690669066906690669090f3c36690669066906690669066906690f3c3669066906690669066906690669031":  // unique sig
+cleanup __amd64 bool FocusWindow::LockWindow(FocusWindow *this); // 08137470
+".f3c36690669066906690669066906690f3c3669066906690669066906690669031":  // unique sig
+cleanup __amd64 void FocusWindow::MouseUp(FocusWindow *this, int mX, int mY); // 08137480
+".f3c3669066906690669066906690669031c0c36690669066906690669066909031c0c36690669066906690669066909055":  // unique sig
+cleanup __amd64 void FocusWindow::MouseRightClick(FocusWindow *this, int mX, int mY); // 08137490
+".31c0c36690669066906690669066909031c0c3669066906690669066906690905557":  // unique sig
+cleanup __amd64 bool FocusWindow::KeyUp(FocusWindow *this, SDLKey sym); // 081374a0
+".31c0c3669066906690669066906690905557":  // unique sig
+cleanup __amd64 bool FocusWindow::PriorityPopup(FocusWindow *this); // 081374b0
+".31c0c3669066906690669066906690908b442404c74008":  // unique sig
+cleanup __amd64 bool FocusWindow::KeyDown(FocusWindow *this, SDLKey sym); // 08150430
+".8b4c24048b4424088b54240c89411489":  // unique sig
+cleanup __amd64 void FocusWindow::SetPosition(FocusWindow *this, Point p); // 08170930
+".8b442404c6400400c3":  // unique sig
+cleanup __amd64 void FocusWindow::Close(FocusWindow *this); // 08170950
+".f3c38db426000000008dbc27000000008b442404c6":  // unique sig
+cleanup __amd64 void FocusWindow::OnRender(FocusWindow *this); // 08170960
+".8b442404c6400401c3908db6000000008b":  // unique sig
+cleanup __amd64 void FocusWindow::Open(FocusWindow *this); // 08170970
+".8b442404807810":  // unique sig
+cleanup __amd64 void FocusWindow::MouseClick(FocusWindow *this, int mX, int mY); // 08170980
+".5756538b4c24148b442410":  // unique sig
+cleanup __amd64 void FocusWindow::OnTouch(FocusWindow *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081709a0
+"!.8b442404807c2408008b1074":  // unique sig
+cleanup __amd64 void FocusWindow::SetOpen(FocusWindow *this, bool open); // 08170a10
+".56538b44240c8b4c24108b74":  // unique sig
+cleanup __amd64 void FocusWindow::MouseMove(FocusWindow *this, int mX, int mY); // 08170a30
+"!.5383ec188b5c24208d430883":  // unique sig
+cleanup __amd64 void FocusWindow::constructor(FocusWindow *this); // 08170a90
+".8b442404c700????????c366906690908b442404c700????????e9":  // unique sig
+cleanup __amd64 void FocusWindow::destructor(FocusWindow *this); // 08170ae0
+".8b442404c700????????e9????????905383ec188b5c24208b":  // unique sig
+cleanup __amd64 void FocusWindow::destructor(FocusWindow *this); // 08170af0

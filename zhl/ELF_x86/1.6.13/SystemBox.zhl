@@ -1,0 +1,66 @@
+"31c0c36690669066906690669066909031c0c3669066906690669066906690908b4424040fb6":  // unique sig
+cleanup __amd64 bool SystemBox::HasButton(SystemBox *this); // 08193a40
+".31c0c3669066906690669066906690908b4424040fb64058":  // unique sig
+cleanup __amd64 int SystemBox::GetHeightModifier(SystemBox *this); // 08193a50
+".8b4424040fb64058":  // unique sig
+cleanup __amd64 bool SystemBox::GetMouseHover(SystemBox *this); // 08193a60
+".8b4424048b8070":  // unique sig
+cleanup __amd64 bool SystemBox::IsTouchTooltipOpen(SystemBox *this); // 08193a70
+".8b4424048b9070":  // unique sig
+cleanup __amd64 bool SystemBox::IsTouchTooltipActive(SystemBox *this); // 08193a90
+".8b4424048b5424088b807001000085c074??0fb6d28954240889442404e9????????8db600000000f3c366":  // unique sig
+cleanup __amd64 void SystemBox::CloseTouchTooltip(SystemBox *this, bool immediate); // 08193b30
+".8b4424048b10c7":  // unique sig
+cleanup __amd64 void SystemBox::CancelTouch(SystemBox *this); // 081cc8f0
+".5383ec188b5c24208b434cc6436800c683ac01000000c64369008b10890424c74424????????00ff52088b837001000085c074??c744240401000000890424e8????????83":  // unique sig
+cleanup __amd64 void SystemBox::CloseTapBox(SystemBox *this); // 081cc9e0
+".55b901":  // unique sig
+cleanup __amd64 void SystemBox::OnRender(SystemBox *this, bool ignoreStatus); // 081ccab0
+".8b4424048b5424088b807001000085c074??0fb6d28954240889442404e9????????8db600000000f3c38d":  // unique sig
+cleanup __amd64 void SystemBox::RenderTouchTooltips(SystemBox *this, bool renderTray); // 081cd140
+".57565331db83ec208b7424308b":  // unique sig
+cleanup __amd64 bool SystemBox::MouseClick(SystemBox *this, bool force); // 081cd990
+".565383ec248b5c24308b7424348b434c":  // unique sig
+cleanup __amd64 void SystemBox::MouseRightClick(SystemBox *this, bool force); // 081cdae0
+".5653bb0100000083ec24":  // unique sig
+cleanup __amd64 void SystemBox::destructor(SystemBox *this); // 081cdc00
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905653bb":  // unique sig
+cleanup __amd64 void SystemBox::destructor(SystemBox *this); // 081cdd50
+".5383ec188b5c24208b434cc64369":  // unique sig
+cleanup __amd64 void SystemBox::StartDraggingPower(SystemBox *this, int y); // 081ce390
+".5557565383ec2c8b6c24408b7424448b454c":  // unique sig
+cleanup __amd64 void SystemBox::AdjustPowerTo(SystemBox *this, int newPower); // 081ce3e0
+".5557565383ec4c83":  // unique sig
+cleanup __amd64 void SystemBox::OnTouch(SystemBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081ce520
+".8b4424048b542408c640":  // unique sig
+cleanup __amd64 void SystemBox::ForceTapped(SystemBox *this, bool lock); // 081ceb90
+".5589e5565383ec408b45088d":  // unique sig
+cleanup __amd64 SDLKey SystemBox::GetHotkey(SystemBox *this, bool power); // 081cebb0
+".5383ec188b5c2420807c":  // unique sig
+cleanup __amd64 void SystemBox::ForceMouseClick(SystemBox *this, bool leftClick); // 081cecb0
+".8b4424048b542408f30f6f82":  // unique sig
+cleanup __amd64 Rect *SystemBox::GetExtendedHitBox(SystemBox *this); // 081ced00
+".55575653bb0100000083ec1c":  // unique sig
+cleanup __amd64 int SystemBox::GetPowerLevelAtPoint(SystemBox *this, Point p); // 081ced20
+".5589e557565383ec3c8b5d088b750c8b7d1080":  // unique sig
+cleanup __amd64 void SystemBox::RenderHoverTooltip(SystemBox *this, Point position); // 081cedd0
+".83ec3c8b4424400f":  // unique sig
+cleanup __amd64 void SystemBox::RenderHitBox(SystemBox *this); // 081ceeb0
+".5531ed5731ff565383ec1c8b5c":  // unique sig
+cleanup __amd64 int SystemBox::TapBoxSystemHeight(SystemBox *this, int bar_h, int bar_gap, bool returnManningOffset); // 081cef30
+".f3c38db426000000008dbc270000000056538b":  // unique sig
+cleanup __amd64 void SystemBox::RenderTapBox(SystemBox *this); // 081cf0d0
+".56538b54240c8b4c":  // unique sig
+cleanup __amd64 bool SystemBox::IsPointInTapBox(SystemBox *this, Point p); // 081cf0e0
+".5589e557565383ec3c8b4510":  // unique sig
+cleanup __amd64 void SystemBox::KeyDown(SystemBox *this, SDLKey key_sym, bool shift); // 081cf4d0
+".5589e557565381ecbc0000008b750c8d":  // unique sig
+cleanup __amd64 string SystemBox::GenerateTooltip(SystemBox *this); // 081cf9e0
+".5589e557565383ec2c8b5d088b750c":  // unique sig
+cleanup __amd64 void SystemBox::MouseMove(SystemBox *this, int mX, int mY); // 081d18e0
+".5589e5565383ec208b5d0880bb4d":  // unique sig
+cleanup __amd64 void SystemBox::OnLoop(SystemBox *this); // 081d1bb0
+".5557565381ec3c0100008b9c24????????8d":  // unique sig
+cleanup __amd64 void SystemBox::constructor(SystemBox *this, Point loc, ShipSystem *sys, bool playerUI); // 081d2630
+".31c0c366906690669066906690669090b801000000c366906690669066906690d9":  // unique sig
+cleanup __amd64 int SystemBox::GetCooldownBarHeight(SystemBox *this); // 081d5a40

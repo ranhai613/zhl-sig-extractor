@@ -1,0 +1,22 @@
+"!57565383ec108b5c24208b44242c":  // unique sig
+cleanup __amd64 void TextInput::constructor(TextInput *this, int max, AllowedCharType allowedChars, string *prompt); // 081dd000
+".5557565383ec1c8b4c243c":  // unique sig
+cleanup __amd64 string TextInput::GetUTF8(TextInput *this, int start, int end); // 081dd0a0
+".5589e557565383ec7c8b5d088b45":  // unique sig
+cleanup __amd64 void TextInput::OnRender(TextInput *this, int size, Point position); // 081dd390
+"!.5383ec188b4424208b501c":  // unique sig
+cleanup __amd64 void TextInput::OnLoop(TextInput *this); // 081dd7b0
+".57565383ec108b5c24208b44242480":  // unique sig
+cleanup __amd64 void TextInput::OnTextEvent(TextInput *this, TextEvent event); // 081dd7f0
+".8b4424040fb64024":  // unique sig
+cleanup __amd64 bool TextInput::GetActive(TextInput *this); // 081dd940
+".5589e55383ec148b5d088b":  // unique sig
+cleanup __amd64 string TextInput::GetText(TextInput *this); // 081dd950
+".5589e5565383ec208b5d088b4308":  // unique sig
+cleanup __amd64 void TextInput::Start(TextInput *this); // 081dd990
+"!.8b442404c64024":  // unique sig
+cleanup __amd64 void TextInput::Stop(TextInput *this); // 081dda80
+".57565383ec308b7424408d5c2410":  // unique sig
+cleanup __amd64 void TextInput::SetText(TextInput *this, string *newText); // 081dda90
+".5589e557565383ec5c8b5d08807b24":  // unique sig
+cleanup __amd64 void TextInput::OnTextInput(TextInput *this, int ch); // 081ddb00

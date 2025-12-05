@@ -1,0 +1,65 @@
+"31c0c3669066906690669066906690908b4424040fb6803c":  // unique sig
+cleanup __amd64 bool CrewAnimation::CustomDeath(CrewAnimation *this); // 08082620
+".5557565383ec5c8b442470c700????????8b807809000085c074??890424e8????????8b4424708b806c0900008d48f481f9????????0f85????????8b4424708b804c0900008d48f481f9????????0f85????????8b4424708bb83c0900008ba83809000039ef0f84????????8b75048b5d0039de74??b8????????85c00f84????????8b038d50f481fa????????0f85????????83c30439de75??8b750085f674??893424e8????????83c50c39ef75??8b4424708b803809000085c074??890424e8????????8b4424708b80200900008d48f481f9????????0f85????????8b4424708b801c0900008d48f481f9????????0f85????????8b4424708bb0940800008b9890080000c780f8080000????????39de0f84????????8b03891c2481c3f8010000ff1039de75??8b4424708b809008000085c074??890424e8????????8b44247083c040890424e8????????8b4424708b401c85c074??890424e8????????8b4424708b4c24708b400c8b49088944243839c8894c24340f84????????8b4424348b48048b00894c242039c1894424180f84????????8d4864894c241c8d4874894c2430":  // unique sig
+cleanup __amd64 void CrewAnimation::destructor(CrewAnimation *this); // 08084640
+"!.eb??8b50fc8d5aff8958fc89d0e9????????66906690669066906690":  // unique sig
+noHook __amd64 void CrewAnimation::__DO_NOT_HOOK(); // 080868bf
+".55":  // non-unique sig
+cleanup __amd64 void CrewAnimation::destructor(CrewAnimation *this); // 080868c0
+".8b5424048b423483":  // unique sig
+cleanup __amd64 int CrewAnimation::GetFiringFrame(CrewAnimation *this); // 080c9760
+".8b44240431d280":  // unique sig
+cleanup __amd64 void CrewAnimation::UpdateFiring(CrewAnimation *this); // 080c97c0
+".57565331db83ec108b7424208b5608":  // unique sig
+cleanup __amd64 void CrewAnimation::Restart(CrewAnimation *this); // 080c9920
+"!.5631f65383ec34":  // unique sig
+cleanup __amd64 void CrewAnimation::OnRenderProps(CrewAnimation *this); // 080c9a50
+".565383ec648b5c":  // unique sig
+cleanup __amd64 void CrewAnimation::OnRender(CrewAnimation *this, float scale, int selectedState, bool outlineOnly); // 080c9b30
+".5383ec188b4424208d":  // unique sig
+cleanup __amd64 bool CrewAnimation::FireShot(CrewAnimation *this); // 080ca740
+// Failed to generate signature for function: CrewAnimation::GetShootingSound at 080cb8f0
+"!.5631c05383ec148b7424208b5c242483":  // unique sig
+cleanup __amd64 void CrewAnimation::SaveState(CrewAnimation *this, int fd); // 080cc020
+".565383ec148b5c24248b74242089":  // unique sig
+cleanup __amd64 void CrewAnimation::LoadState(CrewAnimation *this, int fd); // 080cc080
+".5383ec188b5c2420c7433806000000c7433000000000c74424????????00c74424????????008b43088b000580030000890424e8????????c7442404010000008b43088b000560030000890424e8????????83":  // unique sig
+cleanup __amd64 void CrewAnimation::StartTeleport(CrewAnimation *this); // 080d07a0
+".5383ec188b5c2420c7433806000000c7433000000000c74424????????00c74424????????008b43088b000580030000890424e8????????c7442404010000008b43088b000560030000890424e8????????c7":  // unique sig
+cleanup __amd64 void CrewAnimation::StartTeleportArrive(CrewAnimation *this); // 080d0800
+".5383ec188b5c24208b43088b":  // unique sig
+cleanup __amd64 bool CrewAnimation::TeleportArrived(CrewAnimation *this); // 080d0880
+".5383ec188b5c2420837b38":  // unique sig
+cleanup __amd64 bool CrewAnimation::Dead(CrewAnimation *this); // 080d08f0
+".57565381ecd0":  // unique sig
+cleanup __amd64 void CrewAnimation::RenderIcon(CrewAnimation *this, bool border); // 080d0950
+".83ec3c0f28":  // unique sig
+cleanup __amd64 void CrewAnimation::RenderTarget(CrewAnimation *this); // 080d0db0
+".83ec048b4424088b90":  // unique sig
+cleanup __amd64 float CrewAnimation::GetDamageDone(CrewAnimation *this); // 080d0e10
+".5383ec288b4424388b":  // unique sig
+cleanup __amd64 void CrewAnimation::SetPosition(CrewAnimation *this, int x, int y); // 080d0e40
+".5589e557565383ec3c8b4524":  // unique sig
+cleanup __amd64 void CrewAnimation::OnUpdate(CrewAnimation *this, Pointf position, bool moving, bool fighting, bool repairing, bool dying, bool onFire); // 080d0e80
+".8b54240831c083":  // unique sig
+cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation *this, int dir); // 080d1490
+".f30f10542410f30f104c":  // unique sig
+cleanup __amd64 void CrewAnimation::SetDirection(CrewAnimation *this, Pointf newPosition, Pointf goal); // 080d14b0
+".5589e557565381ec2c0100008b7d088d":  // unique sig
+cleanup __amd64 void CrewAnimation::SetupStrips(CrewAnimation *this); // 080d3b20
+".8b4424048b5424088890":  // unique sig
+cleanup __amd64 void CrewAnimation::SetMale(CrewAnimation *this, bool male); // 080d4570
+".5383ec188b5c24208b4424248944":  // unique sig
+cleanup __amd64 void CrewAnimation::SetLayers(CrewAnimation *this, std::vector<GL_Color> *layers); // 080d45d0
+".5589e557565381ec0c0100008b450c80":  // unique sig
+cleanup __amd64 string CrewAnimation::GetDeathSound(CrewAnimation *this); // 080d4860
+".5589e557565381eccc0000008b4518":  // unique sig
+cleanup __amd64 void CrewAnimation::OnInit(CrewAnimation *this, string *name, Pointf position, bool enemy); // 080d5500
+".5557565383ec4c8b442474":  // unique sig
+cleanup __amd64 void CrewAnimation::constructor(CrewAnimation *this, int iShipId, string name, Pointf position, bool enemy); // 080d6960
+".5557565383ec5c8b44247083c0":  // unique sig
+cleanup __amd64 void CrewAnimation::OnUpdateEffects(CrewAnimation *this); // 080d8ef0
+".5589e55789c7565381ec3c":  // unique sig
+cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation *this); // 080d9870
+".5383ec188b5c24208b03891c24ff501c84c074":  // unique sig
+cleanup __amd64 void CrewAnimation::UpdateShooting(CrewAnimation *this); // 080da050

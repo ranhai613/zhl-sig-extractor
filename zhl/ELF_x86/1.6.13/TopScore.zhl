@@ -1,0 +1,2 @@
+"565383ec248b5c24308b4304":  // unique sig
+cleanup __amd64 void TopScore::destructor(TopScore *this); // 080a8570

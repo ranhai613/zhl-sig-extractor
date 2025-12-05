@@ -1,0 +1,6 @@
+"5557565383ec2c8b6c24408b442450":  // unique sig
+cleanup __amd64 void UnlockArrow::constructor(UnlockArrow *this, Point pos, int status, int dir); // 081a8c00
+".8b542404837a":  // unique sig
+cleanup __amd64 bool UnlockArrow::MouseMove(UnlockArrow *this, int mX, int mY); // 081a8eb0
+".57565383ec508b5c24608b03":  // unique sig
+cleanup __amd64 void UnlockArrow::OnRender(UnlockArrow *this); // 081a8ef0

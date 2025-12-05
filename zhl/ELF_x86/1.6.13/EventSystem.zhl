@@ -1,0 +1,10 @@
+"57565383ec108b5c2420c703":  // unique sig
+cleanup __amd64 void EventSystem::constructor(EventSystem *this); // 08207ca0
+".538b4c240c8b44240885":  // unique sig
+cleanup __amd64 int EventSystem::PollEvent(EventSystem *this, int eventId); // 08207dd0
+".8b5424088b44240485d278??8b480c":  // unique sig
+cleanup __amd64 void EventSystem::AddEvent(EventSystem *this, int eventId); // 08207e00
+".5557565383ec2c8b5c24408b4b10":  // unique sig
+cleanup __amd64 void EventSystem::OnLoop(EventSystem *this); // 08207e30
+".5383ec188b5c24208b430c85":  // unique sig
+cleanup __amd64 void EventSystem::destructor(EventSystem *this); // 08208060

@@ -1,0 +1,62 @@
+"8b4424048b400c8b8010":  // unique sig
+cleanup __amd64 int WeaponControl::NumArmamentSlots(WeaponControl *this); // 081e9fc0
+"!.5383ec188b5c2420e8????????c74424????????00f30f2a4320f30f11442404f30f2a431cf30f110424e8????????8d83a0":  // unique sig
+cleanup __amd64 void WeaponControl::RenderWarnings(WeaponControl *this); // 081e9fd0
+".5383ec18c7042498":  // unique sig
+cleanup __amd64 ArmamentBox *WeaponControl::CreateArmamentBox(WeaponControl *this, Point loc); // 081ea030
+".5531ed57565383ec1c8b5c":  // unique sig
+cleanup __amd64 void WeaponControl::SwapArmaments(WeaponControl *this, uint a, uint b); // 081ea070
+".565383ec248b5c24308d44241a8d74241c89442408c7442404????????893424e8????????89742404891c24e8????????8b44241cc64304008d50f481fa????????75??83c42489d85b5ec20400be????????85f68d48fc74??83c8fff00fc10185c07f??8d44241b89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??8db6000000008dbf000000005383ec288b5c2430c744240403":  // unique sig
+cleanup __amd64 TextString WeaponControl::HolderLabel(WeaponControl *this); // 081ea130
+".5383ec288b5c2430c7442404030000008b43":  // unique sig
+cleanup __amd64 void WeaponControl::DeselectArmament(WeaponControl *this, uint i); // 081ea1c0
+".538b54240c8b44240884":  // unique sig
+cleanup __amd64 void WeaponControl::SetOpen(WeaponControl *this, bool open); // 081ea2b0
+"!.7c??5bc38db600000000":  // unique sig
+noHook __amd64 void WeaponControl::__DO_NOT_HOOK(); // 081ea30f
+".55":  // non-unique sig
+cleanup __amd64 SDLKey WeaponControl::ArmamentHotkey(WeaponControl *this, uint i); // 081ea310
+".5589e557565383ec4c8b7d088b5d":  // unique sig
+cleanup __amd64 void WeaponControl::SelectArmament(WeaponControl *this, uint i); // 081ea850
+".5557565381ecfc0100008b9c":  // unique sig
+cleanup __amd64 void WeaponControl::constructor(WeaponControl *this); // 081eae40
+".5531c05756538b74":  // unique sig
+cleanup __amd64 void WeaponControl::ArmWeapon(WeaponControl *this, int index); // 081ebf10
+".5589e5565331db83ec30":  // unique sig
+cleanup __amd64 void WeaponControl::CheckWeapons(WeaponControl *this); // 081ebfa0
+".5557565383ec6c8bb424????????8d442448":  // unique sig
+static cleanup __amd64 void WeaponControl::RenderBeamAiming(Pointf one, Pointf two, bool bAutoFire); // 081ec060
+".55575631f65383ec4c8b6c":  // unique sig
+cleanup __amd64 void WeaponControl::RenderAiming(WeaponControl *this); // 081ec3a0
+".55575631f65383ec2c8b6c":  // unique sig
+cleanup __amd64 void WeaponControl::RenderSelfAiming(WeaponControl *this); // 081ec610
+".57565383ec508b442464":  // unique sig
+cleanup __amd64 void WeaponControl::SetAutofiring(WeaponControl *this, bool on, bool simple); // 081ec7c0
+".57565331db83ec108b7c24208b7424248b57108b471489":  // unique sig
+cleanup __amd64 void WeaponControl::SetCurrentTarget(WeaponControl *this, Targetable *target); // 081eca80
+".5557565383ec2c8b7424408b6c":  // unique sig
+cleanup __amd64 void WeaponControl::Fire(WeaponControl *this, std::vector<Pointf> *targets, int targetId, bool inverseAuto); // 081ecaf0
+".5631f65383ec24":  // unique sig
+cleanup __amd64 void WeaponControl::destructor(WeaponControl *this); // 081ecc60
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905589e557565381ec8c":  // unique sig
+cleanup __amd64 void WeaponControl::destructor(WeaponControl *this); // 081ecff0
+"5589e557565381ec8c0000008b7d":  // unique sig
+cleanup __amd64 void WeaponControl::OnLoop(WeaponControl *this); // 081ed010
+".5589e557565381ec9c0000008b5d0889":  // unique sig
+cleanup __amd64 void WeaponControl::OnLanguageChange(WeaponControl *this); // 081ed9f0
+".565383ec248b5c2430c7":  // unique sig
+cleanup __amd64 void WeaponControl::OnRender(WeaponControl *this, bool front); // 081edec0
+".565383ec148b742420893424e8????????8b":  // unique sig
+cleanup __amd64 void WeaponControl::Restart(WeaponControl *this); // 081edff0
+".565383ec148b5424208b4c24248b5c24288b74":  // unique sig
+cleanup __amd64 bool WeaponControl::LButton(WeaponControl *this, int mX, int mY, bool shift); // 081ee0c0
+"!.5557565383ec108b74":  // unique sig
+cleanup __amd64 void WeaponControl::RButton(WeaponControl *this, int mX, int mY, bool shift); // 081ee140
+".57565383ec108b5c24208b7424248b7c2428891c":  // unique sig
+cleanup __amd64 void WeaponControl::MouseMove(WeaponControl *this, int mX, int mY); // 081ee1c0
+".5557565383ec2c8b4424448b5c24408b7424508b7c2454894424148b4424488b6c2458894424188b44244c8944241c8b430c85c074??c744240403":  // unique sig
+cleanup __amd64 bool WeaponControl::OnTouch(WeaponControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081ee240
+".57bf01000000565383ec30":  // unique sig
+cleanup __amd64 bool WeaponControl::KeyDown(WeaponControl *this, SDLKey sym); // 081ee2d0
+".5383ec488b5c24508b44245489":  // unique sig
+cleanup __amd64 void WeaponControl::LinkShip(WeaponControl *this, ShipManager *ship); // 081ee3c0

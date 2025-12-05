@@ -1,0 +1,26 @@
+"565383ec248b5c24308b83d0010000c703????????c74308????????890424e8????????8b83b0010000c783b4010000????????8d50f481fa????????75??891c24e8????????83":  // unique sig
+cleanup __amd64 void CloakingSystem::destructor(CloakingSystem *this); // 08298ea0
+".565383ec248b5c24308b83d0010000c703????????c74308????????890424e8????????8b83b0010000c783b4010000????????8d50f481fa????????75??891c24e8????????89":  // unique sig
+cleanup __amd64 void CloakingSystem::destructor(CloakingSystem *this); // 08298f40
+".5383ec188b5c2420891c24e8????????8b03":  // unique sig
+cleanup __amd64 void CloakingSystem::Jump(CloakingSystem *this); // 08298fe0
+".5589e557565383ec6c8b5d088b53":  // unique sig
+cleanup __amd64 void CloakingSystem::OnRenderFloor(CloakingSystem *this); // 08299050
+".5383ec388b4424508b5c2440894424108b44244c891c248944240c8b442448894424088b44244489442404e8????????0f":  // unique sig
+cleanup __amd64 void CloakingSystem::constructor(CloakingSystem *this, int type, int roomId, int shipId, int starting_power); // 082992f0
+".57565383ec208b5c24308d44241a8d74241c89442408c7442404????????893424e8????????8d":  // unique sig
+cleanup __amd64 void CloakingSystem::FiredWeapon(CloakingSystem *this); // 08299410
+"!.565383ec148b7424208b5c24240fb68698":  // unique sig
+cleanup __amd64 void CloakingSystem::Save(CloakingSystem *this, int fd); // 082994c0
+".57565383ec108b5c24248b742420891c24e8????????8dbe9c01000085c00f958698":  // unique sig
+cleanup __amd64 void CloakingSystem::Load(CloakingSystem *this, int fd); // 08299530
+".5383ec188b5c2420891c24e8????????85c07e??c74424????????00891c24e8????????83c4185bc390":  // unique sig
+cleanup __amd64 void CloakingSystem::ForceReady(CloakingSystem *this); // 082995b0
+".83ec048b442408f30f1080a4010000f30f5e80a8010000f30f110424d9042483c404c3908db6000000008dbf0000000053":  // unique sig
+cleanup __amd64 float CloakingSystem::GetTimerProgress(CloakingSystem *this); // 082995e0
+".5383ec188b5c2420891c24e8????????31d284c075??0fb6939801000083f20183c41889d05bc390908db4260000000056":  // unique sig
+cleanup __amd64 bool CloakingSystem::Ready(CloakingSystem *this); // 08299610
+".565383ec148b5c24208b742424891c24e8????????84":  // unique sig
+cleanup __amd64 void CloakingSystem::SetTurnedOn(CloakingSystem *this, bool val); // 08299640
+".565383ec148b5c2420891c24e8????????8d":  // unique sig
+cleanup __amd64 void CloakingSystem::OnLoop(CloakingSystem *this); // 08299740

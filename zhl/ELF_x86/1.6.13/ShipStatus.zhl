@@ -1,0 +1,34 @@
+"5589e55789c7565383ec5c":  // unique sig
+cleanup __amd64 void ShipStatus::RenderShields(ShipStatus *this, bool renderText); // 081b1f60
+".5383ec288b5c2430c7442408":  // unique sig
+cleanup __amd64 void ShipStatus::constructor(ShipStatus *this); // 081b22f0
+".5731ff565383ec108b5c24208b43":  // unique sig
+cleanup __amd64 void ShipStatus::OnCleanup(ShipStatus *this); // 081b2690
+".5383ec188b5c2420891c24e8????????8b8310":  // unique sig
+cleanup __amd64 void ShipStatus::destructor(ShipStatus *this); // 081b29c0
+".565383ec248b7424348b5c24308b86cc":  // unique sig
+cleanup __amd64 void ShipStatus::LinkShip(ShipStatus *this, ShipManager *ship); // 081b2a10
+".8b5424088b442404895010":  // unique sig
+cleanup __amd64 void ShipStatus::LinkCombat(ShipStatus *this, CombatControl *combat); // 081b2da0
+".5557565331db83ec3c8b74":  // unique sig
+cleanup __amd64 void ShipStatus::OnLoop(ShipStatus *this); // 081b2db0
+".5589e557565381ecfc0100008b7d":  // unique sig
+cleanup __amd64 void ShipStatus::RenderEvadeOxygen(ShipStatus *this, bool renderText); // 081b3490
+".807c2408008b44240474":  // unique sig
+cleanup __amd64 void ShipStatus::RenderShields(ShipStatus *this, bool renderText); // 081b46f0
+".5589e557565381ec8c0000008b5d08807d":  // unique sig
+cleanup __amd64 void ShipStatus::RenderHealth(ShipStatus *this, bool renderText); // 081b4710
+".31c0c3908db6000000008dbf0000000031c0c3908db6000000008dbf0000000055":  // unique sig
+cleanup __amd64 bool ShipStatus::OnLButtonUp(ShipStatus *this); // 081b4f10
+".31c0c3908db6000000008dbf000000005589e553":  // unique sig
+cleanup __amd64 bool ShipStatus::OnRButtonUp(ShipStatus *this); // 081b4f20
+".5589e55383ec248b45":  // unique sig
+cleanup __amd64 void ShipStatus::OnMouseMove(ShipStatus *this, int mX, int mY); // 081b4f30
+".f3c38db426000000008dbc27000000005557565381ec2c":  // unique sig
+cleanup __amd64 void ShipStatus::OnTouch(ShipStatus *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081b50b0
+".5557565381ec2c0100008bac24????????8d":  // unique sig
+cleanup __amd64 void ShipStatus::OnInit(ShipStatus *this, Point location, float size); // 081b50c0
+".5589e557565381ec6c03":  // unique sig
+cleanup __amd64 void ShipStatus::RenderResources(ShipStatus *this, bool renderText); // 081b82d0
+".5589e557565381ec8c0000008b5d08e8":  // unique sig
+cleanup __amd64 void ShipStatus::OnRender(ShipStatus *this); // 081ba010

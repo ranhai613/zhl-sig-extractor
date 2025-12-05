@@ -1,0 +1,24 @@
+"8b4424048b0085c074??8b":  // unique sig
+cleanup __amd64 int UpgradeBox::GetSystemId(UpgradeBox *this); // 081e0af0
+".5589e557565381ec3c0100008b5d0880bbf9":  // unique sig
+cleanup __amd64 void UpgradeBox::OnRender(UpgradeBox *this); // 081e0b90
+".565383ec148b4424208b10":  // unique sig
+cleanup __amd64 void UpgradeBox::OnLoop(UpgradeBox *this); // 081e16b0
+".83ec1c8b4424208b1085":  // unique sig
+cleanup __amd64 void UpgradeBox::MouseMove(UpgradeBox *this, int mX, int mY); // 081e1710
+".5383ec288b5c24308b03":  // unique sig
+cleanup __amd64 void UpgradeBox::MouseClick(UpgradeBox *this, int mX, int mY); // 081e1750
+".565383ec248b5c24308b0385c00f":  // unique sig
+cleanup __amd64 void UpgradeBox::MouseRightClick(UpgradeBox *this, int mX, int mY); // 081e1ac0
+".5383ec388b5c24408b0385":  // unique sig
+cleanup __amd64 void UpgradeBox::OnTouch(UpgradeBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081e1bc0
+".565383ec148b5c24208b4314":  // unique sig
+cleanup __amd64 void UpgradeBox::Undo(UpgradeBox *this); // 081e1d20
+".565383ec248b5c24308b0385c074":  // unique sig
+cleanup __amd64 void UpgradeBox::Accept(UpgradeBox *this); // 081e1d80
+".5557565383ec5c8b5c24708b742474":  // unique sig
+cleanup __amd64 void UpgradeBox::constructor(UpgradeBox *this, Point location, bool subsystem); // 081e1ed0
+".5589e557565383ec5c8b45148b75":  // unique sig
+cleanup __amd64 void UpgradeBox::constructor(UpgradeBox *this, ShipManager *shipManager, ShipSystem *_sil__DO_NOT_USE_system, Point location, bool subsystem); // 081e2020
+".5383ec288b5c24308b83fc":  // unique sig
+cleanup __amd64 void UpgradeBox::destructor(UpgradeBox *this); // 081e45e0

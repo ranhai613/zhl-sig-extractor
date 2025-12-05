@@ -1,0 +1,296 @@
+"8b4424040fb6803c":  // unique sig
+cleanup __amd64 bool CrewMember::IsCloned(CrewMember *this); // 08082630
+".83ec1c8b4424208b10890424ff5230":  // unique sig
+cleanup __amd64 bool CrewMember::IsCrew(CrewMember *this); // 08082640
+".8b4424048b542408395078":  // unique sig
+cleanup __amd64 bool CrewMember::InsideRoom(CrewMember *this, int roomId); // 08082660
+".31c0c3669066906690669066906690908b4424040fb680a4":  // unique sig
+cleanup __amd64 bool CrewMember::ExactTarget(CrewMember *this); // 08082670
+".8b4424040fb680a4":  // unique sig
+cleanup __amd64 bool CrewMember::OutOfGame(CrewMember *this); // 08082680
+".8b4424040fb680ac010000c366":  // unique sig
+cleanup __amd64 bool CrewMember::IsDead(CrewMember *this); // 08082690
+".d9e8c366906690669066906690669090d9":  // unique sig
+cleanup __amd64 float CrewMember::GetRepairSpeed(CrewMember *this); // 080826a0
+".d9e8c36690669066906690669066909031c0c366906690669066906690669090d9":  // unique sig
+cleanup __amd64 float CrewMember::GetDamageMultiplier(CrewMember *this); // 080826b0
+".31c0c366906690669066906690669090d905????????c366906690669066909031c0c3669066906690669066906690908b":  // unique sig
+cleanup __amd64 bool CrewMember::ProvidesPower(CrewMember *this); // 080826c0
+".d905????????c366906690669066909031c0c3669066906690669066906690908b":  // unique sig
+cleanup __amd64 float CrewMember::GetFireRepairMultiplier(CrewMember *this); // 080826d0
+".31c0c3669066906690669066906690908b442404c70000":  // unique sig
+cleanup __amd64 bool CrewMember::IsTelepathic(CrewMember *this); // 080826e0
+".8b442404c70000000000c74004000080":  // unique sig
+cleanup __amd64 std::pair<float, float> CrewMember::GetPowerCooldown(CrewMember *this); // 080826f0
+".31c0c366906690669066906690669090f3c3669066906690669066906690669031c0c366906690669066906690669090f3c36690669066906690669066906690d9":  // unique sig
+cleanup __amd64 bool CrewMember::PowerReady(CrewMember *this); // 08082710
+".f3c3669066906690669066906690669031c0c366906690669066906690669090f3c36690669066906690669066906690d9":  // unique sig
+cleanup __amd64 void CrewMember::ActivatePower(CrewMember *this); // 08082720
+".31c0c366906690669066906690669090f3c36690669066906690669066906690d9":  // unique sig
+cleanup __amd64 bool CrewMember::HasSpecialPower(CrewMember *this); // 08082730
+".f3c36690669066906690669066906690d9":  // unique sig
+cleanup __amd64 void CrewMember::ResetPower(CrewMember *this); // 08082740
+".d9e8c366906690669066906690669090b8":  // unique sig
+cleanup __amd64 float CrewMember::GetSuffocationModifier(CrewMember *this); // 08082750
+".b8ffffffffc3669066906690669066908b442404c70000":  // unique sig
+cleanup __amd64 int CrewMember::BlockRoom(CrewMember *this); // 08082760
+".8b442404c70000000000c7400400000000c7400800":  // unique sig
+cleanup __amd64 Damage *CrewMember::GetRoomDamage(CrewMember *this); // 08082770
+".31c0c3669066906690669066906690908b54240431":  // unique sig
+cleanup __amd64 bool CrewMember::IsAnaerobic(CrewMember *this); // 080827e0
+".8b54240431c080baac0100000075??8b":  // unique sig
+cleanup __amd64 bool CrewMember::ValidTarget(CrewMember *this, int shipId); // 080827f0
+".31c0c366906690669066906690669090b864000000c366906690669066906690f3":  // unique sig
+cleanup __amd64 bool CrewMember::MultiShots(CrewMember *this); // 08082820
+".b864000000c366906690669066906690f3":  // unique sig
+cleanup __amd64 int CrewMember::GetPriority(CrewMember *this); // 08082830
+".5383ec188b4424248b5c2420f30f2c500c89542408f30f2c4008891c2489442404e8????????83c41889d85bc204009053":  // unique sig
+cleanup __amd64 Point CrewMember::GetPosition(CrewMember *this); // 08082aa0
+".5383ec188b4424248b5c242005a8":  // unique sig
+cleanup __amd64 string CrewMember::GetSpecies(CrewMember *this); // 08082ad0
+".8b442404f30f108000":  // unique sig
+cleanup __amd64 bool CrewMember::FireFightingSoundEffect(CrewMember *this); // 08082b10
+".5383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc2040066906690669090e9????????6690669066906690669090e9":  // unique sig
+cleanup __amd64 string CrewMember::GetUniqueRepairing(CrewMember *this); // 08082b30
+".5383ec188b5c24208b839c00":  // unique sig
+cleanup __amd64 bool CrewMember::CanTeleport(CrewMember *this); // 080c9570
+"!.8b4424048b908803":  // unique sig
+cleanup __amd64 void CrewMember::Jump(CrewMember *this); // 080c9610
+".8b44240480b8ad0300000075??8b50043990380100000f95c0c38db6000000008b48043988380100000f94c0c39066908b":  // unique sig
+cleanup __amd64 bool CrewMember::GetIntruder(CrewMember *this); // 080c9630
+".8b0d????????8b442404":  // unique sig
+cleanup __amd64 void CrewMember::SetOutOfGame(CrewMember *this); // 080c9660
+".83ec048b15????????8b44":  // unique sig
+cleanup __amd64 float CrewMember::PositionShift(CrewMember *this); // 080c96d0
+".565383ec348b5c24408b74244480":  // unique sig
+cleanup __amd64 void CrewMember::OnRender(CrewMember *this, bool outlineOnly); // 080c99b0
+".5383ec188b5c2420f30f104328":  // unique sig
+cleanup __amd64 bool CrewMember::CanHeal(CrewMember *this); // 080ca770
+".f30f2a8890000000f30f1015":  // unique sig
+cleanup __amd64 bool CrewMember::IsBusy(CrewMember *this); // 080ca8d0
+".57565331db83ec108b7c24208b742424f3":  // unique sig
+cleanup __amd64 void CrewMember::SaveState(CrewMember *this, int fd); // 080cae30
+".5557565383ec2c8b7c24408b87":  // unique sig
+cleanup __amd64 void CrewMember::destructor(CrewMember *this); // 080cbd90
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905631":  // unique sig
+cleanup __amd64 void CrewMember::destructor(CrewMember *this); // 080cc000
+".57565383ec108b7424248b7c242089":  // unique sig
+cleanup __amd64 void CrewMember::LoadState(CrewMember *this, int fd); // 080cc140
+".565383ec148b5c24208b7424248b03c6":  // unique sig
+cleanup __amd64 void CrewMember::SetCurrentSystem(CrewMember *this, ShipSystem *sys); // 080cc2b0
+".8b44240483787c":  // unique sig
+cleanup __amd64 bool CrewMember::IsManningArtillery(CrewMember *this); // 080cc3e0
+".5557565383ec2c8b5c24408b7424448b03":  // unique sig
+cleanup __amd64 void CrewMember::IncreaseSkill(CrewMember *this, int skill); // 080cc3f0
+".57565383ec108b5c24208b83b8":  // unique sig
+cleanup __amd64 void CrewMember::CheckSkills(CrewMember *this); // 080cc5c0
+".8b4424048b5424088b8024":  // unique sig
+cleanup __amd64 void CrewMember::MasterSkill(CrewMember *this, int skill); // 080cc790
+".8b54240483fa01":  // unique sig
+static cleanup __amd64 int CrewMember::GetSkillFromSystem(int systemId); // 080cc7b0
+".8b4424088b5424048882ec":  // unique sig
+cleanup __amd64 void CrewMember::SetResisted(CrewMember *this, bool val); // 080cc7f0
+".8b5424040fb682ec":  // unique sig
+cleanup __amd64 bool CrewMember::GetResisted(CrewMember *this); // 080cc800
+".8b4424048b4c240c8b5424088b8024":  // unique sig
+cleanup __amd64 void CrewMember::SetSkillProgress(CrewMember *this, int skill, int level); // 080cc820
+".8b542408b801":  // unique sig
+cleanup __amd64 int CrewMember::GetSkillLevel(CrewMember *this, int skill); // 080cc840
+".8b5424088b4c240c8b4424048b92":  // unique sig
+cleanup __amd64 std::pair<int, int> CrewMember::GetSkillProgress(CrewMember *this, int skill); // 080cc880
+"!.538b44240cba":  // unique sig
+cleanup __amd64 float CrewMember::GetSkillModifier(CrewMember *this, int skill); // 080cc8c0
+".5383ec188b5c24208b03891c24ff90a8":  // unique sig
+cleanup __amd64 bool CrewMember::BadAtCombat(CrewMember *this); // 080cc920
+".5383ec288b5c24308b8388":  // unique sig
+cleanup __amd64 void CrewMember::EmptySlot(CrewMember *this); // 080cc9b0
+".8b44240480b8ac":  // unique sig
+cleanup __amd64 bool CrewMember::NeedSlot(CrewMember *this); // 080cca80
+".560f57c9":  // unique sig
+cleanup __amd64 bool CrewMember::DirectModifyHealth(CrewMember *this, float amount); // 080ccab0
+"!.5383ec18f30f104c":  // unique sig
+cleanup __amd64 void CrewMember::ModifyHealth(CrewMember *this, float amount); // 080ccd00
+".5383ec188b5c2420f30f10442424f3":  // unique sig
+cleanup __amd64 bool CrewMember::ApplyDamage(CrewMember *this, float amount); // 080ccd50
+".5383ec188b5c24208b5368":  // unique sig
+cleanup __amd64 bool CrewMember::RepairingSystem(CrewMember *this); // 080ccda0
+".5383ec188b5c24208b436885c074??8b10":  // unique sig
+cleanup __amd64 bool CrewMember::Sabotaging(CrewMember *this); // 080ccde0
+".8b54240431c08b4a68":  // unique sig
+cleanup __amd64 bool CrewMember::RepairingFire(CrewMember *this); // 080cce20
+".5589e557565383ec2c8b750c8b5d088b46":  // unique sig
+cleanup __amd64 Pointf CrewMember::SelectSabotageTarget(CrewMember *this); // 080cce60
+".8b4424048b908800":  // unique sig
+cleanup __amd64 void CrewMember::SavePosition(CrewMember *this); // 080ccf30
+".8b442404c780f4":  // unique sig
+cleanup __amd64 void CrewMember::ClearPosition(CrewMember *this); // 080ccf70
+".8b5424088b4424048b8af0":  // unique sig
+cleanup __amd64 Slot *CrewMember::GetSavedPosition(CrewMember *this); // 080ccf90
+".8b4424048b5424088990f0":  // unique sig
+cleanup __amd64 void CrewMember::SetSavePosition(CrewMember *this, Slot slot); // 080ccfc0
+".5383ec188b5c24208b436885c074??8b03":  // unique sig
+cleanup __amd64 void CrewMember::StopRepairing(CrewMember *this); // 080ccff0
+".8b4424048b406885c00f":  // unique sig
+cleanup __amd64 bool CrewMember::Repairing(CrewMember *this); // 080cd030
+".8b5424088b44240484d274":  // unique sig
+cleanup __amd64 void CrewMember::SetFrozen(CrewMember *this, bool frozen); // 080cd040
+".8b4424088b542404888279":  // unique sig
+cleanup __amd64 void CrewMember::SetFrozenLocation(CrewMember *this, bool frozen); // 080cd090
+".8b4424048b54240889907c":  // unique sig
+cleanup __amd64 void CrewMember::SetTask(CrewMember *this, CrewTask newTask); // 080cd0a0
+".5589e557565383ec3c8b45188b7d":  // unique sig
+cleanup __amd64 Slot *CrewMember::FindSlot(CrewMember *this, int roomId, int slotId, bool closeEnough); // 080cd0d0
+".5589e557565383ec6c8b750c8b5d":  // unique sig
+cleanup __amd64 bool CrewMember::CheckRoomPath(CrewMember *this, int roomId); // 080cd2f0
+".8b44240480b8ad0300000075??8b50043990380100000f95c0c38db6000000008b48043988380100000f94c0c390669056":  // unique sig
+cleanup __amd64 bool CrewMember::NeedsIntruderSlot(CrewMember *this); // 080cd410
+".565383ec248b4424348b54":  // unique sig
+cleanup __amd64 void CrewMember::SetPosition(CrewMember *this, Point p); // 080cd440
+".8b4424048b5078":  // unique sig
+cleanup __amd64 void CrewMember::ClearTask(CrewMember *this); // 080cd4c0
+".5589e557565383ec5c8b5d088d55":  // unique sig
+cleanup __amd64 void CrewMember::ClearPath(CrewMember *this); // 080cd4f0
+".5589e557565383ec3c8b5d088b838c":  // unique sig
+cleanup __amd64 void CrewMember::SetRoom(CrewMember *this, int roomId); // 080cd600
+".8b542404b8010000008b4a68":  // unique sig
+cleanup __amd64 bool CrewMember::IsBusy(CrewMember *this); // 080cd830
+".8b442404c740201e":  // unique sig
+cleanup __amd64 bool CrewMember::OnInit(CrewMember *this); // 080cd8b0
+".83ec1c8b542424f3":  // unique sig
+cleanup __amd64 Point CrewMember::GetFinalGoal(CrewMember *this); // 080cd8d0
+".57565383ec108b7424248b5c2420f30f10461c":  // unique sig
+cleanup __amd64 Point CrewMember::GetNextGoal(CrewMember *this); // 080cd930
+".8b5424088b442404895064":  // unique sig
+cleanup __amd64 void CrewMember::CloseDoorBehind(CrewMember *this, Door *door); // 080cd980
+".f3c38db426000000008dbc27000000005557565383ec4c8b5c":  // unique sig
+cleanup __amd64 void CrewMember::Arrived(CrewMember *this); // 080cd990
+".5557565383ec4c8b5c24608d7424308d":  // unique sig
+cleanup __amd64 float CrewMember::GetMoveSpeed(CrewMember *this); // 080cd9a0
+".5589e557565383ec3c8b5d088d75d08b03":  // unique sig
+cleanup __amd64 void CrewMember::Restart(CrewMember *this); // 080cdc10
+".8b442404f30f10442408f30f1180e4":  // unique sig
+cleanup __amd64 void CrewMember::SetDamageBoost(CrewMember *this, float val); // 080cdd90
+".5383ec188b5c24208b4424248b93":  // unique sig
+cleanup __amd64 void CrewMember::SetHealthBoost(CrewMember *this, int val); // 080cddb0
+".575631f65331db83ec10":  // unique sig
+cleanup __amd64 void CrewMember::InitializeSkills(CrewMember *this); // 080cde40
+".565383ec248b5c24308b44243480bbac":  // unique sig
+cleanup __amd64 void CrewMember::SetCloneReady(CrewMember *this, bool val); // 080cdea0
+".565383ec248b5c24308b7424348b4368":  // unique sig
+cleanup __amd64 void CrewMember::Kill(CrewMember *this, bool noClone); // 080cdf40
+".8b54240431c080ba78":  // unique sig
+cleanup __amd64 bool CrewMember::NeedFrozenLocation(CrewMember *this); // 080ce040
+".565383ec148b5c24208bb39c":  // unique sig
+cleanup __amd64 void CrewMember::CheckForTeleport(CrewMember *this); // 080ce0b0
+".8b5424048b4424088982":  // unique sig
+cleanup __amd64 void CrewMember::SetCurrentShip(CrewMember *this, int shipId); // 080ce160
+".8b4424048b9060":  // unique sig
+cleanup __amd64 void CrewMember::CheckFighting(CrewMember *this); // 080ce180
+".8b4424088b5424043b":  // unique sig
+cleanup __amd64 void CrewMember::SetDeathNumber(CrewMember *this, int val); // 080ce1a0
+".8b4424088b5424048882ad":  // unique sig
+cleanup __amd64 void CrewMember::ForceMindControl(CrewMember *this, bool val); // 080ce1c0
+".5557565383ec6c8b8424????????c7":  // unique sig
+cleanup __amd64 void CrewMember::RenderSkillUpAnimation(CrewMember *this, Point p); // 080ce1d0
+".57565383ec208b5c2430c683":  // unique sig
+cleanup __amd64 void CrewMember::Clone(CrewMember *this); // 080ce430
+".565383ec448b5c24508b83":  // unique sig
+cleanup __amd64 void CrewMember::UpdateHealth(CrewMember *this); // 080ce7c0
+".5383ec288b5c24308b4b":  // unique sig
+cleanup __amd64 void CrewMember::OnRenderPath(CrewMember *this); // 080cea10
+".5557565383ec3c8b742454f3":  // unique sig
+cleanup __amd64 bool CrewMember::SetPath(CrewMember *this, Path *path); // 080ceb10
+".5589e557565383ec5c8b5d088b750c8b7d108b83":  // unique sig
+cleanup __amd64 void CrewMember::SetRoomPath(CrewMember *this, int slotId, int roomId); // 080ced40
+".57565383ec108b7424248b5c2420f30f10460c":  // unique sig
+cleanup __amd64 Point CrewMember::GetLocation(CrewMember *this); // 080ceea0
+".8b442404f30f1015????????f30f10":  // unique sig
+cleanup __amd64 bool CrewMember::AtGoal(CrewMember *this); // 080ceef0
+".8b442404f30f1015????????f30f2a8890000000f30f104008f30f5cc1f30f100d????????0f54c20f2ec876??f30f2a9894000000f30f10400cf30f5cc30f54c20f2ec80f97c0c331c0c390":  // unique sig
+cleanup __amd64 bool CrewMember::AtFinalGoal(CrewMember *this); // 080cef50
+".5589e557565381ecac0000008b7d0880":  // unique sig
+cleanup __amd64 void CrewMember::OnRenderHealth(CrewMember *this); // 080cefa0
+".8b54240431c080baac0100000075??f3":  // unique sig
+cleanup __amd64 int CrewMember::GetIntegerHealth(CrewMember *this); // 080cf810
+".8b4424048b406885c074":  // unique sig
+cleanup __amd64 int CrewMember::GetRepairingId(CrewMember *this); // 080cf830
+".538b4424148b5c":  // unique sig
+cleanup __amd64 bool CrewMember::WithinRect(CrewMember *this, int x, int y, int width, int height); // 080cf850
+".5589e55383ec148b450c8b5d0880b810":  // unique sig
+cleanup __amd64 string CrewMember::GetLongName(CrewMember *this); // 080cf8c0
+".5589e557565383ec3c8b5d088b750c8b7d108d":  // unique sig
+cleanup __amd64 void CrewMember::SetName(CrewMember *this, TextString *name, bool force); // 080cf930
+".5589e55383ec148b450c8b5d0880b808":  // unique sig
+cleanup __amd64 string CrewMember::GetName(CrewMember *this); // 080cfa90
+".57565383ec108b5c24208b7424248b7c24288b03":  // unique sig
+cleanup __amd64 void CrewMember::SetCurrentTarget(CrewMember *this, CrewTarget *target, bool force); // 080cfb00
+".5589e557565383ec5c8b7d088b4764":  // unique sig
+cleanup __amd64 bool CrewMember::GetNewGoal(CrewMember *this); // 080cfb80
+".5589e557565383ec7c8b5d088b7514":  // unique sig
+cleanup __amd64 bool CrewMember::MoveToRoom(CrewMember *this, int roomId, int slotId, bool bForceMove); // 080d0140
+".5589e5565383ec308b5d088b75":  // unique sig
+cleanup __amd64 void CrewMember::SetMindControl(CrewMember *this, bool val); // 080d0370
+".5589e557565383ec7c8b5d088b038b":  // unique sig
+cleanup __amd64 bool CrewMember::RestorePosition(CrewMember *this); // 080d0450
+".8b542404f30f1005":  // unique sig
+cleanup __amd64 bool CrewMember::ContainsPoint(CrewMember *this, int mX, int mY); // 080d0600
+".f3c38db426000000008dbc27000000005383ec188b5c24208b03891c24ff5078":  // unique sig
+cleanup __amd64 void CrewMember::OnCleanup(CrewMember *this); // 080d0680
+".5383ec188b5c24208b03891c24ff5078":  // unique sig
+cleanup __amd64 void CrewMember::SetMedbay(CrewMember *this, float medbay); // 080d0690
+".5383ec188b4424208b989c000000c7433806000000c7433000000000c74424????????00c74424????????008b43088b000580030000890424e8????????c7442404010000008b43088b000560030000890424e8????????83":  // unique sig
+cleanup __amd64 void CrewMember::StartTeleport(CrewMember *this); // 080d06c0
+".5383ec188b4424208b989c000000c7433806000000c7433000000000c74424????????00c74424????????008b43088b000580030000890424e8????????c7442404010000008b43088b000560030000890424e8????????c7":  // unique sig
+cleanup __amd64 void CrewMember::StartTeleportArrive(CrewMember *this); // 080d0720
+".5589e557565383ec3c8b5d08f30f10":  // unique sig
+cleanup __amd64 void CrewMember::StartRepair(CrewMember *this, Repairable *repair); // 080d1560
+".5589e557565383ec6c8b5d088b43":  // unique sig
+cleanup __amd64 void CrewMember::UpdateRepair(CrewMember *this); // 080d1690
+".5589e5565383ec408b5d088b83":  // unique sig
+cleanup __amd64 void CrewMember::UpdateMovement(CrewMember *this); // 080d1b20
+".5589e557565381ec8c0000008b5d0880bb":  // unique sig
+cleanup __amd64 void CrewMember::OnLoop(CrewMember *this); // 080d1ce0
+".5589e557565381ec8c0000008b45088d5d":  // unique sig
+cleanup __amd64 string CrewMember::GetTooltip(CrewMember *this); // 080d2ef0
+".5589e557565381ecac0000008b45148d":  // unique sig
+static cleanup __amd64 string CrewMember::GetSkillTooltip(int skillId, int skillLevel, std::pair<int, int> progress, bool infoScreen); // 080d3360
+".565383ec148b5c24208b7424248b839c":  // unique sig
+cleanup __amd64 void CrewMember::SetSex(CrewMember *this, bool male); // 080d4590
+".5557565383ec4c8b442460c744":  // unique sig
+cleanup __amd64 void CrewMember::CycleColorLayer(CrewMember *this, int dir); // 080d4600
+".5557565381ec9c0000008b8424????????8bbc":  // unique sig
+cleanup __amd64 void CrewMember::constructor(CrewMember *this, CrewBlueprint *myBlueprint, int shipId, bool intruder, CrewAnimation *anim); // 080d6fb0
+".83ec1c8b4424208b10890424ff92":  // unique sig
+cleanup __amd64 bool CrewMember::Functional(CrewMember *this); // 080da130
+".5383ec188b5c24208b03891c24ff9088":  // unique sig
+cleanup __amd64 bool CrewMember::CountForVictory(CrewMember *this); // 080da150
+".8b442404f30f1015????????f30f2a8890000000f30f104008f30f5cc1f30f100d????????0f54c20f2ec876??f30f2a9894000000f30f10400cf30f5cc30f54c20f2ec80f97c0c331c0c366":  // unique sig
+cleanup __amd64 bool CrewMember::ReadyToFight(CrewMember *this); // 080da190
+".b801000000c3669066906690669066908b4424040f":  // unique sig
+cleanup __amd64 bool CrewMember::CanFight(CrewMember *this); // 080da1e0
+".8b4424040fb6809800":  // unique sig
+cleanup __amd64 bool CrewMember::CanSabotage(CrewMember *this); // 080da1f0
+".8b54240431c080ba98":  // unique sig
+cleanup __amd64 bool CrewMember::CanMan(CrewMember *this); // 080da200
+".b801000000c366906690669066906690b801000000c366906690669066906690b864":  // unique sig
+cleanup __amd64 bool CrewMember::CanSuffocate(CrewMember *this); // 080da240
+".b801000000c366906690669066906690b864":  // unique sig
+cleanup __amd64 bool CrewMember::CanBurn(CrewMember *this); // 080da250
+".b864000000c366906690669066906690b8":  // unique sig
+cleanup __amd64 int CrewMember::GetMaxHealth(CrewMember *this); // 080da260
+".b801000000c3669066906690669066908b542404":  // unique sig
+cleanup __amd64 bool CrewMember::PermanentDeath(CrewMember *this); // 080da270
+".8b542404b8010000008b4a04":  // unique sig
+cleanup __amd64 bool CrewMember::ProvidesVision(CrewMember *this); // 080da280
+".d9e8c36690669066906690669066909031c0c366906690669066906690669090b8":  // unique sig
+cleanup __amd64 float CrewMember::GetMoveSpeedMultipler(CrewMember *this); // 080da2a0
+".31c0c366906690669066906690669090b801000000c366906690669066906690b801000000c366906690669066906690b846":  // unique sig
+cleanup __amd64 bool CrewMember::IsDrone(CrewMember *this); // 080da2b0
+".b801000000c366906690669066906690b801000000c366906690669066906690b846":  // unique sig
+cleanup __amd64 bool CrewMember::CanStim(CrewMember *this); // 080da2c0
+".5383ec188b5c242080bb9800":  // unique sig
+cleanup __amd64 bool CrewMember::CanRepair(CrewMember *this); // 080da4d0
+".5331c083ec188b5c24208b530485":  // unique sig
+cleanup __amd64 bool CrewMember::GetControllable(CrewMember *this); // 080da510
+".e9????????669066906690669066909055575631":  // unique sig
+cleanup __amd64 bool CrewMember::ShipDamage(CrewMember *this, float amount); // 080da7d0

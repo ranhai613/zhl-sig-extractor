@@ -1,0 +1,160 @@
+"8b4c24048b4424088b54240c89415c":  // unique sig
+cleanup __amd64 void StarMap::SetPosition(StarMap *this, Point p); // 0826e590
+"!.8b442404807c2408008b1075":  // unique sig
+cleanup __amd64 void StarMap::SetOpen(StarMap *this, bool open); // 0826e5b0
+".56538b98":  // unique sig
+cleanup __amd64 int StarMap::GetNextDangerMove(StarMap *this); // 0826e5d0
+".56538b74240c80":  // unique sig
+cleanup __amd64 bool StarMap::KeyDown(StarMap *this, SDLKey sym); // 0826e630
+".565383ec248b74243080":  // unique sig
+cleanup __amd64 void StarMap::Close(StarMap *this); // 0826e6a0
+".5383ec188b5c2420807b040074??83":  // unique sig
+cleanup __amd64 void StarMap::Open(StarMap *this); // 0826e770
+".5589e557565381ec8c0000008b45088d75":  // unique sig
+cleanup __amd64 void StarMap::InitMapTitle(StarMap *this); // 0826f260
+".5557565383ec5c8b6c24708d5c":  // unique sig
+cleanup __amd64 void StarMap::InitNoFuelText(StarMap *this); // 0826f620
+".5589e557565383ec3c8b5d088bb3":  // unique sig
+cleanup __amd64 void StarMap::InitBossMessageBox(StarMap *this); // 0826f9e0
+".5383ec188b5c2420891c24e8????????891c24e8????????895c":  // unique sig
+cleanup __amd64 void StarMap::OnLanguageChange(StarMap *this); // 0826fb30
+".83ec0c803d????????0075??e8????????89":  // unique sig
+cleanup __amd64 int StarMap::GetRandomSectorChoice(StarMap *this); // 0826fbb0
+".5631c0538b5c2410":  // unique sig
+cleanup __amd64 bool StarMap::NeighboringSector(StarMap *this, int potentialSector); // 0826fc10
+".5557565383ec2c8b6c24408b54":  // unique sig
+cleanup __amd64 int StarMap::GetSelectedSector(StarMap *this, int mX, int mY, int maxDist); // 0826fc80
+".5383ec288b4424308d5c241c8b":  // unique sig
+cleanup __amd64 void StarMap::StartSecretSector(StarMap *this); // 0826fdf0
+".5557565383ec5c8b7c2474":  // unique sig
+cleanup __amd64 void StarMap::ReachSector(StarMap *this, Sector *sector); // 0826fea0
+"!.5756538b7c24148b74":  // unique sig
+cleanup __amd64 void StarMap::UpdateSectorMap(StarMap *this, Sector *fakeCurrent); // 08270250
+".5557565383ec3c8b6c24508b5c":  // unique sig
+cleanup __amd64 void StarMap::SaveGame(StarMap *this, int fd); // 082702a0
+".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b4424048b":  // unique sig
+cleanup __amd64 void StarMap::InitStatistics(StarMap *this); // 08270880
+".f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b4424048b":  // unique sig
+cleanup __amd64 void StarMap::PrintStatistics(StarMap *this); // 08270890
+".f3c38db426000000008dbc27000000008b4424048b54":  // unique sig
+cleanup __amd64 void StarMap::AnalyzeMap(StarMap *this); // 082708a0
+".8b4424048b542408019020":  // unique sig
+cleanup __amd64 void StarMap::ModifyPursuit(StarMap *this, int amount); // 082708b0
+".5631c0538b54240c83":  // unique sig
+cleanup __amd64 int StarMap::GetNextDangerMove(StarMap *this); // 082708c0
+".8b4424048b40500f":  // unique sig
+cleanup __amd64 bool StarMap::AtBeacon(StarMap *this); // 08270930
+".8b44240480787c":  // unique sig
+cleanup __amd64 Location *StarMap::GetWaitLocation(StarMap *this); // 08270940
+".5631c0538b54240c8b8a":  // unique sig
+cleanup __amd64 bool StarMap::StartBeacon(StarMap *this); // 08270980
+".538b44240c8b5c":  // unique sig
+cleanup __amd64 bool StarMap::LocationsConnected(StarMap *this, Location *loc, Location *loc2); // 082709d0
+".5383ec18f30f1005????????f3":  // unique sig
+cleanup __amd64 Point StarMap::PointToGrid(StarMap *this, float x, float y); // 08270a10
+".538b44240c8b54240880":  // unique sig
+cleanup __amd64 void StarMap::TravelToLocation(StarMap *this, Location *loc); // 08270a80
+".8b4424048b4050c6":  // unique sig
+cleanup __amd64 void StarMap::ForceExitBeacon(StarMap *this); // 08270ac0
+".f3c38db426000000008dbc27000000005631":  // unique sig
+cleanup __amd64 void StarMap::OnRenderFogEffect(StarMap *this); // 08270ad0
+".5631c0538b54240c8b74":  // unique sig
+cleanup __amd64 bool StarMap::LocationHasBoss(StarMap *this, Location *loc); // 08270ae0
+".56538b5424108b4c240c8b":  // unique sig
+cleanup __amd64 bool StarMap::LocationHasStore(StarMap *this, Location *loc); // 08270b10
+".8b4424088b4020":  // unique sig
+cleanup __amd64 bool StarMap::LocationHasShip(StarMap *this, Location *loc); // 08270b60
+".5557565383ec5c8b7424708b86":  // unique sig
+cleanup __amd64 void StarMap::AdvanceWorldLevel(StarMap *this); // 08270b80
+".5589e557565383ec3c8b45088b5d0c":  // unique sig
+cleanup __amd64 string StarMap::GetLocationText(StarMap *this, Location *loc); // 08271070
+".56538b5c240c8b":  // unique sig
+cleanup __amd64 void StarMap::ReverseBossPath(StarMap *this); // 082718f0
+".5756538b5c241080":  // unique sig
+cleanup __amd64 void StarMap::ForceBossJump(StarMap *this); // 08271960
+".565331db83ec148b7424208b56208b4624c6":  // unique sig
+cleanup __amd64 void StarMap::ClearBoss(StarMap *this); // 08271a00
+".8b5424088b4424048990f4":  // unique sig
+cleanup __amd64 void StarMap::SetBossStage(StarMap *this, int val); // 08271aa0
+".8b54240431c083":  // unique sig
+cleanup __amd64 bool StarMap::CheckGameOver(StarMap *this); // 08271ab0
+".5589e557565383ec3c8b750c8b5d":  // unique sig
+cleanup __amd64 string StarMap::GetPotentialSectorChoiceName(StarMap *this); // 08271b00
+".5589e557565381eccc0000008b7508e8":  // unique sig
+cleanup __amd64 void StarMap::RenderLabels(StarMap *this); // 08271d20
+".5557565383ec2c8b7424408bbee8":  // unique sig
+cleanup __amd64 void StarMap::DeleteMap(StarMap *this); // 082725e0
+".5557565383ec2c8b5c244080bb30":  // unique sig
+cleanup __amd64 void StarMap::MouseClick(StarMap *this, int mX, int mY); // 08272850
+".5589e557565381ecdc0000008b75":  // unique sig
+cleanup __amd64 void StarMap::AddSectorColumn(StarMap *this); // 08272ba0
+"!.5557565331db83ec1c8b7c24308b8f74":  // unique sig
+cleanup __amd64 void StarMap::PushSectorColumn(StarMap *this); // 08273ad0
+"!.57565383ec108b7424208b44":  // unique sig
+cleanup __amd64 void StarMap::SelectNewSector(StarMap *this, int choice); // 08273bc0
+".5589e557565381ecbc0000008b5d088b8b":  // unique sig
+cleanup __amd64 void StarMap::GenerateSectorMap(StarMap *this); // 08273c60
+".5589e557565381ec9c0000008b450c":  // unique sig
+cleanup __amd64 void StarMap::DrawConnection(StarMap *this, Pointf *p1, Pointf *p2, GL_Color *color); // 08274670
+".5589e557565383ec5c8b5d0c8b43":  // unique sig
+cleanup __amd64 void StarMap::TurnIntoFleetLocation(StarMap *this, Location *location); // 08274e20
+".5557565389c383ec2c8b":  // unique sig
+cleanup __amd64 void StarMap::UpdateBoss(StarMap *this); // 08275090
+".8b44240480b8cc":  // unique sig
+cleanup __amd64 void StarMap::UpdateBoss(StarMap *this); // 08275490
+".5589e557565381ec9c0000008b7d0883":  // unique sig
+cleanup __amd64 void StarMap::SetupNoFuel(StarMap *this, int seed, string *forceEscape); // 082754b0
+".565383ec448b5c245080":  // unique sig
+cleanup __amd64 void StarMap::UpdateDangerZone(StarMap *this); // 08275c20
+".5731c0565383ec108b7c":  // unique sig
+cleanup __amd64 Location *StarMap::GetNewLocation(StarMap *this); // 08275fc0
+".5589e557565383ec3c8b7d08807f040075??8d65f45b5e5f5dc38db6000000008b87":  // unique sig
+cleanup __amd64 void StarMap::OnLoop(StarMap *this); // 08276040
+".5589e557565381ecbc0000008b450c8b":  // unique sig
+cleanup __amd64 void StarMap::GenerateNebulas(StarMap *this, std::vector<std::string> *names); // 08276470
+".5557565381ecdc0000008b8424????????89":  // unique sig
+cleanup __amd64 void StarMap::GenerateEvents(StarMap *this, bool bTutorial); // 08276d50
+".5589e557565383ec5c8b7d088d":  // unique sig
+cleanup __amd64 void StarMap::AddConnections(StarMap *this, Location *loc); // 082777a0
+".5383ec188b5c24208b8310":  // unique sig
+cleanup __amd64 bool StarMap::MapConnected(StarMap *this); // 082778d0
+".5589e557565383ec3c8b75088d45":  // unique sig
+cleanup __amd64 void StarMap::ConnectLocations(StarMap *this, Point grid1, Point grid2); // 08277940
+".5589e557565383ec6c8b5d088d4d":  // unique sig
+cleanup __amd64 void StarMap::PopulateGrid(StarMap *this, Point grid); // 08277bf0
+".5589e557565383ec5c8b750c8b":  // unique sig
+cleanup __amd64 Location *StarMap::PopClosestLoc(StarMap *this, std::vector<Location*> *locations, std::map<Location*, int> *distances); // 08277f70
+".5589e5575631f65381ecec":  // unique sig
+static cleanup __amd64 std::vector<Location*> *StarMap::Dijkstra(vector<Location*,_std::allocator<Location*>_> *__return_storage_ptr__, StarMap *this, Location *start, Location *finish, bool include_unknown); // 082780d0
+".5557565383ec6c0f":  // unique sig
+cleanup __amd64 bool StarMap::AddQuest(StarMap *this, string *name, bool force); // 08278760
+".5589e557565381ecfc0000008b5d0c":  // unique sig
+cleanup __amd64 Location *StarMap::GenerateMap(StarMap *this, bool bTutorial, bool useOldSeed); // 08278b20
+".5589e557565383ec6c8b7d088b450c8b8f":  // unique sig
+cleanup __amd64 Location *StarMap::NewGame(StarMap *this, bool tutorial); // 082797f0
+".5589e557565381ecdc0000008b45088b":  // unique sig
+cleanup __amd64 std::vector<Location*> *StarMap::Dijkstra(StarMap *this, Location *start, Location *finish, bool include_unknown); // 08279db0
+".5589e557565381ec8c0000008b750880":  // unique sig
+cleanup __amd64 void StarMap::OnTouch(StarMap *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0827a550
+".5589e557565381ec8c0000008b45088b5d0c8b":  // unique sig
+cleanup __amd64 void StarMap::MouseMove(StarMap *this, int mX, int mY); // 0827ae00
+".5589e557565381ec2c0100008b450c":  // unique sig
+cleanup __amd64 void StarMap::RenderSectorName(StarMap *this, Sector *sector, GL_Color color); // 0827b650
+"!.5557565383ec6c8bac24????????e8":  // unique sig
+cleanup __amd64 void StarMap::RenderSectorMap(StarMap *this); // 0827bf00
+".5589e557565381ec7c0100008b7d088d":  // unique sig
+cleanup __amd64 void StarMap::constructor(StarMap *this); // 0827c970
+".5589e557565381ecac02":  // unique sig
+cleanup __amd64 Location *StarMap::LoadGame(StarMap *this, int fd); // 0827f6c0
+".5589e5565383ec708b75":  // unique sig
+cleanup __amd64 void StarMap::RenderLeftInsetButton(StarMap *this, float rightX, float y, bool isWait); // 082817b0
+".5589e557565381eccc0000008b5d088d":  // unique sig
+cleanup __amd64 void StarMap::RenderDistressButtons(StarMap *this); // 08281b40
+".5589e55789c7565381ec7c":  // unique sig
+cleanup __amd64 void StarMap::OnRender(StarMap *this); // 08282400
+".8b4424048078040074??e9":  // unique sig
+cleanup __amd64 void StarMap::OnRender(StarMap *this); // 082859d0
+".55575631f65383ec2c8b5c24408b8b74":  // unique sig
+cleanup __amd64 void StarMap::destructor(StarMap *this); // 082859f0
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????66909055":  // unique sig
+cleanup __amd64 void StarMap::destructor(StarMap *this); // 08285f40

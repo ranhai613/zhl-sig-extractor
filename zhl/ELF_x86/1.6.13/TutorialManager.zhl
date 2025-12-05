@@ -1,0 +1,50 @@
+"5383ec188b5c24208d4304c6":  // unique sig
+cleanup __amd64 void TutorialManager::constructor(TutorialManager *this); // 080bd3e0
+".8b4424040fb600c390":  // unique sig
+cleanup __amd64 bool TutorialManager::Running(TutorialManager *this); // 080bd590
+".8b5424088b442404899030":  // unique sig
+cleanup __amd64 void TutorialManager::LinkMap(TutorialManager *this, StarMap *map); // 080bd5a0
+".5589e557565383ec2c8b550c":  // unique sig
+cleanup __amd64 void TutorialManager::UpdateDescBox(TutorialManager *this, string *text); // 080bd5b0
+".5631c05383ec34":  // unique sig
+cleanup __amd64 LocationEvent *TutorialManager::GetEvent(TutorialManager *this); // 080bd680
+".8b54240431c080ba45":  // unique sig
+cleanup __amd64 bool TutorialManager::QuitTutorial(TutorialManager *this); // 080bd740
+".5383ec188b5c2420803b":  // unique sig
+cleanup __amd64 void TutorialManager::Stop(TutorialManager *this); // 080bd760
+".f3c38db426000000008dbc27000000005589d1":  // unique sig
+cleanup __amd64 void TutorialManager::OnLanguageChange(TutorialManager *this); // 080bd7d0
+".5589e557565383ec4c8b55088b45088b9a":  // unique sig
+cleanup __amd64 int TutorialManager::StateValue(TutorialManager *this, string *state); // 080bd8a0
+".5589e557565383ec5c8b45088b80e00000008945b08b450c894424048d45d8890424e8????????8b55088b45088b9afc00000005f80000008945ac85db0f84????????8b55d88945b48955b88b7af4eb??8db42600000000895db48b5b0885db74??8b43108b55b88b70f48954240489042439f789f10f46cf29fe894c2408e8????????85c00f44c685c079??8b5b0c85db75??8b45b43945ac74??8b40108b58f4894424048b45b839df89d90f46cf894c2408890424e8????????89fa29da85c00f44c285c078??8b45b48b55b03b50148b55b80f9c":  // unique sig
+cleanup __amd64 bool TutorialManager::IsStateBefore(TutorialManager *this, string *state); // 080bda80
+".5589e557565383ec5c8b45088b80e00000008945b08b450c894424048d45d8890424e8????????8b55088b45088b9afc00000005f80000008945ac85db0f84????????8b55d88945b48955b88b7af4eb??8db42600000000895db48b5b0885db74??8b43108b55b88b70f48954240489042439f789f10f46cf29fe894c2408e8????????85c00f44c685c079??8b5b0c85db75??8b45b43945ac74??8b40108b58f4894424048b45b839df89d90f46cf894c2408890424e8????????89fa29da85c00f44c285c078??8b45b48b55b03b50148b55b80f9f":  // unique sig
+cleanup __amd64 bool TutorialManager::IsStateAfter(TutorialManager *this, string *state); // 080bdc90
+".5589e557565383ec5c8b45088b80e00000008945b08b450c894424048d45d8890424e8????????8b55088b45088b9afc00000005f80000008945ac85db0f84????????8b55d88945b48955b88b7af4eb??8db42600000000895db48b5b0885db74??8b43108b55b88b70f48954240489042439f789f10f46cf29fe894c2408e8????????85c00f44c685c079??8b5b0c85db75??8b45b43945ac74??8b40108b58f4894424048b45b839df89d90f46cf894c2408890424e8????????89fa29da85c00f44c285c078??8b45b48b55b03b50148b55b80f94":  // unique sig
+cleanup __amd64 bool TutorialManager::IsState(TutorialManager *this, string *state); // 080bdea0
+".565383ec348b7424408d":  // unique sig
+cleanup __amd64 bool TutorialManager::AllowJumping(TutorialManager *this); // 080be0b0
+".5756be010000005383ec30":  // unique sig
+cleanup __amd64 bool TutorialManager::AllowUpgrades(TutorialManager *this); // 080be140
+".5589e557565383ec5c8b450880380075??8d65f45b5e5f5dc38db4260000000089c205":  // unique sig
+cleanup __amd64 void TutorialManager::MouseMove(TutorialManager *this, int mX, int mY); // 080be250
+".5589e557565383ec7c8b45088b":  // unique sig
+cleanup __amd64 bool TutorialManager::CheckState(TutorialManager *this); // 080be3a0
+".5589e557565381eccc0000008b75088d":  // unique sig
+cleanup __amd64 void TutorialManager::AdvanceState(TutorialManager *this); // 080bf030
+".5589e557565383ec5c8b45080fb60084c074":  // unique sig
+cleanup __amd64 bool TutorialManager::MouseClick(TutorialManager *this); // 080bf920
+".5589e557565383ec5c8b450880380075??31":  // unique sig
+cleanup __amd64 bool TutorialManager::OnTouch(TutorialManager *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 080bfa70
+".5589e557565383ec6c8b7d08803f":  // unique sig
+cleanup __amd64 void TutorialManager::OnLoop(TutorialManager *this); // 080bfbf0
+".5589e557565381ec4c0101":  // unique sig
+cleanup __amd64 void TutorialManager::LoadTutorial(TutorialManager *this); // 080c0240
+".5557565383ec4c8b5c24608d7424308b":  // unique sig
+cleanup __amd64 void TutorialManager::OnInit(TutorialManager *this, ShipManager *ship, CommandGui *gui, CrewControl *crew, Upgrades *upgrades, CombatControl *combat, SystemControl *_sil__DO_NOT_USE_system, TabbedWindow *tabbed); // 080c1780
+".5383ec188b5c2420891c2481c3e4":  // unique sig
+cleanup __amd64 void TutorialManager::Start(TutorialManager *this); // 080c1b50
+".5557565383ec2c8b7424408b9e68":  // unique sig
+cleanup __amd64 void TutorialManager::destructor(TutorialManager *this); // 080c1b90
+".5589e557565381ecac0000008b45088038":  // unique sig
+cleanup __amd64 void TutorialManager::OnRender(TutorialManager *this); // 080c1cf0

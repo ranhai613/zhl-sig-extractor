@@ -1,0 +1,44 @@
+"8b442404807850":  // unique sig
+cleanup __amd64 void StoreBox::MouseClick(StoreBox *this, int mX, int mY); // 081bc7e0
+".5383ec288b4424308b90":  // unique sig
+cleanup __amd64 void StoreBox::Activate(StoreBox *this); // 081bcd60
+".565383ec248b4424308d70":  // unique sig
+cleanup __amd64 void StoreBox::SetPosition(StoreBox *this, Point position); // 081bdb80
+".57565383ec208b7424348d":  // unique sig
+cleanup __amd64 void StoreBox::InitBlueprint(StoreBox *this, Blueprint *blueprint); // 081bdbd0
+".8b5424088b4424048990c0":  // unique sig
+cleanup __amd64 void StoreBox::SetShopper(StoreBox *this, ShipManager *ship); // 081bdd20
+".8b4424048b5424088990c0":  // unique sig
+cleanup __amd64 void StoreBox::RelinkShip(StoreBox *this, ShipManager *ship, Equipment *equip); // 081bdd30
+".5557565383ec3c8b5c24508d742428":  // unique sig
+cleanup __amd64 void StoreBox::constructor(StoreBox *this, string buttonImage, ShipManager *shopper, Equipment *equipScreen); // 081bdd50
+".5331c083ec188b5c24208b93":  // unique sig
+cleanup __amd64 void StoreBox::OnLoop(StoreBox *this); // 081c05d0
+".5557565383ec2c8d74241c8b5c24408d7c241a897c2408c7442404????????893424e8????????c74424????????00c7442408000080bf89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????897c2408c7442404????????893424e8????????89742404c70424????????e8????????8b44241c8d50f481fa????????0f85????????c74424????????008b8398000000f7d8894424048b83c0000000890424e8????????8b83b800000083e80185c08983b80000000f9fc083":  // unique sig
+cleanup __amd64 void StoreBox::Purchase(StoreBox *this); // 081c0620
+"!.58fc89c8eb??8b48fc8d79ff8978fc89c8eb??8db600000000":  // unique sig
+noHook __amd64 void StoreBox::__DO_NOT_HOOK(); // 081c19bf
+".56":  // non-unique sig
+cleanup __amd64 void StoreBox::destructor(StoreBox *this); // 081c19c0
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905589e557565381ec7c":  // unique sig
+cleanup __amd64 void StoreBox::destructor(StoreBox *this); // 081c1bf0
+"5589e557565381ec7c03":  // unique sig
+cleanup __amd64 void StoreBox::OnRender(StoreBox *this); // 081c1c10
+".83ec1c8b442428c74424????????00894424088b442424894424048b44242083":  // unique sig
+cleanup __amd64 void StoreBox::MouseMove(StoreBox *this, int mX, int mY); // 081c3bc0
+".5383ec288b4424488b5c2430894424188b442444894424148b442440894424108b44243c8944240c8b442438894424088b442434894424048d4310":  // unique sig
+cleanup __amd64 void StoreBox::OnTouch(StoreBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081c42b0
+".31c0c366906690669066906690669090b801000000c36690669066906690669031c0c366906690669066906690669090f3c366":  // unique sig
+cleanup __amd64 int StoreBox::SetInfoBox(StoreBox *this, InfoBox *box, int forceSystemInfoWidth); // 081c4310
+".b801000000c36690669066906690669031c0c366906690669066906690669090f3c3669066906690669066906690669031c0c366906690669066906690669090f3":  // unique sig
+cleanup __amd64 bool StoreBox::CanHold(StoreBox *this); // 081c4320
+".31c0c366906690669066906690669090f3c3669066906690669066906690669031c0c366906690669066906690669090f3c366906690669066906690669066908b":  // unique sig
+cleanup __amd64 bool StoreBox::RequiresConfirm(StoreBox *this); // 081c4330
+".f3c3669066906690669066906690669031c0c366906690669066906690669090f3c366906690669066906690669066908b":  // unique sig
+cleanup __amd64 void StoreBox::Confirm(StoreBox *this, bool val); // 081c4340
+".31c0c366906690669066906690669090f3c366906690669066906690669066908b44":  // unique sig
+cleanup __amd64 int StoreBox::GetExtraData(StoreBox *this); // 081c4350
+".f3c366906690669066906690669066908b4424040fb680":  // unique sig
+cleanup __amd64 void StoreBox::SetExtraData(StoreBox *this, int data); // 081c4360
+".5383ec288b5c24308d44241f89442408c7442404????????891c24e8????????89d8c643040183c4285bc2040066909055":  // unique sig
+cleanup __amd64 TextString StoreBox::GetConfirmText(StoreBox *this); // 081c43b0

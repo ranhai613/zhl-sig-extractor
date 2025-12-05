@@ -1,0 +1,13 @@
+"5383ec388b5c24408b44244439437474??83c4385bc36690e8????????c7":  // unique sig
+cleanup __amd64 void Missile::OnRenderSpecific(Missile *this, int spaceId); // 0808bc40
+".5589e557565381ecdc0000008b451c8b55208b":  // unique sig
+cleanup __amd64 void Missile::constructor(Missile *this, Pointf position, int ownerId, int destinationSpace, Pointf destination, float heading); // 0808be30
+".5383ec288b4c2434":  // unique sig
+cleanup __amd64 void Missile::constructor(Missile *this, Missile *missile); // 0808c4a0
+".b803000000c36690669066906690669055":  // unique sig
+cleanup __amd64 int Missile::GetType(Missile *this); // 0808c510
+"!.6690":  // non-unique sig
+noHook __amd64 void Missile::__DO_NOT_HOOK(); // 0808c51f
+".55":  // non-unique sig
+cleanup __amd64 void Missile::destructor(Missile *this); // 0808c520
+// Failed to generate signature for function: Missile::~Missile at 0808ca70

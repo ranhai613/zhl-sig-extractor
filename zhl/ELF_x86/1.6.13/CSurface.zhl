@@ -1,0 +1,140 @@
+"f3c38db426000000008dbc270000000083ec0c":  // unique sig
+cleanup __amd64 void CSurface::constructor(CSurface *this); // 081fb8c0
+".83ec0ce8????????85c00f":  // unique sig
+static cleanup __amd64 bool CSurface::IsFrameBufferSupported(); // 081fb8d0
+"!.83ec0ce8????????83c4":  // unique sig
+static cleanup __amd64 void CSurface::StartFrame(); // 081fb8f0
+".e9????????908d76008dbc27000000000f":  // unique sig
+static cleanup __amd64 void CSurface::FinishFrame(); // 081fb900
+"0f57c083ec2c":  // unique sig
+static cleanup __amd64 void CSurface::GL_ClearAll(); // 081fb910
+".0f57c083ec1c":  // unique sig
+static cleanup __amd64 void CSurface::GL_ClearColor(); // 081fb950
+".83ec1c8b44242c89":  // unique sig
+static cleanup __amd64 bool CSurface::GL_SetViewPort(int x1, int y1, int x2, int y2); // 081fb980
+".83ec1c8b0d????????8b15":  // unique sig
+static cleanup __amd64 void CSurface::GL_PopScissor(); // 081fb9b0
+".565383ec148b4424208b5c24248b74242883":  // unique sig
+static cleanup __amd64 void CSurface::GL_SetStencilMode(GL_StencilMode mode, int ref, int mask); // 081fba40
+".8b15????????8b0d????????89d0":  // unique sig
+static cleanup __amd64 void CSurface::GL_PopStencilMode(); // 081fbba0
+".e9????????908d76008dbc270000000083ec1c0f":  // unique sig
+static cleanup __amd64 void CSurface::GL_OrthoProjection(float left, float right, float bottom, float top, float zNear, float zFar); // 081fbd30
+"83ec1c0f57d2":  // unique sig
+static cleanup __amd64 void CSurface::GL_LoadIdentity(); // 081fbd40
+".8b15????????83fa0f76":  // unique sig
+static cleanup __amd64 void CSurface::GL_PushMatrix(); // 081fbdc0
+".83ec2ca1????????85c00f84????????83":  // unique sig
+static cleanup __amd64 void CSurface::GL_PopMatrix(); // 081fbe60
+".81ec0c0100000f57":  // unique sig
+static cleanup __amd64 void CSurface::GL_Rotate(float angle, float x, float y, float z); // 081fc130
+".f30f104c2404b8":  // unique sig
+static cleanup __amd64 void CSurface::GL_Scale(float x, float y, float z); // 081fc8c0
+".83ec100f":  // unique sig
+static cleanup __amd64 void CSurface::GL_Translate(float x, float y, float z); // 081fc960
+".83ec2c8b442430f3":  // unique sig
+static cleanup __amd64 void CSurface::GL_SetColor(GL_Color color); // 081fcae0
+".8b4424048b15????????89108b15????????8950048b15????????8950088b15????????89500cc204008d":  // unique sig
+static cleanup __amd64 GL_Color *CSurface::GL_GetColor(); // 081fcb50
+".a1????????3b05????????74??83":  // unique sig
+static cleanup __amd64 void CSurface::GL_RemoveColorTint(); // 081fcb80
+".8b0d????????8b15????????8b44":  // unique sig
+static cleanup __amd64 GL_Color *CSurface::GetColorTint(); // 081fcba0
+".83ec1cc744240804":  // unique sig
+static cleanup __amd64 void CSurface::GL_EnableBlend(); // 081fcbf0
+".83ec1cc74424????????00c744240401000000c7042401000000e8????????83":  // unique sig
+static cleanup __amd64 void CSurface::GL_DisableBlend(); // 081fcc20
+".8b442404a2":  // unique sig
+static cleanup __amd64 void CSurface::GL_ForceAntialias(bool on); // 081fcc50
+".81ecbc0000008b15":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawLine(float x1, float y1, float x2, float y2, float thickness, GL_Color color); // 081fcc60
+".5557565381ec8c0000008b15":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawTriangle(Point p1, Point p2, Point p3, GL_Color color); // 081fd0a0
+".81ec9c0000008b15":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawRect(float x, float y, float w, float h, GL_Color color); // 081fd260
+".5381ecc8":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawRectOutline(int x, int y, int w, int h, GL_Color color, float thickness); // 081fd440
+".565381ecb4":  // unique sig
+static cleanup __amd64 void CSurface::GL_BlitImage(GL_Texture *tex, float x, float y, float size_x, float size_y, float rotate, GL_Color color, bool mirrored); // 081fd940
+".57565381ecb00000000f":  // unique sig
+static cleanup __amd64 bool CSurface::GL_BlitPixelImage(GL_Texture *tex, float x, float y, float size_x, float size_y, float rotate, GL_Color color, bool mirrored); // 081fe180
+".57565383ec6080":  // unique sig
+static cleanup __amd64 void CSurface::GL_BlitImagePartial(GL_Texture *tex, float x, float y, float size_x, float size_y, float start_x, float end_x, float start_y, float end_y, float alpha, GL_Color color, bool mirror); // 081fe9d0
+".5557565381ec8c0000008bbc24????????8b9c":  // unique sig
+cleanup __amd64 void CSurface::GL_BlitPixelImageWide(CSurface *this, GL_Texture *tex, float x, float y, int width, int mid_x, float alpha, GL_Color color, bool mirror); // 081fed40
+".5557565381ecac000000f3":  // unique sig
+static cleanup __amd64 bool CSurface::GL_TilePixelImage(GL_Texture *tex, float x, float y, float size_x, float size_y, float sub_size_x, float sub_size_y, float scroll, GL_Color color); // 081ff390
+".5557565383ec4c8b15????????8b4424688b5c24608b7c246489442418":  // unique sig
+static cleanup __amd64 void CSurface::GL_BlitMultiImage(GL_Texture *tex, std::vector<GL_TexVertex> *vertices, bool antialias); // 081ff850
+".5557565383ec4c8b15????????8b4424688b5c24608b7c246489442420":  // unique sig
+static cleanup __amd64 void CSurface::GL_BlitMultiColorImage(GL_Texture *tex, std::vector<GL_ColorTexVertex> *vertices, bool antialias); // 081ffc90
+".5383ec288b442434c7":  // unique sig
+static cleanup __amd64 GL_FrameBuffer *CSurface::GL_CreateFrameBuffer(int w, int h); // 08200110
+"!.8b44240485c074??8b0089":  // unique sig
+static cleanup __amd64 void CSurface::GL_BindFrameBuffer(GL_FrameBuffer *fb); // 08200160
+".57565383ec608b":  // unique sig
+static cleanup __amd64 void CSurface::GL_BlitFrameBuffer(GL_FrameBuffer *fb, float size_x, float size_y, bool aa); // 08200190
+".8b4424048b54240885c074??88":  // unique sig
+static cleanup __amd64 void CSurface::GL_SetPrimitiveAntialias(GL_Primitive *primitive, bool on); // 08200270
+".5383ec288b5c243085db0f84????????8b15????????a1????????39c20f84????????29c283e2f08d4410f0f30f1040":  // unique sig
+static cleanup __amd64 void CSurface::GL_RenderPrimitive(GL_Primitive *primitive); // 08200290
+".5383ec288b5c243085db0f84????????8b15????????a1????????39c20f84????????29c283e2f08d4410f0f30f1050":  // unique sig
+static cleanup __amd64 void CSurface::GL_RenderPrimitiveWithAlpha(GL_Primitive *primitive, float alpha); // 082003c0
+".5383ec288b5c2430f30f104c":  // unique sig
+static cleanup __amd64 void CSurface::GL_RenderPrimitiveWithColor(GL_Primitive *primitive, GL_Color color); // 082004f0
+".5383ec188b5c242085db74??8b4324":  // unique sig
+static cleanup __amd64 void CSurface::GL_DestroyPrimitive(GL_Primitive *primitive); // 08200640
+".5383ec58f30f2a":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateTrianglePrimitive(Point p1, Point p2, Point p3, GL_Color color); // 08200670
+".55baff":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiTrianglePrimitive(vector<Pointf,_std::allocator<Pointf>_> *points, GL_Color color); // 082007d0
+".5383ec58f30f10":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateRectPrimitive(float x, float y, float w, float h, GL_Color color); // 082009c0
+".55b8ffffffff57565383ec4c":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiRectPrimitive(vector<Globals::Rect,_std::allocator<Globals::Rect>_> *rects, GL_Color color); // 08200b20
+".5381ecb8":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateRectOutlinePrimitive(int x, int y, int w, int h, GL_Color color, float thickness); // 08200f50
+".5557565383ec4c8b6c2460f3":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiLinePrimitive(vector<GL_Line,_std::allocator<GL_Line>_> *lines, GL_Color color, float thickness); // 082011a0
+".5531ed57565331db81":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateCirclePrimitive(int x, int y, float radius, GL_Color color); // 08201670
+".5557565381ec8c02":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreatePiePartialPrimitive(int x, int y, float radius, float deg1, float deg2, float thickness, GL_Color color); // 08201890
+".5557565383ec4c8b7424648b5c24608b46":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImagePrimitive(GL_Texture *tex, std::vector<GL_TexVertex> *vertices, GL_Color color); // 08201e40
+".5557565383ec3c8b7424548b5c24508b46048b":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateMultiImageColorPrimitive(GL_Texture *tex, std::vector<GL_ColorTexVertex> *vertices); // 08202230
+".a1????????3b05????????74??85c074??8b15":  // unique sig
+static cleanup __amd64 void CSurface::GL_PushStencilMode(); // 08202560
+".83ec1ca1????????3b":  // unique sig
+static cleanup __amd64 void CSurface::GL_SetColorTint(GL_Color color); // 082025c0
+".5589e55756be00":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawFadingDottedLine(int x1, int y1, int x2, int y2, float thickness, float r, float g, float b, float a1, float a2); // 08202620
+".83ec3cf30f1005":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawDottedLine(int x1, int y1, int x2, int y2, float thickness, float r, float g, float b); // 08202f30
+".565383ec54f30f104c":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreatePixelImagePrimitive(GL_Texture *tex, float x, float y, float size_x, float size_y, float rotate, GL_Color color, bool mirrored); // 08202fa0
+".5557565383ec5c80":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateImagePartialPrimitive(GL_Texture *tex, float x, float y, float size_x, float size_y, float start_x, float end_x, float start_y, float end_y, float alpha, GL_Color color, bool mirror); // 082032c0
+".565383ec248b742430f30f1044":  // unique sig
+static cleanup __amd64 void CSurface::AddTexVertices(vector<GL_TexVertex,_std::allocator<GL_TexVertex>_> *vertices, float x, float y, float size_x, float size_y, float start_x, float end_x, float start_y, float end_y); // 082037a0
+".565383ec54f30f1044":  // unique sig
+static cleanup __amd64 GL_Primitive *CSurface::GL_CreateImagePrimitive(GL_Texture *tex, float x, float y, float size_x, float size_y, float rotate, GL_Color color); // 082038c0
+".565383ec248b742430f30f1064":  // unique sig
+static cleanup __amd64 void CSurface::AddColorTexVertices(vector<GL_ColorTexVertex,_std::allocator<GL_ColorTexVertex>_> *vertices, float x, float y, float size_x, float size_y, float start_x, float end_x, float start_y, float end_y, GL_Color color); // 08203b90
+".5557565383ec6c8b15????????a1????????f30f10a424????????f30f109c24????????f30f109424????????39c2f30f108c24????????0f84????????29c283e2f08d4410f0f30f1040":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawCircle(int x, int y, float radius, GL_Color color); // 08203d30
+".5557565383ec6c8b15????????a1????????f30f10a424????????f30f109c24????????f30f109424????????39c2f30f108c24????????0f84????????29c283e2f08d4410f0f30f1038":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawPiePartial(int x, int y, float radius, float deg1, float deg2, float thickness, GL_Color color); // 08204080
+".5557565383ec7c8b15????????f30f10b4":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawShield(int x, int y, float a1, float b1, int angle1, int angle2, GL_Color color, float thickness); // 08204410
+".5557565383ec7c8b15????????f30f10ac":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawCompleteShield(int x, int y, float a1, float b1); // 08204840
+".5557565383ec7c8b15????????a1":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawEllipse(int x, int y, int a1, int b1, GL_Color color); // 08204c40
+".5557565383ec5c8b15":  // unique sig
+static cleanup __amd64 bool CSurface::GL_DrawLaser(int x, int y, int w, int h, GL_Color color); // 082050f0
+".83ec2ca1????????3b05????????660f6e4c2438660f6e54243c660f6e442430660f62ca660f6e5c2434660f62c3660f6cc1660f7f4424100f":  // unique sig
+static cleanup __amd64 void CSurface::GL_PushScissor(int x, int y, int w, int h); // 08205b50
+".83ec2ca1????????3b05????????660f6e4c2438660f6e54243c660f6e442430660f62ca660f6e5c2434660f62c3660f6cc1660f7f442410a3":  // unique sig
+static cleanup __amd64 void CSurface::GL_SetScissor(int x, int y, int w, int h); // 08205c40

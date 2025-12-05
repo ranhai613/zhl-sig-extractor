@@ -1,0 +1,2 @@
+"57565383ec208b5c2438":  // unique sig
+cleanup __amd64 string EffectsBlueprint::RandomSoundChoice(EffectsBlueprint *this, std::vector<std::string> *vec); // 08239cc0

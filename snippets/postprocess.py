@@ -111,4 +111,4 @@ def main(target_dir: str) -> None:
             f.write(content)
 
 if __name__ == "__main__":
-    main("zhl/win32/1.6.9")
+    main("zhl/ELF_x86/1.6.13")

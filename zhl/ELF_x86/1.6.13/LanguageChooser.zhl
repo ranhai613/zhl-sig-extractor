@@ -1,0 +1,20 @@
+"5531ed57565383ec2c8b5c24408b7c":  // unique sig
+cleanup __amd64 void LanguageChooser::OnTouch(LanguageChooser *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08193d60
+".5557565331db83ec1c8b6c24308b7c":  // unique sig
+cleanup __amd64 void LanguageChooser::MouseMove(LanguageChooser *this, int mX, int mY); // 08193df0
+".5631c0538b74":  // unique sig
+cleanup __amd64 void LanguageChooser::MouseClick(LanguageChooser *this, int mX, int mY); // 08193e50
+".565383ec148b7424208b4e208b561cc706????????89c829d0c1f80285c074??31db8db6000000008b049a85c074??8b10890424ff52048b561c8b4e2089c883c30129d0c1f80239c372??85d289562074??891424e8????????c706????????83":  // unique sig
+cleanup __amd64 void LanguageChooser::destructor(LanguageChooser *this); // 08193ec0
+".5383ec188b5c2420891c24e8????????c743":  // unique sig
+cleanup __amd64 void LanguageChooser::Open(LanguageChooser *this); // 08193f30
+".565383ec148b5c24208b4328":  // unique sig
+cleanup __amd64 void LanguageChooser::OnLoop(LanguageChooser *this); // 08193f50
+"!.565383ec148b7424208b4e208b561cc706????????89c829d0c1f80285c074??31db8db6000000008b049a85c074??8b10890424ff52048b561c8b4e2089c883c30129d0c1f80239c372??85d289562074??891424e8????????c706????????89":  // unique sig
+cleanup __amd64 void LanguageChooser::destructor(LanguageChooser *this); // 081944b0
+".5557565331db83ec6c":  // unique sig
+cleanup __amd64 void LanguageChooser::OnRender(LanguageChooser *this); // 08194520
+".8b4424048b4028c3908db4260000000055":  // unique sig
+cleanup __amd64 int LanguageChooser::GetChoice(LanguageChooser *this); // 08194c70
+".5589e557565383ec7c8b5d088b43":  // unique sig
+cleanup __amd64 void LanguageChooser::OnInit(LanguageChooser *this); // 08196140

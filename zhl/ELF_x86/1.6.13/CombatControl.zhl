@@ -1,0 +1,130 @@
+"565383ec148b7424208b8ea4":  // unique sig
+cleanup __amd64 void CombatControl::ClearSysBoxes(CombatControl *this); // 0813cb20
+".5557565381ecbc0000008bb4":  // unique sig
+cleanup __amd64 void CombatControl::constructor(CombatControl *this); // 0813cb80
+".8b4424048b80b805000085c074??8b400889":  // unique sig
+cleanup __amd64 void CombatControl::ClearCrewSelection(CombatControl *this); // 0813d4d0
+".8b4424048b80b805000085c074??8b4008c3":  // unique sig
+cleanup __amd64 ShipManager *CombatControl::GetCurrentTarget(CombatControl *this); // 0813d500
+".8b4424048b80b805000085c074??8b10":  // unique sig
+cleanup __amd64 bool CombatControl::CurrentTargetIsBoss(CombatControl *this); // 0813d520
+".5557565383ec3c8b4424548b5c2458":  // unique sig
+cleanup __amd64 void CombatControl::UpdateHostileBoxFrame(CombatControl *this, WindowFrame ** pFrame, Point loc, Point size); // 0813d550
+".5557565383ec6c8bb424????????8d7c":  // unique sig
+cleanup __amd64 void CombatControl::DrawHostileBox(CombatControl *this, GL_Color color, int stencilBit); // 0813d610
+".f3c38db426000000008dbc270000000057565383ec208b44":  // unique sig
+cleanup __amd64 void CombatControl::DrawHostileBoxFrame(CombatControl *this); // 0813d870
+".57565383ec208b4424348b742430":  // unique sig
+cleanup __amd64 Point CombatControl::GetHostileBoxSize(CombatControl *this); // 0813d880
+".5383ec188b5c2420c74424????????00c74424????????00891c24e8????????83c41889d85bc20400908db60000000053":  // unique sig
+cleanup __amd64 Point CombatControl::GetPositionOffset(CombatControl *this); // 0813d970
+".5383ec188b5c2420c74424????????00c74424????????00891c24e8????????83c41889d85bc20400908db60000000056":  // unique sig
+cleanup __amd64 Point CombatControl::GetTargetOffset(CombatControl *this); // 0813d9a0
+".565383ec348b5c2444":  // unique sig
+cleanup __amd64 Point CombatControl::GetEnemyPosition(CombatControl *this); // 0813d9d0
+".565383ec248b5c2434":  // unique sig
+cleanup __amd64 Point CombatControl::GetTargetBoxPosition(CombatControl *this); // 0813da90
+".5557565383ec5c8b6c24708d7c":  // unique sig
+cleanup __amd64 bool CombatControl::IsPointInTargetBox(CombatControl *this, int x, int y); // 0813db10
+".5589e55383ec348b5d088d43":  // unique sig
+cleanup __amd64 void CombatControl::OnRenderSelfAiming(CombatControl *this); // 0813dca0
+"!.8b5424048b4424080f":  // unique sig
+cleanup __amd64 void CombatControl::SaveState(CombatControl *this, int fd); // 0813dd70
+".833d????????06":  // unique sig
+cleanup __amd64 void CombatControl::LoadState(CombatControl *this, int fd); // 0813dd90
+".8b4424048b80b805000085c074??8b40080f":  // unique sig
+cleanup __amd64 bool CombatControl::IsInCombat(CombatControl *this); // 0813dde0
+".5589e557565381ec9c0000008b5d0c":  // unique sig
+cleanup __amd64 void CombatControl::RenderShipStatus(CombatControl *this, Pointf position, GL_Color boxColor); // 0813de00
+".565383ec348b5c24408b44":  // unique sig
+cleanup __amd64 void CombatControl::OnInit(CombatControl *this, Point position); // 0813ebd0
+".565383ec24a1":  // unique sig
+cleanup __amd64 void CombatControl::UpdateWeaponDronePositions(CombatControl *this); // 0813ece0
+".5557565383ec3c8b5c24508b83b8":  // unique sig
+cleanup __amd64 void CombatControl::AddEnemyShip(CombatControl *this, CompleteShip *enemy); // 0813ed70
+".565383ec148b7424208b4604":  // unique sig
+cleanup __amd64 void CombatControl::Clear(CombatControl *this); // 0813f060
+".5589e557565383ec3c8b7514":  // unique sig
+cleanup __amd64 Pointf CombatControl::CalculateSecondary(CombatControl *this, Pointf current, int mX, int mY); // 0813f110
+".5589e557565383ec4c8b75088b86":  // unique sig
+cleanup __amd64 bool CombatControl::CanTargetSelf(CombatControl *this); // 0813f1f0
+".5589e557565383ec4c8b5d0883":  // unique sig
+cleanup __amd64 void CombatControl::UpdateAiming(CombatControl *this); // 0813f3c0
+".83ec1c8b4424208b88":  // unique sig
+cleanup __amd64 CrewMember *CombatControl::GetSelectedCrew(CombatControl *this, int mX, int mY); // 0813f5d0
+".5589e55383ec248b550c8b":  // unique sig
+cleanup __amd64 string CombatControl::GetCrewTooltip(CombatControl *this, int mX, int mY); // 0813f630
+".5589e557565383ec3c8b750c8b45":  // unique sig
+cleanup __amd64 std::vector<CrewMember*> *CombatControl::GetSelectedCrew(CombatControl *this, int x, int y, int firstX, int firstY); // 0813f6b0
+".5557565383ec2c8b5c24408b83d0":  // unique sig
+cleanup __amd64 int CombatControl::SelectRoom(CombatControl *this, int x, int y); // 0813f780
+".8b442404c780c8":  // unique sig
+cleanup __amd64 void CombatControl::ClearSelectedRoom(CombatControl *this); // 0813f850
+".83ec1c8b4424208b9034":  // unique sig
+cleanup __amd64 void CombatControl::DisarmWeapons(CombatControl *this); // 0813f860
+".57565383ec108b5c24208b7424248b7c24288d431481":  // unique sig
+cleanup __amd64 void CombatControl::MouseUp(CombatControl *this, int mX, int mY); // 0813f890
+".53b80100000083ec188b":  // unique sig
+cleanup __amd64 bool CombatControl::ValidAim(CombatControl *this); // 0813f8f0
+".83ec04f30f1005":  // unique sig
+cleanup __amd64 bool CombatControl::ValidPoint(CombatControl *this, Pointf p); // 0813f930
+".565383ec148b5c2420c74424040e0000008b74":  // unique sig
+cleanup __amd64 void CombatControl::ArmMindControl(CombatControl *this, int value); // 0813f980
+".5383ec188b5c2420c74424040e":  // unique sig
+cleanup __amd64 int CombatControl::MindControlArmed(CombatControl *this); // 0813f9f0
+".5383ec188b5c2420c7442404090000008b4304890424e8????????84c075??8b":  // unique sig
+cleanup __amd64 bool CombatControl::WeaponsArmed(CombatControl *this); // 0813fa30
+".5383ec188b5c2420c74424040f0000008b4304890424e8????????31":  // unique sig
+cleanup __amd64 bool CombatControl::HackingArmed(CombatControl *this); // 0813fac0
+".5383ec188b5c2420c74424040f0000008b4304890424e8????????84":  // unique sig
+cleanup __amd64 void CombatControl::DisarmHacking(CombatControl *this); // 0813fb00
+".565383ec148b5c2420c74424040e0000008b43":  // unique sig
+cleanup __amd64 void CombatControl::DisarmMindControl(CombatControl *this); // 0813fb70
+".565383ec148b5c2420c7442404090000008b7424248b43":  // unique sig
+cleanup __amd64 void CombatControl::ArmTeleporter(CombatControl *this, int value); // 0813fc30
+".5383ec188b5c2420c7442404090000008b4304890424e8????????84c075??83":  // unique sig
+cleanup __amd64 int CombatControl::TeleporterArmed(CombatControl *this); // 0813fcd0
+".5383ec188b5c24208b83a400":  // unique sig
+cleanup __amd64 void CombatControl::SetMouseCursor(CombatControl *this); // 0813fd10
+".5589e557565383ec7c8b7d08f3":  // unique sig
+cleanup __amd64 bool CombatControl::UpdateTarget(CombatControl *this); // 0813fec0
+".5631f65383ec148b5c2420c7":  // unique sig
+cleanup __amd64 void CombatControl::DisarmTeleporter(CombatControl *this); // 08140660
+".5557565383ec1c8b7424348b5c24308b86b8":  // unique sig
+cleanup __amd64 std::pair<int, int> CombatControl::GetTeleportationCommand(CombatControl *this); // 08140760
+".5383ec188b5c24208b93b8":  // unique sig
+cleanup __amd64 void CombatControl::DisarmAll(CombatControl *this); // 081407e0
+".8b4424048b542408891089":  // unique sig
+cleanup __amd64 void CombatControl::LinkGui(CombatControl *this, CommandGui *gui); // 081409c0
+".5589e557565383ec5c8b5d08c744":  // unique sig
+cleanup __amd64 bool CombatControl::SelectTarget(CombatControl *this); // 081409e0
+".5589e557565383ec5c8b7d088b87":  // unique sig
+cleanup __amd64 void CombatControl::UpdateSysBoxes(CombatControl *this); // 081411c0
+".5589e557565381ecac01":  // unique sig
+cleanup __amd64 void CombatControl::RenderTarget(CombatControl *this); // 081413c0
+".5589e5565383ec208b5d0880bb24":  // unique sig
+cleanup __amd64 void CombatControl::OnRenderCombat(CombatControl *this); // 081430e0
+".5557565383ec2c8b5c24408bb3":  // unique sig
+cleanup __amd64 void CombatControl::destructor(CombatControl *this); // 081431e0
+".5557565383ec1c8b7c24348b5c243089":  // unique sig
+cleanup __amd64 void CombatControl::OnRenderInterface(CombatControl *this, bool front); // 08143970
+"!.5383ec188b5c24208d4314":  // unique sig
+cleanup __amd64 void CombatControl::OnLanguageChange(CombatControl *this); // 081439f0
+".55575631f65383ec2c8b5c24408b93":  // unique sig
+cleanup __amd64 void CombatControl::OnLoop(CombatControl *this); // 08143a20
+".565383ec148b7424208d46":  // unique sig
+cleanup __amd64 void CombatControl::Restart(CombatControl *this); // 08143ce0
+".5557565383ec1c8b7c24348b6c24308b74":  // unique sig
+cleanup __amd64 bool CombatControl::MouseMove(CombatControl *this, int mX, int mY); // 08143d60
+".5557565383ec2c8b4424488b5c244c":  // unique sig
+cleanup __amd64 bool CombatControl::OnTouchWeaponBoxes(CombatControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08143e40
+".5589e557565383ec5c8b7514":  // unique sig
+cleanup __amd64 bool CombatControl::OnTouch(CombatControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08143ee0
+".5557565383ec1c8b5c24308b7424348b7c24388b83":  // unique sig
+cleanup __amd64 bool CombatControl::MouseRClick(CombatControl *this, int mX, int mY); // 081444d0
+".565383ec148b5c24208b7424248d4314":  // unique sig
+cleanup __amd64 void CombatControl::KeyDown(CombatControl *this, SDLKey sym); // 081445b0
+"!.5383ec188b5c24208b4424248943":  // unique sig
+cleanup __amd64 void CombatControl::LinkShip(CombatControl *this, ShipManager *ship); // 08144790
+".57565383ec108b5c24208b7424248b7c24288d4314c6":  // unique sig
+cleanup __amd64 void CombatControl::MouseClick(CombatControl *this, int mX, int mY, bool shift); // 081447d0

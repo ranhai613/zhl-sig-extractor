@@ -1,0 +1,22 @@
+"8b442404660f57":  // unique sig
+cleanup __amd64 void CFPS::constructor(CFPS *this); // 081fb370
+".83ec1ce8????????dd":  // unique sig
+cleanup __amd64 double CFPS::GetTime(CFPS *this); // 081fb3b0
+".5383ec188b5c2420f2":  // unique sig
+cleanup __amd64 void CFPS::OnLoop(CFPS *this); // 081fb3e0
+".8b442404f30f1005????????f30f59":  // unique sig
+cleanup __amd64 void CFPS::OnLoopUnpaused(CFPS *this); // 081fb4e0
+".83ec048b4424088b00":  // unique sig
+cleanup __amd64 float CFPS::GetUnpausedTime(CFPS *this); // 081fb500
+".f3c38db426000000008dbc27000000008b542404b9":  // unique sig
+cleanup __amd64 void CFPS::OnRender(CFPS *this); // 081fb520
+".8b542404b903":  // unique sig
+cleanup __amd64 void CFPS::IncreaseSpeedLevel(CFPS *this); // 081fb530
+".8b542404b9fe":  // unique sig
+cleanup __amd64 void CFPS::DecreaseSpeedLevel(CFPS *this); // 081fb550
+".8b442404c7402000":  // unique sig
+cleanup __amd64 void CFPS::NormalSpeedLevel(CFPS *this); // 081fb570
+".8b4424048b4018c390":  // unique sig
+cleanup __amd64 int CFPS::GetFPS(CFPS *this); // 081fb580
+".83ec048b4424088b4014":  // unique sig
+cleanup __amd64 float CFPS::GetSpeedFactor(CFPS *this); // 081fb590

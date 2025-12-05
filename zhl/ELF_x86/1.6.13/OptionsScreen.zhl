@@ -1,0 +1,34 @@
+"8b442404c68075":  // unique sig
+cleanup __amd64 void OptionsScreen::MouseUp(OptionsScreen *this, int mX, int mY); // 08193e90
+".f3c38db426000000008dbc2700000000565383ec148b7424208b4e":  // unique sig
+cleanup __amd64 void OptionsScreen::MouseRightClick(OptionsScreen *this, int mX, int mY); // 08193eb0
+".5383ec08a1":  // unique sig
+cleanup __amd64 void OptionsScreen::Close(OptionsScreen *this); // 08193fc0
+".5557565383ec2c8b5c24408d7c2418":  // unique sig
+cleanup __amd64 void OptionsScreen::constructor(OptionsScreen *this); // 08194c80
+".833d????????030f94c083":  // unique sig
+cleanup __amd64 bool OptionsScreen::IsNativeFullScreenChanged(OptionsScreen *this); // 08195360
+".81442404e0":  // unique sig
+cleanup __amd64 void OptionsScreen::OnLanguageChange(OptionsScreen *this); // 08195f20
+".5589e557565381ec6c02":  // unique sig
+cleanup __amd64 void OptionsScreen::Open(OptionsScreen *this, bool mainMenu); // 081963e0
+".5589e557565331db83ec4cc7":  // unique sig
+cleanup __amd64 void OptionsScreen::OnLoop(OptionsScreen *this); // 08198610
+".5383ec188b5c2420891c24e8????????85c078":  // unique sig
+cleanup __amd64 void OptionsScreen::CheckSelection(OptionsScreen *this); // 08198940
+".5557565383ec6c8b9c24????????8d6c2448":  // unique sig
+cleanup __amd64 void OptionsScreen::OnInit(OptionsScreen *this); // 08199440
+".5557565383ec2c8b7424400f":  // unique sig
+cleanup __amd64 bool OptionsScreen::KeyDown(OptionsScreen *this, SDLKey sym); // 08199d70
+".5589e557565383ec6c8b5d0880bb84":  // unique sig
+cleanup __amd64 void OptionsScreen::OnRender(OptionsScreen *this); // 0819ad20
+".5589e557565383ec3c8b5d088b750c80":  // unique sig
+cleanup __amd64 void OptionsScreen::MouseMove(OptionsScreen *this, int mX, int mY); // 0819b3f0
+".5589e557565383ec5c8b5d0880bb84":  // unique sig
+cleanup __amd64 void OptionsScreen::MouseClick(OptionsScreen *this, int mX, int mY); // 0819b980
+".5557565383ec3c8b4424588b":  // unique sig
+cleanup __amd64 void OptionsScreen::OnTouch(OptionsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 0819bfc0
+"!.565383ec148b7424208d86b80b0000c706????????890424e8????????8d86b0090000890424e8????????8b8ea00900008b969c090000c78680090000????????89c829d0c1f80285c074??31db66908b049a85c074??8b10890424ff52048b969c0900008b8ea009000089c883c30129d0c1f80239c372??85d28996a009000074??891424e8????????8d866c080000c78680090000????????890424e8????????8d868c070000890424e8????????8d86b0060000890424e8????????8d86e0010000890424e8????????8974":  // unique sig
+cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this); // 0819cb80
+".565383ec148b7424208d86b80b0000c706????????890424e8????????8d86b0090000890424e8????????8b8ea00900008b969c090000c78680090000????????89c829d0c1f80285c074??31db66908b049a85c074??8b10890424ff52048b969c0900008b8ea009000089c883c30129d0c1f80239c372??85d28996a009000074??891424e8????????8d866c080000c78680090000????????890424e8????????8d868c070000890424e8????????8d86b0060000890424e8????????8d86e0010000890424e8????????8934":  // unique sig
+cleanup __amd64 void OptionsScreen::destructor(OptionsScreen *this); // 0819cc60

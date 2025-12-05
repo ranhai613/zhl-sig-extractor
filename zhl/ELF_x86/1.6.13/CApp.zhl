@@ -1,0 +1,74 @@
+"f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc270000000083":  // unique sig
+cleanup __amd64 void CApp::OnTouchDown(CApp *this, int id, int x, int y); // 08061080
+".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc270000000083":  // unique sig
+cleanup __amd64 void CApp::OnTouchMove(CApp *this, int id, int x, int y, int initialX, int initialY); // 08061090
+".f3c38db426000000008dbc2700000000f3c38db426000000008dbc270000000083":  // unique sig
+cleanup __amd64 void CApp::OnTouchUp(CApp *this, int id, int x, int y, int initialX, int initialY); // 080610a0
+".f3c38db426000000008dbc270000000083ec1c8b442420c7":  // unique sig
+cleanup __amd64 void CApp::OnTouchCancel(CApp *this, int id, int x, int y, int initialX, int initialY); // 080610b0
+"!.5383ec188b5c24208b430885c074??8b53":  // unique sig
+cleanup __amd64 void CApp::OnRequestExit(CApp *this); // 080610e0
+".83ec1ce8????????c74424????????00":  // unique sig
+cleanup __amd64 void CApp::OnExit(CApp *this); // 08061160
+".8b44240480b8982b":  // unique sig
+cleanup __amd64 void CApp::OnMButtonDown(CApp *this, int mX, int mY); // 08061190
+".8b4424048b54240880b8982b00000075??8078100075??895424088b400889442404e9????????9083c01089442404e9????????8d742600f3c38db6000000008b":  // unique sig
+cleanup __amd64 void CApp::OnTextInput(CApp *this, int ch); // 080611c0
+".8b4424048b54240880b8982b00000075??8078100075??895424088b400889442404e9????????9083c01089442404e9????????8d742600f3c38db60000000053":  // unique sig
+cleanup __amd64 void CApp::OnTextEvent(CApp *this, TextEvent event); // 08061200
+".5383ec188b5c242080bbd3":  // unique sig
+cleanup __amd64 void CApp::OnInputFocus(CApp *this); // 08061240
+".5383ec188b5c2420803d":  // unique sig
+cleanup __amd64 void CApp::OnInputBlur(CApp *this); // 080612c0
+".5383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442410":  // unique sig
+cleanup __amd64 void CApp::OnRButtonUp(CApp *this, int mX, int mY); // 080617d0
+".5383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442418890424e8????????8b44241880bb982b0000008b54241c75??807b100075??0fb64b058954240889442404894c240c8b4308890424e8????????83c4285bc3908d74260083c310891c248954240889442404e8????????83c4285bc35383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442418890424e8????????8b44241880bb982b0000008b54241c75??807b100075??0fb64b058954240889442404894c240c8b4308890424e8????????83c4285bc3908d74260083c310891c248954240889442404e8????????83c4285bc353":  // unique sig
+cleanup __amd64 void CApp::OnRButtonDown(CApp *this, int mX, int mY); // 08061870
+".5383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442418890424e8????????8b44241880bb982b0000008b54241c75??807b100075??0fb64b058954240889442404894c240c8b4308890424e8????????83c4285bc3908d74260083c310891c248954240889442404e8????????83c4285bc35383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442418890424e8????????8b44241880bb982b0000008b54241c75??807b100075??0fb64b058954240889442404894c240c8b4308890424e8????????83c4285bc3908d74260083c310891c248954240889442404e8????????83c4285bc381":  // unique sig
+cleanup __amd64 void CApp::OnLButtonUp(CApp *this, int mX, int mY); // 08061920
+".5383ec288b5c24308b4424348b5424382b83ec2b00002b93f02b0000f30f2ac0f30f5983dc2b0000f30f2cc0f30f2ac2f30f5983e02b0000f30f2cd02b93cc2b0000895424082b83c82b0000894424048d442418890424e8????????8b44241880bb982b0000008b54241c75??807b100075??0fb64b058954240889442404894c240c8b4308890424e8????????83c4285bc3908d74260083c310891c248954240889442404e8????????83c4285bc381":  // unique sig
+cleanup __amd64 void CApp::OnLButtonDown(CApp *this, int mX, int mY); // 080619d0
+".57565383ec208b5c24308b4424348b":  // unique sig
+cleanup __amd64 void CApp::OnMouseMove(CApp *this, int mX, int mY, int relX, int relY, bool Left, bool Right, bool Middle); // 08061aa0
+".57565383ec208b5c2434":  // unique sig
+cleanup __amd64 void CApp::OnKeyUp(CApp *this, SDLKey sym); // 08061b40
+".5589e557565383ec2c8b75088d5d":  // unique sig
+cleanup __amd64 void CApp::OnLanguageChange(CApp *this); // 08061c00
+".5557565383ec4c8b5c246485":  // unique sig
+cleanup __amd64 void CApp::OnKeyDown(CApp *this, SDLKey sym); // 08061da0
+".5383ec188b5c2420891c24e8????????8d4310":  // unique sig
+cleanup __amd64 void CApp::constructor(CApp *this); // 08062080
+".f3c38db426000000008dbc27000000005589e557565383ec2c8b5d":  // unique sig
+cleanup __amd64 void CApp::ParseArgs(CApp *this, int argc, char ** argv); // 080621a0
+".5589e557565383ec2c8b5d08c70424????????e8":  // unique sig
+cleanup __amd64 void CApp::OnLoop(CApp *this); // 080621b0
+".5383ec38c7":  // unique sig
+cleanup __amd64 bool CApp::SetupWindow(CApp *this); // 080626c0
+"!.565383ec148b5c24208b430c89":  // unique sig
+cleanup __amd64 void CApp::OnCleanup(CApp *this); // 080628e0
+".5383ec188b5c2420e8????????85c0":  // unique sig
+cleanup __amd64 void CApp::GenInputEvents(CApp *this); // 08062970
+".5383ec188b5c2420e8????????8b":  // unique sig
+cleanup __amd64 void CApp::OnSuspend(CApp *this); // 08062ac0
+".5383ec188b5c242080bb982b":  // unique sig
+cleanup __amd64 void CApp::OnResume(CApp *this); // 08062b30
+".565383ec148b5424248b4c24288b":  // unique sig
+cleanup __amd64 Point CApp::TranslateMouse(CApp *this, int mX, int mY); // 08062b70
+".b801000000c38d76008dbc270000000080":  // unique sig
+cleanup __amd64 bool CApp::Restart(CApp *this); // 08062be0
+".803d????????0074??c3":  // unique sig
+cleanup __amd64 void CApp::UpdateFullScreen(CApp *this); // 08062bf0
+".56538b44240c80":  // unique sig
+cleanup __amd64 void CApp::UpdateWindowSettings(CApp *this); // 08062d00
+".5589e557565383ec3c8b5d0889":  // unique sig
+cleanup __amd64 void CApp::OnRender(CApp *this); // 08062e70
+".5589e557565383ec4c8b5d08c7":  // unique sig
+cleanup __amd64 bool CApp::OnInit(CApp *this); // 08063280
+".5589e557565381ecfc0100008b5d":  // unique sig
+cleanup __amd64 int CApp::OnExecute(CApp *this); // 080635d0
+".e9????????8d7426008dbc27000000005557565381ec4c":  // unique sig
+cleanup __amd64 void CApp::OnEvent(CApp *this, EventType *Event); // 080653c0
+".5557565383ec2c8b7424408b86042c0000c706????????8d50f481fa????????0f85????????8d86942b0000890424e8????????8b86902b00008d50f481fa????????0f85????????8b86802b000085c074??890424e8????????8bbe602b00008b9e5c2b000039df74??b8????????85c00f84????????8b038d50f481fa????????0f85????????83c30439df75??8bbe5c2b000085ff74??893c24e8????????8b86502b00008d50f481fa????????0f85????????8b864c2b00008d50f481fa????????0f85????????8d86ec2900008904248d9ed41a0000e8????????8d86e4270000890424e8????????8d868c260000c786d41a0000????????890424e8????????8d8684240000890424e8????????8d8654240000890424e8????????8d8640230000890424e8????????8d8660220000890424e8????????8d8684210000890424e8????????8d86b41c0000890424e8????????891c24e8????????8d8640030000890424e8????????8b863003000085c074??890424e8????????8d86c4020000890424e8????????8d8658020000890424e8????????8d86ec010000890424e8????????8d8680010000890424e8????????8d8614010000890424e8????????8d86a8000000890424e8????????8d463c890424e8????????c74620????????893424e8????????83":  // unique sig
+cleanup __amd64 void CApp::destructor(CApp *this); // 08065960
+".5557565383ec2c8b7424408b86042c0000c706????????8d50f481fa????????0f85????????8d86942b0000890424e8????????8b86902b00008d50f481fa????????0f85????????8b86802b000085c074??890424e8????????8bbe602b00008b9e5c2b000039df74??b8????????85c00f84????????8b038d50f481fa????????0f85????????83c30439df75??8bbe5c2b000085ff74??893c24e8????????8b86502b00008d50f481fa????????0f85????????8b864c2b00008d50f481fa????????0f85????????8d86ec2900008904248d9ed41a0000e8????????8d86e4270000890424e8????????8d868c260000c786d41a0000????????890424e8????????8d8684240000890424e8????????8d8654240000890424e8????????8d8640230000890424e8????????8d8660220000890424e8????????8d8684210000890424e8????????8d86b41c0000890424e8????????891c24e8????????8d8640030000890424e8????????8b863003000085c074??890424e8????????8d86c4020000890424e8????????8d8658020000890424e8????????8d86ec010000890424e8????????8d8680010000890424e8????????8d8614010000890424e8????????8d86a8000000890424e8????????8d463c890424e8????????c74620????????893424e8????????89":  // unique sig
+cleanup __amd64 void CApp::destructor(CApp *this); // 08065ce0

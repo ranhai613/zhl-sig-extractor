@@ -1,0 +1,30 @@
+"5589e557565383ec6c8b5d0883bb":  // unique sig
+cleanup __amd64 void CloneSystem::OnRenderFloor(CloneSystem *this); // 08299860
+".5557565383ec3c8b4424608d74":  // unique sig
+cleanup __amd64 void CloneSystem::constructor(CloneSystem *this, int type, int roomId, int shipId, int starting_power); // 08299ab0
+".8b442404f30f2c0485????????c366908b":  // unique sig
+static cleanup __amd64 int CloneSystem::GetCloneTime(int level); // 08299cd0
+".8b4424048b04":  // unique sig
+static cleanup __amd64 int CloneSystem::GetJumpHealth(int level); // 08299ce0
+"!.565383ec148b7424208b5c2424f30f108698010000891c24f30f11442404e8????????f30f1086a0":  // unique sig
+cleanup __amd64 void CloneSystem::Save(CloneSystem *this, int fd); // 08299cf0
+".565383ec148b7424248b5c2420893424e8????????d9":  // unique sig
+cleanup __amd64 void CloneSystem::Load(CloneSystem *this, int fd); // 08299d50
+".83ec040f57c9":  // unique sig
+cleanup __amd64 float CloneSystem::GetDeathProgress(CloneSystem *this); // 08299db0
+".8b442404f30f10442408f30f118098010000c390":  // unique sig
+cleanup __amd64 void CloneSystem::SetTimeToClone(CloneSystem *this, float val); // 08299df0
+".5383ec188b5c2420891c24e8????????0f57c085":  // unique sig
+cleanup __amd64 float CloneSystem::GetProgress(CloneSystem *this); // 08299e10
+".83ec048b4424088b80":  // unique sig
+cleanup __amd64 float CloneSystem::GetTimeToClone(CloneSystem *this); // 08299e50
+".5383ec188b4424208b989c01":  // unique sig
+cleanup __amd64 CrewMember *CloneSystem::CloneReady(CloneSystem *this); // 08299e70
+".5383ec288b4424308b5c2434c7":  // unique sig
+cleanup __amd64 void CloneSystem::RenderCloneIcon(CloneSystem *this, int index); // 08299ea0
+".565383ec248b5c24308d44241a8d74241cc703????????c74308????????89442408c7442404????????893424e8????????c74424????????0089742404c70424????????e8????????8b44241c8d50f481fa????????75??8b83c4010000894424048d83bc010000890424e8????????891c24e8????????83":  // unique sig
+cleanup __amd64 void CloneSystem::destructor(CloneSystem *this); // 08299f30
+".565383ec248b5c24308d44241a8d74241cc703????????c74308????????89442408c7442404????????893424e8????????c74424????????0089742404c70424????????e8????????8b44241c8d50f481fa????????75??8b83c4010000894424048d83bc010000890424e8????????891c24e8????????89":  // unique sig
+cleanup __amd64 void CloneSystem::destructor(CloneSystem *this); // 0829a000
+".5589e557565381ec4c0100008b450889":  // unique sig
+cleanup __amd64 void CloneSystem::OnLoop(CloneSystem *this); // 0829a0d0

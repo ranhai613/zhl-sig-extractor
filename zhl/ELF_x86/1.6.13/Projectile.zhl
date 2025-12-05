@@ -1,0 +1,73 @@
+"8b5424088b4424048b4a148b52108948048910c204008d76008dbc2700000000836c240804eb??6690669066906690908b54":  // unique sig
+cleanup __amd64 Pointf Projectile::GetWorldCenterPoint(Projectile *this); // 08076f30
+".8b5424088b4424048b4a148b52108948048910c204008d76008dbc2700000000836c240804eb??6690669066906690908b44":  // unique sig
+cleanup __amd64 Pointf Projectile::GetRandomTargettingPoint(Projectile *this, bool valuable); // 08076f60
+".8b4424048b4074c3908db4260000000083":  // unique sig
+cleanup __amd64 int Projectile::GetSpaceId(Projectile *this); // 08076f90
+".8b5424088b442404895070c366":  // unique sig
+cleanup __amd64 void Projectile::SetDestinationSpace(Projectile *this, int space); // 08076fb0
+".8b4424040fb680bc":  // unique sig
+cleanup __amd64 bool Projectile::ValidTarget(Projectile *this); // 08076fc0
+"!.8b4424048b10c6":  // unique sig
+cleanup __amd64 void Projectile::Kill(Projectile *this); // 08076fe0
+".8b4424048b4034":  // unique sig
+cleanup __amd64 int Projectile::GetSelfId(Projectile *this); // 08076ff0
+".8b5424088b4424048b8aa4":  // unique sig
+cleanup __amd64 Pointf Projectile::GetSpeed(Projectile *this); // 08077010
+".8b4424048b542408895038":  // unique sig
+cleanup __amd64 void Projectile::SetDamage(Projectile *this, Damage damage); // 08077040
+".8b4424048b4030c3908db4260000000083":  // unique sig
+cleanup __amd64 int Projectile::GetOwnerId(Projectile *this); // 080770a0
+".b8ffffffffc366906690669066906690f3c366906690669066906690669066908b54":  // unique sig
+cleanup __amd64 int Projectile::ForceRenderLayer(Projectile *this); // 080770c0
+".f3c366906690669066906690669066908b5424088b":  // unique sig
+cleanup __amd64 void Projectile::SetSpin(Projectile *this, float spin); // 080770d0
+".f3c36690669066906690669066906690f3c36690669066906690669066906690b8ff":  // unique sig
+cleanup __amd64 void Projectile::SetWeaponAnimation(Projectile *this, WeaponAnimation *animation); // 0807b700
+".f3c36690669066906690669066906690b8ffffffffc38d":  // unique sig
+cleanup __amd64 void Projectile::SetMovingTarget(Projectile *this, Targetable *target); // 0807b710
+".565383ec148b5c24208b7424248d4304c7030000000089":  // unique sig
+cleanup __amd64 CollisionResponse *Projectile::CollisionMoving(Projectile *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 0808cfb0
+".5589e5565383ec308b5d088d75":  // unique sig
+cleanup __amd64 void Projectile::ComputeHeading(Projectile *this); // 0808d060
+".5383ec188b5424200f":  // unique sig
+cleanup __amd64 bool Projectile::Dead(Projectile *this); // 0808d100
+".5589e55389":  // unique sig
+cleanup __amd64 void Projectile::OnUpdate(Projectile *this); // 0808d140
+".5383ec288b5c24308b4370":  // unique sig
+cleanup __amd64 void Projectile::EnterDestinationSpace(Projectile *this); // 0808d6e0
+".5557565383ec2c8b7424408d7c241c8b":  // unique sig
+cleanup __amd64 void Projectile::SaveProjectile(Projectile *this, int fd); // 0808dbf0
+".5589e55383ec448b5d0880bbb0000000000f":  // unique sig
+cleanup __amd64 void Projectile::OnUpdate(Projectile *this); // 0808e0b0
+".5589e557565381ec8c0000008b750c":  // unique sig
+cleanup __amd64 void Projectile::CollisionCheck(Projectile *this, Collideable *object); // 0808e570
+".5589e557565381eccc0000008b450c":  // unique sig
+cleanup __amd64 void Projectile::LoadProjectile(Projectile *this, int fd); // 0808ec80
+".5589e557565381ecec0000008b7d":  // unique sig
+cleanup __amd64 void Projectile::constructor(Projectile *this, Pointf position, int ownerId, int targetId, Pointf target); // 0808ff70
+".5589e557565381ecdc0000008b450cc7":  // unique sig
+cleanup __amd64 void Projectile::Initialize(Projectile *this, WeaponBlueprint *blueprint); // 08090990
+".5383ec288b4424348d":  // unique sig
+cleanup __amd64 void Projectile::Initialize(Projectile *this, string *blueprint); // 08091bb0
+".5383ec288b5c2430f30f1043":  // unique sig
+cleanup __amd64 bool Projectile::AtTarget(Projectile *this); // 08091c40
+".8b4c24048b4424088b54240c894124":  // unique sig
+cleanup __amd64 void Projectile::SetTarget(Projectile *this, Pointf target); // 08091cd0
+".8b5424040fb682bc":  // unique sig
+cleanup __amd64 bool Projectile::StartedDeath(Projectile *this); // 08091d00
+".565383ec248b7424348d442410c7":  // unique sig
+static cleanup __amd64 Pointf Projectile::RandomSidePoint(int side); // 08092e40
+".565383ec348d":  // unique sig
+static cleanup __amd64 Pointf Projectile::RandomSidePoint(); // 08093000
+".57565383ec308b5c24408b7424448d":  // unique sig
+cleanup __amd64 void Projectile::OnRender(Projectile *this, int spaceId); // 08093200
+".f3c3669066906690669066906690669031c0c366906690669066906690669090b8":  // unique sig
+cleanup __amd64 void Projectile::OnRenderSpecific(Projectile *this, int spaceId); // 08093ce0
+".31c0c366906690669066906690669090b802000000c366906690669066906690b8":  // unique sig
+cleanup __amd64 int Projectile::GetType(Projectile *this); // 08093cf0
+"!.c3669066906690669066905383ec188b5c2420f30f1005????????c703000000008d4304f30f11442408f30f11442404890424e8????????89d8c7430c00000000c743100000000083c4185bc20400669066906690669066906690":  // unique sig
+noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 08093d7f
+".55":  // non-unique sig
+cleanup __amd64 void Projectile::destructor(Projectile *this); // 08093d80
+// Failed to generate signature for function: Projectile::~Projectile at 08094820

@@ -1,0 +1,24 @@
+"565383ec148b5c24208b7424240fb68390":  // unique sig
+cleanup __amd64 bool GameOver::KeyDown(GameOver *this, SDLKey sym); // 08174490
+".5557565383ec1c8b6c24308b7424348b7c243880":  // unique sig
+cleanup __amd64 void GameOver::MouseMove(GameOver *this, int mX, int mY); // 08174500
+".57565383ec108b74242080":  // unique sig
+cleanup __amd64 void GameOver::MouseClick(GameOver *this, int mX, int mY); // 08174590
+".5557565383ec3c8b4424548b6c24508b74":  // unique sig
+cleanup __amd64 void GameOver::OnTouch(GameOver *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 081746a0
+".5557565331db83ec2c8b7424408b4e":  // unique sig
+cleanup __amd64 void GameOver::destructor(GameOver *this); // 08174cf0
+".5383ec188b5c2420891c24e8????????895c242083c4185be9????????9066905589e557565381ec3c":  // unique sig
+cleanup __amd64 void GameOver::destructor(GameOver *this); // 08174f00
+"5589e557565381ec3c0100008b5d0880bb90":  // unique sig
+cleanup __amd64 void GameOver::OnRender(GameOver *this); // 08174f20
+".5383ec188b5c2420891c24e8????????8d4344":  // unique sig
+cleanup __amd64 void GameOver::constructor(GameOver *this); // 08175be0
+".5557565383ec3c8b4424548b7c24508b":  // unique sig
+cleanup __amd64 void GameOver::SetVictory(GameOver *this, bool victory, string *shipName, std::vector<std::string> *crew); // 08175c70
+".5383ec188b5424208b5a":  // unique sig
+cleanup __amd64 int GameOver::GetCommand(GameOver *this); // 08175e50
+".5589e557565381ec2c0100008b7d088b":  // unique sig
+cleanup __amd64 void GameOver::OpenText(GameOver *this, string *text); // 08175e80
+".5557565383ec4cc70424????????8b742460e8":  // unique sig
+cleanup __amd64 void GameOver::OnLoop(GameOver *this); // 08177b30
