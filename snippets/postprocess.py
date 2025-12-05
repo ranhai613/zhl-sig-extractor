@@ -1,5 +1,6 @@
 from glob import glob
 import re
+from sys import argv
 
 C_CONTAINER_TYPES = ["pair", "vector", "array", "unordered_set", "map", "unordered_map", "unordered_multimap"]
 C_CONTAINER_TYPES_ONE = ["vector", "array", "unordered_set"]
@@ -116,4 +117,4 @@ def main(target_dir: str, platform: str = "elf_amd64") -> None:
             f.write(content)
 
 if __name__ == "__main__":
-    main("zhl/win32/1.6.9", "win32")
+    main(argv[1], argv[2])

@@ -136,7 +136,7 @@ listing = currentProgram.getListing()
 addr_factory = currentProgram.getAddressFactory()
 POINTER_SIZE = currentProgram.getDefaultPointerSize()
 
-MAX_LEN = 512     # maximum bytes to try
+MAX_LEN = 256     # maximum bytes to try
 
 def is_unique_signature(pattern_bytes, mask_bytes, start):
     """
