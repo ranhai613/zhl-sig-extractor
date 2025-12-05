@@ -287,15 +287,53 @@ def wildcard_instruction_addresses(func_start, current_addr, wildcard_indices, p
 
 
 def find_ret_address(start_addr):
-    curr = start_addr
-    while True:
-        try:
-            b = mem.getByte(curr) & 0xFF
-            if b == 0xC3 or b == 0xC2:
-                return curr
-            curr = curr.add(1)
-        except:
-            return None
+    """Mimic SigScan's HDE-based RET walk by stepping instruction-by-instruction."""
+    instr = listing.getInstructionContaining(start_addr)
+    if instr is None:
+        instr = listing.getInstructionAfter(start_addr)
+    if instr is None:
+        return None
+
+    visited = set()
+
+    while instr is not None:
+        addr = instr.getAddress()
+        if addr in visited:
+            break
+        visited.add(addr)
+
+        mnemonic = instr.getMnemonicString().lower()
+        if mnemonic.startswith("ret"):
+            instr_len = instr.getLength()
+            if instr_len <= 0:
+                return addr
+
+            # Ensure we actually saw a RET opcode inside this instruction
+            has_ret = False
+            try:
+                for offset in range(instr_len):
+                    byte_val = mem.getByte(addr.add(offset)) & 0xFF
+                    if byte_val in (0xC2, 0xC3):
+                        has_ret = True
+                        break
+            except MemoryAccessException:
+                pass
+
+            if not has_ret:
+                return addr
+
+            return addr.add(instr_len)
+
+        length = instr.getLength()
+        if length <= 0:
+            break
+
+        next_addr = addr.add(length)
+        instr = listing.getInstructionAt(next_addr)
+        if instr is None:
+            instr = listing.getInstructionAfter(next_addr)
+
+    return None
 
 def generate_signature(addr, unique, start_addr, backwards=False):
     sig_bytes = []
@@ -423,11 +461,12 @@ for class_name, functions_unsorted in sorted(class_map.items()):
             
         print("Generating signature for function: {}::{} @ {}".format(class_name, func.getName(), func.getEntryPoint()))
         
-        if i > 0 and func.getEntryPoint() < func_previous.ret_address:
+        if func_previous is not None and func.getEntryPoint() < func_previous.ret_address:
             if func.getEntryPoint() < func_previous.func.getEntryPoint().add(func_previous.sig_length):
                 # Overlaps with previous function's signature. Skip chaining.
                 func_info.no_chain = True
             else:
+                # Previous function has no RET before this function's start. Mark no_return_seek on previous function.
                 func_previous.no_return_seek = True
             
         start_addr = currentProgram.getMinAddress() if func_info.no_chain else func_previous.ret_address
@@ -449,7 +488,7 @@ for class_name, functions_unsorted in sorted(class_map.items()):
         
         func_info.sig_length = length
         
-        ret_addr = find_ret_address(func.getEntryPoint().add(length))
+        ret_addr = find_ret_address(func.getEntryPoint())
         assert ret_addr is not None, "Failed to find RET address for function: {}::{}".format(class_name, func.getName())
         func_info.ret_address = ret_addr
         # print("  RET found at: {}".format(ret_addr))
