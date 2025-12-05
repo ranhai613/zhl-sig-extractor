@@ -45,4 +45,4 @@ cleanup __amd64 void InfoBox::AddDroneIcon(InfoBox *this, string *icon); // 0052
 ".4157415641554989fd415455534881ec68":  // unique sig
 cleanup __amd64 void InfoBox::OnRender(InfoBox *this); // 0052cd50
 ".55534889fb4883ec18488baf":  // unique sig
-cleanup __amd64 void InfoBox::destructor(InfoBox *this, int __in_chrg); // 0052ee70
+cleanup __amd64 void InfoBox::destructor(InfoBox *this); // 0052ee70

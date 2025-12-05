@@ -19,5 +19,5 @@ cleanup __amd64 bool IonDrone::CanFight(IonDrone *this); // 0043bde0
 "!.20e8????????4889d85bc36690":  // unique sig
 noHook __amd64 void IonDrone::__DO_NOT_HOOK(); // 0043bfbf
 ".41":  // non-unique sig
-cleanup __amd64 void IonDrone::destructor(IonDrone *this, int __in_chrg); // 0043bfc0
+cleanup __amd64 void IonDrone::destructor(IonDrone *this); // 0043bfc0
 // Failed to generate signature for function: IonDrone::~IonDrone at 0043d4b0

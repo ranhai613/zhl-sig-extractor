@@ -7,4 +7,4 @@ cleanup __amd64 void AnimationControl::RenderWeaponIcon(AnimationControl *this, 
 ".415741564155415455534881ec2806":  // unique sig
 cleanup __amd64 void AnimationControl::ImportAnimations(AnimationControl *this, string *filename); // 00598b50
 ".53488b7770":  // unique sig
-cleanup __amd64 void AnimationControl::destructor(AnimationControl *this, int __in_chrg); // 0059e020
+cleanup __amd64 void AnimationControl::destructor(AnimationControl *this); // 0059e020

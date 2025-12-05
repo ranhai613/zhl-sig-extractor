@@ -25,6 +25,6 @@ cleanup __amd64 int BeamWeapon::GetType(BeamWeapon *this); // 00430560
 ".f30f100d????????530f28c14889fbc70700000000488d7f04e8????????4889d8c7430c00000000c74310000000005bc3662e0f1f8400000000000f1f44000048":  // unique sig
 cleanup __amd64 CollisionResponse *BeamWeapon::CollisionMoving(BeamWeapon *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00430680
 ".415741564989fe4155415455534883ec58488b871003000048c707????????48c74708????????4889c648890424488b87080300004839c60f84????????488db0980000004c8da8800000004989c448897c24284989c64889742420":  // unique sig
-cleanup __amd64 void BeamWeapon::destructor(BeamWeapon *this, int __in_chrg); // 00430770
+cleanup __amd64 void BeamWeapon::destructor(BeamWeapon *this); // 00430770
 ".415741564989fe4155415455534883ec58488b871003000048c707????????48c74708????????4889c648890424488b87080300004839c60f84????????488db0980000004c8da8800000004989c448897c24284989c64889742418":  // unique sig
-cleanup __amd64 void BeamWeapon::destructor(BeamWeapon *this, int __in_chrg); // 00431220
+cleanup __amd64 void BeamWeapon::destructor(BeamWeapon *this); // 00431220

@@ -5,5 +5,5 @@ cleanup __amd64 int RepairAnimation::GetFiringFrame(RepairAnimation *this); // 0
 "!.5fe8????????e9????????8b50f88d4aff8948f889d0eb??8b50f88d4aff8948f889d0eb??662e0f1f8400000000000f1f4000":  // unique sig
 noHook __amd64 void RepairAnimation::__DO_NOT_HOOK(); // 0043f59f
 ".41":  // non-unique sig
-cleanup __amd64 void RepairAnimation::destructor(RepairAnimation *this, int __in_chrg); // 0043f5a0
+cleanup __amd64 void RepairAnimation::destructor(RepairAnimation *this); // 0043f5a0
 // Failed to generate signature for function: RepairAnimation::~RepairAnimation at 004401c0

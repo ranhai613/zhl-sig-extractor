@@ -20,4 +20,4 @@ cleanup __amd64 CollisionResponse *PDSFire::CollisionMoving(PDSFire *this, Point
 "!.66662e0f1f8400000000004883ef08e9????????0f1f8000000000":  // unique sig
 noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 0044f23f
 ".41":  // non-unique sig
-cleanup __amd64 void PDSFire::destructor(PDSFire *this, int __in_chrg); // 0044f240
+cleanup __amd64 void PDSFire::destructor(PDSFire *this); // 0044f240

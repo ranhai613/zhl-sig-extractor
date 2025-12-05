@@ -25,8 +25,8 @@ cleanup __amd64 void Fire::Spread(Fire *this); // 0049ab70
 "!.90488b07488b4050ffe00f1f8000000000488b07f30f1005????????488b8080000000ffe0662e0f1f8400000000006690":  // unique sig
 noHook __amd64 void Fire::__DO_NOT_HOOK(); // 0049ab8f
 "41":  // non-unique sig
-cleanup __amd64 void Fire::destructor(Fire *this, int __in_chrg); // 0049ab90
+cleanup __amd64 void Fire::destructor(Fire *this); // 0049ab90
 "!.eb??66904883ef10e9????????0f1f8000000000":  // unique sig
 noHook __amd64 void Fire::__DO_NOT_HOOK(); // 0049b06f
 ".41":  // non-unique sig
-cleanup __amd64 void Fire::destructor(Fire *this, int __in_chrg); // 0049b070
+cleanup __amd64 void Fire::destructor(Fire *this); // 0049b070

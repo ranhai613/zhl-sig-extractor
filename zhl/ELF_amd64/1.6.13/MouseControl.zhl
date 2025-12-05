@@ -35,4 +35,4 @@ cleanup __amd64 void MouseControl::SetValid(MouseControl *this, bool valid, bool
 ".c6471d":  // unique sig
 cleanup __amd64 void MouseControl::SetSilentValid(MouseControl *this); // 0053de00
 ".415641554989fd415455534883ec10488b":  // unique sig
-cleanup __amd64 void MouseControl::destructor(MouseControl *this, int __in_chrg); // 0053de10
+cleanup __amd64 void MouseControl::destructor(MouseControl *this); // 0053de10

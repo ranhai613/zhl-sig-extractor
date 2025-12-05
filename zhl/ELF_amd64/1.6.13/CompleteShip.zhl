@@ -49,9 +49,9 @@ cleanup __amd64 void CompleteShip::OnRenderShip(CompleteShip *this, bool showInt
 ".f3c366666666662e0f1f840000000000534889fb48c707????????488b7f":  // unique sig
 cleanup __amd64 void CompleteShip::OnCleanup(CompleteShip *this); // 004215c0
 ".534889fb48c707????????488b7f10":  // unique sig
-cleanup __amd64 void CompleteShip::destructor(CompleteShip *this, int __in_chrg); // 004215d0
+cleanup __amd64 void CompleteShip::destructor(CompleteShip *this); // 004215d0
 ".534889fbe8????????4889df5be9????????662e0f1f8400000000000f1f4000f3c3662e0f1f8400000000000f1f4000b8":  // unique sig
-cleanup __amd64 void CompleteShip::destructor(CompleteShip *this, int __in_chrg); // 004216c0
+cleanup __amd64 void CompleteShip::destructor(CompleteShip *this); // 004216c0
 ".31c0c3662e0f1f8400000000000f1f0031c0c3662e0f1f8400000000000f1f0053":  // unique sig
 cleanup __amd64 bool CompleteShip::IsBoss(CompleteShip *this); // 00421700
 ".31c0c3662e0f1f8400000000000f1f005380":  // unique sig

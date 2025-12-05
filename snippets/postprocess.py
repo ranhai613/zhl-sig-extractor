@@ -15,7 +15,8 @@ def remove_const(content: str) -> str:
 
 def preprocess(content: str) -> str:
     content = content.replace(" * ", " *") \
-                     .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string")
+                     .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string") \
+                     .replace(", int __in_chrg", "")
     return content
 
 def process_template(content: str) -> str:

@@ -21,4 +21,4 @@ cleanup __amd64 void UpgradeBox::constructor(UpgradeBox *this, Point location, b
 ".41574589c741564c":  // unique sig
 cleanup __amd64 void UpgradeBox::constructor(UpgradeBox *this, ShipManager *shipManager, ShipSystem *_sil__DO_NOT_USE_system, Point location, bool subsystem); // 0058b630
 ".534889fb4883ec10488bbf60":  // unique sig
-cleanup __amd64 void UpgradeBox::destructor(UpgradeBox *this, int __in_chrg); // 0058d980
+cleanup __amd64 void UpgradeBox::destructor(UpgradeBox *this); // 0058d980

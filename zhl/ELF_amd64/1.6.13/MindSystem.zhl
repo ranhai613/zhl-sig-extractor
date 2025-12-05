@@ -1,7 +1,7 @@
 "!534889fb48c707????????48c74710????????488bbf800200004885ff74??e8????????488bbb580200004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void MindSystem::destructor(MindSystem *this, int __in_chrg); // 00642c90
+cleanup __amd64 void MindSystem::destructor(MindSystem *this); // 00642c90
 "!.534889fb48c707????????48c74710????????488bbf800200004885ff74??e8????????488bbb580200004885ff74??e8????????4889dfe8":  // unique sig
-cleanup __amd64 void MindSystem::destructor(MindSystem *this, int __in_chrg); // 00642ce0
+cleanup __amd64 void MindSystem::destructor(MindSystem *this); // 00642ce0
 ".534889fbe8????????f30f1005":  // unique sig
 cleanup __amd64 void MindSystem::constructor(MindSystem *this, int type, int roomId, int shipId, int starting_power); // 00642d40
 ".4088b771":  // unique sig

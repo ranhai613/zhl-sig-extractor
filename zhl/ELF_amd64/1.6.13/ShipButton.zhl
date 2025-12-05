@@ -7,6 +7,6 @@ cleanup __amd64 void ShipButton::MouseMove(ShipButton *this, int mX, int mY); //
 ".55534889fb4883ec4880bf98":  // unique sig
 cleanup __amd64 void ShipButton::OnRender(ShipButton *this); // 0055e5c0
 "!.534889fb48c707????????488bbfa00000004885ff74??e8????????4889df5b":  // unique sig
-cleanup __amd64 void ShipButton::destructor(ShipButton *this, int __in_chrg); // 0055efd0
+cleanup __amd64 void ShipButton::destructor(ShipButton *this); // 0055efd0
 ".534889fb48c707????????488bbfa00000004885ff74??e8????????4889dfe8":  // unique sig
-cleanup __amd64 void ShipButton::destructor(ShipButton *this, int __in_chrg); // 0055f000
+cleanup __amd64 void ShipButton::destructor(ShipButton *this); // 0055f000

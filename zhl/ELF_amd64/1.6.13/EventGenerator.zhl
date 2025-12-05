@@ -31,4 +31,4 @@ cleanup __amd64 LocationEvent *EventGenerator::GetBaseEvent(EventGenerator *this
 ".4155be0a00000041545548bdffffffffffffff1f534889fb488d7f38":  // unique sig
 cleanup __amd64 void EventGenerator::constructor(EventGenerator *this); // 005fa040
 ".415541544989fc55534883ec18488b9f50":  // unique sig
-cleanup __amd64 void EventGenerator::destructor(EventGenerator *this, int __in_chrg); // 005fc150
+cleanup __amd64 void EventGenerator::destructor(EventGenerator *this); // 005fc150

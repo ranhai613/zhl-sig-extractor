@@ -41,7 +41,7 @@ cleanup __amd64 void CrewControl::KeyDown(CrewControl *this, SDLKey sym); // 005
 ".4154555380bf98":  // unique sig
 cleanup __amd64 void CrewControl::LButtonUp(CrewControl *this, int mX, int mY, bool shift); // 0050e0e0
 ".41544989fc55534883ec10488b4f68":  // unique sig
-cleanup __amd64 void CrewControl::destructor(CrewControl *this, int __in_chrg); // 0050e260
+cleanup __amd64 void CrewControl::destructor(CrewControl *this); // 0050e260
 ".415741564c8db7f0":  // unique sig
 cleanup __amd64 void CrewControl::OnRender(CrewControl *this); // 0050e390
 ".41574989ff415641554589c541544189cc5589d55389f34881":  // unique sig

@@ -19,9 +19,9 @@ cleanup __amd64 void Upgrades::OnTouch(Upgrades *this, TouchAction action, int i
 ".41544989fc55534883ec10488b4f30488b57284889":  // unique sig
 cleanup __amd64 void Upgrades::ClearUpgradeBoxes(Upgrades *this); // 0058da00
 ".41544989fc55534883ec10488b4f30488b572848c707????????4889c84829d048c1f80385c07e??b8????????31ed4885c00f84????????0f1f8400000000004863c5488b1cc24885db74??488bbb60010000e8????????488dbbc8000000e8????????488d7b38e8????????488b4330488d78e84881ff????????75":  // unique sig
-cleanup __amd64 void Upgrades::destructor(Upgrades *this, int __in_chrg); // 0058db40
+cleanup __amd64 void Upgrades::destructor(Upgrades *this); // 0058db40
 ".41544989fc55534883ec10488b4f30488b572848c707????????4889c84829d048c1f80385c07e??b8????????31ed4885c00f84????????0f1f8400000000004863c5488b1cc24885db74??488bbb60010000e8????????488dbbc8000000e8????????488d7b38e8????????488b4330488d78e84881ff????????0f":  // unique sig
-cleanup __amd64 void Upgrades::destructor(Upgrades *this, int __in_chrg); // 0058dce0
+cleanup __amd64 void Upgrades::destructor(Upgrades *this); // 0058dce0
 ".41574989ff41564155415455534881ecb8":  // unique sig
 cleanup __amd64 void Upgrades::OnInit(Upgrades *this, ShipManager *ship); // 0058de90
 ".533977184889fb74??4889":  // unique sig

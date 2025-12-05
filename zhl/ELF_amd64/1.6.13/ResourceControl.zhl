@@ -21,7 +21,7 @@ cleanup __amd64 char *ResourceControl::LoadFromResourceFile(ResourceControl *thi
 ".f3c366666666662e0f1f8400000000004154be":  // unique sig
 cleanup __amd64 void ResourceControl::OnLanguageChange(ResourceControl *this); // 005bbbd0
 ".4154be????????554889fd534883":  // unique sig
-cleanup __amd64 void ResourceControl::destructor(ResourceControl *this, int __in_chrg); // 005bbbe0
+cleanup __amd64 void ResourceControl::destructor(ResourceControl *this); // 005bbbe0
 ".41544989fc55534883ec10e8":  // unique sig
 cleanup __amd64 void ResourceControl::UnloadImage(ResourceControl *this, string *name); // 005bc180
 ".41574989ff4863":  // unique sig

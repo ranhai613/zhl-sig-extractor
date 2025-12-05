@@ -1,7 +1,7 @@
 "!48c707????????488b7f08e9":  // unique sig
-cleanup __amd64 void CachedPrimitive::destructor(CachedPrimitive *this, int __in_chrg); // 005a2ec0
+cleanup __amd64 void CachedPrimitive::destructor(CachedPrimitive *this); // 005a2ec0
 "!.534889fb48c707????????488b7f08":  // unique sig
-cleanup __amd64 void CachedPrimitive::destructor(CachedPrimitive *this, int __in_chrg); // 005a2ed0
+cleanup __amd64 void CachedPrimitive::destructor(CachedPrimitive *this); // 005a2ed0
 ".534889fb488b7f08e8":  // unique sig
 cleanup __amd64 CachedPrimitive *CachedPrimitive::operator=(CachedPrimitive *this, CachedPrimitive *rhs); // 005a2ef0
 ".534889fb4883ec20488b7f":  // unique sig

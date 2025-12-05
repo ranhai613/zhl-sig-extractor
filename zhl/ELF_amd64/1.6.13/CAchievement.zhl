@@ -1,6 +1,6 @@
 "53be????????4889fb4883ec20":  // unique sig
 cleanup __amd64 void CAchievement::constructor(CAchievement *this); // 00422b00
 ".534889fb4883ec10488b87e0":  // unique sig
-cleanup __amd64 void CAchievement::destructor(CAchievement *this, int __in_chrg); // 00422d50
+cleanup __amd64 void CAchievement::destructor(CAchievement *this); // 00422d50
 ".415741564189ce4155415449":  // unique sig
 cleanup __amd64 void CAchievement::OnRender(CAchievement *this, Point pos, int style, bool showNew); // 00423190

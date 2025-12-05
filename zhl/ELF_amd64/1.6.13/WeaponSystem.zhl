@@ -1,7 +1,7 @@
 "89b7c402":  // unique sig
 cleanup __amd64 void WeaponSystem::ForceBatteryPower(WeaponSystem *this, int val); // 00652480
 "!.5531c94889fd5331db4883ec08488bb770020000488b976802000048c707????????48c74710????????4889f04829d048c1f8034885c074??0f1f8000000000488b3cca4885ff74??488b17ff5208488b9568020000488bb5700200004889f083c3014829d089d948c1f8034839c172??488bbdc80200004885ff74??e8????????488bbd980200004885ff74??e8????????488bbd680200004885ff74??e8????????488bbd500200004885ff74??e8????????4883":  // unique sig
-cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this, int __in_chrg); // 00652490
+cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this); // 00652490
 ".534889fbe8????????488b8350":  // unique sig
 cleanup __amd64 void WeaponSystem::Restart(WeaponSystem *this); // 00652570
 ".5531c94889fd5331db4883ec08488b9750020000488b87580200004829d048c1f8034885c074??660f1f840000000000488b3cca31":  // unique sig
@@ -21,7 +21,7 @@ cleanup __amd64 bool WeaponSystem::ForceDecreasePower(WeaponSystem *this, int am
 ".415531c9415449":  // unique sig
 cleanup __amd64 bool WeaponSystem::ForceIncreasePower(WeaponSystem *this, int amount); // 00653070
 "!.5531c94889fd5331db4883ec08488bb770020000488b976802000048c707????????48c74710????????4889f04829d048c1f8034885c074??0f1f8000000000488b3cca4885ff74??488b17ff5208488b9568020000488bb5700200004889f083c3014829d089d948c1f8034839c172??488bbdc80200004885ff74??e8????????488bbd980200004885ff74??e8????????488bbd680200004885ff74??e8????????488bbd500200004885ff74??e8????????4889":  // unique sig
-cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this, int __in_chrg); // 006531c0
+cleanup __amd64 void WeaponSystem::destructor(WeaponSystem *this); // 006531c0
 ".4156415541544589c44189c889d189f2be03":  // unique sig
 cleanup __amd64 void WeaponSystem::constructor(WeaponSystem *this, int roomId, int shipId, int starting_power, int slot_count); // 006532a0
 ".31c085f678??488b8f50020000488b97580200004829ca48c1fa0339d67d??4863f6488b04f148":  // unique sig

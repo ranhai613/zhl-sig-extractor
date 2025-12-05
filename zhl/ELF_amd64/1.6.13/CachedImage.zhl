@@ -29,6 +29,6 @@ cleanup __amd64 void CachedImage::SetRotation(CachedImage *this, float rotation)
 ".5589f5534889fb4883ec08403877":  // unique sig
 cleanup __amd64 void CachedImage::SetMirrored(CachedImage *this, bool mirrored); // 005a2dc0
 ".534889fb4883ec10488b471048c707????????488d78e84881ff????????75??4889dfe8????????4889":  // unique sig
-cleanup __amd64 void CachedImage::destructor(CachedImage *this, int __in_chrg); // 005a2df0
+cleanup __amd64 void CachedImage::destructor(CachedImage *this); // 005a2df0
 ".534889fb4883ec10488b471048c707????????488d78e84881ff????????75??4889dfe8????????4883":  // unique sig
-cleanup __amd64 void CachedImage::destructor(CachedImage *this, int __in_chrg); // 005a2e60
+cleanup __amd64 void CachedImage::destructor(CachedImage *this); // 005a2e60

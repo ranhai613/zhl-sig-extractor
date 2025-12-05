@@ -1,4 +1,4 @@
 "534889fb488d7f20be":  // unique sig
 cleanup __amd64 void SettingValues::constructor(SettingValues *this); // 005c3ee0
 ".41574156415541544989fc55534883ec2849":  // unique sig
-cleanup __amd64 void SettingValues::destructor(SettingValues *this, int __in_chrg); // 005cda40
+cleanup __amd64 void SettingValues::destructor(SettingValues *this); // 005cda40

@@ -1,7 +1,7 @@
 "41574156415541545589d55389":  // unique sig
 cleanup __amd64 void WindowFrame::constructor(WindowFrame *this, int x, int y, int w, int h); // 005da010
 "!.534889fb488b7f10e8????????488b7b":  // unique sig
-cleanup __amd64 void WindowFrame::destructor(WindowFrame *this, int __in_chrg); // 005dab40
+cleanup __amd64 void WindowFrame::destructor(WindowFrame *this); // 005dab40
 "!.41544189d45589f5534889fbe8????????f3":  // unique sig
 cleanup __amd64 void WindowFrame::Draw(WindowFrame *this, int x, int y); // 005dab60
 "!.5589f248":  // unique sig

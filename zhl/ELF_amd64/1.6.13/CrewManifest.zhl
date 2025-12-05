@@ -17,9 +17,9 @@ cleanup __amd64 void CrewManifest::OnTextEvent(CrewManifest *this, TextEvent eve
 ".415431d231c9":  // unique sig
 cleanup __amd64 void CrewManifest::Update(CrewManifest *this); // 00510710
 ".554889fd534883ec18488b8f":  // unique sig
-cleanup __amd64 void CrewManifest::destructor(CrewManifest *this, int __in_chrg); // 00510880
+cleanup __amd64 void CrewManifest::destructor(CrewManifest *this); // 00510880
 ".534889fbe8????????4889df5be9????????66666666662e0f1f84000000000041574156415549":  // unique sig
-cleanup __amd64 void CrewManifest::destructor(CrewManifest *this, int __in_chrg); // 00510ad0
+cleanup __amd64 void CrewManifest::destructor(CrewManifest *this); // 00510ad0
 "4157415641554989f5415455534889fb4883ec38":  // unique sig
 cleanup __amd64 void CrewManifest::OnInit(CrewManifest *this, ShipManager *ship); // 00510af0
 "!.41544989fc5531ed53488b97b8":  // unique sig

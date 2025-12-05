@@ -3,11 +3,11 @@ cleanup __amd64 WeaponBlueprint *ArtillerySystem::GetWeaponInfo(ArtillerySystem 
 ".488b8748020000c7":  // unique sig
 cleanup __amd64 void ArtillerySystem::Jump(ArtillerySystem *this); // 0063c690
 "!.534889fb48c707????????48c74710????????488bbf480200004885ff74??488b07ff50084889df5b":  // unique sig
-cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this, int __in_chrg); // 0063c6b0
+cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this); // 0063c6b0
 ".53488b8648":  // unique sig
 cleanup __amd64 string ArtillerySystem::GetOverrideTooltip(ArtillerySystem *this); // 0063c6f0
 "!.534889fb48c707????????48c74710????????488bbf480200004885ff74??488b07ff50084889dfe8":  // unique sig
-cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this, int __in_chrg); // 0063c730
+cleanup __amd64 void ArtillerySystem::destructor(ArtillerySystem *this); // 0063c730
 ".41554989f5be0b":  // unique sig
 cleanup __amd64 void ArtillerySystem::constructor(ArtillerySystem *this, WeaponBlueprint *weapBlueprint, int roomId, int shipId, int starting_power); // 0063c780
 "!.4889b75002000048":  // unique sig

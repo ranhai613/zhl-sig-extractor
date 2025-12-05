@@ -61,8 +61,8 @@ cleanup __amd64 void ProjectileFactory::LoadState(ProjectileFactory *this, int f
 ".4157415641554989fd415455534881ec8801":  // unique sig
 cleanup __amd64 void ProjectileFactory::Update(ProjectileFactory *this); // 00451bd0
 ".41":  // non-unique sig
-cleanup __amd64 void ProjectileFactory::destructor(ProjectileFactory *this, int __in_chrg); // 00453660
+cleanup __amd64 void ProjectileFactory::destructor(ProjectileFactory *this); // 00453660
 "!.d0eb??8b50f88d4aff8948f889d0eb??660f1f840000000000":  // unique sig
 noHook __amd64 void ProjectileFactory::__DO_NOT_HOOK(); // 004541ff
 ".41":  // non-unique sig
-cleanup __amd64 void ProjectileFactory::destructor(ProjectileFactory *this, int __in_chrg); // 00454200
+cleanup __amd64 void ProjectileFactory::destructor(ProjectileFactory *this); // 00454200

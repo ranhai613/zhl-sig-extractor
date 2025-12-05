@@ -3,11 +3,11 @@ cleanup __amd64 bool WeaponBox::GetHacked(WeaponBox *this); // 0058f3d0
 ".534889fb4883ec20488b07ff501084c074??0f2805????????0f29442410488b4424184889442408f30f7e442410f30f7e4c24084883c4205bc3660f1f440000488b034889dfff502084c00f":  // unique sig
 cleanup __amd64 GL_Color WeaponBox::StatusColor(WeaponBox *this); // 0058f400
 "!.415431c9554889fd53488b971802000031db488b872002000048c707????????4829d048c1f8034885c074??0f1f4000488b3cca83c301e8????????488b9518020000488b852002000089d94829d048c1f8034839c172??488bbd30020000e8????????4c8ba540020000488b9d380200004939dc4c89e774??660f1f440000488b034889df4883c348ff50084939dc75??488bbd380200004885ff74??e8????????488bbd180200004885ff74??e8????????5b":  // unique sig
-cleanup __amd64 void WeaponBox::destructor(WeaponBox *this, int __in_chrg); // 0058f570
+cleanup __amd64 void WeaponBox::destructor(WeaponBox *this); // 0058f570
 ".554889f5534889fb4889f74883ec38":  // unique sig
 cleanup __amd64 string WeaponBox::GenerateTooltip(WeaponBox *this); // 0058f630
 "!.415431c9554889fd53488b971802000031db488b872002000048c707????????4829d048c1f8034885c074??0f1f4000488b3cca83c301e8????????488b9518020000488b852002000089d94829d048c1f8034839c172??488bbd30020000e8????????4c8ba540020000488b9d380200004939dc4c89e774??660f1f440000488b034889df4883c348ff50084939dc75??488bbd380200004885ff74??e8????????488bbd180200004885ff74??e8????????48":  // unique sig
-cleanup __amd64 void WeaponBox::destructor(WeaponBox *this, int __in_chrg); // 0058f750
+cleanup __amd64 void WeaponBox::destructor(WeaponBox *this); // 0058f750
 ".55ba030000004889f5be22":  // unique sig
 cleanup __amd64 void WeaponBox::constructor(WeaponBox *this, Point loc); // 0058f820
 ".41574889d048c1f82041564155415449":  // unique sig

@@ -23,9 +23,9 @@ cleanup __amd64 bool SystemBox::MouseClick(SystemBox *this, bool force); // 0057
 ".5589f5534889fb4883ec28488bbf90000000e8????????84c075??80":  // unique sig
 cleanup __amd64 void SystemBox::MouseRightClick(SystemBox *this, bool force); // 00578800
 ".554889fd5331db4883ec1848c707????????66":  // unique sig
-cleanup __amd64 void SystemBox::destructor(SystemBox *this, int __in_chrg); // 00578900
+cleanup __amd64 void SystemBox::destructor(SystemBox *this); // 00578900
 ".534889fbe8????????4889df5be9????????66666666662e0f1f840000000000554889fd5331":  // unique sig
-cleanup __amd64 void SystemBox::destructor(SystemBox *this, int __in_chrg); // 00578a50
+cleanup __amd64 void SystemBox::destructor(SystemBox *this); // 00578a50
 ".4157415641be01":  // unique sig
 cleanup __amd64 void SystemBox::constructor(SystemBox *this, Point loc, ShipSystem *sys, bool playerUI); // 00579060
 ".5589f5534889fb4883ec08c6":  // unique sig
