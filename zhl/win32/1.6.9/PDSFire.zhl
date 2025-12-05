@@ -1,0 +1,26 @@
+"80b9b402":  // unique sig
+cleanup __amd64 int PDSFire::ForceRenderLayer(PDSFire *this); // 0044ebe0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c80b9":  // unique sig
+cleanup __amd64 void PDSFire::OnUpdate(PDSFire *this); // 0044f4a0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec6c8b378b":  // unique sig
+cleanup __amd64 void PDSFire::CollisionCheck(PDSFire *this, Collideable *object); // 0044f6a0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b37893424e8????????83ec04893424e8????????d95de48b45e48934248983ac":  // unique sig
+cleanup __amd64 void PDSFire::LoadProjectile(PDSFire *this, int fd); // 004503a0
+".578d7c240883e4f0ff77fc5589e557565383ec6c8b0739":  // unique sig
+cleanup __amd64 void PDSFire::OnRenderSpecific(PDSFire *this, int spaceId); // 00450ee0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b37893424e8????????f30f1083ac":  // unique sig
+cleanup __amd64 void PDSFire::SaveProjectile(PDSFire *this, int fd); // 00451780
+".578d7c240883e4f0ff77fc5589f889e557565389cf81ec3c":  // unique sig
+cleanup __amd64 void PDSFire::constructor(PDSFire *this, Point pos, int destinationSpace, Pointf destination); // 004546e0
+".578d7c240883e4f0ff77fc5589e5575389cb8d490483ec10c741fc00000000f30f1005????????f30f11442404f30f110424e8????????c7430c00000000c743100000000083ec088d65f889d85b5f5d8d67f85fc24c00909090909090909090b8":  // unique sig
+static cleanup __amd64 CollisionResponse *PDSFire::CollisionMoving(CollisionResponse *__return_storage_ptr__, PDSFire *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00733b10
+".b806000000c390":  // unique sig
+cleanup __amd64 int PDSFire::GetType(PDSFire *this); // 00733b70
+"!.90":  // non-unique sig
+noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 00733b7f
+".55":  // non-unique sig
+cleanup __amd64 void PDSFire::destructor(PDSFire *this); // 00733b80
+"!.90":  // non-unique sig
+noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 00733e7f
+".55":  // non-unique sig
+cleanup __amd64 void PDSFire::destructor(PDSFire *this); // 00733e80

@@ -1,0 +1,94 @@
+"5789c883c014":  // unique sig
+cleanup __amd64 void ScoreKeeper::constructor(ScoreKeeper *this); // 0043d760
+".578d7c240883e4f0ff77fc5589e557565383ec5c8b37c7":  // unique sig
+cleanup __amd64 std::pair<int, int> ScoreKeeper::GetShipId(ScoreKeeper *this, string *blueprintName); // 0043e180
+".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b47048d":  // unique sig
+cleanup __amd64 string *ScoreKeeper::GetShipBlueprint(ScoreKeeper *this, int id); // 0043e4d0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b1fa1":  // unique sig
+cleanup __amd64 void ScoreKeeper::SaveGame(ScoreKeeper *this, int fd); // 0043e5a0
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b3f894dc4":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadGame(ScoreKeeper *this, int fd); // 0043e660
+".578d7c240883e4f0ff77fc5589e557565381ec5c05":  // unique sig
+cleanup __amd64 void ScoreKeeper::RenderTopScores(ScoreKeeper *this, std::vector<TopScore> *topScoreList, Point position, int highscore); // 0043ea40
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b378b06":  // unique sig
+cleanup __amd64 void ScoreKeeper::UpdateCrewStat(ScoreKeeper *this, SCrewStats *crewmember); // 00440ca0
+".5731c08d7c240883e4f0ff77fc5589e557565381ec4c":  // unique sig
+cleanup __amd64 bool ScoreKeeper::GetShipUnlocked(ScoreKeeper *this, int shipId, int layout); // 00440ea0
+".5589e557565389cf31db83e4f083ec10":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadVersionOne(ScoreKeeper *this, int fd); // 004414c0
+".5781c14c":  // unique sig
+cleanup __amd64 void ScoreKeeper::SetShipName(ScoreKeeper *this, string *name); // 00441510
+".5781c164":  // unique sig
+cleanup __amd64 void ScoreKeeper::SetShipBlueprint(ScoreKeeper *this, string *blueprint); // 00441540
+".8b442404c74124":  // unique sig
+cleanup __amd64 void ScoreKeeper::SetSector(ScoreKeeper *this, int sector); // 00441570
+".8b44240484c0888188":  // unique sig
+cleanup __amd64 void ScoreKeeper::SetVictory(ScoreKeeper *this, bool victory); // 004415a0
+".5589e557565389cfb9????????8b":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddStat(ScoreKeeper *this, int stat, int amount); // 004415c0
+".578d7c240883e4f0ff77fc5589e5575389cbb9????????83ec30e8????????84":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddDefeatedShips(ScoreKeeper *this); // 00441600
+".5589e55389cbb9????????83e4f0e8????????84c075??8343":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddExploredLocations(ScoreKeeper *this); // 004416c0
+".578d7c240883e4f0ff77fc5589e557565389cbb9????????83ec3c":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddScrapCollected(ScoreKeeper *this, int amount); // 004416f0
+".5589e55389cbb9????????83e4f0e8????????84c075??8383":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddCrew(ScoreKeeper *this); // 004417b0
+".5589e553c7":  // unique sig
+cleanup __amd64 void ScoreKeeper::Reset(ScoreKeeper *this); // 004417e0
+".578d7c240883e4f0ff77fc5589f889e557565383ec7c8b40":  // unique sig
+cleanup __amd64 void ScoreKeeper::SaveScores(ScoreKeeper *this, int fd, std::vector<TopScore> *topScoreList); // 00441850
+".8b91a402":  // unique sig
+cleanup __amd64 int ScoreKeeper::GetTopScore(ScoreKeeper *this); // 00441b10
+".8b41248d14":  // unique sig
+cleanup __amd64 int ScoreKeeper::CalculateSectorScore(ScoreKeeper *this); // 00441b30
+".a1????????f30f1005????????83":  // unique sig
+cleanup __amd64 int ScoreKeeper::CalculateScore(ScoreKeeper *this); // 00441b50
+".578d7c240883e4f0ff77fc5589e557565383ec7c8b77":  // unique sig
+cleanup __amd64 int ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, std::vector<TopScore> *topScoreList); // 00441ba0
+".578d7c240883e4f0ff77fc5589e557565389ceb9????????81ecec":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, int type); // 00441ea0
+".578d7c240883e4f0ff77fc5589e55783ec148b078b57048b78":  // unique sig
+cleanup __amd64 void ScoreKeeper::AddTopScore(ScoreKeeper *this, TopScore *score, int type); // 00442790
+".578d7c240883e4f0ff77fc5589f889e557565389cf31f681":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadVersionTwo(ScoreKeeper *this, int fd); // 004427d0
+".578d7c240883e4f0ff77fc5589e557565389cbb9????????81ecac":  // unique sig
+cleanup __amd64 void ScoreKeeper::Save(ScoreKeeper *this, bool newHighscore); // 00442ba0
+".578d7c240883e4f0ff77fc5589e557565383ec3c8b07894ddcb9":  // unique sig
+cleanup __amd64 void ScoreKeeper::WipeProfile(ScoreKeeper *this, bool permanent); // 004432e0
+".5789c88d7c240883e4f0ff77fc5589e557565383ec5c8b57":  // unique sig
+cleanup __amd64 void ScoreKeeper::UnlockShip(ScoreKeeper *this, int shipId, int layout, bool save, bool hidePopup); // 00443590
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b17":  // unique sig
+cleanup __amd64 void ScoreKeeper::UnlockShip(ScoreKeeper *this, int shipId, int layout, bool save, bool hidePopup); // 004437c0
+".578d7c240883e4f0ff77fc5589e5575389cbb9????????83ec10e8????????84c075":  // unique sig
+cleanup __amd64 void ScoreKeeper::CheckCrystalUnlock(ScoreKeeper *this); // 00443830
+".578d7c240883e4f0ff77fc5589e557565331f681":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadVersionThree(ScoreKeeper *this, int fd); // 004438c0
+".578d7c240883e4f0ff77fc5589f889e557565381ecec":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadVersionFour(ScoreKeeper *this, int fd, int version); // 00443c70
+".578d7c240883e4f0ff77fc5589e55783ec148b078b570489042489542404e8????????8b7dfc83ec08c98d67f85fc20800908d":  // unique sig
+cleanup __amd64 void ScoreKeeper::LoadCurrent(ScoreKeeper *this, int fd, int version); // 004444a0
+".578d7c240883e4f0ff77fc5589e557565389cb8db3cc":  // unique sig
+cleanup __amd64 void ScoreKeeper::CheckTypes(ScoreKeeper *this); // 004444e0
+".578d7c240883e4f0ff77fc5589e55756538d55d8":  // unique sig
+cleanup __amd64 void ScoreKeeper::SetupTopShip(ScoreKeeper *this, int layout); // 00444770
+".578d7c240883e4f0ff77fc5589e557565389cebb09":  // unique sig
+cleanup __amd64 void ScoreKeeper::CycleLeft(ScoreKeeper *this); // 00444980
+".578d7c240883e4f0ff77fc5589e557565389ce31db83ec1c908db426000000008b96":  // unique sig
+cleanup __amd64 void ScoreKeeper::CycleRight(ScoreKeeper *this); // 004449f0
+".578d7c240883e4f0ff77fc5589e557565389ce83c10c":  // unique sig
+cleanup __amd64 void ScoreKeeper::Open(ScoreKeeper *this, bool fromGameOver); // 00444a60
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c80b9c4":  // unique sig
+cleanup __amd64 void ScoreKeeper::MouseClick(ScoreKeeper *this, int mX, int mY); // 004455b0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c0fb681":  // unique sig
+cleanup __amd64 bool ScoreKeeper::KeyDown(ScoreKeeper *this, SDLKey sym); // 00445820
+".578d7c240883e4f0ff77fc5589f889e557565389cf81ec1c03":  // unique sig
+cleanup __amd64 void ScoreKeeper::OnRender(ScoreKeeper *this, bool lastPlaythrough); // 004459d0
+".578d7c240883e4f0ff77fc5589f889e557565389cb83ec2c80":  // unique sig
+cleanup __amd64 void ScoreKeeper::MouseMove(ScoreKeeper *this, int mX, int mY); // 004484d0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8b7704":  // unique sig
+cleanup __amd64 void ScoreKeeper::OnTouch(ScoreKeeper *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004487d0
+".5589e557565389ce83e4f083ec20894c241481c190":  // unique sig
+cleanup __amd64 void ScoreKeeper::destructor(ScoreKeeper *this); // 00448df0
+".578d7c240883e4f0ff77fc5589e557565389cb8d75cc":  // unique sig
+cleanup __amd64 void ScoreKeeper::OnInit(ScoreKeeper *this); // 00449110

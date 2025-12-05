@@ -1,0 +1,26 @@
+"8d4c240483e4f0ff71fc5589e5535183ec208b198b":  // unique sig
+static cleanup __amd64 void ShipGenerator::AddDrone(ShipManager *ship, DroneBlueprint *drone, int *scrap); // 005f9250
+".8d4c240483e4f0ff71fc5589e55756535183ec388b41088b31":  // unique sig
+static cleanup __amd64 bool ShipGenerator::UpgradeSystem(ShipManager *ship, std::vector<int> *maxes, int sysId); // 005f92b0
+".8b44240483b8":  // unique sig
+static cleanup __amd64 int ShipGenerator::GetDroneFlags(DroneBlueprint *blueprint); // 005f95a0
+".8b5424048b82":  // unique sig
+static cleanup __amd64 int ShipGenerator::GetWeaponFlags(WeaponBlueprint *blueprint); // 005f95c0
+".8d4c240483e4f0ff71fc5589c889e55756535181eca8":  // unique sig
+static cleanup __amd64 std::vector<CrewBlueprint> *ShipGenerator::GetPossibleCrewList(ShipManager *ship, string *type, int scrap); // 005f9640
+".8d4c240483e4f0ff71fc5589c889e55756535181ec88":  // unique sig
+static cleanup __amd64 std::vector<WeaponBlueprint*> *ShipGenerator::GetPossibleWeaponList(ShipManager *ship, string *name, int scrap, int filter); // 005fb240
+".8d4c240483e4f0ff71fc5589e55756535181ec880000008b0189c7":  // unique sig
+static cleanup __amd64 std::vector<DroneBlueprint*> *ShipGenerator::GetPossibleDroneList(ShipManager *ship, string *name, int scrap, int filter, bool desperate); // 005fb6c0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8945c0c70000000000c7400400000000c740080000000031c08955bcc745c800000000eb??908d74260083":  // unique sig
+static cleanup __amd64 std::vector<int> *ShipGenerator::GetPossibleSystemUpgrades(vector<int,_std::allocator<int>_> *__return_storage_ptr__, ShipManager *ship, std::vector<int> *maxes, int scrap, int type); // 005fbb50
+".8d4c240483e4f0ff71fc5589e55756535183ec488b018b79048b590889":  // unique sig
+static cleanup __amd64 std::vector<int> *ShipGenerator::GenerateSystemMaxes(ShipBlueprint *blueprint, int sector); // 005fbe90
+".8d4c240483e4f0ff71fc5589e55756535183ec688b018b71":  // unique sig
+static cleanup __amd64 std::vector<int> *ShipGenerator::GetPossibleSystemUpgrades(ShipManager *ship, std::vector<int> *maxes, int scrap, int type); // 005fc060
+".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8945c0c70000000000c7400400000000c740080000000031c08955bcc745c800000000eb??908d7426008d":  // unique sig
+static cleanup __amd64 std::vector<int> *ShipGenerator::GetPossibleSystemUpgrades(vector<int,_std::allocator<int>_> *__return_storage_ptr__, ShipManager *ship, std::vector<int> *maxes, int scrap, int type); // 005fc3d0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8945c0c70000000000c7400400000000c740080000000031c08955bcc745c8000000008d":  // unique sig
+static cleanup __amd64 std::vector<int> *ShipGenerator::GetPossibleSystemUpgrades(vector<int,_std::allocator<int>_> *__return_storage_ptr__, ShipManager *ship, std::vector<int> *maxes, int scrap, int type); // 005fc720
+".8d4c240483e4f0ff71fc5589e55756535131db81":  // unique sig
+static cleanup __amd64 ShipManager *ShipGenerator::CreateShip(string *name, int sector, ShipEvent *event); // 005fca40

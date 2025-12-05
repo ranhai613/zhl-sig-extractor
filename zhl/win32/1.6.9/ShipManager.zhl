@@ -1,0 +1,444 @@
+"8b81c8040000837828":  // unique sig
+cleanup __amd64 bool ShipManager::IsCloaked(ShipManager *this); // 0048fb50
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b078b57":  // unique sig
+cleanup __amd64 void ShipManager::DamageTarget(ShipManager *this, Pointf location, Damage damage); // 0048fb90
+".5731c08d7c240883e4f0ff77fc5589e557565383ec7c":  // unique sig
+cleanup __amd64 bool ShipManager::DamageShield(ShipManager *this, Pointf location, Damage damage, bool forceHit); // 0048fc90
+".578d7c240883e4f0ff77fc5589e5575389cb81c194":  // unique sig
+cleanup __amd64 void ShipManager::SetTempVision(ShipManager *this, Pointf location); // 0048fd50
+".5589c889e58b":  // unique sig
+cleanup __amd64 ShieldPower *ShipManager::GetShieldPower(ShipManager *this); // 0048fdd0
+".538b5424088b81":  // unique sig
+cleanup __amd64 int ShipManager::IsSystemHacked(ShipManager *this, int systemId); // 0048ff90
+".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b4938":  // unique sig
+cleanup __amd64 void ShipManager::CloneHealing(ShipManager *this); // 00490000
+".578d7c240883e4f0ff77fc5589e5575383ec408b4144":  // unique sig
+cleanup __amd64 Pointf ShipManager::GetSuperShield(ShipManager *this); // 004900d0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c803f":  // unique sig
+cleanup __amd64 Pointf ShipManager::GetRandomTargettingPoint(ShipManager *this, bool valuable); // 00490250
+".8b815008000003":  // unique sig
+cleanup __amd64 void ShipManager::ModifyBP(ShipManager *this, int value); // 00490350
+".578b7964":  // unique sig
+cleanup __amd64 bool ShipManager::ContainsMindControlledEnemy(ShipManager *this); // 00490370
+".5589e5538b81c8":  // unique sig
+cleanup __amd64 void ShipManager::SetSafe(ShipManager *this); // 004903c0
+".8b8150080000c3":  // unique sig
+cleanup __amd64 int ShipManager::GetBP(ShipManager *this); // 00490430
+".57b9????????8d7c240883e4f0ff77fc5589e55753":  // unique sig
+cleanup __amd64 void ShipManager::SaveCrewPositions(ShipManager *this); // 00490440
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2cc7":  // unique sig
+cleanup __amd64 void ShipManager::UpgradeAll(ShipManager *this); // 004904f0
+".5589e557565383e4f083ec108b450883":  // unique sig
+cleanup __amd64 bool ShipManager::CanFitSystem(ShipManager *this, int systemId); // 00490590
+".5589e557565383e4f083ec108b791c8b511889f829d0c1f80285c074??894c240c31db31f6eb??89f68dbc27000000000fb681180100003c0189f883d60029d083c301c1f80239c373??8b0c9a8b018b80a00000003d????????74??ffd08b7c240c8b57188b7f1ceb??8d":  // unique sig
+cleanup __amd64 bool ShipManager::CanFitSubsystem(ShipManager *this); // 00490670
+".c20400908db6000000008dbf0000000056":  // unique sig
+cleanup __amd64 void ShipManager::HackingIonPulse(ShipManager *this, ShipSystem *_sil__DO_NOT_USE_system); // 00490700
+".56660fefc0":  // unique sig
+cleanup __amd64 void ShipManager::HackingStunPulse(ShipManager *this, int roomId, float length); // 00490710
+".5589e557565383e4f083ec108b51":  // unique sig
+cleanup __amd64 int ShipManager::CountBoarders(ShipManager *this, int iRoomId); // 00490770
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b018b378b":  // unique sig
+cleanup __amd64 int ShipManager::DamageHull(ShipManager *this, int amount, bool force); // 00490820
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b378b4704":  // unique sig
+cleanup __amd64 void ShipManager::ModifyScrapCount(ShipManager *this, int amount, bool income); // 004908a0
+".8b91c8040000837a28":  // unique sig
+cleanup __amd64 bool ShipManager::CanCloak(ShipManager *this); // 004909f0
+".578d7c240883e4f0ff77fc5589e55783ec148b91c8":  // unique sig
+cleanup __amd64 void ShipManager::SetCloaked(ShipManager *this, bool val); // 00490a20
+".5589e557565383e4f083ec100fb6450c":  // unique sig
+cleanup __amd64 int ShipManager::CountTeleportingCrew(ShipManager *this, int roomId, bool intruders); // 00490a60
+".5589e557565383e4f083ec108b7968":  // unique sig
+cleanup __amd64 CrewMember *ShipManager::GetCrewmember(ShipManager *this, int slot, bool present); // 00490b20
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b5964":  // unique sig
+cleanup __amd64 void ShipManager::RemoveCrewmember(ShipManager *this, CrewMember *crew); // 00490bf0
+".57b9????????8d7c240883e4f0ff77fc5589e557565383":  // unique sig
+cleanup __amd64 CrewMember *ShipManager::FindCrew(ShipManager *this, CrewBlueprint *blueprint); // 00490c90
+".a1????????c781":  // unique sig
+cleanup __amd64 void ShipManager::ResetScrapLevel(ShipManager *this); // 00490e20
+".5589e557565383e4f083ec108b791c8b511889f829d0c1f80285c074??894c240c31db31f6eb??89f68dbc27000000000fb681180100003c0189f883de":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemCount(ShipManager *this); // 00490e60
+".5589e557565383e4f083ec108b791c8b511889f829d0c1f80285c074??894c240c31db31f6eb??89f68dbc27000000000fb681180100003c0189f883d60029d083c301c1f80239c373??8b0c9a8b018b80a00000003d????????74??ffd08b7c240c8b57188b7f1ceb??31":  // unique sig
+cleanup __amd64 int ShipManager::GetSubSystemCount(ShipManager *this); // 00490ee0
+".5589e557565383e4f083ec108b41688b516489c3":  // unique sig
+cleanup __amd64 int ShipManager::CountPlayerCrew(ShipManager *this); // 00490f60
+".5589e557565383e4f083ec100fb645088b51":  // unique sig
+cleanup __amd64 int ShipManager::CountCrew(ShipManager *this, bool intruder); // 00491030
+".5589e557565383e4f083ec108b41688b51648944":  // unique sig
+cleanup __amd64 int ShipManager::CountCrewShipId(ShipManager *this, int room, int id); // 00491100
+".5589e557565331db89cf83e4f083ec108b":  // unique sig
+cleanup __amd64 bool ShipManager::DeadCrew(ShipManager *this); // 004911e0
+".5731c08d7c240883e4f0ff77fc5589e5575389cb83ec108b5104b9????????85d20f95c0890424e8????????83ec04837b040119":  // unique sig
+cleanup __amd64 bool ShipManager::IsCrewOverFull(ShipManager *this); // 004912c0
+".5731c08d7c240883e4f0ff77fc5589e5575389cb83ec108b5104b9????????85d20f95c0890424e8????????83ec04837b0401b9":  // unique sig
+cleanup __amd64 bool ShipManager::IsCrewFull(ShipManager *this); // 00491310
+".0fb6818c08":  // unique sig
+cleanup __amd64 bool ShipManager::CheckCloakAchievement(ShipManager *this); // 00491370
+".8b81c804000083780cff74??55":  // unique sig
+cleanup __amd64 void ShipManager::ChargeAllWeapons(ShipManager *this); // 00491380
+".5589e557565389ce83e4f083ec208b59":  // unique sig
+cleanup __amd64 void ShipManager::CheckBatteryPower(ShipManager *this); // 004913a0
+".5581c19400000089e583e4f0e8????????c9":  // unique sig
+cleanup __amd64 void ShipManager::PauseLoop(ShipManager *this); // 00491510
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b81c80400008b3f":  // unique sig
+cleanup __amd64 bool ShipManager::DoSensorsProvide(ShipManager *this, int power); // 00491530
+".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8b81c8":  // unique sig
+cleanup __amd64 void ShipManager::CheckVision(ShipManager *this); // 00491620
+".8b81c80400008b54240483":  // unique sig
+cleanup __amd64 void ShipManager::SetBoostFTL(ShipManager *this, bool val); // 00491880
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b410489":  // unique sig
+cleanup __amd64 void ShipManager::UpdateReactor(ShipManager *this); // 004918a0
+".578d7c240883e4f0ff77fc5589e55756538d5dd08d75":  // unique sig
+cleanup __amd64 bool ShipManager::ResistDamage(ShipManager *this, string *augment); // 00491940
+".0fb64140c3":  // unique sig
+cleanup __amd64 bool ShipManager::GetShowHacking(ShipManager *this); // 00491a50
+".8b442404884140":  // unique sig
+cleanup __amd64 void ShipManager::SetShowHacking(ShipManager *this, bool val); // 00491a60
+".8b819c04":  // unique sig
+cleanup __amd64 int ShipManager::GetLastDamage(ShipManager *this); // 00491a70
+".578d7c240883e4f0ff77fc5589e557565331db89ce83ec1c8b5118":  // unique sig
+cleanup __amd64 void ShipManager::SetDestroyed(ShipManager *this); // 00491a90
+".578d7c240883e4f0ff77fc5589e5575389cb83ec108b018b":  // unique sig
+cleanup __amd64 void ShipManager::Blowup(ShipManager *this); // 00491b10
+".578d7c240883e4f0ff77fc5589e557565389ce83ec3c83":  // unique sig
+cleanup __amd64 void ShipManager::JumpLeave(ShipManager *this); // 00491b70
+".8b494485c974??5589e583e4f0e8????????c9f3c3908d76008dbc27000000008b49":  // unique sig
+cleanup __amd64 void ShipManager::DrainSuperShields(ShipManager *this); // 00491ca0
+".8b494485c974??5589e583e4f0e8????????c9f3c3908d76008dbc27000000008b51":  // unique sig
+cleanup __amd64 void ShipManager::PowerSuperShields(ShipManager *this); // 00491cc0
+".8b51188b411c29d0c1f80285c074??5589e557565389ce31db83e4f0eb??66908b4140":  // unique sig
+cleanup __amd64 void ShipManager::SystemJump(ShipManager *this); // 00491ce0
+".8b81c8040000837834":  // unique sig
+cleanup __amd64 void ShipManager::CloneHealing(ShipManager *this); // 00491d50
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8bb1":  // unique sig
+cleanup __amd64 bool ShipManager::ShipFlying(ShipManager *this); // 00491d70
+".5589e583e4f0e8????????c9c3906690578d7c240883e4f0ff77fc5589e557565383":  // unique sig
+cleanup __amd64 bool ShipManager::JumpCharging(ShipManager *this); // 00491e10
+".578d7c240883e4f0ff77fc5589e557565383ec2c8bb1c8":  // unique sig
+cleanup __amd64 int ShipManager::GetDodgeFactor(ShipManager *this); // 00491e20
+".5589e5565389cb83e4f0e8":  // unique sig
+cleanup __amd64 int ShipManager::GetNetDodgeFactor(ShipManager *this); // 00492010
+".8079100075??b8":  // unique sig
+cleanup __amd64 bool ShipManager::GetDodged(ShipManager *this); // 00492060
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b81c80400008b1f8b40":  // unique sig
+cleanup __amd64 void ShipManager::ManipulateAllDoors(ShipManager *this, bool open); // 004922f0
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b81c80400008b1f8b7f":  // unique sig
+cleanup __amd64 void ShipManager::ManipulateDoors(ShipManager *this, int roomId, bool open); // 00492380
+".57660fefc08d7c240883e4f0ff77fc5589fa":  // unique sig
+cleanup __amd64 bool ShipManager::ContainsPoint(ShipManager *this, int x, int y); // 00492410
+".c23c00908d":  // unique sig
+cleanup __amd64 void ShipManager::CalculateDamage(ShipManager *this, float x, float y, Damage damage); // 004924c0
+".f30f108190040000f3":  // unique sig
+cleanup __amd64 void ShipManager::AccelerateJumpTrack(ShipManager *this); // 004924d0
+".5781c1940000008d7c240883e4f0ff77fc5589e55783ec24":  // unique sig
+cleanup __amd64 bool ShipManager::ValidTargetPosition(ShipManager *this, Pointf location); // 004924f0
+".5781c1940000008d7c240883e4f0ff77fc5589e55753":  // unique sig
+cleanup __amd64 void ShipManager::LockdownRoom(ShipManager *this, int roomId, Pointf position); // 00492550
+".578d7c240883e4f0ff77fc5589f889e557565383ec2c80":  // unique sig
+cleanup __amd64 bool ShipManager::DamageCrew(ShipManager *this, CrewMember *crew, Damage damage); // 004925a0
+".578d7c240883e4f0ff77fc5589e5575389cb8d490483ec10c741fc00000000f30f1005????????f30f11442404f30f110424e8????????c7430c00000000c743100000000083ec088d65f889d85b5f5d8d67f85fc240":  // unique sig
+static cleanup __amd64 CollisionResponse *ShipManager::CollisionHull(CollisionResponse *__return_storage_ptr__, ShipManager *this, Pointf point, Damage damage); // 004926c0
+".578d7c240883e4f0ff77fc5589e55783ec148b47048b0f89":  // unique sig
+cleanup __amd64 void ShipManager::AssignRoom(ShipManager *this, CrewMember *crew, int roomId); // 00492720
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec2c8b308b81":  // unique sig
+cleanup __amd64 void ShipManager::SaveSuperDrones(ShipManager *this, int fd); // 00492750
+".578d7c240883e4f0ff77fc5589e55756538d995c":  // unique sig
+cleanup __amd64 void ShipManager::PrepareSuperBarrage(ShipManager *this); // 00492890
+".8b51648b416829d0c1f80285c00f":  // unique sig
+cleanup __amd64 void ShipManager::DestroyBoardingDrones(ShipManager *this); // 00492cc0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b81c8":  // unique sig
+cleanup __amd64 void ShipManager::Wait(ShipManager *this); // 00492d70
+".578d7c240883e4f0ff77fc5589e557565389ce81c1a0":  // unique sig
+cleanup __amd64 void ShipManager::JumpArrive(ShipManager *this); // 00492ef0
+".8b81f007000085c00f8e":  // unique sig
+cleanup __amd64 bool ShipManager::IntrudersArrived(ShipManager *this); // 004930b0
+".8b81c80400008b00":  // unique sig
+cleanup __amd64 void ShipManager::InstantPowerShields(ShipManager *this); // 00493150
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b47048b":  // unique sig
+cleanup __amd64 Repairable *ShipManager::CheckForRepair(ShipManager *this, Point to, Point from); // 004931c0
+".5589e5565383e4f083ec208b450889":  // unique sig
+cleanup __amd64 void ShipManager::ModelViewUpdate(ShipManager *this, Pointf position, float heading); // 00493420
+".0fb6411084c075":  // unique sig
+cleanup __amd64 bool ShipManager::CanReceiveTeleport(ShipManager *this); // 00493550
+".5589e557565389cb83e4f083ec108b79":  // unique sig
+cleanup __amd64 void ShipManager::OnCleanup(ShipManager *this); // 00493570
+".578d7c240883e4f0ff77fc5589e557565389ce83ec1c80":  // unique sig
+cleanup __amd64 Pointf ShipManager::GetRandomRoomCenter(ShipManager *this); // 004936e0
+".5781c1940000008d7c240883e4f0ff77fc5589e55783ec14":  // unique sig
+cleanup __amd64 Pointf ShipManager::GetRoomCenter(ShipManager *this, int roomId); // 00493750
+".8b41648b":  // unique sig
+cleanup __amd64 int ShipManager::GetRandomCrewLocation(ShipManager *this); // 00493780
+".5589e557565331f631db89":  // unique sig
+cleanup __amd64 int ShipManager::GetRandomSabotage(ShipManager *this); // 00493870
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b51":  // unique sig
+cleanup __amd64 void ShipManager::CheckSpreadDamage(ShipManager *this); // 004939b0
+".5531d289e557565389cb83e4f083ec208b7d088b7768":  // unique sig
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetCrewList(ShipManager *this); // 00493b80
+".5531d289e557565389cb83e4f083ec208b7d088b771c":  // unique sig
+cleanup __amd64 std::vector<ShipSystem*> *ShipManager::GetSystemList(ShipManager *this); // 00493c10
+".5589e583e4f083ec108b4104890424e8????????89":  // unique sig
+cleanup __amd64 std::pair<int, int> ShipManager::GetAvailablePower(ShipManager *this); // 00493ca0
+".558b81c804000089e583e4f08b55088b049083f8ff74??8b51188b0c82e8":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemPower(ShipManager *this, int systemId); // 00493cc0
+".5589e5565331db":  // unique sig
+cleanup __amd64 void ShipManager::ClearStatus(ShipManager *this); // 00493d00
+".5589e583e4f083ec108b450883f811":  // unique sig
+cleanup __amd64 void ShipManager::ClearStatus(ShipManager *this, int systemId); // 00493d60
+".578d7c240883e4f0ff77fc5589e55783ec148b078b7f0483f81174??83f8ff74??8b91c80400008b048283f8ff74??8b51188b0c8285c974??893c24e8????????83ec048b7dfcc98d67f85fc20800908b4104890424e8????????893c2489c1e8????????83ec04eb??8db600000000578d7c240883e4f0ff77fc5589e55783ec148b078b7f0483f81174??83f8ff74??8b91c80400008b048283f8ff74??8b51188b0c8285c974??893c24e8????????83ec048b7dfcc98d67f85fc20800908b4104890424e8????????893c2489c1e8????????83ec04eb??8db60000000057":  // unique sig
+cleanup __amd64 void ShipManager::SetSystemPowerLimit(ShipManager *this, int systemId, int limit); // 00493dc0
+".578d7c240883e4f0ff77fc5589e55783ec148b078b7f0483f81174??83f8ff74??8b91c80400008b048283f8ff74??8b51188b0c8285c974??893c24e8????????83ec048b7dfcc98d67f85fc20800908b4104890424e8????????893c2489c1e8????????83ec04eb??8db600000000578d7c240883e4f0ff77fc5589e55783ec148b078b7f0483f81174??83f8ff74??8b91c80400008b048283f8ff74??8b51188b0c8285c974??893c24e8????????83ec048b7dfcc98d67f85fc20800908b4104890424e8????????893c2489c1e8????????83ec04eb??8db60000000055":  // unique sig
+cleanup __amd64 void ShipManager::SetSystemPowerLoss(ShipManager *this, int systemId, int loss); // 00493e30
+".578d7c240883e4f0ff77fc5589e55783ec148b078b7f0483f81174??83f8ff74??8b91c80400008b048283f8ff74??8b51188b0c8285c974??893c24e8????????83ec048b7dfcc98d67f85fc20800908b4104890424e8????????893c2489c1e8????????83ec04eb??8db60000000055":  // unique sig
+cleanup __amd64 void ShipManager::SetSystemDividePower(ShipManager *this, int systemId, int amount); // 00493ea0
+".5589e557568b5508":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemAvailablePower(ShipManager *this, int systemId); // 00493f10
+".5589e583e4f083ec108b4104890424e8????????8b":  // unique sig
+cleanup __amd64 int ShipManager::GetOverPowered(ShipManager *this); // 00493f60
+".8b81c80400008b5424048b049083f8ff74??8b51188b14":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemDamage(ShipManager *this, int systemId); // 00493f80
+".558b81c804000089e58b":  // unique sig
+cleanup __amd64 std::pair<int, int> ShipManager::GetSystemPowerLevel(ShipManager *this, int systemId); // 00493fc0
+".8b81c80400008b5424048b049083f8ff74??8b51188b04828b80":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemHealth(ShipManager *this, int systemId); // 00493ff0
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b178b":  // unique sig
+cleanup __amd64 bool ShipManager::IncreaseSystemPower(ShipManager *this, int systemId); // 00494020
+".5731c08d7c240883e4f0ff77fc5589e55783ec148b1783faff74??8bb9c80400008b149783faff74??8b49188b0c9185c974??8b01c7042401000000ff9088":  // unique sig
+cleanup __amd64 bool ShipManager::ForceIncreaseSystemPower(ShipManager *this, int systemId); // 00494070
+".5731c08d7c240883e4f0ff77fc5589e55783ec148b1783faff74??8bb9c80400008b149783faff74??8b49188b0c9185c974??8b01c7042401000000ff9084":  // unique sig
+cleanup __amd64 bool ShipManager::ForceDecreaseSystemPower(ShipManager *this, int systemId); // 004940c0
+".8b51188b411c29d0c1f80285c074??5589e557565389ce31db83e4f0eb??66908b4138":  // unique sig
+cleanup __amd64 ShipSystem *ShipManager::GetSystemInRoom(ShipManager *this, int roomId); // 00494110
+".55b8ffffffff":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemRoom(ShipManager *this, int id); // 00494190
+".8b44240483f8ff":  // unique sig
+cleanup __amd64 ShipSystem *ShipManager::GetSystem(ShipManager *this, int id); // 004941e0
+".8b81c80400008b40":  // unique sig
+cleanup __amd64 bool ShipManager::DoorsFunction(ShipManager *this); // 00494210
+".558b81c804000089e583e4f08b55088b149031c083faff74??8b41188b0c90e8":  // unique sig
+cleanup __amd64 bool ShipManager::SystemLocked(ShipManager *this, int systemId); // 00494270
+".558b81c804000089e583e4f08b55088b149031c083faff74??8b41188b0c908b":  // unique sig
+cleanup __amd64 bool ShipManager::SystemFunctions(ShipManager *this, int systemId); // 004942a0
+".8b44240483f811":  // unique sig
+cleanup __amd64 bool ShipManager::HasSystem(ShipManager *this, int systemId); // 004942d0
+".558b81c804000089e583e4f08b55088b049083f8ff74??8b51188b0c828b":  // unique sig
+cleanup __amd64 int ShipManager::SystemRoom(ShipManager *this, int systemId); // 00494300
+".8b81c80400008b5424048b049083f8ff74??8b51188b04828b40":  // unique sig
+cleanup __amd64 int ShipManager::GetSystemPowerMax(ShipManager *this, int systemId); // 00494350
+".5589e55383e4f083ec108b550883":  // unique sig
+cleanup __amd64 int ShipManager::CanUpgrade(ShipManager *this, int id, int amount); // 00494380
+".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f8b47":  // unique sig
+cleanup __amd64 void ShipManager::UpgradeSystem(ShipManager *this, int id, int amount); // 00494410
+".5589e583e4f083ec108b4104890424e8????????ba":  // unique sig
+cleanup __amd64 std::pair<float, float> ShipManager::GetAvailableFuel(ShipManager *this); // 004944b0
+".578d7c240883e4f0ff77fc5589e55783ec148b47048b0fc7":  // unique sig
+cleanup __amd64 bool ShipManager::CommandCrewMoveRoom(ShipManager *this, CrewMember *crew, int roomId); // 004944d0
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b078b5164":  // unique sig
+cleanup __amd64 CrewMember *ShipManager::GetSelectedCrew(ShipManager *this, int x, int y, bool intruder); // 00494510
+".578d7c240883e4f0ff77fc5589e557565383ec7c8b47048b1f":  // unique sig
+cleanup __amd64 string *ShipManager::GetTooltip(ShipManager *this, int x, int y); // 004946c0
+".538b5964":  // unique sig
+cleanup __amd64 void ShipManager::ClearCrewSelection(ShipManager *this); // 004949f0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b078b570489":  // unique sig
+cleanup __amd64 Repairable *ShipManager::GetSelectedRepair(ShipManager *this, int mX, int mY); // 00494a20
+".578d7c240883e4f0ff77fc5589e5575383ec108b1f8b47":  // unique sig
+cleanup __amd64 bool ShipManager::PowerWeapon(ShipManager *this, ProjectileFactory *weapon, bool userDriven, bool force); // 00494ab0
+".578d7c240883e4f0ff77fc5589e5575383ec108b91c80400008b1f8b4704837a0c":  // unique sig
+cleanup __amd64 bool ShipManager::DePowerWeapon(ShipManager *this, ProjectileFactory *weapon, bool userDriven); // 00494b20
+".8b44240483f80174??83f80274??85c074??b8":  // unique sig
+cleanup __amd64 int ShipManager::GetItemCount(ShipManager *this, int type); // 00494b90
+".578d7c240883e4f0ff77fc5589e55783ec148b078b80":  // unique sig
+cleanup __amd64 void ShipManager::AddItem(ShipManager *this, ItemBlueprint *item); // 00494c20
+".8b81c8040000837810ff74??8b414c8b80cc010000c3":  // unique sig
+cleanup __amd64 int ShipManager::GetDroneCount(ShipManager *this); // 00494d50
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b17837810ff75":  // unique sig
+cleanup __amd64 void ShipManager::ModifyDroneCount(ShipManager *this, int amount); // 00494d80
+".5731c08d7c240883e4f0ff77fc5589e55783ec148b91c80400008b3f837a0c":  // unique sig
+cleanup __amd64 int ShipManager::GetWeaponValue(ShipManager *this, int slot); // 00494df0
+".5731c08d7c240883e4f0ff77fc5589e55783ec148b91c80400008b3f837a10":  // unique sig
+cleanup __amd64 int ShipManager::GetDroneValue(ShipManager *this, int slot); // 00494e30
+".8b81c804000083780cff74??8b51":  // unique sig
+cleanup __amd64 int ShipManager::GetWeaponTotal(ShipManager *this); // 00494e70
+".8b81c8040000837810ff74??8b51":  // unique sig
+cleanup __amd64 int ShipManager::GetDroneTotal(ShipManager *this); // 00494ea0
+".f3c38db426000000008dbc27000000008b81c8":  // unique sig
+cleanup __amd64 void ShipManager::RemoveRoom(ShipManager *this); // 00494ed0
+".8b81c8040000837808":  // unique sig
+cleanup __amd64 int ShipManager::GetOxygenPercentage(ShipManager *this); // 00494ee0
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b17837808":  // unique sig
+cleanup __amd64 float ShipManager::GetOxygenLevel(ShipManager *this, int roomId); // 00494f40
+".5589e557565389cb83e4f083ec208b45088b90c8040000837a08":  // unique sig
+cleanup __amd64 std::vector<float> *ShipManager::GetOxygenLevels(ShipManager *this); // 00494f90
+".5589e557565383e4f083ec108b91":  // unique sig
+cleanup __amd64 void ShipManager::RemapSystemKeys(ShipManager *this); // 00495060
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b1783780cff74":  // unique sig
+cleanup __amd64 int ShipManager::RemoveWeapon(ShipManager *this, int slot); // 00495150
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b17837810ff74":  // unique sig
+cleanup __amd64 int ShipManager::RemoveDrone(ShipManager *this, int slot); // 004951a0
+".5731c08d7c240883e4f0ff77fc5589e5575383ec10":  // unique sig
+cleanup __amd64 int ShipManager::AddWeapon(ShipManager *this, WeaponBlueprint *weapon, int slot); // 004951f0
+".5531c089e557565383e4f083ec20":  // unique sig
+cleanup __amd64 SpaceDrone *ShipManager::GetNewDroneArrivals(ShipManager *this); // 00495240
+".8b4148c38d":  // unique sig
+cleanup __amd64 WeaponSystem *ShipManager::GetWeaponSystem(ShipManager *this); // 004952c0
+".5589e556538b9160":  // unique sig
+cleanup __amd64 Projectile *ShipManager::GetNextShot(ShipManager *this); // 004952d0
+".578d7c240883e4f0ff77fc5589e55783ec148b81c80400008b1783780cff75":  // unique sig
+cleanup __amd64 void ShipManager::ModifyMissileCount(ShipManager *this, int amount); // 00495370
+".8b81c804000083780cff74??8b41488b80e8010000c3":  // unique sig
+cleanup __amd64 int ShipManager::GetMissileCount(ShipManager *this); // 004953e0
+".5589e557565389cb83e4f083ec208b45088b90c8040000837a10":  // unique sig
+cleanup __amd64 std::vector<Drone*> *ShipManager::GetDroneList(ShipManager *this); // 00495410
+".5531d289e557565389cb83e4f083ec208b7d088bb7":  // unique sig
+cleanup __amd64 std::vector<SpaceDrone*> *ShipManager::GetSpaceDrones(ShipManager *this); // 004954e0
+".5383ec048b54240c":  // unique sig
+cleanup __amd64 int ShipManager::IsSystemHacked(ShipManager *this, int systemId); // 00495590
+".8b414cc3":  // unique sig
+cleanup __amd64 DroneSystem *ShipManager::GetDroneSystem(ShipManager *this); // 004955d0
+".8b41188b511c29":  // unique sig
+cleanup __amd64 void ShipManager::ShutdownAllPower(ShipManager *this); // 004955e0
+".578d7c240883e4f0ff77fc5589e5575383ec108b91c80400008b1f8b4704837a10":  // unique sig
+cleanup __amd64 bool ShipManager::DePowerDrone(ShipManager *this, Drone *drone, bool userDriven); // 00495660
+".8b51648b416829d0c1f80285c074??5589e557565389ce31db83e4f0eb??66":  // unique sig
+cleanup __amd64 void ShipManager::SetPlayerCrewScale(ShipManager *this, float scale); // 004956d0
+".578d7c240883e4f0ff77fc5589e55756538d5dd089ce83ec7c8b07":  // unique sig
+cleanup __amd64 void ShipManager::CheckCrystalAugment(ShipManager *this, Pointf location); // 00495760
+".578d7c240883e4f0ff77fc5589e557565389ce83c170":  // unique sig
+cleanup __amd64 void ShipManager::constructor(ShipManager *this, int shipId); // 00495af0
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec3c0fb630":  // unique sig
+cleanup __amd64 void ShipManager::SetShowWeaponCharge(ShipManager *this, bool val); // 00496590
+".578d7c240883e4f0ff77fc5589e5575389cb83ec108b078b90":  // unique sig
+cleanup __amd64 std::vector<ProjectileFactory*> *ShipManager::GetWeaponList(ShipManager *this); // 004966c0
+".578d7c240883e4f0ff77fc5589e55756538d45d889cb83ec5c":  // unique sig
+cleanup __amd64 void ShipManager::RemoveItem(ShipManager *this, string *name); // 00496740
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec3c8b188b81c8":  // unique sig
+cleanup __amd64 void ShipManager::ExportBattleState(ShipManager *this, int fd); // 00496a60
+".578d7c240883e4f0ff77fc5589e557565389cf83ec6c":  // unique sig
+cleanup __amd64 void ShipManager::StartSubExplosion(ShipManager *this); // 00496c90
+".5783c1708d7c240883e4f0ff77fc5589e55783ec148b07c7":  // unique sig
+cleanup __amd64 void ShipManager::StartFire(ShipManager *this, int roomId); // 00497080
+".578d7c240883e4f0ff77fc5589e5575389cb83ec108b178b":  // unique sig
+cleanup __amd64 std::vector<Repairable*> *ShipManager::GetFires(ShipManager *this, int roomId); // 004970c0
+".5783c1708d7c240883e4f0ff77fc5589e55783ec148b0789":  // unique sig
+cleanup __amd64 int ShipManager::GetFireCount(ShipManager *this, int roomId); // 00497100
+".578d41708d7c240883e4f0ff77fc5589e557565389cf31":  // unique sig
+cleanup __amd64 int ShipManager::GetFireCount(ShipManager *this); // 00497130
+".578d7c240883e4f0ff77fc5589e557565383ec2c8b078b79":  // unique sig
+cleanup __amd64 void ShipManager::RemoveCrewmember(ShipManager *this, int slot); // 00497190
+".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b07c7":  // unique sig
+cleanup __amd64 std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *ShipManager::GetEquipmentList(ShipManager *this); // 004972c0
+".57b9????????8d7c240883e4f0ff77fc5589e55756538d45":  // unique sig
+cleanup __amd64 bool ShipManager::RestoreCrewPositions(ShipManager *this); // 00497540
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec7c8b008904":  // unique sig
+cleanup __amd64 void ShipManager::LoadSuperDrones(ShipManager *this, int fd); // 00497860
+".578d7c240883e4f0ff77fc5589e557565389ce83ec7c8b81":  // unique sig
+cleanup __amd64 void ShipManager::PrepareSuperDrones(ShipManager *this); // 00497bd0
+".578d41708d7c240883e4f0ff77fc5589e557565389cf89":  // unique sig
+cleanup __amd64 void ShipManager::UpdateEnvironment(ShipManager *this); // 00497f50
+".578d7c240883e4f0ff77fc5589e557565383ec5c8b47":  // unique sig
+cleanup __amd64 CrewBlueprint *ShipManager::SelectRandomCrew(ShipManager *this, int seed, string *racePref); // 00498520
+".578d7c240883e4f0ff77fc5589e557565389ce8d4d9c81ecdc":  // unique sig
+static cleanup __amd64 CollisionResponse *ShipManager::CollisionShield(CollisionResponse *__return_storage_ptr__, ShipManager *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00498830
+".578d7c240883e4f0ff77fc5589e557565389ce83ec6c8b018b":  // unique sig
+cleanup __amd64 void ShipManager::PulsarDamage(ShipManager *this); // 00498c40
+".578d7c240883e4f0ff77fc5589f889e557565383ec6c8b30":  // unique sig
+cleanup __amd64 void ShipManager::DamageSystem(ShipManager *this, int roomId, Damage damage); // 004991d0
+".578d7c240883e4f0ff77fc5589e557565389ce81ecbc0000008b":  // unique sig
+cleanup __amd64 void ShipManager::SunDamage(ShipManager *this); // 004995a0
+".578d7c240883e4f0ff77fc5589e557565381ecfc0000008b17":  // unique sig
+static cleanup __amd64 CollisionResponse *ShipManager::CollisionMoving(CollisionResponse *__return_storage_ptr__, ShipManager *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 00499990
+".578d7c240883e4f0ff77fc5589e557565389ce81eccc0000008b47":  // unique sig
+cleanup __amd64 bool ShipManager::DamageArea(ShipManager *this, Pointf location, Damage damage, bool forceHit); // 00499fb0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b3fc7":  // unique sig
+cleanup __amd64 std::vector<ProjectileFactory*> *ShipManager::GetArtilleryWeapons(ShipManager *this); // 0049a8c0
+".578d7c240883e4f0ff77fc5589e5578db994":  // unique sig
+cleanup __amd64 void ShipManager::RenderWeapons(ShipManager *this); // 0049a960
+".578d7c240883e4f0ff77fc5589f889e557565389cf81ecec":  // unique sig
+cleanup __amd64 void ShipManager::OnRender(ShipManager *this, bool showInterior, bool doorControlMode); // 0049abc0
+".8b410485c075??c3908db4260000000080":  // unique sig
+cleanup __amd64 void ShipManager::RenderChargeBars(ShipManager *this); // 0049ba20
+".578d7c240883e4f0ff77fc5589e557565389ce31db83ec3c8b3f":  // unique sig
+cleanup __amd64 std::vector<Pointf> *ShipManager::GetAllTargettingPoints(ShipManager *this); // 0049bc50
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b178b82":  // unique sig
+cleanup __amd64 CrewDrone *ShipManager::CreateCrewDrone(ShipManager *this, DroneBlueprint *drone); // 0049bd20
+".578d7c240883e4f0ff77fc5589f889e557565383ec3c8b3f":  // unique sig
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::TeleportCrew(ShipManager *this, int roomId, bool intruders); // 0049be30
+".578d7c240883e4f0ff77fc5589f889e557565383ec2c8b3f":  // unique sig
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetLeavingCrew(ShipManager *this, bool intruders); // 0049bf50
+".578d7c240883e4f0ff77fc5589f889e557565383ec3c8b70":  // unique sig
+cleanup __amd64 std::vector<CrewMember*> *ShipManager::GetSelectedCrew(ShipManager *this, int x, int y, int w, int h, bool intruders); // 0049c050
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b41048b":  // unique sig
+cleanup __amd64 void ShipManager::AddCrewMember(ShipManager *this, CrewMember *crew, int roomId); // 0049c1b0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b0789c7":  // unique sig
+cleanup __amd64 void ShipManager::SetTarget(ShipManager *this, ShipManager *target); // 0049c230
+".578d7c240883e4f0ff77fc5589e557565389ce8d4d9c81ec8c":  // unique sig
+cleanup __amd64 CrewMember *ShipManager::AddCrewMember(ShipManager *this, CrewBlueprint *blueprint, int slot, bool init, int roomId, bool intruder); // 0049c4f0
+".8b810807000085c00f84????????57":  // unique sig
+cleanup __amd64 int ShipManager::AddSystem(ShipManager *this, int sysId); // 0049ca00
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b81":  // unique sig
+cleanup __amd64 int ShipManager::CreateSystems(ShipManager *this); // 0049de90
+".578d7c240883e4f0ff77fc5589e55756538db9":  // unique sig
+cleanup __amd64 void ShipManager::CheckDlcEnabled(ShipManager *this); // 0049e0c0
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b91":  // unique sig
+cleanup __amd64 int ShipManager::GetMaxSystemLevel(ShipManager *this, int sysId); // 0049e2d0
+".578d7c240883e4f0ff77fc5589e557565381eccc00":  // unique sig
+cleanup __amd64 bool ShipManager::DamageBeam(ShipManager *this, Pointf current, Pointf last, Damage damage); // 0049e4d0
+".578d7c240883e4f0ff77fc5589e557565331db89cf":  // unique sig
+cleanup __amd64 void ShipManager::UpdateCrewmembers(ShipManager *this); // 0049ee10
+".578d7c240883e4f0ff77fc5589e557565331f689fb":  // unique sig
+cleanup __amd64 void ShipManager::KillEveryone(ShipManager *this, bool noClone); // 004a0210
+".578d7c240883e4f0ff77fc5589e557565383ec2c8b81c8":  // unique sig
+cleanup __amd64 bool ShipManager::PowerDrone(ShipManager *this, Drone *drone, int roomId, bool userDriven, bool force); // 004a0280
+".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b81c8":  // unique sig
+cleanup __amd64 void ShipManager::ImportBattleState(ShipManager *this, int fd); // 004a0330
+".578d7c240883e4f0ff77fc5589e557565389ce8d8d1c":  // unique sig
+cleanup __amd64 void ShipManager::OnLoop(ShipManager *this); // 004a05b0
+".578d7c240883e4f0ff77fc5589e55783ec2480b999":  // unique sig
+cleanup __amd64 void ShipManager::OnLoop(ShipManager *this); // 004a2830
+".578d7c240883e4f0ff77fc5589e557565389cb83c10483ec6c":  // unique sig
+cleanup __amd64 ShipBlueprint *ShipManager::SaveToBlueprint(ShipManager *this, bool overwrite); // 004a28a0
+".578d7c240883e4f0ff77fc5589e55756538d85a8":  // unique sig
+cleanup __amd64 void ShipManager::KillRandomCrew(ShipManager *this); // 004a33d0
+".578d7c240883e4f0ff77fc5589f889e557565331db89cf83ec4c":  // unique sig
+cleanup __amd64 void ShipManager::KillSpecificCrew(ShipManager *this, string *name); // 004a3490
+".578d7c240883e4f0ff77fc5589e55756538d9dc0":  // unique sig
+cleanup __amd64 void ShipManager::KillCrew(ShipManager *this, CrewBlueprint *blueprint); // 004a35a0
+".578d7c240883e4f0ff77fc5589f889e557565389cf8d8d90":  // unique sig
+cleanup __amd64 void ShipManager::AddInitialCrew(ShipManager *this, std::vector<CrewBlueprint> *overrideCrew); // 004a3610
+".578d7c240883e4f0ff77fc5589e557565389cb81ecbc02":  // unique sig
+cleanup __amd64 CrewMember *ShipManager::AddCrewMember(ShipManager *this, string *name, string *type, bool intruder, int roomId, bool init, bool male); // 004a3ee0
+".5789c8053806":  // unique sig
+cleanup __amd64 void ShipManager::ExportShip(ShipManager *this, int fd); // 004a4680
+".578d7c240883e4f0ff77fc5589e557565389ce83ec3cc701":  // unique sig
+cleanup __amd64 void ShipManager::destructor(ShipManager *this); // 004a58e0
+".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c3669083e914":  // unique sig
+cleanup __amd64 void ShipManager::destructor(ShipManager *this); // 004a5d70
+".578d7c240883e4f0ff77fc5589e557565383ec3c8b3fc7":  // unique sig
+cleanup __amd64 SpaceDrone *ShipManager::CreateSpaceDrone(ShipManager *this, DroneBlueprint *drone); // 004a5db0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b37893424e8????????83ec0485c074??8d65f405":  // unique sig
+cleanup __amd64 Drone *ShipManager::CreateDrone(ShipManager *this, DroneBlueprint *drone); // 004a61e0
+".578d7c240883e4f0ff77fc5589e557565383ec1c8b81c80400008b1f8b77":  // unique sig
+cleanup __amd64 Drone *ShipManager::AddDrone(ShipManager *this, DroneBlueprint *drone, int slot); // 004a6240
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b3f8b":  // unique sig
+cleanup __amd64 void ShipManager::AddEquipmentFromList(ShipManager *this, std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *list); // 004a62d0
+".578d7c240883e4f0ff77fc5589e557565389cf83ec4c8b81":  // unique sig
+cleanup __amd64 void ShipManager::CreateArmory(ShipManager *this); // 004a6520
+".578d7c240883e4f0ff77fc5589e557565389cf83ec4c8b41":  // unique sig
+cleanup __amd64 void ShipManager::Restart(ShipManager *this); // 004a6a30
+".578d7c240883e4f0ff77fc5589fa89e55756538d":  // unique sig
+cleanup __amd64 bool ShipManager::OnInit(ShipManager *this, ShipBlueprint *bluePrint, int level); // 004a6e00
+".578d7c240883e4f0ff77fc5589e55756538d85dc":  // unique sig
+cleanup __amd64 void ShipManager::ImportShip(ShipManager *this, int fd); // 004a7530
+".0fb68199040000c3":  // unique sig
+cleanup __amd64 bool ShipManager::GetIsDying(ShipManager *this); // 00724210
+".8b4104c39090909090909090909090908b4104":  // unique sig
+cleanup __amd64 int ShipManager::GetOwnerId(ShipManager *this); // 00724220
+".8b4104c39090909090909090909090900fb681":  // unique sig
+cleanup __amd64 int ShipManager::GetSpaceId(ShipManager *this); // 00724230
+".0fb681d8040000c3":  // unique sig
+cleanup __amd64 bool ShipManager::GetIsJumping(ShipManager *this); // 00724240
+".578d7c240883e4f0ff77fc5589e5575389cb83ec108b1781":  // unique sig
+cleanup __amd64 Ellipse *ShipManager::GetShieldShape(ShipManager *this); // 00724250
+".5589e55389cb83e4f083ec108b45088b4004":  // unique sig
+cleanup __amd64 Rect *ShipManager::GetShape(ShipManager *this); // 00724290
+".8b4104c3909090909090909090909090b8":  // unique sig
+cleanup __amd64 int ShipManager::GetSelfId(ShipManager *this); // 007242d0

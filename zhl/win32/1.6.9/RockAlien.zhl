@@ -1,0 +1,16 @@
+"b896000000c3909090909090909090908d":  // unique sig
+cleanup __amd64 int RockAlien::GetMaxHealth(RockAlien *this); // 0073ef50
+".8d510889c8c7410400000000c64108008911c204009090909090909090909090d9":  // unique sig
+cleanup __amd64 string *RockAlien::GetUniqueRepairing(RockAlien *this); // 0073ef60
+".d905????????c390909090909090909031c0c390909090909090909090909090d905":  // unique sig
+cleanup __amd64 float RockAlien::GetMoveSpeedMultipler(RockAlien *this); // 0073ef80
+".31c0c390909090909090909090909090d905":  // unique sig
+cleanup __amd64 bool RockAlien::FireFightingSoundEffect(RockAlien *this); // 0073ef90
+".d905????????c390909090909090909031c0c39090909090909090909090909055":  // unique sig
+cleanup __amd64 float RockAlien::GetFireRepairMultiplier(RockAlien *this); // 0073efa0
+".31c0c3909090909090909090909090905589e55389cb83e4f083ec10c7":  // unique sig
+cleanup __amd64 bool RockAlien::CanBurn(RockAlien *this); // 0073efb0
+".5589e55389cb83e4f083ec10c701????????e8????????891c24e8????????8b5dfcc9c390909090909090909090909055c701????????89e583e4f0e8????????c9c390909090909090909090909090578d7c240883e4f0ff77fc5589f8":  // unique sig
+cleanup __amd64 void RockAlien::destructor(RockAlien *this); // 0073efc0
+".55c701????????89e583e4f0e8????????c9c390909090909090909090909090578d7c240883e4f0ff77fc5589f8":  // unique sig
+cleanup __amd64 void RockAlien::destructor(RockAlien *this); // 0073eff0

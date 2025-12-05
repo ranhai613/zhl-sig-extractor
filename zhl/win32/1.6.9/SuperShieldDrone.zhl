@@ -1,0 +1,32 @@
+"31c0c3908db6000000008dbf0000000031c0c3908db6000000008dbf00000000c2":  // unique sig
+cleanup __amd64 bool SuperShieldDrone::HasTarget(SuperShieldDrone *this); // 0041da80
+".31c0c3908db6000000008dbf00000000c2":  // unique sig
+cleanup __amd64 Projectile *SuperShieldDrone::GetNextProjectile(SuperShieldDrone *this); // 0041da90
+".c20400908db6000000008dbf00000000578d7c240883e4f0ff77fc5589e5575383ec20":  // unique sig
+cleanup __amd64 void SuperShieldDrone::SetWeaponTarget(SuperShieldDrone *this, Targetable *target); // 0041daa0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f891c24e8????????f30f1086b4":  // unique sig
+cleanup __amd64 void SuperShieldDrone::SaveState(SuperShieldDrone *this, int fd); // 0041de60
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b37893424e8????????83ec04893424e8????????d95de48b45e48983":  // unique sig
+cleanup __amd64 void SuperShieldDrone::LoadState(SuperShieldDrone *this, int fd); // 0041e1a0
+".578d7c240883e4f0ff77fc5589e55783ec34":  // unique sig
+cleanup __amd64 float SuperShieldDrone::GetWeaponCooldown(SuperShieldDrone *this); // 0041e8d0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b018b401c3d????????0f85????????0fb6410c84c075":  // unique sig
+cleanup __amd64 void SuperShieldDrone::RenderDrone(SuperShieldDrone *this); // 0041f140
+".57ba697000008d7c240883e4f0ff77fc5589e55756538d45d08d75d889cb83ec3c8975d0c745d873":  // unique sig
+cleanup __amd64 string *SuperShieldDrone::GetTooltip(SuperShieldDrone *this); // 00421760
+".578d7c240883e4f0ff77fc5589e557565383ec3c8b3785":  // unique sig
+cleanup __amd64 void SuperShieldDrone::SetMovementTarget(SuperShieldDrone *this, Targetable *target); // 004218f0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4ce8????????8b16":  // unique sig
+cleanup __amd64 void SuperShieldDrone::OnLoop(SuperShieldDrone *this); // 00426db0
+".578d7c240883e4f0ff77fc5589e557565389cb8d75d883ec3c8b57":  // unique sig
+cleanup __amd64 void SuperShieldDrone::constructor(SuperShieldDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 00428660
+".8b4424048981cc":  // unique sig
+cleanup __amd64 void SuperShieldDrone::SetShieldSystem(SuperShieldDrone *this, Shields *shieldSystem); // 004288a0
+"!.eb??905589e55389cb83e4f083ec10c701????????e8????????891c24e8????????8b5dfcc9c390909090909090909090909055c701????????89e583e4f0e8????????c9c390909090909090909090909090":  // unique sig
+noHook __amd64 void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f5cf
+".55":  // non-unique sig
+cleanup __amd64 void SuperShieldDrone::destructor(SuperShieldDrone *this); // 0072f5d0
+"!.90":  // non-unique sig
+noHook __amd64 void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f9cf
+".55":  // non-unique sig
+cleanup __amd64 void SuperShieldDrone::destructor(SuperShieldDrone *this); // 0072f9d0

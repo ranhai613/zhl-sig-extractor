@@ -1,0 +1,4 @@
+"578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b3f894d":  // unique sig
+cleanup __amd64 void ChoiceText::constructor(ChoiceText *this, ChoiceText *param_2); // 007201c0
+".558d91c8":  // unique sig
+cleanup __amd64 void ChoiceText::destructor(ChoiceText *this); // 00720930

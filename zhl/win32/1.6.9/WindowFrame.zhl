@@ -1,0 +1,16 @@
+"578d7c240883e4f0ff77fc5589e55756538d5dd081":  // unique sig
+cleanup __amd64 void WindowFrame::constructor(WindowFrame *this, int x, int y, int w, int h); // 00578c90
+".5589e55389cb83e4f083ec108b4110":  // unique sig
+cleanup __amd64 void WindowFrame::destructor(WindowFrame *this); // 00579ab0
+".5589e55389cb83e4f083ec10e8????????660fefc0c74424????????00f30f2a45":  // unique sig
+cleanup __amd64 void WindowFrame::Draw(WindowFrame *this, int x, int y); // 00579af0
+".5589e5565389ce83e4f083ec108b5d08c7":  // unique sig
+cleanup __amd64 void WindowFrame::Draw(WindowFrame *this, int stencilBits); // 00579bd0
+".5589e55389cb83e4f083ec108b4508c7042401":  // unique sig
+cleanup __amd64 void WindowFrame::DrawMask(WindowFrame *this, int stencilBits); // 00579c70
+".5589e55389cb83e4f083ec108b4508c7042402":  // unique sig
+cleanup __amd64 void WindowFrame::DrawBackground(WindowFrame *this, int stencilBits); // 00579cd0
+".5589e583e4f083ec108b4110":  // unique sig
+cleanup __amd64 void WindowFrame::DrawOutline(WindowFrame *this); // 00579d30
+".8d4c240483e4f0ff71fc5589e55756535183ec288b51":  // unique sig
+static cleanup __amd64 void WindowFrame::Draw(int x, int y, int w, int h, int stencilBits); // 00579d50

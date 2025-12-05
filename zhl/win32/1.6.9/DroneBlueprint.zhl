@@ -1,0 +1,14 @@
+"578d41088d7c240883e4f0ff77fc5589e5575389cb83ec108b":  // unique sig
+cleanup __amd64 string *DroneBlueprint::GetEquipmentName(DroneBlueprint *this); // 005df210
+".578d7c240883e4f0ff77fc5589e55756538dbd04":  // unique sig
+cleanup __amd64 Point DroneBlueprint::GetDimensions(DroneBlueprint *this); // 005e0600
+".578d7c240883e4f0ff77fc5589e557565389cb81ec6c010000e8????????8b83":  // unique sig
+cleanup __amd64 void DroneBlueprint::RenderIcon(DroneBlueprint *this, float scale); // 005e0820
+".578d7c240883e4f0ff77fc5589e5575389cb8d490483ec10c741fc????????c70424????????e8????????8d4b1c83ec04e8????????8d83":  // unique sig
+cleanup __amd64 void DroneBlueprint::constructor(DroneBlueprint *this); // 0072bf30
+".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c39090558d9124":  // unique sig
+cleanup __amd64 void DroneBlueprint::destructor(DroneBlueprint *this); // 0072c030
+".558d9124":  // unique sig
+cleanup __amd64 void DroneBlueprint::destructor(DroneBlueprint *this); // 0072c050
+".b801000000c39090909090909090909031c0c390909090909090909090909090b803":  // unique sig
+cleanup __amd64 int DroneBlueprint::GetType(DroneBlueprint *this); // 00743850

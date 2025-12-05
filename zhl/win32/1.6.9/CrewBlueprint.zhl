@@ -1,0 +1,32 @@
+"8d4c240483e4f0ff71fc5589e5535183ec108b41048b1983f805":  // unique sig
+static cleanup __amd64 string *CrewBlueprint::skillToString(int skill); // 005ddc50
+".5589e557565389cf83e4f083ec108b97":  // unique sig
+cleanup __amd64 void CrewBlueprint::ChooseColors(CrewBlueprint *this); // 005def50
+".578d7c240883e4f0ff77fc5589e5575389cb83c104":  // unique sig
+cleanup __amd64 void CrewBlueprint::constructor(CrewBlueprint *this); // 005df000
+".8b54240489c88b4c":  // unique sig
+cleanup __amd64 GL_Color *CrewBlueprint::GetCurrentSkillColor(CrewBlueprint *this, int skill); // 005df260
+".55660fefc0660fefc989e583e4":  // unique sig
+cleanup __amd64 void CrewBlueprint::RenderSkillIcon(CrewBlueprint *this, int x, int y, int skill); // 005df7a0
+".57660fefc0660fefc98d7c240883e4f0ff77fc5589e557565383":  // unique sig
+cleanup __amd64 void CrewBlueprint::RenderSkill(CrewBlueprint *this, int x, int y, int length, int height, int skill); // 005df920
+".578d7c240883e4f0ff77fc5589e557568d8520":  // unique sig
+cleanup __amd64 void CrewBlueprint::RenderIcon(CrewBlueprint *this, float scale); // 005e0f00
+".578d7c240883e4f0ff77fc5589fa89e557565389cb83ec3c":  // unique sig
+cleanup __amd64 void CrewBlueprint::RandomSkills(CrewBlueprint *this, int worldLevel); // 005e5290
+".8d4c240483e4f0ff71fc5589e55756535181eca80000008b01":  // unique sig
+static cleanup __amd64 string *CrewBlueprint::ShortenName(string *name); // 005e5f90
+".5789c883c00c":  // unique sig
+cleanup __amd64 void CrewBlueprint::constructor(CrewBlueprint *this, CrewBlueprint ** param_2); // 00727a30
+".5589e55389cb83e4f083ec10e8????????891c24e8????????8b5dfcc9c390905589e557565389ce":  // unique sig
+cleanup __amd64 void CrewBlueprint::destructor(CrewBlueprint *this); // 00727f60
+".5589e557565389ce83e4f083ec108b811c":  // unique sig
+cleanup __amd64 void CrewBlueprint::destructor(CrewBlueprint *this); // 00727f80
+".578d7c240883e4f0ff77fc5589e557565389cb83c10483ec2c8b3f":  // unique sig
+cleanup __amd64 CrewBlueprint *CrewBlueprint::operator=(CrewBlueprint *this, CrewBlueprint *param_2); // 007280f0
+".578d7c240883e4f0ff77fc5589e557565389ce8d4904":  // unique sig
+cleanup __amd64 CrewBlueprint *CrewBlueprint::operator=(CrewBlueprint *this, CrewBlueprint *param_2); // 00728470
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b1f80":  // unique sig
+cleanup __amd64 string *CrewBlueprint::GetNameShort(CrewBlueprint *this); // 00743770
+".b802000000c390909090909090909090b8":  // unique sig
+cleanup __amd64 int CrewBlueprint::GetType(CrewBlueprint *this); // 00743840

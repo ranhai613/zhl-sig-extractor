@@ -1,0 +1,8 @@
+"578d7c240883e4f0ff77fc5589e557565381ec5c0100008b":  // unique sig
+cleanup __amd64 Animation *AnimationControl::GetAnimation(AnimationControl *this, string *animation); // 00587230
+".578d5134":  // unique sig
+cleanup __amd64 void AnimationControl::RenderWeaponIcon(AnimationControl *this, string *weapon); // 00588180
+".578d7c240883e4f0ff77fc5589e557565383ec5c8b07894db0":  // unique sig
+cleanup __amd64 WeaponAnimation *AnimationControl::GetWeapon(AnimationControl *this, string *weapon); // 00588340
+".57b8fc":  // unique sig
+cleanup __amd64 void AnimationControl::ImportAnimations(AnimationControl *this, string *filename); // 00589de0

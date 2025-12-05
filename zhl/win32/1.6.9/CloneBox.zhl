@@ -1,0 +1,14 @@
+"b8ffffffffc38d76008dbc2700000000d9e8d9e0c3908d76008dbc2700000000b8":  // unique sig
+cleanup __amd64 int CloneBox::GetCooldownLevel(CloneBox *this); // 004aca80
+".d9e8d9e0c3908d76008dbc2700000000b8":  // unique sig
+cleanup __amd64 float CloneBox::GetCooldownFraction(CloneBox *this); // 004aca90
+".5589e55389cbc701????????8b8964":  // unique sig
+cleanup __amd64 void CloneBox::destructor(CloneBox *this); // 004acad0
+".578d7c240883e4f0ff77fc5589e55753bb":  // unique sig
+cleanup __amd64 int CloneBox::GetHeightModifier(CloneBox *this); // 004acb00
+".5589e55389cb83e4f083ec10c701????????8b8964":  // unique sig
+cleanup __amd64 void CloneBox::destructor(CloneBox *this); // 004acd10
+".578d7c240883e4f0ff77fc5589e557565381ecfc01":  // unique sig
+cleanup __amd64 void CloneBox::constructor(CloneBox *this, Point loc, CloneSystem *clone); // 004ad6c0
+".578d7c240883e4f0ff77fc5589e557565389cb81ecac01":  // unique sig
+cleanup __amd64 void CloneBox::OnRender(CloneBox *this, bool ignoreStatus); // 004aef50

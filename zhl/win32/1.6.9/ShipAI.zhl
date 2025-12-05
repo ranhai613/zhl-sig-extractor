@@ -1,0 +1,42 @@
+"5589e556538b750889cbc7":  // unique sig
+cleanup __amd64 void ShipAI::constructor(ShipAI *this, bool player); // 00600700
+".8b44240484c074??80b9ec":  // unique sig
+cleanup __amd64 void ShipAI::SetStalemate(ShipAI *this, bool val); // 006008a0
+".f30f1081f0":  // unique sig
+cleanup __amd64 bool ShipAI::GetStalemate(ShipAI *this); // 006008d0
+".5589e5565389ce83e4f083ec100fb681a9":  // unique sig
+cleanup __amd64 void ShipAI::Save(ShipAI *this, int fd); // 00600910
+".5589e5565389cb83e4f083ec208b7508893424e8????????85":  // unique sig
+cleanup __amd64 void ShipAI::Load(ShipAI *this, int fd); // 006009f0
+".578d7c240883e4f0ff77fc5589f889e557565389cb83c1":  // unique sig
+cleanup __amd64 void ShipAI::OnInit(ShipAI *this, ShipManager *shipManager, int boardingAI); // 00600ac0
+".f30f105424040f":  // unique sig
+cleanup __amd64 void ShipAI::SetEscapeTimer(ShipAI *this, float val); // 00600b70
+".578d7c240883e4f0ff77fc5589e5575389cb83ec1080b9a8":  // unique sig
+cleanup __amd64 bool ShipAI::RequiredEvac(ShipAI *this); // 00600ba0
+".8b4424043b81b0":  // unique sig
+cleanup __amd64 void ShipAI::SetSurrenderThreshold(ShipAI *this, int amount); // 00600c70
+".8b4424043b81ac":  // unique sig
+cleanup __amd64 void ShipAI::SetEscapeThreshold(ShipAI *this, int amount); // 00600c90
+".8b018b90cc00000031c085d27e??3991ac":  // unique sig
+cleanup __amd64 bool ShipAI::Surrender(ShipAI *this); // 00600cb0
+".8b018b90cc00000031c085d27e??3991b0":  // unique sig
+cleanup __amd64 int ShipAI::Escape(ShipAI *this, HDC hdc, int iEscape, int cjIn, LPCSTR pvIn, LPVOID pvOut); // 00600cf0
+".80b9aa":  // unique sig
+cleanup __amd64 bool ShipAI::Escaped(ShipAI *this); // 00600d40
+".8b0180b899":  // unique sig
+cleanup __amd64 bool ShipAI::Destroyed(ShipAI *this); // 00600da0
+".578d7c240883e4f0ff77fc5589e5575389cb83ec208b41048b":  // unique sig
+cleanup __amd64 void ShipAI::SetEvacRequest(ShipAI *this, int val); // 00600df0
+".5783c174":  // unique sig
+cleanup __amd64 void ShipAI::SetEnemyShip(ShipAI *this, ShipManager *ship); // 00600e70
+".8b410485c00f84????????8b01":  // unique sig
+cleanup __amd64 std::pair<int, int> ShipAI::GetTeleportCommand(ShipAI *this); // 00600ea0
+".660fefc0c681":  // unique sig
+cleanup __amd64 void ShipAI::RestartStalemate(ShipAI *this); // 00601030
+".c681aa00000000c7":  // unique sig
+cleanup __amd64 void ShipAI::CancelEscape(ShipAI *this); // 00601060
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec3c0fb600":  // unique sig
+cleanup __amd64 void ShipAI::CheckPowerLevels(ShipAI *this, bool hostile); // 00601080
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b3789f0":  // unique sig
+cleanup __amd64 void ShipAI::OnLoop(ShipAI *this, bool hostile); // 006012e0

@@ -1,0 +1,28 @@
+"8b442404898184000000c2040090669055":  // unique sig
+cleanup __amd64 void AugmentEquipBox::SetShipManager(AugmentEquipBox *this, ShipManager *ship); // 0052ab10
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b8184":  // unique sig
+cleanup __amd64 void AugmentEquipBox::RemoveItem(AugmentEquipBox *this); // 0052b1a0
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b17":  // unique sig
+cleanup __amd64 void AugmentEquipBox::AddItem(AugmentEquipBox *this, EquipmentBoxItem item); // 0052b2c0
+".8b818400000085c074??57":  // unique sig
+cleanup __amd64 void AugmentEquipBox::CheckContents(AugmentEquipBox *this); // 0052bf80
+".578d7c240883e4f0ff77fc5589e5575389cb83ec10e8????????8b434c":  // unique sig
+cleanup __amd64 void AugmentEquipBox::RenderIcon(AugmentEquipBox *this); // 0052c660
+".578d7c240883e4f0ff77fc5589f889e557565389cb8d4db8":  // unique sig
+cleanup __amd64 void AugmentEquipBox::constructor(AugmentEquipBox *this, Point loc, ShipManager *shipManager, int slot); // 0052e1f0
+".31c0c39090909090909090909090909031c0c39090909090909090909090909031c0c390909090909090909090909090b801000000c390909090909090909090b8":  // unique sig
+cleanup __amd64 bool AugmentEquipBox::IsCargoBox(AugmentEquipBox *this); // 0072cb40
+".31c0c39090909090909090909090909031c0c390909090909090909090909090b801000000c390909090909090909090b8":  // unique sig
+cleanup __amd64 bool AugmentEquipBox::CanHoldDrone(AugmentEquipBox *this); // 0072cb50
+".31c0c390909090909090909090909090b801000000c390909090909090909090b8":  // unique sig
+cleanup __amd64 bool AugmentEquipBox::CanHoldWeapon(AugmentEquipBox *this); // 0072cb60
+".b801000000c390909090909090909090b803000000c2":  // unique sig
+cleanup __amd64 bool AugmentEquipBox::CanHoldAugment(AugmentEquipBox *this); // 0072cb70
+".b803000000c204009090":  // unique sig
+cleanup __amd64 int AugmentEquipBox::GetType(AugmentEquipBox *this, bool forcedEmpty); // 0072cb80
+"!.90":  // non-unique sig
+noHook __amd64 void AugmentEquipBox::__DO_NOT_HOOK(); // 0072cb8f
+".55":  // non-unique sig
+cleanup __amd64 void AugmentEquipBox::destructor(AugmentEquipBox *this); // 0072cb90
+".5589e55389cb83c32083e4f083ec108b4130c701????????890424e8????????8b4314890424e8????????8b4318890424e8????????8b431c890424e8????????8b43e4890424e8????????8b43f839d874??890424e8????????8b5dfcc9c35589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b24e8????????8b430c8d531439d074??890424e8????????891c24e8????????8b5dfcc9c3905589e55389cb83e4f083ec108b8190000000c701????????890424e8????????8b83180100008d932001000039d074??890424e8????????8b83fc0000008d930401000039d074??890424e8????????8b83cc0000008d93d400000039d074??890424e8????????8b83b00000008d93b800000039d074??890424e8????????8b83940000008d939c00000039d074??890424e8????????8d4b2483c314e8????????8b43f839d874??890424e8????????8b5dfcc9c390909090909090909031":  // unique sig
+cleanup __amd64 void AugmentEquipBox::destructor(AugmentEquipBox *this); // 0072cc00

@@ -1,0 +1,16 @@
+"578d7c240883e4f0ff77fc5589e5575383ec408b0739417474??8d65f85b5f5d8d67f85fc2040089f68dbc270000000089cbe8????????c7":  // unique sig
+cleanup __amd64 void Asteroid::OnRenderSpecific(Asteroid *this, int spaceId); // 0044f060
+".578d7c240883e4f0ff77fc5589e5575389cb83ec4080b9b00000000074??c7":  // unique sig
+cleanup __amd64 void Asteroid::OnUpdate(Asteroid *this); // 00450950
+".578d7c240883e4f0ff77fc5589e557565381ec5c01000089":  // unique sig
+cleanup __amd64 void Asteroid::constructor(Asteroid *this, Pointf pos, int destinationSpace); // 00453290
+".b802000000c39090909090909090909055":  // unique sig
+cleanup __amd64 int Asteroid::GetType(Asteroid *this); // 00734170
+"!.90":  // non-unique sig
+noHook __amd64 void Asteroid::__DO_NOT_HOOK(); // 0073417f
+".55":  // non-unique sig
+cleanup __amd64 void Asteroid::destructor(Asteroid *this); // 00734180
+"!.90":  // non-unique sig
+noHook __amd64 void Asteroid::__DO_NOT_HOOK(); // 0073439f
+".55":  // non-unique sig
+cleanup __amd64 void Asteroid::destructor(Asteroid *this); // 007343a0

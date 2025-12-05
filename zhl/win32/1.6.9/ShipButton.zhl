@@ -1,0 +1,12 @@
+"578d7c240883e4f0ff77fc5589e557565389ce81ecac":  // unique sig
+cleanup __amd64 void ShipButton::constructor(ShipButton *this, int shipId, int type); // 005125d0
+".578d7c240883e4f0ff77fc5589e5575389cb83ec10807b":  // unique sig
+cleanup __amd64 void ShipButton::OnInit(ShipButton *this, string *image, Point pos); // 00513720
+".578d7c240883e4f0ff77fc5589f889e557565389cf83ec2c8079":  // unique sig
+cleanup __amd64 void ShipButton::MouseMove(ShipButton *this, int mX, int mY); // 00513780
+".578d7c240883e4f0ff77fc5589e557565389cb83ec7c80":  // unique sig
+cleanup __amd64 void ShipButton::OnRender(ShipButton *this); // 00517c40
+".5589e55389cb83e4f083ec108b4174c701????????85c074??890424e8????????89d9e8????????89":  // unique sig
+cleanup __amd64 void ShipButton::destructor(ShipButton *this); // 007220c0
+".5589e55389cb83e4f083ec108b4174c701????????85c074??890424e8????????89d9e8????????8b":  // unique sig
+cleanup __amd64 void ShipButton::destructor(ShipButton *this); // 00722100

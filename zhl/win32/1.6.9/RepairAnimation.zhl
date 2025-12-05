@@ -1,0 +1,12 @@
+"578d7c240883e4f0ff77fc5589e5575389cb83ec208b41308b5108694938cc0000008d04408d04820308c70424000080bf83c120e8????????8b5308d95df48b45f483ec048b0a89042481c194050000e8????????8b43308b4b0883ec048d04408d0481694b38cc0000000308c70424000080bf83c120e8????????8b5308d95df48b45f483ec048b4a2489042481c194050000e8????????8b43308b7b0883ec04694b38cc0000008d04408d04870308c70424000080bf83c120e8????????8b5308d95df48b45f483ec048b4a0c89042481c194050000e8????????8b43308b530883ec04694b38cc0000008d04408d04820308c70424000080bf83c120e8????????8b5308d95df48b45f483ec048b4a1889042481c194050000e8????????8b43308b4b0883ec04695338cc0000008d04408d0481031083":  // unique sig
+cleanup __amd64 bool RepairAnimation::FireShot(RepairAnimation *this); // 00437bc0
+".b8ffffffffc3909090909090909090905589e557565383e4f083":  // unique sig
+cleanup __amd64 int RepairAnimation::GetFiringFrame(RepairAnimation *this); // 0072cf30
+"!.90":  // non-unique sig
+noHook __amd64 void RepairAnimation::__DO_NOT_HOOK(); // 0072cf3f
+".55":  // non-unique sig
+cleanup __amd64 void RepairAnimation::destructor(RepairAnimation *this); // 0072cf40
+"!.90":  // non-unique sig
+noHook __amd64 void RepairAnimation::__DO_NOT_HOOK(); // 0072d1ff
+".55":  // non-unique sig
+cleanup __amd64 void RepairAnimation::destructor(RepairAnimation *this); // 0072d200

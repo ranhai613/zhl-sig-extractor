@@ -1,0 +1,24 @@
+"5589e55653f3":  // unique sig
+cleanup __amd64 void LaserBlast::SetSpin(LaserBlast *this, float spin); // 0044ed40
+".578d7c240883e4f0ff77fc5589e5575383ec408b0739417474??8d65f85b5f5d8d67f85fc2040089f68dbc270000000089cbe8????????80":  // unique sig
+cleanup __amd64 void LaserBlast::OnRenderSpecific(LaserBlast *this, int spaceId); // 0044f1d0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b37893424e8????????83ec04893424e8????????d95de48b45e48934248983a4":  // unique sig
+cleanup __amd64 void LaserBlast::LoadProjectile(LaserBlast *this, int fd); // 00450340
+".578d7c240883e4f0ff77fc5589e5575389cb83ec4080b9b00000000074??8d":  // unique sig
+cleanup __amd64 void LaserBlast::OnUpdate(LaserBlast *this); // 00450b00
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b89a0":  // unique sig
+cleanup __amd64 void LaserBlast::ComputeHeading(LaserBlast *this); // 00450cb0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f891c24e8????????f30f1086a4":  // unique sig
+cleanup __amd64 void LaserBlast::SaveProjectile(LaserBlast *this, int fd); // 00451720
+".5589e5538b417489cbc7":  // unique sig
+cleanup __amd64 void LaserBlast::OnInit(LaserBlast *this); // 00454e70
+".b801000000c390909090909090909090558d915c":  // unique sig
+cleanup __amd64 int LaserBlast::GetType(LaserBlast *this); // 00721180
+"!.90":  // non-unique sig
+noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 0072118f
+".55":  // non-unique sig
+cleanup __amd64 void LaserBlast::destructor(LaserBlast *this); // 00721190
+"!.90":  // non-unique sig
+noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 007213af
+".55":  // non-unique sig
+cleanup __amd64 void LaserBlast::destructor(LaserBlast *this); // 007213b0

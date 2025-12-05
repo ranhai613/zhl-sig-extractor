@@ -1,0 +1,18 @@
+"5589e557565389cb83e4f083ec20c7":  // unique sig
+cleanup __amd64 void AsteroidGenerator::constructor(AsteroidGenerator *this); // 00409cb0
+".5589e55389cb8b550c":  // unique sig
+cleanup __amd64 void AsteroidGenerator::Initialize(AsteroidGenerator *this, int numShips, int shields, bool defense); // 00409e60
+".8b442404894170c204008d":  // unique sig
+cleanup __amd64 void AsteroidGenerator::SetNumShips(AsteroidGenerator *this, int numShips); // 0040a080
+".8b41083b4118":  // unique sig
+cleanup __amd64 Projectile *AsteroidGenerator::GetNextAsteroid(AsteroidGenerator *this); // 0040a090
+".80b98800":  // unique sig
+cleanup __amd64 void AsteroidGenerator::OnLoop(AsteroidGenerator *this); // 0040acd0
+".5589e5538b417489cb83":  // unique sig
+cleanup __amd64 void AsteroidGenerator::GetNextState(AsteroidGenerator *this); // 0040b100
+".5589e55389cbb9????????83e4f083ec10e8????????d95c240cf30f1083":  // unique sig
+cleanup __amd64 void AsteroidGenerator::UpdateState(AsteroidGenerator *this); // 0040b180
+".5589e5565389ce83e4f083ec108b5d08f30f1005":  // unique sig
+cleanup __amd64 void AsteroidGenerator::SaveAsteroids(AsteroidGenerator *this, int fd); // 0040b250
+".5589e5565389cb83e4f083ec108b7508893424e8????????66":  // unique sig
+cleanup __amd64 void AsteroidGenerator::LoadAsteroids(AsteroidGenerator *this, int fd); // 0040b2d0

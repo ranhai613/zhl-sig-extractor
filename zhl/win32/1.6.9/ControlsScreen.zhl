@@ -1,0 +1,22 @@
+"660fefc05589e557":  // unique sig
+cleanup __amd64 void ControlsScreen::constructor(ControlsScreen *this); // 0056a680
+".8b413083f8ff74??8b91400500006bc0648d1452030491c7405c00000000c74130fffffffff3":  // unique sig
+cleanup __amd64 void ControlsScreen::Close(ControlsScreen *this); // 0056a6f0
+".578d4130":  // unique sig
+cleanup __amd64 void ControlsScreen::OnLanguageChange(ControlsScreen *this); // 0056a720
+".578d7c240883e4f0ff77fc5589e557565383ec7c8b81":  // unique sig
+cleanup __amd64 void ControlsScreen::OnLoop(ControlsScreen *this); // 0056a900
+".578d7c240883e4f0ff77fc5589e557565381ecbc01":  // unique sig
+cleanup __amd64 void ControlsScreen::OnInit(ControlsScreen *this); // 0056f490
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b0783":  // unique sig
+cleanup __amd64 bool ControlsScreen::KeyDown(ControlsScreen *this, SDLKey sym); // 00570a10
+".578d7c240883e4f0ff77fc5589e557565389cf81ecbc":  // unique sig
+cleanup __amd64 void ControlsScreen::OnRender(ControlsScreen *this); // 00570d70
+".578d7c240883e4f0ff77fc5589f889e557565389cf8d99":  // unique sig
+cleanup __amd64 void ControlsScreen::MouseMove(ControlsScreen *this, int mX, int mY); // 00571fa0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c80b928":  // unique sig
+cleanup __amd64 void ControlsScreen::MouseClick(ControlsScreen *this, int mX, int mY); // 005724d0
+".578d7c240883e4f0ff77fc5589f889e557565389ce83ec4c8b3f":  // unique sig
+cleanup __amd64 void ControlsScreen::OnTouch(ControlsScreen *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 00572e00
+".5589e557565383e4f083ec208b9944":  // unique sig
+cleanup __amd64 void ControlsScreen::destructor(ControlsScreen *this); // 00573670

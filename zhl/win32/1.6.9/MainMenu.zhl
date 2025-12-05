@@ -1,0 +1,48 @@
+"0fb60184c074":  // unique sig
+cleanup __amd64 bool MainMenu::IsTitle(MainMenu *this); // 004be260
+".5589e55383e4f083ec308d":  // unique sig
+cleanup __amd64 bool MainMenu::SaveFileExists(MainMenu *this); // 004be2a0
+".578d7c240883e4f0ff77fc5589e55783ec1480b9bc120000008b0774??81c1a4030000890424e8????????83ec048b7dfcc98d67f85fc20400908db600000000578d7c240883e4f0ff77fc5589e55783ec1480b9bc120000008b0774??81c1a4030000890424e8????????83ec048b7dfcc98d67f85fc20400908db60000000057":  // unique sig
+cleanup __amd64 void MainMenu::OnKeyUp(MainMenu *this, SDLKey sym); // 004be2e0
+".578d7c240883e4f0ff77fc5589e55783ec1480b9bc120000008b0774??81c1a4030000890424e8????????83ec048b7dfcc98d67f85fc20400908db600000000578d7c240883e4f0ff77fc5589e55783ec1480b9bc120000008b0774??81c1a4030000890424e8????????83ec048b7dfcc98d67f85fc20400908db60000000055":  // unique sig
+cleanup __amd64 void MainMenu::OnTextInput(MainMenu *this, int ch); // 004be320
+".578d7c240883e4f0ff77fc5589e55783ec1480b9bc120000008b0774??81c1a4030000890424e8????????83ec048b7dfcc98d67f85fc20400908db60000000055":  // unique sig
+cleanup __amd64 void MainMenu::OnTextEvent(MainMenu *this, TextEvent event); // 004be360
+".5581c1a4":  // unique sig
+cleanup __amd64 void MainMenu::OpenShipBuilder(MainMenu *this); // 004be3a0
+".8b81a003":  // unique sig
+cleanup __amd64 int MainMenu::Choice(MainMenu *this); // 004be3c0
+".5781c1a40300008d7c240883e4f0ff77fc5589e55783ec14c7":  // unique sig
+cleanup __amd64 ShipManager *MainMenu::GetTutorialShip(MainMenu *this); // 004be3d0
+".5781c1a40300008d7c240883e4f0ff77fc5589e55783ec148b":  // unique sig
+cleanup __amd64 ShipManager *MainMenu::GetShip(MainMenu *this); // 004be400
+".5781c18c":  // unique sig
+cleanup __amd64 void MainMenu::SetOpeningError(MainMenu *this, string *error); // 004be470
+".578d7c240883e4f0ff77fc5589e55756538d45c0":  // unique sig
+cleanup __amd64 void MainMenu::UpdateButtonLanguage(MainMenu *this, Button *button, string *filename); // 004be4a0
+".578d412c8d7c240883e4f0ff77fc5589e55756538d":  // unique sig
+cleanup __amd64 void MainMenu::OnLanguageChange(MainMenu *this); // 004be6a0
+".578d412c8d7c240883e4f0ff77fc5589e557565389":  // unique sig
+cleanup __amd64 void MainMenu::constructor(MainMenu *this); // 004beb60
+".578d7c240883e4f0ff77fc5589e55756538d85b0":  // unique sig
+cleanup __amd64 void MainMenu::ShowChangedLoginMessage(MainMenu *this); // 004bf1d0
+".578d7c240883e4f0ff77fc5589e557565389cf81ec6c04000080":  // unique sig
+cleanup __amd64 void MainMenu::OnRender(MainMenu *this); // 004bfdf0
+".578d7c240883e4f0ff77fc5589e557565381ecac02000080":  // unique sig
+cleanup __amd64 bool MainMenu::Open(MainMenu *this); // 004c1ab0
+".5589e557565389ce83e4f083ec20894c241481c1a4":  // unique sig
+cleanup __amd64 bool MainMenu::Close(MainMenu *this); // 004c4b70
+".5731c08d7c240883e4f0ff77fc5589e557565389cb83ec1c80b948":  // unique sig
+cleanup __amd64 void MainMenu::OnKeyDown(MainMenu *this, SDLKey sym, bool bShift); // 004c4cc0
+".578d7c240883e4f0ff77fc5589e557565383ec5c80b9":  // unique sig
+cleanup __amd64 void MainMenu::MouseMove(MainMenu *this, int mX, int mY); // 004c4dd0
+".578d7c240883e4f0ff77fc5589e557565389cf81ec9c02":  // unique sig
+cleanup __amd64 void MainMenu::OnLoop(MainMenu *this); // 004c50b0
+".578d7c240883e4f0ff77fc5589e55783ec1480b910340000008b078b570475??80b9502000000075??8b7dfcc98d67f85fc2080081c14c20000089542404890424e8????????8b7dfc83ec08c98d67f85fc208008db6000000008dbf00000000578d7c240883e4f0ff77fc5589e55783":  // unique sig
+cleanup __amd64 void MainMenu::MouseUp(MainMenu *this, int mX, int mY); // 004c64c0
+".578d7c240883e4f0ff77fc5589e55783ec1480b910340000008b078b570475??80b9502000000075??8b7dfcc98d67f85fc2080081c14c20000089542404890424e8????????8b7dfc83ec08c98d67f85fc208008db6000000008dbf00000000578d7c240883e4f0ff77fc5589e55756":  // unique sig
+cleanup __amd64 void MainMenu::MouseRClick(MainMenu *this, int mX, int mY); // 004c6520
+".578d7c240883e4f0ff77fc5589e557565383ec4c80b910":  // unique sig
+cleanup __amd64 void MainMenu::MouseClick(MainMenu *this, int mX, int mY); // 004c6580
+".578d7c240883e4f0ff77fc5589e557565389cb83ec7c8b4708":  // unique sig
+cleanup __amd64 void MainMenu::OnTouch(MainMenu *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 004c6900

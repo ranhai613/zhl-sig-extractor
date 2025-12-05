@@ -1,0 +1,14 @@
+"8b54240489c88b92":  // unique sig
+cleanup __amd64 GL_Color *ArtilleryBox::GetCooldownColor(ArtilleryBox *this); // 004ca320
+".b8ffffffffc38d76008dbc2700000000d9e8d9e0c3908d76008dbc270000000080":  // unique sig
+cleanup __amd64 int ArtilleryBox::GetCooldownLevel(ArtilleryBox *this); // 004ca370
+".d9e8d9e0c3908d76008dbc270000000080":  // unique sig
+cleanup __amd64 float ArtilleryBox::GetCooldownFraction(ArtilleryBox *this); // 004ca380
+".578d7c240883e4f0ff77fc5589e557565389cb81ec4c0100000f":  // unique sig
+cleanup __amd64 void ArtilleryBox::OnRender(ArtilleryBox *this, bool ignoreStatus); // 004cb660
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b7708":  // unique sig
+cleanup __amd64 void ArtilleryBox::constructor(ArtilleryBox *this, Point loc, ArtillerySystem *sys); // 004d00a0
+".5589e5565389cebb0100000083e4f083ec10c701????????8b849e0002000083c301890424e8????????83fb0575??89f1e8????????893424e8????????8d65f85b5e5dc39090":  // unique sig
+cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this); // 00725440
+".5589e5565389cebb0100000083e4f083ec10c701????????8b849e0002000083c301890424e8????????83fb0575??89f1e8????????8d65f85b5e5dc39090":  // unique sig
+cleanup __amd64 void ArtilleryBox::destructor(ArtilleryBox *this); // 00725490

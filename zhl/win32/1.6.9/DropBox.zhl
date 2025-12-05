@@ -1,0 +1,12 @@
+"8b510c89d0":  // unique sig
+cleanup __amd64 int DropBox::GetHeight(DropBox *this); // 004d8790
+".578d7c240883e4f0ff77fc5589e557565389cb83ec5c8b81ac":  // unique sig
+cleanup __amd64 int DropBox::GetBodySpaceOffset(DropBox *this); // 004d87d0
+".565331c08b54":  // unique sig
+cleanup __amd64 bool DropBox::Contains(DropBox *this, int x, int y); // 004d8930
+".578d7c240883e4f0ff77fc5589e557565389cb81ec9c0000008079":  // unique sig
+cleanup __amd64 void DropBox::CalcHeight(DropBox *this); // 004d89a0
+".578d7c240883e4f0ff77fc5589e557565389cb81ec6c010000e8????????8b43":  // unique sig
+cleanup __amd64 void DropBox::OnRender(DropBox *this); // 004d8e70
+".578d7c240883e4f0ff77fc5589e5575653be????????89cb81":  // unique sig
+cleanup __amd64 void DropBox::OnInit(DropBox *this, Point p, bool isSellBox_, TextString *titleText_, TextString *bodyText_, int bodySpace_, TextString *lowerText_); // 004da1f0

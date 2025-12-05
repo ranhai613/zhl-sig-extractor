@@ -1,0 +1,36 @@
+"8b44240439018b":  // unique sig
+cleanup __amd64 void MouseControl::SetPosition(MouseControl *this, int mX, int mY); // 004d67c0
+".5589e55389cb83e4f083ec1080b91c":  // unique sig
+cleanup __amd64 void MouseControl::OnLoop(MouseControl *this); // 004d67f0
+".c6812801000001c3":  // unique sig
+cleanup __amd64 void MouseControl::InstantTooltip(MouseControl *this); // 004d68a0
+".8b44240488811d":  // unique sig
+cleanup __amd64 void MouseControl::SetHideMouse(MouseControl *this, bool hide); // 004d68b0
+".c7411000000000c7411400000000c7411800000000c781":  // unique sig
+cleanup __amd64 void MouseControl::ResetArmed(MouseControl *this); // 004d68c0
+".578d7c240883e4f0ff77fc5589e557565389cb8d4dd883ec4c":  // unique sig
+cleanup __amd64 Point MouseControl::MeasureTooltip(MouseControl *this, int width); // 004d68f0
+".5589e58b45088b550c5d8981":  // unique sig
+cleanup __amd64 void MouseControl::QueueStaticTooltip(MouseControl *this, Point tooltipPoint); // 004d6a10
+".578d7c240883e4f0ff77fc5589e557565389cb83ec6c83":  // unique sig
+cleanup __amd64 void MouseControl::RenderTooltip(MouseControl *this, Point tooltipPoint, bool staticPos); // 004d6a30
+".80b91d01":  // unique sig
+cleanup __amd64 void MouseControl::OnRender(MouseControl *this); // 004d6e00
+".578d7c240883e4f0ff77fc5589e5575389cb8d8900":  // unique sig
+cleanup __amd64 void MouseControl::Reset(MouseControl *this); // 004d7cf0
+".578d7c240883e4f0ff77fc5589e55756538d75c0":  // unique sig
+cleanup __amd64 void MouseControl::LoadTooltip(MouseControl *this, string *tooltipName); // 004d7df0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec2c8b3f8b":  // unique sig
+cleanup __amd64 void MouseControl::SetTooltip(MouseControl *this, string *tooltip); // 004d7f50
+".578d7c240883e4f0ff77fc5589e55783ec148b9130":  // unique sig
+cleanup __amd64 void MouseControl::SetTooltipTitle(MouseControl *this, string *tooltip); // 004d7ff0
+".578d7c240883e4f0ff77fc5589e557565389ce83ec1c8b1f83":  // unique sig
+cleanup __amd64 void MouseControl::SetDoor(MouseControl *this, int door); // 004d8030
+".578d7c240883e4f0ff77fc5589e55756538dbd00":  // unique sig
+cleanup __amd64 void MouseControl::OnInit(MouseControl *this); // 004d80a0
+".807c2408":  // unique sig
+cleanup __amd64 void MouseControl::SetValid(MouseControl *this, bool valid, bool newValid); // 004d8760
+".c6411d01c6411f":  // unique sig
+cleanup __amd64 void MouseControl::SetSilentValid(MouseControl *this); // 004d8780
+".578d7c240883e4f0ff77fc5589e5575389cb83ec20c7442404ffffffffc70424ffffffffe8????????8d":  // unique sig
+cleanup __amd64 void MouseControl::constructor(MouseControl *this); // 00726f10

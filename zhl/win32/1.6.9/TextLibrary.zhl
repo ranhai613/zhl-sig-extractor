@@ -1,0 +1,22 @@
+"578d7c240883e4f0ff77fc5589e557565389ce81ec9c0000008b39":  // unique sig
+static cleanup __amd64 string *TextLibrary::FormatText<TextString>(string *__return_storage_ptr__, TextLibrary *this, string *name, TextString *param_2); // 00429750
+".5783c1308d7c240883e4f0ff77fc5589e55783ec148b07890424e8????????8b7dfc83ec04c98d67f85fc204009066908d":  // unique sig
+cleanup __amd64 void TextLibrary::SetLanguage(TextLibrary *this, string *language); // 005a8760
+".578d7c240883e4f0ff77fc5589e557565389cf83ec2c8b59":  // unique sig
+cleanup __amd64 void TextLibrary::Clear(TextLibrary *this); // 005a9830
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b07894dc8":  // unique sig
+cleanup __amd64 string *TextLibrary::GetText(TextLibrary *this, string *name, string *language); // 005a9f40
+".57b8bc":  // unique sig
+cleanup __amd64 void TextLibrary::LoadText(TextLibrary *this, string *data, string *filename); // 005aa3c0
+".578d7c240883e4f0ff77fc5589e55756538d45a881":  // unique sig
+cleanup __amd64 string *TextLibrary::FormatText<std::__cxx11::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>_>(TextLibrary *this, string *name); // 00724470
+".578d7c240883e4f0ff77fc5589e557565389ce83ec4c8b1f8b47":  // unique sig
+cleanup __amd64 string *TextLibrary::FormatText<float>(TextLibrary *this, string *name); // 00724680
+".578d7c240883e4f0ff77fc5589e55756538db5e5":  // unique sig
+cleanup __amd64 string *TextLibrary::FormatText<int>(TextLibrary *this, string *name); // 00724710
+".578d7c240883e4f0ff77fc5589e557565383ec6c894d9c":  // unique sig
+cleanup __amd64 string *TextLibrary::DoFormatText<std::__cxx11::basic_string<char>_>(TextLibrary *this, int index, string *text, basic_string<char, _std::char_traits<char>, _std::allocator<char>> *v); // 00724940
+".578d7c240883e4f0ff77fc5589e55756538db5fd":  // unique sig
+cleanup __amd64 string *TextLibrary::DoFormatText<float>(TextLibrary *this, int index, string *text, float v); // 00724c30
+".578d7c240883e4f0ff77fc5589e557565381ec3c0100008b47":  // unique sig
+cleanup __amd64 string *TextLibrary::DoFormatText<int>(TextLibrary *this, int index, string *text, int v); // 00724e70

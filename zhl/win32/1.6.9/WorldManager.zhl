@@ -1,0 +1,80 @@
+"578d7c240883e4f0ff77fc5589f889e557565383ec4c8b50":  // unique sig
+cleanup __amd64 void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 005ed150
+".578d7c240883e4f0ff77fc5589e5575389cb8d490883ec10c741f800":  // unique sig
+cleanup __amd64 void WorldManager::constructor(WorldManager *this); // 005ed320
+".578d7c240883e4f0ff77fc5589e557568d7108":  // unique sig
+cleanup __amd64 void WorldManager::OnInit(WorldManager *this); // 005eda60
+".578d7c240883e4f0ff77fc5589e557565389ce81ec9c0000008b01":  // unique sig
+cleanup __amd64 int WorldManager::PossibleDamage(WorldManager *this, EventDamage damage); // 005edb00
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b378b96":  // unique sig
+cleanup __amd64 void WorldManager::CreateStore(WorldManager *this, LocationEvent *event); // 005edda0
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b1f85db0f":  // unique sig
+cleanup __amd64 bool WorldManager::CheckRequirements(WorldManager *this, LocationEvent *event, bool hidden); // 005ede50
+".578d7c240883e4f0ff77fc5589e557565383ec4c8b01":  // unique sig
+cleanup __amd64 bool WorldManager::AddBoarders(WorldManager *this, BoardingEvent *boarders); // 005ee030
+".8b81e40d0000c3":  // unique sig
+cleanup __amd64 CommandGui *WorldManager::CreateCommandGui(WorldManager *this); // 005ee0d0
+".55b9????????89e583e4f0e8????????c9c38db426000000008dbc270000000055":  // unique sig
+cleanup __amd64 void WorldManager::CountCrews(WorldManager *this); // 005ee0e0
+".5589e557565389ce83e4f083ec108bb99c":  // unique sig
+cleanup __amd64 void WorldManager::CheckMusic(WorldManager *this); // 005ee100
+".5589e55389cb83c108":  // unique sig
+cleanup __amd64 bool WorldManager::HostileEnvironment(WorldManager *this); // 005ee1f0
+".c20800908db6000000008dbf00000000578d7c240883e4f0ff77fc5589e55753":  // unique sig
+cleanup __amd64 void WorldManager::PrepareNextLocation(WorldManager *this, LocationEvent *event, bool boss); // 005ee230
+".578d7c240883e4f0ff77fc5589e5575389cb83ec108b078b570483":  // unique sig
+cleanup __amd64 void WorldManager::ModifyEnvironment(WorldManager *this, int envFlag, int envTarget); // 005ee240
+".578d7c240883e4f0ff77fc5589f889e557565383ec5c8b70":  // unique sig
+cleanup __amd64 void WorldManager::ModifyStatusEffect(WorldManager *this, StatusEffect effect, ShipManager *target, int targetType); // 005ee350
+".578d7c240883e4f0ff77fc5589e557565383ec5c89":  // unique sig
+cleanup __amd64 void WorldManager::ModifyAllStatusEffects(WorldManager *this, ShipManager *target, int targetType); // 005ee4b0
+".c20400908db6000000008dbf00000000578d7c240883e4f0ff77fc5589e557565389cb81ec5c":  // unique sig
+cleanup __amd64 void WorldManager::KeyDown(WorldManager *this, SDLKey sym); // 005ee6a0
+".578d7c240883e4f0ff77fc5589e557565389cb81ec5c03":  // unique sig
+cleanup __amd64 void WorldManager::AddShip(WorldManager *this, CompleteShip *ship); // 005ee6b0
+".5789ca81":  // unique sig
+cleanup __amd64 void WorldManager::CheckStatusEffects(WorldManager *this, std::vector<StatusEffect> *effects); // 005eea10
+".578d7c240883e4f0ff77fc5589e557565389ce81ec8c04":  // unique sig
+cleanup __amd64 CompleteShip *WorldManager::CreateShip(WorldManager *this, ShipEvent *ship, bool boss); // 005eee10
+".578d7c240883e4f0ff77fc5589e557565389cb83c10881":  // unique sig
+cleanup __amd64 void WorldManager::ClearLocation(WorldManager *this); // 005ef130
+".5589e55389cb83e4f0e8????????8b8398":  // unique sig
+cleanup __amd64 void WorldManager::OnCleanup(WorldManager *this); // 005efb30
+".578d7c240883e4f0ff77fc5589e557565381ec3c0100008b07":  // unique sig
+cleanup __amd64 std::vector<std::__cxx11::basic_string<char, _std::char_traits<char>, _std::allocator<char>>> *WorldManager::RetrieveShipList(WorldManager *this, LocationEvent *event, bool boss); // 005efb80
+".578d7c240883e4f0ff77fc5589e557565389ce8d8d2c":  // unique sig
+cleanup __amd64 LocationEvent *WorldManager::ModifyResources(WorldManager *this, LocationEvent *event); // 005f0290
+".5789c8056c":  // unique sig
+cleanup __amd64 void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 005f0f70
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b018b378b48088b018b40443d????????75??0fb6819904000084c075??85":  // unique sig
+cleanup __amd64 void WorldManager::CreateChoiceBox(WorldManager *this, LocationEvent *event); // 005f2b70
+".578d7c240883e4f0ff77fc5589e557565389ce81ec0c05":  // unique sig
+cleanup __amd64 void WorldManager::CreateLocation(WorldManager *this, Location *loc); // 005f2be0
+".578d7c240883e4f0ff77fc5589e557565389cf81ecac03":  // unique sig
+cleanup __amd64 void WorldManager::TestBlueprints(WorldManager *this); // 005f3980
+".578d7c240883e4f0ff77fc5589e557565389ce8d5dd8":  // unique sig
+cleanup __amd64 void WorldManager::CreateNewGame(WorldManager *this); // 005f46b0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec4c8b09":  // unique sig
+cleanup __amd64 void WorldManager::StartGame(WorldManager *this, ShipManager *newShip); // 005f4820
+".578d7c240883e4f0ff77fc5589e5575389cb83ec10e8????????e8":  // unique sig
+cleanup __amd64 void WorldManager::Restart(WorldManager *this); // 005f49f0
+".578d7c240883e4f0ff77fc5589e557565389cb81ec9c04":  // unique sig
+cleanup __amd64 void WorldManager::CheckLoadEvent(WorldManager *this); // 005f4aa0
+".578d7c240883e4f0ff77fc5589e557565389cb81ecdc0000008b":  // unique sig
+cleanup __amd64 bool WorldManager::CheckForNewLocation(WorldManager *this, bool savingGame); // 005f4fa0
+".578d7c240883e4f0ff77fc5589e557565389cf83ec3c8b89e4":  // unique sig
+cleanup __amd64 void WorldManager::SaveGame(WorldManager *this); // 005f5410
+".5589e55389cb8b89e4":  // unique sig
+cleanup __amd64 void WorldManager::PrepareAutoSave(WorldManager *this); // 005f5780
+".578d7c240883e4f0ff77fc5589e557565381ecac04":  // unique sig
+cleanup __amd64 void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 005f57d0
+".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b018b378b48088b018b40443d????????75??0fb6819904000084c075??89":  // unique sig
+cleanup __amd64 void WorldManager::UpdateLocation(WorldManager *this, LocationEvent *event); // 005f6010
+".578d7c240883e4f0ff77fc5589e557565389ce83ec5c8b09":  // unique sig
+cleanup __amd64 void WorldManager::PauseLoop(WorldManager *this); // 005f6070
+".578d7c240883e4f0ff77fc5589e557565389cf81eccc":  // unique sig
+cleanup __amd64 void WorldManager::OnLoop(WorldManager *this); // 005f6520
+".578d7c240883e4f0ff77fc5589e557565389cb8db51c":  // unique sig
+cleanup __amd64 void WorldManager::LoadGame(WorldManager *this, string *file); // 005f8180
+".5589e557565383e4f083ec208bb1":  // unique sig
+cleanup __amd64 void WorldManager::destructor(WorldManager *this); // 005f8e70
