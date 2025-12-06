@@ -15,10 +15,10 @@
 ".b801000000c390909090909090909090558d915c":  // unique sig
  __thiscall int LaserBlast::GetType(LaserBlast *this); // 00721180
 "!.90":  // non-unique sig
-noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 0072118f
+noHook void LaserBlast::__DO_NOT_HOOK(); // 0072118f
 ".55":  // non-unique sig
  __thiscall void LaserBlast::destructor(LaserBlast *this); // 00721190
 "!.90":  // non-unique sig
-noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 007213af
+noHook void LaserBlast::__DO_NOT_HOOK(); // 007213af
 ".55":  // non-unique sig
  __thiscall void LaserBlast::destructor(LaserBlast *this); // 007213b0

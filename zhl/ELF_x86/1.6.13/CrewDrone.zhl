@@ -73,7 +73,7 @@ cleanup __cdecl bool CrewDrone::Functional(CrewDrone *this); // 08082bc0
 ".8b4424048b500485":  // unique sig
 cleanup __cdecl bool CrewDrone::ProvidesVision(CrewDrone *this); // 08082bf0
 "!.0083c01089442404891c24e8????????89d88b5dfcc9c20400":  // unique sig
-noHook __amd64 void CrewDrone::__DO_NOT_HOOK(); // 08082c8f
+noHook void CrewDrone::__DO_NOT_HOOK(); // 08082c8f
 ".55":  // non-unique sig
 cleanup __cdecl void CrewDrone::destructor(CrewDrone *this); // 08082c90
 // Failed to generate signature for function: CrewDrone::~CrewDrone at 08083950

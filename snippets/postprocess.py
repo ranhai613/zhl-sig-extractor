@@ -2,6 +2,8 @@ from glob import glob
 import re
 from sys import argv
 
+PLATFORMS = ["win32", "elf_amd64", "elf_x86"]
+
 C_CONTAINER_TYPES = ["pair", "vector", "array", "unordered_set", "map", "unordered_map", "unordered_multimap"]
 C_CONTAINER_TYPES_ONE = ["vector", "array", "unordered_set"]
 C_CONTAINER_TYPES_TWO = ["pair", "map", "unordered_map", "unordered_multimap"]
@@ -19,10 +21,12 @@ def preprocess(content: str, platform: str) -> str:
                      .replace("std::basic_string<char,_std::char_traits<char>,_std::allocator<char>_>", "std::string") \
                      .replace(", int __in_chrg", "")
     if platform == "win32":
-        content = content.replace("static cleanup __amd64 ", "static cleanup __cdecl ") \
+        content = content.replace("noHook __amd64 ", "noHook ") \
+                         .replace("static cleanup __amd64 ", "static cleanup __cdecl ") \
                          .replace("cleanup __amd64 ", " __thiscall ")
     elif platform == "elf_x86":
-        content = content.replace("cleanup __amd64 ", "cleanup __cdecl ")
+        content = content.replace("noHook __amd64 ", "noHook ") \
+                         .replace("cleanup __amd64 ", "cleanup __cdecl ")
     return content
 
 def process_template(content: str) -> str:
@@ -117,4 +121,8 @@ def main(target_dir: str, platform: str = "elf_amd64") -> None:
             f.write(content)
 
 if __name__ == "__main__":
+    if len(argv) < 3 or argv[2] not in PLATFORMS:
+        print(f"Usage: {argv[0]} <target_dir> [platform]")
+        print(f"Available platforms: {', '.join(PLATFORMS)}")
+        exit(1)
     main(argv[1], argv[2])

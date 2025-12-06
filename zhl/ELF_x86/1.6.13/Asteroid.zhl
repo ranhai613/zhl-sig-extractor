@@ -7,7 +7,7 @@ cleanup __cdecl void Asteroid::constructor(Asteroid *this, Pointf pos, int desti
 ".b802000000c366906690669066906690b801":  // unique sig
 cleanup __cdecl int Asteroid::GetType(Asteroid *this); // 08093d00
 "!.6690":  // non-unique sig
-noHook __amd64 void Asteroid::__DO_NOT_HOOK(); // 08094d3f
+noHook void Asteroid::__DO_NOT_HOOK(); // 08094d3f
 ".55":  // non-unique sig
 cleanup __cdecl void Asteroid::destructor(Asteroid *this); // 08094d40
 // Failed to generate signature for function: Asteroid::~Asteroid at 08095d00

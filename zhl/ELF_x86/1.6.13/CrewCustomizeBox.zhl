@@ -13,11 +13,11 @@ cleanup __cdecl void CrewCustomizeBox::MouseMove(CrewCustomizeBox *this, int mX,
 ".5589e557565383ec3c8b5d0c8b7d":  // unique sig
 cleanup __cdecl void CrewCustomizeBox::OnTouch(CrewCustomizeBox *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08168980
 "!.f1eb??908db600000000":  // unique sig
-noHook __amd64 void CrewCustomizeBox::__DO_NOT_HOOK(); // 08168d3f
+noHook void CrewCustomizeBox::__DO_NOT_HOOK(); // 08168d3f
 ".56":  // non-unique sig
 cleanup __cdecl void CrewCustomizeBox::destructor(CrewCustomizeBox *this); // 08168d40
 "!.c8eb??8b48fc8d59ff8958fc89c8eb??908d76008dbc2700000000":  // unique sig
-noHook __amd64 void CrewCustomizeBox::__DO_NOT_HOOK(); // 08168eef
+noHook void CrewCustomizeBox::__DO_NOT_HOOK(); // 08168eef
 ".56":  // non-unique sig
 cleanup __cdecl void CrewCustomizeBox::destructor(CrewCustomizeBox *this); // 08168ef0
 ".5589e557565381ec8c0000008b5d088b75":  // unique sig

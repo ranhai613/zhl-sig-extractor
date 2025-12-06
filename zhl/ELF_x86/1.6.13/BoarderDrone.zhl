@@ -11,7 +11,7 @@ cleanup __cdecl float BoarderDrone::GetDamageMultiplier(BoarderDrone *this); // 
 ".e9????????66906690669066906690908b":  // unique sig
 cleanup __cdecl bool BoarderDrone::ReadyToFight(BoarderDrone *this); // 08082b00
 "!.e9????????669090":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 0808350f
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 0808350f
 ".55":  // non-unique sig
 cleanup __cdecl void BoarderDrone::destructor(BoarderDrone *this); // 08083510
 // Failed to generate signature for function: BoarderDrone::~BoarderDrone at 080841f0

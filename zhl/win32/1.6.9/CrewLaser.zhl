@@ -7,10 +7,10 @@
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec50":  // unique sig
  __thiscall void CrewLaser::OnRender(CrewLaser *this, GL_Color *color); // 00453f90
 "!.90":  // non-unique sig
-noHook __amd64 void CrewLaser::__DO_NOT_HOOK(); // 0073e35f
+noHook void CrewLaser::__DO_NOT_HOOK(); // 0073e35f
 ".55":  // non-unique sig
  __thiscall void CrewLaser::destructor(CrewLaser *this); // 0073e360
 "!.90":  // non-unique sig
-noHook __amd64 void CrewLaser::__DO_NOT_HOOK(); // 0073e57f
+noHook void CrewLaser::__DO_NOT_HOOK(); // 0073e57f
 ".55":  // non-unique sig
  __thiscall void CrewLaser::destructor(CrewLaser *this); // 0073e580

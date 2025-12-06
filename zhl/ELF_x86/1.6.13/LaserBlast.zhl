@@ -15,7 +15,7 @@ cleanup __cdecl void LaserBlast::OnInit(LaserBlast *this); // 08093c30
 ".b801000000c366906690669066906690b806":  // unique sig
 cleanup __cdecl int LaserBlast::GetType(LaserBlast *this); // 08093d10
 "!.6690":  // non-unique sig
-noHook __amd64 void LaserBlast::__DO_NOT_HOOK(); // 080942cf
+noHook void LaserBlast::__DO_NOT_HOOK(); // 080942cf
 ".55":  // non-unique sig
 cleanup __cdecl void LaserBlast::destructor(LaserBlast *this); // 080942d0
 // Failed to generate signature for function: LaserBlast::~LaserBlast at 080957e0

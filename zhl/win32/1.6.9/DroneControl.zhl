@@ -9,7 +9,7 @@
 ".8d510883ec2089c8c7410864":  // unique sig
  __thiscall TextString *DroneControl::HolderLabel(DroneControl *this); // 00537bf0
 "!.8db6000000008dbf00000000":  // non-unique sig
-noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 00537c2f
+noHook void DroneControl::__DO_NOT_HOOK(); // 00537c2f
 ".57":  // non-unique sig
  __thiscall SDLKey DroneControl::ArmamentHotkey(DroneControl *this, uint i); // 00537c30
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec308b490c8b3fc7042404":  // unique sig
@@ -30,6 +30,6 @@ noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 00537c2f
  __thiscall bool DroneControl::OnTouch(DroneControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 005392f0
 // Failed to generate signature for function: DroneControl::~DroneControl at 00726920
 "!.d074??890424e8????????89d9e8????????891c24e8????????8b5dfcc9c390909090909090909090909090":  // unique sig
-noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 00726acf
+noHook void DroneControl::__DO_NOT_HOOK(); // 00726acf
 ".55":  // non-unique sig
  __thiscall void DroneControl::destructor(DroneControl *this); // 00726ad0

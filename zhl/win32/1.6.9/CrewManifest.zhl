@@ -7,15 +7,15 @@
 ".5589e55756538bb9d8":  // unique sig
  __thiscall void CrewManifest::ClearCrew(CrewManifest *this); // 004dac50
 "!.8d76008dbc2700000000":  // non-unique sig
-noHook __amd64 void CrewManifest::__DO_NOT_HOOK(); // 004dacaf
+noHook void CrewManifest::__DO_NOT_HOOK(); // 004dacaf
 ".57":  // non-unique sig
  __thiscall void CrewManifest::OnKeyDown(CrewManifest *this, SDLKey sym); // 004dacb0
 "!.6690":  // non-unique sig
-noHook __amd64 void CrewManifest::__DO_NOT_HOOK(); // 004dad2f
+noHook void CrewManifest::__DO_NOT_HOOK(); // 004dad2f
 ".57":  // non-unique sig
  __thiscall void CrewManifest::OnKeyUp(CrewManifest *this, SDLKey sym); // 004dad30
 "!.6690":  // non-unique sig
-noHook __amd64 void CrewManifest::__DO_NOT_HOOK(); // 004dadaf
+noHook void CrewManifest::__DO_NOT_HOOK(); // 004dadaf
 ".57":  // non-unique sig
  __thiscall void CrewManifest::OnTextInput(CrewManifest *this, int ch); // 004dadb0
 ".578d7c240883e4f0ff77fc5589e557565383ec1c8b91d40000008b81d80000008b3729d0c1f80285c074??89cf31dbeb??8b97d40000008b87d800000083c30129d0c1f80239c373??8b0c9ae8????????84c075??8b87d40000008b0c98893424e8????????83ec04eb??908d7426008d65f45b5e5f5d8d67f85fc204006690578d7c240883e4f0ff77fc5589e55756538d":  // unique sig

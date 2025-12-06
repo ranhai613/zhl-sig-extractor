@@ -2,7 +2,7 @@
 cleanup __cdecl bool CrewAnimation::CustomDeath(CrewAnimation *this); // 08082620
 // Failed to generate signature for function: CrewAnimation::~CrewAnimation at 08084640
 "!.eb??8b50fc8d5aff8958fc89d0e9????????66906690669066906690":  // unique sig
-noHook __amd64 void CrewAnimation::__DO_NOT_HOOK(); // 080868bf
+noHook void CrewAnimation::__DO_NOT_HOOK(); // 080868bf
 ".55":  // non-unique sig
 cleanup __cdecl void CrewAnimation::destructor(CrewAnimation *this); // 080868c0
 ".8b5424048b423483":  // unique sig

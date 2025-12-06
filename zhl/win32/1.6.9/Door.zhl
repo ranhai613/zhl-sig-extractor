@@ -3,11 +3,11 @@
 ".80b9e80100000074??31":  // unique sig
  __thiscall bool Door::ApplyDamage(Door *this, float amount); // 00463f30
 "!.431801eb??":  // unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 00463fdf
+noHook void Door::__DO_NOT_HOOK(); // 00463fdf
 ".55":  // non-unique sig
  __thiscall void Door::destructor(Door *this); // 00463fe0
 "!.76008dbc270000000083e908e9????????908db42600000000":  // unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 004641df
+noHook void Door::__DO_NOT_HOOK(); // 004641df
 ".55":  // non-unique sig
  __thiscall void Door::destructor(Door *this); // 004641e0
 ".578d7c240883e4f0ff77fc5589fa89e557565389cf81":  // unique sig
@@ -55,11 +55,11 @@ noHook __amd64 void Door::__DO_NOT_HOOK(); // 004641df
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec1c0fb6411884":  // unique sig
  __thiscall void Door::StartAnimIfNecessary(Door *this); // 004662f0
 "!.26008b83b400000085c074??8d733489f1e8????????84c074??89f1c7042400000000e8????????8d8b0001000083ec04c7042400000000e8????????83ec048d65f45b5e5f5d8d67f85fc38db60000000089f1c7042400000000e8????????8d8b0001000083ec04c7042400000000e8????????0fb6431883ec04e9????????90807b65000f85????????eb??8d742600":  // unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 004663df
+noHook void Door::__DO_NOT_HOOK(); // 004663df
 ".57":  // non-unique sig
  __thiscall void Door::PauseLoop(Door *this); // 004663e0
 "!.669089f9c7042446000000e8????????83ec0489f1c7042446000000e8????????83ec04e9????????89f68dbc270000000089f9c7042469000000e8????????83ec0489f1c7042469000000e8????????83ec04e9????????89f68dbc270000000089f9c704248c000000e8????????83ec0489f1c704248c000000e8????????83ec04e9????????89f68dbc27000000008b4de4c7042400000000e8????????83ec04e9????????90908db42600000000":  // non-unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 0046659f
+noHook void Door::__DO_NOT_HOOK(); // 0046659f
 ".57":  // non-unique sig
  __thiscall void Door::UpdateAnimations(Door *this); // 004665a0
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec2c8b813c":  // unique sig

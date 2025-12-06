@@ -7,7 +7,7 @@ cleanup __cdecl void Missile::constructor(Missile *this, Missile *missile); // 0
 ".b803000000c36690669066906690669055":  // unique sig
 cleanup __cdecl int Missile::GetType(Missile *this); // 0808c510
 "!.6690":  // non-unique sig
-noHook __amd64 void Missile::__DO_NOT_HOOK(); // 0808c51f
+noHook void Missile::__DO_NOT_HOOK(); // 0808c51f
 ".55":  // non-unique sig
 cleanup __cdecl void Missile::destructor(Missile *this); // 0808c520
 // Failed to generate signature for function: Missile::~Missile at 0808ca70

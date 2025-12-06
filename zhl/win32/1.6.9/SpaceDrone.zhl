@@ -23,11 +23,11 @@ static cleanup __cdecl CollisionResponse *SpaceDrone::CollisionMoving(CollisionR
 ".5589e5538b0189cb83e4f08b401c":  // unique sig
  __thiscall bool SpaceDrone::ValidTarget(SpaceDrone *this); // 0041ffc0
 "!.d9ffd083ec04eb??90":  // unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 0042014f
+noHook void SpaceDrone::__DO_NOT_HOOK(); // 0042014f
 ".55":  // non-unique sig
  __thiscall void SpaceDrone::destructor(SpaceDrone *this); // 00420150
 "!.8db42600000000":  // non-unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 00420bcf
+noHook void SpaceDrone::__DO_NOT_HOOK(); // 00420bcf
 ".55":  // non-unique sig
  __thiscall void SpaceDrone::destructor(SpaceDrone *this); // 00420bd0
 ".578d7c240883e4f0ff77fc5589e5575383ec3080b9a0":  // unique sig

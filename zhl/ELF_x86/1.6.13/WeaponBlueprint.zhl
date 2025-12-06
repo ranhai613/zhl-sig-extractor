@@ -9,10 +9,10 @@ cleanup __cdecl int WeaponBlueprint::GetType(WeaponBlueprint *this); // 08246980
 ".565383ec248b5c24308d74241f8d4304c703????????89742408890424c7442404????????e8????????8d430889742408890424c7442404????????e8????????8d4310c6430c0189742408890424c7442404????????e8????????8d4318c643140189742408890424c7442404????????e8????????8d4334c6431c01c7432000000000c7432400000000c7432c00000000c643300089742408890424c7442404????????e8????????8d433cc643380189742408890424c7442404????????e8????????0f":  // unique sig
 cleanup __cdecl void WeaponBlueprint::constructor(WeaponBlueprint *this); // 082473a0
 "!.6690565383ec148b5c24208b742424891c2489742404e8????????0fb646048843048d4608894424048d4308890424e8????????0fb6460c88430c8d4610894424048d4310890424e8????????0fb646148843148b46188943188b461c89431c8b46208943208b46248943240fb646288843288d462c83c634894424048d432c890424e8????????0fb646fc8843308d433489742404890424e8????????83c41489d85b5ec3669066906690669066906690":  // unique sig
-noHook __amd64 void WeaponBlueprint::__DO_NOT_HOOK(); // 0824797f
+noHook void WeaponBlueprint::__DO_NOT_HOOK(); // 0824797f
 ".55":  // non-unique sig
 cleanup __cdecl void WeaponBlueprint::destructor(WeaponBlueprint *this); // 08247980
 "!.6690":  // non-unique sig
-noHook __amd64 void WeaponBlueprint::__DO_NOT_HOOK(); // 08247b0f
+noHook void WeaponBlueprint::__DO_NOT_HOOK(); // 08247b0f
 ".55":  // non-unique sig
 cleanup __cdecl void WeaponBlueprint::destructor(WeaponBlueprint *this); // 08247b10

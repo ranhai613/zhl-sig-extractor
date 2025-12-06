@@ -10,7 +10,7 @@ cleanup __cdecl void DroneControl::SwapArmaments(DroneControl *this, uint a, uin
 ".5383ec288b5c2430c7442404????????8b430c890424e8????????84c00f85????????c7442408010000008b5424348b43108b04908b8058010000894424048b430c890424e8????????84c075??83c4285bc3908d7426008d44241a89442408c7442404????????8d5c241c891c24e8????????c74424????????00c7442408000080bf895c2404c70424????????e8????????8b44241c8d50f481fa????????74??bb????????85db8d48fc74??83c8fff00fc10185c07f??8d44241b89442404891424e8????????eb??8d7426008d44241a89442408c7442404????????eb??8b48fc8d59ff8958fc89c8eb??9055":  // unique sig
 cleanup __cdecl void DroneControl::DeselectArmament(DroneControl *this, uint i); // 08160330
 "!.90":  // non-unique sig
-noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 0816041f
+noHook void DroneControl::__DO_NOT_HOOK(); // 0816041f
 ".55":  // non-unique sig
 cleanup __cdecl SDLKey DroneControl::ArmamentHotkey(DroneControl *this, uint i); // 08160420
 ".5589e557565383ec4c8b5d088b53":  // unique sig
@@ -26,10 +26,10 @@ cleanup __cdecl void DroneControl::OnRender(DroneControl *this, bool front); // 
 ".5557565383ec2c8b4424448b5c24408b7424508b7c2454894424148b4424488b6c2458894424188b44244c8944241c8b430c85c074??c7442404????????890424e8????????84c075??83c42c31c05b5e5f5dc38d7426008b44241c896c2458897c2454897424508944244c8b442418895c2440894424488b4424148944244483c42c5b5e5f5de9????????66":  // unique sig
 cleanup __cdecl bool DroneControl::OnTouch(DroneControl *this, TouchAction action, int id, int x, int y, int initialX, int initialY); // 08161730
 "!.4483c42c5b5e5f5de9????????66906690":  // unique sig
-noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 081617bf
+noHook void DroneControl::__DO_NOT_HOOK(); // 081617bf
 ".56":  // non-unique sig
 cleanup __cdecl void DroneControl::destructor(DroneControl *this); // 081617c0
 "!.c8e9????????66906690669090":  // unique sig
-noHook __amd64 void DroneControl::__DO_NOT_HOOK(); // 08161c9f
+noHook void DroneControl::__DO_NOT_HOOK(); // 08161c9f
 ".56":  // non-unique sig
 cleanup __cdecl void DroneControl::destructor(DroneControl *this); // 08161ca0

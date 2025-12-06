@@ -15,10 +15,10 @@
 ".b8ffffffffc3909090909090909090905589c8":  // unique sig
  __thiscall int IonDroneAnimation::GetFiringFrame(IonDroneAnimation *this); // 0072ffe0
 "!.90":  // non-unique sig
-noHook __amd64 void IonDroneAnimation::__DO_NOT_HOOK(); // 0072ffef
+noHook void IonDroneAnimation::__DO_NOT_HOOK(); // 0072ffef
 ".55":  // non-unique sig
  __thiscall void IonDroneAnimation::destructor(IonDroneAnimation *this); // 0072fff0
 "!.90":  // non-unique sig
-noHook __amd64 void IonDroneAnimation::__DO_NOT_HOOK(); // 007305df
+noHook void IonDroneAnimation::__DO_NOT_HOOK(); // 007305df
 ".55":  // non-unique sig
  __thiscall void IonDroneAnimation::destructor(IonDroneAnimation *this); // 007305e0

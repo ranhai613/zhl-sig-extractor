@@ -11,7 +11,7 @@
 ".8d510883ec2089c8c7410877":  // unique sig
  __thiscall TextString *WeaponControl::HolderLabel(WeaponControl *this); // 00550610
 "!.908db42600000000":  // non-unique sig
-noHook __amd64 void WeaponControl::__DO_NOT_HOOK(); // 0055064f
+noHook void WeaponControl::__DO_NOT_HOOK(); // 0055064f
 ".57":  // non-unique sig
  __thiscall SDLKey WeaponControl::ArmamentHotkey(WeaponControl *this, uint i); // 00550650
 ".578d7c240883e4f0ff77fc5589e557565389cf8d75":  // unique sig
@@ -41,11 +41,11 @@ static cleanup __cdecl void WeaponControl::RenderBeamAiming(Pointf one, Pointf t
 ".578d7c240883e4f0ff77fc5589f889e557565383ec3c8b91":  // unique sig
  __thiscall void WeaponControl::Fire(WeaponControl *this, std::vector<Pointf> *targets, int targetId, bool inverseAuto); // 00553950
 "!.01e9????????e8????????8db426000000008dbc2700000000":  // unique sig
-noHook __amd64 void WeaponControl::__DO_NOT_HOOK(); // 00553abf
+noHook void WeaponControl::__DO_NOT_HOOK(); // 00553abf
 ".55":  // non-unique sig
  __thiscall void WeaponControl::destructor(WeaponControl *this); // 00553ac0
 "!.8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void WeaponControl::__DO_NOT_HOOK(); // 00553c2f
+noHook void WeaponControl::__DO_NOT_HOOK(); // 00553c2f
 ".55":  // non-unique sig
  __thiscall void WeaponControl::destructor(WeaponControl *this); // 00553c30
 ".578d7c240883e4f0ff77fc5589e557565389cf81ec9c01":  // unique sig

@@ -11,11 +11,11 @@ cleanup __cdecl void BombProjectile::OnRenderSpecific(BombProjectile *this, int 
 ".565383ec148b7424208b5c2424893424895c2404e8????????89":  // unique sig
 cleanup __cdecl void BombProjectile::LoadProjectile(BombProjectile *this, int fd); // 0807a600
 "!.20c74424????????0083c4145b5ee9????????":  // unique sig
-noHook __amd64 void BombProjectile::__DO_NOT_HOOK(); // 0807a69f
+noHook void BombProjectile::__DO_NOT_HOOK(); // 0807a69f
 ".55":  // non-unique sig
 cleanup __cdecl void BombProjectile::destructor(BombProjectile *this); // 0807a6a0
 "!.90836c240404e9????????8db600000000":  // unique sig
-noHook __amd64 void BombProjectile::__DO_NOT_HOOK(); // 0807abdf
+noHook void BombProjectile::__DO_NOT_HOOK(); // 0807abdf
 ".55":  // non-unique sig
 cleanup __cdecl void BombProjectile::destructor(BombProjectile *this); // 0807abe0
 ".5589e557565381ecdc0000008b451c8b55208d":  // unique sig

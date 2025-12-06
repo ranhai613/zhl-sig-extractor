@@ -57,7 +57,7 @@ cleanup __cdecl void Equipment::AddToCargo(Equipment *this, string *equip); // 0
 ".5557565381ec8c0000008bac24????????8bb5":  // unique sig
 cleanup __cdecl void Equipment::OnInit(Equipment *this, ShipManager *ship); // 0816ec80
 "!.d0eb??669066906690669066906690669090":  // unique sig
-noHook __amd64 void Equipment::__DO_NOT_HOOK(); // 0816fb2f
+noHook void Equipment::__DO_NOT_HOOK(); // 0816fb2f
 ".56":  // non-unique sig
 cleanup __cdecl void Equipment::destructor(Equipment *this); // 0816fb30
 // Failed to generate signature for function: Equipment::~Equipment at 081700f0

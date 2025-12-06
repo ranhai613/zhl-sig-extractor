@@ -7,10 +7,10 @@
 ".b802000000c39090909090909090909055":  // unique sig
  __thiscall int Asteroid::GetType(Asteroid *this); // 00734170
 "!.90":  // non-unique sig
-noHook __amd64 void Asteroid::__DO_NOT_HOOK(); // 0073417f
+noHook void Asteroid::__DO_NOT_HOOK(); // 0073417f
 ".55":  // non-unique sig
  __thiscall void Asteroid::destructor(Asteroid *this); // 00734180
 "!.90":  // non-unique sig
-noHook __amd64 void Asteroid::__DO_NOT_HOOK(); // 0073439f
+noHook void Asteroid::__DO_NOT_HOOK(); // 0073439f
 ".55":  // non-unique sig
  __thiscall void Asteroid::destructor(Asteroid *this); // 007343a0

@@ -1,9 +1,9 @@
 "!.e8????????e9????????669090":  // unique sig
-noHook __amd64 void CrewBlueprint::__DO_NOT_HOOK(); // 080a7daf
+noHook void CrewBlueprint::__DO_NOT_HOOK(); // 080a7daf
 "55":  // non-unique sig
 cleanup __cdecl void CrewBlueprint::destructor(CrewBlueprint *this); // 080a7db0
 "!.c8e9????????8b48fc8d59ff8958fc89c8e9????????669066906690669066906690":  // unique sig
-noHook __amd64 void CrewBlueprint::__DO_NOT_HOOK(); // 080a818f
+noHook void CrewBlueprint::__DO_NOT_HOOK(); // 080a818f
 ".55":  // non-unique sig
 cleanup __cdecl void CrewBlueprint::destructor(CrewBlueprint *this); // 080a8190
 ".55575631f65331db83ec2c":  // unique sig
@@ -13,7 +13,7 @@ static cleanup __cdecl string CrewBlueprint::skillToString(int skill); // 082397
 ".5557565331db83ec0c":  // unique sig
 cleanup __cdecl void CrewBlueprint::ChooseColors(CrewBlueprint *this); // 08239e20
 "!.e8????????eb??90908db42600000000":  // non-unique sig
-noHook __amd64 void CrewBlueprint::__DO_NOT_HOOK(); // 08239eaf
+noHook void CrewBlueprint::__DO_NOT_HOOK(); // 08239eaf
 ".56":  // non-unique sig
 cleanup __cdecl void CrewBlueprint::constructor(CrewBlueprint *this); // 08239eb0
 ".8b5424088b4c240c8b4424048b52":  // unique sig

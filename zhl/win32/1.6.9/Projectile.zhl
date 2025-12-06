@@ -69,10 +69,10 @@ static cleanup __cdecl Pointf Projectile::RandomSidePoint(); // 00454430
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec1c8b370f":  // unique sig
  __thiscall void Projectile::constructor(Projectile *this, Projectile *param_2); // 00721730
 "!.90":  // non-unique sig
-noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 007219ff
+noHook void Projectile::__DO_NOT_HOOK(); // 007219ff
 ".55":  // non-unique sig
  __thiscall void Projectile::destructor(Projectile *this); // 00721a00
 "!.90":  // non-unique sig
-noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 00721c1f
+noHook void Projectile::__DO_NOT_HOOK(); // 00721c1f
 ".55":  // non-unique sig
  __thiscall void Projectile::destructor(Projectile *this); // 00721c20

@@ -67,7 +67,7 @@ cleanup __cdecl void Projectile::OnRenderSpecific(Projectile *this, int spaceId)
 ".31c0c366906690669066906690669090b802000000c366906690669066906690b8":  // unique sig
 cleanup __cdecl int Projectile::GetType(Projectile *this); // 08093cf0
 "!.c3669066906690669066905383ec188b5c2420f30f1005????????c703000000008d4304f30f11442408f30f11442404890424e8????????89d8c7430c00000000c743100000000083c4185bc20400669066906690669066906690":  // unique sig
-noHook __amd64 void Projectile::__DO_NOT_HOOK(); // 08093d7f
+noHook void Projectile::__DO_NOT_HOOK(); // 08093d7f
 ".55":  // non-unique sig
 cleanup __cdecl void Projectile::destructor(Projectile *this); // 08093d80
 // Failed to generate signature for function: Projectile::~Projectile at 08094820

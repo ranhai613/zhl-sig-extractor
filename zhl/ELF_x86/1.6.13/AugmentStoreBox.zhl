@@ -12,6 +12,6 @@ cleanup __cdecl void AugmentStoreBox::Purchase(AugmentStoreBox *this); // 081c17
 cleanup __cdecl void AugmentStoreBox::MouseMove(AugmentStoreBox *this, int mX, int mY); // 081c3bf0
 // Failed to generate signature for function: AugmentStoreBox::~AugmentStoreBox at 081c5100
 "!.??":  // non-unique sig
-noHook __amd64 void AugmentStoreBox::__DO_NOT_HOOK(); // 081c5f3f
+noHook void AugmentStoreBox::__DO_NOT_HOOK(); // 081c5f3f
 ".56":  // non-unique sig
 cleanup __cdecl void AugmentStoreBox::destructor(AugmentStoreBox *this); // 081c5f40

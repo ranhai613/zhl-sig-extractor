@@ -13,10 +13,10 @@ cleanup __cdecl void ExplosionAnimation::Update(ExplosionAnimation *this); // 08
 ".5557565381ec6c01":  // unique sig
 cleanup __cdecl void ExplosionAnimation::OnInit(ExplosionAnimation *this, xml_node<char> *explosion_node, string *img, Point glowOffset); // 080f7da0
 "!.e8????????e8????????6690669090":  // unique sig
-noHook __amd64 void ExplosionAnimation::__DO_NOT_HOOK(); // 080fbdaf
+noHook void ExplosionAnimation::__DO_NOT_HOOK(); // 080fbdaf
 ".55":  // non-unique sig
 cleanup __cdecl void ExplosionAnimation::destructor(ExplosionAnimation *this); // 080fbdb0
 "!.90836c24041ce9????????669066906690":  // unique sig
-noHook __amd64 void ExplosionAnimation::__DO_NOT_HOOK(); // 080fbf3f
+noHook void ExplosionAnimation::__DO_NOT_HOOK(); // 080fbf3f
 ".55":  // non-unique sig
 cleanup __cdecl void ExplosionAnimation::destructor(ExplosionAnimation *this); // 080fbf40

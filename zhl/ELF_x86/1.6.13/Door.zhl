@@ -51,11 +51,11 @@ cleanup __cdecl void Door::Manipulate(Door *this); // 080e49c0
 ".565383ec148b5c24200fb6431884":  // unique sig
 cleanup __cdecl void Door::StartAnimIfNecessary(Door *this); // 080e4aa0
 "!.6690c74424????????00893424e8????????8d83c4000000890424c74424????????00e8????????0fb64318eb??8d7426008d7334893424e8????????84c074??c74424????????0081c3c4000000893424e8????????c74424????????00891c24e8????????eb??90807b650075??6690eb??8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 080e4b7f
+noHook void Door::__DO_NOT_HOOK(); // 080e4b7f
 ".55":  // non-unique sig
 cleanup __cdecl void Door::PauseLoop(Door *this); // 080e4b80
 "!.6690":  // non-unique sig
-noHook __amd64 void Door::__DO_NOT_HOOK(); // 080e4d0f
+noHook void Door::__DO_NOT_HOOK(); // 080e4d0f
 ".55":  // non-unique sig
 cleanup __cdecl void Door::UpdateAnimations(Door *this); // 080e4d10
 "!.565383ec148b5c24208b83c4":  // unique sig

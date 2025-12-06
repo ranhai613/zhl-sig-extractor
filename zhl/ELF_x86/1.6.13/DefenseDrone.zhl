@@ -23,10 +23,10 @@ cleanup __cdecl void DefenseDrone::OnLoop(DefenseDrone *this); // 080af570
 ".5589e557565381ec8c0000008b45108b":  // unique sig
 cleanup __cdecl void DefenseDrone::constructor(DefenseDrone *this, int iShipId, int selfId, DroneBlueprint *blueprint); // 080b0c40
 "!.bf00000000836c240438e9????????8db600000000836c240444e9????????669066906690":  // unique sig
-noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 080b31ff
+noHook void DefenseDrone::__DO_NOT_HOOK(); // 080b31ff
 ".55":  // non-unique sig
 cleanup __cdecl void DefenseDrone::destructor(DefenseDrone *this); // 080b3200
 "!.eb??66906690836c240438e9????????8db600000000836c240444e9????????669066906690":  // unique sig
-noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 080b35df
+noHook void DefenseDrone::__DO_NOT_HOOK(); // 080b35df
 ".55":  // non-unique sig
 cleanup __cdecl void DefenseDrone::destructor(DefenseDrone *this); // 080b35e0

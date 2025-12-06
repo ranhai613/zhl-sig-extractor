@@ -17,10 +17,10 @@ cleanup __cdecl int PDSFire::GetType(PDSFire *this); // 08093d20
 ".5383ec188b5c2420f30f1005????????c703000000008d4304f30f11442408f30f11442404890424e8????????89d8c7430c00000000c743100000000083c4185bc2040066906690669066906690669055":  // unique sig
 cleanup __cdecl CollisionResponse *PDSFire::CollisionMoving(PDSFire *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 08093d30
 "!.6690":  // non-unique sig
-noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 0809673f
+noHook void PDSFire::__DO_NOT_HOOK(); // 0809673f
 ".55":  // non-unique sig
 cleanup __cdecl void PDSFire::destructor(PDSFire *this); // 08096740
 "!.906690836c240404e9????????669066906690":  // unique sig
-noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 08096e8f
+noHook void PDSFire::__DO_NOT_HOOK(); // 08096e8f
 ".55":  // non-unique sig
 cleanup __cdecl void PDSFire::destructor(PDSFire *this); // 08096e90

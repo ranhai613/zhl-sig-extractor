@@ -1,11 +1,11 @@
 "5383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc20400908db6000000005383ec288b5c24308d44241f89442408c7442404????????891c24e8????????83c42889d85bc20400908db60000000053":  // unique sig
 cleanup __cdecl string MantisAnimation::GetDeathSound(MantisAnimation *this); // 080c9890
 "!.9f0900000183c418b8010000005bc38d74260083c41831c05bc390908db42600000000":  // unique sig
-noHook __amd64 void MantisAnimation::__DO_NOT_HOOK(); // 080ca5af
+noHook void MantisAnimation::__DO_NOT_HOOK(); // 080ca5af
 ".53":  // non-unique sig
 cleanup __cdecl bool MantisAnimation::FireShot(MantisAnimation *this); // 080ca5b0
 "!.050000895c24208944242483c4145b5ee9????????6690":  // unique sig
-noHook __amd64 void MantisAnimation::__DO_NOT_HOOK(); // 080cafaf
+noHook void MantisAnimation::__DO_NOT_HOOK(); // 080cafaf
 ".55":  // non-unique sig
 cleanup __cdecl string MantisAnimation::GetShootingSound(MantisAnimation *this); // 080cafb0
 ".b8ffffffffc366906690669066906690b801000000c36690669066906690669031":  // unique sig

@@ -9,11 +9,11 @@
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec6c8079":  // unique sig
  __thiscall void HackingDrone::RenderDrone(HackingDrone *this); // 0044bc60
 "!.d084c00f85????????8d65f45b5e5f5d8d67f85fc3908db42600000000":  // unique sig
-noHook __amd64 void HackingDrone::__DO_NOT_HOOK(); // 0044c24f
+noHook void HackingDrone::__DO_NOT_HOOK(); // 0044c24f
 ".55":  // non-unique sig
  __thiscall void HackingDrone::destructor(HackingDrone *this); // 0044c250
 "!.83e944e9????????908db4260000000083e938e9????????908db42600000000":  // non-unique sig
-noHook __amd64 void HackingDrone::__DO_NOT_HOOK(); // 0044c51f
+noHook void HackingDrone::__DO_NOT_HOOK(); // 0044c51f
 ".55":  // non-unique sig
  __thiscall void HackingDrone::destructor(HackingDrone *this); // 0044c520
 ".578d7c240883e4f0ff77fc5589e5575389cb83ec308b078078":  // unique sig

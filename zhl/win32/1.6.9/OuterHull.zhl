@@ -7,10 +7,10 @@
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b018b4028":  // unique sig
  __thiscall void OuterHull::OnLoop(OuterHull *this); // 00618c40
 "!.4439d874??890424e8????????8b5dfcc9c3909090909090909090":  // unique sig
-noHook __amd64 void OuterHull::__DO_NOT_HOOK(); // 0073eb7f
+noHook void OuterHull::__DO_NOT_HOOK(); // 0073eb7f
 ".55":  // non-unique sig
  __thiscall void OuterHull::destructor(OuterHull *this); // 0073eb80
 "!.90":  // non-unique sig
-noHook __amd64 void OuterHull::__DO_NOT_HOOK(); // 0073ed6f
+noHook void OuterHull::__DO_NOT_HOOK(); // 0073ed6f
 ".55":  // non-unique sig
  __thiscall void OuterHull::destructor(OuterHull *this); // 0073ed70

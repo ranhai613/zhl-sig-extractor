@@ -55,11 +55,11 @@ cleanup __cdecl void SpaceDrone::LoadState(SpaceDrone *this, int fd); // 080abdb
 ".5383ec288b4424308b5c243480":  // unique sig
 cleanup __cdecl void SpaceDrone::BlowUp(SpaceDrone *this, bool silent); // 080acc60
 "!.000085f674??8b06893424ff501c89434c8b06893424ff501c89b3140100008943488b03891c24ff50788b43608b53648943508b03895354895c24208b407883c4145b5effe08d742600c7831401000000000000eb??8db6000000008dbf00000000":  // unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 080acecf
+noHook void SpaceDrone::__DO_NOT_HOOK(); // 080acecf
 ".55":  // non-unique sig
 cleanup __cdecl void SpaceDrone::destructor(SpaceDrone *this); // 080aced0
 "!.e8????????eb??8db42600000000836c240438e9????????8db600000000836c240444e9????????8db600000000":  // unique sig
-noHook __amd64 void SpaceDrone::__DO_NOT_HOOK(); // 080ad07f
+noHook void SpaceDrone::__DO_NOT_HOOK(); // 080ad07f
 ".55":  // non-unique sig
 cleanup __cdecl void SpaceDrone::destructor(SpaceDrone *this); // 080ad080
 ".5589e557565381ecdc0000008b7d088b75":  // unique sig

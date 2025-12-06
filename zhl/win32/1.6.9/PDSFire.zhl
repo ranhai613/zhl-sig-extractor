@@ -17,10 +17,10 @@ static cleanup __cdecl CollisionResponse *PDSFire::CollisionMoving(CollisionResp
 ".b806000000c390":  // unique sig
  __thiscall int PDSFire::GetType(PDSFire *this); // 00733b70
 "!.90":  // non-unique sig
-noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 00733b7f
+noHook void PDSFire::__DO_NOT_HOOK(); // 00733b7f
 ".55":  // non-unique sig
  __thiscall void PDSFire::destructor(PDSFire *this); // 00733b80
 "!.90":  // non-unique sig
-noHook __amd64 void PDSFire::__DO_NOT_HOOK(); // 00733e7f
+noHook void PDSFire::__DO_NOT_HOOK(); // 00733e7f
 ".55":  // non-unique sig
  __thiscall void PDSFire::destructor(PDSFire *this); // 00733e80

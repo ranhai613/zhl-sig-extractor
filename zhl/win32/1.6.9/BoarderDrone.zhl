@@ -3,23 +3,23 @@
 ".b801000000c390909090909090909090b896":  // unique sig
  __thiscall bool BoarderDrone::CanSabotage(BoarderDrone *this); // 007254d0
 "!.90":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 007254df
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 007254df
 ".b8":  // non-unique sig
  __thiscall int BoarderDrone::GetMaxHealth(BoarderDrone *this); // 007254e0
 "!.90":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 007254ef
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 007254ef
 ".55":  // non-unique sig
  __thiscall bool BoarderDrone::ReadyToFight(BoarderDrone *this); // 007254f0
 "!.90":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 007254ff
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 007254ff
 ".d9":  // non-unique sig
  __thiscall float BoarderDrone::GetDamageMultiplier(BoarderDrone *this); // 00725500
 "!.90":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 0072550f
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 0072550f
 ".b8":  // non-unique sig
  __thiscall bool BoarderDrone::CanFight(BoarderDrone *this); // 00725510
 "!.90":  // non-unique sig
-noHook __amd64 void BoarderDrone::__DO_NOT_HOOK(); // 0072551f
+noHook void BoarderDrone::__DO_NOT_HOOK(); // 0072551f
 ".55":  // non-unique sig
  __thiscall void BoarderDrone::destructor(BoarderDrone *this); // 00725520
 ".55":  // non-unique sig

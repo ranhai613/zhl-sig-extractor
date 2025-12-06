@@ -47,11 +47,11 @@
 ".5789c88d7c240883e4f0ff77fc5589e557565383ec4c8b58":  // unique sig
  __thiscall void AchievementTracker::SetFlag(AchievementTracker *this, string *flag); // 00433ad0
 "!.c2eb??8db6000000008dbf00000000":  // unique sig
-noHook __amd64 void AchievementTracker::__DO_NOT_HOOK(); // 00433d9f
+noHook void AchievementTracker::__DO_NOT_HOOK(); // 00433d9f
 ".57":  // non-unique sig
  __thiscall int AchievementTracker::GetFlagValue(AchievementTracker *this, string *flag); // 00433da0
 "!.c2e9????????908d76008dbc2700000000":  // unique sig
-noHook __amd64 void AchievementTracker::__DO_NOT_HOOK(); // 00433f7f
+noHook void AchievementTracker::__DO_NOT_HOOK(); // 00433f7f
 ".57":  // non-unique sig
  __thiscall bool AchievementTracker::GetFlag(AchievementTracker *this, string *flag); // 00433f80
 ".578d7c240883e4f0ff77fc5589e55756538d45d08d7d":  // unique sig

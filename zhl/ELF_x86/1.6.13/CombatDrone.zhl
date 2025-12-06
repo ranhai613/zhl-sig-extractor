@@ -23,10 +23,10 @@ cleanup __cdecl void CombatDrone::PickDestination(CombatDrone *this); // 080aeba
 ".5589e557565383ec5c8b7d0889":  // unique sig
 cleanup __cdecl void CombatDrone::OnLoop(CombatDrone *this); // 080afb50
 "!.1f89442404890c24e8????????eb??90":  // unique sig
-noHook __amd64 void CombatDrone::__DO_NOT_HOOK(); // 080b2aaf
+noHook void CombatDrone::__DO_NOT_HOOK(); // 080b2aaf
 ".55":  // non-unique sig
 cleanup __cdecl void CombatDrone::destructor(CombatDrone *this); // 080b2ab0
 "!.e9????????66906690836c240438e9????????8db600000000836c240444e9????????669066906690":  // unique sig
-noHook __amd64 void CombatDrone::__DO_NOT_HOOK(); // 080b2e4f
+noHook void CombatDrone::__DO_NOT_HOOK(); // 080b2e4f
 ".55":  // non-unique sig
 cleanup __cdecl void CombatDrone::destructor(CombatDrone *this); // 080b2e50

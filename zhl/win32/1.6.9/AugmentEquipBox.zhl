@@ -21,10 +21,10 @@
 ".b803000000c204009090":  // unique sig
  __thiscall int AugmentEquipBox::GetType(AugmentEquipBox *this, bool forcedEmpty); // 0072cb80
 "!.90":  // non-unique sig
-noHook __amd64 void AugmentEquipBox::__DO_NOT_HOOK(); // 0072cb8f
+noHook void AugmentEquipBox::__DO_NOT_HOOK(); // 0072cb8f
 ".55":  // non-unique sig
  __thiscall void AugmentEquipBox::destructor(AugmentEquipBox *this); // 0072cb90
 "!.90":  // non-unique sig
-noHook __amd64 void AugmentEquipBox::__DO_NOT_HOOK(); // 0072cbff
+noHook void AugmentEquipBox::__DO_NOT_HOOK(); // 0072cbff
 ".55":  // non-unique sig
  __thiscall void AugmentEquipBox::destructor(AugmentEquipBox *this); // 0072cc00

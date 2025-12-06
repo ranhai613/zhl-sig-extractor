@@ -23,10 +23,10 @@
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec4ce8????????66":  // unique sig
  __thiscall void DefenseDrone::OnLoop(DefenseDrone *this); // 00426a50
 "!.e8c3909090909090909090909090905589e55389cb83e4f083ec10c701????????e8????????891c24e8????????8b5dfcc9c390909090909090909090909055c701????????89e583e4f0e8????????c9c390909090909090909090909090":  // unique sig
-noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 007261cf
+noHook void DefenseDrone::__DO_NOT_HOOK(); // 007261cf
 ".55":  // non-unique sig
  __thiscall void DefenseDrone::destructor(DefenseDrone *this); // 007261d0
 "!.90":  // non-unique sig
-noHook __amd64 void DefenseDrone::__DO_NOT_HOOK(); // 0072657f
+noHook void DefenseDrone::__DO_NOT_HOOK(); // 0072657f
 ".55":  // non-unique sig
  __thiscall void DefenseDrone::destructor(DefenseDrone *this); // 00726580

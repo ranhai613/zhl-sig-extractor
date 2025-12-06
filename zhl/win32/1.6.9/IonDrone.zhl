@@ -17,7 +17,7 @@
 ".31c0c390909090909090909090909090558d91":  // unique sig
  __thiscall bool IonDrone::CanFight(IonDrone *this); // 00734a00
 "!.90":  // non-unique sig
-noHook __amd64 void IonDrone::__DO_NOT_HOOK(); // 00734a0f
+noHook void IonDrone::__DO_NOT_HOOK(); // 00734a0f
 ".55":  // non-unique sig
  __thiscall void IonDrone::destructor(IonDrone *this); // 00734a10
 ".55":  // non-unique sig

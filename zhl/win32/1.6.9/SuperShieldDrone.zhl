@@ -23,10 +23,10 @@
 ".8b4424048981cc":  // unique sig
  __thiscall void SuperShieldDrone::SetShieldSystem(SuperShieldDrone *this, Shields *shieldSystem); // 004288a0
 "!.eb??905589e55389cb83e4f083ec10c701????????e8????????891c24e8????????8b5dfcc9c390909090909090909090909055c701????????89e583e4f0e8????????c9c390909090909090909090909090":  // unique sig
-noHook __amd64 void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f5cf
+noHook void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f5cf
 ".55":  // non-unique sig
  __thiscall void SuperShieldDrone::destructor(SuperShieldDrone *this); // 0072f5d0
 "!.90":  // non-unique sig
-noHook __amd64 void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f9cf
+noHook void SuperShieldDrone::__DO_NOT_HOOK(); // 0072f9cf
 ".55":  // non-unique sig
  __thiscall void SuperShieldDrone::destructor(SuperShieldDrone *this); // 0072f9d0

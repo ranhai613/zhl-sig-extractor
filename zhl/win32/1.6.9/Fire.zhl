@@ -23,10 +23,10 @@
 ".8b018b40283d????????75??f30f1041100f2e05????????0f97c0c38d7426005589e583e4f0ffd0c9c3909090909090558d91":  // unique sig
  __thiscall bool Fire::Present(Fire *this); // 00732c10
 "!.8d7426005589e583e4f0ffd0c9c3909090909090":  // non-unique sig
-noHook __amd64 void Fire::__DO_NOT_HOOK(); // 00732c3f
+noHook void Fire::__DO_NOT_HOOK(); // 00732c3f
 ".55":  // non-unique sig
  __thiscall void Fire::destructor(Fire *this); // 00732c40
 "!.90":  // non-unique sig
-noHook __amd64 void Fire::__DO_NOT_HOOK(); // 00732e4f
+noHook void Fire::__DO_NOT_HOOK(); // 00732e4f
 ".55":  // non-unique sig
  __thiscall void Fire::destructor(Fire *this); // 00732e50

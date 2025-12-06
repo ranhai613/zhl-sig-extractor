@@ -87,10 +87,10 @@ cleanup __cdecl Slot *ShipGraph::GetClosestSlot(ShipGraph *this, Point position,
 ".5589e557565383ec5c8b450c8b7d":  // unique sig
 cleanup __cdecl std::vector<Point> *ShipGraph::RoomSquares(ShipGraph *this, int roomId); // 08101010
 "!.f2e9????????908db42600000000":  // unique sig
-noHook __amd64 void ShipGraph::__DO_NOT_HOOK(); // 081011bf
+noHook void ShipGraph::__DO_NOT_HOOK(); // 081011bf
 ".55":  // non-unique sig
 static cleanup __cdecl std::vector<Point> *ShipGraph::ValidAdjacentSquares(int x, int y); // 081011c0
 "!.??":  // non-unique sig
-noHook __amd64 void ShipGraph::__DO_NOT_HOOK(); // 081013cf
+noHook void ShipGraph::__DO_NOT_HOOK(); // 081013cf
 ".55":  // non-unique sig
 static cleanup __cdecl std::vector<Point> *ShipGraph::ValidAdjacentSquares(Point p); // 081013d0

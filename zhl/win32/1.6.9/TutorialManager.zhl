@@ -15,7 +15,7 @@
 ".f3c38db426000000008dbc2700000000578d7c240883e4f0ff77fc5589e557565383ec5c":  // unique sig
  __thiscall void TutorialManager::OnLanguageChange(TutorialManager *this); // 0040f920
 "!.8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void TutorialManager::__DO_NOT_HOOK(); // 0040f92f
+noHook void TutorialManager::__DO_NOT_HOOK(); // 0040f92f
 ".57":  // non-unique sig
  __thiscall bool TutorialManager::IsStateBefore(TutorialManager *this, string *state); // 0040f930
 ".5789c88d9020":  // unique sig
@@ -27,7 +27,7 @@ noHook __amd64 void TutorialManager::__DO_NOT_HOOK(); // 0040f92f
 ".578d7c240883e4f0ff77fc5589e5575653be01":  // unique sig
  __thiscall bool TutorialManager::AllowUpgrades(TutorialManager *this); // 0040fea0
 "!.c68b45d083ec0439d874??890424e8????????eb??90":  // unique sig
-noHook __amd64 void TutorialManager::__DO_NOT_HOOK(); // 0040ff7f
+noHook void TutorialManager::__DO_NOT_HOOK(); // 0040ff7f
 ".57":  // non-unique sig
  __thiscall bool TutorialManager::IsStateAfter(TutorialManager *this, string *state); // 0040ff80
 ".5789c88d9034":  // unique sig

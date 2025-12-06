@@ -13,7 +13,7 @@ cleanup __cdecl void WeaponControl::DeselectArmament(WeaponControl *this, uint i
 ".538b54240c8b44240884":  // unique sig
 cleanup __cdecl void WeaponControl::SetOpen(WeaponControl *this, bool open); // 081ea2b0
 "!.7c??5bc38db600000000":  // unique sig
-noHook __amd64 void WeaponControl::__DO_NOT_HOOK(); // 081ea30f
+noHook void WeaponControl::__DO_NOT_HOOK(); // 081ea30f
 ".55":  // non-unique sig
 cleanup __cdecl SDLKey WeaponControl::ArmamentHotkey(WeaponControl *this, uint i); // 081ea310
 ".5589e557565383ec4c8b7d088b5d":  // unique sig

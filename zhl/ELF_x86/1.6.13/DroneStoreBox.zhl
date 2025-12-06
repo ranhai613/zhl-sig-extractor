@@ -3,23 +3,23 @@ cleanup __cdecl int DroneStoreBox::SetInfoBox(DroneStoreBox *this, InfoBox *box,
 ".8b4424048b80c400000085c074??89442404e9????????9031c0c3908d74260083":  // unique sig
 cleanup __cdecl bool DroneStoreBox::CanHold(DroneStoreBox *this); // 081bc6b0
 "!.f0eb??8b70fc8d4eff8948fc89f0eb??908d76008dbc2700000000":  // unique sig
-noHook __amd64 void DroneStoreBox::__DO_NOT_HOOK(); // 081bf36f
+noHook void DroneStoreBox::__DO_NOT_HOOK(); // 081bf36f
 ".56":  // non-unique sig
 cleanup __cdecl void DroneStoreBox::constructor(DroneStoreBox *this); // 081bf370
 "!.be????????85f68d48fc74??83c8fff00fc10185c07f??8d44241b89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??908db6000000008dbf00000000":  // non-unique sig
-noHook __amd64 void DroneStoreBox::__DO_NOT_HOOK(); // 081bf41f
+noHook void DroneStoreBox::__DO_NOT_HOOK(); // 081bf41f
 ".55":  // non-unique sig
 cleanup __cdecl void DroneStoreBox::constructor(DroneStoreBox *this, ShipManager *shopper, Equipment *equipScreen, DroneBlueprint *blue); // 081bf420
 // Failed to generate signature for function: DroneStoreBox::Purchase at 081c1660
 "!.ef89442404891424e8????????eb??8b48fc8d71ff8970fc89c8eb??8b48fc8d71ff8970fc89c8eb??6690":  // unique sig
-noHook __amd64 void DroneStoreBox::__DO_NOT_HOOK(); // 081c3f3f
+noHook void DroneStoreBox::__DO_NOT_HOOK(); // 081c3f3f
 ".55":  // non-unique sig
 cleanup __cdecl void DroneStoreBox::MouseMove(DroneStoreBox *this, int mX, int mY); // 081c3f40
 "!.90":  // non-unique sig
-noHook __amd64 void DroneStoreBox::__DO_NOT_HOOK(); // 081c4ecf
+noHook void DroneStoreBox::__DO_NOT_HOOK(); // 081c4ecf
 ".56":  // non-unique sig
 cleanup __cdecl void DroneStoreBox::destructor(DroneStoreBox *this); // 081c4ed0
 "!.58fc89c8e9????????8b48fc8d71ff8970fc89c8e9????????8b48fc8d71ff8970fc89c8e9????????8b48fc8d71ff8970fc89c8e9????????8b48fc8d71ff8970fc89c8e9????????8b48fc8d71ff8970fc89c8e9????????669066906690669066906690":  // unique sig
-noHook __amd64 void DroneStoreBox::__DO_NOT_HOOK(); // 081c5adf
+noHook void DroneStoreBox::__DO_NOT_HOOK(); // 081c5adf
 ".56":  // non-unique sig
 cleanup __cdecl void DroneStoreBox::destructor(DroneStoreBox *this); // 081c5ae0

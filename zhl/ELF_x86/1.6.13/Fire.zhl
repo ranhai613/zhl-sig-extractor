@@ -23,10 +23,10 @@ cleanup __cdecl bool Fire::Present(Fire *this); // 080e6a10
 "83ec1c8b4424208b10c74424040000c842890424ff524083c41cc3669066909055":  // unique sig
 cleanup __cdecl void Fire::Spread(Fire *this); // 080e6a20
 "!.6690669090":  // non-unique sig
-noHook __amd64 void Fire::__DO_NOT_HOOK(); // 080e6a3f
+noHook void Fire::__DO_NOT_HOOK(); // 080e6a3f
 ".55":  // non-unique sig
 cleanup __cdecl void Fire::destructor(Fire *this); // 080e6a40
 "!.eb??669066906690836c240408e9????????669066906690":  // unique sig
-noHook __amd64 void Fire::__DO_NOT_HOOK(); // 080e6eff
+noHook void Fire::__DO_NOT_HOOK(); // 080e6eff
 ".55":  // non-unique sig
 cleanup __cdecl void Fire::destructor(Fire *this); // 080e6f00

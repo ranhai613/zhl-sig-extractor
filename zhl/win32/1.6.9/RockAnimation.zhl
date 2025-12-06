@@ -1,5 +1,5 @@
 "!.b0e9????????908db426000000008dbc2700000000":  // unique sig
-noHook __amd64 void RockAnimation::__DO_NOT_HOOK(); // 0046d13f
+noHook void RockAnimation::__DO_NOT_HOOK(); // 0046d13f
 "57":  // non-unique sig
  __thiscall bool RockAnimation::FireShot(RockAnimation *this); // 0046d140
 ".578d41088d7c240883e4f0ff77fc5589e5575389cb83ec108901c7442404????????c70424????????e8????????83ec088d65f889d85b5f5d8d67f85fc204005589e557":  // unique sig

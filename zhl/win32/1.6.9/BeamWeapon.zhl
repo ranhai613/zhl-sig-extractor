@@ -25,10 +25,10 @@ static cleanup __cdecl CollisionResponse *BeamWeapon::CollisionMoving(CollisionR
 ".b805000000c39090909090909090909055":  // unique sig
  __thiscall int BeamWeapon::GetType(BeamWeapon *this); // 0071f8f0
 "!.90":  // non-unique sig
-noHook __amd64 void BeamWeapon::__DO_NOT_HOOK(); // 0071f8ff
+noHook void BeamWeapon::__DO_NOT_HOOK(); // 0071f8ff
 ".55":  // non-unique sig
  __thiscall void BeamWeapon::destructor(BeamWeapon *this); // 0071f900
 "!.90":  // non-unique sig
-noHook __amd64 void BeamWeapon::__DO_NOT_HOOK(); // 0071fd3f
+noHook void BeamWeapon::__DO_NOT_HOOK(); // 0071fd3f
 ".55":  // non-unique sig
  __thiscall void BeamWeapon::destructor(BeamWeapon *this); // 0071fd40

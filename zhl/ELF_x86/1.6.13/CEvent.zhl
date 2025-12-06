@@ -3,19 +3,19 @@ cleanup __cdecl void CEvent::OnWindowResize(CEvent *this, int new_x, int new_y);
 ".8b442404c700????????c390":  // unique sig
 cleanup __cdecl void CEvent::destructor(CEvent *this); // 081fac50
 "!.908d742600":  // non-unique sig
-noHook __amd64 void CEvent::__DO_NOT_HOOK(); // 081fac5f
+noHook void CEvent::__DO_NOT_HOOK(); // 081fac5f
 ".f3":  // non-unique sig
 cleanup __cdecl void CEvent::OnInputFocus(CEvent *this); // 081fac60
 "!.8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void CEvent::__DO_NOT_HOOK(); // 081fac6f
+noHook void CEvent::__DO_NOT_HOOK(); // 081fac6f
 ".f3":  // non-unique sig
 cleanup __cdecl void CEvent::OnInputBlur(CEvent *this); // 081fac70
 "!.8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void CEvent::__DO_NOT_HOOK(); // 081fac7f
+noHook void CEvent::__DO_NOT_HOOK(); // 081fac7f
 ".f3":  // non-unique sig
 cleanup __cdecl void CEvent::OnKeyDown(CEvent *this, SDLKey sym); // 081fac80
 "!.8db426000000008dbc2700000000":  // non-unique sig
-noHook __amd64 void CEvent::__DO_NOT_HOOK(); // 081fac8f
+noHook void CEvent::__DO_NOT_HOOK(); // 081fac8f
 ".f3":  // non-unique sig
 cleanup __cdecl void CEvent::OnKeyUp(CEvent *this, SDLKey sym); // 081fac90
 ".f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc2700000000f3c38db426000000008dbc27000000008b":  // unique sig

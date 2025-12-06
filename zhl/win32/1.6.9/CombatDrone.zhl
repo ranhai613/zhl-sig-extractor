@@ -25,10 +25,10 @@
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec5ce8????????660fefe4f30f10835c0200000f2ec476??b9????????e8????????d95dc4f30f10835c020000f30f104dc4f30f590d????????f30f5cc1f30f11835c0200008b8b7c01000085c974??e8????????8bb37c010000807e100074":  // unique sig
  __thiscall void CombatDrone::OnLoop(CombatDrone *this); // 004271d0
 "!.c3909090909090909090905589e583e4f083ec10890c24e8????????c9c390909090909090909090909090f3c39090909090909090909090909090":  // unique sig
-noHook __amd64 void CombatDrone::__DO_NOT_HOOK(); // 007231cf
+noHook void CombatDrone::__DO_NOT_HOOK(); // 007231cf
 ".55":  // non-unique sig
  __thiscall void CombatDrone::destructor(CombatDrone *this); // 007231d0
 "!.90":  // non-unique sig
-noHook __amd64 void CombatDrone::__DO_NOT_HOOK(); // 0072354f
+noHook void CombatDrone::__DO_NOT_HOOK(); // 0072354f
 ".55":  // non-unique sig
  __thiscall void CombatDrone::destructor(CombatDrone *this); // 00723550

@@ -61,7 +61,7 @@ cleanup __cdecl void ProjectileFactory::LoadState(ProjectileFactory *this, int f
 ".5589e557565381ec7c0100008b7d088b8f":  // unique sig
 cleanup __cdecl void ProjectileFactory::Update(ProjectileFactory *this); // 080999c0
 "!.e8????????eb??8b48fc8d59ff8958fc89c8e9????????66906690":  // unique sig
-noHook __amd64 void ProjectileFactory::__DO_NOT_HOOK(); // 0809b4df
+noHook void ProjectileFactory::__DO_NOT_HOOK(); // 0809b4df
 ".55":  // non-unique sig
 cleanup __cdecl void ProjectileFactory::destructor(ProjectileFactory *this); // 0809b4e0
 // Failed to generate signature for function: ProjectileFactory::~ProjectileFactory at 0809c0e0

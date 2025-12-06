@@ -7,10 +7,10 @@
 ".b803000000c39090909090909090909055":  // unique sig
  __thiscall int Missile::GetType(Missile *this); // 007336d0
 "!.90":  // non-unique sig
-noHook __amd64 void Missile::__DO_NOT_HOOK(); // 007336df
+noHook void Missile::__DO_NOT_HOOK(); // 007336df
 ".55":  // non-unique sig
  __thiscall void Missile::destructor(Missile *this); // 007336e0
 "!.90":  // non-unique sig
-noHook __amd64 void Missile::__DO_NOT_HOOK(); // 007338ff
+noHook void Missile::__DO_NOT_HOOK(); // 007338ff
 ".55":  // non-unique sig
  __thiscall void Missile::destructor(Missile *this); // 00733900

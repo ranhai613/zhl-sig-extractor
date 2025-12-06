@@ -7,7 +7,7 @@ cleanup __cdecl ShipBlueprint *ShipBlueprint::operator=(ShipBlueprint *this, Shi
 ".5589e557565381ec0c0100008b75":  // unique sig
 cleanup __cdecl string ShipBlueprint::Print(ShipBlueprint *this); // 08243e40
 "!.ff83c4245b5ec366906690669066906690669090":  // unique sig
-noHook __amd64 void ShipBlueprint::__DO_NOT_HOOK(); // 08246f7f
+noHook void ShipBlueprint::__DO_NOT_HOOK(); // 08246f7f
 ".56":  // non-unique sig
 cleanup __cdecl void ShipBlueprint::constructor(ShipBlueprint *this); // 08246f80
 ".5557565383ec1c8b7424348b5c24308d":  // unique sig

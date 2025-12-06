@@ -7,7 +7,7 @@
 ".5589e55389cb8b4d0883e4f0e8????????85c0894340":  // unique sig
  __thiscall void WeaponEquipBox::SetShipManager(WeaponEquipBox *this, ShipManager *ship); // 0052af60
 "!.b901000000eb??90908db42600000000":  // unique sig
-noHook __amd64 void WeaponEquipBox::__DO_NOT_HOOK(); // 0052ddef
+noHook void WeaponEquipBox::__DO_NOT_HOOK(); // 0052ddef
 ".57":  // non-unique sig
  __thiscall void WeaponEquipBox::constructor(WeaponEquipBox *this, Point location, WeaponSystem *sys, int slot); // 0052ddf0
 ".31c0c39090909090909090909090909031c0c3909090909090909090909090908b41":  // unique sig
@@ -23,10 +23,10 @@ noHook __amd64 void WeaponEquipBox::__DO_NOT_HOOK(); // 0052ddef
 ".8b414085c00f95c0c39090909090909055":  // unique sig
  __thiscall bool WeaponEquipBox::CanDoJob(WeaponEquipBox *this); // 0072c750
 "!.90":  // non-unique sig
-noHook __amd64 void WeaponEquipBox::__DO_NOT_HOOK(); // 0072c75f
+noHook void WeaponEquipBox::__DO_NOT_HOOK(); // 0072c75f
 ".55":  // non-unique sig
  __thiscall void WeaponEquipBox::destructor(WeaponEquipBox *this); // 0072c760
 "!.90":  // non-unique sig
-noHook __amd64 void WeaponEquipBox::__DO_NOT_HOOK(); // 0072c7cf
+noHook void WeaponEquipBox::__DO_NOT_HOOK(); // 0072c7cf
 ".55":  // non-unique sig
  __thiscall void WeaponEquipBox::destructor(WeaponEquipBox *this); // 0072c7d0

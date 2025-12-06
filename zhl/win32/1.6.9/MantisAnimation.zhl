@@ -1,5 +1,5 @@
 "!.ef090000018d65f8b8010000005b5f5d8d67f85fc38d65f831c05b5f5d8d67f85fc3":  // unique sig
-noHook __amd64 void MantisAnimation::__DO_NOT_HOOK(); // 0046d2cf
+noHook void MantisAnimation::__DO_NOT_HOOK(); // 0046d2cf
 "57":  // non-unique sig
  __thiscall bool MantisAnimation::FireShot(MantisAnimation *this); // 0046d2d0
 ".578d41088d7c240883e4f0ff77fc5589e5575389cb83ec108901c7442404????????c70424????????e8????????83ec088d65f889d85b5f5d8d67f85fc20400578d41088d7c240883e4f0ff77fc5589e5575389cb83ec108901c7442404????????c70424????????e8????????83ec088d65f889d85b5f5d8d67f85fc2040055":  // unique sig

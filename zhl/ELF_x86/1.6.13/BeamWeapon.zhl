@@ -25,10 +25,10 @@ cleanup __cdecl int BeamWeapon::GetType(BeamWeapon *this); // 08077100
 ".5383ec188b5c2420f30f1005????????c703000000008d4304f30f11442408f30f11442404890424e8????????89d8c7430c00000000c743100000000083c4185bc204006690669066906690669066905383ec188b5c2420c7":  // unique sig
 cleanup __cdecl CollisionResponse *BeamWeapon::CollisionMoving(BeamWeapon *this, Pointf start, Pointf finish, Damage damage, bool raytrace); // 08077240
 "!.d85b5e5f5dc204006690669066906690669066906690":  // unique sig
-noHook __amd64 void BeamWeapon::__DO_NOT_HOOK(); // 0807734f
+noHook void BeamWeapon::__DO_NOT_HOOK(); // 0807734f
 ".55":  // non-unique sig
 cleanup __cdecl void BeamWeapon::destructor(BeamWeapon *this); // 08077350
 "!.eb??669090836c240404e9????????669066906690":  // unique sig
-noHook __amd64 void BeamWeapon::__DO_NOT_HOOK(); // 08077dcf
+noHook void BeamWeapon::__DO_NOT_HOOK(); // 08077dcf
 ".55":  // non-unique sig
 cleanup __cdecl void BeamWeapon::destructor(BeamWeapon *this); // 08077dd0

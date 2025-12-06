@@ -7,7 +7,7 @@ cleanup __cdecl void CrewLaser::SetColor(CrewLaser *this, int r, int g, int b); 
 ".5383ec488b5c2450e8":  // unique sig
 cleanup __cdecl void CrewLaser::OnRender(CrewLaser *this, GL_Color color); // 08092c00
 "!.90":  // non-unique sig
-noHook __amd64 void CrewLaser::__DO_NOT_HOOK(); // 0809528f
+noHook void CrewLaser::__DO_NOT_HOOK(); // 0809528f
 ".55":  // non-unique sig
 cleanup __cdecl void CrewLaser::destructor(CrewLaser *this); // 08095290
 // Failed to generate signature for function: CrewLaser::~CrewLaser at 08096220

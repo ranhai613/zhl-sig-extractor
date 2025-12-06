@@ -1,11 +1,11 @@
 "!.cbeb??8db426000000008dbc2700000000":  // unique sig
-noHook __amd64 void RepairAnimation::__DO_NOT_HOOK(); // 0807c4df
+noHook void RepairAnimation::__DO_NOT_HOOK(); // 0807c4df
 "53":  // non-unique sig
 cleanup __cdecl bool RepairAnimation::FireShot(RepairAnimation *this); // 0807c4e0
 ".b8ffffffffc366906690669066906690b801000000c366906690669066906690b8":  // unique sig
 cleanup __cdecl int RepairAnimation::GetFiringFrame(RepairAnimation *this); // 08082a00
 "!.fc89d0e9????????669066906690669066906690669090":  // unique sig
-noHook __amd64 void RepairAnimation::__DO_NOT_HOOK(); // 080854df
+noHook void RepairAnimation::__DO_NOT_HOOK(); // 080854df
 ".55":  // non-unique sig
 cleanup __cdecl void RepairAnimation::destructor(RepairAnimation *this); // 080854e0
 // Failed to generate signature for function: RepairAnimation::~RepairAnimation at 08086e70

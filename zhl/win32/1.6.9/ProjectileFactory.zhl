@@ -61,10 +61,10 @@ static cleanup __cdecl Projectile *ProjectileFactory::LoadProjectile(int fd); //
 ".578d7c240883e4f0ff77fc5589e557565389cb83ec3c8b378d":  // unique sig
  __thiscall void ProjectileFactory::LoadState(ProjectileFactory *this, int fd); // 0040eab0
 "!.908b078d570839d074??890424e8????????83c71839fb75??8b1e85db74??891c24e8????????83c60c3974242c75??8b4424288b80880000008944242c8b44242c85c074??890424e8????????8b4c24288b415c8d516439d074??890424e8????????8b4c24288b41448d514c39d074??890424e8????????81442428cc0000008b442428394424200f85????????8b44241c8b00894424208b44242085c074??890424e8????????8344241c0c8b44241c394424180f85????????8b4424248b4008894424188b44241885c074??890424e8????????8d65f45b5e5f5dc390":  // unique sig
-noHook __amd64 void ProjectileFactory::__DO_NOT_HOOK(); // 00730bbf
+noHook void ProjectileFactory::__DO_NOT_HOOK(); // 00730bbf
 ".55":  // non-unique sig
  __thiscall void ProjectileFactory::destructor(ProjectileFactory *this); // 00730bc0
 "!.90":  // non-unique sig
-noHook __amd64 void ProjectileFactory::__DO_NOT_HOOK(); // 0073108f
+noHook void ProjectileFactory::__DO_NOT_HOOK(); // 0073108f
 ".55":  // non-unique sig
  __thiscall void ProjectileFactory::destructor(ProjectileFactory *this); // 00731090

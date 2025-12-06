@@ -6,6 +6,6 @@ cleanup __cdecl void ItemStoreBox::constructor(ItemStoreBox *this, ShipManager *
 cleanup __cdecl void ItemStoreBox::Purchase(ItemStoreBox *this); // 081c1350
 // Failed to generate signature for function: ItemStoreBox::~ItemStoreBox at 081c5330
 "!.??":  // non-unique sig
-noHook __amd64 void ItemStoreBox::__DO_NOT_HOOK(); // 081c5d0f
+noHook void ItemStoreBox::__DO_NOT_HOOK(); // 081c5d0f
 ".56":  // non-unique sig
 cleanup __cdecl void ItemStoreBox::destructor(ItemStoreBox *this); // 081c5d10
