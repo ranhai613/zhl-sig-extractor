@@ -1,7 +1,7 @@
 # Extracted Zhl signatures `zhl/`
 You can find them in `zhl/`. Feel free to yoink them for Hyperspace work.
 
-In zhl files, functions are sorted in ascending order.
+In zhl files, functions are sorted by their addresses in ascending order.
 
 ## How to use
 Let's say we want to add `FunctionD` to a zhl file in Hyperspace directory.
