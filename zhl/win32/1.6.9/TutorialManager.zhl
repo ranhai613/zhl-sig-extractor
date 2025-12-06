@@ -14,7 +14,9 @@
  __thiscall void TutorialManager::Stop(TutorialManager *this); // 0040f8a0
 ".f3c38db426000000008dbc2700000000578d7c240883e4f0ff77fc5589e557565383ec5c":  // unique sig
  __thiscall void TutorialManager::OnLanguageChange(TutorialManager *this); // 0040f920
-".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b91f4000000894dbc8b308b58048955b88d55d889f08955d001d874??85f675??c70424????????e8????????83fb0f895dcc0f87????????83fb010f84????????85db8d45d80f85????????895dd4c60418008b45bc8b98240100008d8820010000894db485db0f84????????8b55d48b45d0894dc48945c089d6eb??894424088b45c0894424048b4310890424e8????????85c074??85c078??895dc48b5b0885db74??8b7b1439fe89f80f46c685c075??89f829f085c079??8b5b0c85db75??8b7dc4397db489f274??8b5f1439de89d80f46c685c075??89d029d885c078??8b45b83b47288d55d88b45c00f9c":  // unique sig
+"!.8db426000000008dbc2700000000":  // non-unique sig
+noHook __amd64 void TutorialManager::__DO_NOT_HOOK(); // 0040f92f
+".57":  // non-unique sig
  __thiscall bool TutorialManager::IsStateBefore(TutorialManager *this, string *state); // 0040f930
 ".5789c88d9020":  // unique sig
  __thiscall int TutorialManager::StateValue(TutorialManager *this, string *state); // 0040fb10
@@ -24,7 +26,9 @@
  __thiscall bool TutorialManager::AllowJumping(TutorialManager *this); // 0040fe20
 ".578d7c240883e4f0ff77fc5589e5575653be01":  // unique sig
  __thiscall bool TutorialManager::AllowUpgrades(TutorialManager *this); // 0040fea0
-".578d7c240883e4f0ff77fc5589e557565383ec5c8b078b91f4000000894dbc8b308b58048955b88d55d889f08955d001d874??85f675??c70424????????e8????????83fb0f895dcc0f87????????83fb010f84????????85db8d45d80f85????????895dd4c60418008b45bc8b98240100008d8820010000894db485db0f84????????8b55d48b45d0894dc48945c089d6eb??894424088b45c0894424048b4310890424e8????????85c074??85c078??895dc48b5b0885db74??8b7b1439fe89f80f46c685c075??89f829f085c079??8b5b0c85db75??8b7dc4397db489f274??8b5f1439de89d80f46c685c075??89d029d885c078??8b45b83b47288d55d88b45c00f9f":  // unique sig
+"!.c68b45d083ec0439d874??890424e8????????eb??90":  // unique sig
+noHook __amd64 void TutorialManager::__DO_NOT_HOOK(); // 0040ff7f
+".57":  // non-unique sig
  __thiscall bool TutorialManager::IsStateAfter(TutorialManager *this, string *state); // 0040ff80
 ".5789c88d9034":  // unique sig
  __thiscall bool TutorialManager::CheckState(TutorialManager *this); // 00410160

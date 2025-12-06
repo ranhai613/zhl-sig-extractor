@@ -46,9 +46,13 @@
  __thiscall void AchievementTracker::LoadGame(AchievementTracker *this, int fd); // 00433930
 ".5789c88d7c240883e4f0ff77fc5589e557565383ec4c8b58":  // unique sig
  __thiscall void AchievementTracker::SetFlag(AchievementTracker *this, string *flag); // 00433ad0
-".578d51288d7c240883e4f0ff77fc5589e557565383ec4c8b078b792c8955cc85ff8945c40f84????????8b70048b0089fb897dc8894dc08955d08945d489f7eb??894424088b45d4894424048b4310890424e8????????85c074??85c078??895dd08b5b0885db74??8b731489f839fe0f46c685c075??89f029f885c079??8b5b0c85db75??8b4dd0394dcc89fe8b7dc80f84????????8b591489f039f30f46c385c00f85????????89f029d885c00f88????????8b55cc8955d0eb??8d7600894424088b45d4894424048b4710890424e8????????85c074??85c078??897dd08b7f0885ff74??8b5f1489f039f30f46c385c075??89d829f085c079??8b7f0c85ff75??8b55d03955cc0f84????????8b5a1489f039f30f46c385c075??89f029d885c078":  // unique sig
+"!.c2eb??8db6000000008dbf00000000":  // unique sig
+noHook __amd64 void AchievementTracker::__DO_NOT_HOOK(); // 00433d9f
+".57":  // non-unique sig
  __thiscall int AchievementTracker::GetFlagValue(AchievementTracker *this, string *flag); // 00433da0
-".578d51288d7c240883e4f0ff77fc5589e557565383ec4c8b078b792c8955cc85ff8945c40f84????????8b70048b0089fb897dc8894dc08955d08945d489f7eb??894424088b45d4894424048b4310890424e8????????85c074??85c078??895dd08b5b0885db74??8b731489f839fe0f46c685c075??89f029f885c079??8b5b0c85db75??8b4dd0394dcc89fe8b7dc80f84????????8b591489f039f30f46c385c00f85????????89f029d885c00f88????????8b55cc8955d0eb??8d7600894424088b45d4894424048b4710890424e8????????85c074??85c078??897dd08b7f0885ff74??8b5f1489f039f30f46c385c075??89d829f085c079??8b7f0c85ff75??8b55d03955cc0f84????????8b5a1489f039f30f46c385c075??89f029d885c00f":  // unique sig
+"!.c2e9????????908d76008dbc2700000000":  // unique sig
+noHook __amd64 void AchievementTracker::__DO_NOT_HOOK(); // 00433f7f
+".57":  // non-unique sig
  __thiscall bool AchievementTracker::GetFlag(AchievementTracker *this, string *flag); // 00433f80
 ".578d7c240883e4f0ff77fc5589e55756538d45d08d7d":  // unique sig
  __thiscall void AchievementTracker::SetSectorEight(AchievementTracker *this); // 00434160
